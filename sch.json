@@ -1,334 +1,181 @@
 [
   {
-    "id": "Bournemouth-Everton",
-    "league": "England - Premier League",
+    "id": "Manual-Example-1",
+    "league": "MANUAL - Example League",
+    "kickoff_date": "2024-12-03",
+    "kickoff_time": "20:00",
     "team1": {
-      "name": "Bournemouth",
-      "logo": "https://static.flashscore.com/res/image/data/C60HMWTH-tCGtX12c.png"
+      "name": "Manual Team A",
+      "logo": ""
     },
     "team2": {
-      "name": "Everton",
-      "logo": "https://static.flashscore.com/res/image/data/EBfZuwme-bRmKmISE.png"
+      "name": "Manual Team B",
+      "logo": ""
+    },
+    "servers": [
+      {
+        "name": "Manual Server 1",
+        "url": "http://example.com/stream",
+        "referer": ""
+      }
+    ]
+  },
+  {
+    "id": "Blackburn-Ipswich",
+    "league": "Championship",
+    "team1": {
+      "name": "Blackburn",
+      "logo": "https://static.flashscore.com/res/image/data/AHfWnRCN-ImMEe0UF.png"
+    },
+    "team2": {
+      "name": "Ipswich",
+      "logo": "https://static.flashscore.com/res/image/data/r9vl4eQq-0C98slBk.png"
     },
     "kickoff_date": "2025-12-03",
-    "kickoff_time": "02:30",
+    "kickoff_time": "02:45",
     "match_date": "2025-12-03",
-    "match_time": "02:30",
+    "match_time": "02:45",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.my.id/?envivo=33",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=129",
+        "url": "https://multi.govoet.my.id/?envivo=130",
         "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=58",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=117",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=88",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd5",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoMy5waHA=",
-        "label": "CH-EN"
       }
     ]
   },
   {
-    "id": "Fulham-ManchesterCity",
-    "league": "England - Premier League",
+    "id": "Juventus-Udinese",
+    "league": "Coppa Italia",
     "team1": {
-      "name": "Fulham",
-      "logo": "https://static.flashscore.com/res/image/data/fkbYUWme-ImMEe0UF.png"
+      "name": "Juventus",
+      "logo": "https://static.flashscore.com/res/image/data/xxLGMOlC-EXzXDYgS.png"
     },
     "team2": {
-      "name": "Manchester City",
-      "logo": "https://static.flashscore.com/res/image/data/0vgscFU0-lQuhqN8N.png"
+      "name": "Udinese",
+      "logo": "https://static.flashscore.com/res/image/data/277EtfPq-SYw7EcY6.png"
     },
     "kickoff_date": "2025-12-03",
-    "kickoff_time": "02:30",
-    "match_date": "2025-12-03",
-    "match_time": "02:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=14",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=127",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=56",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=116",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=87",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd1",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven2",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br5",
-        "label": "CH-3"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoMS5waHA=",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Newcastle-Tottenham",
-    "league": "England - Premier League",
-    "team1": {
-      "name": "Newcastle",
-      "logo": "https://static.flashscore.com/res/image/data/UXo7VXPq-ImMEe0UF.png"
-    },
-    "team2": {
-      "name": "Tottenham",
-      "logo": "https://static.flashscore.com/res/image/data/v3SzDxVH-Ig5FKJZ5.png"
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "03:15",
-    "match_date": "2025-12-03",
-    "match_time": "03:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=12",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=128",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=57",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=120",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd11",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br6",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoMi5waHA=",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Arsenal-Brentford",
-    "league": "England - Premier League",
-    "team1": {
-      "name": "Arsenal",
-      "logo": "https://static.flashscore.com/res/image/data/0n1ffK6k-vcNAdtF9.png"
-    },
-    "team2": {
-      "name": "Brentford",
-      "logo": "https://static.flashscore.com/res/image/data/SjSCLv86-r9Mudk7j.png"
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "02:30",
-    "match_date": "2025-12-04",
-    "match_time": "02:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd1",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven2",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br6",
-        "label": "CH-3"
-      }
-    ]
-  },
-  {
-    "id": "Brighton-AstonVilla",
-    "league": "England - Premier League",
-    "team1": {
-      "name": "Brighton",
-      "logo": "https://static.flashscore.com/res/image/data/G0q9xjRq-b92lfEJC.png"
-    },
-    "team2": {
-      "name": "Aston Villa",
-      "logo": "https://static.flashscore.com/res/image/data/UHchCEVH-jwz95gs0.png"
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "02:30",
-    "match_date": "2025-12-04",
-    "match_time": "02:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd9",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Burnley-CrystalPalace",
-    "league": "England - Premier League",
-    "team1": {
-      "name": "Burnley",
-      "logo": "https://static.flashscore.com/res/image/data/xO3nES96-6PhTI7J6.png"
-    },
-    "team2": {
-      "name": "Crystal Palace",
-      "logo": "https://static.flashscore.com/res/image/data/GfkvlLmC-pzMOQXRe.png"
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "02:30",
-    "match_date": "2025-12-04",
-    "match_time": "02:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd8",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Wolves-Nottingham",
-    "league": "England - Premier League",
-    "team1": {
-      "name": "Wolves",
-      "logo": "https://static.flashscore.com/res/image/data/OMUzjDkC-CjV6Eptm.png"
-    },
-    "team2": {
-      "name": "Nottingham",
-      "logo": "https://static.flashscore.com/res/image/data/86ODdyle-ImKwLTtA.png"
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "02:30",
-    "match_date": "2025-12-04",
-    "match_time": "02:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd10",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Leeds-Chelsea",
-    "league": "England - Premier League",
-    "team1": {
-      "name": "Leeds",
-      "logo": "https://static.flashscore.com/res/image/data/lvs4WW5k-MTp25XgE.png"
-    },
-    "team2": {
-      "name": "Chelsea",
-      "logo": "https://static.flashscore.com/res/image/data/lMxEQ8me-IROrZEJb.png"
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "03:15",
-    "match_date": "2025-12-04",
-    "match_time": "03:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd11",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br5",
-        "label": "CH-2"
-      }
-    ]
-  },
-  {
-    "id": "Liverpool-Sunderland",
-    "league": "England - Premier League",
-    "team1": {
-      "name": "Liverpool",
-      "logo": "https://static.flashscore.com/res/image/data/nBClzyne-KCp4zq5F.png"
-    },
-    "team2": {
-      "name": "Sunderland",
-      "logo": "https://static.flashscore.com/res/image/data/rPPdotBN-0d34NJCO.png"
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "03:15",
-    "match_date": "2025-12-04",
-    "match_time": "03:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd5",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven1",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br2",
-        "label": "CH-3"
-      }
-    ]
-  },
-  {
-    "id": "ManchesterUtd-WestHam",
-    "league": "England - Premier League",
-    "team1": {
-      "name": "Manchester Utd",
-      "logo": "https://static.flashscore.com/res/image/data/GhGV3qjT-h2pPXz3k.png"
-    },
-    "team2": {
-      "name": "West Ham",
-      "logo": "https://static.flashscore.com/res/image/data/YeSfKGlC-Q9DJHs4l.png"
-    },
-    "kickoff_date": "2025-12-05",
     "kickoff_time": "03:00",
-    "match_date": "2025-12-05",
+    "match_date": "2025-12-03",
     "match_time": "03:00",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?envivo=139",
+        "label": "CH-IT"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?envivo=123",
+        "label": "CH-DE"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?envivo=82",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoOS5waHA=",
+        "label": "CH-EN"
+      }
+    ]
   },
   {
-    "id": "Barcelona-AtlMadrid",
-    "league": "Spain - LaLiga",
+    "id": "Navalcarnero-Getafe",
+    "league": "Coupe Du Roi",
     "team1": {
-      "name": "Barcelona",
+      "name": "Navalcarnero",
+      "logo": "https://static.flashscore.com/res/image/data/Q1CHdgPq-bemqwNog.png"
+    },
+    "team2": {
+      "name": "Getafe",
+      "logo": "https://static.flashscore.com/res/image/data/hGMWMdT0-YmCZKGcR.png"
+    },
+    "kickoff_date": "2025-12-03",
+    "kickoff_time": "03:00",
+    "match_date": "2025-12-03",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?envivo=51",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Dortmund-BayerLeverkusen",
+    "league": "DFB Pokal",
+    "team1": {
+      "name": "Dortmund",
+      "logo": "https://static.flashscore.com/res/image/data/xSfDCO76-WrjrBuU2.png"
+    },
+    "team2": {
+      "name": "Bayer Leverkusen",
+      "logo": "https://static.flashscore.com/res/image/data/dWZYQIPq-WrjrBuU2.png"
+    },
+    "kickoff_date": "2025-12-03",
+    "kickoff_time": "03:00",
+    "match_date": "2025-12-03",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?envivo=4",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?envivo=19",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?envivo=112",
+        "label": "CH-DE"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?envivo=89",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?envivo=98",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoOC5waHA=",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "RBLeipzig-Magdeburg",
+    "league": "DFB Pokal",
+    "team1": {
+      "name": "RB Leipzig",
+      "logo": "https://static.flashscore.com/res/image/data/fNS5fTmC-WvvSE8Dm.png"
+    },
+    "team2": {
+      "name": "Magdeburg",
+      "logo": "https://static.flashscore.com/res/image/data/KdCB7r8k-r5trb9zO.png"
+    },
+    "kickoff_date": "2025-12-03",
+    "kickoff_time": "03:00",
+    "match_date": "2025-12-03",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?envivo=5",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?envivo=115",
+        "label": "CH-DE"
+      }
+    ]
+  },
+  {
+    "id": "Barcelone-AtlMadrid",
+    "league": "Laliga",
+    "team1": {
+      "name": "Barcelone",
       "logo": "https://static.flashscore.com/res/image/data/jZ8dSYS0-fcDVLdrL.png"
     },
     "team2": {
@@ -362,297 +209,53 @@
         "label": "CH-ES"
       },
       {
-        "url": "https://multi.govoet.my.id/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd6",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd9",
-        "label": "CH-3"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven1",
-        "label": "CH-4"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br2",
-        "label": "CH-5"
-      },
-      {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoNi5waHA=",
         "label": "CH-EN"
       }
     ]
   },
   {
-    "id": "AthBilbao-RealMadrid",
-    "league": "Spain - LaLiga",
+    "id": "Newcastle-Tottenham",
+    "league": "Premier League",
     "team1": {
-      "name": "Ath Bilbao",
-      "logo": "https://static.flashscore.com/res/image/data/GUtNYAWH-vJb36ZBF.png"
+      "name": "Newcastle",
+      "logo": "https://static.flashscore.com/res/image/data/UXo7VXPq-ImMEe0UF.png"
     },
     "team2": {
-      "name": "Real Madrid",
-      "logo": "https://static.flashscore.com/res/image/data/CGPhnpne-ttfpEDUq.png"
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "01:00",
-    "match_date": "2025-12-04",
-    "match_time": "01:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd6",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven1",
-        "label": "CH-3"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br4",
-        "label": "CH-4"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoNi5waHA=",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "PersibBandung-Borneo",
-    "league": "Indonesia - Super League",
-    "team1": {
-      "name": "Persib Bandung",
-      "logo": "https://static.flashscore.com/res/image/data/K0fBknlC-fXN2TGqm.png"
-    },
-    "team2": {
-      "name": "Borneo",
-      "logo": "https://static.flashscore.com/res/image/data/xvzHySR0-lSvymcJg.png"
-    },
-    "kickoff_date": "2025-12-05",
-    "kickoff_time": "19:00",
-    "match_date": "2025-12-05",
-    "match_time": "19:00",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "Dender-StandardLige",
-    "league": "Belgium - Belgian Cup",
-    "team1": {
-      "name": "Dender",
-      "logo": "https://static.flashscore.com/res/image/data/42PvNMAN-xCPMRLr8.png"
-    },
-    "team2": {
-      "name": "St. Liege",
-      "logo": "https://static.flashscore.com/res/image/data/zBWoLXjT-tjZYJCwg.png"
+      "name": "Tottenham",
+      "logo": "https://static.flashscore.com/res/image/data/v3SzDxVH-Ig5FKJZ5.png"
     },
     "kickoff_date": "2025-12-03",
-    "kickoff_time": "02:30",
+    "kickoff_time": "03:15",
     "match_date": "2025-12-03",
-    "match_time": "02:30",
+    "match_time": "03:15",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.my.id/?envivo=154",
+        "url": "https://multi.govoet.my.id/?envivo=12",
         "label": "CH-FR"
-      }
-    ]
-  },
-  {
-    "id": "Blackburn-Ipswich",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Blackburn",
-      "logo": "https://static.flashscore.com/res/image/data/AHfWnRCN-ImMEe0UF.png"
-    },
-    "team2": {
-      "name": "Ipswich",
-      "logo": "https://static.flashscore.com/res/image/data/r9vl4eQq-0C98slBk.png"
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "02:45",
-    "match_date": "2025-12-03",
-    "match_time": "02:45",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=130",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "Juventus-Udinese",
-    "league": "Italy - Coppa Italia",
-    "team1": {
-      "name": "Juventus",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png"
-    },
-    "team2": {
-      "name": "Udinese",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png"
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "03:00",
-    "match_date": "2025-12-03",
-    "match_time": "03:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=139",
-        "label": "CH-IT"
       },
       {
-        "url": "https://multi.govoet.my.id/?envivo=123",
+        "url": "https://multi.govoet.my.id/?envivo=128",
+        "label": "CH-GB"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?envivo=57",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?envivo=120",
         "label": "CH-DE"
       },
       {
-        "url": "https://multi.govoet.my.id/?envivo=82",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd10",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd7",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv1",
-        "label": "CH-3"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br4",
-        "label": "CH-4"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoOS5waHA=",
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoMi5waHA=",
         "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Navalcarnero-Getafe",
-    "league": "Spain - Copa del Rey",
-    "team1": {
-      "name": "Navalcarnero",
-      "logo": "https://static.flashscore.com/res/image/data/Q1CHdgPq-bemqwNog.png"
-    },
-    "team2": {
-      "name": "Getafe",
-      "logo": "https://static.flashscore.com/res/image/data/hGMWMdT0-YmCZKGcR.png"
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "03:00",
-    "match_date": "2025-12-03",
-    "match_time": "03:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=51",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "Dortmund-BayerLeverkusen",
-    "league": "Germany - DFB Pokal",
-    "team1": {
-      "name": "Dortmund",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png"
-    },
-    "team2": {
-      "name": "Bayer Leverkusen",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png"
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "03:00",
-    "match_date": "2025-12-03",
-    "match_time": "03:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=4",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=19",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=112",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=89",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=98",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd3",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven3",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br3",
-        "label": "CH-3"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoOC5waHA=",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "RBLeipzig-Magdeburg",
-    "league": "Germany - DFB Pokal",
-    "team1": {
-      "name": "RB Leipzig",
-      "logo": "https://static.flashscore.com/res/image/data/fNS5fTmC-WvvSE8Dm.png"
-    },
-    "team2": {
-      "name": "Magdeburg",
-      "logo": "https://static.flashscore.com/res/image/data/KdCB7r8k-r5trb9zO.png"
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "03:00",
-    "match_date": "2025-12-03",
-    "match_time": "03:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=5",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=115",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd4",
-        "label": "CH-1"
       }
     ]
   },
   {
     "id": "UDeChile-Coquimbo",
-    "league": "Chile - Liga de Primera",
+    "league": "Campeonato Itaú Chile",
     "team1": {
       "name": "U. De Chile",
       "logo": "https://static.flashscore.com/res/image/data/AwRGCvU0-fuSaShZI.png"
@@ -675,7 +278,7 @@
   },
   {
     "id": "Vasco-Mirassol",
-    "league": "Brazil - Serie A Betano",
+    "league": "Serie A Bresil",
     "team1": {
       "name": "Vasco",
       "logo": "https://static.flashscore.com/res/image/data/Qw7CsWAN-bam8o1Nj.png"
@@ -702,7 +305,7 @@
   },
   {
     "id": "CuencaJuniors-UCatolica",
-    "league": "Ecuador - Copa Ecuador",
+    "league": "Copa Ecuador",
     "team1": {
       "name": "Cuenca Juniors",
       "logo": ""
@@ -725,14 +328,14 @@
   },
   {
     "id": "Philadelphia76ers-WashingtonWizards",
-    "league": "USA - NBA",
+    "league": "NBA",
     "team1": {
       "name": "Philadelphia 76ers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png"
+      "logo": ""
     },
     "team2": {
       "name": "Washington Wizards",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "07:00",
@@ -752,14 +355,14 @@
   },
   {
     "id": "DetroitRedWings-BostonBruins",
-    "league": "USA - NHL",
+    "league": "NHL",
     "team1": {
       "name": "Detroit Red Wings",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png"
+      "logo": ""
     },
     "team2": {
       "name": "Boston Bruins",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/bos.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "07:00",
@@ -779,14 +382,14 @@
   },
   {
     "id": "MontrealCanadiens-OttawaSenators",
-    "league": "USA - NHL",
+    "league": "NHL",
     "team1": {
       "name": "Montreal Canadiens",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png"
+      "logo": ""
     },
     "team2": {
       "name": "Ottawa Senators",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ott.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "07:00",
@@ -806,14 +409,14 @@
   },
   {
     "id": "NewYorkIslanders-TampaBayLightning",
-    "league": "USA - NHL",
+    "league": "NHL",
     "team1": {
       "name": "New York Islanders",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png"
+      "logo": ""
     },
     "team2": {
       "name": "Tampa Bay Lightning",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "07:00",
@@ -833,14 +436,14 @@
   },
   {
     "id": "NewYorkRangers-DallasStars",
-    "league": "USA - NHL",
+    "league": "NHL",
     "team1": {
       "name": "New York Rangers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png"
+      "logo": ""
     },
     "team2": {
       "name": "Dallas Stars",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "07:00",
@@ -860,14 +463,14 @@
   },
   {
     "id": "TorontoRaptors-PortlandTrailBlazers",
-    "league": "USA - NBA",
+    "league": "NBA",
     "team1": {
       "name": "Toronto Raptors",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png"
+      "logo": ""
     },
     "team2": {
       "name": "Portland Trail Blazers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "07:30",
@@ -887,14 +490,14 @@
   },
   {
     "id": "FloridaPanthers-TorontoMapleLeafs",
-    "league": "USA - NHL",
+    "league": "NHL",
     "team1": {
       "name": "Florida Panthers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png"
+      "logo": ""
     },
     "team2": {
       "name": "Toronto Maple Leafs",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "07:30",
@@ -922,7 +525,7 @@
   },
   {
     "id": "Gremio-Fluminense",
-    "league": "Brazil - Serie A Betano",
+    "league": "Serie A Bresil",
     "team1": {
       "name": "Gremio",
       "logo": ""
@@ -940,18 +543,22 @@
       {
         "url": "https://multi.govoet.my.id/?envivo=159",
         "label": "CH-PT"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=br1",
+        "label": "CH-1"
       }
     ]
   },
   {
     "id": "SportingCristal-ALima",
-    "league": "Peru - Liga 1",
+    "league": "Liga 1 Te Apuesto",
     "team1": {
       "name": "Sporting Cristal",
       "logo": ""
     },
     "team2": {
-      "name": "Alianza Lima",
+      "name": "A. Lima",
       "logo": ""
     },
     "kickoff_date": "2025-12-03",
@@ -972,14 +579,14 @@
   },
   {
     "id": "BostonCeltics-NewYorkKnicks",
-    "league": "USA - NBA",
+    "league": "NBA",
     "team1": {
       "name": "Boston Celtics",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png"
+      "logo": ""
     },
     "team2": {
       "name": "New York Knicks",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "08:00",
@@ -1000,6 +607,14 @@
         "label": "CH-ES"
       },
       {
+        "url": "https://multi.govoet.my.id/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=sporttv1",
+        "label": "CH-2"
+      },
+      {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoNjcucGhw",
         "label": "CH-EN"
       }
@@ -1007,14 +622,14 @@
   },
   {
     "id": "NewOrleansPelicans-MinnesotaTimberwolves",
-    "league": "USA - NBA",
+    "league": "NBA",
     "team1": {
       "name": "New Orleans Pelicans",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png"
+      "logo": ""
     },
     "team2": {
       "name": "Minnesota Timberwolves",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "08:00",
@@ -1034,14 +649,14 @@
   },
   {
     "id": "SanAntonioSpurs-MemphisGrizzlies",
-    "league": "USA - NBA",
+    "league": "NBA",
     "team1": {
       "name": "San Antonio Spurs",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png"
+      "logo": ""
     },
     "team2": {
       "name": "Memphis Grizzlies",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "08:00",
@@ -1061,14 +676,14 @@
   },
   {
     "id": "NashvillePredators-CalgaryFlames",
-    "league": "USA - NHL",
+    "league": "NHL",
     "team1": {
       "name": "Nashville Predators",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png"
+      "logo": ""
     },
     "team2": {
       "name": "Calgary Flames",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "08:00",
@@ -1088,14 +703,14 @@
   },
   {
     "id": "ColoradoAvalanche-VancouverCanucks",
-    "league": "USA - NHL",
+    "league": "NHL",
     "team1": {
       "name": "Colorado Avalanche",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png"
+      "logo": ""
     },
     "team2": {
       "name": "Vancouver Canucks",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "09:00",
@@ -1115,14 +730,14 @@
   },
   {
     "id": "EdmontonOilers-MinnesotaWild",
-    "league": "USA - NHL",
+    "league": "NHL",
     "team1": {
       "name": "Edmonton Oilers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png"
+      "logo": ""
     },
     "team2": {
       "name": "Minnesota Wild",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "09:00",
@@ -1142,14 +757,14 @@
   },
   {
     "id": "VegasGoldenKnights-ChicagoBlackhawks",
-    "league": "USA - NHL",
+    "league": "NHL",
     "team1": {
       "name": "Vegas Golden Knights",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png"
+      "logo": ""
     },
     "team2": {
       "name": "Chicago Blackhawks",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "10:00",
@@ -1169,14 +784,14 @@
   },
   {
     "id": "LosAngelesKings-WashingtonCapitals",
-    "league": "USA - NHL",
+    "league": "NHL",
     "team1": {
       "name": "Los Angeles Kings",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png"
+      "logo": ""
     },
     "team2": {
       "name": "Washington Capitals",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "10:30",
@@ -1196,14 +811,14 @@
   },
   {
     "id": "GoldenStateWarriors-OklahomaCityThunder",
-    "league": "USA - NBA",
+    "league": "NBA",
     "team1": {
       "name": "Golden State Warriors",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png"
+      "logo": ""
     },
     "team2": {
       "name": "Oklahoma City Thunder",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "11:00",
@@ -1224,509 +839,33 @@
         "label": "CH-ES"
       },
       {
+        "url": "https://multi.govoet.my.id/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=sporttv1",
+        "label": "CH-2"
+      },
+      {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoNzAucGhw",
         "label": "CH-EN"
       }
     ]
   },
   {
-    "id": "Morocco-Comoros",
-    "league": "World - FIFA Arab Cup",
-    "team1": {
-      "name": "Morocco",
-      "logo": "https://static.flashscore.com/res/image/data/r18xjQkC-hOurGDLS.png"
-    },
-    "team2": {
-      "name": "Comoros",
-      "logo": "https://static.flashscore.com/res/image/data/ClQfZ2oe-xlL4vXdH.png"
-    },
-    "kickoff_date": "2025-12-02",
-    "kickoff_time": "19:00",
-    "match_date": "2025-12-02",
-    "match_time": "19:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd5",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd11",
-        "label": "CH-2"
-      }
-    ]
-  },
-  {
-    "id": "Keirengc-Kayserispor",
-    "league": "Turkey - Turkish Cup - Qualification",
-    "team1": {
-      "name": "Keçiörengücü",
-      "logo": "https://static.flashscore.com/res/image/data/QkiiiG8k-WnYupC54.png"
-    },
-    "team2": {
-      "name": "Kayserispor",
-      "logo": "https://static.flashscore.com/res/image/data/UVNRzET0-Y99esCPN.png"
-    },
-    "kickoff_date": "2025-12-02",
-    "kickoff_time": "19:30",
-    "match_date": "2025-12-02",
-    "match_time": "19:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd8",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "TestCricketDubaiCapitalsVsDesertVipers",
-    "league": "Cricket",
-    "team1": {
-      "name": "Test Cricket: Dubai Capitals Vs Desert Vipers",
-      "logo": ""
-    },
-    "team2": {
-      "name": "",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-02",
-    "kickoff_time": "21:30",
-    "match_date": "2025-12-02",
-    "match_time": "21:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd1",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Egypt-Kuwait",
-    "league": "World - FIFA Arab Cup",
-    "team1": {
-      "name": "Egypt",
-      "logo": "https://static.flashscore.com/res/image/data/SKagcEU0-j9fRtEHh.png"
-    },
-    "team2": {
-      "name": "Kuwait",
-      "logo": "https://static.flashscore.com/res/image/data/2TRYth96-2ybyvrpo.png"
-    },
-    "kickoff_date": "2025-12-02",
-    "kickoff_time": "21:30",
-    "match_date": "2025-12-02",
-    "match_time": "21:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd11",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Rizespor-Pendikspor",
-    "league": "Turkey - Turkish Cup - Qualification",
-    "team1": {
-      "name": "Rizespor",
-      "logo": "https://static.flashscore.com/res/image/data/W4mOfm86-rZkRF8yE.png"
-    },
-    "team2": {
-      "name": "Pendikspor",
-      "logo": "https://static.flashscore.com/res/image/data/f7YPpTjT-MeaGzzpG.png"
-    },
-    "kickoff_date": "2025-12-02",
-    "kickoff_time": "22:00",
-    "match_date": "2025-12-02",
-    "match_time": "22:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd8",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Sakaryaspor-Genlerbirlii",
-    "league": "Turkey - Turkish Cup - Qualification",
-    "team1": {
-      "name": "Sakaryaspor",
-      "logo": "https://static.flashscore.com/res/image/data/GGcq8CT0-Cr1r5U90.png"
-    },
-    "team2": {
-      "name": "Gençlerbirliği",
-      "logo": "https://static.flashscore.com/res/image/data/MyPx2g86-jwnC0KLI.png"
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "00:30",
-    "match_date": "2025-12-03",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd8",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "SpainW-GermanyW",
-    "league": "Europe - Uefa Nations League Women - League A - Play Offs",
-    "team1": {
-      "name": "Spain W",
-      "logo": "https://static.flashscore.com/res/image/data/jDO41mne-jXzj6iAf.png"
-    },
-    "team2": {
-      "name": "Germany W",
-      "logo": "https://static.flashscore.com/res/image/data/fswr75UH-jwMhrJiF.png"
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "00:30",
-    "match_date": "2025-12-03",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd10",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv2",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br6",
-        "label": "CH-3"
-      }
-    ]
-  },
-  {
-    "id": "BorussiaMgladbach-StPauli",
-    "league": "Germany - Dfb Pokal",
-    "team1": {
-      "name": "B. Monchengladbach",
-      "logo": "https://static.flashscore.com/res/image/data/tjlAHwhT-ncmj9JbF.png"
-    },
-    "team2": {
-      "name": "St. Pauli",
-      "logo": "https://static.flashscore.com/res/image/data/QHdIUX96-ncmj9JbF.png"
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "00:00",
-    "match_date": "2025-12-03",
-    "match_time": "00:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd3",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "HerthaBSC-Kaiserslautern",
-    "league": "",
-    "team1": {
-      "name": "Hertha BSC",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Kaiserslautern",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "00:00",
-    "match_date": "2025-12-03",
-    "match_time": "00:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd4",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven3",
-        "label": "CH-2"
-      }
-    ]
-  },
-  {
-    "id": "SaudiArabia-Oman",
-    "league": "World - FIFA Arab Cup",
-    "team1": {
-      "name": "Saudi Arabia",
-      "logo": "https://static.flashscore.com/res/image/data/xIdEGDme-KtpTLRpL.png"
-    },
-    "team2": {
-      "name": "Oman",
-      "logo": "https://static.flashscore.com/res/image/data/G4PuZQoe-baDaGjjh.png"
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "00:00",
-    "match_date": "2025-12-03",
-    "match_time": "00:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd5",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "PortugalW-BrazilW",
-    "league": "World - Friendly International Women",
-    "team1": {
-      "name": "Portugal W",
-      "logo": "https://static.flashscore.com/res/image/data/tYojc47k-CrPl0Jrc.png"
-    },
-    "team2": {
-      "name": "Brazil W",
-      "logo": "https://static.flashscore.com/res/image/data/YNlD1x96-vBKZiE2j.png"
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "02:15",
-    "match_date": "2025-12-03",
-    "match_time": "02:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=br1",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "WiganAthletic-BurtonAlbion",
-    "league": "",
-    "team1": {
-      "name": "Wigan Athletic",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Burton Albion",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "02:45",
-    "match_date": "2025-12-03",
-    "match_time": "02:45",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd8",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Grmio-Fluminense",
-    "league": "",
-    "team1": {
-      "name": "Grêmio",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Fluminense",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-02",
-    "kickoff_time": "07:30",
-    "match_date": "2025-12-02",
-    "match_time": "07:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=br1",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "NewYorkKnicks-BostonCeltics",
-    "league": "USA - NBA",
-    "team1": {
-      "name": "New York Knicks",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Boston Celtics",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-02",
-    "kickoff_time": "08:00",
-    "match_date": "2025-12-02",
-    "match_time": "08:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd1",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv1",
-        "label": "CH-2"
-      }
-    ]
-  },
-  {
-    "id": "OklahomaCityThunder-GoldenStateWarriors",
-    "league": "USA - NBA",
-    "team1": {
-      "name": "Oklahoma City Thunder",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Golden State Warriors",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-02",
-    "kickoff_time": "11:00",
-    "match_date": "2025-12-02",
-    "match_time": "11:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd1",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv1",
-        "label": "CH-2"
-      }
-    ]
-  },
-  {
-    "id": "KaracabeyBelediyespor-Kocaelispor",
-    "league": "",
-    "team1": {
-      "name": "Karacabey Belediyespor",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Kocaelispor",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "17:00",
-    "match_date": "2025-12-03",
-    "match_time": "17:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd8",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "EllasSyros-OlympiakosPiraeus",
-    "league": "",
-    "team1": {
-      "name": "Ellas Syros",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Olympiacos Piraeus",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "18:30",
-    "match_date": "2025-12-03",
-    "match_time": "18:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd10",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Algeria-Sudan",
-    "league": "",
-    "team1": {
-      "name": "Algeria",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Sudan",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "19:00",
-    "match_date": "2025-12-03",
-    "match_time": "19:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd5",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Erokspor-FatihKaragmrk",
-    "league": "",
-    "team1": {
-      "name": "Erokspor",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Fatih Karagümrük",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "19:30",
-    "match_date": "2025-12-03",
-    "match_time": "19:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd8",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Marko-Levadiakos",
-    "league": "",
-    "team1": {
-      "name": "Marko",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Levadiakos",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "20:00",
-    "match_date": "2025-12-03",
-    "match_time": "20:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd9",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
     "id": "Atalanta-Genoa",
-    "league": "Football",
+    "league": "",
     "team1": {
       "name": "Atalanta",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png"
+      "logo": ""
     },
     "team2": {
       "name": "Genoa",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-03",
     "kickoff_time": "21:00",
-    "match_date": "2025-12-03",
+    "match_date": "",
     "match_time": "21:00",
     "duration": "3.5",
     "servers": [
@@ -1745,88 +884,19 @@
     ]
   },
   {
-    "id": "Iraq-Bahrain",
-    "league": "",
-    "team1": {
-      "name": "Iraq",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Bahrain",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "21:30",
-    "match_date": "2025-12-03",
-    "match_time": "21:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd5",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "BeyoluYeniar-Gztepe",
-    "league": "",
-    "team1": {
-      "name": "Beyoğlu Yeni Çarşı",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Göztepe",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "22:00",
-    "match_date": "2025-12-03",
-    "match_time": "22:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd8",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "AEKAthens-OFI",
-    "league": "",
-    "team1": {
-      "name": "AEK Athens",
-      "logo": ""
-    },
-    "team2": {
-      "name": "OFI",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "22:30",
-    "match_date": "2025-12-03",
-    "match_time": "22:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd10",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
     "id": "Napoli-Cagliari",
-    "league": "Football",
+    "league": "",
     "team1": {
       "name": "Napoli",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png"
+      "logo": ""
     },
     "team2": {
       "name": "Cagliari",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-04",
     "kickoff_time": "00:00",
-    "match_date": "2025-12-04",
+    "match_date": "",
     "match_time": "00:00",
     "duration": "3.5",
     "servers": [
@@ -1845,238 +915,58 @@
     ]
   },
   {
-    "id": "Bochum-Stuttgart",
+    "id": "AthleticClub-RealMadrid",
     "league": "",
     "team1": {
-      "name": "Bochum",
+      "name": "Athletic Club",
       "logo": ""
     },
     "team2": {
-      "name": "Stuttgart",
+      "name": "Real Madrid",
       "logo": ""
     },
     "kickoff_date": "2025-12-04",
-    "kickoff_time": "00:00",
-    "match_date": "2025-12-04",
-    "match_time": "00:00",
+    "kickoff_time": "01:00",
+    "match_date": "",
+    "match_time": "01:00",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.my.id/?ss=hd3",
+        "url": "https://multi.govoet.my.id/?ss=hd2",
         "label": "CH-1"
       },
       {
-        "url": "https://multi.govoet.my.id/?ss=eleven3",
-        "label": "CH-2"
-      }
-    ]
-  },
-  {
-    "id": "Freiburg-Darmstadt98",
-    "league": "",
-    "team1": {
-      "name": "Freiburg",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Darmstadt 98",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "00:00",
-    "match_date": "2025-12-04",
-    "match_time": "00:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd4",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Jordan-UnitedArabEmirates",
-    "league": "",
-    "team1": {
-      "name": "Jordan",
-      "logo": ""
-    },
-    "team2": {
-      "name": "United Arab Emirates",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "00:00",
-    "match_date": "2025-12-04",
-    "match_time": "00:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd5",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Panathinaikos-Kifisia",
-    "league": "",
-    "team1": {
-      "name": "Panathinaikos",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Kifisia",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "00:30",
-    "match_date": "2025-12-04",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd9",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Trabzonspor-VanBB",
-    "league": "",
-    "team1": {
-      "name": "Trabzonspor",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Van BB",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "00:30",
-    "match_date": "2025-12-04",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd8",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "UnionBerlin-BayernMnchen",
-    "league": "",
-    "team1": {
-      "name": "Union Berlin",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Bayern Munich",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "02:45",
-    "match_date": "2025-12-04",
-    "match_time": "02:45",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd3",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven3",
+        "url": "https://multi.govoet.my.id/?ss=hd6",
         "label": "CH-2"
       },
       {
-        "url": "https://multi.govoet.my.id/?ss=br3",
+        "url": "https://multi.govoet.my.id/?ss=eleven1",
         "label": "CH-3"
-      }
-    ]
-  },
-  {
-    "id": "HamburgerSV-HolsteinKiel",
-    "league": "",
-    "team1": {
-      "name": "Hamburger SV",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Holstein Kiel",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "02:45",
-    "match_date": "2025-12-04",
-    "match_time": "02:45",
-    "duration": "3.5",
-    "servers": [
+      },
       {
-        "url": "https://multi.govoet.my.id/?ss=hd4",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "DundeeUnited-Rangers",
-    "league": "",
-    "team1": {
-      "name": "Dundee United",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Rangers",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "02:45",
-    "match_date": "2025-12-04",
-    "match_time": "02:45",
-    "duration": "3.5",
-    "servers": [
+        "url": "https://multi.govoet.my.id/?ss=br4",
+        "label": "CH-4"
+      },
       {
-        "url": "https://multi.govoet.my.id/?ss=sporttv2",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Barcelona-PSG",
-    "league": "Handball",
-    "team1": {
-      "name": "Barcelona",
-      "logo": ""
-    },
-    "team2": {
-      "name": "PSG",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "02:45",
-    "match_date": "2025-12-04",
-    "match_time": "02:45",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv3",
-        "label": "CH-1"
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoNi5waHA=",
+        "label": "CH-EN"
       }
     ]
   },
   {
     "id": "Internazionale-Venezia",
-    "league": "Football",
+    "league": "",
     "team1": {
-      "name": "Inter",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
+      "name": "Internazionale",
+      "logo": ""
     },
     "team2": {
       "name": "Venezia",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png"
+      "logo": ""
     },
     "kickoff_date": "2025-12-04",
     "kickoff_time": "03:00",
-    "match_date": "2025-12-04",
+    "match_date": "",
     "match_time": "03:00",
     "duration": "3.5",
     "servers": [
@@ -2095,217 +985,6 @@
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoOS5waHA=",
         "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Fortaleza-Corinthians",
-    "league": "",
-    "team1": {
-      "name": "Fortaleza",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Corinthians",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "05:00",
-    "match_date": "2025-12-04",
-    "match_time": "05:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=br1",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "RBBragantino-Vitria",
-    "league": "",
-    "team1": {
-      "name": "RB Bragantino",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Vitória",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "05:00",
-    "match_date": "2025-12-04",
-    "match_time": "05:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=br3",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br4",
-        "label": "CH-2"
-      }
-    ]
-  },
-  {
-    "id": "Juventude-Santos",
-    "league": "",
-    "team1": {
-      "name": "Juventude",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Santos",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "05:30",
-    "match_date": "2025-12-04",
-    "match_time": "05:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=br5",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "SoPaulo-Internacional",
-    "league": "",
-    "team1": {
-      "name": "São Paulo",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Internacional",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "06:00",
-    "match_date": "2025-12-04",
-    "match_time": "06:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=br6",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Bahia-SportRecife",
-    "league": "",
-    "team1": {
-      "name": "Bahia",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Sport Recife",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "06:00",
-    "match_date": "2025-12-04",
-    "match_time": "06:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=br2",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "SanAntonioSpurs-OrlandoMagic",
-    "league": "USA - NBA",
-    "team1": {
-      "name": "San Antonio Spurs",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Orlando Magic",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "07:00",
-    "match_date": "2025-12-03",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv1",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "AtlticoMineiro-Palmeiras",
-    "league": "",
-    "team1": {
-      "name": "Atlético Mineiro",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Palmeiras",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "07:30",
-    "match_date": "2025-12-03",
-    "match_time": "07:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=br4",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Flamengo-Cear",
-    "league": "",
-    "team1": {
-      "name": "Flamengo RJ",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Ceará",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "07:30",
-    "match_date": "2025-12-03",
-    "match_time": "07:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=br1",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "MiamiHeat-DallasMavericks",
-    "league": "USA - NBA",
-    "team1": {
-      "name": "Miami Heat",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Dallas Mavericks",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-03",
-    "kickoff_time": "08:30",
-    "match_date": "2025-12-03",
-    "match_time": "08:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd2",
-        "label": "CH-1"
       }
     ]
   },
@@ -2334,7 +1013,7 @@
   },
   {
     "id": "UFC323MerabDvalishvili-PetrYan",
-    "league": "Fight Mma",
+    "league": "Fight MMA",
     "team1": {
       "name": "UFC 323: Merab Dvalishvili",
       "logo": "data:image/jpeg;base64,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"
@@ -2443,6 +1122,52 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoNDkucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "ManchesterCity-Fulham",
+    "league": "Football",
+    "team1": {
+      "name": "Manchester City",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    },
+    "team2": {
+      "name": "Fulham",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+    },
+    "kickoff_date": "2025-12-03",
+    "kickoff_time": "02:30",
+    "match_date": "2025-12-03",
+    "match_time": "02:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoMS5waHA=",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Everton-AFCBournemouth",
+    "league": "Football",
+    "team1": {
+      "name": "Everton",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
+    },
+    "team2": {
+      "name": "AFC Bournemouth",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
+    },
+    "kickoff_date": "2025-12-03",
+    "kickoff_time": "02:30",
+    "match_date": "2025-12-03",
+    "match_time": "02:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoMy5waHA=",
         "label": "CH-EN"
       }
     ]

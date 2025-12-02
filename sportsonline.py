@@ -116,9 +116,9 @@ def parse_sportsonline():
                 "league": league,
                 "team1": {"name": team1, "logo": ""},
                 "team2": {"name": team2, "logo": ""},
-                "kickoff_date": kickoff_date,
+                "kickoff_date": "",
                 "kickoff_time": kickoff_time,
-                "match_date": kickoff_date,
+                "match_date": "",
                 "match_time": kickoff_time,
                 "duration": "3.5",
                 "servers": [server_data]
