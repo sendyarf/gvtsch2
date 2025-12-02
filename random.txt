@@ -1,0 +1,2572 @@
+{
+  "_comment": "Manual Mapping Configuration - Flashscore Style (Simplified)",
+  "_usage": "Map semua variant tim/liga langsung ke display name. Tidak perlu canonical name lagi!",
+  "team_names": {
+   "arsenal": "Arsenal",
+  "manchestercity": "Manchester City",
+  "chelsea": "Chelsea",
+  "astonvilla": "Aston Villa",
+  "brighton": "Brighton",
+  "sunderland": "Sunderland",
+  "manchesterutd": "Manchester Utd",
+  "liverpool": "Liverpool",
+  "crystalpalace": "Crystal Palace",
+  "brentford": "Brentford",
+  "bournemouth": "Bournemouth",
+  "tottenham": "Tottenham",
+  "newcastle": "Newcastle",
+  "everton": "Everton",
+  "fulham": "Fulham",
+  "nottingham": "Nottingham",
+  "westham": "West Ham",
+  "leeds": "Leeds",
+  "burnley": "Burnley",
+  "wolves": "Wolves",
+  "lens": "Lens",
+  "psg": "PSG",
+  "marseille": "Marseille",
+  "lille": "Lille",
+  "rennes": "Rennes",
+  "lyon": "Lyon",
+  "monaco": "Monaco",
+  "strasbourg": "Strasbourg",
+  "toulouse": "Toulouse",
+  "nice": "Nice",
+  "brest": "Brest",
+  "angers": "Angers",
+  "parisfc": "Paris FC",
+  "lehavre": "Le Havre",
+  "lorient": "Lorient",
+  "nantes": "Nantes",
+  "metz": "Metz",
+  "auxerre": "Auxerre",
+  "bayernmunich": "Bayern Munich",
+  "rbleipzig": "RB Leipzig",
+  "dortmund": "Dortmund",
+  "bayerleverkusen": "Bayer Leverkusen",
+  "hoffenheim": "Hoffenheim",
+  "stuttgart": "Stuttgart",
+  "eintrachtfrankfurt": "Eintracht Frankfurt",
+  "freiburg": "Freiburg",
+  "werderbremen": "Werder Bremen",
+  "fckoln": "FC Koln",
+  "unionberlin": "Union Berlin",
+  "bmonchengladbach": "B. Monchengladbach",
+  "hamburgersv": "Hamburger SV",
+  "augsburg": "Augsburg",
+  "wolfsburg": "Wolfsburg",
+  "heidenheim": "Heidenheim",
+  "stpauli": "St. Pauli",
+  "mainz": "Mainz",
+  "acmilan": "AC Milan",
+  "napoli": "Napoli",
+  "inter": "Inter",
+  "asroma": "AS Roma",
+  "como": "Como",
+  "bologna": "Bologna",
+  "juventus": "Juventus",
+  "lazio": "Lazio",
+  "udinese": "Udinese",
+  "sassuolo": "Sassuolo",
+  "cremonese": "Cremonese",
+  "atalanta": "Atalanta",
+  "torino": "Torino",
+  "lecce": "Lecce",
+  "cagliari": "Cagliari",
+  "genoa": "Genoa",
+  "parma": "Parma",
+  "pisa": "Pisa",
+  "fiorentina": "Fiorentina",
+  "verona": "Verona",
+  "psv": "PSV",
+  "feyenoord": "Feyenoord",
+  "nijmegen": "Nijmegen",
+  "azalkmaar": "AZ Alkmaar",
+  "utrecht": "Utrecht",
+  "ajax": "Ajax",
+  "groningen": "Groningen",
+  "twente": "Twente",
+  "sittard": "Sittard",
+  "heerenveen": "Heerenveen",
+  "gaeagles": "G.A. Eagles",
+  "spartarotterdam": "Sparta Rotterdam",
+  "excelsior": "Excelsior",
+  "zwolle": "Zwolle",
+  "fcvolendam": "FC Volendam",
+  "heracles": "Heracles",
+  "nacbreda": "NAC Breda",
+  "telstar": "Telstar",
+  "barcelona": "Barcelona",
+  "realmadrid": "Real Madrid",
+  "villarreal": "Villarreal",
+  "atlmadrid": "Atl. Madrid",
+  "betis": "Betis",
+  "espanyol": "Espanyol",
+  "getafe": "Getafe",
+  "athbilbao": "Ath Bilbao",
+  "rayovallecano": "Rayo Vallecano",
+  "realsociedad": "Real Sociedad",
+  "elche": "Elche",
+  "celtavigo": "Celta Vigo",
+  "sevilla": "Sevilla",
+  "alaves": "Alaves",
+  "valencia": "Valencia",
+  "mallorca": "Mallorca",
+  "osasuna": "Osasuna",
+  "girona": "Girona",
+  "levante": "Levante",
+  "oviedo": "Oviedo"
+    "aitaliano": "A. Italiano",
+
+    "abudhabi": "Abu Dhabi",
+
+    "acmilan": "AC Milan",
+    "milan": "AC Milan",
+
+    "aekathens": "AEK Athens",
+
+    "ajax": "Ajax",
+
+    "alahlisaudi": "Al Ahli SC",
+
+    "alqadisiyahfc": "Al Qadisiya",
+
+    "alanyaspor": "Alanyaspor",
+
+    "deportivoalavés": "Alaves",
+
+    "albanie": "Albania",
+
+    "algérie": "Algeria",
+
+    "americadecali": "America De Cali",
+    "americadecali(col)": "America de Cali",
+
+    "anaheimducks": "Anaheim Ducks",
+
+    "antalyaspor": "Antalyaspor",
+
+    "aremaindonesia": "Arema FC",
+
+    "argentine": "Argentina",
+
+    "argentinosjrs": "Argentinos Jrs",
+
+    "argentinosjuniors": "Argentinos Juniors",
+
+    "arica": "Arica",
+
+    "arouca": "Arouca",
+
+    "arsenal": "Arsenal",
+
+    "asrome": "AS Roma",
+    "roma": "AS Roma",
+
+    "ascoli": "Ascoli",
+
+    "astonvilla": "Aston Villa",
+    "avfc": "Aston Villa",
+
+    "atalanta": "Atalanta",
+
+    "athbilbao": "Ath Bilbao",
+    "athleticbilbao": "Ath Bilbao",
+    "athleticclub": "Ath Bilbao",
+
+    "atléticomadrid": "Atl. Madrid",
+
+    "atlnacional": "Atl. Nacional",
+
+    "atlantahawks": "Atlanta Hawks",
+
+    "atletico": "Atletico Madrid",
+    "atleticomadrid": "Atletico Madrid",
+    "atlmadrid": "Atletico Madrid",
+
+    "atleticomg": "Atletico-MG",
+
+    "atléticomineiro": "Atlético Mineiro",
+
+    "atléticonacional": "Atlético Nacional",
+
+    "autriche": "Austria",
+
+    "alkmaar": "AZ Alkmaar",
+    "az": "AZ Alkmaar",
+
+    "azerbaïdjan": "Azerbaijan",
+
+    "borussiamgladbach": "B. Monchengladbach",
+
+    "bahiaba": "Bahia",
+
+    "barca": "Barcelona",
+    "barcelona": "Barcelona",
+    "barcelone": "Barcelona",
+    "fcbarcelona": "Barcelona",
+
+    "bari1908": "Bari",
+
+    "barracascentral": "Barracas Central",
+
+    "basaksehir": "Basaksehir",
+    "i̇stanbulbaşakşehir": "Basaksehir",
+
+    "bâle": "Basel",
+    "bâle(sui)": "Basel",
+
+    "bayern": "Bayern Munich",
+    "bayernmunich": "Bayern Munich",
+    "bayernmünchen": "Bayern Munich",
+    "fcbayern": "Bayern Munich",
+
+    "biélorussie": "Belarus",
+
+    "belgique": "Belgium",
+
+    "benevento": "Benevento",
+
+    "benfica": "Benfica",
+    "benfica(por)": "Benfica",
+    "benficalisbon": "Benfica",
+
+    "benficab": "Benfica B",
+
+    "bermudes": "Bermuda",
+
+    "besiktas": "Besiktas",
+    "beşiktaş": "Besiktas",
+    "beşiktaş(tur)": "Besiktas",
+
+    "birmingham": "Birmingham",
+
+    "birminghamcity": "Birmingham City",
+
+    "bocajuniors": "Boca Juniors",
+
+    "bodo/glimt(nor)": "Bodo/Glimt",
+    "bodø/glimt": "Bodo/Glimt",
+
+    "bolivie": "Bolivia",
+
+    "bologna": "Bologna",
+    "bologne": "Bologna",
+
+    "borneosamarinda": "Borneo",
+
+    "bosnia&herzegovina": "Bosnia and Herzegovina",
+    "bosnieherzégovine": "Bosnia and Herzegovina",
+
+    "bostonceltics": "Boston Celtics",
+
+    "botafogo": "Botafogo",
+
+    "botswana": "Botswana",
+
+    "afcbournemouth": "Bournemouth",
+    "bournemouth": "Bournemouth",
+
+    "braga": "Braga",
+    "braga(por)": "Braga",
+    "sportingbraga": "Braga",
+
+    "brésil": "Brazil",
+
+    "brentford": "Brentford",
+
+    "brest": "Brest",
+
+    "bha": "Brighton",
+    "brighton": "Brighton",
+    "brighton&hovealbion": "Brighton",
+    "brightonhovealbion": "Brighton",
+
+    "brøndby": "Brondby",
+
+    "brooklynnets": "Brooklyn Nets",
+
+    "buffalobills": "Buffalo Bills",
+
+    "buffalosabres": "Buffalo Sabres",
+
+    "bulgarie": "Bulgaria",
+
+    "buriram(tha)": "Buriram",
+    "buriramunited": "Buriram",
+
+    "burnley": "Burnley",
+
+    "calgaryflames": "Calgary Flames",
+
+    "cameroun": "Cameroon",
+
+    "capvert": "Cape Verde",
+
+    "carolinahurricanes": "Carolina Hurricanes",
+
+    "cearascce": "Ceara",
+
+    "celtadevigo": "Celta Vigo",
+
+    "celtic": "Celtic",
+    "celtic(sco)": "Celtic",
+
+    "cfrcluj": "CFR Cluj",
+    "cfrcluj(rou)": "CFR Cluj",
+
+    "charlottehornets": "Charlotte Hornets",
+
+    "chaves": "Chaves",
+
+    "chelsea": "Chelsea",
+
+    "chicagobulls": "Chicago Bulls",
+
+    "chili": "Chile",
+
+    "cittadella": "Cittadella",
+
+    "clevelandcavaliers": "Cleveland Cavaliers",
+
+    "clubbrugge": "Club Brugge KV",
+
+    "cobreloa": "Cobreloa",
+
+    "colombie": "Colombia",
+
+    "columbusbluejackets": "Columbus Blue Jackets",
+
+    "comores": "Comoros",
+
+    "rdcongo": "Congo DR",
+
+    "copiapo": "Copiapo",
+
+    "corinthians": "Corinthians",
+
+    "cremonese": "Cremonese",
+
+    "croatie": "Croatia",
+
+    "cruzazul": "Cruz Azul",
+
+    "crvenazvezda": "Crvena Zvezda",
+    "étoilerougebelgrade": "Crvena Zvezda",
+
+    "cpfc": "Crystal Palace",
+    "crystalpalace": "Crystal Palace",
+
+    "csucraiova": "CSU Craiova",
+
+    "curaçao": "Curacao",
+
+    "chypre": "Cyprus",
+
+    "républiquetchèque": "Czech Republic",
+
+    "dallasmavericks": "Dallas Mavericks",
+
+    "dallasstars": "Dallas Stars",
+
+    "darmstadt98": "Darmstadt 98",
+
+    "delfin": "Delfin",
+
+    "danemark": "Denmark",
+
+    "denverbroncos": "Denver Broncos",
+
+    "denvernuggets": "Denver Nuggets",
+
+    "depconcepcion": "Dep. Concepcion",
+
+    "detroitpistons": "Detroit Pistons",
+
+    "dintirana(alb)": "Dinamo Tirana",
+
+    "borussiadortmund": "Dortmund",
+
+    "dynamodresden": "Dynamo Dresden",
+
+    "equateur": "Ecuador",
+
+    "egypte": "Egypt",
+
+    "eintrachtfrankfurt": "Eintracht Frankfurt",
+
+    "elnacional": "El Nacional",
+
+    "elversberg": "Elversberg",
+
+    "emelec": "Emelec",
+
+    "angleterre": "England",
+
+    "envigadofc": "Envigado",
+
+    "guinéeéquatoriale": "Equatoriale Guinea",
+
+    "espanyol": "Espanyol",
+
+    "estonie": "Estonia",
+
+    "estoril": "Estoril",
+
+    "estrela": "Estrela",
+
+    "everton": "Everton",
+
+    "eyupspor": "Eyupspor",
+
+    "ilesféroé": "Faroe Islands",
+
+    "fatihkaragümrük": "Fatih Karagümrük",
+
+    "københavn": "FC Copenhagen",
+
+    "copenhague": "FC Copenhague",
+    "fccopenhague(den)": "FC Copenhague",
+
+    "porto": "FC Porto",
+
+    "volendam": "FC Volendam",
+
+    "felgueiras1932": "Felgueiras 1932",
+
+    "fenerbahce": "Fenerbahce",
+    "fenerbahce(tur)": "Fenerbahce",
+    "fenerbahçe": "Fenerbahce",
+
+    "ferencváros": "Ferencvaros",
+
+    "finlande": "Finland",
+
+    "fiorentina": "Fiorentina",
+
+    "flamengo": "Flamengo RJ",
+    "flamengo(bra)": "Flamengo RJ",
+
+    "fluminense(bra)": "Fluminense RJ",
+
+    "fortaleza": "Fortaleza",
+
+    "fortunadüsseldorf": "Fortuna Düsseldorf",
+
+    "fredericia": "Fredericia",
+
+    "freiburg": "Freiburg",
+
+    "internationalinternationalfriendlygames": "Friendly International",
+
+    "fulham": "Fulham",
+
+    "goaheadeagles": "G.A. Eagles",
+
+    "galatasaray": "Galatasaray",
+
+    "gambie": "Gambia",
+
+    "gangwon(kor)": "Gangwon",
+
+    "gaziantep": "Gaziantep",
+
+    "genclerbirligi": "Genclerbirligi",
+
+    "géorgie": "Georgia",
+
+    "allemagne": "Germany",
+
+    "gimnasialp": "Gimnasia L.P.",
+
+    "gimnasialaplata": "Gimnasia La Plata",
+
+    "gerone": "Girona",
+    "girona": "Girona",
+    "gérone": "Girona",
+
+    "goztepe": "Goztepe",
+
+    "grèce": "Greece",
+
+    "groningen": "Groningen",
+
+    "guadalajara": "Guadalajara",
+
+    "guinée": "Guinea",
+
+    "guinéebissau": "Guinea Bissau",
+
+    "haïti": "Haiti",
+
+    "hajduksplit(cro)": "Hajduk Split",
+
+    "hambourgsv": "Hamburger SV",
+    "hamburgersv": "Hamburger SV",
+
+    "hibernian": "Hibernian",
+
+    "houstonrockets": "Houston Rockets",
+
+    "houstontexans": "Houston Texans",
+
+    "hongrie": "Hungary",
+
+    "islande": "Iceland",
+
+    "indmedellin": "Ind. Medellin",
+
+    "caindependientedelachorrera": "Independiente",
+
+    "indianapacers": "Indiana Pacers",
+
+    "indianapoliscolts": "Indianapolis Colts",
+
+    "indonésie": "Indonesia",
+
+    "inter": "Inter",
+    "intermilan": "Inter",
+    "internazionale": "Inter",
+
+    "internacional(bra)": "Internacional",
+
+    "ipswich": "Ipswich",
+    "ipswichtown": "Ipswich",
+
+    "irlande": "Ireland",
+
+    "israël": "Israel",
+
+    "italie": "Italy",
+
+    "cotedivoire": "Ivory Coast",
+
+    "jamaique": "Jamaica",
+
+    "japon": "Japan",
+
+    "johordarultazim": "Johor DT",
+    "johordt(mys)": "Johor DT",
+
+    "junior": "Junior",
+
+    "juve": "Juventus",
+    "juventus": "Juventus",
+
+    "fckairatalmaty": "Kairat Almaty",
+    "kairat": "Kairat Almaty",
+    "kairatalmaty(kaz)": "Kairat Almaty",
+
+    "karagumruk": "Karagumruk",
+
+    "kasimpasa": "Kasimpasa",
+
+    "kayserispor": "Kayserispor",
+
+    "kocaelispor": "Kocaelispor",
+
+    "köln": "Koln",
+
+    "konyaspor": "Konyaspor",
+
+    "lasvegasraiders": "Las Vegas Raiders",
+
+    "lettonie": "Latvia",
+
+    "lehavre": "Le Havre",
+
+    "lecce": "Lecce",
+
+    "leeds": "Leeds",
+    "leedsunited": "Leeds",
+
+    "legiawarszawa": "Legia Warszawa",
+
+    "levadiakos": "Levadiakos",
+
+    "levanteud": "Levante",
+
+    "libéria": "Liberia",
+
+    "libye": "Libya",
+
+    "lille": "Lille",
+
+    "lituanie": "Lithuania",
+
+    "liverpool": "Liverpool",
+
+    "losangeleschargers": "Los Angeles Chargers",
+
+    "losangelesclippers": "Los Angeles Clippers",
+
+    "losangeleslakers": "Los Angeles Lakers",
+
+    "luxembourg": "Luxembourg",
+
+    "macará": "Macará",
+
+    "machida(jpn)": "Machida",
+
+    "mainz05": "Mainz",
+    "mayence": "Mainz",
+
+    "malaisie": "Malaysia",
+
+    "malte": "Malta",
+
+    "manchestercity": "Manchester City",
+    "mancity": "Manchester City",
+    "mcfc": "Manchester City",
+
+    "manchester united": "Manchester United",
+    "manchesterunited": "Manchester United",
+    "manchesterutd": "Manchester United",
+    "manunited": "Manchester United",
+    "manutd": "Manchester United",
+
+    "_comment": "Mapping nama tim. Semua variant langsung ke Flashscore display name",
+
+    "olympiquemarseille": "Marseille",
+
+    "mauritanie": "Mauritania",
+
+    "maurice": "Mauritius",
+
+    "melbournecity(aus)": "Melbourne City",
+
+    "memphisgrizzlies": "Memphis Grizzlies",
+
+    "metaloglobus": "Metaloglobus",
+
+    "mexique": "Mexico",
+
+    "miamiheat": "Miami Heat",
+
+    "millonariosfc": "Millonarios",
+
+    "milwaukeebucks": "Milwaukee Bucks",
+
+    "minnesotatimberwolves": "Minnesota Timberwolves",
+
+    "moldavie": "Moldova",
+
+    "monténégro": "Montenegro",
+
+    "maroc": "Morocco",
+
+    "motorlublin": "Motor Lublin",
+
+    "breda": "NAC Breda",
+
+    "namibie": "Namibia",
+
+    "nantes": "Nantes",
+
+    "naples": "Napoli",
+    "napoli": "Napoli",
+
+    "nashville": "Nashville SC",
+
+    "paysbas": "Netherlands",
+
+    "newenglandpatriots": "New England Patriots",
+
+    "newjerseydevils": "New Jersey Devils",
+
+    "neworleanspelicans": "New Orleans Pelicans",
+
+    "newyorkgiants": "New York Giants",
+
+    "newyorkknicks": "New York Knicks",
+
+    "newcastle": "Newcastle",
+    "newcastleunited": "Newcastle",
+    "nufc": "Newcastle",
+
+    "nec": "Nijmegen",
+
+    "macédoinedunord": "North Macedonia",
+
+    "irlandedunord": "Northern Ireland",
+
+    "norvège": "Norway",
+
+    "nottingham": "Nottingham",
+    "nottinghamforest": "Nottingham",
+
+    "nublense": "Nublense",
+
+    "oklahomacitythunder": "Oklahoma City Thunder",
+
+    "olympiacos": "Olympiacos Piraeus",
+    "olympiakospiraeus": "Olympiacos Piraeus",
+
+    "olympiquelyonnais": "Olympique Lyonnais",
+
+    "orlandomagic": "Orlando Magic",
+
+    "ottawasenators": "Ottawa Senators",
+
+    "paphos": "Pafos",
+
+    "palestine": "Palestine",
+
+    "panaitolikos": "Panaitolikos",
+
+    "panathinaikos": "Panathinaikos",
+    "panathinaikos(gre)": "Panathinaikos",
+
+    "paok": "PAOK",
+
+    "paris": "Paris FC",
+
+    "parissg": "Paris Saint Germain",
+    "psg": "Paris Saint Germain",
+
+    "parme": "Parma",
+
+    "paçosdeferreira": "Paços de Ferreira",
+
+    "persebayasurabaya": "Persebaya",
+
+    "pérou": "Peru",
+
+    "petrolul52": "Petrolul 52",
+
+    "philadelphia76ers": "Philadelphia 76ers",
+
+    "philadelphiaflyers": "Philadelphia Flyers",
+
+    "phoenixsuns": "Phoenix Suns",
+
+    "pisa": "Pisa",
+
+    "pittsburghpenguins": "Pittsburgh Penguins",
+
+    "pittsburghsteelers": "Pittsburgh Steelers",
+
+    "pologne": "Poland",
+
+    "csmsiaşi": "Poli Iasi",
+
+    "portlandtrailblazers": "Portland Trail Blazers",
+
+    "parissaintgermain": "PSG",
+
+    "psv": "PSV",
+    "psveindhoven": "PSV",
+
+    "qarabağ": "Qarabag",
+
+    "qatar": "Qatar",
+
+    "qatarf1grandprix": "Qatar F1 Grand Prix",
+
+    "realoviedo": "R. Oviedo",
+
+    "racingclub": "Racing Club",
+
+    "rayovallecano": "Rayo Vallecano",
+    "vallecano": "Rayo Vallecano",
+
+    "realbetis": "Real Betis",
+
+    "realmadrid": "Real Madrid",
+    "rmadrid": "Real Madrid",
+
+    "realsociedad": "Real Sociedad",
+
+    "rioave": "Rio Ave",
+
+    "rizespor": "Rizespor",
+
+    "roumanie": "Romania",
+
+    "unionsaintgilloise": "Royale Union SG",
+    "unionstgilloise": "Royale Union SG",
+
+    "sacramentokings": "Sacramento Kings",
+
+    "salernitana": "Salernitana",
+
+    "samsunspor": "Samsunspor",
+
+    "sanantoniospurs": "San Antonio Spurs",
+
+    "sanjosesharks": "San Jose Sharks",
+
+    "hiroshima(jpn)": "Sanfrecce Hiroshima",
+
+    "santaclara": "Santa Clara",
+
+    "independientesantafe": "Santa Fe",
+
+    "saotoméetprincipe": "Sao Tome and Principe",
+
+    "sãotoméetpríncipe": "Sao Tome and Príncipe",
+
+    "deportivosaprissa": "Saprissa",
+
+    "arabiesaoudite": "Saudi Arabia",
+
+    "écosse": "Scotland",
+
+    "seattlesoundersfc": "Seattle Sounders",
+
+    "sénégal": "Senegal",
+
+    "seoul(kor)": "Seoul",
+
+    "sepsi": "Sepsi Sf. Gheorghe",
+
+    "serbie": "Serbia",
+
+    "servette": "Servette",
+    "servette(sui)": "Servette",
+
+    "sevilla": "Sevilla",
+
+    "shakhtar(ukr)": "Shakhtar Donetsk",
+    "shakhtardonetsk": "Shakhtar Donetsk",
+
+    "shanghaishenhua(chn)": "Shanghai Shenhua",
+
+    "singapour": "Singapore",
+
+    "fortunasittard": "Sittard",
+
+    "slaviapraha": "Slavia Prague",
+
+    "slovaquie": "Slovakia",
+
+    "slovénie": "Slovenia",
+
+    "somalie": "Somalia",
+
+    "afriquedusud": "South Africa",
+
+    "coréedusud": "South Korea",
+
+    "soudandusud": "South Sudan",
+
+    "southampton": "Southampton",
+
+    "espagne": "Spain",
+
+    "sportingcp": "Sporting CP",
+
+    "stlouisblues": "St. Louis Blues",
+
+    "stpatricks": "St. Patricks",
+
+    "strasbourg": "Strasbourg",
+
+    "sturmgraz": "Sturm Graz",
+    "sturmgraz(aut)": "Sturm Graz",
+
+    "stuttgart": "Stuttgart",
+
+    "soudan": "Sudan",
+
+    "sunderland": "Sunderland",
+
+    "suède": "Sweden",
+
+    "suisse": "Switzerland",
+
+    "syrie": "Syria",
+
+    "tigre": "Tigre",
+
+    "tigres": "Tigres UANL",
+
+    "torino": "Torino",
+
+    "torontoraptors": "Toronto Raptors",
+
+    "torreense": "Torreense",
+
+    "spurs": "Tottenham",
+    "tottenham": "Tottenham",
+    "tottenhamhotspur": "Tottenham",
+
+    "trabzonspor": "Trabzonspor",
+
+    "tractor(irn)": "Tractor",
+
+    "trinitéettobago": "Trinidad and Tobago",
+
+    "tunisie": "Tunisia",
+
+    "turquie": "Turkey",
+
+    "twente": "Twente",
+
+    "unionmagdalena": "U. Magdalena",
+
+    "emiratsarabesunis": "UAE",
+
+    "ouganda": "Uganda",
+
+    "unionbrescia": "Union Brescia",
+
+    "universitateacluj": "Universitatea Cluj",
+
+    "uniãodeleiria": "União de Leiria",
+
+    "utahjazz": "Utah Jazz",
+
+    "utahmammoth": "Utah Mammoth",
+
+    "utrecht": "Utrecht",
+    "utrecht(ned)": "Utrecht",
+
+    "ouzbekistan": "Uzbekistan",
+
+    "valence": "Valencia",
+    "valencia": "Valencia",
+
+    "venezuela": "Venezuela",
+
+    "hellasvérone": "Verona",
+
+    "villarreal": "Villarreal",
+
+    "vispesaro": "Vis Pesaro",
+
+    "paysdegalles": "Wales",
+
+    "washingtoncommanders": "Washington Commanders",
+
+    "washingtonwizards": "Washington Wizards",
+
+    "watford": "Watford",
+
+    "werderbrême": "Werder Bremen",
+
+    "westham": "West Ham",
+    "westhamunited": "West Ham",
+    "whufc": "West Ham",
+
+    "winnipegjets": "Winnipeg Jets",
+
+    "wolfsburg": "Wolfsburg",
+
+    "wolverhampton": "Wolves",
+    "wolverhamptonwanderers": "Wolves",
+    "wolves": "Wolves"
+  },
+  "league_names": {
+    "1874northwich": "1874 Northwich",
+
+    "abbeyrangers": "Abbey Rangers",
+
+    "accringtonst": "Accrington ST",
+
+    "afcasiancupu23qualificationround1": "AFC Asian Cup U23 - Qualification",
+    "afcasiancupu23qualificationround2": "AFC Asian Cup U23 - Qualification",
+    "internationalyouthu23afcchampionship,qualification,groupstage": "AFC Asian Cup U23 - Qualification",
+
+    "afcliguedeschampions": "AFC Champions League Elite",
+    "internationalclubsafcchampionsleagueelite,eastregion": "AFC Champions League Elite",
+
+    "afccroydonathletic": "AFC Croydon Athletic",
+
+    "afcdunstable": "AFC Dunstable",
+
+    "afcemley": "AFC Emley",
+
+    "afcfylde": "AFC Fylde",
+
+    "afchornchurch": "AFC Hornchurch",
+
+    "afckempstonrovers": "AFC Kempston Rovers",
+
+    "afcliverpool": "AFC Liverpool",
+
+    "afcmansfield": "AFC Mansfield",
+
+    "afcportchester": "AFC Portchester",
+
+    "afcrushdendiamonds": "AFC Rushden & Diamonds",
+
+    "afcstoneham": "AFC Stoneham",
+
+    "afcsudbury": "AFC Sudbury",
+
+    "afctelfordunited": "AFC Telford United",
+
+    "afctotton": "AFC Totton",
+
+    "afcwimbledon": "AFC Wimbledon",
+
+    "afcwulfrunians": "AFC Wulfrunians",
+
+    "alduhail(qat)": "Al-Duhail",
+
+    "alhilal(sau)": "Al-Hilal",
+
+    "albionsports": "Albion Sports",
+
+    "aldershottown": "Aldershot Town",
+
+    "alfretontown": "Alfreton Town",
+
+    "altontown": "Alton Town",
+
+    "altrincham": "Altrincham",
+
+    "alvechurch": "Alvechurch",
+
+    "andovernewstreet": "Andover New Street",
+
+    "ansteynomads": "Anstey Nomads",
+
+    "ardleyunited": "Ardley United",
+
+    "torneolpf": "Argentina - Primera LPF",
+
+    "torneolfp": "Argentina - Torneo LPF",
+
+    "arleseytown": "Arlesey Town",
+
+    "arsenal": "Arsenal",
+
+    "ascotunited": "Ascot United",
+
+    "internationalclubsaseanclubchampionship,groupa": "ASEAN Club Championship",
+    "internationalclubsaseanclubchampionship,groupb": "ASEAN Club Championship",
+
+    "ashbyivanhoe": "Ashby Ivanhoe",
+
+    "ashfordtownmiddlesex": "Ashford Town (Middlesex)",
+
+    "ashfordunited": "Ashford United",
+
+    "ashingtonafc": "Ashington AFC",
+
+    "ashtonunited": "Ashton United",
+
+    "astonvilla": "Aston Villa",
+
+    "atherstonetown": "Atherstone Town",
+
+    "athertoncollieries": "Atherton Collieries",
+
+    "athleticnewham": "Athletic Newham",
+
+    "aveley": "Aveley",
+
+    "avro": "Avro",
+
+    "aylesburyunited": "Aylesbury United",
+
+    "aylesburyvaledynamos": "Aylesbury Vale Dynamos",
+
+    "aylestonepark": "Aylestone Park",
+
+    "badshotlea": "Badshot Lea",
+
+    "baffinsmiltonrovers": "Baffins Milton Rovers",
+
+    "baldocktown": "Baldock Town",
+
+    "balham": "Balham",
+
+    "bamberbridge": "Bamber Bridge",
+
+    "banburyunited": "Banbury United",
+
+    "barking": "Barking",
+
+    "barnet": "Barnet",
+
+    "barnoldswicktown": "Barnoldswick Town",
+
+    "barnsley": "Barnsley",
+
+    "barnstapletown": "Barnstaple Town",
+
+    "barrow": "Barrow",
+
+    "bartonrovers": "Barton Rovers",
+
+    "bartontownoldboys": "Barton Town Old Boys",
+
+    "barwell": "Barwell",
+
+    "basfordunited": "Basford United",
+
+    "bashley": "Bashley",
+
+    "basildonunited": "Basildon United",
+
+    "basingstoketown": "Basingstoke Town",
+
+    "bathcity": "Bath City",
+
+    "beaconsfieldtown": "Beaconsfield Town",
+
+    "bearsted": "Bearsted",
+
+    "beckenhamtown": "Beckenham Town",
+
+    "bedfontsports": "Bedfont Sports",
+
+    "bedfordtown": "Bedford Town",
+
+    "bedworthunited": "Bedworth United",
+
+    "belpertown": "Belper Town",
+
+    "belperunited": "Belper United",
+
+    "bemertonheathharleq": "Bemerton Heath Harleq.",
+
+    "berkhamsted": "Berkhamsted",
+
+    "bewdleytown": "Bewdley Town",
+
+    "bexhillunited": "Bexhill United",
+
+    "bideford": "Bideford",
+
+    "biggleswade": "Biggleswade",
+
+    "biggleswadetown": "Biggleswade Town",
+
+    "biggleswadeunited": "Biggleswade United",
+
+    "billericaytown": "Billericay Town",
+
+    "binfield": "Binfield",
+
+    "birmingham": "Birmingham",
+
+    "birtleytown": "Birtley Town",
+
+    "bishopauckland": "Bishop Auckland",
+
+    "bishopscleeve": "Bishop's Cleeve",
+
+    "bishopsstortford": "Bishop's Stortford",
+
+    "blackburn": "Blackburn",
+
+    "blackfieldlangley": "Blackfield & Langley",
+
+    "blackpool": "Blackpool",
+
+    "blythspartans": "Blyth Spartans",
+
+    "bognorregistown": "Bognor Regis Town",
+
+    "boldmerestmichaels": "Boldmere St. Michaels",
+
+    "bolton": "Bolton",
+
+    "bootle": "Bootle",
+
+    "borehamwood": "Boreham Wood",
+
+    "bororangers": "Boro Rangers",
+
+    "bostonunited": "Boston United",
+
+    "bottesfordtown": "Bottesford Town",
+
+    "bournemouth": "Bournemouth",
+
+    "bournemouthfc": "Bournemouth FC",
+
+    "bowerspitsea": "Bowers & Pitsea",
+
+    "brackleytown": "Brackley Town",
+
+    "bracknelltown": "Bracknell Town",
+
+    "bradford": "Bradford",
+
+    "bradfordparkavenue": "Bradford (Park Avenue)",
+
+    "braintree": "Braintree",
+
+    "branthamathletic": "Brantham Athletic",
+
+    "brazilcopadonordeste,knockoutstage": "Brazil - Copa do Nordeste",
+
+    "brazilseriea": "Brazil - Serie A",
+    "serieabresil": "Brazil - Serie A",
+    "seriebresil": "Brazil - Serie A",
+
+    "brentford": "Brentford",
+
+    "brentwoodtown": "Brentwood Town",
+
+    "bridgwatertown": "Bridgwater Town",
+
+    "bridlingtontown": "Bridlington Town",
+
+    "brighousetown": "Brighouse Town",
+
+    "brightlingsearegent": "Brightlingsea Regent",
+
+    "brighton": "Brighton",
+
+    "brimscombethrupp": "Brimscombe & Thrupp",
+
+    "brislington": "Brislington",
+
+    "bristolcity": "Bristol City",
+
+    "bristolmanorfarm": "Bristol Manor Farm",
+
+    "bristolrovers": "Bristol Rovers",
+
+    "brixham": "Brixham",
+
+    "broadbridgeheath": "Broadbridge Heath",
+
+    "broadfieldsunited": "Broadfields United",
+
+    "brockenhurst": "Brockenhurst",
+
+    "bromley": "Bromley",
+
+    "bromsgrovesporting": "Bromsgrove Sporting",
+
+    "buckhursthill": "Buckhurst Hill",
+
+    "bucklandathletic": "Buckland Athletic",
+
+    "bugbrookestmichaels": "Bugbrooke St Michaels",
+
+    "burgesshilltown": "Burgess Hill Town",
+
+    "burnham": "Burnham",
+
+    "burnley": "Burnley",
+
+    "burscough": "Burscough",
+
+    "burtonalbion": "Burton Albion",
+
+    "buryafc": "Bury AFC",
+
+    "burytown": "Bury Town",
+
+    "buxton": "Buxton",
+
+    "camberleytown": "Camberley Town",
+
+    "cambridgecity": "Cambridge City",
+
+    "cambridgeunited": "Cambridge United",
+
+    "campion": "Campion",
+
+    "canveyisland": "Canvey Island",
+
+    "cardiff": "Cardiff",
+
+    "carlisle": "Carlisle",
+
+    "carlislecity": "Carlisle City",
+
+    "carltontown": "Carlton Town",
+
+    "carshaltonathletic": "Carshalton Athletic",
+
+    "chadderton": "Chadderton",
+
+    "chalfontstpeter": "Chalfont St Peter",
+
+    "charlton": "Charlton",
+
+    "charnockrichard": "Charnock Richard",
+
+    "chasetown": "Chasetown",
+
+    "chathamtown": "Chatham Town",
+
+    "cheadletown": "Cheadle Town",
+
+    "chelmsfordcity": "Chelmsford City",
+
+    "chelsea": "Chelsea",
+
+    "cheltenham": "Cheltenham",
+
+    "chertseytown": "Chertsey Town",
+
+    "cheshamunited": "Chesham United",
+
+    "cheshunt": "Cheshunt",
+
+    "chester": "Chester",
+
+    "chesterfield": "Chesterfield",
+
+    "chichestercity": "Chichester City",
+
+    "campeonatoitauchile": "Chile - Campeonato Itaú",
+    "campeonatoitaúchile": "Chile - Campeonato Itaú",
+
+    "chippenhamtown": "Chippenham Town",
+
+    "chipstead": "Chipstead",
+
+    "chorley": "Chorley",
+
+    "christchurch": "Christchurch",
+
+    "cinderfordtown": "Cinderford Town",
+
+    "cirencestertown": "Cirencester Town",
+
+    "cityofliverpool": "City of Liverpool",
+
+    "clacton": "Clacton",
+
+    "cleethorpestown": "Cleethorpes Town",
+
+    "clevedontown": "Clevedon Town",
+
+    "clitheroe": "Clitheroe",
+
+    "coalvilletown": "Coalville Town",
+
+    "cobham": "Cobham",
+
+    "cockfosters": "Cockfosters",
+
+    "cogenhoeunited": "Cogenhoe United",
+
+    "coggeshalltown": "Coggeshall Town",
+
+    "colchester": "Colchester",
+
+    "coleshilltown": "Coleshill Town",
+
+    "collierswoodunited": "Colliers Wood United",
+
+    "colne": "Colne",
+
+    "colneyheath": "Colney Heath",
+
+    "colombia,primeraa,clausura": "Colombia - Primera A",
+    "colombiaprimeraa": "Colombia - Primera A",
+    "colombiaprimeraa,clausura": "Colombia - Primera A",
+    "ligabetplaydimayor": "Colombia - Primera A",
+
+    "internationalclubsconcacafcentralamericancup,groupa": "CONCACAF Central American Cup",
+    "internationalclubsconcacafcentralamericancup,groupb": "CONCACAF Central American Cup",
+    "internationalclubsconcacafcentralamericancup,groupc": "CONCACAF Central American Cup",
+    "internationalclubsconcacafcentralamericancup,groupd": "CONCACAF Central American Cup",
+
+    "concordrangers": "Concord Rangers",
+
+    "congletontown": "Congleton Town",
+
+    "consett": "Consett",
+
+    "internationalclubscopalibertadores": "Copa Libertadores",
+
+    "internationalclubscopasudamericana,knockoutstage": "Copa Sudamericana",
+
+    "corbytown": "Corby Town",
+
+    "corinthian": "Corinthian",
+
+    "corinthiancasuals": "Corinthian-Casuals",
+
+    "corshamtown": "Corsham Town",
+
+    "coventry": "Coventry",
+
+    "coventrysphinx": "Coventry Sphinx",
+
+    "coventryunited": "Coventry United",
+
+    "cowessports": "Cowes Sports",
+
+    "crawleydowngatwick": "Crawley Down Gatwick",
+
+    "crawleygreen": "Crawley Green",
+
+    "crawleytown": "Crawley Town",
+
+    "crayvalleypm": "Cray Valley PM",
+
+    "craywanderers": "Cray Wanderers",
+
+    "crewe": "Crewe",
+
+    "cribbs": "Cribbs",
+
+    "crooktownafc": "Crook Town AFC",
+
+    "crowboroughathletic": "Crowborough Athletic",
+
+    "crystalpalace": "Crystal Palace",
+
+    "curzonashton": "Curzon Ashton",
+
+    "dagenhamredbridge": "Dagenham & Redbridge",
+
+    "darlastontown": "Darlaston Town",
+
+    "darlington1883": "Darlington 1883",
+
+    "dartford": "Dartford",
+
+    "daventrytown": "Daventry Town",
+
+    "dealtown": "Deal Town",
+
+    "deepingrangers": "Deeping Rangers",
+
+    "derby": "Derby",
+
+    "derehamtown": "Dereham Town",
+
+    "desboroughtown": "Desborough Town",
+
+    "didcottown": "Didcot Town",
+
+    "doncaster": "Doncaster",
+
+    "dorchestertown": "Dorchester Town",
+
+    "dorkingwanderers": "Dorking Wanderers",
+
+    "dover": "Dover",
+
+    "downhamtown": "Downham Town",
+
+    "dudleytown": "Dudley Town",
+
+    "dulwichhamlet": "Dulwich Hamlet",
+
+    "dunstabletown": "Dunstable Town",
+
+    "dunstonuts": "Dunston UTS",
+
+    "easingtonsports": "Easington Sports",
+
+    "eastgrinsteadtown": "East Grinstead Town",
+
+    "eastthurrockunited": "East Thurrock United",
+
+    "eastbourneborough": "Eastbourne Borough",
+
+    "eastbournetown": "Eastbourne Town",
+
+    "eastbourneunited": "Eastbourne United",
+
+    "eastleigh": "Eastleigh",
+
+    "eastwoodcommunity": "Eastwood Community",
+
+    "ebbsfleetunited": "Ebbsfleet United",
+
+    "eccleshillunited": "Eccleshill United",
+
+    "ecuadorligapro": "Ecuador - LigaPro",
+
+    "edgwaretown": "Edgware Town",
+
+    "eghamtown": "Egham Town",
+
+    "elycity": "Ely City",
+
+    "enfield1893": "Enfield 1893",
+
+    "enfieldtown": "Enfield Town",
+
+    "championship": "England - Championship",
+    "englishchampionship": "England - Championship",
+
+    "eflcup": "England - EFL Cup",
+
+    "englishpremierleague": "England - Premier League",
+    "epl": "England - Premier League",
+    "premierleague": "England - Premier League",
+
+    "epsomewellfc": "Epsom & Ewell FC",
+
+    "erithbelvedere": "Erith & Belvedere",
+
+    "erithtown": "Erith Town",
+
+    "eurobasketplayoffs": "EuroBasket",
+
+    "ligueeuropa": "Europa League",
+
+    "everton": "Everton",
+
+    "eveshamunited": "Evesham United",
+
+    "exetercity": "Exeter City",
+
+    "exmouth": "Exmouth",
+
+    "eynesburyrovers": "Eynesbury Rovers",
+
+    "f1": "F1",
+
+    "fairfordtown": "Fairford Town",
+
+    "fakenhamtown": "Fakenham Town",
+
+    "falmouthtown": "Falmouth Town",
+
+    "farehamtown": "Fareham Town",
+
+    "farnborough": "Farnborough",
+
+    "farnhamtown": "Farnham Town",
+
+    "farsleycelticfc": "Farsley Celtic FC",
+
+    "favershamtown": "Faversham Town",
+
+    "fchalifaxtown": "FC Halifax Town",
+
+    "fcromania": "FC Romania",
+
+    "felixstowewaltonutd": "Felixstowe & Walton Utd",
+
+    "coupearabe": "FIFA Arab Cup",
+
+    "fisher": "Fisher",
+
+    "flackwellheath": "Flackwell Heath",
+
+    "fleettown": "Fleet Town",
+
+    "fleetwoodtown": "Fleetwood Town",
+
+    "folkestoneinvicta": "Folkestone Invicta",
+
+    "forestgreen": "Forest Green",
+
+    "frenchligue1": "France - Ligue 1",
+    "ligue1": "France - Ligue 1",
+
+    "frenford": "Frenford",
+
+    "frickleyathletic": "Frickley Athletic",
+
+    "amicalinternational": "Friendly International",
+
+    "frometown": "Frome Town",
+
+    "fulham": "Fulham",
+
+    "gainsboroughtrinity": "Gainsborough Trinity",
+
+    "garforthtown": "Garforth Town",
+
+    "gateshead": "Gateshead",
+
+    "bundesliga": "Germany - Bundesliga",
+    "germanbundesliga": "Germany - Bundesliga",
+
+    "gillingham": "Gillingham",
+
+    "glebe": "Glebe",
+
+    "glossopnorthend": "Glossop North End",
+
+    "gloucestercity": "Gloucester City",
+
+    "godmanchesterrovers": "Godmanchester Rovers",
+
+    "golcarunited": "Golcar United",
+
+    "goole": "Goole",
+
+    "gorleston": "Gorleston",
+
+    "gosportborough": "Gosport Borough",
+
+    "granthamtown": "Grantham Town",
+
+    "graysathletic": "Grays Athletic",
+
+    "greatwakeringrovers": "Great Wakering Rovers",
+
+    "gresley": "Gresley",
+
+    "grimsby": "Grimsby",
+
+    "grimsbyborough": "Grimsby Borough",
+
+    "guildfordcity": "Guildford City",
+
+    "guisboroughtown": "Guisborough Town",
+
+    "guiseleyafc": "Guiseley AFC",
+
+    "hadleighunited": "Hadleigh United",
+
+    "hadley": "Hadley",
+
+    "halesowentown": "Halesowen Town",
+
+    "hallam": "Hallam",
+
+    "halsteadtown": "Halstead Town",
+
+    "hambleclub": "Hamble Club",
+
+    "hamptonrichmond": "Hampton & Richmond",
+
+    "hamworthyunited": "Hamworthy United",
+
+    "handsworthparramore": "Handsworth Parramore",
+
+    "hanleytown": "Hanley Town",
+
+    "hanwelltown": "Hanwell Town",
+
+    "hanworthvilla": "Hanworth Villa",
+
+    "harboroughtown": "Harborough Town",
+
+    "harefieldunited": "Harefield United",
+
+    "haringeyborough": "Haringey Borough",
+
+    "harlestontown": "Harleston Town",
+
+    "harpendentown": "Harpenden Town",
+
+    "harrogatetown": "Harrogate Town",
+
+    "harrowborough": "Harrow Borough",
+
+    "hartlepool": "Hartlepool",
+
+    "hartleywintney": "Hartley Wintney",
+
+    "hartpuryuniversity": "Hartpury University",
+
+    "hashtagunited": "Hashtag United",
+
+    "hassocks": "Hassocks",
+
+    "hastingsunited": "Hastings United",
+
+    "havantwville": "Havant & Wville",
+
+    "hayesyeadingunited": "Hayes & Yeading United",
+
+    "haywardsheathtown": "Haywards Heath Town",
+
+    "heacham": "Heacham",
+
+    "heanortown": "Heanor Town",
+
+    "heatonstannington": "Heaton Stannington",
+
+    "hebburntown": "Hebburn Town",
+
+    "hednesfordtown": "Hednesford Town",
+
+    "helstonathletic": "Helston Athletic",
+
+    "hemelhempsteadtown": "Hemel Hempstead Town",
+
+    "hendon": "Hendon",
+
+    "hereford": "Hereford",
+
+    "herefordladsclub": "Hereford Lads Club",
+
+    "herefordpegasus": "Hereford Pegasus",
+
+    "hernebay": "Herne Bay",
+
+    "hertfordtown": "Hertford Town",
+
+    "heybridgeswifts": "Heybridge Swifts",
+
+    "highgateunited": "Highgate United",
+
+    "highworthtown": "Highworth Town",
+
+    "hilltop": "Hilltop",
+
+    "histon": "Histon",
+
+    "hitchintown": "Hitchin Town",
+
+    "hollandsblair": "Hollands & Blair",
+
+    "holmesdale": "Holmesdale",
+
+    "holyport": "Holyport",
+
+    "horleytown": "Horley Town",
+
+    "horndean": "Horndean",
+
+    "horsham": "Horsham",
+
+    "horshamymca": "Horsham YMCA",
+
+    "hucknalltown": "Hucknall Town",
+
+    "huddersfield": "Huddersfield",
+
+    "hullcity": "Hull City",
+
+    "hullbridgesports": "Hullbridge Sports",
+
+    "hungerfordtown": "Hungerford Town",
+
+    "hydeunited": "Hyde United",
+
+    "hythedibden": "Hythe & Dibden",
+
+    "hythetown": "Hythe Town",
+
+    "ilford": "Ilford",
+
+    "ilfracombetown": "Ilfracombe Town",
+
+    "ilkestontown": "Ilkeston Town",
+
+    "indonesialiga1": "Indonesia - Super League",
+    "liga1": "Indonesia - Super League",
+    "liga1indonesia": "Indonesia - Super League",
+    "ligaindonesia": "Indonesia - Super League",
+
+    "ipswich": "Ipswich",
+
+    "ipswichwanderers": "Ipswich Wanderers",
+
+    "irlam": "Irlam",
+
+    "italianseriea": "Italy - Serie A",
+    "seriea": "Italy - Serie A",
+    "serieaitaly": "Italy - Serie A",
+
+    "jerseybulls": "Jersey Bulls",
+
+    "kendaltown": "Kendal Town",
+
+    "kennington": "Kennington",
+
+    "ketteringtown": "Kettering Town",
+
+    "kidderminsterharriers": "Kidderminster Harriers",
+
+    "kidlington": "Kidlington",
+
+    "kidsgroveathletic": "Kidsgrove Athletic",
+
+    "kimberleyminerswelfare": "Kimberley Miners Welfare",
+
+    "kingslynntown": "King's Lynn Town",
+
+    "kingslangley": "Kings Langley",
+
+    "kingstonian": "Kingstonian",
+
+    "kirkleypakefield": "Kirkley & Pakefield",
+
+    "knaphill": "Knaphill",
+
+    "knaresboroughtown": "Knaresborough Town",
+
+    "lakenheath": "Lakenheath",
+
+    "lancastercity": "Lancaster City",
+
+    "lancing": "Lancing",
+
+    "larkhallathletic": "Larkhall Athletic",
+
+    "laverstockford": "Laverstock & Ford",
+
+    "internationalclubsleaguescup": "Leagues Cup",
+
+    "leamington": "Leamington",
+
+    "leatherhead": "Leatherhead",
+
+    "leeds": "Leeds",
+
+    "leektown": "Leek Town",
+
+    "leicester": "Leicester",
+
+    "leicesternirvana": "Leicester Nirvana",
+
+    "leicesterroad": "Leicester Road",
+
+    "leightontown": "Leighton Town",
+
+    "leiston": "Leiston",
+
+    "leverstockgreen": "Leverstock Green",
+
+    "lewes": "Lewes",
+
+    "leytonorient": "Leyton Orient",
+
+    "lichfieldcity": "Lichfield City",
+
+    "lincoln": "Lincoln",
+
+    "lincolnunited": "Lincoln United",
+
+    "lingfield": "Lingfield",
+
+    "liskeardathletic": "Liskeard Athletic",
+
+    "littlecommon": "Little Common",
+
+    "littleoakley": "Little Oakley",
+
+    "littlehamptontown": "Littlehampton Town",
+
+    "liverpool": "Liverpool",
+
+    "liversedge": "Liversedge",
+
+    "londonlions": "London Lions",
+
+    "longeatonunited": "Long Eaton United",
+
+    "longmelford": "Long Melford",
+
+    "longlevens": "Longlevens",
+
+    "longridgetown": "Longridge Town",
+
+    "lordswood": "Lordswood",
+
+    "loughboroughdynamo": "Loughborough Dynamo",
+
+    "loughboroughuniversity": "Loughborough University",
+
+    "lowerbreck": "Lower Breck",
+
+    "lowestofttown": "Lowestoft Town",
+
+    "loxwood": "Loxwood",
+
+    "luton": "Luton",
+
+    "lutterworthtown": "Lutterworth Town",
+
+    "lyddtown": "Lydd Town",
+
+    "lydneytown": "Lydney Town",
+
+    "lyetown": "Lye Town",
+
+    "lymingtontown": "Lymington Town",
+
+    "macclesfield": "Macclesfield",
+
+    "maidenhead": "Maidenhead",
+
+    "maidstoneutd": "Maidstone Utd",
+
+    "maldontiptree": "Maldon & Tiptree",
+
+    "maltbymain": "Maltby Main",
+
+    "malverntown": "Malvern Town",
+
+    "manchestercity": "Manchester City",
+
+    "manchesterunited": "Manchester United",
+
+    "mangotsfieldunited": "Mangotsfield United",
+
+    "mansfieldtown": "Mansfield Town",
+
+    "_comment": "Mapping nama liga. Semua variant langsung ke format 'NegarA - Liga'",
+
+    "marchtownunited": "March Town United",
+
+    "margate": "Margate",
+
+    "marine": "Marine",
+
+    "marlow": "Marlow",
+
+    "marskeunited": "Marske United",
+
+    "matlocktown": "Matlock Town",
+
+    "melkshamtown": "Melksham Town",
+
+    "meltontown": "Melton Town",
+
+    "merstham": "Merstham",
+
+    "merthyrtown": "Merthyr Town",
+
+    "metropolitanpolice": "Metropolitan Police",
+
+    "ligamx": "Mexico - Liga MX",
+
+    "mickleoversports": "Mickleover Sports",
+
+    "middlesbrough": "Middlesbrough",
+
+    "midhursteasebourne": "Midhurst & Easebourne",
+
+    "mildenhalltown": "Mildenhall Town",
+
+    "millbrook": "Millbrook",
+
+    "millwall": "Millwall",
+
+    "miltonkeynesdons": "Milton Keynes Dons",
+
+    "miltonkeynesirish": "Milton Keynes Irish",
+
+    "moneyfields": "Moneyfields",
+
+    "morecambe": "Morecambe",
+
+    "morpethtown": "Morpeth Town",
+
+    "mossley": "Mossley",
+
+    "mousehole": "Mousehole",
+
+    "mulbartonwanderers": "Mulbarton Wanderers",
+
+    "multiplexcoupedumonde2026": "Multiplex World Cup 2026",
+
+    "nailseatickenham": "Nailsea & Tickenham",
+
+    "nantwichtown": "Nantwich Town",
+
+    "needhammarket": "Needham Market",
+
+    "eredivisie": "Netherlands - Eredivisie",
+
+    "newsalamis": "New Salamis",
+
+    "newarkflowserve": "Newark Flowserve",
+
+    "newcastle": "Newcastle",
+
+    "newcastlebenfield": "Newcastle Benfield",
+
+    "newcastletown": "Newcastle Town",
+
+    "newhaven": "Newhaven",
+
+    "newmarkettown": "Newmarket Town",
+
+    "newportcounty": "Newport County",
+
+    "newportpagnelltown": "Newport Pagnell Town",
+
+    "newtonaycliffe": "Newton Aycliffe",
+
+    "northferriby": "North Ferriby",
+
+    "northgreenfordunited": "North Greenford United",
+
+    "northleigh": "North Leigh",
+
+    "northshields": "North Shields",
+
+    "northallertontown": "Northallerton Town",
+
+    "northampton": "Northampton",
+
+    "northwichvictoria": "Northwich Victoria",
+
+    "northwood": "Northwood",
+
+    "norwich": "Norwich",
+
+    "norwichunited": "Norwich United",
+
+    "nottinghamforest": "Nottingham Forest",
+
+    "nottscounty": "Notts County",
+
+    "nuneatontown": "Nuneaton Town",
+
+    "oadbytown": "Oadby Town",
+
+    "okehamptonargyle": "Okehampton Argyle",
+
+    "oldham": "Oldham",
+
+    "oldlandabbotonians": "Oldland Abbotonians",
+
+    "ossettunited": "Ossett United",
+
+    "oxfordcity": "Oxford City",
+
+    "oxfordunited": "Oxford United",
+
+    "padiham": "Padiham",
+
+    "pagham": "Pagham",
+
+    "paultonrovers": "Paulton Rovers",
+
+    "peacehaventelscombe": "Peacehaven & Telscombe",
+
+    "penistonechurch": "Penistone Church",
+
+    "penrithafc": "Penrith AFC",
+
+    "peterborough": "Peterborough",
+
+    "peterboroughsports": "Peterborough Sports",
+
+    "petersfieldtown": "Petersfield Town",
+
+    "phoenixsports": "Phoenix Sports",
+
+    "pickeringtown": "Pickering Town",
+
+    "pilkington": "Pilkington",
+
+    "pinchbeckunited": "Pinchbeck United",
+
+    "plymouth": "Plymouth",
+
+    "plymouthparkway": "Plymouth Parkway",
+
+    "pontefractcollieries": "Pontefract Collieries",
+
+    "pooletown": "Poole Town",
+
+    "portvale": "Port Vale",
+
+    "portlandunited": "Portland United",
+
+    "portsmouth": "Portsmouth",
+
+    "ligaportugal": "Portugal - Liga Portugal",
+    "primeiraliga": "Portugal - Liga Portugal",
+
+    "pottersbartown": "Potters Bar Town",
+
+    "pottonunited": "Potton United",
+
+    "prescotcables": "Prescot Cables",
+
+    "preston": "Preston",
+
+    "prestwichheys": "Prestwich Heys",
+
+    "punjabunited": "Punjab United",
+
+    "qpr": "QPR",
+
+    "quorn": "Quorn",
+
+    "racingclubwarwick": "Racing Club Warwick",
+
+    "radcliffe": "Radcliffe",
+
+    "ramsbottomunited": "Ramsbottom United",
+
+    "ramsgate": "Ramsgate",
+
+    "raynesparkvale": "Raynes Park Vale",
+
+    "reading": "Reading",
+
+    "readingcity": "Reading City",
+
+    "realbedford": "Real Bedford",
+
+    "redbridge": "Redbridge",
+
+    "redcarathletic": "Redcar Athletic",
+
+    "redditchunited": "Redditch United",
+
+    "redhill": "Redhill",
+
+    "risboroughrangers": "Risborough Rangers",
+
+    "rochdale": "Rochdale",
+
+    "romanglassstgeorge": "Roman Glass St George",
+
+    "romford": "Romford",
+
+    "romulus": "Romulus",
+
+    "rossingtonmain": "Rossington Main",
+
+    "rotherham": "Rotherham",
+
+    "royalwootton": "Royal Wootton",
+
+    "roystontown": "Royston Town",
+
+    "rugbyborough": "Rugby Borough",
+
+    "rugbytown": "Rugby Town",
+
+    "runcornlinnets": "Runcorn Linnets",
+
+    "rushallolympic": "Rushall Olympic",
+
+    "rusthall": "Rusthall",
+
+    "rylands": "Rylands",
+
+    "saffronwaldentown": "Saffron Walden Town",
+
+    "salfordcity": "Salford City",
+
+    "salisbury": "Salisbury",
+
+    "saltashunited": "Saltash United",
+
+    "saltdeanunited": "Saltdean United",
+
+    "sandhursttown": "Sandhurst Town",
+
+    "saudiarabiasupercup": "Saudi Arabia - Super Cup",
+    "saudisupercup": "Saudi Arabia - Super Cup",
+
+    "sawbridgeworthtown": "Sawbridgeworth Town",
+
+    "scarboroughathletic": "Scarborough Athletic",
+
+    "scunthorpe": "Scunthorpe",
+
+    "seahamredstar": "Seaham Red Star",
+
+    "sevenoakstown": "Sevenoaks Town",
+
+    "alahlidubai(uae)": "Shabab Al-Ahli Dubai",
+
+    "shaftesburytown": "Shaftesbury Town",
+
+    "sheerwater": "Sheerwater",
+
+    "sheffield": "Sheffield",
+
+    "sheffieldutd": "Sheffield Utd",
+
+    "sheffieldwednesday": "Sheffield Wednesday",
+
+    "sheffordtowncampton": "Shefford Town & Campton",
+
+    "sheppeyunited": "Sheppey United",
+
+    "shepsheddynamo": "Shepshed Dynamo",
+
+    "sheptonmallet": "Shepton Mallet",
+
+    "sherbornetown": "Sherborne Town",
+
+    "sheringham": "Sheringham",
+
+    "sherwoodcolliery": "Sherwood Colliery",
+
+    "shifnaltownfc": "Shifnal Town FC",
+
+    "shildonafc": "Shildon AFC",
+
+    "sholing": "Sholing",
+
+    "shoreham": "Shoreham",
+
+    "shrewsbury": "Shrewsbury",
+
+    "silsden": "Silsden",
+
+    "sittingbourne": "Sittingbourne",
+
+    "skegnesstown": "Skegness Town",
+
+    "skelmersdaleunited": "Skelmersdale United",
+
+    "sleafordtown": "Sleaford Town",
+
+    "slimbridge": "Slimbridge",
+
+    "sloughtown": "Slough Town",
+
+    "snodlandtown": "Snodland Town",
+
+    "sohamtownrangers": "Soham Town Rangers",
+
+    "solihullmoors": "Solihull Moors",
+
+    "southpark": "South Park",
+
+    "southshields": "South Shields",
+
+    "southall": "Southall",
+
+    "southampton": "Southampton",
+
+    "southend": "Southend",
+
+    "southport": "Southport",
+
+    "laliga": "Spain - La Liga",
+
+    "ligaespanola": "Spain - LaLiga",
+    "primeradivision": "Spain - LaLiga",
+    "spanishliga": "Spain - LaLiga",
+
+    "spaldingunited": "Spalding United",
+
+    "spelthornesports": "Spelthorne Sports",
+
+    "spennymoortown": "Spennymoor Town",
+
+    "sportingbengalunited": "Sporting Bengal United",
+
+    "sportingkhalsa": "Sporting Khalsa",
+
+    "squiresgate": "Squires Gate",
+
+    "stalbanscity": "St Albans City",
+
+    "stblazey": "St Blazey",
+
+    "stivestown": "St Ives Town",
+
+    "stneotstown": "St Neots Town",
+
+    "stpanteleimon": "St. Panteleimon",
+
+    "staffordrangers": "Stafford Rangers",
+
+    "stalybridgeceltic": "Stalybridge Celtic",
+
+    "stamford": "Stamford",
+
+    "stansfeld": "Stansfeld",
+
+    "stansted": "Stansted",
+
+    "stanwayrovers": "Stanway Rovers",
+
+    "stevenage": "Stevenage",
+
+    "steyningtown": "Steyning Town",
+
+    "stockportcounty": "Stockport County",
+
+    "stockporttown": "Stockport Town",
+
+    "stocksbridgeparksteels": "Stocksbridge Park Steels",
+
+    "stocktontown": "Stockton Town",
+
+    "stokecity": "Stoke City",
+
+    "stoneoldalleynians": "Stone Old Alleynians",
+
+    "stotfold": "Stotfold",
+
+    "stourbridge": "Stourbridge",
+
+    "stourportswifts": "Stourport Swifts",
+
+    "stowmarkettown": "Stowmarket Town",
+
+    "stratfordtown": "Stratford Town",
+
+    "street": "Street",
+
+    "studley": "Studley",
+
+    "sunderland": "Sunderland",
+
+    "sunderlandrca": "Sunderland RCA",
+
+    "suttonathletic": "Sutton Athletic",
+
+    "suttoncoldfieldtown": "Sutton Coldfield Town",
+
+    "suttoncommonrovers": "Sutton Common Rovers",
+
+    "suttonutd": "Sutton Utd",
+
+    "swansea": "Swansea",
+
+    "swindonsupermarine": "Swindon Supermarine",
+
+    "swindontown": "Swindon Town",
+
+    "tadcasteralbion": "Tadcaster Albion",
+
+    "tadleycalleva": "Tadley Calleva",
+
+    "takeley": "Takeley",
+
+    "tamworth": "Tamworth",
+
+    "tauntontown": "Taunton Town",
+
+    "tavistock": "Tavistock",
+
+    "thackley": "Thackley",
+
+    "thameunited": "Thame United",
+
+    "thatchamtown": "Thatcham Town",
+
+    "thetfordtown": "Thetford Town",
+
+    "thornburytown": "Thornbury Town",
+
+    "threebridges": "Three Bridges",
+
+    "tilbury": "Tilbury",
+
+    "tivertontown": "Tiverton Town",
+
+    "tividale": "Tividale",
+
+    "tonbridgeangels": "Tonbridge Angels",
+
+    "tootingmitchamunited": "Tooting & Mitcham United",
+
+    "torpointathletic": "Torpoint Athletic",
+
+    "torquay": "Torquay",
+
+    "tottenham": "Tottenham",
+
+    "towlawtown": "Tow Law Town",
+
+    "trafford": "Trafford",
+
+    "tranmere": "Tranmere",
+
+    "tringathletic": "Tring Athletic",
+
+    "trurocity": "Truro City",
+
+    "tuffleyrovers": "Tuffley Rovers",
+
+    "tunbridgewells": "Tunbridge Wells",
+
+    "superlig": "Turkey - Super Lig",
+
+    "uckfieldtown": "Uckfield Town",
+
+    "championsleague": "UEFA Champions League",
+    "liguedeschampions": "UEFA Champions League",
+    "ucl": "UEFA Champions League",
+    "uefachampionsleague": "UEFA Champions League",
+    "uefachampionsleague,playoffround": "UEFA Champions League",
+    "uefachampionsleagueleaguestage": "UEFA Champions League",
+
+    "europaleague": "UEFA Europa League",
+    "uefaeuropaleague": "UEFA Europa League",
+    "uel": "UEFA Europa League",
+
+    "unitedofmanchester": "United of Manchester",
+
+    "unitedservices": "United Services",
+
+    "mls": "USA - MLS",
+    "usamls": "USA - MLS",
+
+    "basketballnba": "USA - NBA",
+    "nba": "USA - NBA",
+
+    "americanfootball": "USA - NFL",
+    "nfl": "USA - NFL",
+
+    "icehockey": "USA - NHL",
+    "nhl": "USA - NHL",
+
+    "uttoxetertown": "Uttoxeter Town",
+
+    "uxbridge": "Uxbridge",
+
+    "varndeanians": "Varndeanians",
+
+    "vauxhallmotors": "Vauxhall Motors",
+
+    "vcdathletic": "VCD Athletic",
+
+    "virginiawater": "Virginia Water",
+
+    "wallingfordcrowmarsh": "Wallingford & Crowmarsh",
+
+    "walsall": "Walsall",
+
+    "walsallwood": "Walsall Wood",
+
+    "walshamlewillows": "Walsham Le Willows",
+
+    "walthamabbey": "Waltham Abbey",
+
+    "walthamstow": "Walthamstow",
+
+    "waltonhersham": "Walton & Hersham",
+
+    "wantagetown": "Wantage Town",
+
+    "ware": "Ware",
+
+    "warringtontown": "Warrington Town",
+
+    "watford": "Watford",
+
+    "wealdstone": "Wealdstone",
+
+    "wellingtown": "Welling Town",
+
+    "wellingunited": "Welling United",
+
+    "wellingboroughtown": "Wellingborough Town",
+
+    "wellingtonafc": "Wellington AFC",
+
+    "wellscity": "Wells City",
+
+    "weltonrovers": "Welton Rovers",
+
+    "welwyngardencity": "Welwyn Garden City",
+
+    "wembley": "Wembley",
+
+    "wendronunited": "Wendron United",
+
+    "westallotmentceltic": "West Allotment Celtic",
+
+    "westaucklandtown": "West Auckland Town",
+
+    "westbrom": "West Brom",
+
+    "westdidsburychorlton": "West Didsbury & Chorlton",
+
+    "westessex": "West Essex",
+
+    "westham": "West Ham",
+
+    "westburyunited": "Westbury United",
+
+    "westfieldsurrey": "Westfield (Surrey)",
+
+    "westfields": "Westfields",
+
+    "westonsupermare": "Weston-super-Mare",
+
+    "weymouth": "Weymouth",
+
+    "whickham": "Whickham",
+
+    "whitbytown": "Whitby Town",
+
+    "whitchurchalport": "Whitchurch Alport",
+
+    "whiteensign": "White Ensign",
+
+    "whitehawk": "Whitehawk",
+
+    "whitleybay": "Whitley Bay",
+
+    "whitstabletown": "Whitstable Town",
+
+    "widnes": "Widnes",
+
+    "wigan": "Wigan",
+
+    "willandrovers": "Willand Rovers",
+
+    "wimbornetown": "Wimborne Town",
+
+    "winchestercity": "Winchester City",
+
+    "wingatefinchley": "Wingate & Finchley",
+
+    "wintertonrangers": "Winterton Rangers",
+
+    "wisbechtown": "Wisbech Town",
+
+    "withamtown": "Witham Town",
+
+    "wittonalbion": "Witton Albion",
+
+    "woking": "Woking",
+
+    "wokinghamemmbrook": "Wokingham & Emmbrook",
+
+    "wolverhamptoncasuals": "Wolverhampton Casuals",
+
+    "wolves": "Wolves",
+
+    "woodbridgetown": "Woodbridge Town",
+
+    "woodfordtown": "Woodford Town",
+
+    "worcestercity": "Worcester City",
+
+    "worcesterraiders": "Worcester Raiders",
+
+    "workington": "Workington",
+
+    "worksoptown": "Worksop Town",
+
+    "internationalworldcupqualification,concacaf3rdround,groupa": "World Cup Qualification",
+    "internationalworldcupqualification,concacaf3rdround,groupb": "World Cup Qualification",
+    "internationalworldcupqualification,concacaf3rdround,groupc": "World Cup Qualification",
+    "qualifcmafrique": "World Cup Qualification",
+    "qualifcmamsud": "World Cup Qualification",
+    "qualifcmasie": "World Cup Qualification",
+    "qualifcmconcacaf": "World Cup Qualification",
+    "qualifcmeurope": "World Cup Qualification",
+    "worldcupqualification,conmebol": "World Cup Qualification",
+    "worldcupqualificationcaf": "World Cup Qualification",
+    "worldcupqualificationuefagroupa": "World Cup Qualification",
+    "worldcupqualificationuefagroupb": "World Cup Qualification",
+    "worldcupqualificationuefagroupc": "World Cup Qualification",
+    "worldcupqualificationuefagroupd": "World Cup Qualification",
+    "worldcupqualificationuefagroupe": "World Cup Qualification",
+    "worldcupqualificationuefagroupf": "World Cup Qualification",
+    "worldcupqualificationuefagroupg": "World Cup Qualification",
+    "worldcupqualificationuefagrouph": "World Cup Qualification",
+    "worldcupqualificationuefagroupi": "World Cup Qualification",
+    "worldcupqualificationuefagroupj": "World Cup Qualification",
+    "worldcupqualificationuefagroupk": "World Cup Qualification",
+    "worldcupqualificationuefagroupl": "World Cup Qualification",
+
+    "worthing": "Worthing",
+
+    "wrexham": "Wrexham",
+
+    "wroxham": "Wroxham",
+
+    "wycombe": "Wycombe",
+
+    "wythenshaweamateurs": "Wythenshawe Amateurs",
+
+    "wythenshawetown": "Wythenshawe Town",
+
+    "yatetown": "Yate Town",
+
+    "yaxley": "Yaxley",
+
+    "yeoviltown": "Yeovil Town",
+
+    "york": "York"
+  }
+}

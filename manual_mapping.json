@@ -1,0 +1,621 @@
+{
+  "_comment": "Manual Mapping Configuration - Flashscore Style (Simplified)",
+  "_usage": "Map semua variant tim/liga langsung ke display name. Tidak perlu canonical name lagi!",
+  "team_names": {
+    "acmilan": "AC Milan",
+
+    "afcwimbledon": "AFC Wimbledon",
+
+    "ajax": "Ajax",
+
+    "alaves": "Alaves",
+
+    "albacete": "Albacete",
+
+    "almeria": "Almeria",
+
+    "amiens": "Amiens",
+
+    "andorra": "Andorra",
+
+    "angers": "Angers",
+
+    "annecy": "Annecy",
+
+    "arminiabielefeld": "Arminia Bielefeld",
+
+    "arsenal": "Arsenal",
+
+    "asroma": "AS Roma",
+
+    "astonvilla": "Aston Villa",
+
+    "atalanta": "Atalanta",
+
+    "athbilbao": "Ath Bilbao",
+    "athleticclub": "Ath Bilbao",
+
+    "atlmadrid": "Atl. Madrid",
+
+    "augsburg": "Augsburg",
+
+    "auxerre": "Auxerre",
+
+    "avellino": "Avellino",
+
+    "azalkmaar": "AZ Alkmaar",
+
+    "bmonchengladbach": "B. Monchengladbach",
+
+    "barcelona": "Barcelona",
+
+    "bari": "Bari",
+
+    "barnsley": "Barnsley",
+
+    "bastia": "Bastia",
+
+    "bayerleverkusen": "Bayer Leverkusen",
+
+    "bayernmunich": "Bayern Munich",
+
+    "betis": "Betis",
+
+    "birmingham": "Birmingham",
+
+    "blackburn": "Blackburn",
+
+    "blackpool": "Blackpool",
+
+    "bochum": "Bochum",
+
+    "bologna": "Bologna",
+
+    "bolton": "Bolton",
+
+    "boulogne": "Boulogne",
+
+    "bournemouth": "Bournemouth",
+
+    "bradfordcity": "Bradford City",
+
+    "braunschweig": "Braunschweig",
+
+    "brentford": "Brentford",
+
+    "brest": "Brest",
+
+    "brighton": "Brighton",
+
+    "bristolcity": "Bristol City",
+
+    "burgoscf": "Burgos CF",
+
+    "burnley": "Burnley",
+
+    "burton": "Burton",
+
+    "cadizcf": "Cadiz CF",
+
+    "cagliari": "Cagliari",
+
+    "cardiff": "Cardiff",
+
+    "carrarese": "Carrarese",
+
+    "castellon": "Castellon",
+
+    "catanzaro": "Catanzaro",
+
+    "celtavigo": "Celta Vigo",
+
+    "cesena": "Cesena",
+
+    "ceuta": "Ceuta",
+
+    "charlton": "Charlton",
+
+    "chelsea": "Chelsea",
+
+    "clermont": "Clermont",
+
+    "como": "Como",
+
+    "cordoba": "Cordoba",
+
+    "coventry": "Coventry",
+
+    "cremonese": "Cremonese",
+
+    "crystalpalace": "Crystal Palace",
+
+    "culturalleonesa": "Cultural Leonesa",
+
+    "darmstadt": "Darmstadt",
+
+    "deplacoruna": "Dep. La Coruna",
+
+    "derby": "Derby",
+
+    "doncaster": "Doncaster",
+
+    "dortmund": "Dortmund",
+
+    "dunkerque": "Dunkerque",
+
+    "dusseldorf": "Dusseldorf",
+
+    "eibar": "Eibar",
+
+    "eintrachtfrankfurt": "Eintracht Frankfurt",
+
+    "elche": "Elche",
+
+    "elversberg": "Elversberg",
+
+    "empoli": "Empoli",
+
+    "entella": "Entella",
+
+    "espanyol": "Espanyol",
+
+    "everton": "Everton",
+
+    "excelsior": "Excelsior",
+
+    "exeter": "Exeter",
+
+    "fckoln": "FC Koln",
+
+    "fcvolendam": "FC Volendam",
+
+    "feyenoord": "Feyenoord",
+
+    "fiorentina": "Fiorentina",
+
+    "freiburg": "Freiburg",
+
+    "frosinone": "Frosinone",
+
+    "fulham": "Fulham",
+
+    "gaeagles": "G.A. Eagles",
+
+    "genoa": "Genoa",
+
+    "getafe": "Getafe",
+
+    "gijon": "Gijon",
+
+    "girona": "Girona",
+
+    "granadacf": "Granada CF",
+
+    "grenoble": "Grenoble",
+
+    "greutherfurth": "Greuther Furth",
+
+    "groningen": "Groningen",
+
+    "guingamp": "Guingamp",
+
+    "hamburgersv": "Hamburger SV",
+
+    "hannover": "Hannover",
+
+    "heerenveen": "Heerenveen",
+
+    "heidenheim": "Heidenheim",
+
+    "heracles": "Heracles",
+
+    "herthaberlin": "Hertha Berlin",
+
+    "hoffenheim": "Hoffenheim",
+
+    "holsteinkiel": "Holstein Kiel",
+
+    "huddersfield": "Huddersfield",
+
+    "huesca": "Huesca",
+
+    "hull": "Hull",
+
+    "inter": "Inter",
+
+    "ipswich": "Ipswich",
+
+    "juvestabia": "Juve Stabia",
+
+    "juventus": "Juventus",
+
+    "kaiserslautern": "Kaiserslautern",
+
+    "karlsruhersc": "Karlsruher SC",
+
+    "laspalmas": "Las Palmas",
+
+    "laval": "Laval",
+
+    "lazio": "Lazio",
+
+    "lehavre": "Le Havre",
+
+    "lemans": "Le Mans",
+
+    "lecce": "Lecce",
+
+    "leeds": "Leeds",
+
+    "leganes": "Leganes",
+
+    "leicester": "Leicester",
+
+    "lens": "Lens",
+
+    "levante": "Levante",
+
+    "leytonorient": "Leyton Orient",
+
+    "lille": "Lille",
+
+    "lincoln": "Lincoln",
+
+    "liverpool": "Liverpool",
+
+    "lorient": "Lorient",
+
+    "luton": "Luton",
+
+    "lyon": "Lyon",
+
+    "magdeburg": "Magdeburg",
+
+    "mainz": "Mainz",
+
+    "malaga": "Malaga",
+
+    "mallorca": "Mallorca",
+
+    "manchestercity": "Manchester City",
+
+    "manchesterutd": "Manchester Utd",
+
+    "mansfield": "Mansfield",
+
+    "mantova": "Mantova",
+
+    "marseille": "Marseille",
+
+    "metz": "Metz",
+
+    "middlesbrough": "Middlesbrough",
+
+    "millwall": "Millwall",
+
+    "mirandes": "Mirandes",
+
+    "modena": "Modena",
+
+    "monaco": "Monaco",
+
+    "montpellier": "Montpellier",
+
+    "monza": "Monza",
+
+    "nacbreda": "NAC Breda",
+
+    "nancy": "Nancy",
+
+    "nantes": "Nantes",
+
+    "napoli": "Napoli",
+
+    "newcastle": "Newcastle",
+
+    "nice": "Nice",
+
+    "nijmegen": "Nijmegen",
+
+    "northampton": "Northampton",
+
+    "norwich": "Norwich",
+
+    "nottingham": "Nottingham",
+
+    "nurnberg": "Nurnberg",
+
+    "osasuna": "Osasuna",
+
+    "oviedo": "Oviedo",
+
+    "oxfordutd": "Oxford Utd",
+
+    "paderborn": "Paderborn",
+
+    "padova": "Padova",
+
+    "palermo": "Palermo",
+
+    "parisfc": "Paris FC",
+
+    "parma": "Parma",
+
+    "paufc": "Pau FC",
+
+    "pescara": "Pescara",
+
+    "peterborough": "Peterborough",
+
+    "pisa": "Pisa",
+
+    "plymouth": "Plymouth",
+
+    "portvale": "Port Vale",
+
+    "portsmouth": "Portsmouth",
+
+    "preston": "Preston",
+
+    "preussenmunster": "Preussen Munster",
+
+    "psg": "PSG",
+
+    "psv": "PSV",
+
+    "qpr": "QPR",
+
+    "racingsantander": "Racing Santander",
+
+    "rayovallecano": "Rayo Vallecano",
+
+    "rbleipzig": "RB Leipzig",
+
+    "reading": "Reading",
+
+    "realmadrid": "Real Madrid",
+
+    "realsociedad": "Real Sociedad",
+
+    "realsociedadb": "Real Sociedad B",
+
+    "redstar": "Red Star",
+
+    "reggiana": "Reggiana",
+
+    "reims": "Reims",
+
+    "rennes": "Rennes",
+
+    "rodez": "Rodez",
+
+    "rotherham": "Rotherham",
+
+    "sampdoria": "Sampdoria",
+
+    "sassuolo": "Sassuolo",
+
+    "schalke": "Schalke",
+
+    "sevilla": "Sevilla",
+
+    "sgdynamodresden": "SG Dynamo Dresden",
+
+    "sheffieldutd": "Sheffield Utd",
+
+    "sheffieldwed": "Sheffield Wed",
+
+    "sittard": "Sittard",
+
+    "southampton": "Southampton",
+
+    "spartarotterdam": "Sparta Rotterdam",
+
+    "spezia": "Spezia",
+
+    "stetienne": "St Etienne",
+
+    "stpauli": "St. Pauli",
+
+    "stevenage": "Stevenage",
+
+    "stockportcounty": "Stockport County",
+
+    "stoke": "Stoke",
+
+    "strasbourg": "Strasbourg",
+
+    "stuttgart": "Stuttgart",
+
+    "sudtirol": "Sudtirol",
+
+    "sunderland": "Sunderland",
+
+    "swansea": "Swansea",
+
+    "telstar": "Telstar",
+
+    "torino": "Torino",
+
+    "tottenham": "Tottenham",
+
+    "toulouse": "Toulouse",
+
+    "troyes": "Troyes",
+
+    "twente": "Twente",
+
+    "udinese": "Udinese",
+
+    "unionberlin": "Union Berlin",
+
+    "utrecht": "Utrecht",
+
+    "valencia": "Valencia",
+
+    "valladolid": "Valladolid",
+
+    "venezia": "Venezia",
+
+    "verona": "Verona",
+
+    "villarreal": "Villarreal",
+
+    "watford": "Watford",
+
+    "werderbremen": "Werder Bremen",
+
+    "westbrom": "West Brom",
+
+    "westham": "West Ham",
+
+    "wigan": "Wigan",
+
+    "wolfsburg": "Wolfsburg",
+
+    "wolves": "Wolves",
+
+    "wrexham": "Wrexham",
+
+    "wycombe": "Wycombe",
+
+    "zaragoza": "Zaragoza",
+
+    "zwolle": "Zwolle"
+  },
+  "league_names": {
+    "argentina:primerab": "Argentina - Primera B",
+
+    "argentina:torneobetano": "Argentina - Torneo Betano",
+
+    "bulgaria:efbetleague": "Bulgaria - efbet League",
+
+    "bulgaria:vtoraliga": "Bulgaria - Vtora liga",
+
+    "chile:ligadeprimera": "Chile - Liga de Primera",
+
+    "colombia:primeraa": "Colombia - Primera A",
+
+    "croatia:hnl": "Croatia - HNL",
+
+    "cyprus:cyprusleague": "Cyprus - Cyprus League",
+
+    "denmark:superliga": "Denmark - Superliga",
+
+    "egypt:egyptcup": "Egypt - Egypt Cup",
+
+    "england:championship": "England - Championship",
+
+    "england:leagueone": "England - League One",
+
+    "england:leaguetwo": "England - League Two",
+
+    "england:nplpremierdivision": "England - NPL Premier Division",
+
+    "england:premierleague": "England - Premier League",
+
+    "england:premierleaguecup": "England - Premier League Cup",
+
+    "england:professionaldevelopmentleague": "England - Professional Development League",
+
+    "ethiopia:premierleague": "Ethiopia - Premier League",
+
+    "france:ligue1": "France - Ligue 1",
+
+    "france:ligue2": "France - Ligue 2",
+
+    "germany:2bundesliga": "Germany - 2. Bundesliga",
+
+    "germany:bundesliga": "Germany - Bundesliga",
+
+    "gibraltar:nationalleague": "Gibraltar - National League",
+
+    "guinea:ligue1": "Guinea - Ligue 1",
+
+    "hongkong:premierleague": "Hong Kong - Premier League",
+
+    "indonesialiga1": "Indonesia - Super League",
+
+    "israel:leumitleague": "Israel - Leumit League",
+
+    "italy:seriea": "Italy - Serie A",
+
+    "italy:serieb": "Italy - Serie B",
+
+    "italy:seriecgrpa": "Italy - Serie C - Group A",
+
+    "italy:seriecgrpb": "Italy - Serie C - Group B",
+
+    "italy:seriecgrpc": "Italy - Serie C - Group C",
+
+    "ivorycoast:ligue1": "Ivory Coast - Ligue 1",
+
+    "lebanon:premierleague": "Lebanon - Premier League",
+
+    "liberia:lfafirstdivision": "Liberia - LFA First Division",
+
+    "netherlands:eerstedivisie": "Netherlands - Eerste Divisie",
+
+    "netherlands:eredivisie": "Netherlands - Eredivisie",
+
+    "poland:ekstraklasa": "Poland - Ekstraklasa",
+
+    "poland:polishcup": "Poland - Polish Cup",
+
+    "portugal:liga3": "Portugal - Liga 3",
+
+    "portugal:ligaportugal": "Portugal - Liga Portugal",
+
+    "portugal:ligaportugal2": "Portugal - Liga Portugal 2",
+
+    "portugal:primeiraliga": "Portugal - Primeira Liga",
+
+    "portugal:segundaliga": "Portugal - Segunda Liga",
+
+    "romania:superliga": "Romania - Superliga",
+
+    "rwanda:premierleague": "Rwanda - Premier League",
+
+    "saudiarabia:proleague": "Saudi Arabia - Pro League",
+
+    "sierraleone:premierleague": "Sierra Leone - Premier League",
+
+    "spain:laliga": "Spain - LaLiga",
+
+    "spain:laliga2": "Spain - LaLiga2",
+
+    "tanzania:ligikuubara": "Tanzania - Ligi Kuu Bara",
+
+    "thailand:thaileague2": "Thailand - Thai League 2",
+
+    "turkey:1lig": "Turkey - 1. Lig",
+
+    "turkey:superlig": "Turkey - Super Lig",
+
+    "mlb": "USA - MLB",
+
+    "usa:mls": "USA - MLS",
+
+    "nba": "USA - NBA",
+
+    "nfl": "USA - NFL",
+
+    "nhl": "USA - NHL",
+
+    "world:championsleague": "World - Champions League",
+
+    "world:conferenceleague": "World - Conference League",
+
+    "world:copalibertadores": "World - Copa Libertadores",
+
+    "world:copasudamericana": "World - Copa Sudamericana",
+
+    "world:europaleague": "World - Europa League",
+
+    "world:fifaarabcup": "World - FIFA Arab Cup",
+
+    "world:uefanationsleague": "World - UEFA Nations League",
+
+    "world:worldcup": "World - World Cup"
+  }
+}

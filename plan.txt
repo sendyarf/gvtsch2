@@ -1,0 +1,449 @@
+saya ingin membuat backend jadwal olahraga yang disimpan pada sch.json. data yang disimpan pada sch.json adalah gabungan dari hasil scraping beberapa halaman website. 
+untuk memudahkan hasil scraping dari beberapa website, jadi kita buat beberapa file json.
+
+contoh output json yang diinginkan
+
+{
+    "id": "Lyon-Nantes",
+    "league": "France - Ligue 1",
+    "team1": {
+      "name": "Lyon",
+      "logo": "https://raw.githubusercontent.com/sendyarf/logos/main/Logos/lyon.png"
+    },
+    "team2": {
+      "name": "Nantes",
+      "logo": "https://raw.githubusercontent.com/sendyarf/logos/main/Logos/nantes.png"
+    },
+    "kickoff_date": "2025-12-01",
+    "kickoff_time": "02:45",
+    "match_date": "2025-12-01",
+    "match_time": "02:45",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?envivo=20",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?envivo=69",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoNy5waHA=",
+        "label": "CH-EN"
+      }
+    ]
+  }
+
+
+jadi kita akan buat sch.py untuk menggabungkan semua server. sebelum mebuat sch.py. buatkan dahulu yang lebih prioritas.
+
+
+1. yang pertama scraping jadwal dari website https://bolaloca.my/.
+hasil inspect, struktur html halamannya seperti di bawah. pada jadwalnya terdapat tanggal, jam, nama kompetisi, tim yang bertanding, dan server
+01-12-2025 (00:00) NBA : Cleveland Cavaliers - Boston Celtics  (CH174us)
+contoh lain, jika jadwalnya tidak seperti pertandingan 2 tim, tampilannya akan seperti ini
+01-12-2025 (00:00) F1 :  Qatar F1 Grand Prix -  (CH174us)
+jika seperti ini maka team2 akan dikosongkan
+
+dikarenakan data tidak lengkap, maka outputnya cukup seperti ini. pada tanggal dan jam akan dikonversi dari zona waktu paris francis ke zona waktu jakarta Indonesia. simpan output json dengan nama file. bolaloca.json
+
+{
+    "id": "ClevelandCavaliers-BostonCeltics",
+    "league": "NBA",
+    "team1": {
+      "name": "Cleveland Cavaliers",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Boston Celtics",
+      "logo": ""
+    },
+    "kickoff_date": "2025-12-01",
+    "kickoff_time": "06:00",
+    "match_date": "2025-12-01",
+    "match_time": "06:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?envivo=174",
+        "label": "CH-US"
+      }
+    ]
+  }
+
+
+
+STRUKTUR HTML
+<div style="float:left;width:75%; border: 1px #1269793d solid;">
+
+<textarea style="width:100%;height:14000px;resize: yes;background: #121212; font-family: Verdana,sans-serif; font-size: 16px; color: #eee;">
+❝𝐩𝐚𝐫𝐭𝐧𝐞𝐫𝐬𝐡𝐢𝐩 : 𝐭𝐞𝐚𝐦𝐫𝐮@𝐩𝐫𝐨𝐭𝐨𝐧.𝐦𝐞 ( 𝐞𝐦𝐛𝐞𝐝 . 𝐚𝐝𝐬 )❞
+
+🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
+🚨🚨🚨🚨 The website tarjetarojaenvivo.lat is blocked in many countries and will soon be unavailable. 
+NEW LINK https://bolaloca.my/.  🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
+🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
+
+hoca : https://bolaloca.my/player/2/1
+Caster : https://bolaloca.my/player/3/1
+WIGI : https://bolaloca.my/player/4/1
+
+--------------------------------------------------------------------------------------------------------------------
+30-11-2025 (21:00) Laliga : Gérone - Real Madrid  (CH1fr) (CH49es) (CH71es) (CH88es)
+30-11-2025 (21:00) Laliga 2 : Castellon - Las Palmas  (CH53es)
+30-11-2025 (21:00) NBA : Utah Jazz - Houston Rockets  (CH168us)
+30-11-2025 (21:05) Top 14 : Section Paloise - Stade Rochelais  (CH11fr)
+30-11-2025 (21:30) Ecuador Ligapro : Macara - El Nacional  (CH86es)
+30-11-2025 (21:30) Liga Portugal : FC Porto - Estoril  (CH2fr) (CH144pt)
+30-11-2025 (21:30) NHL : Chicago Blackhawks - Anaheim Ducks  (CH169us)
+30-11-2025 (22:00) Campeonato Itaú Chile : Everton - Deportes Iquique  (CH155es)
+30-11-2025 (22:00) Campeonato Itaú Chile : U. Calera - Limache  (CH156es)
+30-11-2025 (22:00) Campeonato Itaú Chile : U. Espanola - O'Higgins  (CH83es)
+30-11-2025 (22:05) NFL : Seattle Seahawks - Minnesota Vikings  (CH170us) (CH101es) (CH104es)
+30-11-2025 (22:25) NFL : Los Angeles Chargers - Las Vegas Raiders  (CH171us) (CH93es) (CH102es) (CH79es)
+30-11-2025 (22:25) NFL : Pittsburgh Steelers - Buffalo Bills  (CH172us) (CH91es) (CH159es)
+30-11-2025 (22:30) Serie A Bresil : Fortaleza - Atletico-MG  (CH158pt)
+30-11-2025 (22:30) Torneo LPF : Boca Juniors - Argentinos Jrs  (CH76es) (CH55es) (CH61es)
+30-11-2025 (23:00) NHL : Carolina Hurricanes - Calgary Flames  (CH173us)
+01-12-2025 (00:00) Ecuador Ligapro : Delfin - Emelec  (CH86es)
+01-12-2025 (00:00) NBA : Cleveland Cavaliers - Boston Celtics  (CH174us)
+01-12-2025 (00:00) NBA : New York Knicks - Toronto Raptors  (CH175us)
+01-12-2025 (00:00) NBA : Philadelphia 76ers - Atlanta Hawks  (CH176us)
+01-12-2025 (00:00) NBA : Portland Trail Blazers - Oklahoma City Thunder  (CH177us)
+01-12-2025 (00:00) NHL : Dallas Stars - Ottawa Senators  (CH178us)
+01-12-2025 (00:30) Campeonato Itaú Chile : Cobreloa - Arica  (CH83es)
+01-12-2025 (00:30) Campeonato Itaú Chile : Copiapo - Dep. Concepcion  (CH155es)
+01-12-2025 (00:30) Liga Betplay Dimayor : Junior - Atl. Nacional  (CH81es)
+01-12-2025 (01:00) NBA : Minnesota Timberwolves - San Antonio Spurs  (CH179us)
+01-12-2025 (02:00) Liga Mx : Cruz Azul - Guadalajara  (CH68es) (CH107es) (CH106es)
+01-12-2025 (02:20) NFL : Washington Commanders - Denver Broncos  (CH180us) (CH88es) (CH97es)
+01-12-2025 (03:00) NBA : Sacramento Kings - Memphis Grizzlies  (CH181us)
+01-12-2025 (03:30) NBA : Los Angeles Lakers - New Orleans Pelicans  (CH182us)
+01-12-2025 (14:00) Coupe Arabe : Tunisie - Syrie  (CH5fr) (CH46qa)
+01-12-2025 (17:30) Coupe Arabe : Qatar - Palestine  (CH5fr) (CH46qa)
+01-12-2025 (18:00) Super Lig : Fenerbahce - Galatasaray  (CH2fr) (CH151tr) (CH69es)
+01-12-2025 (18:00) Super Lig : Samsunspor - Alanyaspor  (CH152tr)
+01-12-2025 (20:45) Serie A : Bologne - Cremonese  (CH45fr) (CH137it) (CH124de) (CH91es)
+01-12-2025 (21:00) Championship : Birmingham - Watford  (CH4fr) (CH127gb)
+01-12-2025 (21:00) Laliga : Vallecano - Valence  (CH1fr) (CH49es) (CH71es) (CH87es)
+01-12-2025 (21:00) Torneo LPF : Barracas Central - Gimnasia L.P.  (CH76es)
+01-12-2025 (21:15) Liga Portugal : Arouca - Braga  (CH2fr) (CH144pt)
+02-12-2025 (00:00) Campeonato Itaú Chile : A. Italiano - Nublense  (CH83es)
+02-12-2025 (01:00) NBA : Detroit Pistons - Atlanta Hawks  (CH160us)
+02-12-2025 (01:00) NBA : Indiana Pacers - Cleveland Cavaliers  (CH161us)
+02-12-2025 (01:00) NBA : Washington Wizards - Milwaukee Bucks  (CH162us)
+02-12-2025 (01:00) NHL : New Jersey Devils - Columbus Blue Jackets  (CH163us)
+02-12-2025 (01:00) NHL : Philadelphia Flyers - Pittsburgh Penguins  (CH164us)
+02-12-2025 (01:30) NBA : Brooklyn Nets - Charlotte Hornets  (CH165us)
+02-12-2025 (01:30) NBA : Miami Heat - Los Angeles Clippers  (CH166us)
+02-12-2025 (01:30) NBA : Orlando Magic - Chicago Bulls  (CH167us)
+02-12-2025 (01:30) NHL : Buffalo Sabres - Winnipeg Jets  (CH168us)
+02-12-2025 (01:30) Torneo LPF : Racing Club - Tigre  (CH75es)
+02-12-2025 (02:00) Liga Betplay Dimayor : Ind. Medellin - America De Cali  (CH81es)
+02-12-2025 (02:00) NHL : St. Louis Blues - Anaheim Ducks  (CH169us)
+02-12-2025 (02:15) NFL : New England Patriots - New York Giants  (CH170us)
+02-12-2025 (03:00) NBA : Denver Nuggets - Dallas Mavericks  (CH171us)
+02-12-2025 (03:00) NBA : Utah Jazz - Houston Rockets  (CH172us)
+02-12-2025 (04:00) NBA : Los Angeles Lakers - Phoenix Suns  (CH173us)
+02-12-2025 (04:00) NHL : San Jose Sharks - Utah Mammoth  (CH174us)
+</textarea>
+</div>
+
+2. yang kedua scraping halaman website https://sportsonline.cx/prog.txt
+pada halaman ini terdapat 3 struktur jadwal.
+yang pertama ada jam, tim, server. yang pertama ini kedua tim dipisah dengan simbol x.
+yang kedua ada jam, kompetisi, tim, server. pada jadwal ini kedua tim dipisah dengan simbol @.
+yang ketiga ada jam, kompetisi, tim, server. pada jadwal ini bukan pertandingan 2 tim.
+
+20:00   Girona x Real Madrid | https://sportzonline.top/channels/hd/hd2.php
+20:00   Girona x Real Madrid | https://sportzonline.top/channels/hd/hd6.php
+20:00   Girona x Real Madrid | https://sportzonline.top/channels/pt/eleven2.php
+20:00   Girona x Real Madrid | https://sportzonline.top/channels/bra/br2.php
+23:00   NBA: Boston Celtics @ Cleveland Cavaliers | https://sportzonline.top/channels/pt/sporttv2.php
+16:00   F1: Qatar F1 Grand Prix | https://sportzonline.top/channels/hd/hd1.php
+
+
+contoh output json yang diinginka, simpan file json dengan nama sportsonline.json. dikarenakan jadwal pada halaman website ini menggunakan zona waktu London, jadi kita konversikan ke zona waktu Jakarta.
+
+{
+    "id": "Girona-Real Madrid",
+    "league": "",
+    "team1": {
+      "name": "Girona",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Real Madrid",
+      "logo": ""
+    },
+    "kickoff_date": "",
+    "kickoff_time": "03:00",
+    "match_date": "",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?ss=hd2",
+        "label": "CH-1"
+      },
+	{
+        "url": "https://multi.govoet.my.id/?ss=hd6",
+        "label": "CH-2"
+      },
+	{
+        "url": "https://multi.govoet.my.id/?ss=eleven2",
+        "label": "CH-3"
+      },
+	{
+        "url": "https://multi.govoet.my.id/?ss=br2",
+        "label": "CH-4"
+      }
+    ]
+  },
+
+{
+    "id": "BostonCeltics-ClevelandCavaliers",
+    "league": "NBA",
+    "team1": {
+      "name": "Boston Celtics",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Cleveland Cavaliers",
+      "logo": ""
+    },
+    "kickoff_date": "",
+    "kickoff_time": "06:00",
+    "match_date": "",
+    "match_time": "06:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?ss=sporttv2",
+        "label": "CH-1"
+      }
+    ]
+  }
+
+
+STRUKTUR HTML
+============================================================
+                    SPORTSONLINE.CX	
+                | LAST UPDATE: 30-11-25 |
+				
+       INFO: PLEASE USE DOMAIN LISTED BELOW ALWAYS!
+       INFO: PLEASE USE DOMAIN LISTED BELOW ALWAYS!
+       INFO: PLEASE USE DOMAIN LISTED BELOW ALWAYS!
+
+       ANY INFO/ISSUES/PARTNERSHIP EMAIL: boomrunmarch@proton.me
+       ANY INFO/ISSUES/PARTNERSHIP EMAIL: boomrunmarch@proton.me
+       ANY INFO/ISSUES/PARTNERSHIP EMAIL: boomrunmarch@proton.me
+
+        24/7 CHANNELS https://sportzonline.top/247.txt
+        24/7 CHANNELS https://sportzonline.top/247.txt
+        24/7 CHANNELS https://sportzonline.top/247.txt
+	   
+          IMPORTANT: USE EMBED DOMAIN sportzonline.top
+          IMPORTANT: USE EMBED DOMAIN sportzonline.top
+          IMPORTANT: USE EMBED DOMAIN sportzonline.top
+		  
+          NEW SCHEDULE DOMAIN SAVE -> SPORTSONLINE.CX
+          NEW SCHEDULE DOMAIN SAVE -> SPORTSONLINE.CX	
+		  
+============================================================
+
+*(W) - Women Event
+	
+        𝐑𝐄𝐀𝐃! 𝐑𝐄𝐀𝐃! 𝐑𝐄𝐀𝐃! 𝐑𝐄𝐀𝐃! 𝐑𝐄𝐀𝐃! 𝐑𝐄𝐀𝐃! 𝐑𝐄𝐀𝐃! 𝐑𝐄𝐀𝐃! 𝐑𝐄𝐀𝐃!
+        𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓! 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓! 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓! 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓! 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓!
+		
+        𝐀𝐃𝐌𝐈𝐍𝐒 𝐍𝐄𝐖 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 𝐃𝐎𝐌𝐀𝐈𝐍 -> 𝐒𝐏𝐎𝐑𝐓𝐒𝐎𝐍𝐋𝐈𝐍𝐄.𝐂𝐗
+        𝐀𝐃𝐌𝐈𝐍𝐒 𝐍𝐄𝐖 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 𝐃𝐎𝐌𝐀𝐈𝐍 -> 𝐒𝐏𝐎𝐑𝐓𝐒𝐎𝐍𝐋𝐈𝐍𝐄.𝐂𝐗
+        𝐀𝐃𝐌𝐈𝐍𝐒 𝐍𝐄𝐖 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 𝐃𝐎𝐌𝐀𝐈𝐍 -> 𝐒𝐏𝐎𝐑𝐓𝐒𝐎𝐍𝐋𝐈𝐍𝐄.𝐂𝐗
+
+        𝐔𝐏𝐃𝐀𝐓𝐄 𝐔𝐏𝐃𝐀𝐓𝐄 𝐏𝐋𝐄𝐀𝐒𝐄 𝐂𝐇𝐀𝐍𝐆𝐄 𝐄𝐌𝐁𝐄𝐃 𝐃𝐎𝐌𝐀𝐈𝐍 sportzonline.top
+        𝐔𝐏𝐃𝐀𝐓𝐄 𝐔𝐏𝐃𝐀𝐓𝐄 𝐏𝐋𝐄𝐀𝐒𝐄 𝐂𝐇𝐀𝐍𝐆𝐄 𝐄𝐌𝐁𝐄𝐃 𝐃𝐎𝐌𝐀𝐈𝐍 sportzonline.top
+        𝐔𝐏𝐃𝐀𝐓𝐄 𝐔𝐏𝐃𝐀𝐓𝐄 𝐏𝐋𝐄𝐀𝐒𝐄 𝐂𝐇𝐀𝐍𝐆𝐄 𝐄𝐌𝐁𝐄𝐃 𝐃𝐎𝐌𝐀𝐈𝐍 sportzonline.top
+
+SUNDAY
+HD1 ENGLISH
+HD2 ENGLISH
+HD3 GERMAN
+HD4 FRENCH
+HD5 ENGLISH
+HD6 SPANISH
+HD7 ITALIAN
+HD8 ITALIAN
+HD9 GERMAN & GREEK & SPANISH
+HD10 DUTCH & SPANISH
+HD11 ENGLISH & TURKISH & SPANISH
+
+BR1 BRAZILIAN
+BR2 BRAZILIAN
+BR3 BRAZILIAN
+BR4 BRAZILIAN
+BR5 BRAZILIAN
+BR6 BRAZILIAN
+
+10:00   Sail GP: Abu Dhabi - D2 | https://sportzonline.top/channels/pt/sporttv3.php
+11:00   Torreense x Chaves | https://sportzonline.top/channels/pt/sporttv1.php
+11:15   PSV x Volendam | https://sportzonline.top/channels/hd/hd10.php
+11:30   Lecce x Torino | https://sportzonline.top/channels/hd/hd7.php
+11:30   Lecce x Torino | https://sportzonline.top/channels/hd/hd3.php
+11:30   Lecce x Torino | https://sportzonline.top/channels/pt/sporttv2.php
+12:00   Crystal Palace x Manchester United | https://sportzonline.top/channels/hd/hd1.php
+12:00   Crystal Palace x Manchester United | https://sportzonline.top/channels/pt/eleven1.php
+12:00   Crystal Palace x Manchester United | https://sportzonline.top/channels/bra/br2.php
+12:00   Hibernian x Celtic | https://sportzonline.top/channels/hd/hd5.php
+12:30   Dynamo Dresden x Fortuna Düsseldorf | https://sportzonline.top/channels/hd/hd9.php
+12:30   Elversberg x Darmstadt 98 | https://sportzonline.top/channels/pt/eleven3.php
+13:00   Real Sociedad x Villarreal | https://sportzonline.top/channels/hd/hd2.php
+13:00   Real Sociedad x Villarreal | https://sportzonline.top/channels/hd/hd6.php
+13:00   Real Sociedad x Villarreal | https://sportzonline.top/channels/pt/eleven2.php
+13:00   Real Sociedad x Villarreal | https://sportzonline.top/channels/bra/br6.php
+14:00   Pisa x Internazionale | https://sportzonline.top/channels/hd/hd7.php
+14:00   Pisa x Internazionale | https://sportzonline.top/channels/pt/sporttv2.php
+14:00   Pisa x Internazionale | https://sportzonline.top/channels/bra/br1.php
+14:00   Strasbourg x Brest | https://sportzonline.top/channels/hd/hd4.php
+14:00   Strasbourg x Brest | https://sportzonline.top/channels/pt/sporttv4.php
+14:05   Aston Villa x Wolverhampton Wanderers | https://sportzonline.top/channels/hd/hd1.php
+14:05   Nottingham Forest x Brighton & Hove Albion | https://sportzonline.top/channels/hd/hd11.php
+14:05   Nottingham Forest x Brighton & Hove Albion | https://sportzonline.top/channels/bra/br2.php
+14:05   West Ham United x Liverpool | https://sportzonline.top/channels/hd/hd5.php
+14:05   West Ham United x Liverpool | https://sportzonline.top/channels/pt/eleven1.php
+14:05   West Ham United x Liverpool | https://sportzonline.top/channels/bra/br4.php
+14:30   Hamburger SV x Stuttgart | https://sportzonline.top/channels/hd/hd3.php
+14:30   Hamburger SV x Stuttgart | https://sportzonline.top/channels/pt/eleven3.php
+15:00   Panaitolikos x Olympiakos Piraeus | https://sportzonline.top/channels/hd/hd9.php
+15:15   Sevilla x Real Betis | https://sportzonline.top/channels/hd/hd2.php
+15:15   Sevilla x Real Betis | https://sportzonline.top/channels/hd/hd6.php
+15:15   Sevilla x Real Betis | https://sportzonline.top/channels/pt/eleven2.php
+15:30   Rio Ave x Santa Clara | https://sportzonline.top/channels/pt/sporttv1.php
+15:30   União de Leiria x Benfica B | https://sportzonline.top/channels/pt/sporttv3.php
+15:45   Twente x AZ | https://sportzonline.top/channels/hd/hd10.php
+16:00   F1: Qatar F1 Grand Prix | https://sportzonline.top/channels/hd/hd1.php
+16:00   F1: Qatar F1 Grand Prix | https://sportzonline.top/channels/hd/hd8.php
+16:00   F1: Qatar F1 Grand Prix | https://sportzonline.top/channels/bra/br5.php
+16:15   Le Havre x Lille | https://sportzonline.top/channels/hd/hd4.php
+16:30   Chelsea x Arsenal | https://sportzonline.top/channels/hd/hd5.php
+16:30   Chelsea x Arsenal | https://sportzonline.top/channels/pt/eleven1.php
+16:30   Chelsea x Arsenal | https://sportzonline.top/channels/bra/br2.php
+16:30   Eintracht Frankfurt x Wolfsburg | https://sportzonline.top/channels/hd/hd3.php
+16:30   Eintracht Frankfurt x Wolfsburg | https://sportzonline.top/channels/pt/eleven3.php
+17:00   Atalanta x Fiorentina | https://sportzonline.top/channels/hd/hd7.php
+17:00   Atalanta x Fiorentina | https://sportzonline.top/channels/pt/sporttv4.php
+17:00   Levadiakos x PAOK | https://sportzonline.top/channels/hd/hd9.php
+17:00   Fatih Karagümrük x Beşiktaş | https://sportzonline.top/channels/hd/hd11.php
+17:00   Fatih Karagümrük x Beşiktaş | https://sportzonline.top/channels/pt/sporttv5.php
+17:30   Celta de Vigo x Espanyol | https://sportzonline.top/channels/hd/hd2.php
+17:30   Celta de Vigo x Espanyol | https://sportzonline.top/channels/hd/hd6.php
+17:30   Celta de Vigo x Espanyol | https://sportzonline.top/channels/pt/eleven2.php
+18:00   Sporting CP x Estrela | https://sportzonline.top/channels/pt/sporttv2.php
+18:30   Freiburg x Mainz 05 | https://sportzonline.top/channels/hd/hd3.php
+18:30   Freiburg x Mainz 05 | https://sportzonline.top/channels/pt/eleven3.php
+19:00   Ajax x Groningen | https://sportzonline.top/channels/hd/hd10.php
+19:00   Ajax x Groningen | https://sportzonline.top/channels/pt/eleven1.php
+19:00   Panathinaikos x AEK Athens | https://sportzonline.top/channels/hd/hd9.php
+19:00   Corinthians x Botafogo | https://sportzonline.top/channels/bra/br3.php
+19:30   NFL: Houston Texans @ Indianapolis Colts | https://sportzonline.top/channels/hd/hd5.php
+19:45   Roma x Napoli | https://sportzonline.top/channels/hd/hd1.php
+19:45   Roma x Napoli | https://sportzonline.top/channels/hd/hd7.php
+19:45   Roma x Napoli | https://sportzonline.top/channels/pt/sporttv4.php
+19:45   Roma x Napoli | https://sportzonline.top/channels/bra/br6.php
+19:45   Olympique Lyonnais x Nantes | https://sportzonline.top/channels/hd/hd4.php
+19:45   Olympique Lyonnais x Nantes | https://sportzonline.top/channels/pt/sporttv3.php
+20:00   Girona x Real Madrid | https://sportzonline.top/channels/hd/hd2.php
+20:00   Girona x Real Madrid | https://sportzonline.top/channels/hd/hd6.php
+20:00   Girona x Real Madrid | https://sportzonline.top/channels/pt/eleven2.php
+20:00   Girona x Real Madrid | https://sportzonline.top/channels/bra/br2.php
+20:30   Porto x Estoril | https://sportzonline.top/channels/pt/sporttv1.php
+20:30   Porto x Estoril | https://sportzonline.top/channels/bra/br5.php
+20:30   Macará x El Nacional | https://sportzonline.top/channels/hd/hd11.php
+21:15   NFL: Buffalo Bills @ Pittsburgh Steelers | https://sportzonline.top/channels/hd/hd5.php
+21:30   Boca Juniors x Argentinos Juniors | https://sportzonline.top/channels/hd/hd9.php
+21:30   Boca Juniors x Argentinos Juniors | https://sportzonline.top/channels/bra/br6.php
+21:30   Fortaleza x Atlético Mineiro | https://sportzonline.top/channels/bra/br3.php
+23:00   Delfin x Emelec | https://sportzonline.top/channels/hd/hd11.php
+23:00   NBA: Boston Celtics @ Cleveland Cavaliers | https://sportzonline.top/channels/pt/sporttv2.php
+23:30   Junior x Atlético Nacional | https://sportzonline.top/channels/hd/hd10.php
+01:00   Cruz Azul x Guadalajara | https://sportzonline.top/channels/hd/hd6.php
+01:10   NFL:  Washington Commanders @ Denver Broncos | https://sportzonline.top/channels/hd/hd5.php
+02:30   NBA: New Orleans Pelicans @ Los Angeles Lakers | https://sportzonline.top/channels/hd/hd2.php
+
+MONDAY
+HD1 ENGLISH
+HD2 ENGLISH
+HD3 DANISH
+HD5 ENGLISH
+HD6 SPANISH
+HD7 ITALIAN
+HD8 ITALIAN
+HD9 POLISH & SPANISH
+HD10 ROMANIAN & ITALIAN
+HD11 TURKISH & ITALIAN
+
+BR5 BRAZILIAN
+BR6 BRAZILIAN
+
+11:30   Sepsi x CSMS Iaşi | https://sportzonline.top/channels/hd/hd10.php
+14:00   Petrolul 52 x Metaloglobus | https://sportzonline.top/channels/hd/hd10.php
+14:00   Paços de Ferreira x Felgueiras 1932 | https://sportzonline.top/channels/pt/sporttv1.php
+17:00   Fenerbahçe x Galatasaray | https://sportzonline.top/channels/hd/hd5.php
+17:00   Fenerbahçe x Galatasaray | https://sportzonline.top/channels/hd/hd11.php
+17:00   Fenerbahçe x Galatasaray | https://sportzonline.top/channels/pt/sporttv1.php
+17:00   Fenerbahçe x Galatasaray | https://sportzonline.top/channels/bra/br6.php
+17:00   Universitatea Cluj x CSU Craiova | https://sportzonline.top/channels/hd/hd10.php
+18:00   Motor Lublin x Legia Warszawa | https://sportzonline.top/channels/hd/hd9.php
+18:00   Brøndby x Fredericia | https://sportzonline.top/channels/hd/hd3.php
+19:30   Cittadella x Union Brescia | https://sportzonline.top/channels/hd/hd8.php
+19:30   Benevento x Salernitana | https://sportzonline.top/channels/hd/hd10.php
+19:30   Vis Pesaro x Ascoli | https://sportzonline.top/channels/hd/hd11.php
+19:45   Bologna x Cremonese | https://sportzonline.top/channels/hd/hd7.php
+19:45   Bologna x Cremonese | https://sportzonline.top/channels/pt/sporttv2.php
+20:00   Rayo Vallecano x Valencia | https://sportzonline.top/channels/hd/hd2.php
+20:00   Rayo Vallecano x Valencia | https://sportzonline.top/channels/hd/hd6.php
+20:00   Rayo Vallecano x Valencia | https://sportzonline.top/channels/pt/eleven1.php
+20:00   Rayo Vallecano x Valencia | https://sportzonline.top/channels/bra/br6.php
+20:00   Birmingham City x Watford | https://sportzonline.top/channels/hd/hd1.php
+20:00   Birmingham City x Watford | https://sportzonline.top/channels/pt/sporttv3.php
+20:00   Birmingham City x Watford | https://sportzonline.top/channels/bra/br5.php
+20:00   Barracas Central x Gimnasia La Plata | https://sportzonline.top/channels/hd/hd9.php
+20:15   Arouca x Sporting Braga | https://sportzonline.top/channels/pt/sporttv1.php
+00:30   Racing Club x Tigre | https://sportzonline.top/channels/hd/hd9.php
+00:30   Racing Club x Tigre | https://sportzonline.top/channels/pt/sporttv2.php
+00:30   NBA: Chicago Bulls @ Orlando Magic | https://sportzonline.top/channels/pt/sporttv1.php
+00:30   NBA: Chicago Bulls @ Orlando Magic | https://sportzonline.top/channels/bra/br6.php
+01:00   NFL: New York Giants @ New England Patriots | https://sportzonline.top/channels/hd/hd1.php
+03:00   NBA: Phoenix Suns @ Los Angeles Lakers | https://sportzonline.top/channels/hd/hd2.php
+03:00   NBA: Phoenix Suns @ Los Angeles Lakers | https://sportzonline.top/channels/pt/sporttv1.php
+03:00   NBA: Phoenix Suns @ Los Angeles Lakers | https://sportzonline.top/channels/bra/br6.php
+
+3. yang ketiga scraping dari halaman website ini https://backendstreamcenter.youshop.pro:488/api/Parties?pageNumber=1&pageSize=500
+simpan file dengan nama streamcenter.json. konversikan zona waktu london ke zona waktu Jakarta.
+outputnya kurang lebih masih mirip dengan yang sebelumnya, yang membedakan pada servernya, server akan disimpan dalam bentuk encode.
+
+  {
+    "id": "BostonCeltics-ClevelandCavaliers",
+    "league": "",
+    "team1": {
+      "name": "Boston Celtics",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Cleveland Cavaliers",
+      "logo": ""
+    },
+    "kickoff_date": "2025-12-01",
+    "kickoff_time": "06:00",
+    "match_date": "2025-12-01",
+    "match_time": "06:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1jZW50ZXIueHl6L2VtYmVkL2NoNjYucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  }
+
