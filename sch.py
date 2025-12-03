@@ -359,6 +359,21 @@ def main():
     if home_data:
         final_data = enrich_with_flashscore_home(final_data, home_data)
         
+    # APPLY MANUAL MAPPING FOR DISPLAY
+    print("\nApplying manual mapping for display names...")
+    for match in final_data:
+        # Update League
+        if match.get('league'):
+            match['league'] = get_display_league_name(match['league'])
+            
+        # Update Team 1
+        if match.get('team1') and match['team1'].get('name'):
+            match['team1']['name'] = get_display_team_name(match['team1']['name'])
+            
+        # Update Team 2
+        if match.get('team2') and match['team2'].get('name'):
+            match['team2']['name'] = get_display_team_name(match['team2']['name'])
+
     # FILTER: Remove matches with empty date or time
     print("\nFiltering matches with missing date or time...")
     original_count = len(final_data)
