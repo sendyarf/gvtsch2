@@ -304,11 +304,10 @@ def main():
             if item.get('kickoff_time'):
                 item['kickoff_time'] = item['kickoff_time'].replace('Preview', '').strip()
 
-    # Priority: Manual -> Flashscore (Detailed) -> Flashscore (Home) -> Bolaloca -> Streamcenter -> Sportsonline
+    # Priority: Manual -> Flashscore (Detailed) -> Bolaloca -> Streamcenter -> Sportsonline
     sources = [
         ('manual_sch.json', load_json_safe('manual_sch.json')),
         ('flashscore.json', flashscore_detailed),
-        ('flashscore_home.json', flashscore_home),
         ('bolaloca.json', load_json_safe('bolaloca.json')),
         ('streamcenter.json', load_json_safe('streamcenter.json')),
         ('sportsonline.json', load_json_safe('sportsonline.json'))
@@ -365,7 +364,9 @@ def main():
     # Convert to list
     final_data = list(merged_data.values())
     
-    # Enrichment step removed as Flashscore is now a primary source
+    # Enrich with Flashscore Home data (Logos and Leagues only)
+    if isinstance(flashscore_home, list) and flashscore_home:
+        final_data = enrich_with_flashscore_home(final_data, flashscore_home)
         
     # APPLY MANUAL MAPPING FOR DISPLAY
     print("\nApplying manual mapping for display names...")

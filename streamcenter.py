@@ -48,7 +48,7 @@ def parse_streamcenter():
 
     matches = []
     # Using Paris time based on cross-referencing with other sources
-    source_tz = pytz.timezone('Europe/Paris') 
+    source_tz = pytz.timezone('Europe/London') 
     jakarta_tz = pytz.timezone('Asia/Jakarta')
 
     for item in items:
