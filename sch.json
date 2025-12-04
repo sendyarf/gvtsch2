@@ -1,21 +1,24 @@
 [
   {
-    "id": "Manual-Example-1",
-    "league": "Manual - Example League",
-    "kickoff_date": "2025-12-04",
-    "kickoff_time": "19:50",
+    "id": "MinnesotaWild-CalgaryFlames",
+    "league": "Testing",
     "team1": {
-      "name": "Manual Team A",
-      "logo": ""
+      "name": "TES1",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png"
     },
     "team2": {
-      "name": "Manual Team B",
-      "logo": ""
+      "name": "TES2",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png"
     },
+    "kickoff_date": "2025-12-04",
+    "kickoff_time": "19:00",
+    "match_date": "2025-12-04",
+    "match_time": "19:00",
+    "duration": "3.5",
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?shaka=laliga",
-        "label": "CH-1"
+        "label": "CH-EN"
       }
     ]
   },
