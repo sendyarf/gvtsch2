@@ -2,8 +2,11 @@ name: Flashscore Homepage Scraper
 
 on:
   schedule:
-    # Run every hour
+    # 00:01 WIB = 17:01 UTC (sehari sebelumnya)
     - cron: "1 17 * * *"
+    
+    # 03:00 WIB = 20:00 UTC (sehari sebelumnya)
+    - cron: "0 20 * * *"
   workflow_dispatch:
 
 jobs:
