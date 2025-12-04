@@ -2,7 +2,7 @@ name: Run Sportsonline Scraper
 
 on:
   schedule:
-    - cron: "0 */3 * * *" # Every 3 hours
+    - cron: "*/20 * * * *" # Every 3 hours
   workflow_dispatch:
 
 jobs:
@@ -27,7 +27,10 @@ jobs:
         run: python sportsonline.py
 
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Update sportsonline.json"
-          file_pattern: "sportsonline.json"
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add sportsonline.json
+          git commit -m "Update sportsonline.json" || exit 0
+          git pull --rebase origin main
+          git push origin main

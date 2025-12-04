@@ -8,7 +8,7 @@ on:
 env:
   TZ: Asia/Jakarta
   LC_ALL: C.UTF-8
-  LANG: C.UTF-8 
+  LANG: C.UTF-8
 
 jobs:
   scrape:
@@ -44,7 +44,10 @@ jobs:
         run: python flashscore.py
 
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Update flashscore.json"
-          file_pattern: "flashscore.json"
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add flashscore.json
+          git commit -m "Update flashscore.json" || exit 0
+          git pull --rebase origin main
+          git push origin main
