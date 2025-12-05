@@ -118,7 +118,15 @@ def scrape_flashscore_home():
                             if sport['type'] == 'soccer':
                                 # Soccer Parsing Logic
                                 time_elem = child.find('div', class_='event__time')
-                                match_time = time_elem.text.strip() if time_elem else ""
+                                if time_elem:
+                                    match_time = time_elem.text.strip().replace("Preview", "")
+                                else:
+                                    stage_elem = child.find('div', class_='event__stage')
+                                    match_time = stage_elem.text.strip() if stage_elem else ""
+                                
+                                if not match_time:
+                                    if child.find('span', {'data-state': 'final'}):
+                                        match_time = "Finished"
                                 
                                 home_part = child.find('div', class_='event__homeParticipant')
                                 if not home_part: continue
