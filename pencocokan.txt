@@ -1,0 +1,23 @@
+ # Priority order: manual_sch -> flashscore -> bolaloca -> streamcenter
+
+ dari komentar sch.py prioritas utama adalah manual_sch.
+ manual_sch.json = membuat jadwal baru atau menyimpan server ke jadwal yang sudah ada.
+ flashscore.json = membuat jadwal baru tanpa server, data lengkap.
+ bolaloca.json = membuat jadwal baru atau menyimpan server ke jadwal yang sudah ada. bolaloca tidak mempunyai logo.
+ streamcenter.json = membuat jadwal baru atau menyimpan server ke jadwal yang sudah ada, streamcerter tidak mempunyai nama liga yang pasti.
+ sportsonline.json = hanya menyimpan server ke jadwal yang sudah ada.
+ soco.json = hanya menyimpan server ke jadwal yang sudah ada.
+
+untuk memudahkan pencocokan, simpan semua jadwal dari flashscore.json ke sch.json, kemudian isi servernya dari semua file json.
+jika bolaloca.json memiliki jadwal yang belum ada pada sch.json, maka jadwal dari bolaloca akan disimpan ke sch.json, kemudian semua file akan mengisi servernya dan logo, data logo bisa diambil dari streamcenter.
+jika streamcenter memiliki jadwal yang belum ada pada sch.json, maka jadwal tersebut akan disimpan ke sch.json, kemudian akan diisi server dari file json lainnya.
+
+flashscore_home tidak akan digunakan.
+
+untuk jadwal yang tidak memiliki logo, bisa menggunakan alternatif lain, gunakan logo dari github di bawah.
+https://github.com/sendyarf/logos/tree/main/Logos
+contoh
+https://github.com/sendyarf/logos/blob/main/Logos/ac-milan.png
+https://github.com/sendyarf/logos/blob/main/Logos/ajax.png
+
+pencocokan jadwal masih sama seperti sebelumnya, menggunakan manual_mapping, fuzzywuzzy, serta pencocokan dari nama liga, nama tim, tanggal, dan jam, jika memungkinkan.

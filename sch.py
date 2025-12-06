@@ -13,14 +13,19 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # ============================================
 # DATA SOURCES DOCUMENTATION
 # ============================================
-# manual_mapping.json    - Normalization for team & league names
-# manual_sch.json       - Can add servers to existing OR create new schedules
-# flashscore.json       - Primary source (has logo, league, date)
-# bolaloca.json         - Missing logos, has league & date
-# streamcenter.json     - Different league names, teams often swapped, has logo & date
-# sportsonline.json     - Missing logo, league, date (only has time & team names)
-# soco.json             - Only merge servers to existing matches
-# flashscore_home.json  - For enrichment (fill missing logos & league names)
+# Priority Order (Creation & Merging):
+# 1. manual_sch.json    - Highest priority. Create new or merge servers.
+# 2. flashscore.json    - Primary data source. Create new (no servers).
+# 3. bolaloca.json      - Create new or merge servers. No logos (needs enrichment).
+# 4. streamcenter.json  - Create new or merge servers.
+#
+# Merge Only Sources:
+# 5. sportsonline.json  - Only merge servers.
+# 6. soco.json          - Only merge servers.
+#
+# Enrichment:
+# - Logos: Try Streamcenter first, then fallback to GitHub repository.
+# - manual_mapping.json - Normalization for team & league names.
 
 # ============================================
 # NORMALIZATION FUNCTIONS
@@ -39,6 +44,19 @@ def normalize_text(text):
     # Remove all non-alphanumeric characters
     text = re.sub(r'[^a-z0-9]', '', text)
     return text
+
+def slugify(text):
+    """Create a slug for GitHub URL (e.g., 'AC Milan' -> 'ac-milan')"""
+    if not text:
+        return ""
+    text = unicodedata.normalize('NFD', text)
+    text = ''.join(char for char in text if unicodedata.category(char) != 'Mn')
+    text = text.lower()
+    # Replace non-alphanumeric (except hyphens) with space first to handle separators
+    text = re.sub(r'[^a-z0-9-]', ' ', text)
+    # Replace spaces with hyphens
+    text = re.sub(r'\s+', '-', text)
+    return text.strip('-')
 
 # ============================================
 # MANUAL MAPPING DICTIONARIES
@@ -167,108 +185,97 @@ def create_composite_key(match):
 # DATA ENRICHMENT FUNCTION
 # ============================================
 
-def enrich_with_flashscore_home(matches, home_data):
+def enrich_logos(matches, streamcenter_data):
     """
-    Fill missing data (logos, league names) using Flashscore home data.
-    - bolaloca.json needs logos
-    - sportsonline.json needs logos (and league, but we don't overwrite existing)
-    Matches primarily on Team Names with fuzzy matching.
+    Enrich missing logos.
+    1. Try to find logo in Streamcenter data.
+    2. Fallback to GitHub repository.
     """
-    print("\nEnriching data using Flashscore home data...")
+    print("\nEnriching logos...")
     
-    # Pre-process home_data into a dictionary for faster lookup
-    # Key: sorted normalized team names
-    home_lookup = {}
-    for item in home_data:
-        t1 = normalize_team_name(item['team1']['name'])
-        t2 = normalize_team_name(item['team2']['name'])
-        if t1 and t2:
-            teams_key = '-'.join(sorted([t1, t2]))
-            home_lookup[teams_key] = item
+    # Pre-process streamcenter data for faster lookup
+    sc_lookup = {}
+    if streamcenter_data:
+        for item in streamcenter_data:
+            t1 = normalize_team_name(item['team1']['name'])
+            t2 = normalize_team_name(item['team2']['name'])
+            if t1 and t2:
+                teams_key = '-'.join(sorted([t1, t2]))
+                sc_lookup[teams_key] = item
 
     enriched_count = 0
+    github_fallback_count = 0
     
     for match in matches:
-        # Create key for this match
+        # Check if logos are missing
+        t1_missing = not match['team1'].get('logo')
+        t2_missing = not match['team2'].get('logo')
+        
+        if not t1_missing and not t2_missing:
+            continue
+            
         mt1 = normalize_team_name(match['team1']['name'])
         mt2 = normalize_team_name(match['team2']['name'])
         
-        if not mt1 or not mt2:
-            continue
-            
+        # 1. Try Streamcenter Lookup
+        sc_item = None
         match_teams_key = '-'.join(sorted([mt1, mt2]))
         
-        # Try direct lookup first
-        home_item = home_lookup.get(match_teams_key)
+        # Direct lookup
+        sc_item = sc_lookup.get(match_teams_key)
         
-        # If not found, try fuzzy matching
-        if not home_item:
-            for key, item in home_lookup.items():
+        # Fuzzy lookup if direct failed
+        if not sc_item and streamcenter_data:
+             for key, item in sc_lookup.items():
                 if fuzzy_match_teams(
                     match['team1']['name'], match['team2']['name'],
                     item['team1']['name'], item['team2']['name'],
                     threshold=80
                 ):
-                    home_item = item
+                    sc_item = item
                     break
         
-        if home_item:
-            enriched = False
+        if sc_item:
+            # Determine alignment
+            ht1 = normalize_team_name(sc_item['team1']['name'])
+            ht2 = normalize_team_name(sc_item['team2']['name'])
             
-            # Determine team alignment (direct or reversed)
-            ht1 = normalize_team_name(home_item['team1']['name'])
-            ht2 = normalize_team_name(home_item['team2']['name'])
-            
-            # Check if teams are aligned (direct) or reversed
             sim_direct_t1 = calculate_similarity(mt1, ht1)
             sim_direct_t2 = calculate_similarity(mt2, ht2)
             sim_rev_t1 = calculate_similarity(mt1, ht2)
             sim_rev_t2 = calculate_similarity(mt2, ht1)
             
             if (sim_direct_t1 + sim_direct_t2) >= (sim_rev_t1 + sim_rev_t2):
-                # Direct alignment: match.team1 = home.team1, match.team2 = home.team2
-                source_t1, source_t2 = home_item['team1'], home_item['team2']
+                source_t1, source_t2 = sc_item['team1'], sc_item['team2']
             else:
-                # Reversed alignment: match.team1 = home.team2, match.team2 = home.team1
-                source_t1, source_t2 = home_item['team2'], home_item['team1']
-            
-            # Fill missing logos for team1 (needed for bolaloca.json & sportsonline.json)
-            if not match['team1'].get('logo') and source_t1.get('logo'):
+                source_t1, source_t2 = sc_item['team2'], sc_item['team1']
+                
+            if t1_missing and source_t1.get('logo'):
                 match['team1']['logo'] = source_t1['logo']
-                enriched = True
+                t1_missing = False # Resolved
+                enriched_count += 1
                 
-            # Fill missing logos for team2
-            if not match['team2'].get('logo') and source_t2.get('logo'):
+            if t2_missing and source_t2.get('logo'):
                 match['team2']['logo'] = source_t2['logo']
-                enriched = True
-            
-            # Enrich league name if flashscore_home has more complete info
-            match_league = match.get('league', '')
-            home_league = home_item.get('league', '')
-            
-            if home_league and match_league:
-                # Normalize for comparison
-                norm_match_league = normalize_text(match_league)
-                norm_home_league = normalize_text(home_league)
-                
-                # If home league is more specific (contains match league)
-                # e.g., "Euroleague" vs "EUROPE - Euroleague"
-                if (norm_match_league in norm_home_league and 
-                    len(home_league) > len(match_league)):
-                    # Format the league nicely
-                    formatted_league = ' - '.join(part.strip().title() for part in home_league.split(' - '))
-                    match['league'] = formatted_league
-                    enriched = True
-            elif home_league and not match_league:
-                # If match has no league (sportsonline.json), use home league
-                formatted_league = ' - '.join(part.strip().title() for part in home_league.split(' - '))
-                match['league'] = formatted_league
-                enriched = True
-            
-            if enriched:
+                t2_missing = False # Resolved
                 enriched_count += 1
 
-    print(f"✅ Enriched {enriched_count} matches with additional metadata.")
+        # 2. Fallback to GitHub if still missing
+        if t1_missing:
+            # Use display name if available, otherwise original name
+            display_name = get_display_team_name(match['team1']['name']) or match['team1']['name']
+            slug = slugify(display_name)
+            match['team1']['logo'] = f"https://raw.githubusercontent.com/sendyarf/logos/main/Logos/{slug}.png"
+            github_fallback_count += 1
+            
+        if t2_missing:
+            display_name = get_display_team_name(match['team2']['name']) or match['team2']['name']
+            slug = slugify(display_name)
+            match['team2']['logo'] = f"https://raw.githubusercontent.com/sendyarf/logos/main/Logos/{slug}.png"
+            github_fallback_count += 1
+
+    print(f"✅ Enriched {enriched_count} logos from Streamcenter.")
+    print(f"✅ Applied {github_fallback_count} GitHub logo fallbacks.")
     return matches
 
 # ============================================
@@ -278,12 +285,6 @@ def enrich_with_flashscore_home(matches, home_data):
 def find_matching_entry(match, merged_dict, allow_time_only=False):
     """
     Find if a match already exists in merged dictionary.
-    
-    Args:
-        match: The match to find
-        merged_dict: Dictionary of existing matches
-        allow_time_only: If True, allow matching by time + teams only 
-                        (for sportsonline.json which has no date)
     """
     composite_key = create_composite_key(match)
     if composite_key in merged_dict:
@@ -296,16 +297,16 @@ def find_matching_entry(match, merged_dict, allow_time_only=False):
         existing_date = existing_match.get('kickoff_date', '')
         existing_time = existing_match.get('kickoff_time', '')
         
-        # Strict Date/Time match -> Fuzzy Team match (when both have dates)
+        # Strict Date/Time match -> Fuzzy Team match
         if match_date and existing_date and match_date == existing_date and match_time == existing_time:
             if fuzzy_match_teams(
                 match['team1']['name'], match['team2']['name'],
                 existing_match['team1']['name'], existing_match['team2']['name'],
-                threshold=50  # Lower threshold for exact date/time match
+                threshold=50
             ):
                 return existing_key
         
-        # Fuzzy Time match (±15 mins) -> Fuzzy Team match (when both have dates)
+        # Fuzzy Time match (±15 mins)
         if match_date and existing_date and match_date == existing_date:
             if match_time and existing_time:
                 try:
@@ -324,7 +325,7 @@ def find_matching_entry(match, merged_dict, allow_time_only=False):
                 except:
                     pass
         
-        # Match by Time + Teams only (for sportsonline.json which has no date)
+        # Match by Time + Teams only (for sportsonline.json)
         if allow_time_only and (not match_date or not existing_date) and match_time and existing_time:
             try:
                 from datetime import datetime
@@ -332,19 +333,17 @@ def find_matching_entry(match, merged_dict, allow_time_only=False):
                 t2 = datetime.strptime(existing_time, "%H:%M")
                 diff_minutes = abs((t1 - t2).total_seconds() / 60)
                 
-                # Same time or very close (±5 mins for higher confidence)
                 if diff_minutes <= 5:
                     if fuzzy_match_teams(
                         match['team1']['name'], match['team2']['name'],
                         existing_match['team1']['name'], existing_match['team2']['name'],
-                        threshold=85  # Higher threshold since no date verification
+                        threshold=85
                     ):
                         return existing_key
             except:
                 pass
 
         # Match by Date + Strong Team Match (Relaxed Time)
-        # Handles timezone differences or slightly different times
         if match_date and existing_date and match_date == existing_date:
              if match_time and existing_time:
                 try:
@@ -353,7 +352,6 @@ def find_matching_entry(match, merged_dict, allow_time_only=False):
                     t2 = datetime.strptime(existing_time, "%H:%M")
                     diff_minutes = abs((t1 - t2).total_seconds() / 60)
                     
-                    # Allow up to 3 hours difference if teams match strongly
                     if diff_minutes <= 180:
                         if fuzzy_match_teams(
                             match['team1']['name'], match['team2']['name'],
@@ -380,16 +378,12 @@ def load_json_safe(filename):
 def merge_servers(existing_match, new_servers, existing_urls, prepend=False):
     """
     Merge servers into existing match.
-    
-    Args:
-        existing_match: The match to merge servers into
-        new_servers: List of new servers to add
-        existing_urls: Set of existing server URLs (for dedup)
-        prepend: If True, add servers at start (for manual_sch.json priority)
     """
     if prepend:
         unique_new = [s for s in new_servers if s['url'] not in existing_urls]
         existing_match['servers'] = unique_new + existing_match.get('servers', [])
+        for s in unique_new:
+            existing_urls.add(s['url'])
     else:
         for server in new_servers:
             if server['url'] not in existing_urls:
@@ -400,25 +394,21 @@ def main():
     print("Starting schedule merge...")
     print("=" * 50)
     
-    # Load Flashscore Data
-    flashscore_detailed = load_json_safe('flashscore.json')
-    flashscore_home = load_json_safe('flashscore_home.json')
-
-    # Clean Flashscore Home Data (remove "Preview" from time)
-    if isinstance(flashscore_home, list):
-        for item in flashscore_home:
-            if item.get('kickoff_time'):
-                item['kickoff_time'] = item['kickoff_time'].replace('Preview', '').strip()
-
+    # Load Data
+    manual_sch = load_json_safe('manual_sch.json')
+    flashscore = load_json_safe('flashscore.json')
+    bolaloca = load_json_safe('bolaloca.json')
+    streamcenter = load_json_safe('streamcenter.json')
+    
     # ============================================
-    # PHASE 1: Primary Sources (can create new schedules)
+    # PHASE 1: Primary Sources (Create & Merge)
     # ============================================
-    # Priority order: manual_sch -> flashscore -> bolaloca -> streamcenter
+    # Priority: manual_sch -> flashscore -> bolaloca -> streamcenter
     primary_sources = [
-        ('manual_sch.json', load_json_safe('manual_sch.json'), True),  # prepend servers
-        ('flashscore.json', flashscore_detailed, False),
-        ('bolaloca.json', load_json_safe('bolaloca.json'), False),
-        ('streamcenter.json', load_json_safe('streamcenter.json'), False),
+        ('manual_sch.json', manual_sch, True),  # prepend servers
+        ('flashscore.json', flashscore, False),
+        ('bolaloca.json', bolaloca, False),
+        ('streamcenter.json', streamcenter, False),
     ]
     
     merged_data = {}
@@ -441,7 +431,7 @@ def main():
                 
                 merge_servers(existing_match, new_servers, existing_urls, prepend=prepend_servers)
                             
-                # Update metadata if missing
+                # Update metadata if missing (e.g. time/date)
                 if not existing_match.get('kickoff_time') and match.get('kickoff_time'):
                     existing_match['kickoff_time'] = match['kickoff_time']
                 if not existing_match.get('kickoff_date') and match.get('kickoff_date'):
@@ -455,30 +445,25 @@ def main():
                 merged_data[key] = match
 
     # ============================================
-    # PHASE 2: sportsonline.json (merge servers only, no date available)
+    # PHASE 2: Merge Only Sources
     # ============================================
+    
+    # sportsonline.json (no date)
     sportsonline_data = load_json_safe('sportsonline.json')
-    print(f"Processing sportsonline.json ({len(sportsonline_data)} matches) - Server merge only (no date)...")
+    print(f"Processing sportsonline.json ({len(sportsonline_data)} matches) - Server merge only...")
     sportsonline_merged = 0
     if isinstance(sportsonline_data, list):
         for match in sportsonline_data:
-            # Use time-only matching since sportsonline has no date
             existing_key = find_matching_entry(match, merged_data, allow_time_only=True)
             if existing_key:
                 existing_match = merged_data[existing_key]
                 existing_urls = {s['url'] for s in existing_match.get('servers', [])}
                 new_servers = match.get('servers', [])
-                
-                for server in new_servers:
-                    if server['url'] not in existing_urls:
-                        existing_match.setdefault('servers', []).append(server)
-                        existing_urls.add(server['url'])
-                        sportsonline_merged += 1
+                merge_servers(existing_match, new_servers, existing_urls)
+                sportsonline_merged += 1
     print(f"  ✅ Merged {sportsonline_merged} servers from sportsonline.json")
 
-    # ============================================
-    # PHASE 3: soco.json (server-only source)
-    # ============================================
+    # soco.json
     soco_data = load_json_safe('soco.json')
     print(f"Processing soco.json ({len(soco_data)} matches) - Server merge only...")
     soco_merged = 0
@@ -489,26 +474,20 @@ def main():
                 existing_match = merged_data[existing_key]
                 existing_urls = {s['url'] for s in existing_match.get('servers', [])}
                 new_servers = match.get('servers', [])
-                
-                for server in new_servers:
-                    if server['url'] not in existing_urls:
-                        existing_match.setdefault('servers', []).append(server)
-                        existing_urls.add(server['url'])
-                        soco_merged += 1
+                merge_servers(existing_match, new_servers, existing_urls)
+                soco_merged += 1
     print(f"  ✅ Merged {soco_merged} servers from soco.json")
 
     # Convert to list
     final_data = list(merged_data.values())
     
     # ============================================
-    # PHASE 4: Enrich with Flashscore Home (logos & leagues)
+    # PHASE 3: Enrich Logos (Streamcenter -> GitHub)
     # ============================================
-    # This fills missing logos (bolaloca, sportsonline) and enriches league names
-    if isinstance(flashscore_home, list) and flashscore_home:
-        final_data = enrich_with_flashscore_home(final_data, flashscore_home)
+    final_data = enrich_logos(final_data, streamcenter)
         
     # ============================================
-    # PHASE 5: Apply Manual Mapping for Display
+    # PHASE 4: Apply Manual Mapping for Display
     # ============================================
     print("\nApplying manual mapping for display names...")
     for match in final_data:
@@ -525,7 +504,7 @@ def main():
             match['team2']['name'] = get_display_team_name(match['team2']['name'])
 
     # ============================================
-    # PHASE 6: Filter matches with missing date/time
+    # PHASE 5: Filter matches with missing date/time
     # ============================================
     print("\nFiltering matches with missing date or time...")
     original_count = len(final_data)
@@ -538,7 +517,7 @@ def main():
         print(f"⚠️  Filtered out {filtered_count} matches with missing date/time.")
 
     # ============================================
-    # PHASE 7: Save output
+    # PHASE 6: Save output
     # ============================================
     with open('sch.json', 'w', encoding='utf-8') as f:
         json.dump(final_data, f, indent=2, ensure_ascii=False)
