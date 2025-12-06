@@ -74,6 +74,10 @@
     "match_time": "22:00",
     "duration": "3.5",
     "servers": [
+        {
+        "url": "https://multi.govoet.my.id/?hls=psn2",
+        "label": "CH-MN"
+      },
       {
         "url": "https://multi.govoet.my.id/?shaka=fubo",
         "label": "CH-EN"
@@ -81,6 +85,37 @@
       {
         "url": "https://multi.govoet.my.id/?shaka=skypl",
         "label": "CH-EN"
+      }
+    ]
+  },
+    {
+    "id": "Leeds-Liverpool",
+    "league": "England - Premier League",
+    "team1": {
+      "name": "Leeds",
+      "logo": "https://static.flashscore.com/res/image/data/lvs4WW5k-MTp25XgE.png"
+    },
+    "team2": {
+      "name": "Liverpool",
+      "logo": "https://static.flashscore.com/res/image/data/nBClzyne-KCp4zq5F.png"
+    },
+    "kickoff_date": "2025-12-07",
+    "kickoff_time": "00:30",
+    "match_date": "2025-12-07",
+    "match_time": "00:30",
+    "duration": "3.5",
+    "servers": [
+        {
+        "url": "https://multi.govoet.my.id/?hls=psn2",
+        "label": "CH-MN"
+      },
+       {
+        "url": "https://multi.govoet.my.id/?shaka=skypl",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?shaka=universow",
+        "label": "CH-ES"
       }
     ]
   }
