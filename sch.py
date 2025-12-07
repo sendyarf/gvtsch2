@@ -185,11 +185,11 @@ def create_composite_key(match):
 # DATA ENRICHMENT FUNCTION
 # ============================================
 
-def enrich_logos(matches, streamcenter_data):
+def enrich_logos(matches, streamcenter_data, flashscore_home_data):
     """
     Enrich missing logos.
     1. Try to find logo in Streamcenter data.
-    2. Fallback to GitHub repository.
+    2. Try to find logo in Flashscore Home data.
     """
     print("\nEnriching logos...")
     
@@ -203,8 +203,18 @@ def enrich_logos(matches, streamcenter_data):
                 teams_key = '-'.join(sorted([t1, t2]))
                 sc_lookup[teams_key] = item
 
-    enriched_count = 0
-    github_fallback_count = 0
+    # Pre-process flashscore_home data
+    fh_lookup = {}
+    if flashscore_home_data:
+        for item in flashscore_home_data:
+            t1 = normalize_team_name(item['team1']['name'])
+            t2 = normalize_team_name(item['team2']['name'])
+            if t1 or t2:
+                teams_key = '-'.join(sorted([t1, t2]))
+                fh_lookup[teams_key] = item
+
+    enriched_count_sc = 0
+    enriched_count_fh = 0
     
     for match in matches:
         # Check if logos are missing
@@ -216,29 +226,50 @@ def enrich_logos(matches, streamcenter_data):
             
         mt1 = normalize_team_name(match['team1']['name'])
         mt2 = normalize_team_name(match['team2']['name'])
-        
-        # 1. Try Streamcenter Lookup
-        sc_item = None
         match_teams_key = '-'.join(sorted([mt1, mt2]))
         
-        # Direct lookup
-        sc_item = sc_lookup.get(match_teams_key)
+        # 1. Try Streamcenter Lookup
+        source_item = None
+        source_name = ""
         
-        # Fuzzy lookup if direct failed
-        if not sc_item and streamcenter_data:
+        # Direct lookup SC
+        if sc_lookup.get(match_teams_key):
+            source_item = sc_lookup.get(match_teams_key)
+            source_name = "sc"
+        # Fuzzy lookup SC
+        elif streamcenter_data:
              for key, item in sc_lookup.items():
                 if fuzzy_match_teams(
                     match['team1']['name'], match['team2']['name'],
                     item['team1']['name'], item['team2']['name'],
                     threshold=80
                 ):
-                    sc_item = item
+                    source_item = item
+                    source_name = "sc"
                     break
         
-        if sc_item:
+        # 2. Try Flashscore Home Lookup if not found in SC
+        if not source_item:
+            # Direct lookup FH
+            if fh_lookup.get(match_teams_key):
+                source_item = fh_lookup.get(match_teams_key)
+                source_name = "fh"
+            # Fuzzy lookup FH
+            elif flashscore_home_data:
+                 for key, item in fh_lookup.items():
+                    if fuzzy_match_teams(
+                        match['team1']['name'], match['team2']['name'],
+                        item['team1']['name'], item['team2']['name'],
+                        threshold=80
+                    ):
+                        source_item = item
+                        source_name = "fh"
+                        break
+
+        if source_item:
             # Determine alignment
-            ht1 = normalize_team_name(sc_item['team1']['name'])
-            ht2 = normalize_team_name(sc_item['team2']['name'])
+            ht1 = normalize_team_name(source_item['team1']['name'])
+            ht2 = normalize_team_name(source_item['team2']['name'])
             
             sim_direct_t1 = calculate_similarity(mt1, ht1)
             sim_direct_t2 = calculate_similarity(mt2, ht2)
@@ -246,36 +277,29 @@ def enrich_logos(matches, streamcenter_data):
             sim_rev_t2 = calculate_similarity(mt2, ht1)
             
             if (sim_direct_t1 + sim_direct_t2) >= (sim_rev_t1 + sim_rev_t2):
-                source_t1, source_t2 = sc_item['team1'], sc_item['team2']
+                source_t1, source_t2 = source_item['team1'], source_item['team2']
             else:
-                source_t1, source_t2 = sc_item['team2'], sc_item['team1']
+                source_t1, source_t2 = source_item['team2'], source_item['team1']
                 
+            updated = False
             if t1_missing and source_t1.get('logo'):
                 match['team1']['logo'] = source_t1['logo']
-                t1_missing = False # Resolved
-                enriched_count += 1
+                t1_missing = False
+                updated = True
                 
             if t2_missing and source_t2.get('logo'):
                 match['team2']['logo'] = source_t2['logo']
-                t2_missing = False # Resolved
-                enriched_count += 1
-
-        # 2. Fallback to GitHub if still missing
-        if t1_missing:
-            # Use display name if available, otherwise original name
-            display_name = get_display_team_name(match['team1']['name']) or match['team1']['name']
-            slug = slugify(display_name)
-            match['team1']['logo'] = f"https://raw.githubusercontent.com/sendyarf/logos/main/Logos/{slug}.png"
-            github_fallback_count += 1
+                t2_missing = False
+                updated = True
             
-        if t2_missing:
-            display_name = get_display_team_name(match['team2']['name']) or match['team2']['name']
-            slug = slugify(display_name)
-            match['team2']['logo'] = f"https://raw.githubusercontent.com/sendyarf/logos/main/Logos/{slug}.png"
-            github_fallback_count += 1
+            if updated:
+                if source_name == "sc":
+                    enriched_count_sc += 1
+                else:
+                    enriched_count_fh += 1
 
-    print(f"✅ Enriched {enriched_count} logos from Streamcenter.")
-    print(f"✅ Applied {github_fallback_count} GitHub logo fallbacks.")
+    print(f"✅ Enriched {enriched_count_sc} matches from Streamcenter.")
+    print(f"✅ Enriched {enriched_count_fh} matches from Flashscore Home.")
     return matches
 
 # ============================================
@@ -399,6 +423,7 @@ def main():
     flashscore = load_json_safe('flashscore.json')
     bolaloca = load_json_safe('bolaloca.json')
     streamcenter = load_json_safe('streamcenter.json')
+    flashscore_home = load_json_safe('flashscore_home.json')
     
     # ============================================
     # PHASE 1: Primary Sources (Create & Merge)
@@ -482,9 +507,9 @@ def main():
     final_data = list(merged_data.values())
     
     # ============================================
-    # PHASE 3: Enrich Logos (Streamcenter -> GitHub)
+    # PHASE 3: Enrich Logos (Streamcenter -> Flashscore Home)
     # ============================================
-    final_data = enrich_logos(final_data, streamcenter)
+    final_data = enrich_logos(final_data, streamcenter, flashscore_home)
         
     # ============================================
     # PHASE 4: Apply Manual Mapping for Display
