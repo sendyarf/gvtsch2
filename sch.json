@@ -566,64 +566,6 @@
     "servers": []
   },
   {
-    "id": "LosAngelesLakers-SanAntonioSpurs",
-    "league": "Nba Cup",
-    "team1": {
-      "name": "Los Angeles Lakers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png"
-    },
-    "team2": {
-      "name": "San Antonio Spurs",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png"
-    },
-    "kickoff_date": "2025-12-11",
-    "kickoff_time": "10:00",
-    "match_date": "2025-12-11",
-    "match_time": "10:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=181",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY2LnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd2",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "SeattleKraken-LosAngelesKings",
-    "league": "USA - NHL",
-    "team1": {
-      "name": "Seattle Kraken",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png"
-    },
-    "team2": {
-      "name": "Los Angeles Kings",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png"
-    },
-    "kickoff_date": "2025-12-11",
-    "kickoff_time": "10:00",
-    "match_date": "2025-12-11",
-    "match_time": "10:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=193",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUzLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "UFCFightNightBrandonRoyval-ManelKape",
     "league": "Fight Mma",
     "team1": {
@@ -1551,24 +1493,51 @@
     ]
   },
   {
-    "id": "FloridaPanthers-UtahMammoth",
-    "league": "Hockey",
+    "id": "SanAntonioSpurs-LosAngelesLakers",
+    "league": "Basketball",
     "team1": {
-      "name": "Florida Panthers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png"
+      "name": "San Antonio Spurs",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png"
     },
     "team2": {
-      "name": "Utah Mammoth",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png"
+      "name": "Los Angeles Lakers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png"
     },
     "kickoff_date": "2025-12-11",
-    "kickoff_time": "09:00",
+    "kickoff_time": "10:00",
     "match_date": "2025-12-11",
-    "match_time": "09:00",
+    "match_time": "10:00",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUyLnBocA==",
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY2LnBocA==",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=hd2",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "LosAngelesKings-SeattleKraken",
+    "league": "Hockey",
+    "team1": {
+      "name": "Los Angeles Kings",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png"
+    },
+    "team2": {
+      "name": "Seattle Kraken",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png"
+    },
+    "kickoff_date": "2025-12-11",
+    "kickoff_time": "10:00",
+    "match_date": "2025-12-11",
+    "match_time": "10:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUzLnBocA==",
         "label": "CH-EN"
       }
     ]
