@@ -1537,33 +1537,6 @@
     "servers": []
   },
   {
-    "id": "UtahMammoth-SeattleKraken",
-    "league": "USA - NHL",
-    "team1": {
-      "name": "Utah Mammoth",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png"
-    },
-    "team2": {
-      "name": "Seattle Kraken",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png"
-    },
-    "kickoff_date": "2025-12-13",
-    "kickoff_time": "09:00",
-    "match_date": "2025-12-13",
-    "match_time": "09:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=181",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "GoldenStateWarriors-MinnesotaTimberwolves",
     "league": "USA - NBA",
     "team1": {
@@ -2691,6 +2664,29 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "SeattleKraken-UtahMammoth",
+    "league": "Hockey",
+    "team1": {
+      "name": "Seattle Kraken",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png"
+    },
+    "team2": {
+      "name": "Utah Mammoth",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png"
+    },
+    "kickoff_date": "2025-12-13",
+    "kickoff_time": "09:00",
+    "match_date": "2025-12-13",
+    "match_time": "09:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
         "label": "CH-EN"
       }
     ]
