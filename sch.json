@@ -137,45 +137,6 @@
     "servers": []
   },
   {
-    "id": "DenverNuggets-HoustonRockets",
-    "league": "USA - NBA",
-    "team1": {
-      "name": "Denver Nuggets",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png"
-    },
-    "team2": {
-      "name": "Houston Rockets",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png"
-    },
-    "kickoff_date": "2025-12-16",
-    "kickoff_time": "09:30",
-    "match_date": "2025-12-16",
-    "match_time": "09:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=169",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=83",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY4LnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br6",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
     "id": "LosAngelesClippers-MemphisGrizzlies",
     "league": "USA - NBA",
     "team1": {
@@ -1284,6 +1245,33 @@
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU1LnBocA==",
         "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "HoustonRockets-DenverNuggets",
+    "league": "Basketball",
+    "team1": {
+      "name": "Houston Rockets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png"
+    },
+    "team2": {
+      "name": "Denver Nuggets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png"
+    },
+    "kickoff_date": "2025-12-16",
+    "kickoff_time": "09:30",
+    "match_date": "2025-12-16",
+    "match_time": "09:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY4LnBocA==",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=br6",
+        "label": "CH-1"
       }
     ]
   },
