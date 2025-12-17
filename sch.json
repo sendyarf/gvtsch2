@@ -67,60 +67,6 @@
     ]
   },
   {
-    "id": "SanJoseSharks-CalgaryFlames",
-    "league": "USA - NHL",
-    "team1": {
-      "name": "San Jose Sharks",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png"
-    },
-    "team2": {
-      "name": "Calgary Flames",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png"
-    },
-    "kickoff_date": "2025-12-17",
-    "kickoff_time": "10:00",
-    "match_date": "2025-12-17",
-    "match_time": "10:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=169",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU4LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "SeattleKraken-ColoradoAvalanche",
-    "league": "USA - NHL",
-    "team1": {
-      "name": "Seattle Kraken",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png"
-    },
-    "team2": {
-      "name": "Colorado Avalanche",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png"
-    },
-    "kickoff_date": "2025-12-17",
-    "kickoff_time": "10:00",
-    "match_date": "2025-12-17",
-    "match_time": "10:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=170",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU5LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "SacramentoKings-PortlandTrailBlazers",
     "league": "Basketball",
     "team1": {
@@ -978,6 +924,52 @@
     ]
   },
   {
+    "id": "CalgaryFlames-SanJoseSharks",
+    "league": "Hockey",
+    "team1": {
+      "name": "Calgary Flames",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png"
+    },
+    "team2": {
+      "name": "San Jose Sharks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png"
+    },
+    "kickoff_date": "2025-12-17",
+    "kickoff_time": "10:00",
+    "match_date": "2025-12-17",
+    "match_time": "10:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU4LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "ColoradoAvalanche-SeattleKraken",
+    "league": "Hockey",
+    "team1": {
+      "name": "Colorado Avalanche",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png"
+    },
+    "team2": {
+      "name": "Seattle Kraken",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png"
+    },
+    "kickoff_date": "2025-12-17",
+    "kickoff_time": "10:00",
+    "match_date": "2025-12-17",
+    "match_time": "10:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU5LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
     "id": "TroyTrojans-JacksonvilleStateGamecocks",
     "league": "Ncaa Division",
     "team1": {
@@ -996,29 +988,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "SanAntonioSpurs-NewYorkKnicks",
-    "league": "Basketball",
-    "team1": {
-      "name": "San Antonio Spurs",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png"
-    },
-    "team2": {
-      "name": "New York Knicks",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png"
-    },
-    "kickoff_date": "2025-12-17",
-    "kickoff_time": "08:30",
-    "match_date": "2025-12-17",
-    "match_time": "08:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
         "label": "CH-EN"
       }
     ]
