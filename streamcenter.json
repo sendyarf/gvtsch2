@@ -805,52 +805,6 @@
     ]
   },
   {
-    "id": "CarolinaHurricanes-FloridaPanthers",
-    "league": "Hockey",
-    "team1": {
-      "name": "Carolina Hurricanes",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png"
-    },
-    "team2": {
-      "name": "Florida Panthers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png"
-    },
-    "kickoff_date": "2025-12-20",
-    "kickoff_time": "07:00",
-    "match_date": "2025-12-20",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "VancouverCanucks-NewYorkIslanders",
-    "league": "Hockey",
-    "team1": {
-      "name": "Vancouver Canucks",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png"
-    },
-    "team2": {
-      "name": "New York Islanders",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png"
-    },
-    "kickoff_date": "2025-12-20",
-    "kickoff_time": "07:00",
-    "match_date": "2025-12-20",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "MiamiHeat-BostonCeltics",
     "league": "Basketball",
     "team1": {
@@ -892,6 +846,52 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY2LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "CarolinaHurricanes-FloridaPanthers",
+    "league": "Hockey",
+    "team1": {
+      "name": "Carolina Hurricanes",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png"
+    },
+    "team2": {
+      "name": "Florida Panthers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png"
+    },
+    "kickoff_date": "2025-12-20",
+    "kickoff_time": "07:00",
+    "match_date": "2025-12-20",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "VancouverCanucks-NewYorkIslanders",
+    "league": "Hockey",
+    "team1": {
+      "name": "Vancouver Canucks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png"
+    },
+    "team2": {
+      "name": "New York Islanders",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png"
+    },
+    "kickoff_date": "2025-12-20",
+    "kickoff_time": "07:00",
+    "match_date": "2025-12-20",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
         "label": "CH-EN"
       }
     ]
@@ -1532,29 +1532,6 @@
     "kickoff_time": "23:00",
     "match_date": "2025-12-18",
     "match_time": "23:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "UnitedArabEmirates-SaudiArabia",
-    "league": "Football",
-    "team1": {
-      "name": "United Arab Emirates",
-      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAZlBMVEX///8AAAAAmQDWAAHc3NwAoAAAlwBGrEZSUlKxsbFEAADfAAHbAAGiQgEAmwAAhACiAAHjaGnw8PBIAADoAAGpRQEApwAAigCsSR08tEo9lD3k4OTnbm7j4+OvISFJVlZHR0epAAE86qrmAAABLElEQVR4nO3dSW4CQRBFQWYz2GAzegbuf0nkNUg0ouVfKiIOUMq3L2V2OgAAAAAAAAAAABVaDupyXjjp1uUxC1frWWPrzXZYsN3lwums39jzy7BXrvlCoUKFaQoVKsxTqFBhnkKFCvMUKlSYp1ChwjyFChXmKVSoME+hQoV5ChUqzFPYsHBUrl4bhe8fTwX7vL+w/3b+QkG+qi8cKFSoME6hQoV5ChUqzFOoUGGeQoUK8xQqVJinUKHCPIUKFeYpVKgwT6FChXkKFf75/v+xb/DTwt/E3/24YIcWCl/TexGvUahQYZ5ChQrzFCpUmKdQocI8hQoV5ilUqDBPoUKFeQoVKsxTqFBhnkKFCvMU1ll40y3ZY7rgmkuFdXnEwvrvcgMAAAAAAAAAAFTgBHTv0r/NjPRXAAAAAElFTkSuQmCC"
-    },
-    "team2": {
-      "name": "Saudi Arabia",
-      "logo": "data:image/png;base64,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"
-    },
-    "kickoff_date": "2025-12-18",
-    "kickoff_time": "18:00",
-    "match_date": "2025-12-18",
-    "match_time": "18:00",
     "duration": "3.5",
     "servers": [
       {
