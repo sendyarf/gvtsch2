@@ -440,118 +440,6 @@
     "servers": []
   },
   {
-    "id": "FloridaPanthers-LosAngelesKings",
-    "league": "USA - NHL",
-    "team1": {
-      "name": "Florida Panthers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png"
-    },
-    "team2": {
-      "name": "Los Angeles Kings",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png"
-    },
-    "kickoff_date": "2025-12-18",
-    "kickoff_time": "07:00",
-    "match_date": "2025-12-18",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=180",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "IndMedellin-AtlNacional",
-    "league": "Copa Colombia",
-    "team1": {
-      "name": "Ind. Medellin",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Atl. Nacional",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-18",
-    "kickoff_time": "07:30",
-    "match_date": "2025-12-18",
-    "match_time": "07:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=81",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "Corinthians-VascodaGama",
-    "league": "Coupe Du Bresil",
-    "team1": {
-      "name": "Corinthians",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Vasco da Gama",
-      "logo": ""
-    },
-    "kickoff_date": "2025-12-18",
-    "kickoff_time": "07:30",
-    "match_date": "2025-12-18",
-    "match_time": "07:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=100",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=94",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br1",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br3",
-        "label": "CH-2"
-      }
-    ]
-  },
-  {
-    "id": "DetroitRedWings-UtahMammoth",
-    "league": "USA - NHL",
-    "team1": {
-      "name": "Detroit Red Wings",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png"
-    },
-    "team2": {
-      "name": "Utah Mammoth",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png"
-    },
-    "kickoff_date": "2025-12-18",
-    "kickoff_time": "07:30",
-    "match_date": "2025-12-18",
-    "match_time": "07:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=181",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "ChicagoBulls-ClevelandCavaliers",
     "league": "USA - NBA",
     "team1": {
@@ -2309,6 +2197,52 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMxLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "UtahMammoth-DetroitRedWings",
+    "league": "Hockey",
+    "team1": {
+      "name": "Utah Mammoth",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png"
+    },
+    "team2": {
+      "name": "Detroit Red Wings",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png"
+    },
+    "kickoff_date": "2025-12-18",
+    "kickoff_time": "07:30",
+    "match_date": "2025-12-18",
+    "match_time": "07:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "LosAngelesKings-FloridaPanthers",
+    "league": "Hockey",
+    "team1": {
+      "name": "Los Angeles Kings",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png"
+    },
+    "team2": {
+      "name": "Florida Panthers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png"
+    },
+    "kickoff_date": "2025-12-18",
+    "kickoff_time": "07:00",
+    "match_date": "2025-12-18",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
         "label": "CH-EN"
       }
     ]
