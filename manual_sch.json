@@ -1,221 +1,27 @@
 [
-
-  
   {
-    "id": "AstonVilla-ManchesterUtd",
-    "league": "England - Premier League",
-    "team1": {
-      "name": "Aston Villa",
-      "logo": "https://static.flashscore.com/res/image/data/UHchCEVH-jwz95gs0.png"
-    },
-    "team2": {
-      "name": "Manchester Utd",
-      "logo": "https://static.flashscore.com/res/image/data/GhGV3qjT-h2pPXz3k.png"
-    },
-    "kickoff_date": "2025-12-21",
-    "kickoff_time": "23:30",
-    "match_date": "2025-12-21",
-    "match_time": "23:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?shaka=psn2",
-        "label": "CH-MN"
-      },
-       {
-        "url": "https://multi.govoet.cc/?hls=psn2",
-        "label": "CH-MN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?shaka=skypl",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?shaka=nbc",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?shaka=telemundo",
-        "label": "CH-ES"
-      }
-    ]
-  },
- 
-  {
-    "id": "Heidenheim-BayernMunich",
-    "league": "Germany - Bundesliga",
-    "team1": {
-      "name": "Heidenheim",
-      "logo": "https://static.flashscore.com/res/image/data/UH4XQKBN-ncNaLxYl.png"
-    },
-    "team2": {
-      "name": "Bayern Munich",
-      "logo": "https://static.flashscore.com/res/image/data/lWGBVoA6-SvLFaVNH.png"
-    },
-    "kickoff_date": "2025-12-21",
-    "kickoff_time": "23:30",
-    "match_date": "2025-12-21",
-    "match_time": "23:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?shaka=bein3aus",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  
-  {
-    "id": "Cagliari-Pisa",
-    "league": "Italy - Serie A",
-    "team1": {
-      "name": "Cagliari",
-      "logo": "https://static.flashscore.com/res/image/data/tSQII3hT-McvX4bye.png"
-    },
-    "team2": {
-      "name": "Pisa",
-      "logo": "https://static.flashscore.com/res/image/data/vPrevkT0-GMOw3SI3.png"
-    },
-    "kickoff_date": "2025-12-21",
-    "kickoff_time": "18:30",
-    "match_date": "2025-12-21",
-    "match_time": "18:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?shaka=bein3aus",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Sassuolo-Torino",
-    "league": "Italy - Serie A",
-    "team1": {
-      "name": "Sassuolo",
-      "logo": "https://static.flashscore.com/res/image/data/QckzxM7k-0lwy4Ij1.png"
-    },
-    "team2": {
-      "name": "Torino",
-      "logo": "https://static.flashscore.com/res/image/data/dhGobOA6-0lwy4Ij1.png"
-    },
-    "kickoff_date": "2025-12-21",
-    "kickoff_time": "21:00",
-    "match_date": "2025-12-21",
-    "match_time": "21:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?shaka=bein3aus",
-        "label": "CH-EN"
-      }
-    ]
-  },
- 
-  {
-    "id": "Girona-AtlMadrid",
-    "league": "Spain - Laliga",
-    "team1": {
-      "name": "Girona",
-      "logo": "https://static.flashscore.com/res/image/data/6mZj79BN-vPm0hQMN.png"
-    },
-    "team2": {
-      "name": "Atl. Madrid",
-      "logo": "https://static.flashscore.com/res/image/data/Kv2QSkhT-nLBjwR1F.png"
-    },
-    "kickoff_date": "2025-12-21",
-    "kickoff_time": "20:00",
-    "match_date": "2025-12-21",
-    "match_time": "20:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?shaka=bein2aus",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?shaka=laliga",
-        "label": "CH-ES"
-      },
-       {
-        "url": "https://multi.govoet.cc/?shaka=skylaliga",
-        "label": "CH-ES"
-      },
-       {
-        "url": "https://multi.govoet.cc/?jw=ziggosp",
-        "label": "CH-NL"
-      }
-    ]
-  },
-  {
-    "id": "Villarreal-Barcelona",
-    "league": "Spain - Laliga",
-    "team1": {
-      "name": "Villarreal",
-      "logo": "https://static.flashscore.com/res/image/data/EBxZSOjT-GSuwY3p9.png"
-    },
-    "team2": {
-      "name": "Barcelona",
-      "logo": "https://static.flashscore.com/res/image/data/jZ8dSYS0-fcDVLdrL.png"
-    },
-    "kickoff_date": "2025-12-21",
-    "kickoff_time": "22:15",
-    "match_date": "2025-12-21",
-    "match_time": "22:15",
-    "duration": "3.5",
-    "servers": [
-       {
-        "url": "https://multi.govoet.cc/?shaka=bein2aus",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?shaka=laliga",
-        "label": "CH-ES"
-      },
-       {
-        "url": "https://multi.govoet.cc/?shaka=skylaliga",
-        "label": "CH-ES"
-      },
-       {
-        "url": "https://multi.govoet.cc/?jw=ziggosp",
-        "label": "CH-NL"
-      }
-    ]
-  },
-
-  {
-    "id": "PersibBandung-FCBhayangkara",
+    "id": "SemenPadang-PersijaJakarta",
     "league": "Indonesia - Super League",
     "team1": {
-      "name": "Persib Bandung",
-      "logo": "https://static.flashscore.com/res/image/data/K0fBknlC-fXN2TGqm.png"
+      "name": "Semen Padang",
+      "logo": "https://static.flashscore.com/res/image/data/bHF9RRA6-K4Cn0tro.png"
     },
     "team2": {
-      "name": "FC Bhayangkara",
-      "logo": "https://static.flashscore.com/res/image/data/0rQnZJmC-UBTLvuxH.png"
+      "name": "Persija Jakarta",
+      "logo": "https://static.flashscore.com/res/image/data/804UVjme-65biHEjh.png"
     },
-    "kickoff_date": "2025-12-21",
+    "kickoff_date": "2025-12-22",
     "kickoff_time": "19:00",
-    "match_date": "2025-12-21",
+    "match_date": "2025-12-22",
     "match_time": "19:00",
     "duration": "3.5",
     "servers": [
+
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly82MDE2YzEyODE0MTAzZTI1NTNmMzU0NDkyZDcxMTM0ZS52LnNtdGNkbnMubmV0L3BsYXkxbm0uaG55b25nc2h1bi5jbi9saXZlLzAxMjdhNTA5MGY2NDM4MzdiYTgyZTFmOGMxZmE0MWIyLm0zdTg/dHhTZWNyZXQ9MjJmNjhjMmM1ODJjZGVlYzNkOGQ1NWQ2YzQ1ZWE3ZGUmdHhUaW1lPTY5NDdlMGJi",
-        "label": "CH-ID"
-      },
-       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9zdHJlYW0udGl0YW5saXZlc2NvcmUuY29tL2xpdmUvTFhTQ09SRS00ODc5ODc1Lm0zdTg=",
-        "label": "CH-ID"
-      },
-      
-       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly93aWtpc3BvcnQuY2MvcGxheT90b2tlbj05SWtCUHk5MU4zWEx3SkNDRmNZMWtuRnlORnBzWkhRMmJ6ZzRWM0pGV25sck9VZ3lSVFZRVTFKVmVUaGpValphTWtnMGVHdGhiR0pNWVdWVVRUbFhWV2hCYnpVd1psSmlUbWQ0VVVjMU1YSkdaR2xtU1ZsRGNWazNXRTQ=",
+        "url": "https://multi.govoet.my.id/?hls=aHR0cHM6Ly9zdHJlYW0udGl0YW5saXZlc2NvcmUuY29tL2xpdmUvTFhTQ09SRS00ODc5ODc3Lm0zdTg=",
         "label": "CH-ID"
       }
-       
-     
     ]
   }
- 
+  
 ]
