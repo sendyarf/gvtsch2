@@ -23,37 +23,6 @@
     ]
   },
   {
-    "id": "TorontoMapleLeafs-PittsburghPenguins",
-    "league": "USA - NHL",
-    "team1": {
-      "name": "Toronto Maple Leafs",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png"
-    },
-    "team2": {
-      "name": "Pittsburgh Penguins",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/pit.png"
-    },
-    "kickoff_date": "2025-12-24",
-    "kickoff_time": "04:00",
-    "match_date": "2025-12-24",
-    "match_time": "04:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=174",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=89",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "DetroitRedWings-DallasStars",
     "league": "USA - NHL",
     "team1": {
@@ -185,10 +154,6 @@
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU2LnBocA==",
         "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv3",
-        "label": "CH-1"
       }
     ]
   },
@@ -413,14 +378,6 @@
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcxLnBocA==",
         "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv1",
-        "label": "CH-2"
       }
     ]
   },
@@ -529,10 +486,6 @@
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDc0LnBocA==",
         "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv2",
-        "label": "CH-1"
       }
     ]
   },
@@ -1038,6 +991,29 @@
     ]
   },
   {
+    "id": "PittsburghPenguins-TorontoMapleLeafs",
+    "league": "Hockey",
+    "team1": {
+      "name": "Pittsburgh Penguins",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/pit.png"
+    },
+    "team2": {
+      "name": "Toronto Maple Leafs",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png"
+    },
+    "kickoff_date": "2025-12-24",
+    "kickoff_time": "04:00",
+    "match_date": "2025-12-24",
+    "match_time": "04:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
     "id": "CrystalPalace-Arsenal",
     "league": "Football",
     "team1": {
@@ -1057,22 +1033,6 @@
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
         "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd1",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd3",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv3",
-        "label": "CH-3"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br2",
-        "label": "CH-4"
       }
     ]
   }
