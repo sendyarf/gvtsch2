@@ -19,14 +19,6 @@
       {
         "url": "https://multi.govoet.cc/?shaka=fubo2",
         "label": "CH-MN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd4",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br4",
-        "label": "CH-2"
       }
     ]
   },
@@ -46,20 +38,7 @@
     "match_date": "2025-12-31",
     "match_time": "02:30",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd1",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven3",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br2",
-        "label": "CH-3"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "Nottingham-Everton",
@@ -77,12 +56,7 @@
     "match_date": "2025-12-31",
     "match_time": "02:30",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd8",
-        "label": "CH-1"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "WestHam-Brighton",
@@ -100,12 +74,7 @@
     "match_date": "2025-12-31",
     "match_time": "02:30",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd9",
-        "label": "CH-1"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "Arsenal-AstonVilla",
@@ -131,18 +100,6 @@
       {
         "url": "https://multi.govoet.cc/?shaka=skypl",
         "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven2",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br6",
-        "label": "CH-3"
       }
     ]
   },
@@ -162,20 +119,7 @@
     "match_date": "2025-12-31",
     "match_time": "03:15",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd5",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven1",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br5",
-        "label": "CH-3"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "CrystalPalace-Fulham",
@@ -638,6 +582,29 @@
     ]
   },
   {
+    "id": "BuffaloSabres-DallasStars",
+    "league": "Hockey",
+    "team1": {
+      "name": "Buffalo Sabres",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png"
+    },
+    "team2": {
+      "name": "Dallas Stars",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png"
+    },
+    "kickoff_date": "2026-01-01",
+    "kickoff_time": "08:00",
+    "match_date": "2026-01-01",
+    "match_time": "08:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU2LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
     "id": "WashingtonWizards-MilwaukeeBucks",
     "league": "Basketball",
     "team1": {
@@ -684,29 +651,6 @@
       {
         "url": "https://multi.govoet.my.id/?ss=hd2",
         "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "BuffaloSabres-DallasStars",
-    "league": "Hockey",
-    "team1": {
-      "name": "Buffalo Sabres",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png"
-    },
-    "team2": {
-      "name": "Dallas Stars",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png"
-    },
-    "kickoff_date": "2026-01-01",
-    "kickoff_time": "08:00",
-    "match_date": "2026-01-01",
-    "match_time": "08:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU2LnBocA==",
-        "label": "CH-EN"
       }
     ]
   },
@@ -895,29 +839,6 @@
     ]
   },
   {
-    "id": "NebraskaCornhuskers-UtahUtes",
-    "league": "Ncaa Division",
-    "team1": {
-      "name": "Nebraska Cornhuskers",
-      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
-    },
-    "team2": {
-      "name": "Utah Utes",
-      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png"
-    },
-    "kickoff_date": "2026-01-01",
-    "kickoff_time": "03:30",
-    "match_date": "2026-01-01",
-    "match_time": "03:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMzLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "PhoenixSuns-ClevelandCavaliers",
     "league": "Basketball",
     "team1": {
@@ -945,6 +866,52 @@
       {
         "url": "https://multi.govoet.my.id/?ss=sporttv1",
         "label": "CH-2"
+      }
+    ]
+  },
+  {
+    "id": "NebraskaCornhuskers-UtahUtes",
+    "league": "Ncaa Division",
+    "team1": {
+      "name": "Nebraska Cornhuskers",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
+    },
+    "team2": {
+      "name": "Utah Utes",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png"
+    },
+    "kickoff_date": "2026-01-01",
+    "kickoff_time": "03:30",
+    "match_date": "2026-01-01",
+    "match_time": "03:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMzLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "MichiganWolverines-TexasLonghorns",
+    "league": "Ncaa Division",
+    "team1": {
+      "name": "Michigan Wolverines",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
+    },
+    "team2": {
+      "name": "Texas Longhorns",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png"
+    },
+    "kickoff_date": "2026-01-01",
+    "kickoff_time": "03:00",
+    "match_date": "2026-01-01",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMyLnBocA==",
+        "label": "CH-EN"
       }
     ]
   },
@@ -990,29 +957,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY3LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "MichiganWolverines-TexasLonghorns",
-    "league": "Ncaa Division",
-    "team1": {
-      "name": "Michigan Wolverines",
-      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
-    },
-    "team2": {
-      "name": "Texas Longhorns",
-      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png"
-    },
-    "kickoff_date": "2026-01-01",
-    "kickoff_time": "03:00",
-    "match_date": "2026-01-01",
-    "match_time": "03:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMyLnBocA==",
         "label": "CH-EN"
       }
     ]
@@ -1186,29 +1130,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMxLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "CoastalCarolinaChanticleers-LouisianaTechBulldogs",
-    "league": "Ncaa Division",
-    "team1": {
-      "name": "Coastal Carolina Chanticleers",
-      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png"
-    },
-    "team2": {
-      "name": "Louisiana Tech Bulldogs",
-      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png"
-    },
-    "kickoff_date": "2025-12-31",
-    "kickoff_time": "02:00",
-    "match_date": "2025-12-31",
-    "match_time": "02:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMwLnBocA==",
         "label": "CH-EN"
       }
     ]
