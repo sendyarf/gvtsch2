@@ -569,104 +569,6 @@
     "servers": []
   },
   {
-    "id": "Gabon-CotedIvoire",
-    "league": "Can",
-    "team1": {
-      "name": "Gabon",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gab.png"
-    },
-    "team2": {
-      "name": "Ivory Coast",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
-    },
-    "kickoff_date": "2026-01-01",
-    "kickoff_time": "02:00",
-    "match_date": "2026-01-01",
-    "match_time": "02:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=61",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=81",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDExLnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd11",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv3",
-        "label": "CH-2"
-      }
-    ]
-  },
-  {
-    "id": "Mozambique-Cameroun",
-    "league": "Can",
-    "team1": {
-      "name": "Mozambique",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/moz.png"
-    },
-    "team2": {
-      "name": "Cameroon",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/crm.png"
-    },
-    "kickoff_date": "2026-01-01",
-    "kickoff_time": "02:00",
-    "match_date": "2026-01-01",
-    "match_time": "02:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=2",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=50",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=82",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=69",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=125",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEzLnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd10",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv2",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br3",
-        "label": "CH-3"
-      }
-    ]
-  },
-  {
     "id": "AtlantaHawks-MinnesotaTimberwolves",
     "league": "USA - NBA",
     "team1": {
@@ -1238,6 +1140,72 @@
     ]
   },
   {
+    "id": "IvoryCoast-Gabon",
+    "league": "Football",
+    "team1": {
+      "name": "Ivory Coast",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
+    },
+    "team2": {
+      "name": "Gabon",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gab.png"
+    },
+    "kickoff_date": "2026-01-01",
+    "kickoff_time": "02:00",
+    "match_date": "2026-01-01",
+    "match_time": "02:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDExLnBocA==",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=hd11",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=sporttv3",
+        "label": "CH-2"
+      }
+    ]
+  },
+  {
+    "id": "Cameroon-Mozambique",
+    "league": "Football",
+    "team1": {
+      "name": "Cameroon",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/crm.png"
+    },
+    "team2": {
+      "name": "Mozambique",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/moz.png"
+    },
+    "kickoff_date": "2026-01-01",
+    "kickoff_time": "02:00",
+    "match_date": "2026-01-01",
+    "match_time": "02:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEzLnBocA==",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=hd10",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=sporttv2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=br3",
+        "label": "CH-3"
+      }
+    ]
+  },
+  {
     "id": "GoldenStateWarriors-CharlotteHornets",
     "league": "Basketball",
     "team1": {
@@ -1269,52 +1237,6 @@
       {
         "url": "https://multi.govoet.my.id/?ss=br4",
         "label": "CH-3"
-      }
-    ]
-  },
-  {
-    "id": "NewYorkRangers-WashingtonCapitals",
-    "league": "Hockey",
-    "team1": {
-      "name": "New York Rangers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png"
-    },
-    "team2": {
-      "name": "Washington Capitals",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png"
-    },
-    "kickoff_date": "2026-01-01",
-    "kickoff_time": "00:30",
-    "match_date": "2026-01-01",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "IowaHawkeyes-VanderbiltCommodores",
-    "league": "Ncaa Division",
-    "team1": {
-      "name": "Iowa Hawkeyes",
-      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
-    },
-    "team2": {
-      "name": "Vanderbilt Commodores",
-      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png"
-    },
-    "kickoff_date": "2026-01-01",
-    "kickoff_time": "00:00",
-    "match_date": "2026-01-01",
-    "match_time": "00:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMwLnBocA==",
-        "label": "CH-EN"
       }
     ]
   }
