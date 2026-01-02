@@ -27,18 +27,6 @@
       {
         "url": "https://multi.govoet.cc/?shaka=psn1",
         "label": "CH-MN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven3",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br6",
-        "label": "CH-3"
       }
     ]
   },
@@ -70,18 +58,6 @@
       {
         "url": "https://multi.govoet.cc/?jw=psn2hls",
         "label": "CH-MN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd1",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven1",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br2",
-        "label": "CH-3"
       }
     ]
   },
@@ -117,14 +93,6 @@
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIucGhw",
         "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven3",
-        "label": "CH-2"
       }
     ]
   },
@@ -156,18 +124,6 @@
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
         "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd1",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven1",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br2",
-        "label": "CH-3"
       }
     ]
   },
@@ -669,6 +625,26 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?shaka=fubo",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=psn2",
+        "label": "CH-MN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?jw=psn2hls",
+        "label": "CH-MN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=nbc",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=skypl",
+        "label": "CH-EN"
+      },
+      {
         "url": "https://multi.govoet.my.id/?ss=hd1",
         "label": "CH-1"
       },
@@ -694,7 +670,24 @@
     "match_date": "2026-01-04",
     "match_time": "19:30",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=fubo",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=psn2",
+        "label": "CH-MN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?jw=psn2hls",
+        "label": "CH-MN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=tnt1",
+        "label": "CH-EN"
+      }
+    ]
   },
   {
     "id": "Everton-Brentford",
@@ -730,7 +723,20 @@
     "match_date": "2026-01-04",
     "match_time": "22:00",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=psn2",
+        "label": "CH-MN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?jw=psn2hls",
+        "label": "CH-MN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=telemundo",
+        "label": "CH-ES"
+      }
+    ]
   },
   {
     "id": "Newcastle-CrystalPalace",
@@ -748,7 +754,16 @@
     "match_date": "2026-01-04",
     "match_time": "22:00",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=psn3",
+        "label": "CH-MN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=skypl",
+        "label": "CH-EN"
+      }
+    ]
   },
   {
     "id": "Tottenham-Sunderland",
@@ -766,7 +781,340 @@
     "match_date": "2026-01-04",
     "match_time": "22:00",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=psn1",
+        "label": "CH-MN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=psn1hls",
+        "label": "CH-MN"
+      }
+    ]
+  },
+  {
+    "id": "Juventus-Lecce",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Juventus",
+      "logo": "https://static.flashscore.com/res/image/data/xxLGMOlC-EXzXDYgS.png"
+    },
+    "team2": {
+      "name": "Lecce",
+      "logo": "https://static.flashscore.com/res/image/data/fPabg0DN-McvX4bye.png"
+    },
+    "kickoff_date": "2026-01-04",
+    "kickoff_time": "00:00",
+    "match_date": "2026-01-04",
+    "match_time": "00:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=bein2aus",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=fubo2",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=sport1cz",
+        "label": "CH-CZ"
+      },
+      {
+        "url": "https://multi.govoet.cc/?jw=ziggo3",
+        "label": "CH-NL"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=cbssports",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=hd7",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=sporttv2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=br2",
+        "label": "CH-3"
+      }
+    ]
+  },
+  {
+    "id": "Atalanta-ASRoma",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Atalanta",
+      "logo": "https://static.flashscore.com/res/image/data/z3aHqFBN-rg6usZns.png"
+    },
+    "team2": {
+      "name": "AS Roma",
+      "logo": "https://static.flashscore.com/res/image/data/j31Z1pne-GtNb9h2q.png"
+    },
+    "kickoff_date": "2026-01-04",
+    "kickoff_time": "02:45",
+    "match_date": "2026-01-04",
+    "match_time": "02:45",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=bein2aus",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=sport1cz",
+        "label": "CH-CZ"
+      },
+      {
+        "url": "https://multi.govoet.cc/?jw=ziggo3",
+        "label": "CH-NL"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=cbssports",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=hd7",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "Lazio-Napoli",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Lazio",
+      "logo": "https://static.flashscore.com/res/image/data/4CLpo27k-EaFfQ9z6.png"
+    },
+    "team2": {
+      "name": "Napoli",
+      "logo": "https://static.flashscore.com/res/image/data/tSuMfRjT-vTT58gae.png"
+    },
+    "kickoff_date": "2026-01-04",
+    "kickoff_time": "18:30",
+    "match_date": "2026-01-04",
+    "match_time": "18:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=bein2aus",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=tnt2",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=sport1cz",
+        "label": "CH-CZ"
+      },
+      {
+        "url": "https://multi.govoet.cc/?jw=ziggosp",
+        "label": "CH-NL"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=cbssports",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Fiorentina-Cremonese",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Fiorentina",
+      "logo": "https://static.flashscore.com/res/image/data/fZhEFLjT-6XKdgOM6.png"
+    },
+    "team2": {
+      "name": "Cremonese",
+      "logo": "https://static.flashscore.com/res/image/data/bwCjhwB6-t4GQxEM5.png"
+    },
+    "kickoff_date": "2026-01-04",
+    "kickoff_time": "21:00",
+    "match_date": "2026-01-04",
+    "match_time": "21:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=sport1cz",
+        "label": "CH-CZ"
+      },
+      {
+        "url": "https://multi.govoet.cc/?jw=ziggo3",
+        "label": "CH-NL"
+      }
+    ]
+  },
+  {
+    "id": "Elche-Villarreal",
+    "league": "Spain - LaLiga",
+    "team1": {
+      "name": "Elche",
+      "logo": "https://static.flashscore.com/res/image/data/EVxB82BN-YmCZKGcR.png"
+    },
+    "team2": {
+      "name": "Villarreal",
+      "logo": "https://static.flashscore.com/res/image/data/EBxZSOjT-GSuwY3p9.png"
+    },
+    "kickoff_date": "2026-01-04",
+    "kickoff_time": "00:30",
+    "match_date": "2026-01-04",
+    "match_time": "00:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=bein1aus",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?jw=ziggo2",
+        "label": "CH-NL"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=laliga",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=skylaliga",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=hd6",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=eleven2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=br4",
+        "label": "CH-3"
+      }
+    ]
+  },
+  {
+    "id": "Espanyol-Barcelona",
+    "league": "Spain - LaLiga",
+    "team1": {
+      "name": "Espanyol",
+      "logo": "https://static.flashscore.com/res/image/data/QeCoIpXH-8GL0cHSF.png"
+    },
+    "team2": {
+      "name": "Barcelona",
+      "logo": "https://static.flashscore.com/res/image/data/jZ8dSYS0-fcDVLdrL.png"
+    },
+    "kickoff_date": "2026-01-04",
+    "kickoff_time": "03:00",
+    "match_date": "2026-01-04",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=bein1aus",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?jw=ziggo2",
+        "label": "CH-NL"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=laliga",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=skylaliga",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=hd6",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=eleven1",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=br2",
+        "label": "CH-3"
+      }
+    ]
+  },
+  {
+    "id": "Sevilla-Levante",
+    "league": "Spain - LaLiga",
+    "team1": {
+      "name": "Sevilla",
+      "logo": "https://static.flashscore.com/res/image/data/EcTGi086-tIT0KyhE.png"
+    },
+    "team2": {
+      "name": "Levante",
+      "logo": "https://static.flashscore.com/res/image/data/0dmWDDBN-QqzX7amJ.png"
+    },
+    "kickoff_date": "2026-01-04",
+    "kickoff_time": "20:00",
+    "match_date": "2026-01-04",
+    "match_time": "20:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=bein3aus",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?jw=ziggo2",
+        "label": "CH-NL"
+      },
+      {
+        "url": "https://multi.govoet.cc/?jw=ziggosp",
+        "label": "CH-NL"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=laliga",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=skylaliga",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "RealMadrid-Betis",
+    "league": "Spain - LaLiga",
+    "team1": {
+      "name": "Real Madrid",
+      "logo": "https://static.flashscore.com/res/image/data/CGPhnpne-ttfpEDUq.png"
+    },
+    "team2": {
+      "name": "Betis",
+      "logo": "https://static.flashscore.com/res/image/data/YV7lpDU0-zkU5wiAr.png"
+    },
+    "kickoff_date": "2026-01-04",
+    "kickoff_time": "22:15",
+    "match_date": "2026-01-04",
+    "match_time": "22:15",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=bein2aus",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?jw=ziggo2",
+        "label": "CH-NL"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=laliga",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=skylaliga",
+        "label": "CH-ES"
+      }
+    ]
   },
   {
     "id": "Toulouse-Lens",
@@ -944,194 +1292,6 @@
     "servers": []
   },
   {
-    "id": "Juventus-Lecce",
-    "league": "Italy - Serie A",
-    "team1": {
-      "name": "Juventus",
-      "logo": "https://static.flashscore.com/res/image/data/xxLGMOlC-EXzXDYgS.png"
-    },
-    "team2": {
-      "name": "Lecce",
-      "logo": "https://static.flashscore.com/res/image/data/fPabg0DN-McvX4bye.png"
-    },
-    "kickoff_date": "2026-01-04",
-    "kickoff_time": "00:00",
-    "match_date": "2026-01-04",
-    "match_time": "00:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd7",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv2",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br2",
-        "label": "CH-3"
-      }
-    ]
-  },
-  {
-    "id": "Atalanta-ASRoma",
-    "league": "Italy - Serie A",
-    "team1": {
-      "name": "Atalanta",
-      "logo": "https://static.flashscore.com/res/image/data/z3aHqFBN-rg6usZns.png"
-    },
-    "team2": {
-      "name": "AS Roma",
-      "logo": "https://static.flashscore.com/res/image/data/j31Z1pne-GtNb9h2q.png"
-    },
-    "kickoff_date": "2026-01-04",
-    "kickoff_time": "02:45",
-    "match_date": "2026-01-04",
-    "match_time": "02:45",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd7",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Lazio-Napoli",
-    "league": "Italy - Serie A",
-    "team1": {
-      "name": "Lazio",
-      "logo": "https://static.flashscore.com/res/image/data/4CLpo27k-EaFfQ9z6.png"
-    },
-    "team2": {
-      "name": "Napoli",
-      "logo": "https://static.flashscore.com/res/image/data/tSuMfRjT-vTT58gae.png"
-    },
-    "kickoff_date": "2026-01-04",
-    "kickoff_time": "18:30",
-    "match_date": "2026-01-04",
-    "match_time": "18:30",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "Fiorentina-Cremonese",
-    "league": "Italy - Serie A",
-    "team1": {
-      "name": "Fiorentina",
-      "logo": "https://static.flashscore.com/res/image/data/fZhEFLjT-6XKdgOM6.png"
-    },
-    "team2": {
-      "name": "Cremonese",
-      "logo": "https://static.flashscore.com/res/image/data/bwCjhwB6-t4GQxEM5.png"
-    },
-    "kickoff_date": "2026-01-04",
-    "kickoff_time": "21:00",
-    "match_date": "2026-01-04",
-    "match_time": "21:00",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "Elche-Villarreal",
-    "league": "Spain - LaLiga",
-    "team1": {
-      "name": "Elche",
-      "logo": "https://static.flashscore.com/res/image/data/EVxB82BN-YmCZKGcR.png"
-    },
-    "team2": {
-      "name": "Villarreal",
-      "logo": "https://static.flashscore.com/res/image/data/EBxZSOjT-GSuwY3p9.png"
-    },
-    "kickoff_date": "2026-01-04",
-    "kickoff_time": "00:30",
-    "match_date": "2026-01-04",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd6",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven2",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br4",
-        "label": "CH-3"
-      }
-    ]
-  },
-  {
-    "id": "Espanyol-Barcelona",
-    "league": "Spain - LaLiga",
-    "team1": {
-      "name": "Espanyol",
-      "logo": "https://static.flashscore.com/res/image/data/QeCoIpXH-8GL0cHSF.png"
-    },
-    "team2": {
-      "name": "Barcelona",
-      "logo": "https://static.flashscore.com/res/image/data/jZ8dSYS0-fcDVLdrL.png"
-    },
-    "kickoff_date": "2026-01-04",
-    "kickoff_time": "03:00",
-    "match_date": "2026-01-04",
-    "match_time": "03:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd6",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=eleven1",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br2",
-        "label": "CH-3"
-      }
-    ]
-  },
-  {
-    "id": "Sevilla-Levante",
-    "league": "Spain - LaLiga",
-    "team1": {
-      "name": "Sevilla",
-      "logo": "https://static.flashscore.com/res/image/data/EcTGi086-tIT0KyhE.png"
-    },
-    "team2": {
-      "name": "Levante",
-      "logo": "https://static.flashscore.com/res/image/data/0dmWDDBN-QqzX7amJ.png"
-    },
-    "kickoff_date": "2026-01-04",
-    "kickoff_time": "20:00",
-    "match_date": "2026-01-04",
-    "match_time": "20:00",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "RealMadrid-Betis",
-    "league": "Spain - LaLiga",
-    "team1": {
-      "name": "Real Madrid",
-      "logo": "https://static.flashscore.com/res/image/data/CGPhnpne-ttfpEDUq.png"
-    },
-    "team2": {
-      "name": "Betis",
-      "logo": "https://static.flashscore.com/res/image/data/YV7lpDU0-zkU5wiAr.png"
-    },
-    "kickoff_date": "2026-01-04",
-    "kickoff_time": "22:15",
-    "match_date": "2026-01-04",
-    "match_time": "22:15",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "MalutUnited-PSBSBiakNumfor",
     "league": "Indonesia - Super League",
     "team1": {
@@ -1254,10 +1414,6 @@
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY2LnBocA==",
         "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv1",
-        "label": "CH-1"
       }
     ]
   },
@@ -1401,10 +1557,6 @@
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY3LnBocA==",
         "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd2",
-        "label": "CH-1"
       }
     ]
   },
