@@ -467,5 +467,38 @@
     "match_time": "02:45",
     "duration": "3.5",
     "servers": []
+  },
+    {
+    "id": "Barcelona-Ath-Bilbao",
+    "league": "Spain - Super Cup",
+    "team1": {
+      "name": "Barcelona",
+      "logo": "https://static.flashscore.com/res/image/data/8dhw5vxS-fcDVLdrL.png"
+    },
+    "team2": {
+      "name": "Ath Bilbao",
+      "logo": "https://static.flashscore.com/res/image/data/Y7CgBGYg-vJb36ZBF.png"
+    },
+    "kickoff_date": "2026-01-08",
+    "kickoff_time": "02:00",
+    "match_date": "2026-01-08",
+    "match_time": "02:00",
+    "duration": "3.5",
+    "icon": "https://via.placeholder.com/30.png?text=Soccer",
+    "servers": [
+       {
+        "url": "https://multi.govoet.cc/?shaka=bein1aus",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=tnt1",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=ziggosp",
+        "label": "CH-NL"
+      }
+    ]
   }
+  
 ]
