@@ -425,61 +425,6 @@
     "servers": []
   },
   {
-    "id": "Egypte-Benin",
-    "league": "Can",
-    "team1": {
-      "name": "Egypt",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png"
-    },
-    "team2": {
-      "name": "Benin",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ben.png"
-    },
-    "kickoff_date": "2026-01-05",
-    "kickoff_time": "23:00",
-    "match_date": "2026-01-05",
-    "match_time": "23:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=61",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=82",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=69",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=125",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDExLnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd11",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv2",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br3",
-        "label": "CH-3"
-      }
-    ]
-  },
-  {
     "id": "Galatasaray-Trabzonspor",
     "league": "Supercoupe Turquie",
     "team1": {
@@ -1521,6 +1466,41 @@
       },
       {
         "url": "https://multi.govoet.my.id/?ss=sporttv3",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=br3",
+        "label": "CH-3"
+      }
+    ]
+  },
+  {
+    "id": "Benin-Egypt",
+    "league": "Football",
+    "team1": {
+      "name": "Benin",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ben.png"
+    },
+    "team2": {
+      "name": "Egypt",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png"
+    },
+    "kickoff_date": "2026-01-05",
+    "kickoff_time": "23:00",
+    "match_date": "2026-01-05",
+    "match_time": "23:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDExLnBocA==",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=hd11",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=sporttv2",
         "label": "CH-2"
       },
       {
