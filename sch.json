@@ -1416,96 +1416,15 @@
     "servers": []
   },
   {
-    "id": "Bilbao-Murcia",
-    "league": "Liga Endesa",
-    "team1": {
-      "name": "Bilbao",
-      "logo": "https://static.flashscore.com/res/image/data/dImvc2lC-0hu4VHO8.png"
-    },
-    "team2": {
-      "name": "Murcia",
-      "logo": "https://static.flashscore.com/res/image/data/j9p2GT96-hxasO7Sq.png"
-    },
-    "kickoff_date": "2026-01-11",
-    "kickoff_time": "01:00",
-    "match_date": "2026-01-11",
-    "match_time": "01:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=156",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "ClevelandCavaliers-MinnesotaTimberwolves",
-    "league": "USA - NBA",
-    "team1": {
-      "name": "Cleveland Cavaliers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png"
-    },
-    "team2": {
-      "name": "Minnesota Timberwolves",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png"
-    },
-    "kickoff_date": "2026-01-11",
-    "kickoff_time": "01:00",
-    "match_date": "2026-01-11",
-    "match_time": "01:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=160",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "BostonBruins-NewYorkRangers",
-    "league": "USA - NHL",
-    "team1": {
-      "name": "Boston Bruins",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/bos.png"
-    },
-    "team2": {
-      "name": "New York Rangers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png"
-    },
-    "kickoff_date": "2026-01-11",
-    "kickoff_time": "01:00",
-    "match_date": "2026-01-11",
-    "match_time": "01:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=10",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=161",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "Egypte-CotedIvoire",
     "league": "Can",
     "team1": {
       "name": "Egypt",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png"
+      "logo": "https://static.flashscore.com/res/image/data/SKagcEU0-j9fRtEHh.png"
     },
     "team2": {
       "name": "Ivory Coast",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
+      "logo": "https://static.flashscore.com/res/image/data/dbwcq8A6-zTSy144G.png"
     },
     "kickoff_date": "2026-01-11",
     "kickoff_time": "02:00",
@@ -1532,10 +1451,6 @@
       {
         "url": "https://multi.govoet.my.id/?envivo=125",
         "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDExLnBocA==",
-        "label": "CH-EN"
       },
       {
         "url": "https://multi.govoet.my.id/?ss=hd11",
@@ -4737,6 +4652,52 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDQ4LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "MinnesotaTimberwolves-ClevelandCavaliers",
+    "league": "Basketball",
+    "team1": {
+      "name": "Minnesota Timberwolves",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png"
+    },
+    "team2": {
+      "name": "Cleveland Cavaliers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png"
+    },
+    "kickoff_date": "2026-01-11",
+    "kickoff_time": "01:00",
+    "match_date": "2026-01-11",
+    "match_time": "01:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "NewYorkRangers-BostonBruins",
+    "league": "Hockey",
+    "team1": {
+      "name": "New York Rangers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png"
+    },
+    "team2": {
+      "name": "Boston Bruins",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/bos.png"
+    },
+    "kickoff_date": "2026-01-11",
+    "kickoff_time": "01:00",
+    "match_date": "2026-01-11",
+    "match_time": "01:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
         "label": "CH-EN"
       }
     ]
