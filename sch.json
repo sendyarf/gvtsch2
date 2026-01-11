@@ -485,30 +485,6 @@
         "label": "CH-NL"
       },
       {
-        "url": "https://multi.govoet.my.id/?envivo=45",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=137",
-        "label": "CH-IT"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=123",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=87",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=98",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=70",
-        "label": "CH-ES"
-      },
-      {
         "url": "https://multi.govoet.my.id/?ss=hd2",
         "label": "CH-1"
       },
@@ -802,95 +778,6 @@
     "match_time": "19:00",
     "duration": "3.5",
     "servers": []
-  },
-  {
-    "id": "Lille-Lyon",
-    "league": "France - Coupe De France",
-    "team1": {
-      "name": "Lille",
-      "logo": "https://static.flashscore.com/res/image/data/Q34pXImC-UDticXKP.png"
-    },
-    "team2": {
-      "name": "Lyon",
-      "logo": "https://static.flashscore.com/res/image/data/bkuX6RS0-GU4hlIMk.png"
-    },
-    "kickoff_date": "2026-01-12",
-    "kickoff_time": "03:00",
-    "match_date": "2026-01-12",
-    "match_time": "03:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=158",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "OrlandoMagic-NewOrleansPelicans",
-    "league": "USA - NBA",
-    "team1": {
-      "name": "Orlando Magic",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png"
-    },
-    "team2": {
-      "name": "New Orleans Pelicans",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png"
-    },
-    "kickoff_date": "2026-01-12",
-    "kickoff_time": "03:00",
-    "match_date": "2026-01-12",
-    "match_time": "03:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=3",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=162",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=156",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Torreense-Leiria",
-    "league": "Portugal - Taça de Portugal",
-    "team1": {
-      "name": "Torreense",
-      "logo": "https://static.flashscore.com/res/image/data/0CJbBB76-AsHGKEtR.png"
-    },
-    "team2": {
-      "name": "Leiria",
-      "logo": "https://static.flashscore.com/res/image/data/rcpl2ime-zyuxoKRh.png"
-    },
-    "kickoff_date": "2026-01-12",
-    "kickoff_time": "03:15",
-    "match_date": "2026-01-12",
-    "match_time": "03:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=144",
-        "label": "CH-PT"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=69",
-        "label": "CH-ES"
-      }
-    ]
   },
   {
     "id": "MemphisGrizzlies-BrooklynNets",
@@ -1984,6 +1871,29 @@
       {
         "url": "https://multi.govoet.my.id/?envivo=175",
         "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "NewOrleansPelicans-OrlandoMagic",
+    "league": "Basketball",
+    "team1": {
+      "name": "New Orleans Pelicans",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png"
+    },
+    "team2": {
+      "name": "Orlando Magic",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png"
+    },
+    "kickoff_date": "2026-01-12",
+    "kickoff_time": "03:00",
+    "match_date": "2026-01-12",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
+        "label": "CH-EN"
       }
     ]
   },
