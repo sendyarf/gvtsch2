@@ -701,130 +701,6 @@
     "servers": []
   },
   {
-    "id": "SacramentoKings-LosAngelesLakers",
-    "league": "USA - NBA",
-    "team1": {
-      "name": "Sacramento Kings",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png"
-    },
-    "team2": {
-      "name": "Los Angeles Lakers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png"
-    },
-    "kickoff_date": "2026-01-13",
-    "kickoff_time": "10:00",
-    "match_date": "2026-01-13",
-    "match_time": "10:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=172",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=75",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY5LnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=br6",
-        "label": "CH-2"
-      }
-    ]
-  },
-  {
-    "id": "ColoradoAvalanche-TorontoMapleLeafs",
-    "league": "USA - NHL",
-    "team1": {
-      "name": "Colorado Avalanche",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png"
-    },
-    "team2": {
-      "name": "Toronto Maple Leafs",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png"
-    },
-    "kickoff_date": "2026-01-13",
-    "kickoff_time": "10:00",
-    "match_date": "2026-01-13",
-    "match_time": "10:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=173",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU3LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "LosAngelesKings-DallasStars",
-    "league": "USA - NHL",
-    "team1": {
-      "name": "Los Angeles Kings",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png"
-    },
-    "team2": {
-      "name": "Dallas Stars",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png"
-    },
-    "kickoff_date": "2026-01-13",
-    "kickoff_time": "10:00",
-    "match_date": "2026-01-13",
-    "match_time": "10:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=174",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU4LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "LosAngelesClippers-CharlotteHornets",
-    "league": "USA - NBA",
-    "team1": {
-      "name": "Los Angeles Clippers",
-      "logo": "https://static.flashscore.com/res/image/data/jJgC6dAN-dhz9Qt1I.png"
-    },
-    "team2": {
-      "name": "Charlotte Hornets",
-      "logo": "https://static.flashscore.com/res/image/data/ny5unNlC-Mec15x1i.png"
-    },
-    "kickoff_date": "2026-01-13",
-    "kickoff_time": "10:30",
-    "match_date": "2026-01-13",
-    "match_time": "10:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=175",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "Arsenal-Chelsea",
     "league": "Football",
     "team1": {
@@ -1429,6 +1305,29 @@
       {
         "url": "https://multi.govoet.my.id/?ss=hd4",
         "label": "CH-2"
+      }
+    ]
+  },
+  {
+    "id": "CharlotteHornets-LAClippers",
+    "league": "Basketball",
+    "team1": {
+      "name": "Charlotte Hornets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png"
+    },
+    "team2": {
+      "name": "LA Clippers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png"
+    },
+    "kickoff_date": "2026-01-13",
+    "kickoff_time": "10:30",
+    "match_date": "2026-01-13",
+    "match_time": "10:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcwLnBocA==",
+        "label": "CH-EN"
       }
     ]
   }
