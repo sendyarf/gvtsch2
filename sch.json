@@ -574,18 +574,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.my.id/?envivo=2",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=111",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=116",
-        "label": "CH-ES"
-      },
-      {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDgucGhw",
         "label": "CH-EN"
       },
@@ -1056,148 +1044,6 @@
     "match_time": "22:15",
     "duration": "3.5",
     "servers": []
-  },
-  {
-    "id": "OrlandoMagic-MemphisGrizzlies",
-    "league": "USA - NBA",
-    "team1": {
-      "name": "Orlando Magic",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png"
-    },
-    "team2": {
-      "name": "Memphis Grizzlies",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png"
-    },
-    "kickoff_date": "2026-01-16",
-    "kickoff_time": "02:00",
-    "match_date": "2026-01-16",
-    "match_time": "02:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=170",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "MaccabiTelAviv-ZalgirisKaunas",
-    "league": "Europe - Euroleague",
-    "team1": {
-      "name": "Maccabi Tel Aviv",
-      "logo": "https://static.flashscore.com/res/image/data/dIcvedS0-f9Tgtd9a.png"
-    },
-    "team2": {
-      "name": "Zalgiris Kaunas",
-      "logo": "https://static.flashscore.com/res/image/data/6TE3tK8k-t6LeClkp.png"
-    },
-    "kickoff_date": "2026-01-16",
-    "kickoff_time": "02:05",
-    "match_date": "2026-01-16",
-    "match_time": "02:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=65",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "Anderlecht-LaGantoise",
-    "league": "Belgium - Belgian Cup",
-    "team1": {
-      "name": "Anderlecht",
-      "logo": ""
-    },
-    "team2": {
-      "name": "La Gantoise",
-      "logo": ""
-    },
-    "kickoff_date": "2026-01-16",
-    "kickoff_time": "02:30",
-    "match_date": "2026-01-16",
-    "match_time": "02:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=153",
-        "label": "CH-FR"
-      }
-    ]
-  },
-  {
-    "id": "Allemagne-Autriche",
-    "league": "Euro Masculin De Handball",
-    "team1": {
-      "name": "Germany",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Austria",
-      "logo": ""
-    },
-    "kickoff_date": "2026-01-16",
-    "kickoff_time": "02:30",
-    "match_date": "2026-01-16",
-    "match_time": "02:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=119",
-        "label": "CH-DE"
-      }
-    ]
-  },
-  {
-    "id": "Norvge-Ukraine",
-    "league": "Euro Masculin De Handball",
-    "team1": {
-      "name": "Norway",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Ukraine",
-      "logo": ""
-    },
-    "kickoff_date": "2026-01-16",
-    "kickoff_time": "02:30",
-    "match_date": "2026-01-16",
-    "match_time": "02:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=1",
-        "label": "CH-FR"
-      }
-    ]
-  },
-  {
-    "id": "Milano-toileRougeBelgrade",
-    "league": "Europe - Euroleague",
-    "team1": {
-      "name": "Olimpia Milano",
-      "logo": "https://static.flashscore.com/res/image/data/djqBDIA6-xQ4mPAxG.png"
-    },
-    "team2": {
-      "name": "Crvena Zvezda",
-      "logo": "https://static.flashscore.com/res/image/data/xQldm47k-YwJ7p7q9.png"
-    },
-    "kickoff_date": "2026-01-16",
-    "kickoff_time": "02:30",
-    "match_date": "2026-01-16",
-    "match_time": "02:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=64",
-        "label": "CH-ES"
-      }
-    ]
   },
   {
     "id": "Paris-Monaco",
@@ -1906,6 +1752,29 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMwLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "MemphisGrizzlies-OrlandoMagic",
+    "league": "Basketball",
+    "team1": {
+      "name": "Memphis Grizzlies",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png"
+    },
+    "team2": {
+      "name": "Orlando Magic",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png"
+    },
+    "kickoff_date": "2026-01-16",
+    "kickoff_time": "02:00",
+    "match_date": "2026-01-16",
+    "match_time": "02:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
         "label": "CH-EN"
       }
     ]
