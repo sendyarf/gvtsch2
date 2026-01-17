@@ -2047,10 +2047,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.my.id/?envivo=10",
-        "label": "CH-FR"
-      },
-      {
         "url": "https://multi.govoet.my.id/?envivo=113",
         "label": "CH-DE"
       },
@@ -2077,10 +2073,6 @@
     "match_time": "21:30",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=10",
-        "label": "CH-FR"
-      },
       {
         "url": "https://multi.govoet.my.id/?envivo=112",
         "label": "CH-DE"
@@ -2147,10 +2139,6 @@
     "match_time": "21:30",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=10",
-        "label": "CH-FR"
-      },
       {
         "url": "https://multi.govoet.my.id/?envivo=115",
         "label": "CH-DE"
@@ -2372,110 +2360,6 @@
     "match_time": "03:00",
     "duration": "3.5",
     "servers": []
-  },
-  {
-    "id": "bundesliga2konferenz",
-    "league": "Bundesliga 2",
-    "team1": {
-      "name": "bundesliga 2 konferenz -",
-      "logo": ""
-    },
-    "team2": {
-      "name": "",
-      "logo": ""
-    },
-    "kickoff_date": "2026-01-17",
-    "kickoff_time": "19:00",
-    "match_date": "2026-01-17",
-    "match_time": "19:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=112",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=123",
-        "label": "CH-DE"
-      }
-    ]
-  },
-  {
-    "id": "DynamoDresde-GreutherFrth",
-    "league": "Bundesliga 2",
-    "team1": {
-      "name": "Dynamo Dresde",
-      "logo": "https://static.flashscore.com/res/image/data/MZhxRG76-YP5eX03i.png"
-    },
-    "team2": {
-      "name": "Greuther Furth",
-      "logo": "https://static.flashscore.com/res/image/data/zmJdMLle-KfqGWN71.png"
-    },
-    "kickoff_date": "2026-01-17",
-    "kickoff_time": "19:00",
-    "match_date": "2026-01-17",
-    "match_time": "19:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=114",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd11",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Mnster-Karlsruher",
-    "league": "Bundesliga 2",
-    "team1": {
-      "name": "Münster",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Karlsruher",
-      "logo": ""
-    },
-    "kickoff_date": "2026-01-17",
-    "kickoff_time": "19:00",
-    "match_date": "2026-01-17",
-    "match_time": "19:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=115",
-        "label": "CH-DE"
-      }
-    ]
-  },
-  {
-    "id": "Nurnberg-Elversberg",
-    "league": "Bundesliga 2",
-    "team1": {
-      "name": "Nurnberg",
-      "logo": "https://static.flashscore.com/res/image/data/YiDhmqT0-ncmj9JbF.png"
-    },
-    "team2": {
-      "name": "Elversberg",
-      "logo": "https://static.flashscore.com/res/image/data/lbqNa1le-QsgNMFNg.png"
-    },
-    "kickoff_date": "2026-01-17",
-    "kickoff_time": "19:00",
-    "match_date": "2026-01-17",
-    "match_time": "19:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=5",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=113",
-        "label": "CH-DE"
-      }
-    ]
   },
   {
     "id": "Coventry-Leicester",
@@ -2720,6 +2604,29 @@
       {
         "url": "https://multi.govoet.my.id/?envivo=151",
         "label": "CH-TR"
+      }
+    ]
+  },
+  {
+    "id": "bundesligakonferenz",
+    "league": "Germany - Bundesliga",
+    "team1": {
+      "name": "bundesliga konferenz -",
+      "logo": ""
+    },
+    "team2": {
+      "name": "",
+      "logo": ""
+    },
+    "kickoff_date": "2026-01-17",
+    "kickoff_time": "21:30",
+    "match_date": "2026-01-17",
+    "match_time": "21:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?envivo=123",
+        "label": "CH-DE"
       }
     ]
   },
