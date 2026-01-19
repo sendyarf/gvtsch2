@@ -1258,95 +1258,6 @@
     "servers": []
   },
   {
-    "id": "Volos-Atromitos",
-    "league": "Greece - Super League",
-    "team1": {
-      "name": "Volos",
-      "logo": "https://static.flashscore.com/res/image/data/fTZ6y0BN-0OmT6UWt.png"
-    },
-    "team2": {
-      "name": "Atromitos",
-      "logo": "https://static.flashscore.com/res/image/data/08K1YJle-2ahZzWpF.png"
-    },
-    "kickoff_date": "2026-01-20",
-    "kickoff_time": "01:00",
-    "match_date": "2026-01-20",
-    "match_time": "01:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=149",
-        "label": "CH-GR"
-      }
-    ]
-  },
-  {
-    "id": "AtlantaHawks-MilwaukeeBucks",
-    "league": "USA - NBA",
-    "team1": {
-      "name": "Atlanta Hawks",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png"
-    },
-    "team2": {
-      "name": "Milwaukee Bucks",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png"
-    },
-    "kickoff_date": "2026-01-20",
-    "kickoff_time": "01:00",
-    "match_date": "2026-01-20",
-    "match_time": "01:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=6",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=170",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?envivo=75",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv3",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "CarolinaHurricanes-BuffaloSabres",
-    "league": "USA - NHL",
-    "team1": {
-      "name": "Carolina Hurricanes",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png"
-    },
-    "team2": {
-      "name": "Buffalo Sabres",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png"
-    },
-    "kickoff_date": "2026-01-20",
-    "kickoff_time": "01:30",
-    "match_date": "2026-01-20",
-    "match_time": "01:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=171",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "Allemagne-Espagne",
     "league": "Euro Masculin De Handball",
     "team1": {
@@ -2746,6 +2657,56 @@
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMwLnBocA==",
         "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "BuffaloSabres-CarolinaHurricanes",
+    "league": "Hockey",
+    "team1": {
+      "name": "Buffalo Sabres",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png"
+    },
+    "team2": {
+      "name": "Carolina Hurricanes",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png"
+    },
+    "kickoff_date": "2026-01-20",
+    "kickoff_time": "01:30",
+    "match_date": "2026-01-20",
+    "match_time": "01:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "MilwaukeeBucks-AtlantaHawks",
+    "league": "Basketball",
+    "team1": {
+      "name": "Milwaukee Bucks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png"
+    },
+    "team2": {
+      "name": "Atlanta Hawks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png"
+    },
+    "kickoff_date": "2026-01-20",
+    "kickoff_time": "01:00",
+    "match_date": "2026-01-20",
+    "match_time": "01:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?ss=sporttv3",
+        "label": "CH-1"
       }
     ]
   }
