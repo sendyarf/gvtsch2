@@ -583,11 +583,11 @@
     "league": "Liga Mx Women",
     "team1": {
       "name": "Atl. San Luis F",
-      "logo": ""
+      "logo": "https://static.flashscore.com/res/image/data/tbXDA7S0-SYeDxPQ4.png"
     },
     "team2": {
       "name": "Club America F",
-      "logo": ""
+      "logo": "https://static.flashscore.com/res/image/data/QXmRl6jT-xj4XM9r1.png"
     },
     "kickoff_date": "2026-01-21",
     "kickoff_time": "09:00",
@@ -803,29 +803,6 @@
     ]
   },
   {
-    "id": "TorontoRaptors-SacramentoKings",
-    "league": "Basketball",
-    "team1": {
-      "name": "Toronto Raptors",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png"
-    },
-    "team2": {
-      "name": "Sacramento Kings",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png"
-    },
-    "kickoff_date": "2026-01-22",
-    "kickoff_time": "10:00",
-    "match_date": "2026-01-22",
-    "match_time": "10:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcxLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "WashingtonCapitals-VancouverCanucks",
     "league": "Hockey",
     "team1": {
@@ -844,6 +821,29 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU1LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "TorontoRaptors-SacramentoKings",
+    "league": "Basketball",
+    "team1": {
+      "name": "Toronto Raptors",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png"
+    },
+    "team2": {
+      "name": "Sacramento Kings",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png"
+    },
+    "kickoff_date": "2026-01-22",
+    "kickoff_time": "10:00",
+    "match_date": "2026-01-22",
+    "match_time": "10:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcxLnBocA==",
         "label": "CH-EN"
       }
     ]
@@ -1114,221 +1114,6 @@
       {
         "url": "https://multi.govoet.my.id/?ss=sporttv2",
         "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "LAClippers-ChicagoBulls",
-    "league": "Basketball",
-    "team1": {
-      "name": "LA Clippers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png"
-    },
-    "team2": {
-      "name": "Chicago Bulls",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png"
-    },
-    "kickoff_date": "2026-01-21",
-    "kickoff_time": "08:00",
-    "match_date": "2026-01-21",
-    "match_time": "08:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY2LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "SanAntonioSpurs-HoustonRockets",
-    "league": "Basketball",
-    "team1": {
-      "name": "San Antonio Spurs",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png"
-    },
-    "team2": {
-      "name": "Houston Rockets",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png"
-    },
-    "kickoff_date": "2026-01-21",
-    "kickoff_time": "08:00",
-    "match_date": "2026-01-21",
-    "match_time": "08:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY3LnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=hd5",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?ss=sporttv1",
-        "label": "CH-2"
-      }
-    ]
-  },
-  {
-    "id": "BuffaloSabres-NashvillePredators",
-    "league": "Hockey",
-    "team1": {
-      "name": "Buffalo Sabres",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png"
-    },
-    "team2": {
-      "name": "Nashville Predators",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png"
-    },
-    "kickoff_date": "2026-01-21",
-    "kickoff_time": "08:00",
-    "match_date": "2026-01-21",
-    "match_time": "08:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU0LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "StLouisBlues-WinnipegJets",
-    "league": "Hockey",
-    "team1": {
-      "name": "St. Louis Blues",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png"
-    },
-    "team2": {
-      "name": "Winnipeg Jets",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png"
-    },
-    "kickoff_date": "2026-01-21",
-    "kickoff_time": "08:00",
-    "match_date": "2026-01-21",
-    "match_time": "08:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU1LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "BostonBruins-DallasStars",
-    "league": "Hockey",
-    "team1": {
-      "name": "Boston Bruins",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/bos.png"
-    },
-    "team2": {
-      "name": "Dallas Stars",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png"
-    },
-    "kickoff_date": "2026-01-21",
-    "kickoff_time": "07:30",
-    "match_date": "2026-01-21",
-    "match_time": "07:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUzLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "PhoenixSuns-Philadelphia76ers",
-    "league": "Basketball",
-    "team1": {
-      "name": "Phoenix Suns",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png"
-    },
-    "team2": {
-      "name": "Philadelphia 76ers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png"
-    },
-    "kickoff_date": "2026-01-21",
-    "kickoff_time": "07:00",
-    "match_date": "2026-01-21",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "MinnesotaWild-MontrealCanadiens",
-    "league": "Hockey",
-    "team1": {
-      "name": "Minnesota Wild",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png"
-    },
-    "team2": {
-      "name": "Montreal Canadiens",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png"
-    },
-    "kickoff_date": "2026-01-21",
-    "kickoff_time": "07:00",
-    "match_date": "2026-01-21",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "SanJoseSharks-TampaBayLightning",
-    "league": "Hockey",
-    "team1": {
-      "name": "San Jose Sharks",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png"
-    },
-    "team2": {
-      "name": "Tampa Bay Lightning",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png"
-    },
-    "kickoff_date": "2026-01-21",
-    "kickoff_time": "07:00",
-    "match_date": "2026-01-21",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "OttawaSenators-ColumbusBlueJackets",
-    "league": "Hockey",
-    "team1": {
-      "name": "Ottawa Senators",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ott.png"
-    },
-    "team2": {
-      "name": "Columbus Blue Jackets",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cbj.png"
-    },
-    "kickoff_date": "2026-01-21",
-    "kickoff_time": "07:00",
-    "match_date": "2026-01-21",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUyLnBocA==",
-        "label": "CH-EN"
       }
     ]
   }
