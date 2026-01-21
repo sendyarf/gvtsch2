@@ -579,56 +579,6 @@
     "servers": []
   },
   {
-    "id": "AtlSanLuisF-ClubAmericaF",
-    "league": "Liga Mx Women",
-    "team1": {
-      "name": "Atl. San Luis F",
-      "logo": "https://static.flashscore.com/res/image/data/tbXDA7S0-SYeDxPQ4.png"
-    },
-    "team2": {
-      "name": "Club America F",
-      "logo": "https://static.flashscore.com/res/image/data/QXmRl6jT-xj4XM9r1.png"
-    },
-    "kickoff_date": "2026-01-21",
-    "kickoff_time": "09:00",
-    "match_date": "2026-01-21",
-    "match_time": "09:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=97",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "UtahJazz-MinnesotaTimberwolves",
-    "league": "USA - NBA",
-    "team1": {
-      "name": "Utah Jazz",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png"
-    },
-    "team2": {
-      "name": "Minnesota Timberwolves",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png"
-    },
-    "kickoff_date": "2026-01-21",
-    "kickoff_time": "09:00",
-    "match_date": "2026-01-21",
-    "match_time": "09:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?envivo=173",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY4LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "DenverNuggets-LosAngelesLakers",
     "league": "USA - NBA",
     "team1": {
@@ -1114,6 +1064,29 @@
       {
         "url": "https://multi.govoet.my.id/?ss=sporttv2",
         "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "MinnesotaTimberwolves-UtahJazz",
+    "league": "Basketball",
+    "team1": {
+      "name": "Minnesota Timberwolves",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png"
+    },
+    "team2": {
+      "name": "Utah Jazz",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png"
+    },
+    "kickoff_date": "2026-01-21",
+    "kickoff_time": "09:00",
+    "match_date": "2026-01-21",
+    "match_time": "09:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY4LnBocA==",
+        "label": "CH-EN"
       }
     ]
   }
