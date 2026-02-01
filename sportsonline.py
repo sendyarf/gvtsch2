@@ -102,7 +102,7 @@ def parse_sportsonline():
             ss_match = re.search(r'/([^/]+)\.php$', url)
             if ss_match:
                 ss_val = ss_match.group(1)
-                final_url = f"https://multi.govoet.my.id/?ss={ss_val}"
+                final_url = f"https://multi.govoet.cc/?ss={ss_val}"
             else:
                 final_url = url
             
