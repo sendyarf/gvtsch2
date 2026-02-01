@@ -91,7 +91,7 @@ def parse_bolaloca():
             server_matches = server_regex.findall(servers_str)
             for s_num, s_country in server_matches:
                 servers.append({
-                    "url": f"https://multi.govoet.my.id/?envivo={s_num}",
+                    "url": f"https://multi.govoet.cc/?envivo={s_num}",
                     "label": f"CH-{s_country.upper()}"
                 })
 
