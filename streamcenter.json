@@ -92,29 +92,6 @@
     ]
   },
   {
-    "id": "NFC-AFC",
-    "league": "American Football",
-    "team1": {
-      "name": "NFC",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nfc.png"
-    },
-    "team2": {
-      "name": "AFC",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/afc.png"
-    },
-    "kickoff_date": "2026-02-04",
-    "kickoff_time": "08:00",
-    "match_date": "2026-02-04",
-    "match_time": "08:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "BostonCeltics-DallasMavericks",
     "league": "Basketball",
     "team1": {
@@ -179,6 +156,29 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcyLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "NFC-AFC",
+    "league": "American Football",
+    "team1": {
+      "name": "NFC",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nfc.png"
+    },
+    "team2": {
+      "name": "AFC",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/afc.png"
+    },
+    "kickoff_date": "2026-02-04",
+    "kickoff_time": "08:00",
+    "match_date": "2026-02-04",
+    "match_time": "08:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMwLnBocA==",
         "label": "CH-EN"
       }
     ]
@@ -276,75 +276,6 @@
     ]
   },
   {
-    "id": "ColumbusBlueJackets-NewJerseyDevils",
-    "league": "Hockey",
-    "team1": {
-      "name": "Columbus Blue Jackets",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cbj.png"
-    },
-    "team2": {
-      "name": "New Jersey Devils",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png"
-    },
-    "kickoff_date": "2026-02-04",
-    "kickoff_time": "07:00",
-    "match_date": "2026-02-04",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "WashingtonCapitals-PhiladelphiaFlyers",
-    "league": "Hockey",
-    "team1": {
-      "name": "Washington Capitals",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png"
-    },
-    "team2": {
-      "name": "Philadelphia Flyers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png"
-    },
-    "kickoff_date": "2026-02-04",
-    "kickoff_time": "07:00",
-    "match_date": "2026-02-04",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "OttawaSenators-CarolinaHurricanes",
-    "league": "Hockey",
-    "team1": {
-      "name": "Ottawa Senators",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ott.png"
-    },
-    "team2": {
-      "name": "Carolina Hurricanes",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png"
-    },
-    "kickoff_date": "2026-02-04",
-    "kickoff_time": "07:00",
-    "match_date": "2026-02-04",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUyLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "DenverNuggets-DetroitPistons",
     "league": "Basketball",
     "team1": {
@@ -409,6 +340,75 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY3LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "ColumbusBlueJackets-NewJerseyDevils",
+    "league": "Hockey",
+    "team1": {
+      "name": "Columbus Blue Jackets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cbj.png"
+    },
+    "team2": {
+      "name": "New Jersey Devils",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png"
+    },
+    "kickoff_date": "2026-02-04",
+    "kickoff_time": "07:00",
+    "match_date": "2026-02-04",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "WashingtonCapitals-PhiladelphiaFlyers",
+    "league": "Hockey",
+    "team1": {
+      "name": "Washington Capitals",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png"
+    },
+    "team2": {
+      "name": "Philadelphia Flyers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png"
+    },
+    "kickoff_date": "2026-02-04",
+    "kickoff_time": "07:00",
+    "match_date": "2026-02-04",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "OttawaSenators-CarolinaHurricanes",
+    "league": "Hockey",
+    "team1": {
+      "name": "Ottawa Senators",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ott.png"
+    },
+    "team2": {
+      "name": "Carolina Hurricanes",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png"
+    },
+    "kickoff_date": "2026-02-04",
+    "kickoff_time": "07:00",
+    "match_date": "2026-02-04",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUyLnBocA==",
         "label": "CH-EN"
       }
     ]
@@ -593,98 +593,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU5LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "VancouverCanucks-UtahMammoth",
-    "league": "Hockey",
-    "team1": {
-      "name": "Vancouver Canucks",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png"
-    },
-    "team2": {
-      "name": "Utah Mammoth",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png"
-    },
-    "kickoff_date": "2026-02-03",
-    "kickoff_time": "09:30",
-    "match_date": "2026-02-03",
-    "match_time": "09:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU4LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "DetroitRedWings-ColoradoAvalanche",
-    "league": "Hockey",
-    "team1": {
-      "name": "Detroit Red Wings",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png"
-    },
-    "team2": {
-      "name": "Colorado Avalanche",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png"
-    },
-    "kickoff_date": "2026-02-03",
-    "kickoff_time": "09:00",
-    "match_date": "2026-02-03",
-    "match_time": "09:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU3LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "SanJoseSharks-ChicagoBlackhawks",
-    "league": "Hockey",
-    "team1": {
-      "name": "San Jose Sharks",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png"
-    },
-    "team2": {
-      "name": "Chicago Blackhawks",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png"
-    },
-    "kickoff_date": "2026-02-03",
-    "kickoff_time": "08:30",
-    "match_date": "2026-02-03",
-    "match_time": "08:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU1LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "WinnipegJets-DallasStars",
-    "league": "Hockey",
-    "team1": {
-      "name": "Winnipeg Jets",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png"
-    },
-    "team2": {
-      "name": "Dallas Stars",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png"
-    },
-    "kickoff_date": "2026-02-03",
-    "kickoff_time": "08:30",
-    "match_date": "2026-02-03",
-    "match_time": "08:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU2LnBocA==",
         "label": "CH-EN"
       }
     ]
