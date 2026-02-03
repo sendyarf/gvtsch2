@@ -92,6 +92,29 @@
     ]
   },
   {
+    "id": "NFC-AFC",
+    "league": "American Football",
+    "team1": {
+      "name": "NFC",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nfc.png"
+    },
+    "team2": {
+      "name": "AFC",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/afc.png"
+    },
+    "kickoff_date": "2026-02-04",
+    "kickoff_time": "08:00",
+    "match_date": "2026-02-04",
+    "match_time": "08:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMwLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
     "id": "BostonCeltics-DallasMavericks",
     "league": "Basketball",
     "team1": {
@@ -156,29 +179,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcyLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "NFC-AFC",
-    "league": "American Football",
-    "team1": {
-      "name": "NFC",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nfc.png"
-    },
-    "team2": {
-      "name": "AFC",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/afc.png"
-    },
-    "kickoff_date": "2026-02-04",
-    "kickoff_time": "08:00",
-    "match_date": "2026-02-04",
-    "match_time": "08:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMwLnBocA==",
         "label": "CH-EN"
       }
     ]
@@ -409,144 +409,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY3LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "StadeRennais-Marseille",
-    "league": "Football",
-    "team1": {
-      "name": "Stade Rennais",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png"
-    },
-    "team2": {
-      "name": "Marseille",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png"
-    },
-    "kickoff_date": "2026-02-04",
-    "kickoff_time": "03:10",
-    "match_date": "2026-02-04",
-    "match_time": "03:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Barcelona-Albacete",
-    "league": "Football",
-    "team1": {
-      "name": "Barcelona",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
-    },
-    "team2": {
-      "name": "Albacete",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2737.png"
-    },
-    "kickoff_date": "2026-02-04",
-    "kickoff_time": "03:00",
-    "match_date": "2026-02-04",
-    "match_time": "03:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcucGhw",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Chelsea-Arsenal",
-    "league": "Football",
-    "team1": {
-      "name": "Chelsea",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
-    },
-    "team2": {
-      "name": "Arsenal",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
-    },
-    "kickoff_date": "2026-02-04",
-    "kickoff_time": "03:00",
-    "match_date": "2026-02-04",
-    "match_time": "03:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "StPauli-BayerLeverkusen",
-    "league": "Football",
-    "team1": {
-      "name": "St. Pauli",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/270.png"
-    },
-    "team2": {
-      "name": "Bayer Leverkusen",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png"
-    },
-    "kickoff_date": "2026-02-04",
-    "kickoff_time": "02:45",
-    "match_date": "2026-02-04",
-    "match_time": "02:45",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDgucGhw",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "ACMilan-Bologna",
-    "league": "Football",
-    "team1": {
-      "name": "AC Milan",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png"
-    },
-    "team2": {
-      "name": "Bologna",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png"
-    },
-    "kickoff_date": "2026-02-04",
-    "kickoff_time": "02:45",
-    "match_date": "2026-02-04",
-    "match_time": "02:45",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDkucGhw",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "LeMans-StadedeReims",
-    "league": "Football",
-    "team1": {
-      "name": "Le Mans",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png"
-    },
-    "team2": {
-      "name": "Stade de Reims",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3243.png"
-    },
-    "kickoff_date": "2026-02-04",
-    "kickoff_time": "02:30",
-    "match_date": "2026-02-04",
-    "match_time": "02:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUucGhw",
         "label": "CH-EN"
       }
     ]
