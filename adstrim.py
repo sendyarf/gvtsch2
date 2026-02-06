@@ -3,11 +3,15 @@ import requests
 import base64
 from datetime import datetime, timedelta
 import re
+import pytz
 
 def gmt_to_gmt7(timestamp):
-    # Convert unix timestamp to datetime and add 7 hours
-    dt_utc = datetime.utcfromtimestamp(timestamp)
-    dt_gmt7 = dt_utc + timedelta(hours=7)
+    # Convert unix timestamp to UTC and then to GMT+7 using pytz
+    utc_tz = pytz.utc
+    gmt7_tz = pytz.timezone('Asia/Jakarta')
+    
+    dt_utc = datetime.fromtimestamp(timestamp, utc_tz)
+    dt_gmt7 = dt_utc.astimezone(gmt7_tz)
     return dt_gmt7
 
 def clean_name(name):
