@@ -6,11 +6,39 @@ import pytz
 import re
 import urllib3
 
+def get_sport_duration(sport, league, duration_mapping):
+    # Try exact match for league first
+    if league in duration_mapping:
+        minutes = duration_mapping[league]
+    # Then try sport
+    elif sport in duration_mapping:
+        minutes = duration_mapping[sport]
+    else:
+        # Default for Football if not found (though it should be in mapping)
+        if sport == 'Football':
+            return "3.5"
+        return "3.5"
+    
+    # Convert minutes to hours and format as string with 2 decimal places if not whole
+    hours = minutes / 60.0
+    if hours == int(hours):
+        return str(int(hours))
+    return f"{hours:.3g}"
+
 def parse_streamcenter():
     # Fetch categories first
     categories_url = "https://backendstreamcenter.youshop.pro:488/api/Categories"
     category_map = {}
     
+    # Load duration mapping
+    duration_mapping = {}
+    try:
+        with open("duration.json", 'r', encoding='utf-8') as f:
+            duration_data = json.load(f)
+            duration_mapping = duration_data.get('data', {})
+    except Exception as e:
+        print(f"Warning: Could not load duration.json: {e}")
+
     try:
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
         cat_response = requests.get(categories_url, verify=False, timeout=15)
@@ -105,7 +133,7 @@ def parse_streamcenter():
             "kickoff_time": kickoff_time,
             "match_date": kickoff_date,
             "match_time": kickoff_time,
-            "duration": "3.5",
+            "duration": get_sport_duration('', league, duration_mapping),
             "servers": [server_data]
         }
         matches.append(match_data)

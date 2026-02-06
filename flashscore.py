@@ -12,19 +12,37 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 import re
 
+def get_sport_duration(sport, league, duration_mapping):
+    # Try exact match for league first
+    if league in duration_mapping:
+        minutes = duration_mapping[league]
+    # Then try sport
+    elif sport in duration_mapping:
+        minutes = duration_mapping[sport]
+    else:
+        # Default for Football if not found (though it should be in mapping)
+        if sport == 'Football':
+            return "3.5"
+        return "3.5"
+    
+    # Convert minutes to hours and format as string with 2 decimal places if not whole
+    hours = minutes / 60.0
+    if hours == int(hours):
+        return str(int(hours))
+    return f"{hours:.3g}"
+
 def scrape_flashscore():
     # List of URLs to scrape
     urls = [
-        {"url": "https://www.flashscore.com/football/england/premier-league/fixtures/", "league": "England - Premier League"},
-        {"url": "https://www.flashscore.com/football/netherlands/eredivisie/fixtures/", "league": "Netherlands - Eredivisie"},
-        {"url": "https://www.flashscore.com/football/france/ligue-1/fixtures/", "league": "France - Ligue 1"},
-        {"url": "https://www.flashscore.com/football/germany/bundesliga/fixtures/", "league": "Germany - Bundesliga"},
-        {"url": "https://www.flashscore.com/football/italy/serie-a/fixtures/", "league": "Italy - Serie A"},
-        {"url": "https://www.flashscore.com/football/spain/laliga/fixtures/", "league": "Spain - Laliga"},
-        {"url": "https://www.flashscore.com/football/indonesia/super-league/fixtures/", "league": "Indonesia - Super League"},
-        {"url": "https://www.flashscore.com/football/europe/champions-league/fixtures/", "league": "UEFA Champions League"},
-        {"url": "https://www.flashscore.com/basketball/usa/nba/fixtures/", "league": "USA - NBA"},
-        {"url": "https://www.flashscore.com/nhl/fixtures/", "league": "USA - NHL"},
+       # {"url": "https://www.flashscore.com/football/england/premier-league/fixtures/", "league": "England - Premier League", "sport": "Football"},
+        #{"url": "https://www.flashscore.com/football/netherlands/eredivisie/fixtures/", "league": "Netherlands - Eredivisie", "sport": "Football"},
+       # {"url": "https://www.flashscore.com/football/france/ligue-1/fixtures/", "league": "France - Ligue 1", "sport": "Football"},
+        #{"url": "https://www.flashscore.com/football/germany/bundesliga/fixtures/", "league": "Germany - Bundesliga", "sport": "Football"},
+       # {"url": "https://www.flashscore.com/football/italy/serie-a/fixtures/", "league": "Italy - Serie A", "sport": "Football"},
+       # {"url": "https://www.flashscore.com/football/spain/laliga/fixtures/", "league": "Spain - Laliga", "sport": "Football"},
+        {"url": "https://www.flashscore.com/football/indonesia/super-league/fixtures/", "league": "Indonesia - Super League", "sport": "Football"},
+       # {"url": "https://www.flashscore.com/football/europe/champions-league/fixtures/", "league": "UEFA Champions League", "sport": "Football"},
+      #  {"url": "https://www.flashscore.com/basketball/usa/nba/fixtures/", "league": "USA - NBA", "sport": "Basketball"},
     ]
 
     # Set up Chrome options for headless mode
@@ -45,6 +63,15 @@ def scrape_flashscore():
         print(f"Error initializing driver: {e}")
         return []
 
+    # Load duration mapping
+    duration_mapping = {}
+    try:
+        with open("duration.json", 'r', encoding='utf-8') as f:
+            duration_data = json.load(f)
+            duration_mapping = duration_data.get('data', {})
+    except Exception as e:
+        print(f"Warning: Could not load duration.json: {e}")
+
     data = []
     # Get current date dynamically
     current_date = datetime.now()
@@ -58,7 +85,8 @@ def scrape_flashscore():
         for league_info in urls:
             url = league_info["url"]
             league_name = league_info["league"]
-            print(f"Navigating to {league_name} fixtures page: {url}")
+            sport_name = league_info["sport"]
+            print(f"Navigating to {league_name} ({sport_name}) fixtures page: {url}")
 
             # Navigate to the URL
             driver.get(url)
@@ -154,9 +182,9 @@ def scrape_flashscore():
                             
                             match_id = f"{clean_name(home_name)}-{clean_name(away_name)}"
 
-                            # Build the item
                             item = {
                                 "id": match_id,
+                                "sport": sport_name,
                                 "league": league_name,
                                 "team1": {
                                     "name": home_name,
@@ -170,7 +198,7 @@ def scrape_flashscore():
                                 "kickoff_time": kickoff_time,
                                 "match_date": kickoff_date,  # Same format as kickoff_date (YYYY-MM-DD)
                                 "match_time": kickoff_time,  # Use the same time as kickoff_time
-                                "duration": "3.5",
+                                "duration": get_sport_duration(sport_name, league_name, duration_mapping),
                                 "servers": []
                             }
 
@@ -191,7 +219,7 @@ def scrape_flashscore():
     # Save to flashscore.json
     print(f"Saving {len(data)} matches to flashscore.json...")
     with open("flashscore.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
     print("Scraping completed successfully! Data saved to flashscore.json.")
     return data

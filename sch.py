@@ -16,12 +16,13 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # Priority Order (Creation & Merging):
 # 1. manual_sch.json    - Highest priority. Create new or merge servers.
 # 2. flashscore.json    - Primary data source. Create new (no servers).
-# 3. bolaloca.json      - Create new or merge servers. No logos (needs enrichment).
-# 4. streamcenter.json  - Create new or merge servers.
+# 3. adstrim.json      - Create new or merge servers.
+# 4. bolaloca.json      - Create new or merge servers. No logos (needs enrichment).
+# 5. streamcenter.json  - Create new or merge servers.
 #
 # Merge Only Sources:
-# 5. sportsonline.json  - Only merge servers.
-# 6. soco.json          - Only merge servers.
+# 6. sportsonline.json  - Only merge servers.
+# 7. soco.json          - Only merge servers.
 #
 # Enrichment:
 # - Logos: Try Streamcenter first, then fallback to GitHub repository.
@@ -421,6 +422,7 @@ def main():
     # Load Data
     manual_sch = load_json_safe('manual_sch.json')
     flashscore = load_json_safe('flashscore.json')
+    adstrim = load_json_safe('adstrim.json')
     bolaloca = load_json_safe('bolaloca.json')
     streamcenter = load_json_safe('streamcenter.json')
     flashscore_home = load_json_safe('flashscore_home.json')
@@ -432,6 +434,7 @@ def main():
     primary_sources = [
         ('manual_sch.json', manual_sch, True),  # prepend servers
         ('flashscore.json', flashscore, False),
+        ('adstrim.json', adstrim, False),
         ('bolaloca.json', bolaloca, False),
         ('streamcenter.json', streamcenter, False),
     ]
