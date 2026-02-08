@@ -18,8 +18,17 @@ def scrape_ikotv():
     
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "*/*",
+        "Accept-Language": "en-US,en;q=0.9,id;q=0.8",
         "X-Requested-With": "XMLHttpRequest",
-        "Referer": "https://ikotv.com/"
+        "Referer": "https://ikotv.com/",
+        "Origin": "https://ikotv.com",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+        "Connection": "keep-alive",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache"
     }
 
     all_matches = []
