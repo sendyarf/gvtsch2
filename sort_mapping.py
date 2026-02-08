@@ -98,7 +98,7 @@ def sort_and_format_mapping(file_path):
 
 if __name__ == "__main__":
     # Use the absolute path provided in the user context
-    file_path = r"d:\Sendy\govoet\script\gvtsch\manual_mapping.json"
+    file_path = r"d:\Sendy\govoet\script\gvtsch2\manual_mapping.json"
     if os.path.exists(file_path):
         sort_and_format_mapping(file_path)
     else:

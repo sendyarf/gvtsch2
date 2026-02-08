@@ -509,6 +509,7 @@ def main():
     bolaloca = load_json_safe('bolaloca.json')
     streamcenter = load_json_safe('streamcenter.json')
     flashscore_home = load_json_safe('flashscore_home.json')
+    ikotv = load_json_safe('ikotv.json')
     
     # ============================================
     # PHASE 1: Primary Sources (Create & Merge)
@@ -588,6 +589,22 @@ def main():
                 merge_servers(existing_match, new_servers, existing_urls)
                 soco_merged += 1
     print(f"  ✅ Merged {soco_merged} servers from soco.json")
+
+    # ikotv.json
+    print(f"Processing ikotv.json ({len(ikotv)} matches) - Server merge only...")
+    ikotv_merged = 0
+    if isinstance(ikotv, list):
+        for match in ikotv:
+            # iKOTV has dates, so we don't strictly need allow_time_only=True, 
+            # but it is safer to use standard matching first.
+            existing_key = find_matching_entry(match, merged_data, allow_time_only=False)
+            if existing_key:
+                existing_match = merged_data[existing_key]
+                existing_urls = {s['url'] for s in existing_match.get('servers', [])}
+                new_servers = match.get('servers', [])
+                merge_servers(existing_match, new_servers, existing_urls)
+                ikotv_merged += 1
+    print(f"  ✅ Merged {ikotv_merged} servers from ikotv.json")
 
     # Convert to list
     final_data = list(merged_data.values())
