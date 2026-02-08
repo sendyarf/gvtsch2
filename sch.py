@@ -303,6 +303,89 @@ def enrich_logos(matches, streamcenter_data, flashscore_home_data):
     print(f"✅ Enriched {enriched_count_fh} matches from Flashscore Home.")
     return matches
 
+def enrich_league_names(matches, flashscore_home_data):
+    """
+    Enrich/fix league names using Flashscore Home data.
+    This is important because Flashscore Home provides accurate "Country - League" format.
+    """
+    if not flashscore_home_data:
+        return matches
+        
+    print("\nEnriching league names from Flashscore Home...")
+    
+    # Pre-process flashscore_home data for faster lookup
+    fh_lookup = {}
+    for item in flashscore_home_data:
+        t1 = normalize_team_name(item['team1']['name'])
+        t2 = normalize_team_name(item['team2']['name'])
+        if t1 and t2:
+            teams_key = '-'.join(sorted([t1, t2]))
+            fh_lookup[teams_key] = item
+    
+    updated_count = 0
+    
+    for match in matches:
+        mt1 = normalize_team_name(match['team1']['name'])
+        mt2 = normalize_team_name(match['team2']['name'])
+        match_teams_key = '-'.join(sorted([mt1, mt2]))
+        
+        # Try direct lookup first
+        source_item = fh_lookup.get(match_teams_key)
+        
+        # If not found, try fuzzy matching with lower threshold
+        if not source_item:
+            for key, item in fh_lookup.items():
+                if fuzzy_match_teams(
+                    match['team1']['name'], match['team2']['name'],
+                    item['team1']['name'], item['team2']['name'],
+                    threshold=70  # Lower threshold to catch partial names like "Lion City" vs "Lion City Sailors"
+                ):
+                    source_item = item
+                    break
+        
+        # If still not found, try partial/substring matching
+        if not source_item:
+            mt1_lower = mt1.lower()
+            mt2_lower = mt2.lower()
+            for key, item in fh_lookup.items():
+                ft1 = normalize_team_name(item['team1']['name']).lower()
+                ft2 = normalize_team_name(item['team2']['name']).lower()
+                
+                # Check if one name contains the other (e.g., "lion city" in "lion city sailors")
+                t1_match = (ft1 in mt1_lower or mt1_lower in ft1) and len(min(ft1, mt1_lower)) >= 5
+                t2_match = (ft2 in mt2_lower or mt2_lower in ft2) and len(min(ft2, mt2_lower)) >= 5
+                
+                # Also check reversed order
+                t1_match_rev = (ft1 in mt2_lower or mt2_lower in ft1) and len(min(ft1, mt2_lower)) >= 5
+                t2_match_rev = (ft2 in mt1_lower or mt1_lower in ft2) and len(min(ft2, mt1_lower)) >= 5
+                
+                if (t1_match and t2_match) or (t1_match_rev and t2_match_rev):
+                    source_item = item
+                    break
+        
+        if source_item and source_item.get('league'):
+            old_league = match.get('league', '')
+            new_league = source_item['league']
+            
+            # Only update if the new league name is different and more specific
+            # (contains country prefix like "Singapore - Premier League")
+            if old_league != new_league and ' - ' in new_league:
+                # Check if this is actually a better match (same league name but with country prefix)
+                old_league_name = old_league.split(' - ')[-1] if ' - ' in old_league else old_league
+                new_league_name = new_league.split(' - ')[-1]
+                
+                # If league names are similar (fuzzy match), prefer the one from flashscore_home
+                if calculate_similarity(normalize_text(old_league_name), normalize_text(new_league_name)) > 70:
+                    match['league'] = new_league
+                    updated_count += 1
+                elif not ' - ' in old_league:
+                    # If old league doesn't have country prefix, use the new one
+                    match['league'] = new_league
+                    updated_count += 1
+    
+    print(f"✅ Updated {updated_count} league names from Flashscore Home.")
+    return matches
+
 # ============================================
 # MATCHING & MERGING LOGIC
 # ============================================
@@ -513,6 +596,13 @@ def main():
     # PHASE 3: Enrich Logos (Streamcenter -> Flashscore Home)
     # ============================================
     final_data = enrich_logos(final_data, streamcenter, flashscore_home)
+    
+    # ============================================
+    # PHASE 3.5: Enrich League Names (Flashscore Home)
+    # ============================================
+    # This fixes incorrect league names (e.g., "Singapore - Premier League" 
+    # instead of "England - Premier League" for Singapore matches)
+    final_data = enrich_league_names(final_data, flashscore_home)
         
     # ============================================
     # PHASE 4: Apply Manual Mapping for Display

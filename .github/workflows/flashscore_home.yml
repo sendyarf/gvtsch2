@@ -4,9 +4,10 @@ on:
   schedule:
     # 00:01 WIB = 17:01 UTC (sehari sebelumnya)
     - cron: "1 17 * * *"
-    
+
     # 03:00 WIB = 20:00 UTC (sehari sebelumnya)
-    - cron: "0 20 * * *"
+    - cron:
+        "0 20 * * *"
 
         # 12:00 WIB = 05:00 UTC
     - cron: "0 5 * * *"
@@ -34,6 +35,8 @@ jobs:
 
       - name: Run Flashscore Homepage Scraper
         run: python flashscore_home.py
+        env:
+          TZ: Asia/Jakarta
 
       - name: Commit and push changes
         run: |
