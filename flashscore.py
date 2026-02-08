@@ -34,15 +34,15 @@ def get_sport_duration(sport, league, duration_mapping):
 def scrape_flashscore():
     # List of URLs to scrape
     urls = [
-       # {"url": "https://www.flashscore.com/football/england/premier-league/fixtures/", "league": "England - Premier League", "sport": "Football"},
-        #{"url": "https://www.flashscore.com/football/netherlands/eredivisie/fixtures/", "league": "Netherlands - Eredivisie", "sport": "Football"},
-       # {"url": "https://www.flashscore.com/football/france/ligue-1/fixtures/", "league": "France - Ligue 1", "sport": "Football"},
-        #{"url": "https://www.flashscore.com/football/germany/bundesliga/fixtures/", "league": "Germany - Bundesliga", "sport": "Football"},
-       # {"url": "https://www.flashscore.com/football/italy/serie-a/fixtures/", "league": "Italy - Serie A", "sport": "Football"},
-       # {"url": "https://www.flashscore.com/football/spain/laliga/fixtures/", "league": "Spain - Laliga", "sport": "Football"},
+       {"url": "https://www.flashscore.com/football/england/premier-league/fixtures/", "league": "England - Premier League", "sport": "Football"},
+        {"url": "https://www.flashscore.com/football/netherlands/eredivisie/fixtures/", "league": "Netherlands - Eredivisie", "sport": "Football"},
+       {"url": "https://www.flashscore.com/football/france/ligue-1/fixtures/", "league": "France - Ligue 1", "sport": "Football"},
+        {"url": "https://www.flashscore.com/football/germany/bundesliga/fixtures/", "league": "Germany - Bundesliga", "sport": "Football"},
+        {"url": "https://www.flashscore.com/football/italy/serie-a/fixtures/", "league": "Italy - Serie A", "sport": "Football"},
+        {"url": "https://www.flashscore.com/football/spain/laliga/fixtures/", "league": "Spain - Laliga", "sport": "Football"},
         {"url": "https://www.flashscore.com/football/indonesia/super-league/fixtures/", "league": "Indonesia - Super League", "sport": "Football"},
-       # {"url": "https://www.flashscore.com/football/europe/champions-league/fixtures/", "league": "UEFA Champions League", "sport": "Football"},
-      #  {"url": "https://www.flashscore.com/basketball/usa/nba/fixtures/", "league": "USA - NBA", "sport": "Basketball"},
+       {"url": "https://www.flashscore.com/football/europe/champions-league/fixtures/", "league": "UEFA Champions League", "sport": "Football"},
+       {"url": "https://www.flashscore.com/basketball/usa/nba/fixtures/", "league": "USA - NBA", "sport": "Basketball"},
     ]
 
     # Set up Chrome options for headless mode
