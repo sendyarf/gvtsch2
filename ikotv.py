@@ -1,10 +1,4 @@
-import requests
-from bs4 import BeautifulSoup
-import json
-import time
-import base64
-
-import requests
+from curl_cffi import requests
 from bs4 import BeautifulSoup
 import json
 import time
@@ -35,7 +29,8 @@ def scrape_ikotv():
 
     try:
         print(f"Fetching match list from {list_url}...")
-        response = requests.get(list_url, headers=headers, timeout=15)
+        print(f"Fetching match list from {list_url}...")
+        response = requests.get(list_url, headers=headers, timeout=15, impersonate="chrome110")
         response.raise_for_status()
         
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -109,8 +104,9 @@ def scrape_ikotv():
                 print(f"Processing: {home_team} vs {away_team} ({league_name})")
 
                 # Fetch Match Page to get Stream Link
+                # Fetch Match Page to get Stream Link
                 try:
-                    match_page_response = requests.get(match_url, headers=headers, timeout=10)
+                    match_page_response = requests.get(match_url, headers=headers, timeout=10, impersonate="chrome110")
                     match_soup = BeautifulSoup(match_page_response.text, 'html.parser')
                     
                     # Look for stream links
