@@ -18,6 +18,18 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?shaka=psn2",
+        "label": "CH-MN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?jw=psn2hls",
+        "label": "CH-MN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=fubo2",
+        "label": "CH-EN"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9UTlRTcG9ydHM0W1VLXQ==",
         "label": "CH-UK"
       },
@@ -72,62 +84,6 @@
     ]
   },
   {
-    "id": "Everton-Bournemouth",
-    "sport": "Football",
-    "league": "England - Premier League",
-    "team1": {
-      "name": "Everton",
-      "logo": "https://static.flashscore.com/res/image/data/EBfZuwme-bRmKmISE.png"
-    },
-    "team2": {
-      "name": "Bournemouth",
-      "logo": "https://static.flashscore.com/res/image/data/C60HMWTH-tCGtX12c.png"
-    },
-    "kickoff_date": "2026-02-11",
-    "kickoff_time": "02:30",
-    "match_date": "2026-02-11",
-    "match_time": "02:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9Ta3lTcG9ydDlbTmV3WmVhbGFuZF0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9Ta3lTcG9ydDJbR2VybWFueV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9EaWVtYVNwb3J0MltCdWxnYXJpYV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9TdXBlclNwb3J0Rm9vdGJhbGxbU291dGhBZnJpY2Fd",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9BcmVuYVNwb3J0MVtTZXJiaWFd",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9Ob3ZhU3BvcnRzNFtHcmVlY2Vd",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9FU1BOM1tBcmdlbnRpbmFd",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUucGhw",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd10",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
     "id": "Tottenham-Newcastle",
     "sport": "Football",
     "league": "England - Premier League",
@@ -145,6 +101,10 @@
     "match_time": "02:30",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=psn3",
+        "label": "CH-MN"
+      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9UTlRTcG9ydHMzW1VLXQ==",
         "label": "CH-UK"
@@ -206,6 +166,10 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?shaka=tnt1",
+        "label": "CH-EN"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
         "label": "CH-UK"
       },
@@ -256,6 +220,266 @@
       {
         "url": "https://multi.govoet.cc/?ss=br3",
         "label": "CH-4"
+      }
+    ]
+  },
+  {
+    "id": "Napoli-Como",
+    "sport": "Football",
+    "league": "Italy - Coppa Italia",
+    "team1": {
+      "name": "Napoli",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2714/image"
+    },
+    "team2": {
+      "name": "Como",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2704/image"
+    },
+    "kickoff_date": "2026-02-11",
+    "kickoff_time": "03:00",
+    "match_date": "2026-02-11",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=sport1cz",
+        "label": "CH-CZ"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=italia1",
+        "label": "CH-IT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=cbssports",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9WaWFwbGF5U3BvcnRzMltVS10=",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9BcmVuYVByZW1pdW0xW1NlcmJpYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9TcG9ydFRWMltQb3J0dWdhbF0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9aaWdnb1Nwb3J0W05ldGhlcmxhbmRzXQ==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDkucGhw",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd7",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv2",
+        "label": "CH-2"
+      }
+    ]
+  },
+  {
+    "id": "ManchesterCity-Fulham",
+    "sport": "Football",
+    "league": "England - Premier League",
+    "team1": {
+      "name": "Manchester City",
+      "logo": "https://static.flashscore.com/res/image/data/0vgscFU0-lQuhqN8N.png"
+    },
+    "team2": {
+      "name": "Fulham",
+      "logo": "https://static.flashscore.com/res/image/data/fkbYUWme-ImMEe0UF.png"
+    },
+    "kickoff_date": "2026-02-12",
+    "kickoff_time": "02:30",
+    "match_date": "2026-02-12",
+    "match_time": "02:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=psn2",
+        "label": "CH-MN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=fubo",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9UTlRTcG9ydHM0W1VLXQ==",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9TdXBlclNwb3J0UHJlbWllckxlYWd1ZVtTb3V0aEFmcmljYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9EQVpOMltTcGFpbl0=",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9BcmVuYVByZW1pdW0xW1NlcmJpYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9Ob3ZhU3BvcnRzMltHcmVlY2Vd",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9EaWVtYVNwb3J0MltCdWxnYXJpYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9Ta3lTcG9ydDFbR2VybWFueV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDQucGhw",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd2",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven1",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br2",
+        "label": "CH-3"
+      }
+    ]
+  },
+  {
+    "id": "Sunderland-Liverpool",
+    "sport": "Football",
+    "league": "England - Premier League",
+    "team1": {
+      "name": "Sunderland",
+      "logo": "https://static.flashscore.com/res/image/data/rPPdotBN-0d34NJCO.png"
+    },
+    "team2": {
+      "name": "Liverpool",
+      "logo": "https://static.flashscore.com/res/image/data/nBClzyne-KCp4zq5F.png"
+    },
+    "kickoff_date": "2026-02-12",
+    "kickoff_time": "03:15",
+    "match_date": "2026-02-12",
+    "match_time": "03:15",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=psn1",
+        "label": "CH-MN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=tnt1",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9UTlRTcG9ydHNVbHRpbWF0ZVtVS10=",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9Ta3lTcG9ydFNlbGVjdFtOZXdaZWFsYW5kXQ==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9EQVpOMVtTcGFpbl0=",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9BcmVuYVByZW1pdW0yW1NlcmJpYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9EaWVtYVNwb3J0W0J1bGdhcmlhXQ==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9FU1BOW0FyZ2VudGluYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br3",
+        "label": "CH-3"
+      }
+    ]
+  },
+  {
+    "id": "Everton-Bournemouth",
+    "sport": "Football",
+    "league": "England - Premier League",
+    "team1": {
+      "name": "Everton",
+      "logo": "https://static.flashscore.com/res/image/data/EBfZuwme-bRmKmISE.png"
+    },
+    "team2": {
+      "name": "Bournemouth",
+      "logo": "https://static.flashscore.com/res/image/data/C60HMWTH-tCGtX12c.png"
+    },
+    "kickoff_date": "2026-02-11",
+    "kickoff_time": "02:30",
+    "match_date": "2026-02-11",
+    "match_time": "02:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9Ta3lTcG9ydDlbTmV3WmVhbGFuZF0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9Ta3lTcG9ydDJbR2VybWFueV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9EaWVtYVNwb3J0MltCdWxnYXJpYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9TdXBlclNwb3J0Rm9vdGJhbGxbU291dGhBZnJpY2Fd",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9BcmVuYVNwb3J0MVtTZXJiaWFd",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9Ob3ZhU3BvcnRzNFtHcmVlY2Vd",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9FU1BOM1tBcmdlbnRpbmFd",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUucGhw",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd10",
+        "label": "CH-1"
       }
     ]
   },
@@ -360,70 +584,6 @@
     ]
   },
   {
-    "id": "ManchesterCity-Fulham",
-    "sport": "Football",
-    "league": "England - Premier League",
-    "team1": {
-      "name": "Manchester City",
-      "logo": "https://static.flashscore.com/res/image/data/0vgscFU0-lQuhqN8N.png"
-    },
-    "team2": {
-      "name": "Fulham",
-      "logo": "https://static.flashscore.com/res/image/data/fkbYUWme-ImMEe0UF.png"
-    },
-    "kickoff_date": "2026-02-12",
-    "kickoff_time": "02:30",
-    "match_date": "2026-02-12",
-    "match_time": "02:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9UTlRTcG9ydHM0W1VLXQ==",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9TdXBlclNwb3J0UHJlbWllckxlYWd1ZVtTb3V0aEFmcmljYV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9EQVpOMltTcGFpbl0=",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9BcmVuYVByZW1pdW0xW1NlcmJpYV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9Ob3ZhU3BvcnRzMltHcmVlY2Vd",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9EaWVtYVNwb3J0MltCdWxnYXJpYV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9Ta3lTcG9ydDFbR2VybWFueV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDQucGhw",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=eleven1",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br2",
-        "label": "CH-3"
-      }
-    ]
-  },
-  {
     "id": "Nottingham-Wolves",
     "sport": "Football",
     "league": "England - Premier League",
@@ -468,70 +628,6 @@
       {
         "url": "https://multi.govoet.cc/?ss=hd11",
         "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Sunderland-Liverpool",
-    "sport": "Football",
-    "league": "England - Premier League",
-    "team1": {
-      "name": "Sunderland",
-      "logo": "https://static.flashscore.com/res/image/data/rPPdotBN-0d34NJCO.png"
-    },
-    "team2": {
-      "name": "Liverpool",
-      "logo": "https://static.flashscore.com/res/image/data/nBClzyne-KCp4zq5F.png"
-    },
-    "kickoff_date": "2026-02-12",
-    "kickoff_time": "03:15",
-    "match_date": "2026-02-12",
-    "match_time": "03:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9UTlRTcG9ydHNVbHRpbWF0ZVtVS10=",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9Ta3lTcG9ydFNlbGVjdFtOZXdaZWFsYW5kXQ==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9EQVpOMVtTcGFpbl0=",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9BcmVuYVByZW1pdW0yW1NlcmJpYV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9EaWVtYVNwb3J0W0J1bGdhcmlhXQ==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9FU1BOW0FyZ2VudGluYV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd1",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=eleven2",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br3",
-        "label": "CH-3"
       }
     ]
   },
@@ -7098,54 +7194,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9Db3Ntb3RlU3BvcnQzW0dyZWVjZV0=",
         "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Napoli-Como",
-    "sport": "Football",
-    "league": "Italy - Coppa Italia",
-    "team1": {
-      "name": "Napoli",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2714/image"
-    },
-    "team2": {
-      "name": "Como",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2704/image"
-    },
-    "kickoff_date": "2026-02-11",
-    "kickoff_time": "03:00",
-    "match_date": "2026-02-11",
-    "match_time": "03:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9WaWFwbGF5U3BvcnRzMltVS10=",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9BcmVuYVByZW1pdW0xW1NlcmJpYV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9TcG9ydFRWMltQb3J0dWdhbF0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9kb3ZrZW1iZWQucHcvY2hhbm5lbC9aaWdnb1Nwb3J0W05ldGhlcmxhbmRzXQ==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDkucGhw",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd7",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv2",
-        "label": "CH-2"
       }
     ]
   },
