@@ -23,8 +23,6 @@ def fetch_sofascore(sport="football", date_str=None):
     
     url = f"https://www.sofascore.com/api/v1/sport/{sport}/scheduled-events/{date_str}"
     
-    # curl_cffi handles headers automatically with impersonate
-    # But we can still add Referer/Origin if needed
     headers = {
         "Referer": "https://www.sofascore.com/",
         "Origin": "https://www.sofascore.com",
@@ -33,14 +31,24 @@ def fetch_sofascore(sport="football", date_str=None):
     print(f"Fetching {sport} events for {date_str}...")
     
     try:
-        # Use impersonate="chrome" to mimic a real browser TLS fingerprint
-        response = requests.get(url, headers=headers, impersonate="chrome", timeout=30)
+        # Create a session to persist cookies
+        s = requests.Session()
+        
+        # 1. Visit Homepage first to get cookies/Cloudflare challenges
+        # Use impersonate="chrome" to mimic a real browser
+        s.get("https://www.sofascore.com/", headers=headers, impersonate="chrome", timeout=30)
+        
+        # 2. Now fetch the API data with these cookies
+        response = s.get(url, headers=headers, impersonate="chrome", timeout=30)
         
         # Check for 403 specifically
         if response.status_code == 403:
-             print(f"⚠️  403 Forbidden: Blocked. Retrying with delay...")
+             print(f"⚠️  403 Forbidden. Retrying with delay...")
              time.sleep(5)
-             response = requests.get(url, headers=headers, impersonate="chrome", timeout=30)
+             # Try creating a new session
+             s = requests.Session()
+             s.get("https://www.sofascore.com/", headers=headers, impersonate="chrome", timeout=30)
+             response = s.get(url, headers=headers, impersonate="chrome", timeout=30)
         
         response.raise_for_status()
     except requests.exceptions.RequestException as e:
