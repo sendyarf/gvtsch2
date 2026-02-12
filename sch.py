@@ -25,7 +25,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # 7. soco.json          - Only merge servers.
 #
 # Enrichment:
-# - Logos: Try Streamcenter first, then fallback to GitHub repository.
+# Enrichment:
+# - Sport/Status: SofaScore (sofascore.json) fills missing sport type, status, status_desc.
 # - manual_mapping.json - Normalization for team & league names.
 
 # ============================================
@@ -186,143 +187,36 @@ def create_composite_key(match):
 # DATA ENRICHMENT FUNCTION
 # ============================================
 
-def enrich_logos(matches, streamcenter_data, flashscore_home_data):
+def enrich_from_sofascore(matches, sofascore_data):
     """
-    Enrich missing logos.
-    1. Try to find logo in Streamcenter data.
-    2. Try to find logo in Flashscore Home data.
+    Enrich matches using SofaScore data:
+    1. Fill missing 'sport' field.
+    2. Add 'status' and 'status_desc' if available.
     """
-    print("\nEnriching logos...")
-    
-    # Pre-process streamcenter data for faster lookup
-    sc_lookup = {}
-    if streamcenter_data:
-        for item in streamcenter_data:
-            t1 = normalize_team_name(item['team1']['name'])
-            t2 = normalize_team_name(item['team2']['name'])
-            if t1 or t2:
-                teams_key = '-'.join(sorted([t1, t2]))
-                sc_lookup[teams_key] = item
-
-    # Pre-process flashscore_home data
-    fh_lookup = {}
-    if flashscore_home_data:
-        for item in flashscore_home_data:
-            t1 = normalize_team_name(item['team1']['name'])
-            t2 = normalize_team_name(item['team2']['name'])
-            if t1 or t2:
-                teams_key = '-'.join(sorted([t1, t2]))
-                fh_lookup[teams_key] = item
-
-    enriched_count_sc = 0
-    enriched_count_fh = 0
-    
-    for match in matches:
-        # Check if logos are missing
-        t1_missing = not match['team1'].get('logo')
-        t2_missing = not match['team2'].get('logo')
-        
-        if not t1_missing and not t2_missing:
-            continue
-            
-        mt1 = normalize_team_name(match['team1']['name'])
-        mt2 = normalize_team_name(match['team2']['name'])
-        match_teams_key = '-'.join(sorted([mt1, mt2]))
-        
-        # 1. Try Streamcenter Lookup
-        source_item = None
-        source_name = ""
-        
-        # Direct lookup SC
-        if sc_lookup.get(match_teams_key):
-            source_item = sc_lookup.get(match_teams_key)
-            source_name = "sc"
-        # Fuzzy lookup SC
-        elif streamcenter_data:
-             for key, item in sc_lookup.items():
-                if fuzzy_match_teams(
-                    match['team1']['name'], match['team2']['name'],
-                    item['team1']['name'], item['team2']['name'],
-                    threshold=80
-                ):
-                    source_item = item
-                    source_name = "sc"
-                    break
-        
-        # 2. Try Flashscore Home Lookup if not found in SC
-        if not source_item:
-            # Direct lookup FH
-            if fh_lookup.get(match_teams_key):
-                source_item = fh_lookup.get(match_teams_key)
-                source_name = "fh"
-            # Fuzzy lookup FH
-            elif flashscore_home_data:
-                 for key, item in fh_lookup.items():
-                    if fuzzy_match_teams(
-                        match['team1']['name'], match['team2']['name'],
-                        item['team1']['name'], item['team2']['name'],
-                        threshold=80
-                    ):
-                        source_item = item
-                        source_name = "fh"
-                        break
-
-        if source_item:
-            # Determine alignment
-            ht1 = normalize_team_name(source_item['team1']['name'])
-            ht2 = normalize_team_name(source_item['team2']['name'])
-            
-            sim_direct_t1 = calculate_similarity(mt1, ht1)
-            sim_direct_t2 = calculate_similarity(mt2, ht2)
-            sim_rev_t1 = calculate_similarity(mt1, ht2)
-            sim_rev_t2 = calculate_similarity(mt2, ht1)
-            
-            if (sim_direct_t1 + sim_direct_t2) >= (sim_rev_t1 + sim_rev_t2):
-                source_t1, source_t2 = source_item['team1'], source_item['team2']
-            else:
-                source_t1, source_t2 = source_item['team2'], source_item['team1']
-                
-            updated = False
-            if t1_missing and source_t1.get('logo'):
-                match['team1']['logo'] = source_t1['logo']
-                t1_missing = False
-                updated = True
-                
-            if t2_missing and source_t2.get('logo'):
-                match['team2']['logo'] = source_t2['logo']
-                t2_missing = False
-                updated = True
-            
-            if updated:
-                if source_name == "sc":
-                    enriched_count_sc += 1
-                else:
-                    enriched_count_fh += 1
-
-    print(f"✅ Enriched {enriched_count_sc} matches from Streamcenter.")
-    print(f"✅ Enriched {enriched_count_fh} matches from Flashscore Home.")
-    return matches
-
-def enrich_league_names(matches, flashscore_home_data):
-    """
-    Enrich/fix league names using Flashscore Home data.
-    This is important because Flashscore Home provides accurate "Country - League" format.
-    """
-    if not flashscore_home_data:
+    if not sofascore_data:
         return matches
         
-    print("\nEnriching league names from Flashscore Home...")
+    print("\nEnriching from SofaScore...")
     
-    # Pre-process flashscore_home data for faster lookup
-    fh_lookup = {}
-    for item in flashscore_home_data:
+    # Pre-process sofascore data for faster lookup
+    ss_lookup = {}
+    ss_by_date = {} # date -> list of items
+    
+    for item in sofascore_data:
         t1 = normalize_team_name(item['team1']['name'])
         t2 = normalize_team_name(item['team2']['name'])
         if t1 and t2:
             teams_key = '-'.join(sorted([t1, t2]))
-            fh_lookup[teams_key] = item
+            ss_lookup[teams_key] = item
+            
+        date = item.get('kickoff_date')
+        if date:
+            if date not in ss_by_date:
+                ss_by_date[date] = []
+            ss_by_date[date].append(item)
     
-    updated_count = 0
+    sport_count = 0
+    status_count = 0
     
     for match in matches:
         mt1 = normalize_team_name(match['team1']['name'])
@@ -330,60 +224,40 @@ def enrich_league_names(matches, flashscore_home_data):
         match_teams_key = '-'.join(sorted([mt1, mt2]))
         
         # Try direct lookup first
-        source_item = fh_lookup.get(match_teams_key)
+        source_item = ss_lookup.get(match_teams_key)
         
-        # If not found, try fuzzy matching with lower threshold
+        # If not found, try fuzzy matching within the SAME DATE
         if not source_item:
-            for key, item in fh_lookup.items():
-                if fuzzy_match_teams(
-                    match['team1']['name'], match['team2']['name'],
-                    item['team1']['name'], item['team2']['name'],
-                    threshold=70  # Lower threshold to catch partial names like "Lion City" vs "Lion City Sailors"
-                ):
-                    source_item = item
-                    break
-        
-        # If still not found, try partial/substring matching
-        if not source_item:
-            mt1_lower = mt1.lower()
-            mt2_lower = mt2.lower()
-            for key, item in fh_lookup.items():
-                ft1 = normalize_team_name(item['team1']['name']).lower()
-                ft2 = normalize_team_name(item['team2']['name']).lower()
-                
-                # Check if one name contains the other (e.g., "lion city" in "lion city sailors")
-                t1_match = (ft1 in mt1_lower or mt1_lower in ft1) and len(min(ft1, mt1_lower)) >= 5
-                t2_match = (ft2 in mt2_lower or mt2_lower in ft2) and len(min(ft2, mt2_lower)) >= 5
-                
-                # Also check reversed order
-                t1_match_rev = (ft1 in mt2_lower or mt2_lower in ft1) and len(min(ft1, mt2_lower)) >= 5
-                t2_match_rev = (ft2 in mt1_lower or mt1_lower in ft2) and len(min(ft2, mt1_lower)) >= 5
-                
-                if (t1_match and t2_match) or (t1_match_rev and t2_match_rev):
-                    source_item = item
-                    break
-        
-        if source_item and source_item.get('league'):
-            old_league = match.get('league', '')
-            new_league = source_item['league']
+            match_date = match.get('kickoff_date')
+            candidate_list = ss_by_date.get(match_date, []) if match_date else []
             
-            # Only update if the new league name is different and more specific
-            # (contains country prefix like "Singapore - Premier League")
-            if old_league != new_league and ' - ' in new_league:
-                # Check if this is actually a better match (same league name but with country prefix)
-                old_league_name = old_league.split(' - ')[-1] if ' - ' in old_league else old_league
-                new_league_name = new_league.split(' - ')[-1]
-                
-                # If league names are similar (fuzzy match), prefer the one from flashscore_home
-                if calculate_similarity(normalize_text(old_league_name), normalize_text(new_league_name)) > 70:
-                    match['league'] = new_league
-                    updated_count += 1
-                elif not ' - ' in old_league:
-                    # If old league doesn't have country prefix, use the new one
-                    match['league'] = new_league
-                    updated_count += 1
+            # If no date, maybe check all? (Too slow, skip for now unless crucial)
+            # Or if candidate list is empty, skip.
+            
+            if candidate_list:
+                for item in candidate_list:
+                    if fuzzy_match_teams(
+                        match['team1']['name'], match['team2']['name'],
+                        item['team1']['name'], item['team2']['name'],
+                        threshold=80
+                    ):
+                        source_item = item
+                        break
+        
+        if source_item:
+            # 1. Fill missing sport
+            if not match.get('sport') and source_item.get('sport'):
+                match['sport'] = source_item['sport']
+                sport_count += 1
+            
+            # 2. Add status and status_desc
+            if source_item.get('status'):
+                match['status'] = source_item['status']
+                match['status_desc'] = source_item.get('status_desc', '')
+                status_count += 1
     
-    print(f"✅ Updated {updated_count} league names from Flashscore Home.")
+    print(f"  ✅ Enriched {sport_count} matches with sport type.")
+    print(f"  ✅ Enriched {status_count} matches with status.")
     return matches
 
 # ============================================
@@ -508,8 +382,8 @@ def main():
     adstrim = load_json_safe('adstrim.json')
     bolaloca = load_json_safe('bolaloca.json')
     streamcenter = load_json_safe('streamcenter.json')
-    flashscore_home = load_json_safe('flashscore_home.json')
     ikotv = load_json_safe('ikotv.json')
+    sofascore = load_json_safe('sofascore.json')
     
     # ============================================
     # PHASE 1: Primary Sources (Create & Merge)
@@ -610,16 +484,9 @@ def main():
     final_data = list(merged_data.values())
     
     # ============================================
-    # PHASE 3: Enrich Logos (Streamcenter -> Flashscore Home)
+    # PHASE 3: Enrich from SofaScore (sport, status)
     # ============================================
-    final_data = enrich_logos(final_data, streamcenter, flashscore_home)
-    
-    # ============================================
-    # PHASE 3.5: Enrich League Names (Flashscore Home)
-    # ============================================
-    # This fixes incorrect league names (e.g., "Singapore - Premier League" 
-    # instead of "England - Premier League" for Singapore matches)
-    final_data = enrich_league_names(final_data, flashscore_home)
+    final_data = enrich_from_sofascore(final_data, sofascore)
         
     # ============================================
     # PHASE 4: Apply Manual Mapping for Display
