@@ -276,6 +276,10 @@ def enrich_from_sofascore(matches, sofascore_data):
                 match['status'] = source_item['status']
                 match['status_desc'] = source_item.get('status_desc', '')
                 status_count += 1
+                
+            # 3. Add gender
+            if source_item.get('gender'):
+                match['gender'] = source_item['gender']
     
     print(f"  ✅ Enriched {sport_count} matches with sport type.")
     print(f"  ✅ Enriched {status_count} matches with status.")

@@ -165,6 +165,7 @@ def fetch_sofascore(sport="football", date_str=None):
                 "round": round_num,
                 "season": season_name,
                 "sport": sport_name,
+                "gender": home_gender,
                 "duration": "3.5",
                 "servers": []
             }
