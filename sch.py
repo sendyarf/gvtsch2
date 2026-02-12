@@ -67,6 +67,9 @@ def slugify(text):
 def load_manual_mapping():
     """
     Load manual mapping from external JSON file.
+    Supports two formats:
+    1. "Alias": "Canonical Name" (String value)
+    2. "Canonical Name": ["Alias1", "Alias2"] (List value)
     Falls back to empty dictionaries if file not found.
     """
     try:
@@ -76,8 +79,26 @@ def load_manual_mapping():
             raw_teams = mapping_data.get('team_names', {})
             raw_leagues = mapping_data.get('league_names', {})
             
-            # Normalize keys
-            norm_teams = {normalize_text(k): v for k, v in raw_teams.items() if k}
+            norm_teams = {}
+            
+            # Process Team Names
+            for k, v in raw_teams.items():
+                if not k: continue
+                
+                if isinstance(v, list):
+                    # Format: "Canonical Name": ["Alias1", "Alias2"]
+                    canonical = k.strip()
+                    # Map each alias to the canonical name
+                    for alias in v:
+                        if alias:
+                            norm_teams[normalize_text(alias)] = canonical
+                    # Also ensure the normalized canonical name maps to itself (optional but safe)
+                    # norm_teams[normalize_text(canonical)] = canonical
+                else:
+                    # Format: "Alias": "Canonical Name"
+                    norm_teams[normalize_text(k)] = v.strip()
+
+            # Process League Names (keeping simple 1:1 for now, or apply same logic if needed)
             norm_leagues = {normalize_text(k): v for k, v in raw_leagues.items() if k}
             
             return norm_teams, norm_leagues

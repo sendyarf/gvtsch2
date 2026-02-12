@@ -102,6 +102,15 @@ def fetch_sofascore(sport="football", date_str=None):
             home_full = home_team.get("name", home_name)
             away_full = away_team.get("name", away_name)
             
+            # Gender check - append " W" for women's teams if not present
+            home_gender = home_team.get("gender", "")
+            away_gender = away_team.get("gender", "")
+            
+            if home_gender == "F" and not home_full.endswith(" W") and not home_full.endswith(" Women"):
+                 home_full += " W"
+            if away_gender == "F" and not away_full.endswith(" W") and not away_full.endswith(" Women"):
+                 away_full += " W"
+            
             # Team logos
             home_id = home_team.get("id", "")
             away_id = away_team.get("id", "")
