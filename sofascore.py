@@ -1,36 +1,15 @@
-import requests
+from curl_cffi import requests
 import json
 import re
 import argparse
 from datetime import datetime, timedelta
 import pytz
+import random
+import time
 
 def clean_name(name):
     """Remove non-alphanumeric characters for ID generation."""
     return re.sub(r'[^a-zA-Z0-9]', '', name)
-
-import random
-import time
-
-def get_random_header():
-    """Return a random User-Agent header."""
-    user_agents = [
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0",
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/121.0",
-        "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/121.0",
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15"
-    ]
-    return {
-        "User-Agent": random.choice(user_agents),
-        "Accept": "application/json",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Referer": "https://www.sofascore.com/",
-        "Origin": "https://www.sofascore.com",
-    }
 
 def fetch_sofascore(sport="football", date_str=None):
     """Fetch scheduled events from SofaScore API."""
@@ -44,19 +23,24 @@ def fetch_sofascore(sport="football", date_str=None):
     
     url = f"https://www.sofascore.com/api/v1/sport/{sport}/scheduled-events/{date_str}"
     
-    headers = get_random_header()
+    # curl_cffi handles headers automatically with impersonate
+    # But we can still add Referer/Origin if needed
+    headers = {
+        "Referer": "https://www.sofascore.com/",
+        "Origin": "https://www.sofascore.com",
+    }
     
     print(f"Fetching {sport} events for {date_str}...")
     
     try:
-        response = requests.get(url, headers=headers, timeout=30)
+        # Use impersonate="chrome" to mimic a real browser TLS fingerprint
+        response = requests.get(url, headers=headers, impersonate="chrome", timeout=30)
         
         # Check for 403 specifically
         if response.status_code == 403:
-             print(f"⚠️  403 Forbidden: IP/UA Blocked. Retrying with different UA...")
-             time.sleep(2)
-             headers = get_random_header()
-             response = requests.get(url, headers=headers, timeout=30)
+             print(f"⚠️  403 Forbidden: Blocked. Retrying with delay...")
+             time.sleep(5)
+             response = requests.get(url, headers=headers, impersonate="chrome", timeout=30)
         
         response.raise_for_status()
     except requests.exceptions.RequestException as e:

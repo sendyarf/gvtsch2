@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pytz
+          pip install curl_cffi pytz
 
       - name: Run SofaScore Scraper
         run: python sofascore.py
