@@ -265,6 +265,7 @@ def enrich_from_sofascore(matches, sofascore_data):
     
     sport_count = 0
     status_count = 0
+    league_count = 0
     logo_count = 0
     
     for match in matches:
@@ -343,7 +344,12 @@ def enrich_from_sofascore(matches, sofascore_data):
             if source_item.get('gender'):
                 match['gender'] = source_item['gender']
             
-            # 4. Fill missing logos (only compute direction when needed)
+            # 4. Replace league name with SofaScore's (more complete)
+            if source_item.get('league'):
+                match['league'] = source_item['league']
+                league_count += 1
+            
+            # 5. Fill missing logos (only compute direction when needed)
             need_logo1 = not match['team1'].get('logo')
             need_logo2 = not match['team2'].get('logo')
             
@@ -381,6 +387,7 @@ def enrich_from_sofascore(matches, sofascore_data):
     
     print(f"  ✅ Enriched {sport_count} matches with sport type.")
     print(f"  ✅ Enriched {status_count} matches with status.")
+    print(f"  ✅ Enriched {league_count} matches with league name.")
     print(f"  ✅ Enriched {logo_count} matches with logos.")
     return matches
 
