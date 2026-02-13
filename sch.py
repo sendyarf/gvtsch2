@@ -5,6 +5,7 @@ import time
 import sys
 import urllib3
 import unicodedata
+from functools import lru_cache
 from difflib import SequenceMatcher
 
 # Suppress warnings globally
@@ -26,13 +27,14 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 #
 # Enrichment:
 # Enrichment:
-# - Sport/Status: SofaScore (sofascore.json) fills missing sport type, status, status_desc.
+# - Sport/Status/Logo: SofaScore (sofascore.json) fills missing sport type, status, status_desc, and team logos.
 # - manual_mapping.json - Normalization for team & league names.
 
 # ============================================
 # NORMALIZATION FUNCTIONS
 # ============================================
 
+@lru_cache(maxsize=None)
 def normalize_text(text):
     """Remove special characters, spaces, accents, and lowercase"""
     if not text:
@@ -208,20 +210,38 @@ def create_composite_key(match):
 # DATA ENRICHMENT FUNCTION
 # ============================================
 
+def _make_bigrams(s):
+    """Create a set of character bigrams for fast similarity pre-filtering."""
+    if len(s) < 2:
+        return set(s) if s else set()
+    return {s[i:i+2] for i in range(len(s) - 1)}
+
+def _bigram_similarity(bg1, bg2):
+    """Fast Jaccard similarity on pre-computed bigram sets (0-100)."""
+    if not bg1 or not bg2:
+        return 0
+    intersection = len(bg1 & bg2)
+    union = len(bg1 | bg2)
+    return (intersection / union) * 100
+
 def enrich_from_sofascore(matches, sofascore_data):
     """
     Enrich matches using SofaScore data:
     1. Fill missing 'sport' field.
     2. Add 'status' and 'status_desc' if available.
+    3. Add gender if available.
+    4. Fill missing team logos from SofaScore.
     """
     if not sofascore_data:
         return matches
         
     print("\nEnriching from SofaScore...")
     
-    # Pre-process sofascore data for faster lookup
-    ss_lookup = {}
-    ss_by_date = {} # date -> list of items
+    # normalize_team_name benefits from lru_cache on normalize_text
+    # Pre-process sofascore data with pre-computed normalized names + bigrams
+    ss_lookup = {}       # sorted_teams_key -> item
+    ss_by_date = {}      # date -> list of (norm_t1, norm_t2, bigrams_t1, bigrams_t2, item)
+    ss_team_index = {}   # (date, norm_team) -> list of indices into ss_by_date[date]
     
     for item in sofascore_data:
         t1 = normalize_team_name(item['team1']['name'])
@@ -234,36 +254,78 @@ def enrich_from_sofascore(matches, sofascore_data):
         if date:
             if date not in ss_by_date:
                 ss_by_date[date] = []
-            ss_by_date[date].append(item)
+            bg1 = _make_bigrams(t1)
+            bg2 = _make_bigrams(t2)
+            idx = len(ss_by_date[date])
+            ss_by_date[date].append((t1, t2, bg1, bg2, item))
+            # Index by individual team name for faster narrowing
+            ss_team_index.setdefault((date, t1), []).append(idx)
+            if t2 != t1:
+                ss_team_index.setdefault((date, t2), []).append(idx)
     
     sport_count = 0
     status_count = 0
+    logo_count = 0
     
     for match in matches:
         mt1 = normalize_team_name(match['team1']['name'])
         mt2 = normalize_team_name(match['team2']['name'])
         match_teams_key = '-'.join(sorted([mt1, mt2]))
         
-        # Try direct lookup first
+        # Try direct lookup first (O(1))
         source_item = ss_lookup.get(match_teams_key)
         
-        # If not found, try fuzzy matching within the SAME DATE
+        # If not found, try fuzzy matching
         if not source_item:
             match_date = match.get('kickoff_date')
-            candidate_list = ss_by_date.get(match_date, []) if match_date else []
-            
-            # If no date, maybe check all? (Too slow, skip for now unless crucial)
-            # Or if candidate list is empty, skip.
-            
-            if candidate_list:
-                for item in candidate_list:
-                    if fuzzy_match_teams(
-                        match['team1']['name'], match['team2']['name'],
-                        item['team1']['name'], item['team2']['name'],
-                        threshold=80
-                    ):
-                        source_item = item
-                        break
+            if match_date and match_date in ss_by_date:
+                date_entries = ss_by_date[match_date]
+                mbg1 = _make_bigrams(mt1)
+                mbg2 = _make_bigrams(mt2)
+                
+                # Step 1: Narrow candidates via team index (exact team match)
+                candidate_indices = set()
+                candidate_indices.update(ss_team_index.get((match_date, mt1), []))
+                candidate_indices.update(ss_team_index.get((match_date, mt2), []))
+                
+                # Step 2: If exact team match found candidates, check those first
+                for idx in candidate_indices:
+                    st1, st2, bg1, bg2, item = date_entries[idx]
+                    # Direct: mt1~st1 & mt2~st2
+                    if _bigram_similarity(mbg1, bg1) >= 50 and _bigram_similarity(mbg2, bg2) >= 50:
+                        if calculate_similarity(mt1, st1) >= 80 and calculate_similarity(mt2, st2) >= 80:
+                            source_item = item
+                            break
+                    # Reversed: mt1~st2 & mt2~st1
+                    if _bigram_similarity(mbg1, bg2) >= 50 and _bigram_similarity(mbg2, bg1) >= 50:
+                        if calculate_similarity(mt1, st2) >= 80 and calculate_similarity(mt2, st1) >= 80:
+                            source_item = item
+                            break
+                
+                # Step 3: Full scan with bigram pre-filter (only if no exact-index hit)
+                if not source_item:
+                    for st1, st2, bg1, bg2, item in date_entries:
+                        # Quick length check - for 80% similarity, lengths can't differ by >40%
+                        if mt1 and st1 and abs(len(mt1) - len(st1)) > 0.4 * max(len(mt1), len(st1)):
+                            if mt1 and st2 and abs(len(mt1) - len(st2)) > 0.4 * max(len(mt1), len(st2)):
+                                continue  # mt1 can't match either st1 or st2
+                        
+                        # Bigram pre-filter (very fast, rejects ~95% of candidates)
+                        direct_ok = _bigram_similarity(mbg1, bg1) >= 50 and _bigram_similarity(mbg2, bg2) >= 50
+                        rev_ok = _bigram_similarity(mbg1, bg2) >= 50 and _bigram_similarity(mbg2, bg1) >= 50
+                        
+                        if not direct_ok and not rev_ok:
+                            continue
+                        
+                        # Expensive SequenceMatcher only for candidates that passed pre-filter
+                        if direct_ok:
+                            if calculate_similarity(mt1, st1) >= 80 and calculate_similarity(mt2, st2) >= 80:
+                                source_item = item
+                                break
+                        if rev_ok:
+                            if calculate_similarity(mt1, st2) >= 80 and calculate_similarity(mt2, st1) >= 80:
+                                source_item = item
+                                break
         
         if source_item:
             # 1. Fill missing sport
@@ -280,9 +342,46 @@ def enrich_from_sofascore(matches, sofascore_data):
             # 3. Add gender
             if source_item.get('gender'):
                 match['gender'] = source_item['gender']
+            
+            # 4. Fill missing logos (only compute direction when needed)
+            need_logo1 = not match['team1'].get('logo')
+            need_logo2 = not match['team2'].get('logo')
+            
+            if need_logo1 or need_logo2:
+                st1 = normalize_team_name(source_item['team1']['name'])
+                st2 = normalize_team_name(source_item['team2']['name'])
+                
+                # Quick check: exact match on normalized names
+                if mt1 == st1 and mt2 == st2:
+                    reversed_order = False
+                elif mt1 == st2 and mt2 == st1:
+                    reversed_order = True
+                else:
+                    # Fallback to similarity
+                    direct_score = calculate_similarity(mt1, st1) + calculate_similarity(mt2, st2)
+                    rev_score = calculate_similarity(mt1, st2) + calculate_similarity(mt2, st1)
+                    reversed_order = rev_score > direct_score
+                
+                if reversed_order:
+                    ss_team1_logo = source_item['team2'].get('logo', '')
+                    ss_team2_logo = source_item['team1'].get('logo', '')
+                else:
+                    ss_team1_logo = source_item['team1'].get('logo', '')
+                    ss_team2_logo = source_item['team2'].get('logo', '')
+                
+                filled = False
+                if need_logo1 and ss_team1_logo:
+                    match['team1']['logo'] = ss_team1_logo
+                    filled = True
+                if need_logo2 and ss_team2_logo:
+                    match['team2']['logo'] = ss_team2_logo
+                    filled = True
+                if filled:
+                    logo_count += 1
     
     print(f"  ✅ Enriched {sport_count} matches with sport type.")
     print(f"  ✅ Enriched {status_count} matches with status.")
+    print(f"  ✅ Enriched {logo_count} matches with logos.")
     return matches
 
 # ============================================
