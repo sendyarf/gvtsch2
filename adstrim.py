@@ -18,11 +18,7 @@ def clean_name(name):
     return re.sub(r'[^a-zA-Z0-9]', '', name)
 
 def encode_url(channel_name):
-<<<<<<< HEAD
     url = f"https://viewembed.ru/channel/{channel_name}"
-=======
-    url = f"https://viewembed.ru//channel/{channel_name}"
->>>>>>> 1c2ff4f5bfc54dea3c5f9786c174c96d4e788d7e
     encoded = base64.b64encode(url.encode('utf-8')).decode('utf-8')
     return f"https://multi.govoet.cc/?iframex={encoded}"
 
