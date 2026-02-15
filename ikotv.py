@@ -1,119 +1,40 @@
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
-import undetected_chromedriver as uc
+import requests
 from bs4 import BeautifulSoup
 import json
-import time
 import base64
-import random
+import time
 from datetime import datetime
-import re
-
-# User Agents list for rotation - CHROME ONLY to match engine
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36", 
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-]
-
-def setup_driver():
-    """Setup Undetected Chrome driver"""
-    options = uc.ChromeOptions()
-    options.add_argument('--headless=new')
-    options.add_argument('--no-sandbox')
-    options.add_argument('--disable-dev-shm-usage')
-    options.add_argument('--disable-gpu')
-    options.add_argument('--window-size=1920,1080')
-    
-    # Random User-Agent
-    user_agent = random.choice(USER_AGENTS)
-    options.add_argument(f'user-agent={user_agent}')
-    print(f"Using User-Agent: {user_agent}")
-    
-    # undetected_chromedriver handles driver download automatically
-    try:
-        driver = uc.Chrome(options=options)
-    except Exception as e:
-        error_msg = str(e)
-        # Check for version mismatch error
-        if "version of ChromeDriver only supports Chrome version" in error_msg:
-            print("\n" + "!"*60)
-            print("CHROME VERSION MISMATCH DETECTED")
-            print("Attempting to fallback to installed Chrome version...")
-            
-            # Extract current browser version from error message
-            # Pattern: "Current browser version is 144.0.xxx"
-            match = re.search(r"Current browser version is (\d+)", error_msg)
-            if match:
-                major_version = int(match.group(1))
-                print(f"Detected Chrome version: {major_version}")
-                print(f"Retrying with version_main={major_version}...")
-                try:
-                    driver = uc.Chrome(options=options, version_main=major_version)
-                    print("Fallback successful!")
-                except Exception as e2:
-                    print("Fallback failed.")
-                    raise e2
-            else:
-                print("Could not detect installed version from error message.")
-                raise e
-        else:
-            raise e
-    
-    return driver
 
 def scrape_ikotv():
     print("Starting ikotv.com scraper...")
     list_url = "https://ikotv.com/default/filter-match?type=now&bigmatch=false"
-    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+
     all_matches = []
-    driver = None
 
     try:
-        driver = setup_driver()
-        
-        # Visit homepage first to pass Cloudflare
-        print("Visiting homepage to pass Cloudflare check...")
-        driver.get("https://ikotv.com")
-        
-        # Wait for Cloudflare/Challenge to pass
-        for i in range(10):
-            title = driver.title
-            print(f"Page title (attempt {i+1}): {title}")
-            if "Just a moment" not in title and title != "":
-                print("Cloudflare challenge passed!")
-                break
-            time.sleep(3)
-        
-        time.sleep(2)
-        
-        # Now fetch the match list
+        # Fetch the match list
         print(f"Fetching match list from {list_url}...")
-        driver.get(list_url)
-        time.sleep(2)
-        
-        page_source = driver.page_source
-        soup = BeautifulSoup(page_source, 'html.parser')
-        match_items = soup.find_all('div', class_='match-item')
-        
+        resp = requests.get(list_url, headers=headers, timeout=15)
+        resp.raise_for_status()
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        match_items = soup.find_all("div", class_="match-item")
         print(f"Found {len(match_items)} live matches.")
 
         for item in match_items:
             try:
                 # League
-                league_elem = item.find('p', class_='type')
+                league_elem = item.find("p", class_="type")
                 league_name = league_elem.text.strip() if league_elem else "Unknown League"
 
                 # Teams
-                teams_container = item.find('h3')
+                teams_container = item.find("h3")
                 if teams_container:
-                    spans = teams_container.find_all('span')
-                    team_names = [s.text.strip() for s in spans if s.text.strip().lower() != 'vs']
+                    spans = teams_container.find_all("span")
+                    team_names = [s.text.strip() for s in spans if s.text.strip().lower() != "vs"]
                     if len(team_names) >= 2:
                         home_team = team_names[0]
                         away_team = team_names[1]
@@ -125,12 +46,12 @@ def scrape_ikotv():
                     away_team = "Unknown"
 
                 # Time parsing
-                date_elem = item.find('div', class_='date')
+                date_elem = item.find("div", class_="date")
                 kickoff_date = ""
                 kickoff_time = ""
-                
+
                 if date_elem:
-                    time_span = date_elem.find('span')
+                    time_span = date_elem.find("span")
                     if time_span:
                         raw_time = time_span.text.strip()
                         try:
@@ -143,14 +64,14 @@ def scrape_ikotv():
                 # Logo
                 home_logo = ""
                 away_logo = ""
-                imgs = item.find_all('img')
+                imgs = item.find_all("img")
                 if len(imgs) >= 2:
-                    home_logo = imgs[0].get('src', '')
-                    away_logo = imgs[1].get('src', '')
+                    home_logo = imgs[0].get("src", "")
+                    away_logo = imgs[1].get("src", "")
 
                 # Match Link
-                link_elem = item.find('a', class_='btn-view')
-                match_url = link_elem['href'] if link_elem else ""
+                link_elem = item.find("a", class_="btn-view")
+                match_url = link_elem["href"] if link_elem else ""
 
                 if not match_url:
                     continue
@@ -159,44 +80,43 @@ def scrape_ikotv():
 
                 # Fetch Match Page to get Stream Links
                 try:
-                    driver.get(match_url)
-                    time.sleep(2)
-                    
-                    match_page_source = driver.page_source
-                    match_soup = BeautifulSoup(match_page_source, 'html.parser')
-                    
+                    resp2 = requests.get(match_url, headers=headers, timeout=15)
+                    resp2.raise_for_status()
+
+                    match_soup = BeautifulSoup(resp2.text, "html.parser")
+
                     # Look for stream links
                     raw_streams = []
-                    
-                    # Priority 1: .sv-link elements
-                    sv_links = match_soup.find_all('a', class_='sv-link')
+
+                    # Priority 1: .sv-link elements with data-url
+                    sv_links = match_soup.find_all("a", class_="sv-link")
                     for sv in sv_links:
-                        s_url = sv.get('data-url')
-                        s_name = sv.get('data-name') or sv.text.strip() or "Server"
+                        s_url = sv.get("data-url")
+                        s_name = sv.get("data-name") or sv.text.strip() or "Server"
                         if s_url:
                             raw_streams.append({"name": s_name, "url": s_url})
 
                     # Priority 2: iframe #stream src
                     if not raw_streams:
-                        iframe = match_soup.find('iframe', id='stream')
+                        iframe = match_soup.find("iframe", id="stream")
                         if iframe:
-                           src = iframe.get('src')
-                           if src:
-                               raw_streams.append({"name": "Iframe", "url": src})
+                            src = iframe.get("src")
+                            if src:
+                                raw_streams.append({"name": "Iframe", "url": src})
 
                     # Format streams for output
                     servers = []
                     seen_urls = set()
-                    
+
                     for s in raw_streams:
-                        url_to_encode = s['url']
+                        url_to_encode = s["url"]
                         if url_to_encode in seen_urls:
                             continue
                         seen_urls.add(url_to_encode)
 
-                        b64_url = base64.b64encode(url_to_encode.encode('utf-8')).decode('utf-8')
+                        b64_url = base64.b64encode(url_to_encode.encode("utf-8")).decode("utf-8")
                         final_url = f"https://multi.govoet.cc/?hls={b64_url}"
-                        
+
                         label = "CH-NA"
 
                         servers.append({
@@ -205,8 +125,8 @@ def scrape_ikotv():
                         })
 
                     if not servers:
-                         print(f"  No streams found for {home_team} vs {away_team}")
-                         continue
+                        print(f"  No streams found for {home_team} vs {away_team}")
+                        continue
 
                     # Construct final object
                     match_data = {
@@ -228,7 +148,7 @@ def scrape_ikotv():
                         "duration": "3.5",
                         "servers": servers
                     }
-                    
+
                     all_matches.append(match_data)
 
                 except Exception as e:
@@ -240,15 +160,11 @@ def scrape_ikotv():
 
     except Exception as e:
         print(f"Error fetching match list: {e}")
-    
-    finally:
-        if driver:
-            driver.quit()
 
     return all_matches
 
 def save_json(data, filename="ikotv.json"):
-    with open(filename, 'w', encoding='utf-8') as f:
+    with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
     print(f"Saved {len(data)} matches to {filename}")
 
