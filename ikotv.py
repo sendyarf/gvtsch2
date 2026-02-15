@@ -5,22 +5,49 @@ import base64
 import time
 from datetime import datetime
 
+# Try to import curl_cffi for Cloudflare bypass (used on GitHub Actions)
+try:
+    from curl_cffi import requests as cffi_requests
+    HAS_CURL_CFFI = True
+except ImportError:
+    HAS_CURL_CFFI = False
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
+
+def fetch_url(url):
+    """Fetch URL with automatic fallback to curl_cffi if requests gets 403."""
+    # Try normal requests first (works locally)
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=15)
+        if resp.status_code == 403 and HAS_CURL_CFFI:
+            print(f"  Got 403 with requests, retrying with curl_cffi...")
+            resp2 = cffi_requests.get(url, impersonate="chrome120", timeout=15)
+            resp2.raise_for_status()
+            return resp2.text
+        resp.raise_for_status()
+        return resp.text
+    except requests.exceptions.HTTPError as e:
+        if "403" in str(e) and HAS_CURL_CFFI:
+            print(f"  Got 403, retrying with curl_cffi impersonation...")
+            resp2 = cffi_requests.get(url, impersonate="chrome120", timeout=15)
+            resp2.raise_for_status()
+            return resp2.text
+        raise
+
 def scrape_ikotv():
     print("Starting ikotv.com scraper...")
     list_url = "https://ikotv.com/default/filter-match?type=now&bigmatch=false"
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    }
 
     all_matches = []
 
     try:
         # Fetch the match list
         print(f"Fetching match list from {list_url}...")
-        resp = requests.get(list_url, headers=headers, timeout=15)
-        resp.raise_for_status()
+        html = fetch_url(list_url)
 
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = BeautifulSoup(html, "html.parser")
         match_items = soup.find_all("div", class_="match-item")
         print(f"Found {len(match_items)} live matches.")
 
@@ -80,10 +107,8 @@ def scrape_ikotv():
 
                 # Fetch Match Page to get Stream Links
                 try:
-                    resp2 = requests.get(match_url, headers=headers, timeout=15)
-                    resp2.raise_for_status()
-
-                    match_soup = BeautifulSoup(resp2.text, "html.parser")
+                    match_html = fetch_url(match_url)
+                    match_soup = BeautifulSoup(match_html, "html.parser")
 
                     # Look for stream links
                     raw_streams = []
