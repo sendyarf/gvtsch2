@@ -1,16 +1,14 @@
-from selenium import webdriver
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+import undetected_chromedriver as uc
 from bs4 import BeautifulSoup
 import json
 import time
 import base64
 import random
+from datetime import datetime
 
 # User Agents list for rotation - CHROME ONLY to match engine
 USER_AGENTS = [
@@ -23,37 +21,21 @@ USER_AGENTS = [
 ]
 
 def setup_driver():
-    """Setup Chrome driver with headless options"""
-    chrome_options = Options()
-    # Essential for headless in container
-    chrome_options.add_argument('--headless=new') # Use new headless mode
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-dev-shm-usage')
-    chrome_options.add_argument('--disable-gpu')
-    chrome_options.add_argument('--window-size=1920,1080')
-    
-    # Anti-detection
-    chrome_options.add_argument('--disable-blink-features=AutomationControlled')
-    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    chrome_options.add_experimental_option('useAutomationExtension', False)
+    """Setup Undetected Chrome driver"""
+    options = uc.ChromeOptions()
+    options.add_argument('--headless=new')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--window-size=1920,1080')
     
     # Random User-Agent
     user_agent = random.choice(USER_AGENTS)
-    chrome_options.add_argument(f'user-agent={user_agent}')
+    options.add_argument(f'user-agent={user_agent}')
     print(f"Using User-Agent: {user_agent}")
     
-    # Use webdriver_manager to get matching driver version
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=chrome_options)
-    
-    # Execute CDP command to override user agent and properties
-    driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-        "source": """
-            Object.defineProperty(navigator, 'webdriver', {
-                get: () => undefined
-            })
-        """
-    })
+    # undetected_chromedriver handles driver download automatically
+    driver = uc.Chrome(options=options)
     
     return driver
 
