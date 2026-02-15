@@ -4,6 +4,26 @@ import json
 import time
 import base64
 from datetime import datetime
+import traceback
+
+IMPERSONATE_TARGETS = ["chrome120", "chrome119", "chrome110"]
+
+def fetch_with_retry(url, headers, session=None, timeout=15):
+    """Try multiple impersonation targets until one works."""
+    last_error = None
+    for target in IMPERSONATE_TARGETS:
+        try:
+            if session:
+                resp = session.get(url, headers=headers, timeout=timeout, impersonate=target)
+            else:
+                resp = requests.get(url, headers=headers, timeout=timeout, impersonate=target)
+            resp.raise_for_status()
+            return resp
+        except Exception as e:
+            last_error = e
+            print(f"  Impersonate '{target}' failed for {url}: {e}")
+            time.sleep(1)
+    raise last_error
 
 def scrape_ikotv():
     print("Starting ikotv.com scraper...")
@@ -12,7 +32,7 @@ def scrape_ikotv():
     
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "*/*",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9,id;q=0.8",
         "X-Requested-With": "XMLHttpRequest",
         "Referer": "https://ikotv.com/",
@@ -28,10 +48,23 @@ def scrape_ikotv():
     all_matches = []
 
     try:
+        # First, create a session and visit homepage to get cookies
+        session = requests.Session()
+        print(f"Visiting homepage to establish session...")
+        try:
+            homepage_resp = fetch_with_retry(base_url, {
+                "User-Agent": headers["User-Agent"],
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9,id;q=0.8",
+            }, session=session, timeout=15)
+            print(f"Homepage status: {homepage_resp.status_code}")
+        except Exception as e:
+            print(f"Warning: Could not visit homepage: {e}")
+        
+        time.sleep(1)
+        
         print(f"Fetching match list from {list_url}...")
-        print(f"Fetching match list from {list_url}...")
-        response = requests.get(list_url, headers=headers, timeout=15, impersonate="chrome110")
-        response.raise_for_status()
+        response = fetch_with_retry(list_url, headers, session=session, timeout=15)
         
         soup = BeautifulSoup(response.text, 'html.parser')
         match_items = soup.find_all('div', class_='match-item')
@@ -106,7 +139,7 @@ def scrape_ikotv():
                 # Fetch Match Page to get Stream Link
                 # Fetch Match Page to get Stream Link
                 try:
-                    match_page_response = requests.get(match_url, headers=headers, timeout=10, impersonate="chrome110")
+                    match_page_response = fetch_with_retry(match_url, headers, session=session, timeout=10)
                     match_soup = BeautifulSoup(match_page_response.text, 'html.parser')
                     
                     # Look for stream links
