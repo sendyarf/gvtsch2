@@ -8,7 +8,19 @@ from bs4 import BeautifulSoup
 import json
 import time
 import base64
-from datetime import datetime
+import random
+
+# User Agents list for rotation
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36", 
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0"
+]
 
 def setup_driver():
     """Setup Chrome driver with headless options"""
@@ -18,9 +30,28 @@ def setup_driver():
     chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('--window-size=1920,1080')
-    chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
+    
+    # Anti-detection
+    chrome_options.add_argument('--disable-blink-features=AutomationControlled')
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    chrome_options.add_experimental_option('useAutomationExtension', False)
+    
+    # Random User-Agent
+    user_agent = random.choice(USER_AGENTS)
+    chrome_options.add_argument(f'user-agent={user_agent}')
+    print(f"Using User-Agent: {user_agent}")
     
     driver = webdriver.Chrome(options=chrome_options)
+    
+    # Execute CDP command to override user agent and properties
+    driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+        "source": """
+            Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined
+            })
+        """
+    })
+    
     return driver
 
 def scrape_ikotv():
@@ -36,8 +67,17 @@ def scrape_ikotv():
         # Visit homepage first to pass Cloudflare
         print("Visiting homepage to pass Cloudflare check...")
         driver.get("https://ikotv.com")
-        time.sleep(3)
-        print(f"Homepage loaded: {driver.title}")
+        
+        # Wait for Cloudflare/Challenge to pass
+        for i in range(10):
+            title = driver.title
+            print(f"Page title (attempt {i+1}): {title}")
+            if "Just a moment" not in title and title != "":
+                print("Cloudflare challenge passed!")
+                break
+            time.sleep(3)
+        
+        time.sleep(2)
         
         # Now fetch the match list
         print(f"Fetching match list from {list_url}...")
