@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 curl_cffi
+          pip install requests beautifulsoup4
 
       - name: Run iKOTV Scraper
         run: python ikotv.py

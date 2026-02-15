@@ -5,35 +5,26 @@ import base64
 import time
 from datetime import datetime
 
-# Try to import curl_cffi for Cloudflare bypass (used on GitHub Actions)
-try:
-    from curl_cffi import requests as cffi_requests
-    HAS_CURL_CFFI = True
-except ImportError:
-    HAS_CURL_CFFI = False
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-}
+# Primary UA (works locally) and fallback UA (bypasses Cloudflare on GHA)
+CHROME_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+GOOGLEBOT_UA = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
 
 def fetch_url(url):
-    """Fetch URL with automatic fallback to curl_cffi if requests gets 403."""
-    # Try normal requests first (works locally)
+    """Fetch URL with automatic fallback to Googlebot UA if blocked by Cloudflare."""
+    # Try with Chrome UA first (works locally)
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
-        if resp.status_code == 403 and HAS_CURL_CFFI:
-            print(f"  Got 403 with requests, retrying with curl_cffi...")
-            resp2 = cffi_requests.get(url, impersonate="chrome120", timeout=15)
-            resp2.raise_for_status()
-            return resp2.text
+        resp = requests.get(url, headers={"User-Agent": CHROME_UA}, timeout=15)
+        if resp.status_code == 403:
+            print(f"  Got 403, retrying with fallback UA...")
+            resp = requests.get(url, headers={"User-Agent": GOOGLEBOT_UA}, timeout=15)
         resp.raise_for_status()
         return resp.text
     except requests.exceptions.HTTPError as e:
-        if "403" in str(e) and HAS_CURL_CFFI:
-            print(f"  Got 403, retrying with curl_cffi impersonation...")
-            resp2 = cffi_requests.get(url, impersonate="chrome120", timeout=15)
-            resp2.raise_for_status()
-            return resp2.text
+        if "403" in str(e):
+            print(f"  Got 403, retrying with fallback UA...")
+            resp = requests.get(url, headers={"User-Agent": GOOGLEBOT_UA}, timeout=15)
+            resp.raise_for_status()
+            return resp.text
         raise
 
 def scrape_ikotv():
