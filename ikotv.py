@@ -9,6 +9,7 @@ import time
 import base64
 import random
 from datetime import datetime
+import re
 
 # User Agents list for rotation - CHROME ONLY to match engine
 USER_AGENTS = [
@@ -35,7 +36,34 @@ def setup_driver():
     print(f"Using User-Agent: {user_agent}")
     
     # undetected_chromedriver handles driver download automatically
-    driver = uc.Chrome(options=options)
+    try:
+        driver = uc.Chrome(options=options)
+    except Exception as e:
+        error_msg = str(e)
+        # Check for version mismatch error
+        if "version of ChromeDriver only supports Chrome version" in error_msg:
+            print("\n" + "!"*60)
+            print("CHROME VERSION MISMATCH DETECTED")
+            print("Attempting to fallback to installed Chrome version...")
+            
+            # Extract current browser version from error message
+            # Pattern: "Current browser version is 144.0.xxx"
+            match = re.search(r"Current browser version is (\d+)", error_msg)
+            if match:
+                major_version = int(match.group(1))
+                print(f"Detected Chrome version: {major_version}")
+                print(f"Retrying with version_main={major_version}...")
+                try:
+                    driver = uc.Chrome(options=options, version_main=major_version)
+                    print("Fallback successful!")
+                except Exception as e2:
+                    print("Fallback failed.")
+                    raise e2
+            else:
+                print("Could not detect installed version from error message.")
+                raise e
+        else:
+            raise e
     
     return driver
 
