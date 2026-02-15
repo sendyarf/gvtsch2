@@ -1,72 +1,51 @@
-from curl_cffi import requests
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from bs4 import BeautifulSoup
 import json
 import time
 import base64
 from datetime import datetime
-import traceback
 
-IMPERSONATE_TARGETS = ["chrome120", "chrome119", "chrome110"]
-
-def fetch_with_retry(url, headers, session=None, timeout=15):
-    """Try multiple impersonation targets until one works."""
-    last_error = None
-    for target in IMPERSONATE_TARGETS:
-        try:
-            if session:
-                resp = session.get(url, headers=headers, timeout=timeout, impersonate=target)
-            else:
-                resp = requests.get(url, headers=headers, timeout=timeout, impersonate=target)
-            resp.raise_for_status()
-            return resp
-        except Exception as e:
-            last_error = e
-            print(f"  Impersonate '{target}' failed for {url}: {e}")
-            time.sleep(1)
-    raise last_error
+def setup_driver():
+    """Setup Chrome driver with headless options"""
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument('--window-size=1920,1080')
+    chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
+    
+    driver = webdriver.Chrome(options=chrome_options)
+    return driver
 
 def scrape_ikotv():
     print("Starting ikotv.com scraper...")
-    base_url = "https://ikotv.com"
     list_url = "https://ikotv.com/default/filter-match?type=now&bigmatch=false"
     
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9,id;q=0.8",
-        "X-Requested-With": "XMLHttpRequest",
-        "Referer": "https://ikotv.com/",
-        "Origin": "https://ikotv.com",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "same-origin",
-        "Connection": "keep-alive",
-        "Pragma": "no-cache",
-        "Cache-Control": "no-cache"
-    }
-
     all_matches = []
+    driver = None
 
     try:
-        # First, create a session and visit homepage to get cookies
-        session = requests.Session()
-        print(f"Visiting homepage to establish session...")
-        try:
-            homepage_resp = fetch_with_retry(base_url, {
-                "User-Agent": headers["User-Agent"],
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                "Accept-Language": "en-US,en;q=0.9,id;q=0.8",
-            }, session=session, timeout=15)
-            print(f"Homepage status: {homepage_resp.status_code}")
-        except Exception as e:
-            print(f"Warning: Could not visit homepage: {e}")
+        driver = setup_driver()
         
-        time.sleep(1)
+        # Visit homepage first to pass Cloudflare
+        print("Visiting homepage to pass Cloudflare check...")
+        driver.get("https://ikotv.com")
+        time.sleep(3)
+        print(f"Homepage loaded: {driver.title}")
         
+        # Now fetch the match list
         print(f"Fetching match list from {list_url}...")
-        response = fetch_with_retry(list_url, headers, session=session, timeout=15)
+        driver.get(list_url)
+        time.sleep(2)
         
-        soup = BeautifulSoup(response.text, 'html.parser')
+        page_source = driver.page_source
+        soup = BeautifulSoup(page_source, 'html.parser')
         match_items = soup.find_all('div', class_='match-item')
         
         print(f"Found {len(match_items)} live matches.")
@@ -81,8 +60,6 @@ def scrape_ikotv():
                 teams_container = item.find('h3')
                 if teams_container:
                     spans = teams_container.find_all('span')
-                    # Usually: [Home Team] [vs] [Away Team]
-                    # Filter out "vs"
                     team_names = [s.text.strip() for s in spans if s.text.strip().lower() != 'vs']
                     if len(team_names) >= 2:
                         home_team = team_names[0]
@@ -95,7 +72,6 @@ def scrape_ikotv():
                     away_team = "Unknown"
 
                 # Time parsing
-                # Format example: "08 Feb 2026 | 18:15"
                 date_elem = item.find('div', class_='date')
                 kickoff_date = ""
                 kickoff_time = ""
@@ -105,18 +81,10 @@ def scrape_ikotv():
                     if time_span:
                         raw_time = time_span.text.strip()
                         try:
-                            # Parse format "08 Feb 2026 | 18:15"
-                            # If year is present
                             dt_obj = datetime.strptime(raw_time, "%d %b %Y | %H:%M")
                             kickoff_date = dt_obj.strftime("%Y-%m-%d")
                             kickoff_time = dt_obj.strftime("%H:%M")
                         except ValueError:
-                            # Try without year or other formats if needed, or just leave empty
-                            try:
-                                # Sometimes it might just be time if today? But example shows full date.
-                                pass
-                            except:
-                                pass
                             print(f"  Could not parse time: {raw_time}")
 
                 # Logo
@@ -136,11 +104,13 @@ def scrape_ikotv():
 
                 print(f"Processing: {home_team} vs {away_team} ({league_name})")
 
-                # Fetch Match Page to get Stream Link
-                # Fetch Match Page to get Stream Link
+                # Fetch Match Page to get Stream Links
                 try:
-                    match_page_response = fetch_with_retry(match_url, headers, session=session, timeout=10)
-                    match_soup = BeautifulSoup(match_page_response.text, 'html.parser')
+                    driver.get(match_url)
+                    time.sleep(2)
+                    
+                    match_page_source = driver.page_source
+                    match_soup = BeautifulSoup(match_page_source, 'html.parser')
                     
                     # Look for stream links
                     raw_streams = []
@@ -161,10 +131,8 @@ def scrape_ikotv():
                            if src:
                                raw_streams.append({"name": "Iframe", "url": src})
 
-                    # Format streams for output (adstrim style)
+                    # Format streams for output
                     servers = []
-                    
-                    # Deduplicate by URL
                     seen_urls = set()
                     
                     for s in raw_streams:
@@ -173,7 +141,6 @@ def scrape_ikotv():
                             continue
                         seen_urls.add(url_to_encode)
 
-                        # Encode to base64
                         b64_url = base64.b64encode(url_to_encode.encode('utf-8')).decode('utf-8')
                         final_url = f"https://multi.govoet.cc/?hls={b64_url}"
                         
@@ -186,15 +153,12 @@ def scrape_ikotv():
 
                     if not servers:
                          print(f"  No streams found for {home_team} vs {away_team}")
-                         # Continue or skip? User usually only wants matches with links.
-                         # let's include if you want to see matches even without links, or skip.
-                         # adstrim usually implies playable.
                          continue
 
                     # Construct final object
                     match_data = {
                         "id": f"{home_team}-{away_team}".replace(" ", ""),
-                        "sport": "Football", # ikotv seems mostly football in "Live Now", need to check category if mixed
+                        "sport": "Football",
                         "league": league_name,
                         "team1": {
                             "name": home_team,
@@ -223,6 +187,10 @@ def scrape_ikotv():
 
     except Exception as e:
         print(f"Error fetching match list: {e}")
+    
+    finally:
+        if driver:
+            driver.quit()
 
     return all_matches
 
