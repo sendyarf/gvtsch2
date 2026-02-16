@@ -650,7 +650,22 @@ def main():
         print(f"⚠️  Filtered out {filtered_count} matches with missing date/time.")
 
     # ============================================
-    # PHASE 6: Save output
+    # PHASE 6: Reorder servers (adstrim/iframex to end)
+    # ============================================
+    print("\nReordering servers (moving adstrim/iframex to end)...")
+    reordered_count = 0
+    for match in final_data:
+        servers = match.get('servers', [])
+        if servers:
+            non_iframex = [s for s in servers if '?iframex=' not in s.get('url', '')]
+            iframex = [s for s in servers if '?iframex=' in s.get('url', '')]
+            if iframex:
+                match['servers'] = non_iframex + iframex
+                reordered_count += 1
+    print(f"  ✅ Reordered servers in {reordered_count} matches.")
+
+    # ============================================
+    # PHASE 7: Save output
     # ============================================
     with open('sch.json', 'w', encoding='utf-8') as f:
         json.dump(final_data, f, indent=2, ensure_ascii=False)
