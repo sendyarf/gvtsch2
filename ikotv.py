@@ -1,30 +1,41 @@
-import requests
+from curl_cffi import requests
 from bs4 import BeautifulSoup
 import json
 import base64
 import time
 from datetime import datetime
 
-# Primary UA (works locally) and fallback UA (bypasses Cloudflare on GHA)
-CHROME_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-GOOGLEBOT_UA = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+# Persistent session with Chrome TLS impersonation (bypasses Cloudflare)
+session = None
+
+def get_session():
+    """Get or create a curl_cffi session with Chrome impersonation."""
+    global session
+    if session is None:
+        session = requests.Session()
+        # Visit homepage first to acquire cookies
+        try:
+            session.get("https://ikotv.com/", impersonate="chrome", timeout=15)
+        except Exception:
+            pass
+    return session
 
 def fetch_url(url):
-    """Fetch URL with automatic fallback to Googlebot UA if blocked by Cloudflare."""
-    # Try with Chrome UA first (works locally)
+    """Fetch URL using curl_cffi with Chrome TLS impersonation."""
+    s = get_session()
     try:
-        resp = requests.get(url, headers={"User-Agent": CHROME_UA}, timeout=15)
+        resp = s.get(url, impersonate="chrome", timeout=15)
         if resp.status_code == 403:
-            print(f"  Got 403, retrying with fallback UA...")
-            resp = requests.get(url, headers={"User-Agent": GOOGLEBOT_UA}, timeout=15)
+            print(f"  Got 403, retrying with new session...")
+            time.sleep(2)
+            global session
+            session = requests.Session()
+            session.get("https://ikotv.com/", impersonate="chrome", timeout=15)
+            resp = session.get(url, impersonate="chrome", timeout=15)
         resp.raise_for_status()
         return resp.text
-    except requests.exceptions.HTTPError as e:
-        if "403" in str(e):
-            print(f"  Got 403, retrying with fallback UA...")
-            resp = requests.get(url, headers={"User-Agent": GOOGLEBOT_UA}, timeout=15)
-            resp.raise_for_status()
-            return resp.text
+    except Exception as e:
+        print(f"  Error fetching {url}: {e}")
         raise
 
 def scrape_ikotv():
