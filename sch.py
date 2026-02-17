@@ -665,6 +665,27 @@ def main():
     print(f"  ✅ Reordered servers in {reordered_count} matches.")
 
     # ============================================
+    # PHASE 6.5: Adjust match_date/match_time (-5 min from kickoff)
+    # ============================================
+    print("\nAdjusting match_date/match_time (kickoff - 5 minutes)...")
+    from datetime import datetime, timedelta
+    adjusted_count = 0
+    for match in final_data:
+        kd = match.get('kickoff_date', '')
+        kt = match.get('kickoff_time', '')
+        if kd and kt:
+            try:
+                kickoff_dt = datetime.strptime(f"{kd} {kt}", "%Y-%m-%d %H:%M")
+                match_dt = kickoff_dt - timedelta(minutes=5)
+                match['match_date'] = match_dt.strftime("%Y-%m-%d")
+                match['match_time'] = match_dt.strftime("%H:%M")
+                adjusted_count += 1
+            except ValueError:
+                match['match_date'] = kd
+                match['match_time'] = kt
+    print(f"  ✅ Adjusted {adjusted_count} matches.")
+
+    # ============================================
     # PHASE 7: Save output
     # ============================================
     with open('sch.json', 'w', encoding='utf-8') as f:
