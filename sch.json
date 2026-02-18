@@ -515,10 +515,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9aaWdnb1Nwb3J0MltOZXRoZXJsYW5kc10=",
         "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0UFNMW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
       }
     ],
     "status": "notstarted",
@@ -1132,8 +1128,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1180,7 +1176,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "Halftime",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1278,8 +1274,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -1398,12 +1394,7 @@
     "match_date": "2026-02-19",
     "match_time": "00:25",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0UFNMW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
-      }
-    ],
+    "servers": [],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -2273,30 +2264,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Db3Ntb3RlU3BvcnQ5W0dyZWVjZV0=",
         "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "SouthsideW-TownsvilleW",
-    "sport": "Basketball",
-    "league": "Wnbl Women",
-    "team1": {
-      "name": "Southside W",
-      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
-    },
-    "team2": {
-      "name": "Townsville W",
-      "logo": "https://img2.sport-tv-guide.live/images/team-townsvillew-7900.png"
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "14:30",
-    "match_date": "2026-02-18",
-    "match_time": "14:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
-        "label": "CH-US"
       }
     ]
   },
@@ -3992,10 +3959,6 @@
         "label": "CH-2"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZUlOU1BPUlRTVVNBW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTU2NTIyMQ==",
         "label": "CH-NA"
       }
@@ -5292,9 +5255,9 @@
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/316468/image"
     },
     "kickoff_date": "2026-02-18",
-    "kickoff_time": "17:00",
+    "kickoff_time": "17:40",
     "match_date": "2026-02-18",
-    "match_time": "16:55",
+    "match_time": "17:35",
     "duration": "2.33",
     "servers": [
       {
@@ -5331,6 +5294,54 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjEwMzQzMQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "DaniilGlinka-BenjaminBonzi",
+    "sport": "Tennis",
+    "league": "Lille, France",
+    "team1": {
+      "name": "Daniil Glinka",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/210033/image"
+    },
+    "team2": {
+      "name": "Benjamin Bonzi",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/94485/image"
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "18:00",
+    "match_date": "2026-02-18",
+    "match_time": "17:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA3OTk1Ng==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "JeromeKym-LloydHarris",
+    "sport": "Tennis",
+    "league": "Lille, France",
+    "team1": {
+      "name": "Jerome Kym",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/309071/image"
+    },
+    "team2": {
+      "name": "Lloyd Harris",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/157808/image"
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "18:00",
+    "match_date": "2026-02-18",
+    "match_time": "17:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA3OTk1NA==",
         "label": "CH-NA"
       }
     ]
@@ -5576,30 +5587,6 @@
     ]
   },
   {
-    "id": "AnastasiyaKolyada-LuisaMeyerAufDerHeide",
-    "sport": "Tennis",
-    "league": "Utr Ptt Krakow Women 02, Group B",
-    "team1": {
-      "name": "Anastasiya Kolyada",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/801355/image"
-    },
-    "team2": {
-      "name": "Luisa Meyer Auf Der Heide",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/228124/image"
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "18:05",
-    "match_date": "2026-02-18",
-    "match_time": "18:00",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA2NTY0Mg==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
     "id": "ZuzannaPawlikowska-TaylahPreston",
     "sport": "Tennis",
     "league": "Itf W100 Bengaluru Women ",
@@ -5720,30 +5707,6 @@
     ]
   },
   {
-    "id": "ABouquierFMartin-DMolchanovNSerdarusic",
-    "sport": "Tennis",
-    "league": "Challenger - Lille (Fra) - Double",
-    "team1": {
-      "name": "A.Bouquier/F.Martin",
-      "logo": ""
-    },
-    "team2": {
-      "name": "D.Molchanov/N.Serdarusic",
-      "logo": ""
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "18:50",
-    "match_date": "2026-02-18",
-    "match_time": "18:45",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA3NjM3OQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
     "id": "MartonFucsovics-KarenKhachanov",
     "sport": "Tennis",
     "league": "Doha, Qatar",
@@ -5787,54 +5750,6 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9QcmltYVNwb3J0M1tSb21hbmlhXQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "DaniilGlinka-BenjaminBonzi",
-    "sport": "Tennis",
-    "league": "Lille, France",
-    "team1": {
-      "name": "Daniil Glinka",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/210033/image"
-    },
-    "team2": {
-      "name": "Benjamin Bonzi",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/94485/image"
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "17:40",
-    "match_date": "2026-02-18",
-    "match_time": "17:35",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA3OTk1Ng==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "JeromeKym-LloydHarris",
-    "sport": "Tennis",
-    "league": "Lille, France",
-    "team1": {
-      "name": "Jerome Kym",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/309071/image"
-    },
-    "team2": {
-      "name": "Lloyd Harris",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/157808/image"
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "17:40",
-    "match_date": "2026-02-18",
-    "match_time": "17:35",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA3OTk1NA==",
         "label": "CH-NA"
       }
     ]
@@ -6236,9 +6151,9 @@
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/524783/image"
     },
     "kickoff_date": "2026-02-18",
-    "kickoff_time": "17:20",
+    "kickoff_time": "17:25",
     "match_date": "2026-02-18",
-    "match_time": "17:15",
+    "match_time": "17:20",
     "duration": "2.33",
     "servers": [
       {
@@ -6260,9 +6175,9 @@
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/294420/image"
     },
     "kickoff_date": "2026-02-18",
-    "kickoff_time": "17:10",
+    "kickoff_time": "17:15",
     "match_date": "2026-02-18",
-    "match_time": "17:05",
+    "match_time": "17:10",
     "duration": "2.33",
     "servers": [
       {
@@ -6284,13 +6199,37 @@
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/353587/image"
     },
     "kickoff_date": "2026-02-18",
-    "kickoff_time": "17:40",
+    "kickoff_time": "17:30",
     "match_date": "2026-02-18",
-    "match_time": "17:35",
+    "match_time": "17:25",
     "duration": "2.33",
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA2NTY1Nw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "AnastasiyaKolyada-LuisaMeyerAufDerHeide",
+    "sport": "Tennis",
+    "league": "Utr Ptt Krakow Women 02, Group B",
+    "team1": {
+      "name": "Anastasiya Kolyada",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/801355/image"
+    },
+    "team2": {
+      "name": "Luisa Meyer Auf Der Heide",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/228124/image"
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "17:45",
+    "match_date": "2026-02-18",
+    "match_time": "17:40",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA2NTY0Mg==",
         "label": "CH-NA"
       }
     ]
@@ -6320,6 +6259,30 @@
     ]
   },
   {
+    "id": "AlexandrBinda-JayClarke",
+    "sport": "Tennis",
+    "league": "Challenger - New Delhi (Ind)",
+    "team1": {
+      "name": "Alexandr Binda",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/295881/image"
+    },
+    "team2": {
+      "name": "Jay Clarke",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/197809/image"
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "17:40",
+    "match_date": "2026-02-18",
+    "match_time": "17:35",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjEwMTAzNA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "HDartNFossaHuergo-AKulikovaKSidorova",
     "sport": "Tennis",
     "league": "Itf (W) - Bengaluru (Ind) - Double",
@@ -6332,9 +6295,9 @@
       "logo": ""
     },
     "kickoff_date": "2026-02-18",
-    "kickoff_time": "17:08",
+    "kickoff_time": "17:44",
     "match_date": "2026-02-18",
-    "match_time": "17:03",
+    "match_time": "17:39",
     "duration": "2.33",
     "servers": [
       {
@@ -6356,9 +6319,9 @@
       "logo": ""
     },
     "kickoff_date": "2026-02-18",
-    "kickoff_time": "17:08",
+    "kickoff_time": "17:44",
     "match_date": "2026-02-18",
-    "match_time": "17:03",
+    "match_time": "17:39",
     "duration": "2.33",
     "servers": [
       {
@@ -6380,13 +6343,329 @@
       "logo": ""
     },
     "kickoff_date": "2026-02-18",
-    "kickoff_time": "17:08",
+    "kickoff_time": "17:44",
     "match_date": "2026-02-18",
-    "match_time": "17:03",
+    "match_time": "17:39",
     "duration": "2.33",
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA5ODI3MA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "DaniilMedvedev-StefanosTsitsipas",
+    "sport": "Tennis",
+    "league": "Doha, Qatar",
+    "team1": {
+      "name": "Daniil Medvedev",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/163504/image"
+    },
+    "team2": {
+      "name": "Stefanos Tsitsipas",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/122366/image"
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "19:00",
+    "match_date": "2026-02-18",
+    "match_time": "18:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Nb3Zpc3RhckRlcG9ydGVzW1NwYWluXQ==",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydFRWMltQb3J0dWdhbF0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydFRWM1tQb3J0dWdhbF0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Db3Ntb3RlU3BvcnQ2W0dyZWVjZV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9QcmltYVNwb3J0M1tSb21hbmlhXQ==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjEwMzAyMg==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "BelindaBencic-ElinaSvitolina",
+    "sport": "Tennis",
+    "league": "Dubai, Uae",
+    "team1": {
+      "name": "Belinda Bencic",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/63957/image"
+    },
+    "team2": {
+      "name": "Elina Svitolina",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/51293/image"
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "19:00",
+    "match_date": "2026-02-18",
+    "match_time": "18:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJbU2VyYmlhXQ==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjEwMzk4OQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "JiriLeheka-ZizouBergs",
+    "sport": "Tennis",
+    "league": "Doha, Qatar",
+    "team1": {
+      "name": "Jiri Lehečka",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/254742/image"
+    },
+    "team2": {
+      "name": "Zizou Bergs",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/170946/image"
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "19:30",
+    "match_date": "2026-02-18",
+    "match_time": "19:25",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EaWdpU3BvcnQyW1JvbWFuaWFd",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjEwNDgzOA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "SaschaGueymardWayenburg-ClementChidekh",
+    "sport": "Tennis",
+    "league": "Lille, France",
+    "team1": {
+      "name": "Sascha Gueymard Wayenburg",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/340741/image"
+    },
+    "team2": {
+      "name": "Clement Chidekh",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/231620/image"
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "19:10",
+    "match_date": "2026-02-18",
+    "match_time": "19:05",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjEwNDMzNg==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "AlinaKorneeva-LolaRadivojevic",
+    "sport": "Tennis",
+    "league": "Les Sables D Olonne, France",
+    "team1": {
+      "name": "Alina Korneeva",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/396293/image"
+    },
+    "team2": {
+      "name": "Lola Radivojevic",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/348712/image"
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "19:00",
+    "match_date": "2026-02-18",
+    "match_time": "18:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA3OTg1Mw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "AyanaAkli-KaitlinQuevedo",
+    "sport": "Tennis",
+    "league": "Oeiras 2, Portugal",
+    "team1": {
+      "name": "Ayana Akli",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/479884/image"
+    },
+    "team2": {
+      "name": "Kaitlin Quevedo",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/407597/image"
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "19:10",
+    "match_date": "2026-02-18",
+    "match_time": "19:05",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA5NTAwNg==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "ABouquierFMartin-DMolchanovNSerdarusic",
+    "sport": "Tennis",
+    "league": "Challenger - Lille (Fra) - Double",
+    "team1": {
+      "name": "A.Bouquier/F.Martin",
+      "logo": ""
+    },
+    "team2": {
+      "name": "D.Molchanov/N.Serdarusic",
+      "logo": ""
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "19:00",
+    "match_date": "2026-02-18",
+    "match_time": "18:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA3NjM3OQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "KatyDunne-SusanBandecchi",
+    "sport": "Tennis",
+    "league": "Itf W75 Altenkirchen Women",
+    "team1": {
+      "name": "Katy Dunne",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/50064/image"
+    },
+    "team2": {
+      "name": "Susan Bandecchi",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/96061/image"
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "20:30",
+    "match_date": "2026-02-18",
+    "match_time": "20:25",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA5NjQzOQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "YuYunLiZongyuLi-MMattelLNguyenTan",
+    "sport": "Tennis",
+    "league": "Itf (W) - Macon (Fra) - Double",
+    "team1": {
+      "name": "Yu-Yun Li/Zongyu Li",
+      "logo": ""
+    },
+    "team2": {
+      "name": "M.Mattel/L.Nguyen Tan",
+      "logo": ""
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "19:00",
+    "match_date": "2026-02-18",
+    "match_time": "18:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjEwNTMyNA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "VAdkarSAhlawat-JGimbrerePGThombare",
+    "sport": "Tennis",
+    "league": "Itf (W) - Bengaluru (Ind) - Double",
+    "team1": {
+      "name": "V.Adkar/S.Ahlawat",
+      "logo": ""
+    },
+    "team2": {
+      "name": "J.Gimbrere/P.G.Thombare",
+      "logo": ""
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "19:30",
+    "match_date": "2026-02-18",
+    "match_time": "19:25",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA5NDkxOQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "SebastianSorger-GianmarcoFerrari",
+    "sport": "Tennis",
+    "league": "Itf M25 Trento Men",
+    "team1": {
+      "name": "Sebastian Sorger",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/355096/image"
+    },
+    "team2": {
+      "name": "Gianmarco Ferrari",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/291760/image"
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "20:00",
+    "match_date": "2026-02-18",
+    "match_time": "19:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA5NTY4MA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "GiovanniOradini-MarvinMller",
+    "sport": "Tennis",
+    "league": "Itf M25 Trento Men",
+    "team1": {
+      "name": "Giovanni Oradini",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/138712/image"
+    },
+    "team2": {
+      "name": "Marvin Möller",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/226833/image"
+    },
+    "kickoff_date": "2026-02-18",
+    "kickoff_time": "20:00",
+    "match_date": "2026-02-18",
+    "match_time": "19:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA5NTY4NQ==",
         "label": "CH-NA"
       }
     ]
@@ -6728,294 +7007,26 @@
     ]
   },
   {
-    "id": "DaniilMedvedev-StefanosTsitsipas",
-    "sport": "Tennis",
-    "league": "Doha, Qatar",
+    "id": "SouthsideW-TownsvilleW",
+    "sport": "Basketball",
+    "league": "Wnbl Women",
     "team1": {
-      "name": "Daniil Medvedev",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/163504/image"
+      "name": "Southside W",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
     },
     "team2": {
-      "name": "Stefanos Tsitsipas",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/122366/image"
+      "name": "Townsville W",
+      "logo": "https://img2.sport-tv-guide.live/images/team-townsvillew-7900.png"
     },
     "kickoff_date": "2026-02-18",
-    "kickoff_time": "19:00",
+    "kickoff_time": "14:30",
     "match_date": "2026-02-18",
-    "match_time": "18:55",
-    "duration": "2.33",
+    "match_time": "14:25",
+    "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Nb3Zpc3RhckRlcG9ydGVzW1NwYWluXQ==",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydFRWMltQb3J0dWdhbF0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydFRWM1tQb3J0dWdhbF0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Db3Ntb3RlU3BvcnQ2W0dyZWVjZV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9QcmltYVNwb3J0M1tSb21hbmlhXQ==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjEwMzAyMg==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "BelindaBencic-ElinaSvitolina",
-    "sport": "Tennis",
-    "league": "Dubai, Uae",
-    "team1": {
-      "name": "Belinda Bencic",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/63957/image"
-    },
-    "team2": {
-      "name": "Elina Svitolina",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/51293/image"
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "19:00",
-    "match_date": "2026-02-18",
-    "match_time": "18:55",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJbU2VyYmlhXQ==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjEwMzk4OQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "JiriLeheka-ZizouBergs",
-    "sport": "Tennis",
-    "league": "Doha, Qatar",
-    "team1": {
-      "name": "Jiri Lehečka",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/254742/image"
-    },
-    "team2": {
-      "name": "Zizou Bergs",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/170946/image"
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "19:30",
-    "match_date": "2026-02-18",
-    "match_time": "19:25",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EaWdpU3BvcnQyW1JvbWFuaWFd",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjEwNDgzOA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "SaschaGueymardWayenburg-ClementChidekh",
-    "sport": "Tennis",
-    "league": "Lille, France",
-    "team1": {
-      "name": "Sascha Gueymard Wayenburg",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/340741/image"
-    },
-    "team2": {
-      "name": "Clement Chidekh",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/231620/image"
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "19:00",
-    "match_date": "2026-02-18",
-    "match_time": "18:55",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjEwNDMzNg==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "AlinaKorneeva-LolaRadivojevic",
-    "sport": "Tennis",
-    "league": "Les Sables D Olonne, France",
-    "team1": {
-      "name": "Alina Korneeva",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/396293/image"
-    },
-    "team2": {
-      "name": "Lola Radivojevic",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/348712/image"
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "19:00",
-    "match_date": "2026-02-18",
-    "match_time": "18:55",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA3OTg1Mw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "AyanaAkli-KaitlinQuevedo",
-    "sport": "Tennis",
-    "league": "Oeiras 2, Portugal",
-    "team1": {
-      "name": "Ayana Akli",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/479884/image"
-    },
-    "team2": {
-      "name": "Kaitlin Quevedo",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/407597/image"
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "19:10",
-    "match_date": "2026-02-18",
-    "match_time": "19:05",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA5NTAwNg==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "KatyDunne-SusanBandecchi",
-    "sport": "Tennis",
-    "league": "Itf W75 Altenkirchen Women",
-    "team1": {
-      "name": "Katy Dunne",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/50064/image"
-    },
-    "team2": {
-      "name": "Susan Bandecchi",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/96061/image"
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "20:30",
-    "match_date": "2026-02-18",
-    "match_time": "20:25",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA5NjQzOQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "YuYunLiZongyuLi-MMattelLNguyenTan",
-    "sport": "Tennis",
-    "league": "Itf (W) - Macon (Fra) - Double",
-    "team1": {
-      "name": "Yu-Yun Li/Zongyu Li",
-      "logo": ""
-    },
-    "team2": {
-      "name": "M.Mattel/L.Nguyen Tan",
-      "logo": ""
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "19:00",
-    "match_date": "2026-02-18",
-    "match_time": "18:55",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjEwNTMyNA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "VAdkarSAhlawat-JGimbrerePGThombare",
-    "sport": "Tennis",
-    "league": "Itf (W) - Bengaluru (Ind) - Double",
-    "team1": {
-      "name": "V.Adkar/S.Ahlawat",
-      "logo": ""
-    },
-    "team2": {
-      "name": "J.Gimbrere/P.G.Thombare",
-      "logo": ""
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "19:30",
-    "match_date": "2026-02-18",
-    "match_time": "19:25",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA5NDkxOQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "SebastianSorger-GianmarcoFerrari",
-    "sport": "Tennis",
-    "league": "Itf M25 Trento Men",
-    "team1": {
-      "name": "Sebastian Sorger",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/355096/image"
-    },
-    "team2": {
-      "name": "Gianmarco Ferrari",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/291760/image"
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "20:00",
-    "match_date": "2026-02-18",
-    "match_time": "19:55",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA5NTY4MA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "GiovanniOradini-MarvinMller",
-    "sport": "Tennis",
-    "league": "Itf M25 Trento Men",
-    "team1": {
-      "name": "Giovanni Oradini",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/138712/image"
-    },
-    "team2": {
-      "name": "Marvin Möller",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/226833/image"
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "20:00",
-    "match_date": "2026-02-18",
-    "match_time": "19:55",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA5NTY4NQ==",
-        "label": "CH-NA"
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
+        "label": "CH-US"
       }
     ]
   },
@@ -7372,9 +7383,9 @@
       "logo": ""
     },
     "kickoff_date": "2026-02-18",
-    "kickoff_time": "21:10",
+    "kickoff_time": "21:20",
     "match_date": "2026-02-18",
-    "match_time": "21:05",
+    "match_time": "21:15",
     "duration": "2.33",
     "servers": [
       {
@@ -7544,9 +7555,9 @@
       "logo": ""
     },
     "kickoff_date": "2026-02-18",
-    "kickoff_time": "22:20",
+    "kickoff_time": "22:30",
     "match_date": "2026-02-18",
-    "match_time": "22:15",
+    "match_time": "22:25",
     "duration": "2.33",
     "servers": [
       {
@@ -8275,6 +8286,30 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA5MDkwOA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "NCatiniAMatta-LPintoAUrrea",
+    "sport": "Tennis",
+    "league": "Itf (M) - San Jose (Cri) - Double",
+    "team1": {
+      "name": "N.Catini/A.Matta",
+      "logo": ""
+    },
+    "team2": {
+      "name": "L.Pinto/A.Urrea",
+      "logo": ""
+    },
+    "kickoff_date": "2026-02-19",
+    "kickoff_time": "00:00",
+    "match_date": "2026-02-18",
+    "match_time": "23:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjEwNzk1NA==",
         "label": "CH-NA"
       }
     ]
@@ -9960,10 +9995,6 @@
         "label": "CH-2"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZUlOU1BPUlRTVVNBW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTU4ODY0Nw==",
         "label": "CH-NA"
       }
@@ -10368,7 +10399,12 @@
     "match_date": "2026-02-20",
     "match_time": "03:10",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHNbQXJnZW50aW5hXQ==",
+        "label": "CH-NA"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -10452,7 +10488,12 @@
     "match_date": "2026-02-20",
     "match_time": "05:25",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHNbQXJnZW50aW5hXQ==",
+        "label": "CH-NA"
+      }
+    ]
   },
   {
     "id": "JuventuddeLasPiedras-Guaran",
@@ -11308,10 +11349,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZUlOU1BPUlRTVVNBW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydFRWMVtQb3J0dWdhbF0=",
         "label": "CH-NA"
       },
@@ -11905,12 +11942,7 @@
     "match_date": "2026-02-21",
     "match_time": "02:30",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZUlOU1BPUlRTVVNBW1VTQV0=",
-        "label": "CH-US"
-      }
-    ],
+    "servers": [],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -12381,6 +12413,10 @@
         "label": "CH-NA"
       },
       {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHNbQXJnZW50aW5hXQ==",
+        "label": "CH-NA"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOW0FyZ2VudGluYV0=",
         "label": "CH-NA"
       }
@@ -12594,12 +12630,7 @@
     "match_date": "2026-02-20",
     "match_time": "23:50",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZUlOU1BPUlRTVVNBW1VTQV0=",
-        "label": "CH-US"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "Wetzlar-Leipzig",
@@ -13230,30 +13261,6 @@
     ]
   },
   {
-    "id": "AlexandrBinda-JayClarke",
-    "sport": "Tennis",
-    "league": "New Delhi, India",
-    "team1": {
-      "name": "Alexandr Binda",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/295881/image"
-    },
-    "team2": {
-      "name": "Jay Clarke",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/197809/image"
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "15:30",
-    "match_date": "2026-02-18",
-    "match_time": "15:25",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjEwMTAzNA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
     "id": "AndreaGuerrieri-MicheleRibecai",
     "sport": "Tennis",
     "league": "Itf M25 Trento Men",
@@ -13434,9 +13441,9 @@
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/243925/image"
     },
     "kickoff_date": "2026-02-18",
-    "kickoff_time": "20:10",
+    "kickoff_time": "20:20",
     "match_date": "2026-02-18",
-    "match_time": "20:05",
+    "match_time": "20:15",
     "duration": "2.33",
     "servers": [
       {
@@ -14305,30 +14312,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA2NTkyMw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "SeraNishimoto-YuiOhwaki",
-    "sport": "Tennis",
-    "league": "Utr Ptt Saitama Women 01, Group C",
-    "team1": {
-      "name": "Sera Nishimoto",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/264952/image"
-    },
-    "team2": {
-      "name": "Yui Ohwaki",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/508394/image"
-    },
-    "kickoff_date": "2026-02-18",
-    "kickoff_time": "11:30",
-    "match_date": "2026-02-18",
-    "match_time": "11:25",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjA2NTkzNQ==",
         "label": "CH-NA"
       }
     ]
@@ -16822,7 +16805,7 @@
         "label": "CH-NA"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzcxODU5YWM1",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3Xzg1N2I1NDE5",
         "label": "CH-NA"
       }
     ]
@@ -18010,10 +17993,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZUlOU1BPUlRTVVNBW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EaWVtYVNwb3J0MltCdWxnYXJpYV0=",
         "label": "CH-NA"
       },
@@ -18172,6 +18151,10 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
         "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9STUNTcG9ydDFbRnJhbmNlXQ==",
+        "label": "CH-NA"
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydFRWMVtQb3J0dWdhbF0=",
