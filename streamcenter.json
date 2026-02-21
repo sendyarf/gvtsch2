@@ -1,5 +1,764 @@
 [
   {
+    "id": "ManchesterUnited-Everton",
+    "league": "Football",
+    "team1": {
+      "name": "Manchester United",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
+    },
+    "team2": {
+      "name": "Everton",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
+    },
+    "kickoff_date": "2026-02-24",
+    "kickoff_time": "03:00",
+    "match_date": "2026-02-24",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Girona-Alavs",
+    "league": "Football",
+    "team1": {
+      "name": "Girona",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png"
+    },
+    "team2": {
+      "name": "Alavés",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png"
+    },
+    "kickoff_date": "2026-02-24",
+    "kickoff_time": "03:00",
+    "match_date": "2026-02-24",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "OrlandoMagic-LAClippers",
+    "league": "Basketball",
+    "team1": {
+      "name": "Orlando Magic",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png"
+    },
+    "team2": {
+      "name": "LA Clippers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png"
+    },
+    "kickoff_date": "2026-02-23",
+    "kickoff_time": "09:00",
+    "match_date": "2026-02-23",
+    "match_time": "09:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDc1LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "NewYorkKnicks-ChicagoBulls",
+    "league": "Basketball",
+    "team1": {
+      "name": "New York Knicks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png"
+    },
+    "team2": {
+      "name": "Chicago Bulls",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png"
+    },
+    "kickoff_date": "2026-02-23",
+    "kickoff_time": "08:00",
+    "match_date": "2026-02-23",
+    "match_time": "08:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDczLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "PortlandTrailBlazers-PhoenixSuns",
+    "league": "Basketball",
+    "team1": {
+      "name": "Portland Trail Blazers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png"
+    },
+    "team2": {
+      "name": "Phoenix Suns",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png"
+    },
+    "kickoff_date": "2026-02-23",
+    "kickoff_time": "08:00",
+    "match_date": "2026-02-23",
+    "match_time": "08:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDc0LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Philadelphia76ers-MinnesotaTimberwolves",
+    "league": "Basketball",
+    "team1": {
+      "name": "Philadelphia 76ers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png"
+    },
+    "team2": {
+      "name": "Minnesota Timberwolves",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png"
+    },
+    "kickoff_date": "2026-02-23",
+    "kickoff_time": "07:00",
+    "match_date": "2026-02-23",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcyLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "BostonCeltics-LosAngelesLakers",
+    "league": "Basketball",
+    "team1": {
+      "name": "Boston Celtics",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png"
+    },
+    "team2": {
+      "name": "Los Angeles Lakers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png"
+    },
+    "kickoff_date": "2026-02-23",
+    "kickoff_time": "06:30",
+    "match_date": "2026-02-23",
+    "match_time": "06:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcxLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "CharlotteHornets-WashingtonWizards",
+    "league": "Basketball",
+    "team1": {
+      "name": "Charlotte Hornets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png"
+    },
+    "team2": {
+      "name": "Washington Wizards",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png"
+    },
+    "kickoff_date": "2026-02-23",
+    "kickoff_time": "06:00",
+    "match_date": "2026-02-23",
+    "match_time": "06:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcwLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "DallasMavericks-IndianaPacers",
+    "league": "Basketball",
+    "team1": {
+      "name": "Dallas Mavericks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png"
+    },
+    "team2": {
+      "name": "Indiana Pacers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png"
+    },
+    "kickoff_date": "2026-02-23",
+    "kickoff_time": "05:00",
+    "match_date": "2026-02-23",
+    "match_time": "05:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY5LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "BrooklynNets-AtlantaHawks",
+    "league": "Basketball",
+    "team1": {
+      "name": "Brooklyn Nets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png"
+    },
+    "team2": {
+      "name": "Atlanta Hawks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png"
+    },
+    "kickoff_date": "2026-02-23",
+    "kickoff_time": "03:30",
+    "match_date": "2026-02-23",
+    "match_time": "03:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY2LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "TorontoRaptors-MilwaukeeBucks",
+    "league": "Basketball",
+    "team1": {
+      "name": "Toronto Raptors",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png"
+    },
+    "team2": {
+      "name": "Milwaukee Bucks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png"
+    },
+    "kickoff_date": "2026-02-23",
+    "kickoff_time": "03:30",
+    "match_date": "2026-02-23",
+    "match_time": "03:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY3LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "DenverNuggets-GoldenStateWarriors",
+    "league": "Basketball",
+    "team1": {
+      "name": "Denver Nuggets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png"
+    },
+    "team2": {
+      "name": "Golden State Warriors",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png"
+    },
+    "kickoff_date": "2026-02-23",
+    "kickoff_time": "03:30",
+    "match_date": "2026-02-23",
+    "match_time": "03:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY4LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Valencia-Villarreal",
+    "league": "Football",
+    "team1": {
+      "name": "Valencia",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
+    },
+    "team2": {
+      "name": "Villarreal",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+    },
+    "kickoff_date": "2026-02-23",
+    "kickoff_time": "03:00",
+    "match_date": "2026-02-23",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Lyon-Strasbourg",
+    "league": "Football",
+    "team1": {
+      "name": "Lyon",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png"
+    },
+    "team2": {
+      "name": "Strasbourg",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png"
+    },
+    "kickoff_date": "2026-02-23",
+    "kickoff_time": "02:45",
+    "match_date": "2026-02-23",
+    "match_time": "02:45",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "ClevelandCavaliers-OklahomaCityThunder",
+    "league": "Basketball",
+    "team1": {
+      "name": "Cleveland Cavaliers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png"
+    },
+    "team2": {
+      "name": "Oklahoma City Thunder",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png"
+    },
+    "kickoff_date": "2026-02-23",
+    "kickoff_time": "01:00",
+    "match_date": "2026-02-23",
+    "match_time": "01:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Mallorca-CeltaVigo",
+    "league": "Football",
+    "team1": {
+      "name": "Mallorca",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png"
+    },
+    "team2": {
+      "name": "Celta Vigo",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
+    },
+    "kickoff_date": "2026-02-23",
+    "kickoff_time": "00:30",
+    "match_date": "2026-02-23",
+    "match_time": "00:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Arsenal-TottenhamHotspur",
+    "league": "Football",
+    "team1": {
+      "name": "Arsenal",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+    },
+    "team2": {
+      "name": "Tottenham Hotspur",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "23:30",
+    "match_date": "2026-02-22",
+    "match_time": "23:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Lorient-Nice",
+    "league": "Football",
+    "team1": {
+      "name": "Lorient",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png"
+    },
+    "team2": {
+      "name": "Nice",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "23:15",
+    "match_date": "2026-02-22",
+    "match_time": "23:15",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDQucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "LeHavreAC-Nantes",
+    "league": "Football",
+    "team1": {
+      "name": "Le Havre AC",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png"
+    },
+    "team2": {
+      "name": "Nantes",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/165.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "23:15",
+    "match_date": "2026-02-22",
+    "match_time": "23:15",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Lille-Angers",
+    "league": "Football",
+    "team1": {
+      "name": "Lille",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png"
+    },
+    "team2": {
+      "name": "Angers",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "23:15",
+    "match_date": "2026-02-22",
+    "match_time": "23:15",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Levante-Barcelona",
+    "league": "Football",
+    "team1": {
+      "name": "Levante",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
+    },
+    "team2": {
+      "name": "Barcelona",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "22:15",
+    "match_date": "2026-02-22",
+    "match_time": "22:15",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Fulham-Sunderland",
+    "league": "Football",
+    "team1": {
+      "name": "Fulham",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    },
+    "team2": {
+      "name": "Sunderland",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "21:00",
+    "match_date": "2026-02-22",
+    "match_time": "21:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Liverpool-NottinghamForest",
+    "league": "Football",
+    "team1": {
+      "name": "Liverpool",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+    },
+    "team2": {
+      "name": "Nottingham Forest",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "21:00",
+    "match_date": "2026-02-22",
+    "match_time": "21:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "WolverhamptonWanderers-CrystalPalace",
+    "league": "Football",
+    "team1": {
+      "name": "Wolverhampton Wanderers",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png"
+    },
+    "team2": {
+      "name": "Crystal Palace",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "21:00",
+    "match_date": "2026-02-22",
+    "match_time": "21:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "StadeRennais-AJAuxerre",
+    "league": "Football",
+    "team1": {
+      "name": "Stade Rennais",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png"
+    },
+    "team2": {
+      "name": "AJ Auxerre",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "21:00",
+    "match_date": "2026-02-22",
+    "match_time": "21:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "UnitedStates-Canada",
+    "league": "Hockey",
+    "team1": {
+      "name": "United States",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
+    },
+    "team2": {
+      "name": "Canada",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "20:10",
+    "match_date": "2026-02-22",
+    "match_time": "20:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMxLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Sevilla-Getafe",
+    "league": "Football",
+    "team1": {
+      "name": "Sevilla",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+    },
+    "team2": {
+      "name": "Getafe",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "20:00",
+    "match_date": "2026-02-22",
+    "match_time": "20:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "HoustonRockets-NewYorkKnicks",
+    "league": "Basketball",
+    "team1": {
+      "name": "Houston Rockets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png"
+    },
+    "team2": {
+      "name": "New York Knicks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "08:30",
+    "match_date": "2026-02-22",
+    "match_time": "08:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcwLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "MemphisGrizzlies-MiamiHeat",
+    "league": "Basketball",
+    "team1": {
+      "name": "Memphis Grizzlies",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png"
+    },
+    "team2": {
+      "name": "Miami Heat",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "08:00",
+    "match_date": "2026-02-22",
+    "match_time": "08:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY3LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "DetroitPistons-ChicagoBulls",
+    "league": "Basketball",
+    "team1": {
+      "name": "Detroit Pistons",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png"
+    },
+    "team2": {
+      "name": "Chicago Bulls",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "08:00",
+    "match_date": "2026-02-22",
+    "match_time": "08:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY4LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "SacramentoKings-SanAntonioSpurs",
+    "league": "Basketball",
+    "team1": {
+      "name": "Sacramento Kings",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png"
+    },
+    "team2": {
+      "name": "San Antonio Spurs",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "08:00",
+    "match_date": "2026-02-22",
+    "match_time": "08:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY5LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Philadelphia76ers-NewOrleansPelicans",
+    "league": "Basketball",
+    "team1": {
+      "name": "Philadelphia 76ers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png"
+    },
+    "team2": {
+      "name": "New Orleans Pelicans",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "07:00",
+    "match_date": "2026-02-22",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY2LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "OrlandoMagic-PhoenixSuns",
+    "league": "Basketball",
+    "team1": {
+      "name": "Orlando Magic",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png"
+    },
+    "team2": {
+      "name": "Phoenix Suns",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "05:00",
+    "match_date": "2026-02-22",
+    "match_time": "05:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
     "id": "UFCFightNightStrickland-Hernandez",
     "league": "Fight MMA",
     "team1": {
@@ -18,6 +777,98 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDQ4LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "ColoradoRockies-ArizonaDiamondbacks",
+    "league": "Baseball",
+    "team1": {
+      "name": "Colorado Rockies",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png"
+    },
+    "team2": {
+      "name": "Arizona Diamondbacks",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "03:10",
+    "match_date": "2026-02-22",
+    "match_time": "03:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI3LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "ClevelandGuardians-MilwaukeeBrewers",
+    "league": "Baseball",
+    "team1": {
+      "name": "Cleveland Guardians",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png"
+    },
+    "team2": {
+      "name": "Milwaukee Brewers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "03:10",
+    "match_date": "2026-02-22",
+    "match_time": "03:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI4LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "SanFranciscoGiants-SeattleMariners",
+    "league": "Baseball",
+    "team1": {
+      "name": "San Francisco Giants",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png"
+    },
+    "team2": {
+      "name": "Seattle Mariners",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "03:10",
+    "match_date": "2026-02-22",
+    "match_time": "03:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI5LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "LosAngelesDodgers-LosAngelesAngels",
+    "league": "Baseball",
+    "team1": {
+      "name": "Los Angeles Dodgers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png"
+    },
+    "team2": {
+      "name": "Los Angeles Angels",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/laa.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "03:10",
+    "match_date": "2026-02-22",
+    "match_time": "03:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMwLnBocA==",
         "label": "CH-EN"
       }
     ]
@@ -46,6 +897,98 @@
     ]
   },
   {
+    "id": "TexasRangers-ChicagoCubs",
+    "league": "Baseball",
+    "team1": {
+      "name": "Texas Rangers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png"
+    },
+    "team2": {
+      "name": "Chicago Cubs",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "03:05",
+    "match_date": "2026-02-22",
+    "match_time": "03:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIzLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Athletics-ChicagoWhiteSox",
+    "league": "Baseball",
+    "team1": {
+      "name": "Athletics",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png"
+    },
+    "team2": {
+      "name": "Chicago White Sox",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "03:05",
+    "match_date": "2026-02-22",
+    "match_time": "03:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI0LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "CincinnatiReds-ClevelandGuardians",
+    "league": "Baseball",
+    "team1": {
+      "name": "Cincinnati Reds",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png"
+    },
+    "team2": {
+      "name": "Cleveland Guardians",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "03:05",
+    "match_date": "2026-02-22",
+    "match_time": "03:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI1LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "SanDiegoPadres-KansasCityRoyals",
+    "league": "Baseball",
+    "team1": {
+      "name": "San Diego Padres",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png"
+    },
+    "team2": {
+      "name": "Kansas City Royals",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "03:05",
+    "match_date": "2026-02-22",
+    "match_time": "03:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI2LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
     "id": "Espanyol-AtlticoMadrid",
     "league": "Football",
     "team1": {
@@ -69,6 +1012,29 @@
     ]
   },
   {
+    "id": "NewcastleUnited-ManchesterCity",
+    "league": "Football",
+    "team1": {
+      "name": "Newcastle United",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
+    },
+    "team2": {
+      "name": "Manchester City",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "03:00",
+    "match_date": "2026-02-22",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
     "id": "Lazio-Cagliari",
     "league": "Football",
     "team1": {
@@ -87,6 +1053,213 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDkucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Finland-Slovakia",
+    "league": "Hockey",
+    "team1": {
+      "name": "Finland",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fin.png"
+    },
+    "team2": {
+      "name": "Slovakia",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/svk.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "02:40",
+    "match_date": "2026-02-22",
+    "match_time": "02:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMxLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "MiamiMarlins-NewYorkMets",
+    "league": "Baseball",
+    "team1": {
+      "name": "Miami Marlins",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mia.png"
+    },
+    "team2": {
+      "name": "New York Mets",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "01:10",
+    "match_date": "2026-02-22",
+    "match_time": "01:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIyLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "PhiladelphiaPhillies-TorontoBlueJays",
+    "league": "Baseball",
+    "team1": {
+      "name": "Philadelphia Phillies",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png"
+    },
+    "team2": {
+      "name": "Toronto Blue Jays",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tor.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "01:07",
+    "match_date": "2026-02-22",
+    "match_time": "01:07",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIxLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "PittsburghPirates-BaltimoreOrioles",
+    "league": "Baseball",
+    "team1": {
+      "name": "Pittsburgh Pirates",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png"
+    },
+    "team2": {
+      "name": "Baltimore Orioles",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "01:05",
+    "match_date": "2026-02-22",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE1LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "BostonRedSox-MinnesotaTwins",
+    "league": "Baseball",
+    "team1": {
+      "name": "Boston Red Sox",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png"
+    },
+    "team2": {
+      "name": "Minnesota Twins",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "01:05",
+    "match_date": "2026-02-22",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "DetroitTigers-NewYorkYankees",
+    "league": "Baseball",
+    "team1": {
+      "name": "Detroit Tigers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png"
+    },
+    "team2": {
+      "name": "New York Yankees",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "01:05",
+    "match_date": "2026-02-22",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "WashingtonNationals-StLouisCardinals",
+    "league": "Baseball",
+    "team1": {
+      "name": "Washington Nationals",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/wsh.png"
+    },
+    "team2": {
+      "name": "St. Louis Cardinals",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "01:05",
+    "match_date": "2026-02-22",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "AtlantaBraves-TampaBayRays",
+    "league": "Baseball",
+    "team1": {
+      "name": "Atlanta Braves",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png"
+    },
+    "team2": {
+      "name": "Tampa Bay Rays",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "01:05",
+    "match_date": "2026-02-22",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE5LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "HoustonAstros-WashingtonNationals",
+    "league": "Baseball",
+    "team1": {
+      "name": "Houston Astros",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png"
+    },
+    "team2": {
+      "name": "Washington Nationals",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/wsh.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "01:05",
+    "match_date": "2026-02-22",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIwLnBocA==",
         "label": "CH-EN"
       }
     ]
@@ -133,6 +1306,52 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "AFCBournemouth-WestHamUnited",
+    "league": "Football",
+    "team1": {
+      "name": "AFC Bournemouth",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
+    },
+    "team2": {
+      "name": "West Ham United",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "00:30",
+    "match_date": "2026-02-22",
+    "match_time": "00:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "BorussiaDortmund-RBLeipzig",
+    "league": "Football",
+    "team1": {
+      "name": "Borussia Dortmund",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png"
+    },
+    "team2": {
+      "name": "RB Leipzig",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png"
+    },
+    "kickoff_date": "2026-02-22",
+    "kickoff_time": "00:30",
+    "match_date": "2026-02-22",
+    "match_time": "00:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDgucGhw",
         "label": "CH-EN"
       }
     ]
@@ -202,6 +1421,98 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "LeedsUnited-AstonVilla",
+    "league": "Football",
+    "team1": {
+      "name": "Leeds United",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
+    },
+    "team2": {
+      "name": "Aston Villa",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+    },
+    "kickoff_date": "2026-02-21",
+    "kickoff_time": "22:00",
+    "match_date": "2026-02-21",
+    "match_time": "22:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "BrightonHoveAlbion-Brentford",
+    "league": "Football",
+    "team1": {
+      "name": "Brighton & Hove Albion",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    },
+    "team2": {
+      "name": "Brentford",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png"
+    },
+    "kickoff_date": "2026-02-21",
+    "kickoff_time": "22:00",
+    "match_date": "2026-02-21",
+    "match_time": "22:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Burnley-Chelsea",
+    "league": "Football",
+    "team1": {
+      "name": "Burnley",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png"
+    },
+    "team2": {
+      "name": "Chelsea",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
+    },
+    "kickoff_date": "2026-02-21",
+    "kickoff_time": "22:00",
+    "match_date": "2026-02-21",
+    "match_time": "22:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDQucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "EintrachtFrankfurt-BayernMunich",
+    "league": "Football",
+    "team1": {
+      "name": "Eintracht Frankfurt",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png"
+    },
+    "team2": {
+      "name": "Bayern Munich",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png"
+    },
+    "kickoff_date": "2026-02-21",
+    "kickoff_time": "21:30",
+    "match_date": "2026-02-21",
+    "match_time": "21:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDgucGhw",
         "label": "CH-EN"
       }
     ]
@@ -455,121 +1766,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY3LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Slovakia-UnitedStates",
-    "league": "Hockey",
-    "team1": {
-      "name": "Slovakia",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/svk.png"
-    },
-    "team2": {
-      "name": "United States",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
-    },
-    "kickoff_date": "2026-02-21",
-    "kickoff_time": "03:10",
-    "match_date": "2026-02-21",
-    "match_time": "03:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "ArizonaDiamondbacks-ColoradoRockies",
-    "league": "Baseball",
-    "team1": {
-      "name": "Arizona Diamondbacks",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png"
-    },
-    "team2": {
-      "name": "Colorado Rockies",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png"
-    },
-    "kickoff_date": "2026-02-21",
-    "kickoff_time": "03:10",
-    "match_date": "2026-02-21",
-    "match_time": "03:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "SanDiegoPadres-SeattleMariners",
-    "league": "Baseball",
-    "team1": {
-      "name": "San Diego Padres",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png"
-    },
-    "team2": {
-      "name": "Seattle Mariners",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png"
-    },
-    "kickoff_date": "2026-02-21",
-    "kickoff_time": "03:10",
-    "match_date": "2026-02-21",
-    "match_time": "03:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIxLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "ChicagoWhiteSox-ChicagoCubs",
-    "league": "Baseball",
-    "team1": {
-      "name": "Chicago White Sox",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png"
-    },
-    "team2": {
-      "name": "Chicago Cubs",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png"
-    },
-    "kickoff_date": "2026-02-21",
-    "kickoff_time": "03:05",
-    "match_date": "2026-02-21",
-    "match_time": "03:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "KansasCityRoyals-TexasRangers",
-    "league": "Baseball",
-    "team1": {
-      "name": "Kansas City Royals",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png"
-    },
-    "team2": {
-      "name": "Texas Rangers",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png"
-    },
-    "kickoff_date": "2026-02-21",
-    "kickoff_time": "03:05",
-    "match_date": "2026-02-21",
-    "match_time": "03:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE5LnBocA==",
         "label": "CH-EN"
       }
     ]
