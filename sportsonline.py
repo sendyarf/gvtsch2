@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import pytz
 
 def parse_sportsonline():
-    url = "https://sportsonline.vc/prog.txt"
+    url = "https://sportsonline.st/prog.txt"
     try:
         response = requests.get(url, timeout=15)
         response.raise_for_status()
