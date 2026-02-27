@@ -2543,14 +2543,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9pa29obHMudGFpbGFzby50b3AvbGl2ZS9wN3l5ejEubTN1OA==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9pa29obHMudGFpbGFzby50b3AvbGl2ZS8wZktTTDAubTN1OA==",
-        "label": "CH-NA"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
         "label": "CH-UK"
       },
@@ -2714,8 +2706,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -2736,6 +2728,10 @@
     "match_time": "16:25",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9pa29obHMudGFpbGFzby50b3AvbGl2ZS9QV0VvZUUubTN1OA==",
+        "label": "CH-NA"
+      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2U3OGVkYWY2",
         "label": "CH-NA"
@@ -2794,7 +2790,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -2829,7 +2825,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -2864,7 +2860,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -8159,6 +8155,10 @@
     "match_time": "18:25",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9pa29obHMudGFpbGFzby50b3AvbGl2ZS9FME4xTkUubTN1OA==",
+        "label": "CH-NA"
+      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjAxMjg5OA==",
         "label": "CH-NA"
@@ -19656,33 +19656,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQxW0dlcm1hbnld",
         "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "GPdeThalandeEssaisdesMotoGP",
-    "league": "Motogp",
-    "team1": {
-      "name": "GP de Thaïlande\tEssais des Moto GP -",
-      "logo": ""
-    },
-    "team2": {
-      "name": "",
-      "logo": ""
-    },
-    "kickoff_date": "2026-02-27",
-    "kickoff_time": "15:00",
-    "match_date": "2026-02-27",
-    "match_time": "14:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=14",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=60",
-        "label": "CH-ES"
       }
     ]
   },
