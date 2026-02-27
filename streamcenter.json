@@ -1,5 +1,764 @@
 [
   {
+    "id": "UFCFightNightMoreno-Kavanagh",
+    "league": "Fight MMA",
+    "team1": {
+      "name": "UFC Fight Night: Moreno",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAX4AAACECAMAAACgerAFAAAAkFBMVEXSCgr////RAADSAADaR0fTEhL+9/f65+fSBgb99PT55OT87u70zc3utbX/+/vomZnsq6v439/yxsbifX3219fmj4/famrqo6PbUFDliorxwMDgcnLaSkrXNzfcWlrpnJzdYGDVIiLhd3fWLi7UGxvtsbHkhITZPj7zysreZWXYOTnbVFThdHTWLy/VGhrUISHVwdwMAAALTklEQVR4nO1daVcbOwyd8RQSGkggbKFlKWUpdOP//7uXTLbJWJrRtSUbTt/92HNqey62IutKclF249oVYrhDZpACGeSAGuESGCEE7lMPD3Psn02Pz58vZjd7arNOip4pgc8eVswgJwj7NA8za/onnTQcTCe3j24NvVkPe+j/gjD3ygyCbF2ah7Ex+4U74zkYXV4vSK8MZh330H+KMPfEDIJsXZqHqfXm5w5uWb7M5tQPbWadlT30PwB/czegx9gHVu/2yCGerem/YL7/ZKZoa7xZ73ro/4zs2wdmkBdkEJqHvwYnf2faI3rpE0Py65PeTf8xwtwVMwiydWkDhuyCILgRufJvpvO6Offd9CPzuxdmkD/IIKQBQ3ZBCNwfcuHG7tbipHfTj8zvmDEG8Qbs1pp+8uDa7v2lxeuk/xBh7hczyFO0ARtXNp7HdlrqvjhJYfE66T9HmLtkBnmNNmDILgjBsBr7kyJ3xSDUFq+T/geEuRNmkHgDhuyCELhbYlLkFyts1vMe+kfACqp7ZpAz5E9I8VCWP63pP/bnRExm4KyHPfQfIcx9ZwZBTChtwJBdEATq4O4Z3zRWFq+L/guEuS/MIMjWdZ9jd0EIqr/p55x/67eyh35kB9BxYhUDhuyCELhTf04kzh4463EP/ZDV/sEMAhkwgoc5zN1O/+CaX7PXJ72Dfshqc/Hyr9EGDNkFQXD7UZ8ehuqt7KEfErq4eDkSLCN4mOPO2vZc+3Na+1rzWZ976IeELi7ioCB0WZth4uCa+1rzWac99ENCFxcvR7auu6NGOMggdNk7/YUb99D/ToQuZBeEoCIEHmtfqxa6euiHrDYdL4c0WkbwQ3ZBCKiDa+1rbU86Sz9ktW+YQRCN1n2N3gUhIIQuc19re9Fm6U8vdJGCXw6hK4Hb+Vj20I9IHKzQBSn1pAEzF7oIgeeTvelfn3SOfkTiGDoiXr4ApNTTBsxc6Dr3pjT3tRonnaNfReiKN2BjVzlb+EIX7GsNh+Cc1eakc/RfaQhdkFJPJoi+uD1bEO7Wd+i+uWCzACctNhEyjn5I6CLjxCXmwHH35vQo5D9Yzp1+GYz2GdsrmYv+ZyhOTGemgQaMFroyAPC43S8ySgWAoR9KT6DjxKBSTwh+eSBPCGavO3Iw9KsIXVB+FWfAkuOXnH6unkEOhv5hdEEEaMC4BNHkGIsTgtmkVgA0/ZDQRcTLaygIXRkgTwhm7/oAaPrfidCVA3KPm73rA6DpTy10DTkDlh430k8nc+NQkPQj1262okvFgCWHPCFYxVUm6X8nQlcOyD1u9q6PgKQfErqYwhBM6OISRJND7nGrrJmkv0KYY4QuFaU+PcRuJ3vXh0DRrxAnVhG6MkD+g8UmtUKg6IfqcDnnV8WAJYfc49ZxlSn65dfujos3lCDKGLD0+CGnPzbaVoOgHxK6OOcXMmBcgmhyyD1uJVeZoB+qw+WcX0jo8gW/TJB73D1NIKQg6IeELi5ODCn18ZFDJciFrq4mEAAI+uMLIpQMWHq8SX+wdNxOin4oTqyi1H8jh9i3hv9Hlwtd7F0fhM+fitAVb8AGrrIFcXABoYtLagXh068idInjhgXfSGBoCkosAYQuJVfZpx9pXsM5v5ABIyrbygQl/c/+nHL2tcQ5j/70QhfBQ5mgomvqTZlW6Krh0Q8JXVycGDJgPg9lgkYChMAjTwhWc5U9+pH8Utb5hRJESQNm3khg5s8pTi3Ti9C26T8ATD/r/EIGjOChtG+pQBzcxEJXjTb9KkLXx2wkII+T6OWEtelH8kvZODGk1JOikXVRP6VQyzvf6OWEtekXX7sL3vlFlHpH35uRJJUQUAKP+AeL7d6Co/X1UEUX5/xCBuw3OYR1QxHivggIXXo5YS36IaGLixPHC132raR8tzO10FWjRX96oYvMrzJvJEAIPPI4iY7QVaNFv0Z6goLQlaFjNiB0CbqdS7FLv4rQFW/AcnTMTi501dilX0XoggxYlo7ZlNv5O7XQVWOXfo2CCHmC/KKRACl0mTcSIFrdixOCGVc5DDtjIQ1nWecXMmC00GXudvoHN73QVWOH/vRCV6aO2b7AAwhdmjlhO/S/G6FLPkIIqIObXuiqsUM/VIfLpCdAQtcbOUQGoUvuazHdzgPRpF9F6IIMGCl02XfM9gUeua+lmxPWpP+fEbr8W2sGoatGk355fmmH8wsp9aQBMxe6iA4gj2JfS7cUoUE/EifWEbroTijILggBIfDIfS3l5gcN+qE4MVcQ8b/QBaFBv4rQBRmwLEIXdXDlvpZy84MG/fcKQpeC26kudLXT2/yqILmvpd38YEu/SutCBaELunyIeke1cjv9+6Lc19JufrClX0XoggxYdMdsrWpsua+l3fxgS7+K0BWv1EPV2EqRd/EPlnrzgy39iMlV6Zj9kxxCpZ0EhjxCV40N/QpxYo2nYZEsOzfU4UDua6k3P9jQ/06ELpUsOxByX0tT6Kqxof8+Ok5cYkp9fMdsrci7uIeCfvODNf0KLyuqPA0rD76oRd4BoUu9+cGafhWhK+3TsFolJnJfS7/5wZp+6GVFMk5cgr1Xo4UurRITeVKRfvODNf1A60KmIAI0YPEds5Ui73Jfy6D5wYr+9EIXvXUBt1OrGjuX0FVjRb+K0JX2aVityHsuoavGiv74OHGp0TE7R9thcZyEfaYgAkv6oc5fKq0L44Uupch7joquLZb0qwhd8W9bK1Rjw8gmdNVY0q8idEH5VdFCl1bkXe5rWXT5XtKv0fkLUuofySFytB2Wty5UOm47qOmH4sSc8wsZMLoNoEaWHYh8QleNmn4VoSvt07AZhC7urh+Dmn4VoQsKlkVXdGlF3oHWhRZdvhf0IwURrNcPbV1aNFJpJ4FB7mvZtDxb0A/V8nCOD2R7ooUurV5qgK9l8rzJgn5E6OKqWqC82I8odPEKawwW9CP5VYsEdyJUfITYL0Y0yiJ0IWb3Va+ed40CT6p07uLpZLDByeHTKaJUsls3/n1NGNjTsItH0hofDqCLfvxpbD+RDPvvH1DoqoG+zbgG3+y8wOLEKoh/GlYr8m7/NGy9Wv7GUGCPJais5gMKXVHouKAXKZ7Gbq2GEbrkI2glfMBPwwaBaZe2ot/+aez2cuKFLiUf0Lp6frXajgt6kcj+bcGIRipZdiAQXyscXW/sFAmexm6thhaNMryvaV49X4MJrq/oRzLTVMB1zJaPoFVignvcIehMjSusG0f5yyG3bg6hK5Hp77qgF0hioAaYYFl8NTYOxNUNR+cFPTn9TMfsAqFfKfZi3Sl3udjOJ63T00/emBTUAhxISmowui/oqelnbI9Klh0KpI4pGN26UJH41sVsBpUsOxTy9m3h6LmgF2ku3hvQeeVIlp3jsuxgWLdtqlfbfUEvIKE3fjW0E6ySZQcDuWuEoueNnQJy+eJXQ3thmd7XtO7WWnSUwa3pTxnx5ApSNPqmB8C6X2i/LlRgN57IxdzTi1Coxg6D+fZnbjlN+sdVksDfwgtgfBaVLLsQjKx/+Pou6ItMh7NEv76s1c73vqa139eXiVosF5GA/yEbpUecL+3K5ifTT+8Surb0z3+D7H+EeI8lh9C1wZHlp9NVJA2sarsGN7YHYOge+LtqDqFrixMsSQlC7wV909NhYrgLKld1xWlU2klE4Mrq0/szUbf9fEanzmQZ81HfLrtCxFBFl3IvtSUG39FMMeGn0+3SGmi2UT24fJhzpWeElklhN+c9ueDxbYfjMZrcq376arW9BVDth6PubqvATDof1c/Xu2n/HfUVGdOixGSJs8lM7cvX6P144imGwfTy6vfsUzCuL06v7o6mZyNhPQIy9g/9JOMmPk8vn79GfHoLxCMZLfwHKujBpFq6uHIAAAAASUVORK5CYII="
+    },
+    "team2": {
+      "name": "Kavanagh",
+      "logo": "data:image/png;base64,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"
+    },
+    "kickoff_date": "2026-03-01",
+    "kickoff_time": "05:00",
+    "match_date": "2026-03-01",
+    "match_time": "05:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDQ4LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "WinnipegJets-AnaheimDucks",
+    "league": "Hockey",
+    "team1": {
+      "name": "Winnipeg Jets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png"
+    },
+    "team2": {
+      "name": "Anaheim Ducks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "10:00",
+    "match_date": "2026-02-28",
+    "match_time": "10:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUzLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "DenverNuggets-OklahomaCityThunder",
+    "league": "Basketball",
+    "team1": {
+      "name": "Denver Nuggets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png"
+    },
+    "team2": {
+      "name": "Oklahoma City Thunder",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "09:30",
+    "match_date": "2026-02-28",
+    "match_time": "09:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY5LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "MinnesotaWild-UtahMammoth",
+    "league": "Hockey",
+    "team1": {
+      "name": "Minnesota Wild",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png"
+    },
+    "team2": {
+      "name": "Utah Mammoth",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "09:00",
+    "match_date": "2026-02-28",
+    "match_time": "09:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUyLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "MemphisGrizzlies-DallasMavericks",
+    "league": "Basketball",
+    "team1": {
+      "name": "Memphis Grizzlies",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png"
+    },
+    "team2": {
+      "name": "Dallas Mavericks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "08:30",
+    "match_date": "2026-02-28",
+    "match_time": "08:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY4LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "ArizonaDiamondbacks-SeattleMariners",
+    "league": "Baseball",
+    "team1": {
+      "name": "Arizona Diamondbacks",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png"
+    },
+    "team2": {
+      "name": "Seattle Mariners",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "08:10",
+    "match_date": "2026-02-28",
+    "match_time": "08:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMwLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "NewYorkKnicks-MilwaukeeBucks",
+    "league": "Basketball",
+    "team1": {
+      "name": "New York Knicks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png"
+    },
+    "team2": {
+      "name": "Milwaukee Bucks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "08:00",
+    "match_date": "2026-02-28",
+    "match_time": "08:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY3LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "BrooklynNets-BostonCeltics",
+    "league": "Basketball",
+    "team1": {
+      "name": "Brooklyn Nets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png"
+    },
+    "team2": {
+      "name": "Boston Celtics",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "07:30",
+    "match_date": "2026-02-28",
+    "match_time": "07:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY2LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "ClevelandCavaliers-DetroitPistons",
+    "league": "Basketball",
+    "team1": {
+      "name": "Cleveland Cavaliers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png"
+    },
+    "team2": {
+      "name": "Detroit Pistons",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "07:00",
+    "match_date": "2026-02-28",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "BuffaloSabres-FloridaPanthers",
+    "league": "Hockey",
+    "team1": {
+      "name": "Buffalo Sabres",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png"
+    },
+    "team2": {
+      "name": "Florida Panthers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "07:00",
+    "match_date": "2026-02-28",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "VegasGoldenKnights-WashingtonCapitals",
+    "league": "Hockey",
+    "team1": {
+      "name": "Vegas Golden Knights",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png"
+    },
+    "team2": {
+      "name": "Washington Capitals",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "07:00",
+    "match_date": "2026-02-28",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "HoustonAstros-WashingtonNationals",
+    "league": "Baseball",
+    "team1": {
+      "name": "Houston Astros",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png"
+    },
+    "team2": {
+      "name": "Washington Nationals",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/wsh.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "06:05",
+    "match_date": "2026-02-28",
+    "match_time": "06:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI5LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "SanDiegoPadres-ColoradoRockies",
+    "league": "Baseball",
+    "team1": {
+      "name": "San Diego Padres",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png"
+    },
+    "team2": {
+      "name": "Colorado Rockies",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "03:10",
+    "match_date": "2026-02-28",
+    "match_time": "03:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI3LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "ChicagoWhiteSox-MilwaukeeBrewers",
+    "league": "Baseball",
+    "team1": {
+      "name": "Chicago White Sox",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png"
+    },
+    "team2": {
+      "name": "Milwaukee Brewers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "03:10",
+    "match_date": "2026-02-28",
+    "match_time": "03:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI4LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "ClevelandGuardians-ChicagoCubs",
+    "league": "Baseball",
+    "team1": {
+      "name": "Cleveland Guardians",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png"
+    },
+    "team2": {
+      "name": "Chicago Cubs",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "03:05",
+    "match_date": "2026-02-28",
+    "match_time": "03:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIyLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "TexasRangers-ChicagoWhiteSox",
+    "league": "Baseball",
+    "team1": {
+      "name": "Texas Rangers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png"
+    },
+    "team2": {
+      "name": "Chicago White Sox",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "03:05",
+    "match_date": "2026-02-28",
+    "match_time": "03:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIzLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "LosAngelesAngels-CincinnatiReds",
+    "league": "Baseball",
+    "team1": {
+      "name": "Los Angeles Angels",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/laa.png"
+    },
+    "team2": {
+      "name": "Cincinnati Reds",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "03:05",
+    "match_date": "2026-02-28",
+    "match_time": "03:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI0LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Athletics-KansasCityRoyals",
+    "league": "Baseball",
+    "team1": {
+      "name": "Athletics",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png"
+    },
+    "team2": {
+      "name": "Kansas City Royals",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "03:05",
+    "match_date": "2026-02-28",
+    "match_time": "03:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI1LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "LosAngelesDodgers-SanFranciscoGiants",
+    "league": "Baseball",
+    "team1": {
+      "name": "Los Angeles Dodgers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png"
+    },
+    "team2": {
+      "name": "San Francisco Giants",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "03:05",
+    "match_date": "2026-02-28",
+    "match_time": "03:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI2LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "AstonVilla-WolverhamptonWanderers",
+    "league": "Football",
+    "team1": {
+      "name": "Aston Villa",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+    },
+    "team2": {
+      "name": "Wolverhampton Wanderers",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "03:00",
+    "match_date": "2026-02-28",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Alavs-Levante",
+    "league": "Football",
+    "team1": {
+      "name": "Alavés",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png"
+    },
+    "team2": {
+      "name": "Levante",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "03:00",
+    "match_date": "2026-02-28",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Cagliari-Parma",
+    "league": "Football",
+    "team1": {
+      "name": "Cagliari",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png"
+    },
+    "team2": {
+      "name": "Parma",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "02:45",
+    "match_date": "2026-02-28",
+    "match_time": "02:45",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDkucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Lens-Strasbourg",
+    "league": "Football",
+    "team1": {
+      "name": "Lens",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png"
+    },
+    "team2": {
+      "name": "Strasbourg",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "02:45",
+    "match_date": "2026-02-28",
+    "match_time": "02:45",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "FCCologne-FCAugsburg",
+    "league": "Football",
+    "team1": {
+      "name": "FC Cologne",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png"
+    },
+    "team2": {
+      "name": "FC Augsburg",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "02:30",
+    "match_date": "2026-02-28",
+    "match_time": "02:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDgucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "BostonRedSox-AtlantaBraves",
+    "league": "Baseball",
+    "team1": {
+      "name": "Boston Red Sox",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png"
+    },
+    "team2": {
+      "name": "Atlanta Braves",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "01:05",
+    "match_date": "2026-02-28",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE1LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "PhiladelphiaPhillies-DetroitTigers",
+    "league": "Baseball",
+    "team1": {
+      "name": "Philadelphia Phillies",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png"
+    },
+    "team2": {
+      "name": "Detroit Tigers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "01:05",
+    "match_date": "2026-02-28",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "NewYorkYankees-MinnesotaTwins",
+    "league": "Baseball",
+    "team1": {
+      "name": "New York Yankees",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png"
+    },
+    "team2": {
+      "name": "Minnesota Twins",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "01:05",
+    "match_date": "2026-02-28",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "MiamiMarlins-PhiladelphiaPhillies",
+    "league": "Baseball",
+    "team1": {
+      "name": "Miami Marlins",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mia.png"
+    },
+    "team2": {
+      "name": "Philadelphia Phillies",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "01:05",
+    "match_date": "2026-02-28",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "BaltimoreOrioles-PittsburghPirates",
+    "league": "Baseball",
+    "team1": {
+      "name": "Baltimore Orioles",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png"
+    },
+    "team2": {
+      "name": "Pittsburgh Pirates",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "01:05",
+    "match_date": "2026-02-28",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE5LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "NewYorkMets-StLouisCardinals",
+    "league": "Baseball",
+    "team1": {
+      "name": "New York Mets",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png"
+    },
+    "team2": {
+      "name": "St. Louis Cardinals",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "01:05",
+    "match_date": "2026-02-28",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIwLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "TorontoBlueJays-TampaBayRays",
+    "league": "Baseball",
+    "team1": {
+      "name": "Toronto Blue Jays",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tor.png"
+    },
+    "team2": {
+      "name": "Tampa Bay Rays",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png"
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "01:05",
+    "match_date": "2026-02-28",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIxLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "EuropeUEFAEuropaLeague",
+    "league": "Football",
+    "team1": {
+      "name": "Europe - UEFA Europa League",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAwFBMVEX///8AAAALCQaRkpX4mB3r6+v4kwD8/PyMjZCjoqL4+PgGAwCAf3+fn57IyMhMS0nc3Nx4d3Y4NzXW1tUUEhBCQT+QkI/z8/NSUlEmJSP4kABHRkWrq6rm5uW+vb2zs7KHh4ZtbGvFxcSWlZX96dNgYF/81Kn+7dz/+/X6unQ5ODf+8uQvLi1cXFt7enm4ubocGxj80KL7yJL4nCj93r75qU37woj6sGD4myT5pED82bUrKif6tWn96tT6u3n5pkWeEHfQAAASMElEQVR4nO1dDXuauhcnVkFBqRYVtaJQ5/pqteu2buvu7vf/VjcnJwnhRbBr1Xgffv//c6sILD9yct5yEgyjQoUKFSpUqFChQoUc+PaxW7BfBPNmg/6xG8duyH5geZ1mcwF96JHOsRuzBwTrZvPs7Kxl0c8dQsZXx27Qx8J3W4zf2dkUvkakRsjKO3arPg7B+gzpnZ011/S7NSC1GuX4+D8Zjp7oPsbQpUcaxKEMaw5xWsdu3PvRWCv0gCGIZhe6sMa6cXPaw9FOdB8y7NLjc8EQOK66x27mX0MZfQpDGHqLmCFwbJ/ocJyluw8BbHoqQzocyWmKqpdL8MynP50nGNJuPE1PrpHPkJKxNkmGZHjstv4d7FyCC+rS2EmCDvGP3da/xDSPIRjAINWFj8du6d/CzRNTcNrcFEM0F7f3x23um/DnBv4b5DBszo2EOQSCS3bNjTl5Omab34L7n5Nr+Js3EJlbOk0ynOFlNy+T3zdHbPbu+FQ3P+Gn1haGSYP/aokrv0x+noKk/jLropmzHJcGOqydYLiIr/08qf9zjDa/CU+TZ9kP3RyG4L1ECkOHBMrVvybm18O3+U34ohA07ByGEDypLg0ZJa7/rDtF2sBPytdOPsMLleE6eYcvyTvohq/mJNED2YHIGI6JIqTpe/yJx7F+uDbN74kD2YHIGPaV8LCductP81lXo3FTN/9NHcpniDkMZJjNRt2b5reDtPfteDHN69ShjGuKDPOMYQw6mL8cor1vxpOZbVjGNU0zzAopxbf6REdtc23Ws+MnEyOmGbpbblXfe3vfjm9181fmoLUoZEjG+ZHhH9P8s+fmvh3U4XrOObxOp9qSDKP8m93X69pZxZt6fZLnjKTtRYrhOucSwHezrps+/WLWf+Yd99NSCn6pYJj0SVXcm3XNvLebSd38nPtLKoJisYXMeF9svSH1bNK29bigXVjPd0RS9oLFh5Lh9hzb9SRf6o8FOgpT/ppEyl6wLIZkmGsrED/rWo3EJ3O77uvkMOReW8brVvDZ1Mrs/1vP1zOAlJhCrq2GnUgGBbe8oQ/t9uNb+pf4ZG4V0oyYwvw9T3mr+YssXqjkaxNjfC8QUsNIKlPIeT9whoXzMVRMc5yk48CiWuHH9sd9lexE2zAuOcPCZD6YxN8f3ta/A9Xs9ZftP6fE1BeZKPJQeNcb+tx0CYVBk+abe0RSmzYM4xEZ9opve1so+wcF1QmFij0hpjAHPESGJVUKMBA1iYSpPzMpEqeEmMI8Pmb1cxIYCVANXST8B8Q9HYY/Cs9QfVOoxWAzMw4pmb2//0GtrBYD8Wvps1aNPoRPbHaN3JVNbVNVY2qRWHwqHS9qCAWuNyun4ZNqBXjZEnMeHLclqtRIpNya1G3zydYklIo/5Tc+DL7VS6NVtSyjZRkWOKZlqpSFZHoo0+cSY0FhqW4bHX53pDh0QnwucncPCaryJmUKQZnAaFKnZknk7H0Bvurit9V3CAJ8hWFgGCGpOc62HI1EuZI+DGggt0OYE5tEMIgdUiPj0jooMPk6xPm7MYx1DWTbrkhRFkrgtBjGugbyGAFleF56Z10Y7jQOVV1Do3y/T8oNvjbjkOnS9KxaFrGuaVoQA29L6CvQRpfuYA8BU1nLHkCBablLo4893MGnAcgZDFSmxWkoBm18mh38UoOtIlF8b4/ssGhGG790J2FyFYNBuQVOuVsKwqFHUvjrLkp9bsVpxaYBJTXlDLWJDyHGN8tOWnfjQBhSNctyhvd1XWJ8MIilrrc7ja0+qppShmDwtTAWhvF7h+lMD0IK3ong1bjlmqY8d3AwgKopKyzoQn5GltRCMXspw9/65Esh57116omj0QSp5JlTGIivYckVN8/65LyZ0ivx2xpNoGXHAzEs89qudfHZADD3VFKF7jdZjQJ2IgzE2arkpk86FStcl1tEcLzpHwvFtGMZdvG8DDqDH9XA9+NbqZjaTVy1huoUPo4Kzwcrq1NdVPkkis2LhdCxgY/D4qQ+dbt3iMkOhhsaIz7n1FHGsNEfFd4pVazz4omZuibRr8BT2ZQ006JszrfFU4p+IcOvE028bgmzxCRC2T5bAoxrhehHq1BKXzRJ0cSAYVOk20GXNrFObw4Up8W3+6STqUAwD6Tgd5am6VjyY7M4W/pimlqNQsCvrbV7DGwemI4+L8C0W7NwFEIXaqRIOV62Fu8BGnz0GeDKcG26Hd+0iSpU3BcmM1C/zAwj8jAp1SwopvmVX298dHyeFEQ70gx2wJeZNrn9z8WNhjXQCBrQbX30PA1lG12o9fKF/d9yH21Xkz5vLyeU/qi9GRuMcHPb7NovU5+oKY37en2yRZ9izT6omiWrDJ42WaVp3k3MzNoijfBpa+IBc/qgaoYECmnAKObqmpufZoFKPj6oFvyRm3bjM6QtmDtkiyq9Zr6uyVk8pRd+TfLX1sU5qIA4BASU9mpONPJb7wWWAKoncmpNxXpZ6qxZd4TJqZ1nMG4nP/TuQcDXuvmcEVSx+QAo0CXBxb/U7qdPuz2N5erXz+aPtKSJqTVQpgtRLjRLOac33ybfdFYyMWhL0+GwKDHlZQp8PVArMYf4z/NEo8RMCb5PUo0VhW1gBLuw3IKVQNtqJz5lHovW+Ofn5FmVVKFKwVzg/jtsljuQ6vSffycvpyGhEk/mJN6ORSmJot8GWCIMa7xcrk5vJ8+n1IGI+9uJ+Z1zjFchQiEG7oNF2FCco2Pz+fuJdSDi+kUsyo5r2SEsbPHlFg+woVLeGsvWfNa1DfcUtse6v8UwSKlqa6AyZRShLMrPCTG6K7s3NTYntHuUshUPmPx4T0FYcZHjutk94zFyL06IYWPRbComH7b6IoBxlB8j+ktj6a5Oaic+q+HNpkCzGbKVzoT0R+E82DbQrMCg/wsKpwn0hN/oetAxXuMEG1+hQoUKFSpUqFDh/wC/607DXrQanY9WUS+cXnknFBuVIpj37jBcUlG7681Ll6+dACw3REIPq3ZrPXM9z3Nn61Z79cCO9kP3tMOMbrgBclHLy0azDa8VvTKSJ7uvvjVbUQIXobc9o2S74QU9ZzU7YLM+DlOQw7YnhbA7y525t7xHet7dlglhjTEbEzJucXqN2WLkUHlMnjEX6UJ7SmX59bT60Tun3SKabD1w7TlWVGdjDEfOF1yE51RYz09nPFpUfY5jsbMIcV6X4VVX1ZpLYTT4hmbWlFIenkIOmMKj/dFW7fmKPKSbHlD14nc7IxKvyrfpeLw4iW5sEbJJznzSLmWElfeRXXFq9pXC3aPdWFKVqQOWfHWoMkc/I2RGjd9G2QeS9tdVjki2CYk09wCCC1JjGqajrIKFldsMctsk645Q3bpadNPOKX0Yd1qnursb8sCGkk+9Falr6BcHk9ziSECcPuOcWTjTfSAbjQdjl6p8LmRUlcS7JC2J00jI5JQKadBaKU+B4uoCpvV9ami0pdhVF9m71MILeQtJasekHmFbJlpX8WGbHmN6xlrqS9FeqkK3oEOKf5yBqetO23d97ElrQ9IrZmZ94ogNXZZLbe2iBSLaFpIXyWHm94V9x5HYTa9Vb0QQZIh9k21tCTJcSBmzL4l4/YjL6N31OiiV/jK5k9mc6toHt7/DNgs6gEokl0XQNpf8qL+eu6plUI1eg3o2JISncCIBBh1/YtuSJdlhLp7qVfLqMWt/KkmNSO55sUzsSO7TCHERhuGiM4stfWOA3vc6GMgO1x72HXcvu45UmZYXjqS6YZPcQ4yNLW806Br+iPRLNmzVCmDtW1S9jEXkEISvLBm1HHZa01ZnuGRfX3mCBphSd90p20dRJzDV2Wf6g8KDdM14mEiq2e4QQuD45Y4QVxy4le/CPI5uG+CrRHnd44IRjPiI9McnYisEgnA0YkIImjLcpiMbbSIiQmpktu2xrzVs6mMui2xAQE+IwHy65CRfEdjYSK9mK9ZU5cAz8Mp3N9MPtF8uyzvGH5BT0qIq3F12LANEJ0rR22XDMkRP34iwCFZvtx4ELEs2vq5QoUKF/w3sRhrgbuEneZLFvvryBzwvm6n314vlaNVrecpPfnyFn7rClrfdJ64y5RTUaW6wDxvZIE+msi/UuovlPJE/c+XkGukPZbsX6r1HLZXPJR7cM8XUm5hrNcgc+fC2RpkYBYZilUHiZaPU+YxfSGJRJ0b5aSNc107iBaykH89D8ddc7ztVVcAw9przGTImosHWtl866eMyrRFyhnvO5HCGjsRODOFE3ivc+VwR0a8EX4vk8BfOdOQVgqPoXfn6pP06dy6RDYvHYQlDRwxEODpWeDhkHIXtc8K/2PEviStwfMv3eO/5Lez4zoYw6Er4ZQydvgvnefgSZ5aXarDG06fDSHWXygtZGEOygH/A4+vbsHOlWPNHsV+GqVellTCs8QA/xKdj8HdyO/H0fQ+/B5LhVDnOrsBFpzUmqPudBX8PQzwMRgQXkCrFQ33JK8EwvgIfj4PnFb3m6914D8OuaC/T++RVETY2yAhszJNg6Mu3fPj4UBo7vZzmAxiG0vMI/N0ZdoTMreXvAjY7AvUoCYau7EN8BBdcbvcZSWZ0aaecYd9jz6LDRhLoDbZ+NGm5H9ijaAiG+Js1QLXDbwRyjbfu79GvSdtDtmtAmbXoA9DukY0BM0xCqUow+wiWDhlG01ar1R5LmexKVXSh9vEeGUrswhANIrfrwAtFLTGYogTDhD08l1fAgMQnULZn5qEZxmejD9bL9uEyyVC9JICqOPYRvJsARWF/uqZgHJZ53uCe4Phi5jCZJoY36TEpzPilYO+nXM/Ej2d/8xuo3dqBBIsCd/DaasrwmceGXIBtIgFTqZ1YrgE4HYCD76EXUeBD218MlW8PN6wHZHw4w8dgCF068zwcZ/ylK/gELjO3hRHHGDqb1/F4PFi2gvj8xOCs7bAj/0cy5Fpdjo22dFnOhRHwcfjwC6XdEBjJ26rWQiBKjc2a9OD3ADcrYKIJMn3fQAKgSWKLz11RFC4cSw9S0uaxq5Kw+Px+tSzDHd4U9S6G6cn2GbYQDzf44LMSDO2x4o2g2JEBd3am+EiY2OYwbKW1W22fugYZvp5fCgxAtCxumwfD2bzXx8+hkWAo3neIpPgrOklv5rqtAdpKlPIchjgGLsM2IlzhE9xTgWY2Ama9slZ1AX6yUgy5QsQyG3SkhcqsxY8kh6GX8bZVidkTQ3U8YMTdTpsxbJDK0I3NNkvHpe7DpS7LEAf5nZJa5MN4P4XE2xhCcaVysMb1QCK2QIXJHQNvI/Iu+EREaiLD0M/2GH9W+9E12XypiGSuWDrTYYL3KMbIHTuFMwzwAr4tqx9yAYUrLqTlWKjnxAcS6SeLleJkijc/BkGnlUQntmrdxWhDGxtNY39jzk4X39fs21RIlz9fshKpu1AZYx6c01EOTNk/kzSQV+xGezP6FSpUqFBBI9iNQOvFPylY0WgUvzWmdT7iOJe5TXrCpVJ66EYPfbIZYM3i7HJ0iYYVPq2N+eVI4lAMygC7ym7kt2Hs84iKdk/9wiZIoSSYYHE+1GfylyYQmM5qKaHSIVkUgcb5Stw9JDIAEcmKnsimAWwaaGBgUWMzkDS0kgxrjGEcwByYyFZkGJIeBnTcZfZZoC4c7AjW6kVrd/FAP9QaeQxJhNeHh+WxHVmGyaJZCIDh/8wpdYmYDbbPCRRK5zHUrVQxyzA5GU0DdeeR8LgokoSMLonm+X2oP8PpDLCWCUQyoKEe5uMhyEpcncewg9drUxe9VdOgsFI9QzUKjYEhbrUJzhXKufIiTXOV968dA1mGfHKKGXWbsOQbNB9nSFnS4pyTeGA/pBniDfaWNXwzMgwdtQ+hj4Yspeg4DZhoYQH6itlESCMCL0zgZPpQX4akawFwGFKj4IxfXx/6mAuvETYO29RjWY2dDMM5ahrleh1QqEtdkY/hWbM2iSce2uAUzIjI+IcE0v266tJX+S3FcEmUsiHadI9gMRXFnH4aQELNYRdAUQnxdWVYq63QVx4yhuf47ZzNajr9YQcQoZIJgdGgvQgvgdEjvkmA9IY9gmoWGF7yu+kSfzCGvJ8i1VoQNisjpm2gXASmZ5bAjPulkYFVUg7qHdC+ql+qDcO7OByI1NiCgAaNFwaBhQBXNa4jxdxoV2xgw7Y2UWILfRgO2wKPU2P9GH8zuj36RyRJPfgCH/zWajC4jOKq2ll0Sb/jk7hSrtfGqalQoUKFChUqVKhQ4X34Dy6gPM2nBCf/AAAAAElFTkSuQmCC"
+    },
+    "team2": {
+      "name": "",
+      "logo": "data:image/png;base64,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"
+    },
+    "kickoff_date": "2026-02-27",
+    "kickoff_time": "19:00",
+    "match_date": "2026-02-27",
+    "match_time": "19:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "UEFAChampionsLeagueDraw",
+    "league": "Football",
+    "team1": {
+      "name": "UEFA Champions League Draw",
+      "logo": "data:image/png;base64,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"
+    },
+    "team2": {
+      "name": "",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOYAAADbCAMAAABOUB36AAAAsVBMVEX///8AAEsAAEgAAEMAADwAADoAADcAAEcAAD8AAEUAAEAAADsAADXAwMzU1NwAADTGxtDs7PF+fpeEhJvy8vU5OWb5+fsICE4AADG4uMVBQWvc3OPKytRkZITe3uWmprZXV3p1dZCxscAzM2KOjqMaGlXm5uuenrBPT3QAACx3d5GJiZ9fX4CWlqlsbIkqKl1HR28AACEREVEfH1clJVoAACMAACgVFVIAAB0MDE8AABjSwy2zAAAZuUlEQVR4nO1da3uivtM2ARJOigeknkGraK2Hbuvu/vb5/h/syQkIyGm7ttL/1fvFrlXQ3CSZTGYmM63Wp8PtrI7Lw/DN0Pezz//1T8HCnz8gS1cMrJtb796t+RjM+gDpBgQE2H6+d2tuiEXbXy/nhyA4zJd9oCmMIoF5Xty7abdD5z+kmophYALDiDkCoPTv3bSbYq2CXGza7r2bdlPsjHyeuv14nN67cbeDZ8B8ngCa6M/6f2aCdvUCmpSpYg9X927gbXDKG7UQK4qpq5am2b9+9sOrm67faSCkRk4flCxFFWnG8NBf++P2bLpYhGG4sifPaZF06Hx2m/8e/US38Z2rmWm2wyvdx30Zqc7jOuG2tHuf09b345y0do+uhqvq5950dKhIAn1xb6C8fkZT3w9vkyz8OyZ9DN2UJuXvgvtmKqYiCW22dPSSV8FntPa98N70+OWZTEvD0udjP9ER1HHRnb2NIpaZU+jaAGj53d4MXOyode7GMFR92aWv+1F/QlBy74tYegztTGc0au70HCoP4pULNO3Qjt6PdATzWHb3XI2fBmW7+9Cm/gN2iipWe88EvrREtG3efqdck+1rsrRC7dKL74a+Gg3K3iTTxDmbePil4hvWsmiGfz6klf+KlQ1MvzXzl8PR9diEdCDqlZpdiqfaREVwQQfmm22Z1muOrtZx6kkVmSd8qLz88/EqxIwa5H58tAB8rPE1z5J2iM+N25UuxaJRaOIJFGVd54ssadhi3DAlfhbJ0uL59KDVsVYeJZ2JagvN4snXOljGJHyqYa9c2CAFqDRJS3hmfYCN0mev11gIN9ktDX5ojjG3x/oA/y6VGKFzqfyi+dX2FBiTmzXzX3FgJgJc/txXeuVCuNWuWJLVtinGzinrzCpBOlCAUX5F185hSYR393ZN/RcErDPVita8YGCWPolpPksAjUZMTyEdUcVaTp+FVnJNL7LKY8PUVXldUZa3bfD7sBTGu/KrXKrGGfPiz8maBA3dsvHL/rhqH6NpqmomdBpgufZ4g3BQflmHXWYXLawesDTtvPc7UX+fuNA1W53jm9MAaevrwCT9qVQ48sZs0wzf8j7rjffGye+kpyDXOBBdime/7y+FHqHmEylatcva8tmmZzdpXnewsdWn617usCkvrEeFNqTPQmgrQas3qhS0fbHyI1lT6vmBZRHRY+c9I7YbqKfvfzy2OiT/LhWtQkzMhaDCw+idxfHR0THrskHuLXTYGodbNvb9eBnR8dZDqGIvMcGR6NzSPzvPG2SKFcQoMJ5QdQFubtze98F72rP/B78qthJvsVKutjsDgBLfdbGVgCqR6k2b+150Ef/fe6qhHUQ8LUXeiGiF48DVMnP5bniOhIdf0ZsFmhzZiZdI0a0KrEZ4x07Ri5fyp+4W0dTzxY/ABup3X0sooq3y7L9ymr28PRao3E52kdkEZ0qsuJxR6eDq7HAuS6hUTOmd2qQwqbamFptAPP+M8lkCp8oMtvhVOqg/GWdYOLg6J1svCidRq3Wcw6nykk/DDBWo7t72DRWEBhHgGjuPsCFqEAVZx/O2kqQjzaKOZJ1Zx6reEKW2xS17164D/1LSkRRWHdeeV8cl8Tlgmywz/tPrTWftvlo4IwXguc53r9CHNftvwfRV5NG40u3yBWtIG70+K2qBdI1Ry3MwHH1482tiwbx1ePdoIdU0KDmLyo3xxFFKO7SOo3ZhNyYIQbh3cMzJFmIjXP/Rru3oCWpY1PuK1oz4RW+bbb2sjM/6plUsiMxiS5+ADtRGhP2vtUyMJdQyal/3VMzUqtBxfL0klujzsADZQFKo51hLuqeieFNUGkPTukCgN0B3P5mZZhc5XnsF4eDALmNBtKuKYKLPwSwTfQj1okXiXCR0y7bVAU7C/+8aJvSYXhxRoX3vpXAVdQoJhDT+xOC6e/uuO5VOyipQ6DtIh0mrlimTLtyN7elqhJnuPvt5X4G7lGYnKrG8S5EwWrdznDhqojsUbMm5d4ZtY7a28zHNr43EMmmUbQ39WNZyQ22rOzjbEdV8nmv2BInqu5io+N6Rim21Fs34Mkljd9v9DaeaXWsZxIP5fbJxjUC4D0ZCE2gll00jm5eTZtQb9y+2atrXPLdR/1c5gD8FEk2rxF0k3KBAyelytz14fFqvZqlofw9IS1CJ//eTINE0yrznQrZaBd3iAs1Ctvo6nLzsdi+Ts4HkhbbcbvgZmElRdkrJddyEeeXfjNFjMdQQYoa0MpG40e4G7m3H3INXoqowB2dZtHtoFe5O0f291T2q7+GXgI7dsgAEtqJoZduNaRHPOhbADwflRwTlM9XM7GKB2CGDG5fbr6Yon2cTIkmofsB6sWsaZdsJ6izKWTZSWOTaO839Tdv7ThBtlQtC98WCJfFqf6ARVH1XCK81fAhv1tR/gW/GNtqtXXIa6GA41aY893JlPMrVkD4fHS3RxMJzsRN9jWrFUu4yG3DcFO+CoUnay7rQGdAe1QsxHKQ9vkpTXGKn1O7BLxq2+7qeylXKcNQEWxBDd5v681e+tO3/qmvm8FMGpmYEH1CkDcbPT3mq7cmqaz530/57pxHRtNdwbf1aawl0yZdUjkPKqAurI+TvhJNhgHQHu2cF1N3/R8cDAV9CGyOBrrCwAUyZhTrUf1QViRoh2mYqr0xNrnVI5z6g5lU7maD8wHzNAJ8lVw+gQ+4/ko6tOAZwTzCrpnnmOo934CIF1fJs8VNYUHtk8nVlN3fMtsQWGrOBOwNCe9Mr72oJywi0fkc9v/7RFO9mHthxTdKB887SFlMN1jIAzBVgoEdpeG+Lr20A+NEUYKjx4mDU2U2tRqq2bIw6UI3wKhLRrNEvoXNq6LnxIvSzjtuqWHiKqiPmjcPslN0e1wgh2DfzbPwVeqtpGE7bx8C0rowAdqVq2h4VZSxpGlY/HKSpZp4rszJmvWc1JHy/BsJzkfO9cj/1htPxcPd2mpTDNwuC2FC/dNgGaeW+05TNdCGOOD+MTdHWxUT3quwPCg/Nibssxnjn6HmRQKZ+LCDKzjFGe5hZ8N8XWT7d1UHXzOske6a6zptzPtMmmIGw8wyeNo04e1ITU//0JhldIYeO9lckOEtg+qu5oZmjRhy+/SvsYp7w/Pb79fX17XK+nAfHdif04vF7dOJBbQAT39/79fd4FDxhKtfa6qeNkErGNHwAWM5php19Qy1cFYh4Wql3w0teEB9Ekyb4vt4FkYos6xLsX6UaxNr5iwjYXCyZgLly+HQ2KYWJ7Ka/MkmClWbk+gj8pCN1NP9Cu+kCuIGDc0JeVhFHZ+g3W4Oti87OyfrDxm8qgIapqUHV0c+vhHAtG6h7R/ikafbmtP36Y7UI3mx9GmxXs6+k0n3jG9/4xje+8Y1vfKMcYdcfnF6GGwAh2AxfTgO/+z+m7vXGg6GKVFqJSRj4IDYUnbw17I//R/Yns8HG1hVCjPDSkG2rpqnaNtIIa0Ja0e3NoLlBMTXR2ZsaoaioCO8GfrvTE7tOrzclY3iHkUo/tcyv5IrPwttukAKwbr/12wVDs9ceXGjiMgP9/qJlxXp924RQ14JVxezrrQKkQ2ii/debpr2lzYJfZCtPr11kvHP9MzKAYp++FlFv4JBWo1M843rd4wHbKBOaOW0nGSGnJzLADWfwhYbuSjEJyUHckSeAuKs+dSbQmziqpk2O0bNwB4Soqdz7CGNd9F40gO19MlpnIxqipuia9SgPygmvxGBqThRP7e5tDLTJlxi5PiJN3aVSXSJ6oKi/SjtIaACjbtFTqlIGh3CHAEaN98i3WgcNGEomqJR05bWX/WgCted1B2fnl2yMHisK0JpyKKMI4YMC0CErRg6YFgkJ2+uhFAT1gsXJOTf9ULw5AspDMxKuFKCLYBQYfZA0OJqDJqAaj5bIF3o898/cz6Ozot/SYMeRPwIKDxzonXU1kSRdlUxO5ttL4jDZ8VZDR8bp2j0dbhQwamyM6doG+i5+iZMEyvS0H1SRGayTLl4TNZA6rAHK47PTi4tx3BnbEdDi8IiDAqRiYGSP+dJO7y4fIQ66+1dbH6XG7fLXjs3spdbU/vReHakDLhhYsXidG6JQ0SISNy4CLANhuJKPzrehAnQuZp+d14YqRKG8avR0KasKkUH6eDyYqCjKQNZWr4P8vYMt5VFudnXOBRSDc+YkSXQX5LVOttFJDpq+ArLHT1emEUdBNR1jZERhsVuUpH5e0mPTWFFtTXTw9klL+6/dHVlh6INofrlGgoAo7VEk5UkBVtQ1240Odmtpd73YplZGn2zEoH0McL0sg3fHGScJzM26CcvDIVlF9cu0ZTUmk3sFXBPGiasCXKuqVuvoYLKnOTLB1JCj1JWgZ22EEH2FmYQPvc54e1yvj9vxTJqBqycyuodhy2vtjXqnj5oAn4geTDcdz6YcDjTdBopt6aapKKapW7YSbKOdmbd3fKoSnt7Kkw41C0udaD3b1U4F0BRL/OIZIBNjw1QtDSHNoskysYnAQCyOHk3RSrMONiPzdz1Qu4BJ6ymMuA7bntgKNFT7vNy2O4swXHTa2+XZJiqtYkvVHWlWq6oiOU2Cd1Yhi49lLGcXDWNVWWYLyXvtpaJirF1ifZ5sQe+fMudvcIS2rfQpL3dnQ2xnK3JGIP2Mob3j8sgbNSJH4l/B5X23QgZEu5JFYrpD0OBbcffNKM5H2GjMEdA3FZ6g2ZsOENf8hl9mOZHhnk3o1Ngdr21oXljvN3OLWQ4XYKzUUmo6ZHkBX0jGyiAsjUvNtrtnA8OvyfMBK3+xPAzJJuzj2vKBWDt/lXr+sak2rirM/2oUenfPjPiNb3zjGx+N2XZ/2B32x+x+6d7obJdBsDz+rYmo4w9OQXAa+PKN4ZKenjWwQfb3T9ywEegs6sxg9o7WasSD0EbSjupgsreQ7AQY8+tSVSPeeAjbiP+gi40oog2Cy+EY70lcEeqmyyvLEWrU0GCYGpT3aDveOEVc6l5oU3Bcx8rtmxoNnaMhc5p6iN4eOCytKmb5V6P0IWf6B7SEGWPAjlmm8st6/FRxulAzL9UNnMQ1IGr7xrcutOSwHzRM+zF63lP2AZYMtTOcnLuHOpA65sKPqdvRU59g0tToia0Qp2OwsiVgJDIXnXXmfPxzmE8MJd7aUq8kMOJUhzwhv8xIJGvPZOniBxmlfEYDfoTTzryh6Dr3JuBR9JxYJhOpZIZPYzOwZjyozBoBR4mhqMvPC8KoWraLkqb6DqPzepjPXyCCkU10Q79df+HPYq9HBmH2TUqKZrq6oidKEaTsN57IPpxkHoYwc4KT0VQGq9V2zguMieHMU/UmNMcjOrZ2U2pP+cOeyCj+TNCMc1H3UNzUHmM5EcMpPGOL3cUOQCfFvl8io3klTZ9a8LLOHVdwj8NDZiJvXlJ7kdHkKWdcVs0gyrObpsmy8cRme172IC5WFdGMKgNINJ/TpZNcnqx4zNMFx297UZ3oSppDiHe0nDOWM+CEgmY8lKMyBIk5ndPks8plne/0cmju6I1xyjJXlzuPNY6NEpGnWaJJK5rK1v4e8z9u6NW25EycBvVoLmxg+m366yNp1NIE7lBqeovweABAzhgk0+TZA8UfKZpTOvYkjwovIhz5y0jjTJ91sNnP0PxDf16VxP+ULB2dTGe24mSPVTRJax3Xo42Rj9p2LCIL2LDhkmxM2rNm02Is3ZjQ5J+trmmyq6SMLVwSSPJR77KByHMYSzRZTRL8mF5oj/TbclNQVdE02NOhQ0R+SjPy+21aFkRcGxBJz8pSJlUAr2mKiZyiyYo5yCfPWRXhyJBLaY55zjDmRJVossIbAKLzVhqiNPdffgoqRhM+zgVwhmbbYp3AxpLkeh3T3x/HCQ9dm8hU1hGJCTZFk/2+SE8v0+Sdl6xCUXUKW6bJJ6z+nKK5GHFhAE0E9hGxNyYe8syjXJhBQwBkaJJJRfPvsipi0qhdsSpK9OfZcWrSNsLBSY0LSdK2QiaHhaCRaXJRJtcH6TBpJRKjcpotMWwXMs3WNkqLAWh8OQ8EBRU0U5Bokm7i+Y7pjJcyr/sm7Sg2cGjO1SGkCSwY69jXNUjYLJgAVI/XNBe8CL00aPlSJZKCCZpi2J7ph8lzXMnlyxTqOG1xKZhnMeY0DY3DytCkdMZx25JRSyMOu1zBI7OR9AkdrL+hnNue0YSb+X45ZJnclUj6X/em/Pw91h5RGDmi6TH5qx49mSbRabUkxR+gSasn8H0iiMgzvgR31Kx8oVoHFXfkIRPSdiiWsrN0iZgNTIXTJpHwT4kg1puy5uHpUv9GNMWw1UgrlFQK7vHcjPvU6bSWTH7lpfsvpTklfz68AvGP9AVkuFJFgMkLRMYkE400KSaME69xmrqqm6ap278TJimabF2Qi3LwWiNm3DixQh34sIUZmi16AkbhCjb5Fp6Q2s6JNSql2c/kX49HLVF66EhjbYJDzKXTKaXQDPhSOVttt9ux/MPX66acuJVVjonSRCQ0PT42kqbKGrbP5ctFVJTOywVcSlOn4dsc7GfiYU8WCDahGDMoBhlrcpwXXZa0KaRo8qJWUuQ0S51tjbM0W2ORiTJq6lhWsYUcZdE79Pbr2VlGs62SJ3PkYKWTYiWSTEMmDDtct+WCh10S58hOrZuFNFtDtlInOQYvUKo0ItGkYZAyzc4PeYQwSbSJtxR2wrPbr6RJ+yzWptgsijYgQyhebmDSG7xKSPTrNWny9K9xYQk2/uyImkzTS9MkYiNRaJl4ZmvZiq+mWsCEtzeePD1X0WRB+vFXsQKc0agl7Hi3cVWbZ0tkAiDWT2vSbA3YgLO4FPKZJhXbT2SaIq121NRQk0w0bO7wzdqaD26sPQSHC1KxWB1mOTRFNk5CQUp5zWRDNGpxlO+STXohKdlXxcSei+bmIE2TpkmnTTD2xzVLx6gnujNTneO/5opMEwHjMljNOp32+g+TdmLP6jt8LYWsSBB8GietibMEc1XLZAPPJXNEyqvLpzkPOqSEJEkvEnmzborVoCEE+VXHHpmyIHmMTjxZsWHSYmPQkW4hT0TKzePJNKn1ANJTlOz0B9Hhg+iyMHBEgk6ooDN/zv5PlWLEL+qNLPqXRgt6eQ+IvPwVbQVnP9iF6o8urcVHX/3HeM6eVIubSoIndoFI3x+M+Bc/Zi2lO/7BD0lSjoEoUUradZH6nzVuNIznYJv8giMevEdDkKJczooGZMEbHicaQsg+D6IZNG5zjFlrOtFf5OMO/2jspS9sj+PX4+gD9mWL1Ff14r8yGmbygfzueK7Qdv3ep64ex42JeLbFj7HGHgNgI4rH/vXccHvNDGUl7XpHPDi5q2GG9W984xvf+MY3/hFe4w5IhR2BWWrV7VxD+rQn3srRO8JtABzbtv8cErPxIvMdM+nuWfEPhcv96VYJP1wTMRPfz7TJpfuflsEPqYc8ld3kXBknOhNbKJ4Qm3ak3oYj/hVRjuwx/XKH28qOPzO/g6It9nQ+ay/WtwqSD5kSfRW/7Gcz6qYqac24kQJlBufJYQ4/U9fZ5sOO7JQdbkaPm0w2qvCPuHeZyS4eWxJ2rbl7cm9WpJNtoK5i7rn1AcYPGSP5oCbfv2XPtz3SLTdGu+14vO1fFMkjxDo4CR72tGS/lbYbayqMPMW71mE9bz3fSiHnNLPfxsqpkm2px+E+ps6dki5gDqpAvoVlPFCG0ePYKVY8s2BicqC4oqkMoh8KzeiySevkrltXB9ffixKa0okDD8vSQAXwwlxbcrlDZp+RvGjD+KBnHZoRFr/Ed/pjv7Wa3SxPej2arZ5Ec6Uyg3hq1LrM9qTLDx/Ek/EvaLbiA1jrvf98u2zwNWnKmGD4ymzukiGYGV/Sksx9T2/KWNxw/a1DM22vCx3qVueOhlh0Pcj2zizq0nQ/LjFWGU0hzifpRXVtUrcFCwmJRy37q7CAdSVNbhDrGR93NLmEJnjdUWys9Jh6gMwPRoVQ7Lhn1dkLCxtW0YRn9kNYuw9NwGukp6fOTONWahZf4IhR68ee7DxU0QS8GvtHHjQvpalQ4DRNWuuZzkFWkD1y3DNrfOFh5Gqa7IfgnWi+PVPsHJmmZ0dzlvZmNGpZb8b+0IXC4zGVNy4rKwftC/uhs30XmlGz93KNO6KQKs9TspNY8HARfieLMkmCzdw35viKzhTVFEGtyX1oRguKHKtBPXcK13NBMmqnrPeTFBZTS5bDtdfNj8txcUWTjbNC9SBb6C/qceYpS6LUmKMppsmuTCLR3JrqwS2Rpekx1801zSlfuqm2Y4ntBPNAiig+EYUbX52iyWK7tFiVoN6tSI27prn6ELN6luZbFBSYpumO+MglI9WaLqYUC7akCIci97abkeMrTZMHncW6FJneZtTvVzQ7/3dbfgKZ/eaEZ1BLiSAC740HXXctadlYyBexCNLY8TxLafbHlIefdm7MOSWCCEIr8STfEoymuRoztAOTN4DvNx9nXY7Zi8FNBXNDjo9giqwIN+mJark0zMzjNccTVZBtX4zHds/zemMqheOJymjiefRD3VRU/K1pAlPnEBEjkfVAjYD55p+GFkpHiAdyoCfLL0il8J8/lk5XfEmpOen865BlIRrPn+RW4uoBjn8I5kYz/TPaVlpyioCrZSZCSKjlu1RJmx4PJVbFMjBTRd1myE4kHJF0+mGSChW0EuV3mK2pZwQfwLLzS8/gib59vHpbpTTnI/ryp5hXrqLxjxyx/3JPtm5gSM+XYLLz7Iyk1X6rsKMnNO+yJR0ICZzsD6GPSOxRsHEtf9vLXJSYn91V/7A7LEXdlzC1T6UHnILgcDrKruZ/2jj/P44bqBXkznV+AAAAAElFTkSuQmCC"
+    },
+    "kickoff_date": "2026-02-27",
+    "kickoff_time": "18:00",
+    "match_date": "2026-02-27",
+    "match_time": "18:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
     "id": "EdmontonOilers-LosAngelesKings",
     "league": "Hockey",
     "team1": {
@@ -524,190 +1283,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDU1LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "KansasCityRoyals-ArizonaDiamondbacks",
-    "league": "Baseball",
-    "team1": {
-      "name": "Kansas City Royals",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png"
-    },
-    "team2": {
-      "name": "Arizona Diamondbacks",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png"
-    },
-    "kickoff_date": "2026-02-27",
-    "kickoff_time": "03:10",
-    "match_date": "2026-02-27",
-    "match_time": "03:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI4LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "ChicagoCubs-LosAngelesAngels",
-    "league": "Baseball",
-    "team1": {
-      "name": "Chicago Cubs",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png"
-    },
-    "team2": {
-      "name": "Los Angeles Angels",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/laa.png"
-    },
-    "kickoff_date": "2026-02-27",
-    "kickoff_time": "03:10",
-    "match_date": "2026-02-27",
-    "match_time": "03:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI5LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "ClevelandGuardians-SeattleMariners",
-    "league": "Baseball",
-    "team1": {
-      "name": "Cleveland Guardians",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png"
-    },
-    "team2": {
-      "name": "Seattle Mariners",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png"
-    },
-    "kickoff_date": "2026-02-27",
-    "kickoff_time": "03:10",
-    "match_date": "2026-02-27",
-    "match_time": "03:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "TexasRangers-Athletics",
-    "league": "Baseball",
-    "team1": {
-      "name": "Texas Rangers",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png"
-    },
-    "team2": {
-      "name": "Athletics",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png"
-    },
-    "kickoff_date": "2026-02-27",
-    "kickoff_time": "03:05",
-    "match_date": "2026-02-27",
-    "match_time": "03:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIzLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "SanDiegoPadres-CincinnatiReds",
-    "league": "Baseball",
-    "team1": {
-      "name": "San Diego Padres",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png"
-    },
-    "team2": {
-      "name": "Cincinnati Reds",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png"
-    },
-    "kickoff_date": "2026-02-27",
-    "kickoff_time": "03:05",
-    "match_date": "2026-02-27",
-    "match_time": "03:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI0LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "ChicagoWhiteSox-LosAngelesDodgers",
-    "league": "Baseball",
-    "team1": {
-      "name": "Chicago White Sox",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png"
-    },
-    "team2": {
-      "name": "Los Angeles Dodgers",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png"
-    },
-    "kickoff_date": "2026-02-27",
-    "kickoff_time": "03:05",
-    "match_date": "2026-02-27",
-    "match_time": "03:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI1LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "ColoradoRockies-SanFranciscoGiants",
-    "league": "Baseball",
-    "team1": {
-      "name": "Colorado Rockies",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png"
-    },
-    "team2": {
-      "name": "San Francisco Giants",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png"
-    },
-    "kickoff_date": "2026-02-27",
-    "kickoff_time": "03:05",
-    "match_date": "2026-02-27",
-    "match_time": "03:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI2LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "MilwaukeeBrewers-TexasRangers",
-    "league": "Baseball",
-    "team1": {
-      "name": "Milwaukee Brewers",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
-    },
-    "team2": {
-      "name": "Texas Rangers",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png"
-    },
-    "kickoff_date": "2026-02-27",
-    "kickoff_time": "03:05",
-    "match_date": "2026-02-27",
-    "match_time": "03:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI3LnBocA==",
         "label": "CH-EN"
       }
     ]
