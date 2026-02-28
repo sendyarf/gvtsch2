@@ -3512,8 +3512,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -3540,7 +3540,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -3567,7 +3567,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -22515,7 +22515,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "Halftime",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -22542,7 +22542,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "Halftime",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -22568,8 +22568,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -26275,33 +26275,6 @@
     ]
   },
   {
-    "id": "GrandPrixdeThalandeEssaisqualificatifs1et2desMoto3",
-    "league": "Motogp",
-    "team1": {
-      "name": "Grand Prix de Thaïlande Essais qualificatifs 1 et 2 des Moto 3 -",
-      "logo": ""
-    },
-    "team2": {
-      "name": "",
-      "logo": ""
-    },
-    "kickoff_date": "2026-02-28",
-    "kickoff_time": "12:45",
-    "match_date": "2026-02-28",
-    "match_time": "12:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=14",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=60",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
     "id": "GrandPrixdeThalandeLacoursedesMoto2",
     "league": "Moto2",
     "team1": {
@@ -26316,6 +26289,33 @@
     "kickoff_time": "13:15",
     "match_date": "2026-02-28",
     "match_time": "13:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=14",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=60",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "GrandPrixdeThalandeEssaisqualificatifs1et2desMoto2",
+    "league": "Moto3",
+    "team1": {
+      "name": "Grand Prix de Thaïlande Essais qualificatifs 1 et 2 des Moto 2 -",
+      "logo": ""
+    },
+    "team2": {
+      "name": "",
+      "logo": ""
+    },
+    "kickoff_date": "2026-02-28",
+    "kickoff_time": "13:40",
+    "match_date": "2026-02-28",
+    "match_time": "13:35",
     "duration": "3.5",
     "servers": [
       {
