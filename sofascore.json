@@ -914,8 +914,8 @@
     "kickoff_time": "22:00",
     "match_date": "2026-03-05",
     "match_time": "22:00",
-    "status": "canceled",
-    "status_desc": "Canceled",
+    "status": "notstarted",
+    "status_desc": "Not started",
     "score": "",
     "round": 28,
     "season": "QBL 25/26",
@@ -2064,8 +2064,8 @@
     "kickoff_time": "00:00",
     "match_date": "2026-03-06",
     "match_time": "00:00",
-    "status": "canceled",
-    "status_desc": "Canceled",
+    "status": "notstarted",
+    "status_desc": "Not started",
     "score": "",
     "round": 28,
     "season": "QBL 25/26",
@@ -3565,7 +3565,7 @@
     "match_date": "2026-03-06",
     "match_time": "02:15",
     "status": "finished",
-    "status_desc": "AET",
+    "status_desc": "Ended",
     "score": "95 - 94",
     "round": "",
     "season": "25/26",
@@ -9639,9 +9639,9 @@
     "kickoff_time": "15:00",
     "match_date": "2026-03-06",
     "match_time": "15:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "1st half",
+    "score": "0 - 1",
     "round": 2,
     "season": "AFC Asian Cup, Women 2026",
     "sport": "Football",
@@ -9664,9 +9664,9 @@
     "kickoff_time": "15:35",
     "match_date": "2026-03-06",
     "match_time": "15:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "1st half",
+    "score": "0 - 0",
     "round": 20,
     "season": "A-League 25/26",
     "sport": "Football",
@@ -10466,31 +10466,6 @@
     "match_time": "18:30",
     "status": "notstarted",
     "status_desc": "Not started",
-    "score": "",
-    "round": 4,
-    "season": "Indian Super League 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "OdishaFC-MohunBaganSuperGiant",
-    "league": "India - Super League",
-    "team1": {
-      "name": "Odisha FC",
-      "logo": "https://img.sofascore.com/api/v1/team/174592/image"
-    },
-    "team2": {
-      "name": "Mohun Bagan Super Giant",
-      "logo": "https://img.sofascore.com/api/v1/team/370834/image"
-    },
-    "kickoff_date": "2026-03-06",
-    "kickoff_time": "18:30",
-    "match_date": "2026-03-06",
-    "match_time": "18:30",
-    "status": "canceled",
-    "status_desc": "Canceled",
     "score": "",
     "round": 4,
     "season": "Indian Super League 2026",
@@ -30400,6 +30375,156 @@
     "servers": []
   },
   {
+    "id": "CastillejaBenjamin-MairenaBenjamin",
+    "league": "Spain Amateur - Juegos Deportivos Provinciales, Benjamin",
+    "team1": {
+      "name": "Castilleja Benjamin",
+      "logo": "https://img.sofascore.com/api/v1/team/1141074/image"
+    },
+    "team2": {
+      "name": "Mairena Benjamin",
+      "logo": "https://img.sofascore.com/api/v1/team/1141050/image"
+    },
+    "kickoff_date": "2026-03-07",
+    "kickoff_time": "06:00",
+    "match_date": "2026-03-07",
+    "match_time": "06:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 12,
+    "season": "25/26",
+    "sport": "Basketball",
+    "gender": "",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "PilasABenjamin-BormujosBenjamin",
+    "league": "Spain Amateur - Juegos Deportivos Provinciales, Benjamin",
+    "team1": {
+      "name": "Pilas A Benjamin",
+      "logo": "https://img.sofascore.com/api/v1/team/1141030/image"
+    },
+    "team2": {
+      "name": "Bormujos Benjamin",
+      "logo": "https://img.sofascore.com/api/v1/team/1141076/image"
+    },
+    "kickoff_date": "2026-03-07",
+    "kickoff_time": "06:00",
+    "match_date": "2026-03-07",
+    "match_time": "06:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 12,
+    "season": "25/26",
+    "sport": "Basketball",
+    "gender": "",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "SantiponceBenjamin-PilasBBenjamin",
+    "league": "Spain Amateur - Juegos Deportivos Provinciales, Benjamin",
+    "team1": {
+      "name": "Santiponce Benjamin",
+      "logo": "https://img.sofascore.com/api/v1/team/1141044/image"
+    },
+    "team2": {
+      "name": "Pilas B Benjamin",
+      "logo": "https://img.sofascore.com/api/v1/team/1141031/image"
+    },
+    "kickoff_date": "2026-03-07",
+    "kickoff_time": "06:00",
+    "match_date": "2026-03-07",
+    "match_time": "06:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 12,
+    "season": "25/26",
+    "sport": "Basketball",
+    "gender": "",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "BormujosAlevin-PilasAAlevin",
+    "league": "Spain Amateur - Juegos Deportivos Provinciales, Alevín - 2ª Vuelta, Grupo A",
+    "team1": {
+      "name": "Bormujos Alevin",
+      "logo": "https://img.sofascore.com/api/v1/team/1141036/image"
+    },
+    "team2": {
+      "name": "Pilas A Alevin",
+      "logo": "https://img.sofascore.com/api/v1/team/1141032/image"
+    },
+    "kickoff_date": "2026-03-07",
+    "kickoff_time": "06:00",
+    "match_date": "2026-03-07",
+    "match_time": "06:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 12,
+    "season": "25/26",
+    "sport": "Basketball",
+    "gender": "",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "MairenaAAlevin-MairenaBAlevin",
+    "league": "Spain Amateur - Juegos Deportivos Provinciales, Alevín - 2ª Vuelta, Grupo A",
+    "team1": {
+      "name": "Mairena A Alevin",
+      "logo": "https://img.sofascore.com/api/v1/team/1141051/image"
+    },
+    "team2": {
+      "name": "Mairena B Alevin",
+      "logo": "https://img.sofascore.com/api/v1/team/1141052/image"
+    },
+    "kickoff_date": "2026-03-07",
+    "kickoff_time": "06:00",
+    "match_date": "2026-03-07",
+    "match_time": "06:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 12,
+    "season": "25/26",
+    "sport": "Basketball",
+    "gender": "",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "PilasBAlevin-SanlucarAlevin",
+    "league": "Spain Amateur - Juegos Deportivos Provinciales, Alevín - 2ª Vuelta, Grupo A",
+    "team1": {
+      "name": "Pilas B Alevin",
+      "logo": "https://img.sofascore.com/api/v1/team/1141033/image"
+    },
+    "team2": {
+      "name": "Sanlucar Alevin",
+      "logo": "https://img.sofascore.com/api/v1/team/1141046/image"
+    },
+    "kickoff_date": "2026-03-07",
+    "kickoff_time": "06:00",
+    "match_date": "2026-03-07",
+    "match_time": "06:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 12,
+    "season": "25/26",
+    "sport": "Basketball",
+    "gender": "",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "NorthCarolinaAshevilleBulldogs-LongwoodLancers",
     "league": "USA - Big South Conference, Playoffs",
     "team1": {
@@ -34269,6 +34394,31 @@
     "score": "",
     "round": "",
     "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "WashingtonStCougars-PortlandPilots",
+    "league": "USA - West Coast Conference, Playoffs",
+    "team1": {
+      "name": "Washington St Cougars",
+      "logo": "https://img.sofascore.com/api/v1/team/86860/image"
+    },
+    "team2": {
+      "name": "Portland Pilots",
+      "logo": "https://img.sofascore.com/api/v1/team/87196/image"
+    },
+    "kickoff_date": "2026-03-07",
+    "kickoff_time": "09:00",
+    "match_date": "2026-03-07",
+    "match_time": "09:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "NCAA, Regular Season 25/26",
     "sport": "Basketball",
     "gender": "M",
     "duration": "3.5",
