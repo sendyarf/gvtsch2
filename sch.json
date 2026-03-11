@@ -1038,7 +1038,12 @@
     "match_date": "2026-03-12",
     "match_time": "00:25",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydDVbR2VybWFueV0=",
+        "label": "CH-NA"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "F"
@@ -1136,7 +1141,12 @@
     "match_date": "2026-03-12",
     "match_time": "00:20",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydDVbR2VybWFueV0=",
+        "label": "CH-NA"
+      }
+    ]
   },
   {
     "id": "VfLWolfsburg-EintrachtFrankfurt",
@@ -3090,12 +3100,7 @@
     "match_date": "2026-03-11",
     "match_time": "10:25",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
-        "label": "CH-US"
-      }
-    ],
+    "servers": [],
     "status": "finished",
     "status_desc": "Ended",
     "gender": "M"
@@ -4522,12 +4527,7 @@
     "match_date": "2026-03-12",
     "match_time": "05:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
-        "label": "CH-US"
-      }
-    ],
+    "servers": [],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -8196,8 +8196,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
