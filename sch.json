@@ -1725,10 +1725,6 @@
         "label": "CH-NA"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EQVpOMltTcGFpbl0=",
         "label": "CH-ES"
       },
@@ -4153,12 +4149,7 @@
     "match_date": "2026-03-14",
     "match_time": "19:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
-      }
-    ],
+    "servers": [],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -5841,10 +5832,6 @@
       {
         "url": "https://multi.govoet.cc/?ss=hd8",
         "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
       }
     ],
     "status": "notstarted",
@@ -8247,7 +8234,12 @@
     "match_date": "2026-03-16",
     "match_time": "01:55",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHNbQXJnZW50aW5hXQ==",
+        "label": "CH-NA"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -8390,6 +8382,10 @@
       {
         "url": "https://multi.govoet.cc/?envivo=50",
         "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHNbQXJnZW50aW5hXQ==",
+        "label": "CH-NA"
       }
     ]
   },
@@ -8488,10 +8484,6 @@
       {
         "url": "https://multi.govoet.cc/?envivo=6",
         "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
       }
     ]
   },
@@ -8599,10 +8591,6 @@
     "match_time": "06:55",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY5LnBocA==",
-        "label": "CH-EN"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTg3Mzg4Mw==",
         "label": "CH-NA"
@@ -8744,10 +8732,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=187",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcwLnBocA==",
         "label": "CH-EN"
       },
@@ -8756,8 +8740,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "4th quarter",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -8778,10 +8762,6 @@
     "match_time": "08:55",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=188",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcxLnBocA==",
         "label": "CH-EN"
@@ -8830,8 +8810,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "4th quarter",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -8857,8 +8837,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "4th quarter",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -8908,8 +8888,8 @@
         "label": "CH-US"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -10257,6 +10237,10 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydFRWNVtQb3J0dWdhbF0=",
         "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHNbQXJnZW50aW5hXQ==",
+        "label": "CH-NA"
       }
     ],
     "status": "notstarted",
@@ -10441,10 +10425,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=81",
-        "label": "CH-ES"
-      },
-      {
         "url": "https://multi.govoet.cc/?ss=hd10",
         "label": "CH-1"
       },
@@ -10475,10 +10455,6 @@
     "match_time": "08:55",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9pa29obHMudGFpbGFzby50b3AvbGl2ZS9Nd3Rwb3IubTN1OA==",
-        "label": "CH-NA"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHM0W1VLXQ==",
         "label": "CH-UK"
@@ -10617,6 +10593,10 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9pa29obHMudGFpbGFzby50b3AvbGl2ZS92cXFMTHgubTN1OA==",
+        "label": "CH-NA"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMyW1VLXQ==",
         "label": "CH-UK"
       },
@@ -10626,7 +10606,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -10648,12 +10628,16 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9pa29obHMudGFpbGFzby50b3AvbGl2ZS9IWVdKN2YubTN1OA==",
+        "label": "CH-NA"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJbU2VyYmlhXQ==",
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "F"
   },
   {
@@ -10679,8 +10663,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -10737,8 +10721,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "F"
   },
   {
@@ -10764,8 +10748,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -10791,8 +10775,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -10818,8 +10802,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -11347,10 +11331,6 @@
     "match_time": "06:55",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
-        "label": "CH-EN"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9WaWFwbGF5U3BvcnRzMVtVS10=",
         "label": "CH-UK"
@@ -13511,10 +13491,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJGaWdodFtTZXJiaWFd",
         "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
       }
     ]
   },
@@ -13546,10 +13522,6 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJGaWdodFtTZXJiaWFd",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
         "label": "CH-NA"
       }
     ]
@@ -13583,10 +13555,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJGaWdodFtTZXJiaWFd",
         "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
       }
     ]
   },
@@ -13618,10 +13586,6 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJGaWdodFtTZXJiaWFd",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
         "label": "CH-NA"
       }
     ]
@@ -13702,10 +13666,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJGaWdodFtTZXJiaWFd",
         "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
       }
     ]
   },
@@ -13738,10 +13698,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJGaWdodFtTZXJiaWFd",
         "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
       }
     ]
   },
@@ -13773,10 +13729,6 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJGaWdodFtTZXJiaWFd",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
         "label": "CH-NA"
       }
     ]
@@ -15360,10 +15312,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJGaWdodFtTZXJiaWFd",
         "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
       }
     ]
   },
@@ -15392,10 +15340,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMyW1VLXQ==",
         "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9STUNTcG9ydDFbRnJhbmNlXQ==",
@@ -15455,10 +15399,6 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJGaWdodFtTZXJiaWFd",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
         "label": "CH-NA"
       }
     ]
@@ -15536,10 +15476,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJGaWdodFtTZXJiaWFd",
         "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
       }
     ]
   },
@@ -15584,10 +15520,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJGaWdodFtTZXJiaWFd",
         "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
       }
     ]
   },
@@ -15631,10 +15563,6 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydGtsdWJGaWdodFtTZXJiaWFd",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0QWN0aW9uW1NvdXRoQWZyaWNhXQ==",
         "label": "CH-NA"
       }
     ]
@@ -17981,10 +17909,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY4LnBocA==",
-        "label": "CH-EN"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTg3Mzg0MQ==",
         "label": "CH-NA"
       }
@@ -18011,10 +17935,6 @@
     "match_time": "06:25",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
-        "label": "CH-EN"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTg3Mzc0MA==",
         "label": "CH-NA"
@@ -18043,10 +17963,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY2LnBocA==",
-        "label": "CH-EN"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTg3MzU3Mg==",
         "label": "CH-NA"
       }
@@ -18073,10 +17989,6 @@
     "match_time": "06:25",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.my.id/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY3LnBocA==",
-        "label": "CH-EN"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTg3NDA3Mg==",
         "label": "CH-NA"
@@ -21774,29 +21686,6 @@
     ]
   },
   {
-    "id": "ClubAmericaW-ClubLeonW",
-    "league": "Liga Mx Women",
-    "team1": {
-      "name": "Club America W",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Club Leon W",
-      "logo": ""
-    },
-    "kickoff_date": "2026-03-14",
-    "kickoff_time": "09:00",
-    "match_date": "2026-03-14",
-    "match_time": "08:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=158",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
     "id": "GPdeChineLacourseSprint",
     "league": "Formula 1",
     "team1": {
@@ -21862,8 +21751,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
