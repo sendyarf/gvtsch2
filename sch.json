@@ -137,52 +137,6 @@
     "gender": "M"
   },
   {
-    "id": "Heracles-Excelsior",
-    "sport": "Football",
-    "league": "Netherlands - Eredivisie",
-    "team1": {
-      "name": "Heracles",
-      "logo": "https://static.flashscore.com/res/image/data/MqiB1mme-vuxu3x67.png"
-    },
-    "team2": {
-      "name": "Excelsior",
-      "logo": "https://static.flashscore.com/res/image/data/82r5rXU0-GOuuvzfL.png"
-    },
-    "kickoff_date": "2026-03-21",
-    "kickoff_time": "02:00",
-    "match_date": "2026-03-21",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?ss=hd8",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Sittard-Twente",
-    "sport": "Football",
-    "league": "Netherlands - Vriendenloterij Eredivisie",
-    "team1": {
-      "name": "Sittard",
-      "logo": "https://static.flashscore.com/res/image/data/2Z2jcUT0-EFoqxv3t.png"
-    },
-    "team2": {
-      "name": "Twente",
-      "logo": "https://static.flashscore.com/res/image/data/Uo9lu6le-4vob7cTR.png"
-    },
-    "kickoff_date": "2026-03-21",
-    "kickoff_time": "22:30",
-    "match_date": "2026-03-21",
-    "match_time": "22:25",
-    "duration": "3.5",
-    "servers": [],
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
     "id": "Lens-Angers",
     "sport": "Football",
     "league": "France - Ligue 1",
@@ -199,7 +153,16 @@
     "match_date": "2026-03-21",
     "match_time": "02:40",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=nova4cz",
+        "label": "CH-CZ"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=vsport1",
+        "label": "CH-FL"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -245,6 +208,14 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?shaka=nova3cz",
+        "label": "CH-CZ"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=psn5",
+        "label": "CH-MN"
+      },
+      {
         "url": "https://multi.govoet.cc/?ss=hd3",
         "label": "CH-1"
       },
@@ -278,7 +249,20 @@
     "match_date": "2026-03-21",
     "match_time": "21:25",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=psn5",
+        "label": "CH-MN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=nova3cz",
+        "label": "CH-CZ"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=vsport1",
+        "label": "CH-FL"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -799,6 +783,52 @@
     ],
     "status": "finished",
     "status_desc": "Ended",
+    "gender": "M"
+  },
+  {
+    "id": "Heracles-Excelsior",
+    "sport": "Football",
+    "league": "Netherlands - Eredivisie",
+    "team1": {
+      "name": "Heracles",
+      "logo": "https://static.flashscore.com/res/image/data/MqiB1mme-vuxu3x67.png"
+    },
+    "team2": {
+      "name": "Excelsior",
+      "logo": "https://static.flashscore.com/res/image/data/82r5rXU0-GOuuvzfL.png"
+    },
+    "kickoff_date": "2026-03-21",
+    "kickoff_time": "02:00",
+    "match_date": "2026-03-21",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd8",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "Sittard-Twente",
+    "sport": "Football",
+    "league": "Netherlands - Vriendenloterij Eredivisie",
+    "team1": {
+      "name": "Sittard",
+      "logo": "https://static.flashscore.com/res/image/data/2Z2jcUT0-EFoqxv3t.png"
+    },
+    "team2": {
+      "name": "Twente",
+      "logo": "https://static.flashscore.com/res/image/data/Uo9lu6le-4vob7cTR.png"
+    },
+    "kickoff_date": "2026-03-21",
+    "kickoff_time": "22:30",
+    "match_date": "2026-03-21",
+    "match_time": "22:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
     "gender": "M"
   },
   {
@@ -1976,8 +2006,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2086,7 +2116,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -2140,7 +2170,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -2167,7 +2197,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -2292,7 +2322,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -3123,7 +3153,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st quarter",
+    "status_desc": "2nd quarter",
     "gender": "M"
   },
   {
@@ -3161,8 +3191,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
     "gender": "M"
   },
   {
@@ -3196,8 +3226,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
     "gender": "M"
   },
   {
@@ -3770,8 +3800,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -3801,8 +3831,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -4016,8 +4046,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "F"
   },
   {
@@ -4043,8 +4073,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -4074,8 +4104,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -4155,8 +4185,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
