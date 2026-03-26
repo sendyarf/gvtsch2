@@ -20,6 +20,10 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?shaka=sportvsd",
+        "label": "CH-PT"
+      },
+       {
         "url": "https://multi.govoet.cc/?shaka=sport1cz",
         "label": "CH-CZ"
       },
@@ -142,7 +146,16 @@
     "match_time": "03:00",
 
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=sportvsd",
+        "label": "CH-PT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=espn1mx",
+        "label": "CH-MX"
+      }
+    ]
   }
       
 ]
