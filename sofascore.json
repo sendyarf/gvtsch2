@@ -4514,8 +4514,8 @@
     "kickoff_time": "06:00",
     "match_date": "2026-03-27",
     "match_time": "06:00",
-    "status": "finished",
-    "status_desc": "Ended",
+    "status": "inprogress",
+    "status_desc": "Pause",
     "score": "135 - 140",
     "round": "",
     "season": "2026",
@@ -5214,9 +5214,9 @@
     "kickoff_time": "08:00",
     "match_date": "2026-03-27",
     "match_time": "08:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "76 - 61",
     "round": 27,
     "season": "Women's Basketball Invitation Tournament 2026",
     "sport": "Basketball",
@@ -5239,9 +5239,9 @@
     "kickoff_time": "08:00",
     "match_date": "2026-03-27",
     "match_time": "08:00",
-    "status": "inprogress",
-    "status_desc": "3rd quarter",
-    "score": "51 - 39",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "72 - 54",
     "round": 5,
     "season": "Womens National Invitation Tournament 2026",
     "sport": "Basketball",
@@ -5264,9 +5264,9 @@
     "kickoff_time": "08:10",
     "match_date": "2026-03-27",
     "match_time": "08:10",
-    "status": "inprogress",
-    "status_desc": "3rd quarter",
-    "score": "52 - 58",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "83 - 89",
     "round": 1,
     "season": "LNB 25/26",
     "sport": "Basketball",
@@ -5289,9 +5289,9 @@
     "kickoff_time": "08:15",
     "match_date": "2026-03-27",
     "match_time": "08:15",
-    "status": "inprogress",
-    "status_desc": "3rd quarter",
-    "score": "56 - 79",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "75 - 106",
     "round": 1,
     "season": "LNBPF, Women 2026",
     "sport": "Basketball",
@@ -5314,9 +5314,9 @@
     "kickoff_time": "08:45",
     "match_date": "2026-03-27",
     "match_time": "08:45",
-    "status": "inprogress",
-    "status_desc": "1st half",
-    "score": "28 - 17",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "109 - 88",
     "round": "",
     "season": "NCAA Division I, National Championship 25/26",
     "sport": "Basketball",
@@ -5339,9 +5339,9 @@
     "kickoff_time": "09:00",
     "match_date": "2026-03-27",
     "match_time": "09:00",
-    "status": "inprogress",
-    "status_desc": "2nd quarter",
-    "score": "24 - 37",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "73 - 87",
     "round": 1,
     "season": "LNBPF, Women 2026",
     "sport": "Basketball",
@@ -5364,9 +5364,9 @@
     "kickoff_time": "09:00",
     "match_date": "2026-03-27",
     "match_time": "09:00",
-    "status": "inprogress",
-    "status_desc": "2nd quarter",
-    "score": "33 - 26",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "137 - 114",
     "round": 1,
     "season": "NBA G League 25/26",
     "sport": "Basketball",
@@ -5389,9 +5389,9 @@
     "kickoff_time": "09:00",
     "match_date": "2026-03-27",
     "match_time": "09:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "68 - 74",
     "round": 27,
     "season": "Women's Basketball Invitation Tournament 2026",
     "sport": "Basketball",
@@ -5414,9 +5414,9 @@
     "kickoff_time": "09:05",
     "match_date": "2026-03-27",
     "match_time": "09:05",
-    "status": "inprogress",
-    "status_desc": "1st half",
-    "score": "12 - 14",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "55 - 65",
     "round": "",
     "season": "NCAA Division I, National Championship 25/26",
     "sport": "Basketball",
@@ -5439,9 +5439,9 @@
     "kickoff_time": "09:30",
     "match_date": "2026-03-27",
     "match_time": "09:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "81 - 87",
     "round": 1,
     "season": "LNBPF, Women 2026",
     "sport": "Basketball",
@@ -5464,11 +5464,36 @@
     "kickoff_time": "10:00",
     "match_date": "2026-03-27",
     "match_time": "10:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "2nd half",
+    "score": "0 - 1",
     "round": 28,
     "season": "FIFA World Cup Qualification, Inter-Confederation Playoffs 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "Chile-CaboVerde",
+    "league": "World - FIFA Series, New Zealand ",
+    "team1": {
+      "name": "Chile",
+      "logo": "https://img.sofascore.com/api/v1/team/4754/image"
+    },
+    "team2": {
+      "name": "Cabo Verde",
+      "logo": "https://img.sofascore.com/api/v1/team/4753/image"
+    },
+    "kickoff_date": "2026-03-27",
+    "kickoff_time": "10:00",
+    "match_date": "2026-03-27",
+    "match_time": "10:00",
+    "status": "inprogress",
+    "status_desc": "2nd half",
+    "score": "4 - 2",
+    "round": 1,
+    "season": "2026 ",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
@@ -48075,31 +48100,6 @@
     "servers": []
   },
   {
-    "id": "Atlanta-ClubFerroCarrilOeste",
-    "league": "Argentina - Primera B Nacional",
-    "team1": {
-      "name": "Atlanta",
-      "logo": "https://img.sofascore.com/api/v1/team/53799/image"
-    },
-    "team2": {
-      "name": "Club Ferro Carril Oeste",
-      "logo": "https://img.sofascore.com/api/v1/team/36841/image"
-    },
-    "kickoff_date": "2026-03-28",
-    "kickoff_time": "23:00",
-    "match_date": "2026-03-28",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 7,
-    "season": "Primera Nacional 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "PortugalU19-SerbiaU19",
     "league": "Europe - U19 UEFA European Championship, Elite round Gr. 2",
     "team1": {
@@ -48250,31 +48250,6 @@
     "servers": []
   },
   {
-    "id": "Atlanta-ClubFerroCarrilOeste",
-    "league": "Argentina - Primera B Nacional",
-    "team1": {
-      "name": "Atlanta",
-      "logo": "https://img.sofascore.com/api/v1/team/53799/image"
-    },
-    "team2": {
-      "name": "Club Ferro Carril Oeste",
-      "logo": "https://img.sofascore.com/api/v1/team/36841/image"
-    },
-    "kickoff_date": "2026-03-28",
-    "kickoff_time": "23:00",
-    "match_date": "2026-03-28",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 7,
-    "season": "Primera Nacional 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "PortugalU19-SerbiaU19",
     "league": "Europe - U19 UEFA European Championship, Elite round Gr. 2",
     "team1": {
@@ -60300,6 +60275,31 @@
     "servers": []
   },
   {
+    "id": "Atlanta-ClubFerroCarrilOeste",
+    "league": "Argentina - Primera B Nacional",
+    "team1": {
+      "name": "Atlanta",
+      "logo": "https://img.sofascore.com/api/v1/team/53799/image"
+    },
+    "team2": {
+      "name": "Club Ferro Carril Oeste",
+      "logo": "https://img.sofascore.com/api/v1/team/36841/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "01:00",
+    "match_date": "2026-03-29",
+    "match_time": "01:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 7,
+    "season": "Primera Nacional 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "NewYorkCosmos-FortWayneFC",
     "league": "USA - USL, League One",
     "team1": {
@@ -60350,6 +60350,31 @@
     "servers": []
   },
   {
+    "id": "Atlanta-ClubFerroCarrilOeste",
+    "league": "Argentina - Primera B Nacional",
+    "team1": {
+      "name": "Atlanta",
+      "logo": "https://img.sofascore.com/api/v1/team/53799/image"
+    },
+    "team2": {
+      "name": "Club Ferro Carril Oeste",
+      "logo": "https://img.sofascore.com/api/v1/team/36841/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "01:00",
+    "match_date": "2026-03-29",
+    "match_time": "01:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 7,
+    "season": "Primera Nacional 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "UCAMMurcia-SurneBilbaoBasket",
     "league": "Spain - Liga ACB",
     "team1": {
@@ -73975,31 +74000,6 @@
     "servers": []
   },
   {
-    "id": "Olimpia-CS2deMayo",
-    "league": "Paraguay - División de Honor, Apertura",
-    "team1": {
-      "name": "Olimpia",
-      "logo": "https://img.sofascore.com/api/v1/team/5997/image"
-    },
-    "team2": {
-      "name": "CS 2 de Mayo",
-      "logo": "https://img.sofascore.com/api/v1/team/5992/image"
-    },
-    "kickoff_date": "2026-03-29",
-    "kickoff_time": "04:00",
-    "match_date": "2026-03-29",
-    "match_time": "04:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 13,
-    "season": "Division de Honor, Apertura 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "CcutaDeportivo-BoyacChicFC",
     "league": "Colombia - Liga DIMAYOR, Apertura",
     "team1": {
@@ -74125,6 +74125,306 @@
     "servers": []
   },
   {
+    "id": "SouthCarolinaGamecocksW-OklahomaSoonersW",
+    "league": "USA (College) - NCAA Women's March Madness",
+    "team1": {
+      "name": "South Carolina Gamecocks W",
+      "logo": "https://img.sofascore.com/api/v1/team/193200/image"
+    },
+    "team2": {
+      "name": "Oklahoma Sooners W",
+      "logo": "https://img.sofascore.com/api/v1/team/216409/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "04:00",
+    "match_date": "2026-03-29",
+    "match_time": "04:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "NCAA Division I, National Championship Women 25/26",
+    "sport": "Basketball",
+    "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "LimeiraBasketballU18-AJABASKMairinqueU18",
+    "league": "Brazil Amateur - U18 Paulista, Fase Inicial",
+    "team1": {
+      "name": "Limeira Basketball U18",
+      "logo": "https://img.sofascore.com/api/v1/team/1177530/image"
+    },
+    "team2": {
+      "name": "AJABASK Mairinque U18",
+      "logo": "https://img.sofascore.com/api/v1/team/1177529/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "04:00",
+    "match_date": "2026-03-29",
+    "match_time": "04:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 2,
+    "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CDAlemndeConcepcin-VillaAlemanaBasquet",
+    "league": "Chile - LNB 2",
+    "team1": {
+      "name": "CD Alemán de Concepción",
+      "logo": "https://img.sofascore.com/api/v1/team/416358/image"
+    },
+    "team2": {
+      "name": "Villa Alemana Basquet",
+      "logo": "https://img.sofascore.com/api/v1/team/1173850/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "04:00",
+    "match_date": "2026-03-29",
+    "match_time": "04:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "LNB 2 2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "LuisMatteLarrain-CDHrvatskiSokolAntofagasta",
+    "league": "Chile - LNB 2",
+    "team1": {
+      "name": "Luis Matte Larrain",
+      "logo": "https://img.sofascore.com/api/v1/team/417113/image"
+    },
+    "team2": {
+      "name": "CD Hrvatski Sokol Antofagasta",
+      "logo": "https://img.sofascore.com/api/v1/team/1173846/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "04:00",
+    "match_date": "2026-03-29",
+    "match_time": "04:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "LNB 2 2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CDJosRgioW-GafanhaW",
+    "league": "Portugal - Campeonato Nacional da 1ª Divisao Feminina, 2ª Fase - Grupo Manutenção Norte",
+    "team1": {
+      "name": "CD José Régio W",
+      "logo": "https://img.sofascore.com/api/v1/team/370366/image"
+    },
+    "team2": {
+      "name": "Gafanha W",
+      "logo": "https://img.sofascore.com/api/v1/team/1134582/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "04:00",
+    "match_date": "2026-03-29",
+    "match_time": "04:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "25/26",
+    "sport": "Basketball",
+    "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "SouthCarolinaGamecocksW-OklahomaSoonersW",
+    "league": "USA (College) - NCAA Women's March Madness",
+    "team1": {
+      "name": "South Carolina Gamecocks W",
+      "logo": "https://img.sofascore.com/api/v1/team/193200/image"
+    },
+    "team2": {
+      "name": "Oklahoma Sooners W",
+      "logo": "https://img.sofascore.com/api/v1/team/216409/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "04:00",
+    "match_date": "2026-03-29",
+    "match_time": "04:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "NCAA Division I, National Championship Women 25/26",
+    "sport": "Basketball",
+    "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "LimeiraBasketballU18-AJABASKMairinqueU18",
+    "league": "Brazil Amateur - U18 Paulista, Fase Inicial",
+    "team1": {
+      "name": "Limeira Basketball U18",
+      "logo": "https://img.sofascore.com/api/v1/team/1177530/image"
+    },
+    "team2": {
+      "name": "AJABASK Mairinque U18",
+      "logo": "https://img.sofascore.com/api/v1/team/1177529/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "04:00",
+    "match_date": "2026-03-29",
+    "match_time": "04:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 2,
+    "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CDAlemndeConcepcin-VillaAlemanaBasquet",
+    "league": "Chile - LNB 2",
+    "team1": {
+      "name": "CD Alemán de Concepción",
+      "logo": "https://img.sofascore.com/api/v1/team/416358/image"
+    },
+    "team2": {
+      "name": "Villa Alemana Basquet",
+      "logo": "https://img.sofascore.com/api/v1/team/1173850/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "04:00",
+    "match_date": "2026-03-29",
+    "match_time": "04:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "LNB 2 2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "LuisMatteLarrain-CDHrvatskiSokolAntofagasta",
+    "league": "Chile - LNB 2",
+    "team1": {
+      "name": "Luis Matte Larrain",
+      "logo": "https://img.sofascore.com/api/v1/team/417113/image"
+    },
+    "team2": {
+      "name": "CD Hrvatski Sokol Antofagasta",
+      "logo": "https://img.sofascore.com/api/v1/team/1173846/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "04:00",
+    "match_date": "2026-03-29",
+    "match_time": "04:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "LNB 2 2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CDJosRgioW-GafanhaW",
+    "league": "Portugal - Campeonato Nacional da 1ª Divisao Feminina, 2ª Fase - Grupo Manutenção Norte",
+    "team1": {
+      "name": "CD José Régio W",
+      "logo": "https://img.sofascore.com/api/v1/team/370366/image"
+    },
+    "team2": {
+      "name": "Gafanha W",
+      "logo": "https://img.sofascore.com/api/v1/team/1134582/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "04:00",
+    "match_date": "2026-03-29",
+    "match_time": "04:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "25/26",
+    "sport": "Basketball",
+    "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "DeportesLaSerena-UninLaCalera",
+    "league": "Chile - Copa de la Liga, Group D",
+    "team1": {
+      "name": "Deportes La Serena",
+      "logo": "https://img.sofascore.com/api/v1/team/5031/image"
+    },
+    "team2": {
+      "name": "Unión La Calera",
+      "logo": "https://img.sofascore.com/api/v1/team/48242/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "04:30",
+    "match_date": "2026-03-29",
+    "match_time": "04:30",
+    "status": "postponed",
+    "status_desc": "Postponed",
+    "score": "",
+    "round": 3,
+    "season": "2026 ",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "UninLaCalera-DeportesLaSerena",
+    "league": "Chile - Copa de la Liga, Group D",
+    "team1": {
+      "name": "Unión La Calera",
+      "logo": "https://img.sofascore.com/api/v1/team/48242/image"
+    },
+    "team2": {
+      "name": "Deportes La Serena",
+      "logo": "https://img.sofascore.com/api/v1/team/5031/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "04:30",
+    "match_date": "2026-03-29",
+    "match_time": "04:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 3,
+    "season": "2026 ",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "Olimpia-CS2deMayo",
     "league": "Paraguay - División de Honor, Apertura",
     "team1": {
@@ -74136,9 +74436,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/5992/image"
     },
     "kickoff_date": "2026-03-29",
-    "kickoff_time": "04:00",
+    "kickoff_time": "04:30",
     "match_date": "2026-03-29",
-    "match_time": "04:00",
+    "match_time": "04:30",
     "status": "notstarted",
     "status_desc": "Not started",
     "score": "",
@@ -74150,256 +74450,6 @@
     "servers": []
   },
   {
-    "id": "SouthCarolinaGamecocksW-OklahomaSoonersW",
-    "league": "USA (College) - NCAA Women's March Madness",
-    "team1": {
-      "name": "South Carolina Gamecocks W",
-      "logo": "https://img.sofascore.com/api/v1/team/193200/image"
-    },
-    "team2": {
-      "name": "Oklahoma Sooners W",
-      "logo": "https://img.sofascore.com/api/v1/team/216409/image"
-    },
-    "kickoff_date": "2026-03-29",
-    "kickoff_time": "04:00",
-    "match_date": "2026-03-29",
-    "match_time": "04:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "NCAA Division I, National Championship Women 25/26",
-    "sport": "Basketball",
-    "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "LimeiraBasketballU18-AJABASKMairinqueU18",
-    "league": "Brazil Amateur - U18 Paulista, Fase Inicial",
-    "team1": {
-      "name": "Limeira Basketball U18",
-      "logo": "https://img.sofascore.com/api/v1/team/1177530/image"
-    },
-    "team2": {
-      "name": "AJABASK Mairinque U18",
-      "logo": "https://img.sofascore.com/api/v1/team/1177529/image"
-    },
-    "kickoff_date": "2026-03-29",
-    "kickoff_time": "04:00",
-    "match_date": "2026-03-29",
-    "match_time": "04:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 2,
-    "season": "2026",
-    "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "CDAlemndeConcepcin-VillaAlemanaBasquet",
-    "league": "Chile - LNB 2",
-    "team1": {
-      "name": "CD Alemán de Concepción",
-      "logo": "https://img.sofascore.com/api/v1/team/416358/image"
-    },
-    "team2": {
-      "name": "Villa Alemana Basquet",
-      "logo": "https://img.sofascore.com/api/v1/team/1173850/image"
-    },
-    "kickoff_date": "2026-03-29",
-    "kickoff_time": "04:00",
-    "match_date": "2026-03-29",
-    "match_time": "04:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "LNB 2 2026",
-    "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "LuisMatteLarrain-CDHrvatskiSokolAntofagasta",
-    "league": "Chile - LNB 2",
-    "team1": {
-      "name": "Luis Matte Larrain",
-      "logo": "https://img.sofascore.com/api/v1/team/417113/image"
-    },
-    "team2": {
-      "name": "CD Hrvatski Sokol Antofagasta",
-      "logo": "https://img.sofascore.com/api/v1/team/1173846/image"
-    },
-    "kickoff_date": "2026-03-29",
-    "kickoff_time": "04:00",
-    "match_date": "2026-03-29",
-    "match_time": "04:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "LNB 2 2026",
-    "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "CDJosRgioW-GafanhaW",
-    "league": "Portugal - Campeonato Nacional da 1ª Divisao Feminina, 2ª Fase - Grupo Manutenção Norte",
-    "team1": {
-      "name": "CD José Régio W",
-      "logo": "https://img.sofascore.com/api/v1/team/370366/image"
-    },
-    "team2": {
-      "name": "Gafanha W",
-      "logo": "https://img.sofascore.com/api/v1/team/1134582/image"
-    },
-    "kickoff_date": "2026-03-29",
-    "kickoff_time": "04:00",
-    "match_date": "2026-03-29",
-    "match_time": "04:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "25/26",
-    "sport": "Basketball",
-    "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "SouthCarolinaGamecocksW-OklahomaSoonersW",
-    "league": "USA (College) - NCAA Women's March Madness",
-    "team1": {
-      "name": "South Carolina Gamecocks W",
-      "logo": "https://img.sofascore.com/api/v1/team/193200/image"
-    },
-    "team2": {
-      "name": "Oklahoma Sooners W",
-      "logo": "https://img.sofascore.com/api/v1/team/216409/image"
-    },
-    "kickoff_date": "2026-03-29",
-    "kickoff_time": "04:00",
-    "match_date": "2026-03-29",
-    "match_time": "04:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "NCAA Division I, National Championship Women 25/26",
-    "sport": "Basketball",
-    "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "LimeiraBasketballU18-AJABASKMairinqueU18",
-    "league": "Brazil Amateur - U18 Paulista, Fase Inicial",
-    "team1": {
-      "name": "Limeira Basketball U18",
-      "logo": "https://img.sofascore.com/api/v1/team/1177530/image"
-    },
-    "team2": {
-      "name": "AJABASK Mairinque U18",
-      "logo": "https://img.sofascore.com/api/v1/team/1177529/image"
-    },
-    "kickoff_date": "2026-03-29",
-    "kickoff_time": "04:00",
-    "match_date": "2026-03-29",
-    "match_time": "04:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 2,
-    "season": "2026",
-    "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "CDAlemndeConcepcin-VillaAlemanaBasquet",
-    "league": "Chile - LNB 2",
-    "team1": {
-      "name": "CD Alemán de Concepción",
-      "logo": "https://img.sofascore.com/api/v1/team/416358/image"
-    },
-    "team2": {
-      "name": "Villa Alemana Basquet",
-      "logo": "https://img.sofascore.com/api/v1/team/1173850/image"
-    },
-    "kickoff_date": "2026-03-29",
-    "kickoff_time": "04:00",
-    "match_date": "2026-03-29",
-    "match_time": "04:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "LNB 2 2026",
-    "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "LuisMatteLarrain-CDHrvatskiSokolAntofagasta",
-    "league": "Chile - LNB 2",
-    "team1": {
-      "name": "Luis Matte Larrain",
-      "logo": "https://img.sofascore.com/api/v1/team/417113/image"
-    },
-    "team2": {
-      "name": "CD Hrvatski Sokol Antofagasta",
-      "logo": "https://img.sofascore.com/api/v1/team/1173846/image"
-    },
-    "kickoff_date": "2026-03-29",
-    "kickoff_time": "04:00",
-    "match_date": "2026-03-29",
-    "match_time": "04:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "LNB 2 2026",
-    "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "CDJosRgioW-GafanhaW",
-    "league": "Portugal - Campeonato Nacional da 1ª Divisao Feminina, 2ª Fase - Grupo Manutenção Norte",
-    "team1": {
-      "name": "CD José Régio W",
-      "logo": "https://img.sofascore.com/api/v1/team/370366/image"
-    },
-    "team2": {
-      "name": "Gafanha W",
-      "logo": "https://img.sofascore.com/api/v1/team/1134582/image"
-    },
-    "kickoff_date": "2026-03-29",
-    "kickoff_time": "04:00",
-    "match_date": "2026-03-29",
-    "match_time": "04:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "25/26",
-    "sport": "Basketball",
-    "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "DeportesLaSerena-UninLaCalera",
     "league": "Chile - Copa de la Liga, Group D",
     "team1": {
@@ -74450,40 +74500,15 @@
     "servers": []
   },
   {
-    "id": "DeportesLaSerena-UninLaCalera",
-    "league": "Chile - Copa de la Liga, Group D",
+    "id": "Olimpia-CS2deMayo",
+    "league": "Paraguay - División de Honor, Apertura",
     "team1": {
-      "name": "Deportes La Serena",
-      "logo": "https://img.sofascore.com/api/v1/team/5031/image"
+      "name": "Olimpia",
+      "logo": "https://img.sofascore.com/api/v1/team/5997/image"
     },
     "team2": {
-      "name": "Unión La Calera",
-      "logo": "https://img.sofascore.com/api/v1/team/48242/image"
-    },
-    "kickoff_date": "2026-03-29",
-    "kickoff_time": "04:30",
-    "match_date": "2026-03-29",
-    "match_time": "04:30",
-    "status": "postponed",
-    "status_desc": "Postponed",
-    "score": "",
-    "round": 3,
-    "season": "2026 ",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "UninLaCalera-DeportesLaSerena",
-    "league": "Chile - Copa de la Liga, Group D",
-    "team1": {
-      "name": "Unión La Calera",
-      "logo": "https://img.sofascore.com/api/v1/team/48242/image"
-    },
-    "team2": {
-      "name": "Deportes La Serena",
-      "logo": "https://img.sofascore.com/api/v1/team/5031/image"
+      "name": "CS 2 de Mayo",
+      "logo": "https://img.sofascore.com/api/v1/team/5992/image"
     },
     "kickoff_date": "2026-03-29",
     "kickoff_time": "04:30",
@@ -74492,8 +74517,8 @@
     "status": "notstarted",
     "status_desc": "Not started",
     "score": "",
-    "round": 3,
-    "season": "2026 ",
+    "round": 13,
+    "season": "Division de Honor, Apertura 2026",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
@@ -75394,6 +75419,56 @@
     "score": "",
     "round": "",
     "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "IllinoisFightingIllini-IowaHawkeyes",
+    "league": "USA (College) - NCAA Men's March Madness",
+    "team1": {
+      "name": "Illinois Fighting Illini",
+      "logo": "https://img.sofascore.com/api/v1/team/34628/image"
+    },
+    "team2": {
+      "name": "Iowa Hawkeyes",
+      "logo": "https://img.sofascore.com/api/v1/team/86816/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "05:09",
+    "match_date": "2026-03-29",
+    "match_time": "05:09",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "NCAA Division I, National Championship 25/26",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "IllinoisFightingIllini-IowaHawkeyes",
+    "league": "USA (College) - NCAA Men's March Madness",
+    "team1": {
+      "name": "Illinois Fighting Illini",
+      "logo": "https://img.sofascore.com/api/v1/team/34628/image"
+    },
+    "team2": {
+      "name": "Iowa Hawkeyes",
+      "logo": "https://img.sofascore.com/api/v1/team/86816/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "05:09",
+    "match_date": "2026-03-29",
+    "match_time": "05:09",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "NCAA Division I, National Championship 25/26",
     "sport": "Basketball",
     "gender": "M",
     "duration": "3.5",
@@ -78446,6 +78521,56 @@
     "season": "National Womens Soccer League 2026",
     "sport": "Football",
     "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ArizonaWildcats-PurdueBoilermakers",
+    "league": "USA (College) - NCAA Men's March Madness",
+    "team1": {
+      "name": "Arizona Wildcats",
+      "logo": "https://img.sofascore.com/api/v1/team/34645/image"
+    },
+    "team2": {
+      "name": "Purdue Boilermakers",
+      "logo": "https://img.sofascore.com/api/v1/team/34606/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "07:49",
+    "match_date": "2026-03-29",
+    "match_time": "07:49",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "NCAA Division I, National Championship 25/26",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ArizonaWildcats-PurdueBoilermakers",
+    "league": "USA (College) - NCAA Men's March Madness",
+    "team1": {
+      "name": "Arizona Wildcats",
+      "logo": "https://img.sofascore.com/api/v1/team/34645/image"
+    },
+    "team2": {
+      "name": "Purdue Boilermakers",
+      "logo": "https://img.sofascore.com/api/v1/team/34606/image"
+    },
+    "kickoff_date": "2026-03-29",
+    "kickoff_time": "07:49",
+    "match_date": "2026-03-29",
+    "match_time": "07:49",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "NCAA Division I, National Championship 25/26",
+    "sport": "Basketball",
+    "gender": "M",
     "duration": "3.5",
     "servers": []
   },
