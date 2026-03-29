@@ -485,6 +485,10 @@
         "label": "CH-EN"
       },
       {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9ZRVNbVVNBXQ==",
+        "label": "CH-US"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9OQkNTQ2FsaWZvcm5pYVtVU0Fd",
         "label": "CH-US"
       },
@@ -1253,12 +1257,7 @@
     "match_date": "2026-03-28",
     "match_time": "19:50",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0UHJlbWllckxlYWd1ZVtTb3V0aEFmcmljYV0=",
-        "label": "CH-NA"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "ManUtdW-ManCityW",
@@ -2235,9 +2234,14 @@
     "match_date": "2026-03-29",
     "match_time": "18:55",
     "duration": "3.5",
-    "servers": [],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EQVpOMURldXRzY2hsYW5kW0dlcm1hbnld",
+        "label": "CH-NA"
+      }
+    ],
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "F"
   },
   {
@@ -2320,7 +2324,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -2359,7 +2363,12 @@
     "match_date": "2026-03-29",
     "match_time": "20:55",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EQVpOMURldXRzY2hsYW5kW0dlcm1hbnld",
+        "label": "CH-NA"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "F"
@@ -2665,7 +2674,12 @@
     "match_date": "2026-03-29",
     "match_time": "23:25",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EQVpOMURldXRzY2hsYW5kW0dlcm1hbnld",
+        "label": "CH-NA"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "F"
@@ -7372,8 +7386,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "4th quarter",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -7399,8 +7413,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "4th quarter",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -7426,8 +7440,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "4th quarter",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -9933,6 +9947,10 @@
     "match_time": "22:55",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EQVpOMURldXRzY2hsYW5kW0dlcm1hbnld",
+        "label": "CH-NA"
+      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TcG9ydDFbR2VybWFueV0=",
         "label": "CH-NA"
@@ -14345,7 +14363,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "Halftime",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -14394,8 +14412,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "postponed",
+    "status_desc": "Postponed",
     "gender": "M"
   },
   {
