@@ -230,29 +230,6 @@
     ]
   },
   {
-    "id": "CalgaryFlames-ColoradoAvalanche",
-    "league": "Hockey",
-    "team1": {
-      "name": "Calgary Flames",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png"
-    },
-    "team2": {
-      "name": "Colorado Avalanche",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png"
-    },
-    "kickoff_date": "2026-03-31",
-    "kickoff_time": "07:30",
-    "match_date": "2026-03-31",
-    "match_time": "07:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "MinnesotaTimberwolves-DallasMavericks",
     "league": "Basketball",
     "team1": {
@@ -271,6 +248,29 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY5LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "CalgaryFlames-ColoradoAvalanche",
+    "league": "Hockey",
+    "team1": {
+      "name": "Calgary Flames",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png"
+    },
+    "team2": {
+      "name": "Colorado Avalanche",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png"
+    },
+    "kickoff_date": "2026-03-31",
+    "kickoff_time": "07:30",
+    "match_date": "2026-03-31",
+    "match_time": "07:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
         "label": "CH-EN"
       }
     ]
@@ -1283,29 +1283,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "F1JapaneseGPRace",
-    "league": "Motor Sport",
-    "team1": {
-      "name": "F1 Japanese GP Race",
-      "logo": "data:image/png;base64,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"
-    },
-    "team2": {
-      "name": "",
-      "logo": "data:image/png;base64,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"
-    },
-    "kickoff_date": "2026-03-29",
-    "kickoff_time": "12:00",
-    "match_date": "2026-03-29",
-    "match_time": "12:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDQ5LnBocA==",
         "label": "CH-EN"
       }
     ]
