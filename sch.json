@@ -40,11 +40,11 @@
     "league": "World - Int. Friendly Games",
     "team1": {
       "name": "Germany",
-      "logo": "https://img.sofascore.com/api/v1/team/4711/image"
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/4711/image"
     },
     "team2": {
       "name": "Ghana",
-      "logo": "https://img.sofascore.com/api/v1/team/4764/image"
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/4764/image"
     },
     "kickoff_date": "2026-03-31",
     "kickoff_time": "01:45",
@@ -109,6 +109,10 @@
         "label": "CH-4"
       },
       {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9lbWJlZC5pbmZvYmV0cy50b3AvbWF0Y2gyL2dlcm1hbnktdnMtZ2hhbmEtQk1KUzNGVkM=",
+        "label": "CH-NA"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9GT1hTcG9ydHMxW1VTQV0=",
         "label": "CH-US"
       },
@@ -142,8 +146,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -1039,14 +1043,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=138",
-        "label": "CH-IT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=145",
-        "label": "CH-PT"
-      },
-      {
         "url": "https://multi.govoet.cc/?ss=hd5",
         "label": "CH-1"
       },
@@ -1145,8 +1141,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1208,7 +1204,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1239,7 +1235,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1270,7 +1266,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -2992,8 +2988,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "4th quarter",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -3043,8 +3039,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "2nd quarter",
     "gender": "M"
   },
   {
@@ -3070,8 +3066,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "2nd quarter",
     "gender": "F"
   },
   {
@@ -3097,8 +3093,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
     "gender": "F"
   },
   {
@@ -4373,8 +4369,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "Overtime",
+    "status": "finished",
+    "status_desc": "AET",
     "gender": "M"
   },
   {
@@ -6705,8 +6701,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -11486,10 +11482,6 @@
       {
         "url": "https://multi.govoet.cc/?envivo=164",
         "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9lbWJlZC5pbmZvYmV0cy50b3AvbWF0Y2gyL3J3YW5kYS12cy1lc3RvbmlhLUJNS1JIVExC",
-        "label": "CH-NA"
       }
     ]
   },
