@@ -1,387 +1,193 @@
 [
 
-     {
-    "id": "Germany-Ghana",
-    "league": "World - Int. Friendly Games",
+
+{
+    "id": "RayoVallecano-Elche",
+    "sport": "Football",
+    "league": "Spain - Laliga",
     "team1": {
-      "name": "Germany",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/4711/image"
+      "name": "Rayo Vallecano",
+      "logo": "https://static.flashscore.com/res/image/data/QyKcNfhT-EPWyZtpb.png"
     },
     "team2": {
-      "name": "Ghana",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/4764/image"
+      "name": "Elche",
+      "logo": "https://static.flashscore.com/res/image/data/EVxB82BN-YmCZKGcR.png"
     },
-    "kickoff_date": "2026-03-31",
-    "kickoff_time": "01:45",
-    "match_date": "2026-03-31",
-    "match_time": "01:45",
+    "kickoff_date": "2026-04-04",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-04",
+    "match_time": "02:00",
+    "duration": "3.5",
+    "servers": [
+          {
+        "url": "https://multi.govoet.cc/?shaka=bein2aus",
+        "label": "CH-EN"
+      },
+           {
+        "url": "https://multi.govoet.cc/?shaka=laliga",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "RealSociedad-Levante",
+    "sport": "Football",
+    "league": "Spain - Laliga",
+    "team1": {
+      "name": "Real Sociedad",
+      "logo": "https://static.flashscore.com/res/image/data/rcAkl5le-vJb36ZBF.png"
+    },
+    "team2": {
+      "name": "Levante",
+      "logo": "https://static.flashscore.com/res/image/data/0dmWDDBN-QqzX7amJ.png"
+    },
+    "kickoff_date": "2026-04-04",
+    "kickoff_time": "19:00",
+    "match_date": "2026-04-04",
+    "match_time": "19:00",
+    "duration": "3.5",
+    "servers": [
+         {
+        "url": "https://multi.govoet.cc/?shaka=bein2aus",
+        "label": "CH-EN"
+      },
+           {
+        "url": "https://multi.govoet.cc/?shaka=laliga",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Mallorca-RealMadrid",
+    "sport": "Football",
+    "league": "Spain - Laliga",
+    "team1": {
+      "name": "Mallorca",
+      "logo": "https://static.flashscore.com/res/image/data/WKsw8cne-rmDEjevK.png"
+    },
+    "team2": {
+      "name": "Real Madrid",
+      "logo": "https://static.flashscore.com/res/image/data/CGPhnpne-ttfpEDUq.png"
+    },
+    "kickoff_date": "2026-04-04",
+    "kickoff_time": "21:15",
+    "match_date": "2026-04-04",
+    "match_time": "21:15",
+    "duration": "3.5",
+    "servers": [
+         {
+        "url": "https://multi.govoet.cc/?shaka=bein2aus",
+        "label": "CH-EN"
+      },
+           {
+        "url": "https://multi.govoet.cc/?shaka=laliga",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "Betis-Espanyol",
+    "sport": "Football",
+    "league": "Spain - Laliga",
+    "team1": {
+      "name": "Betis",
+      "logo": "https://static.flashscore.com/res/image/data/YV7lpDU0-zkU5wiAr.png"
+    },
+    "team2": {
+      "name": "Espanyol",
+      "logo": "https://static.flashscore.com/res/image/data/QeCoIpXH-Msjm1Bq4.png"
+    },
+    "kickoff_date": "2026-04-04",
+    "kickoff_time": "23:30",
+    "match_date": "2026-04-04",
+    "match_time": "23:30",
+    "duration": "3.5",
+    "servers": [{
+        "url": "https://multi.govoet.cc/?shaka=bein2aus",
+        "label": "CH-EN"
+      },
+           {
+        "url": "https://multi.govoet.cc/?shaka=laliga",
+        "label": "CH-EN"
+      }]
+  },
+      {
+    "id": "ManchesterCity-Liverpool",
+    "league": "England - FA Cup",
+    "team1": {
+      "name": "Manchester City",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/17/image"
+    },
+    "team2": {
+      "name": "Liverpool",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/44/image"
+    },
+    "kickoff_date": "2026-04-04",
+    "kickoff_time": "18:45",
+    "match_date": "2026-04-04",
+    "match_time": "18:45",
 
     "duration": "3.5",
     "servers": [
-       {
-        "url": "https://multi.govoet.cc/?shaka=fox1us",
+          {
+        "url": "https://multi.govoet.cc/?shaka=tnt1",
         "label": "CH-EN"
       },
-       {
-        "url": "https://multi.govoet.cc/?shaka=virginm2",
-        "label": "CH-EN"
-      },
-       {
-        "url": "https://multi.govoet.cc/?jw=skycalcio",
-        "label": "CH-IT"
-      },
-       {
-        "url": "https://multi.govoet.cc/?shaka=sport1cz",
+          {
+        "url": "https://multi.govoet.cc/?shaka=nova2cz",
         "label": "CH-CZ"
       }
     ]
   },
-   {
-    "id": "Kosovo-Trkiye",
-    "sport": "Football",
-    "league": "Europe - World Cup Qual. Uefa Playoffs",
-    "team1": {
-      "name": "Kosovo",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/154426/image"
-    },
-    "team2": {
-      "name": "Turkey",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4700/image"
-    },
-    "kickoff_date": "2026-04-01",
-    "kickoff_time": "01:45",
-    "match_date": "2026-04-01",
-    "match_time": "01:40",
-    "duration": "3.5",
-    "servers": [
-      
       {
-        "url": "https://multi.govoet.cc/?shaka=fox2us",
-        "label": "CH-EN"
-      }
-    ]
-  },
-   {
-    "id": "Sweden-Poland",
-    "sport": "Football",
-    "league": "Europe - World Cup Qual. Uefa Playoffs",
+    "id": "Chelsea-PortVale",
+    "league": "England - FA Cup",
     "team1": {
-      "name": "Sweden",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4688/image"
+      "name": "Chelsea",
+      "logo": "https://img.sofascore.com/api/v1/team/38/image"
     },
     "team2": {
-      "name": "Poland",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4703/image"
+      "name": "Port Vale",
+      "logo": "https://img.sofascore.com/api/v1/team/55/image"
     },
-    "kickoff_date": "2026-04-01",
-    "kickoff_time": "01:45",
-    "match_date": "2026-04-01",
-    "match_time": "01:40",
-    "duration": "3.5",
-    "servers": [
-       {
-        "url": "https://multi.govoet.cc/?jw=ziggo2",
-        "label": "CH-NL"
-      }
-    ]
-  },
-   {
-    "id": "BosniaHerzegovina-Italy",
-    "sport": "Football",
-    "league": "Europe - World Cup Qual. Uefa Playoffs",
-    "team1": {
-      "name": "Bosnia and Herzegovina",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4479/image"
-    },
-    "team2": {
-      "name": "Italy",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4707/image"
-    },
-    "kickoff_date": "2026-04-01",
-    "kickoff_time": "01:45",
-    "match_date": "2026-04-01",
-    "match_time": "01:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?shaka=fox1us",
-        "label": "CH-EN"
-      },
-        {
-        "url": "https://multi.govoet.cc/?shaka=sportv",
-        "label": "CH-PT"
-      },
-        {
-        "url": "https://multi.govoet.cc/?shaka=sportvsd",
-        "label": "CH-PT"
-      }
-    ]
-  },
-    {
-    "id": "Czechia-Denmark",
-    "sport": "Football",
-    "league": "Europe - World Cup Qual. Uefa Playoffs",
-    "team1": {
-      "name": "Czechia",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4714/image"
-    },
-    "team2": {
-      "name": "Denmark",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4476/image"
-    },
-    "kickoff_date": "2026-04-01",
-    "kickoff_time": "01:45",
-    "match_date": "2026-04-01",
-    "match_time": "01:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?shaka=virginm2",
-        "label": "CH-EN"
-      }
-    ]
-  },
-   {
-    "id": "DRCongo-Jamaica",
-    "sport": "Football",
-    "league": "World - Fifa World Cup Qual, Inter-Confed. Playoffs",
-    "team1": {
-      "name": "DR Congo",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4823/image"
-    },
-    "team2": {
-      "name": "Jamaica",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4769/image"
-    },
-    "kickoff_date": "2026-04-01",
-    "kickoff_time": "04:00",
-    "match_date": "2026-04-01",
-    "match_time": "03:55",
-    "duration": "3.5",
-    "servers": [
-            {
-        "url": "https://multi.govoet.cc/?shaka=sportv",
-        "label": "CH-PT"
-      },
-             {
-        "url": "https://multi.govoet.cc/?shaka=fox1us",
-        "label": "CH-EN"
-      }
-    ]
-  },
-   {
-    "id": "Iraq-Bolivia",
-    "league": "World - FIFA World Cup Qual, Inter-Confed. Playoffs",
-    "team1": {
-      "name": "Iraq",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/4767/image"
-    },
-    "team2": {
-      "name": "Bolivia",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/4746/image"
-    },
-    "kickoff_date": "2026-04-01",
-    "kickoff_time": "10:00",
-    "match_date": "2026-04-01",
-    "match_time": "10:00",
- 
-    "duration": "3.5",
-    "servers": [
-         {
-        "url": "https://multi.govoet.cc/?shaka=sportv",
-        "label": "CH-PT"
-      },
-             {
-        "url": "https://multi.govoet.cc/?shaka=fox1us",
-        "label": "CH-EN"
-      }
-    ]
-  },
-   {
-    "id": "England-Japan",
-    "sport": "Football",
-    "league": "World - Int. Friendly Games",
-    "team1": {
-      "name": "England",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4713/image"
-    },
-    "team2": {
-      "name": "Japan",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4770/image"
-    },
-    "kickoff_date": "2026-04-01",
-    "kickoff_time": "01:45",
-    "match_date": "2026-04-01",
-    "match_time": "01:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?shaka=sportvsd2",
-        "label": "CH-PT"
-      },
-             {
-        "url": "https://multi.govoet.cc/?shaka=fox1us",
-        "label": "CH-EN"
-      }
-    ]
-  },
-   {
-    "id": "Spain-Egypt",
-    "sport": "Football",
-    "league": "World - Int. Friendly Games",
-    "team1": {
-      "name": "Spain",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4698/image"
-    },
-    "team2": {
-      "name": "Egypt",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4758/image"
-    },
-    "kickoff_date": "2026-04-01",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-01",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?shaka=sportv3",
-        "label": "CH-PT"
-      },
-       {
-        "url": "https://multi.govoet.cc/?shaka=tvela1",
-        "label": "CH-ES"
-      }
-    ]
-  },
-    {
-    "id": "Algeria-Uruguay",
-    "sport": "Football",
-    "league": "World - Int. Friendly Games",
-    "team1": {
-      "name": "Algeria",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4691/image"
-    },
-    "team2": {
-      "name": "Uruguay",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4725/image"
-    },
-    "kickoff_date": "2026-04-01",
-    "kickoff_time": "01:30",
-    "match_date": "2026-04-01",
-    "match_time": "01:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?shaka=fancode",
-        "label": "CH-EN"
-      }
-    ]
-  },
-   {
-    "id": "USA-Portugal",
-    "sport": "Football",
-    "league": "World - Int. Friendly Games",
-    "team1": {
-      "name": "USA",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4724/image"
-    },
-    "team2": {
-      "name": "Portugal",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4704/image"
-    },
-    "kickoff_date": "2026-04-01",
-    "kickoff_time": "06:00",
-    "match_date": "2026-04-01",
-    "match_time": "05:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?shaka=telemundo",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?shaka=universo",
-        "label": "CH-ES"
-      },
-         {
-        "url": "https://multi.govoet.cc/?tgoal=aHR0cHM6Ly9pZG4yNjcubWFyemExMi5zaG9wL2Zvb3RiYWxsLzI5NjY2OTMtdXNhLXZzLXBvcnR1Z2FsLmh0bWw=",
-        "label": "CH-ES"
-      }
-    ]
-  },
-   {
-    "id": "Argentina-Zambia",
-    "sport": "Football",
-    "league": "World - Int. Friendly Games",
-    "team1": {
-      "name": "Argentina",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4819/image"
-    },
-    "team2": {
-      "name": "Zambia",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4720/image"
-    },
-    "kickoff_date": "2026-04-01",
-    "kickoff_time": "06:15",
-    "match_date": "2026-04-01",
-    "match_time": "06:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?shaka=isra1",
-        "label": "CH-IS"
-      }
-    ]
-  },
-    {
-    "id": "Canada-Tunisia",
-    "sport": "Football",
-    "league": "World - Int. Friendly Games",
-    "team1": {
-      "name": "Canada",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4752/image"
-    },
-    "team2": {
-      "name": "Tunisia",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4729/image"
-    },
-    "kickoff_date": "2026-04-01",
-    "kickoff_time": "06:30",
-    "match_date": "2026-04-01",
-    "match_time": "06:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?shaka=fox2us",
-        "label": "CH-EN"
-      }
-    ]
-  },
-    {
-    "id": "Croatia-Brazil",
-    "league": "World - Int. Friendly Games",
-    "team1": {
-      "name": "Croatia",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/4715/image"
-    },
-    "team2": {
-      "name": "Brazil",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/4748/image"
-    },
-    "kickoff_date": "2026-04-01",
-    "kickoff_time": "07:00",
-    "match_date": "2026-04-01",
-    "match_time": "07:00",
+    "kickoff_date": "2026-04-04",
+    "kickoff_time": "23:15",
+    "match_date": "2026-04-04",
+    "match_time": "23:15",
 
     "duration": "3.5",
     "servers": [
-       {
-        "url": "https://multi.govoet.cc/?shaka=sportv",
-        "label": "CH-PT"
-      },
-       {
-        "url": "https://multi.govoet.cc/?shaka=fancode",
+             {
+        "url": "https://multi.govoet.cc/?shaka=tnt1",
         "label": "CH-EN"
+      },
+          {
+        "url": "https://multi.govoet.cc/?shaka=nova2cz",
+        "label": "CH-CZ"
+      }
+    ]
+  },
+       {
+    "id": "PSG-Toulouse",
+    "sport": "Football",
+    "league": "France - Ligue 1",
+    "team1": {
+      "name": "PSG",
+      "logo": "https://static.flashscore.com/res/image/data/fJgGn26k-A7UDDuOO.png"
+    },
+    "team2": {
+      "name": "Toulouse",
+      "logo": "https://static.flashscore.com/res/image/data/AskYUH8k-COxgbCEm.png"
+    },
+    "kickoff_date": "2026-04-04",
+    "kickoff_time": "01:45",
+    "match_date": "2026-04-04",
+    "match_time": "01:45",
+    "duration": "3.5",
+    "servers": [
+           {
+        "url": "https://multi.govoet.cc/?shaka=isra1",
+        "label": "CH-CZ"
       }
     ]
   }
