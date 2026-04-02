@@ -30,7 +30,7 @@ def setup_driver():
 def scrape_with_selenium():
     """Scrape Indonesia league matches using Selenium"""
     
-    base_url = "https://socolive6.cv/"
+    base_url = "https://socolive8.cv/"
     driver = None
     
     try:
