@@ -1089,9 +1089,9 @@
     "kickoff_time": "21:00",
     "match_date": "2026-04-02",
     "match_time": "21:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "50 - 60",
     "round": 7,
     "season": "2026",
     "sport": "Basketball",
@@ -5864,8 +5864,8 @@
     "kickoff_time": "12:50",
     "match_date": "2026-04-03",
     "match_time": "12:50",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "score": "0 - 2",
     "round": 22,
     "season": "A-League, Women 25/26",
@@ -5889,9 +5889,9 @@
     "kickoff_time": "13:00",
     "match_date": "2026-04-03",
     "match_time": "13:00",
-    "status": "inprogress",
-    "status_desc": "2nd quarter",
-    "score": "45 - 28",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "82 - 54",
     "round": 3,
     "season": "NBL1 Central, Women 2026",
     "sport": "Basketball",
@@ -5914,9 +5914,9 @@
     "kickoff_time": "14:00",
     "match_date": "2026-04-03",
     "match_time": "14:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Pause",
+    "score": "38 - 38",
     "round": "",
     "season": "25/26",
     "sport": "Basketball",
@@ -5939,9 +5939,9 @@
     "kickoff_time": "14:00",
     "match_date": "2026-04-03",
     "match_time": "14:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Halftime",
+    "score": "34 - 45",
     "round": "",
     "season": "25/26",
     "sport": "Basketball",
@@ -5964,9 +5964,9 @@
     "kickoff_time": "14:00",
     "match_date": "2026-04-03",
     "match_time": "14:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Halftime",
+    "score": "29 - 33",
     "round": "",
     "season": "25/26",
     "sport": "Basketball",
@@ -5989,9 +5989,9 @@
     "kickoff_time": "14:00",
     "match_date": "2026-04-03",
     "match_time": "14:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "19 - 21",
     "round": "",
     "season": "2026",
     "sport": "Basketball",
@@ -6014,9 +6014,9 @@
     "kickoff_time": "14:25",
     "match_date": "2026-04-03",
     "match_time": "14:25",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "16 - 11",
     "round": "",
     "season": "2026",
     "sport": "Basketball",
@@ -13075,6 +13075,31 @@
     "servers": []
   },
   {
+    "id": "AlArabiSA-AlDiriyah",
+    "league": "Saudi Arabia - Division 1",
+    "team1": {
+      "name": "Al Arabi (SA)",
+      "logo": "https://img.sofascore.com/api/v1/team/336458/image"
+    },
+    "team2": {
+      "name": "Al Diriyah",
+      "logo": "https://img.sofascore.com/api/v1/team/853574/image"
+    },
+    "kickoff_date": "2026-04-03",
+    "kickoff_time": "21:30",
+    "match_date": "2026-04-03",
+    "match_time": "21:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 27,
+    "season": "Division 1 25/26",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "GilVicente-AVSFutebolSAD",
     "league": "Portugal - Liga Portugal Betclic",
     "team1": {
@@ -13169,6 +13194,31 @@
     "score": "",
     "round": 27,
     "season": "1. Liga 25/26",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "AlArabiSA-AlDiriyah",
+    "league": "Saudi Arabia - Division 1",
+    "team1": {
+      "name": "Al Arabi (SA)",
+      "logo": "https://img.sofascore.com/api/v1/team/336458/image"
+    },
+    "team2": {
+      "name": "Al Diriyah",
+      "logo": "https://img.sofascore.com/api/v1/team/853574/image"
+    },
+    "kickoff_date": "2026-04-03",
+    "kickoff_time": "21:30",
+    "match_date": "2026-04-03",
+    "match_time": "21:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 27,
+    "season": "Division 1 25/26",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
@@ -15169,31 +15219,6 @@
     "score": "",
     "round": 7,
     "season": "TOPLYGA 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "AlArabiSA-AlDiriyah",
-    "league": "Saudi Arabia - Division 1",
-    "team1": {
-      "name": "Al Arabi (SA)",
-      "logo": "https://img.sofascore.com/api/v1/team/336458/image"
-    },
-    "team2": {
-      "name": "Al Diriyah",
-      "logo": "https://img.sofascore.com/api/v1/team/853574/image"
-    },
-    "kickoff_date": "2026-04-03",
-    "kickoff_time": "23:00",
-    "match_date": "2026-04-03",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 27,
-    "season": "Division 1 25/26",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
@@ -15619,31 +15644,6 @@
     "score": "",
     "round": 7,
     "season": "TOPLYGA 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "AlArabiSA-AlDiriyah",
-    "league": "Saudi Arabia - Division 1",
-    "team1": {
-      "name": "Al Arabi (SA)",
-      "logo": "https://img.sofascore.com/api/v1/team/336458/image"
-    },
-    "team2": {
-      "name": "Al Diriyah",
-      "logo": "https://img.sofascore.com/api/v1/team/853574/image"
-    },
-    "kickoff_date": "2026-04-03",
-    "kickoff_time": "23:00",
-    "match_date": "2026-04-03",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 27,
-    "season": "Division 1 25/26",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
@@ -22569,6 +22569,56 @@
     "score": "",
     "round": 24,
     "season": "B EKASTH 25/26",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ArisGlyfadas-FiliaPeramatos",
+    "league": "Greece Amateur - C ESKANA - Group 1",
+    "team1": {
+      "name": "Aris Glyfadas",
+      "logo": "https://img.sofascore.com/api/v1/team/309629/image"
+    },
+    "team2": {
+      "name": "Filia Peramatos",
+      "logo": "https://img.sofascore.com/api/v1/team/267842/image"
+    },
+    "kickoff_date": "2026-04-04",
+    "kickoff_time": "01:30",
+    "match_date": "2026-04-04",
+    "match_time": "01:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 22,
+    "season": "C ESKANA 25/26",
+    "sport": "Basketball",
+    "gender": "",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "PanneapolikosNikaias-TrachonesDiaAlimou",
+    "league": "Greece Amateur - C ESKANA - Group 2",
+    "team1": {
+      "name": "Panneapolikos Nikaias",
+      "logo": "https://img.sofascore.com/api/v1/team/301589/image"
+    },
+    "team2": {
+      "name": "Trachones Dia Alimou",
+      "logo": "https://img.sofascore.com/api/v1/team/460094/image"
+    },
+    "kickoff_date": "2026-04-04",
+    "kickoff_time": "01:30",
+    "match_date": "2026-04-04",
+    "match_time": "01:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 22,
+    "season": "C ESKANA 25/26",
     "sport": "Basketball",
     "gender": "M",
     "duration": "3.5",
@@ -23644,6 +23694,56 @@
     "score": "",
     "round": 24,
     "season": "B EKASTH 25/26",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ArisGlyfadas-FiliaPeramatos",
+    "league": "Greece Amateur - C ESKANA - Group 1",
+    "team1": {
+      "name": "Aris Glyfadas",
+      "logo": "https://img.sofascore.com/api/v1/team/309629/image"
+    },
+    "team2": {
+      "name": "Filia Peramatos",
+      "logo": "https://img.sofascore.com/api/v1/team/267842/image"
+    },
+    "kickoff_date": "2026-04-04",
+    "kickoff_time": "01:30",
+    "match_date": "2026-04-04",
+    "match_time": "01:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 22,
+    "season": "C ESKANA 25/26",
+    "sport": "Basketball",
+    "gender": "",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "PanneapolikosNikaias-TrachonesDiaAlimou",
+    "league": "Greece Amateur - C ESKANA - Group 2",
+    "team1": {
+      "name": "Panneapolikos Nikaias",
+      "logo": "https://img.sofascore.com/api/v1/team/301589/image"
+    },
+    "team2": {
+      "name": "Trachones Dia Alimou",
+      "logo": "https://img.sofascore.com/api/v1/team/460094/image"
+    },
+    "kickoff_date": "2026-04-04",
+    "kickoff_time": "01:30",
+    "match_date": "2026-04-04",
+    "match_time": "01:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 22,
+    "season": "C ESKANA 25/26",
     "sport": "Basketball",
     "gender": "M",
     "duration": "3.5",
@@ -47650,10 +47750,10 @@
     "servers": []
   },
   {
-    "id": "R10ScoreVascodaGama-MinasTnisClube",
+    "id": "VascodaGama-MinasTnisClube",
     "league": "Brazil - Brazil NBB",
     "team1": {
-      "name": "R10 Score Vasco da Gama",
+      "name": "Vasco da Gama",
       "logo": "https://img.sofascore.com/api/v1/team/232741/image"
     },
     "team2": {
@@ -48775,10 +48875,10 @@
     "servers": []
   },
   {
-    "id": "R10ScoreVascodaGama-MinasTnisClube",
+    "id": "VascodaGama-MinasTnisClube",
     "league": "Brazil - Brazil NBB",
     "team1": {
-      "name": "R10 Score Vasco da Gama",
+      "name": "Vasco da Gama",
       "logo": "https://img.sofascore.com/api/v1/team/232741/image"
     },
     "team2": {
