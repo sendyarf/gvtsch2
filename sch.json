@@ -1517,8 +1517,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2826,10 +2826,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=148",
-        "label": "CH-GR"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVByZW1pdW0yW1NlcmJpYV0=",
         "label": "CH-NA"
       },
@@ -2900,8 +2896,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2948,7 +2944,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "Halftime",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -3029,8 +3025,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -3060,33 +3056,9 @@
         "label": "CH-ES"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
-  },
-  {
-    "id": "Coritiba-AtleticoMG",
-    "sport": "Football",
-    "league": "Brazil - Brasileiro - Serie A",
-    "team1": {
-      "name": "Coritiba",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1982/image"
-    },
-    "team2": {
-      "name": "Atletico MG",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-20",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-20",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTgzODQwNA==",
-        "label": "CH-NA"
-      }
-    ]
   },
   {
     "id": "RiverPlate-BocaJuniors",
@@ -3164,7 +3136,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -3190,33 +3162,6 @@
         "label": "CH-NA"
       }
     ]
-  },
-  {
-    "id": "GalatasarayW-FenerbahceW",
-    "sport": "Basketball",
-    "league": "International - Euroleague Women, Playoffs",
-    "team1": {
-      "name": "Galatasaray (W)",
-      "logo": "https://img.sofascore.com/api/v1/team/80829/image"
-    },
-    "team2": {
-      "name": "Fenerbahce (W)",
-      "logo": "https://img.sofascore.com/api/v1/team/80837/image"
-    },
-    "kickoff_date": "2026-04-20",
-    "kickoff_time": "01:00",
-    "match_date": "2026-04-20",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjc2MzQ2NA==",
-        "label": "CH-NA"
-      }
-    ],
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "F"
   },
   {
     "id": "Partizan-CrvenaZvezda",
@@ -3352,6 +3297,80 @@
         "label": "CH-NA"
       }
     ],
+    "status": "inprogress",
+    "status_desc": "1st quarter",
+    "gender": "M"
+  },
+  {
+    "id": "GalatasarayW-FenerbahceW",
+    "sport": "Basketball",
+    "league": "International - Euroleague Women, Playoffs",
+    "team1": {
+      "name": "Galatasaray (W)",
+      "logo": "https://img.sofascore.com/api/v1/team/80829/image"
+    },
+    "team2": {
+      "name": "Fenerbahce (W)",
+      "logo": "https://img.sofascore.com/api/v1/team/80837/image"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "01:00",
+    "match_date": "2026-04-20",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjc2MzQ2NA==",
+        "label": "CH-NA"
+      }
+    ],
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "F"
+  },
+  {
+    "id": "SantosLaguna-AtlasFC",
+    "sport": "Football",
+    "league": "Mexico - Liga Mx, Clausura",
+    "team1": {
+      "name": "Santos Laguna",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1948/image"
+    },
+    "team2": {
+      "name": "Atlas FC",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1949/image"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "06:00",
+    "match_date": "2026-04-20",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=68",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=97",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=187",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UVUROW01leGljb10=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU2MDMyNg==",
+        "label": "CH-NA"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -3401,53 +3420,6 @@
     ],
     "status": "finished",
     "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "SantosLaguna-AtlasFC",
-    "sport": "Football",
-    "league": "Mexico - Liga Mx, Clausura",
-    "team1": {
-      "name": "Santos Laguna",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1948/image"
-    },
-    "team2": {
-      "name": "Atlas FC",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1949/image"
-    },
-    "kickoff_date": "2026-04-20",
-    "kickoff_time": "06:00",
-    "match_date": "2026-04-20",
-    "match_time": "05:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=68",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=97",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=187",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UVUROW01leGljb10=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU2MDMyNg==",
-        "label": "CH-NA"
-      }
-    ],
-    "status": "notstarted",
-    "status_desc": "Not started",
     "gender": "M"
   },
   {
@@ -3697,6 +3669,42 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjc4ODc0NQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "ColoradoRockies-LosAngelesDodgers",
+    "sport": "Baseball",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Colorado Rockies",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3628/image"
+    },
+    "team2": {
+      "name": "Los Angeles Dodgers",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3638/image"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "02:10",
+    "match_date": "2026-04-20",
+    "match_time": "02:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=181",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIzLnBocA==",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Db2xvcmFkbyBSb2NraWVz",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBEb2RnZXJz",
         "label": "CH-NA"
       }
     ]
@@ -3966,10 +3974,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=177",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIxLnBocA==",
         "label": "CH-EN"
       },
@@ -4001,10 +4005,6 @@
     "match_time": "01:05",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=178",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIwLnBocA==",
         "label": "CH-EN"
@@ -4056,42 +4056,6 @@
     ]
   },
   {
-    "id": "ColoradoRockies-LosAngelesDodgers",
-    "sport": "Baseball",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Colorado Rockies",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3628/image"
-    },
-    "team2": {
-      "name": "Los Angeles Dodgers",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3638/image"
-    },
-    "kickoff_date": "2026-04-20",
-    "kickoff_time": "02:10",
-    "match_date": "2026-04-20",
-    "match_time": "02:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=181",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIzLnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Db2xvcmFkbyBSb2NraWVz",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBEb2RnZXJz",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
     "id": "Athletics-ChicagoWhiteSox",
     "sport": "Baseball",
     "league": "USA - MLB",
@@ -4123,42 +4087,6 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9PYWtsYW5kIEF0aGxldGljcw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "LosAngelesAngels-SanDiegoPadres",
-    "sport": "Baseball",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Los Angeles Angels",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5929/image"
-    },
-    "team2": {
-      "name": "San Diego Padres",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3636/image"
-    },
-    "kickoff_date": "2026-04-20",
-    "kickoff_time": "03:07",
-    "match_date": "2026-04-20",
-    "match_time": "03:02",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=183",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI1LnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBBbmdlbHM=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TYW4gRGllZ28gUGFkcmVz",
         "label": "CH-NA"
       }
     ]
@@ -4580,11 +4508,11 @@
     ]
   },
   {
-    "id": "WWEWrestleMania42",
+    "id": "WWEWrestleMania42CHHD",
     "sport": "Wrestling",
     "league": "Wwe Wrestling",
     "team1": {
-      "name": "WWE WrestleMania 42",
+      "name": "WWE WrestleMania 42 --- CH HD",
       "logo": null
     },
     "team2": {
@@ -4598,11 +4526,11 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2M4NmU4NTU1",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2U1OWQzM2Ix",
         "label": "CH-NA"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2U1OWQzM2Ix",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2M4NmU4NTU1",
         "label": "CH-NA"
       }
     ]
@@ -5003,88 +4931,31 @@
     ]
   },
   {
-    "id": "AlAhliDoha-AlHussein",
+    "id": "PortoVelho-Araguaina",
     "sport": "Football",
-    "league": "Afc Champions League 2",
+    "league": "Brazil - Brasileirão Série D, Group A2",
     "team1": {
-      "name": "Al Ahli Doha",
-      "logo": "https://img2.sport-tv-guide.live/images/team-alahlidoha-6574.png"
+      "name": "Porto Velho",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
     },
     "team2": {
-      "name": "Al Hussein",
+      "name": "Araguaina",
       "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
     },
     "kickoff_date": "2026-04-20",
-    "kickoff_time": "01:50",
+    "kickoff_time": "03:45",
     "match_date": "2026-04-20",
-    "match_time": "01:45",
+    "match_time": "03:40",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltOZXRoZXJsYW5kc10=",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9aaWdnb1Nwb3J0W05ldGhlcmxhbmRzXQ==",
         "label": "CH-NA"
       }
-    ]
-  },
-  {
-    "id": "OlympiquedeSafi-USMAlger",
-    "sport": "Football",
-    "league": "Caf Confederations Cup",
-    "team1": {
-      "name": "Olympique de Safi",
-      "logo": "https://img2.sport-tv-guide.live/images/team-olympiquedesafi-7996.png"
-    },
-    "team2": {
-      "name": "USM Alger",
-      "logo": "https://img2.sport-tv-guide.live/images/team-usmalger-4172.png"
-    },
-    "kickoff_date": "2026-04-20",
-    "kickoff_time": "01:50",
-    "match_date": "2026-04-20",
-    "match_time": "01:45",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=7",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EQVpOMkRldXRzY2hsYW5kW0dlcm1hbnld",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzFiZTFkMjk2",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "CSUCraiova-FCRapidBucuresti",
-    "sport": "Football",
-    "league": "Liga 1 Betano",
-    "team1": {
-      "name": "CS U. Craiova",
-      "logo": "https://img2.sport-tv-guide.live/images/team-csucraiova-5155.png"
-    },
-    "team2": {
-      "name": "FC Rapid Bucuresti",
-      "logo": "https://img2.sport-tv-guide.live/images/team-fcrapidbucuresti-13191.png"
-    },
-    "kickoff_date": "2026-04-20",
-    "kickoff_time": "00:30",
-    "match_date": "2026-04-20",
-    "match_time": "00:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EaWdpU3BvcnQxW1JvbWFuaWFd",
-        "label": "CH-NA"
-      }
-    ]
+    ],
+    "status": "inprogress",
+    "status_desc": "2nd half",
+    "gender": "M"
   },
   {
     "id": "Braunschweig-HerthaBerlin",
@@ -5473,6 +5344,30 @@
     ]
   },
   {
+    "id": "CSUCraiova-FCRapidBucuresti",
+    "sport": "Football",
+    "league": "Liga 1 Betano",
+    "team1": {
+      "name": "CS U. Craiova",
+      "logo": "https://img2.sport-tv-guide.live/images/team-csucraiova-5155.png"
+    },
+    "team2": {
+      "name": "FC Rapid Bucuresti",
+      "logo": "https://img2.sport-tv-guide.live/images/team-fcrapidbucuresti-13191.png"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "00:30",
+    "match_date": "2026-04-20",
+    "match_time": "00:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EaWdpU3BvcnQxW1JvbWFuaWFd",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "SupraduQuebec-AtlOttawa",
     "sport": "Football",
     "league": "Canadian Premier League",
@@ -5492,31 +5387,64 @@
     "servers": []
   },
   {
-    "id": "PortoVelho-Araguaina",
+    "id": "AlAhliDoha-AlHussein",
     "sport": "Football",
-    "league": "Brazil - Brasileirão Série D, Group A2",
+    "league": "Afc Champions League 2",
     "team1": {
-      "name": "Porto Velho",
-      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
+      "name": "Al Ahli Doha",
+      "logo": "https://img2.sport-tv-guide.live/images/team-alahlidoha-6574.png"
     },
     "team2": {
-      "name": "Araguaina",
+      "name": "Al Hussein",
       "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
     },
     "kickoff_date": "2026-04-20",
-    "kickoff_time": "03:45",
+    "kickoff_time": "01:50",
     "match_date": "2026-04-20",
-    "match_time": "03:40",
+    "match_time": "01:45",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9aaWdnb1Nwb3J0W05ldGhlcmxhbmRzXQ==",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltOZXRoZXJsYW5kc10=",
         "label": "CH-NA"
       }
-    ],
-    "status": "inprogress",
-    "status_desc": "1st half",
-    "gender": "M"
+    ]
+  },
+  {
+    "id": "OlympiquedeSafi-USMAlger",
+    "sport": "Football",
+    "league": "Caf Confederations Cup",
+    "team1": {
+      "name": "Olympique de Safi",
+      "logo": "https://img2.sport-tv-guide.live/images/team-olympiquedesafi-7996.png"
+    },
+    "team2": {
+      "name": "USM Alger",
+      "logo": "https://img2.sport-tv-guide.live/images/team-usmalger-4172.png"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "01:50",
+    "match_date": "2026-04-20",
+    "match_time": "01:45",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=7",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EQVpOMkRldXRzY2hsYW5kW0dlcm1hbnld",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzFiZTFkMjk2",
+        "label": "CH-NA"
+      }
+    ]
   },
   {
     "id": "VegasGoldenKnights-UtahMammoth",
@@ -6629,8 +6557,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -8332,6 +8260,42 @@
     ]
   },
   {
+    "id": "LosAngelesAngels-SanDiegoPadres",
+    "sport": "Baseball",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Los Angeles Angels",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5929/image"
+    },
+    "team2": {
+      "name": "San Diego Padres",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3636/image"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "03:07",
+    "match_date": "2026-04-20",
+    "match_time": "03:02",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=183",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI1LnBocA==",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBBbmdlbHM=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TYW4gRGllZ28gUGFkcmVz",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "BostonRedSox-DetroitTigers",
     "sport": "Baseball",
     "league": "USA - MLB",
@@ -8859,354 +8823,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNNaXhbVUtd",
         "label": "CH-UK"
-      }
-    ]
-  },
-  {
-    "id": "IvetaDapkute-MiaWainwright",
-    "sport": "Tennis",
-    "league": "Itf (W) - Roehampton (Mbr) - Qualifiers",
-    "team1": {
-      "name": "Iveta Dapkute",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/300935/image"
-    },
-    "team2": {
-      "name": "Mia Wainwright",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/460272/image"
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "21:14",
-    "match_date": "2026-04-19",
-    "match_time": "21:09",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjc3ODU1Mw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Kristiansund-Fredrikstad",
-    "sport": "Football",
-    "league": "Norway - Eliteserien",
-    "team1": {
-      "name": "Kristiansund",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/957/image"
-    },
-    "team2": {
-      "name": "Fredrikstad",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/687/image"
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-19",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTc0MTAwNg==",
-        "label": "CH-NA"
-      }
-    ],
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Sarpsborg08-Tromso",
-    "sport": "Football",
-    "league": "Norway - Eliteserien",
-    "team1": {
-      "name": "Sarpsborg 08",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/822/image"
-    },
-    "team2": {
-      "name": "Tromso",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-19",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTc0MTAwNw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Istres-Nimes",
-    "sport": "Handball",
-    "league": "French - Starligue",
-    "team1": {
-      "name": "Istres",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/6605/image"
-    },
-    "team2": {
-      "name": "Nimes",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1125082/image"
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-19",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjI2OTM3NQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "PogonGrodziskMazowiecki-PogonSiedlce",
-    "sport": "Football",
-    "league": "Poland - I Liga",
-    "team1": {
-      "name": "Pogon Grodzisk Mazowiecki",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/202427/image"
-    },
-    "team2": {
-      "name": "Pogon Siedlce",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/162252/image"
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-19",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM5OTc1Nw==",
-        "label": "CH-NA"
-      }
-    ],
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "TalosRuvodiPuglia-JuViCremona",
-    "sport": "Basketball",
-    "league": "Italy - Serie A2",
-    "team1": {
-      "name": "Talos Ruvo di Puglia",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/331101/image"
-    },
-    "team2": {
-      "name": "JuVi Cremona",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/331089/image"
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-19",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTQ4Nw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Sassari-Venezia",
-    "sport": "Basketball",
-    "league": "Italy - Serie A",
-    "team1": {
-      "name": "Sassari",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/24502/image"
-    },
-    "team2": {
-      "name": "Venezia",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/24510/image"
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-19",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTQ4OQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Egersund-Bryne",
-    "sport": "Football",
-    "league": "Norway - 1St Division",
-    "team1": {
-      "name": "Egersund",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/920/image"
-    },
-    "team2": {
-      "name": "Bryne",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/663/image"
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-19",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTY3OA==",
-        "label": "CH-NA"
-      }
-    ],
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "OddBK-Stabaek",
-    "sport": "Football",
-    "league": "Norway - 1.Division",
-    "team1": {
-      "name": "Odd BK",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/659/image"
-    },
-    "team2": {
-      "name": "Stabaek",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-19",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTY3OQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Asane-Strommen",
-    "sport": "Football",
-    "league": "Norway - 1St Division",
-    "team1": {
-      "name": "Asane",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/505358/image"
-    },
-    "team2": {
-      "name": "Strommen",
-      "logo": "https://img.sofascore.com/api/v1/team/885/image"
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-19",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTY4MA==",
-        "label": "CH-NA"
-      }
-    ],
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "AcademicPlovdiv-RilskiSportist",
-    "sport": "Basketball",
-    "league": "Bulgaria - Nbl",
-    "team1": {
-      "name": "Academic Plovdiv",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/207561/image"
-    },
-    "team2": {
-      "name": "Rilski Sportist",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/110323/image"
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-19",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTY5NQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "HC19Humenne-DuklaTrencin",
-    "sport": "Ice Hockey",
-    "league": "Slovakia - Extraleague - Baraj",
-    "team1": {
-      "name": "HC 19 Humenne",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Dukla Trencin",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-19",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTc0NQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "UBTCluj-BuducnostPodgorica",
-    "sport": "Basketball",
-    "league": "Aba League - Top 8",
-    "team1": {
-      "name": "U BT Cluj",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Buducnost Podgorica",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/26303/image"
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-19",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTkyMA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "DynamoPardubice-OcelariTrinec",
-    "sport": "Ice Hockey",
-    "league": "Czech - Extraleague - Playoff",
-    "team1": {
-      "name": "Dynamo Pardubice",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Ocelari Trinec",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-19",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjczMDUxNA==",
-        "label": "CH-NA"
       }
     ]
   },
@@ -10388,10 +10004,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=158",
-        "label": "CH-ES"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjQ5MTQzNQ==",
         "label": "CH-NA"
       }
@@ -10542,10 +10154,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=86",
-        "label": "CH-ES"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU3MzExOQ==",
         "label": "CH-NA"
       }
@@ -10651,6 +10259,30 @@
     ]
   },
   {
+    "id": "Coritiba-AtleticoMG",
+    "sport": "Football",
+    "league": "Brazil - Brasileiro - Serie A",
+    "team1": {
+      "name": "Coritiba",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1982/image"
+    },
+    "team2": {
+      "name": "Atletico MG",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-20",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTgzODQwNA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "BotafogoSP-AtleticoGO",
     "sport": "Football",
     "league": "Brazil - Brasileiro - Serie B",
@@ -10697,8 +10329,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -10732,8 +10364,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -10880,7 +10512,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "Halftime",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -10907,7 +10539,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -10934,7 +10566,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -10961,7 +10593,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -11069,25 +10701,25 @@
     ]
   },
   {
-    "id": "AlanMagadan-BrunoKuzuhara",
-    "sport": "Tennis",
-    "league": "Challenger - Savannah (Usa) - Qualifiers",
+    "id": "SVLeoVictor-SVBroki",
+    "sport": "Football",
+    "league": "Suriname - Major League",
     "team1": {
-      "name": "Alan Magadan",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/272535/image"
+      "name": "SV Leo Victor",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/410517/image"
     },
     "team2": {
-      "name": "Bruno Kuzuhara",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/328075/image"
+      "name": "SV Broki",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/410516/image"
     },
     "kickoff_date": "2026-04-20",
-    "kickoff_time": "03:00",
+    "kickoff_time": "03:30",
     "match_date": "2026-04-20",
-    "match_time": "02:55",
-    "duration": "2.33",
+    "match_time": "03:25",
+    "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjc3OTM3OQ==",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjc4MzcwOQ==",
         "label": "CH-NA"
       }
     ]
@@ -11119,8 +10751,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -11146,8 +10778,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -11173,8 +10805,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -11200,9 +10832,33 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
+  },
+  {
+    "id": "AlanMagadan-BrunoKuzuhara",
+    "sport": "Tennis",
+    "league": "Challenger - Savannah (Usa) - Qualifiers",
+    "team1": {
+      "name": "Alan Magadan",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/272535/image"
+    },
+    "team2": {
+      "name": "Bruno Kuzuhara",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/328075/image"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "04:10",
+    "match_date": "2026-04-20",
+    "match_time": "04:05",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjc3OTM3OQ==",
+        "label": "CH-NA"
+      }
+    ]
   },
   {
     "id": "AlianzaValledupar-IndependienteMedellin",
@@ -11231,8 +10887,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -12369,54 +12025,6 @@
     ]
   },
   {
-    "id": "KahrabaaIsmailia-GhazlElMahallah",
-    "sport": "Football",
-    "league": "Egypt Premier League",
-    "team1": {
-      "name": "Kahrabaa Ismailia",
-      "logo": null
-    },
-    "team2": {
-      "name": "Ghazl El Mahallah",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/58319/image"
-    },
-    "kickoff_date": "2026-04-20",
-    "kickoff_time": "01:00",
-    "match_date": "2026-04-20",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzlmMTEzY2Zk",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "ModernSport-ZED",
-    "sport": "Football",
-    "league": "Egypt Premier League",
-    "team1": {
-      "name": "Modern Sport",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/265830/image"
-    },
-    "team2": {
-      "name": "ZED",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/373168/image"
-    },
-    "kickoff_date": "2026-04-20",
-    "kickoff_time": "01:00",
-    "match_date": "2026-04-20",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzRlY2QxYmQw",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
     "id": "DartsEuropeanTour5",
     "sport": "Darts",
     "league": "Darts",
@@ -12532,6 +12140,402 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2IxZmE1ZTMw",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Kristiansund-Fredrikstad",
+    "sport": "Football",
+    "league": "Norway - Eliteserien",
+    "team1": {
+      "name": "Kristiansund",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/957/image"
+    },
+    "team2": {
+      "name": "Fredrikstad",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/687/image"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-19",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTc0MTAwNg==",
+        "label": "CH-NA"
+      }
+    ],
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
+  },
+  {
+    "id": "Sarpsborg08-Tromso",
+    "sport": "Football",
+    "league": "Norway - Eliteserien",
+    "team1": {
+      "name": "Sarpsborg 08",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/822/image"
+    },
+    "team2": {
+      "name": "Tromso",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-19",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTc0MTAwNw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Istres-Nimes",
+    "sport": "Handball",
+    "league": "French - Starligue",
+    "team1": {
+      "name": "Istres",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/6605/image"
+    },
+    "team2": {
+      "name": "Nimes",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1125082/image"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-19",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjI2OTM3NQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "PogonGrodziskMazowiecki-PogonSiedlce",
+    "sport": "Football",
+    "league": "Poland - I Liga",
+    "team1": {
+      "name": "Pogon Grodzisk Mazowiecki",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/202427/image"
+    },
+    "team2": {
+      "name": "Pogon Siedlce",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/162252/image"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-19",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM5OTc1Nw==",
+        "label": "CH-NA"
+      }
+    ],
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
+  },
+  {
+    "id": "TalosRuvodiPuglia-JuViCremona",
+    "sport": "Basketball",
+    "league": "Italy - Serie A2",
+    "team1": {
+      "name": "Talos Ruvo di Puglia",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/331101/image"
+    },
+    "team2": {
+      "name": "JuVi Cremona",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/331089/image"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-19",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTQ4Nw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Sassari-Venezia",
+    "sport": "Basketball",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Sassari",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/24502/image"
+    },
+    "team2": {
+      "name": "Venezia",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/24510/image"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-19",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTQ4OQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Egersund-Bryne",
+    "sport": "Football",
+    "league": "Norway - 1St Division",
+    "team1": {
+      "name": "Egersund",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/920/image"
+    },
+    "team2": {
+      "name": "Bryne",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/663/image"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-19",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTY3OA==",
+        "label": "CH-NA"
+      }
+    ],
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
+  },
+  {
+    "id": "OddBK-Stabaek",
+    "sport": "Football",
+    "league": "Norway - 1.Division",
+    "team1": {
+      "name": "Odd BK",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/659/image"
+    },
+    "team2": {
+      "name": "Stabaek",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-19",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTY3OQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Asane-Strommen",
+    "sport": "Football",
+    "league": "Norway - 1St Division",
+    "team1": {
+      "name": "Asane",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/505358/image"
+    },
+    "team2": {
+      "name": "Strommen",
+      "logo": "https://img.sofascore.com/api/v1/team/885/image"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-19",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTY4MA==",
+        "label": "CH-NA"
+      }
+    ],
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
+  },
+  {
+    "id": "AcademicPlovdiv-RilskiSportist",
+    "sport": "Basketball",
+    "league": "Bulgaria - Nbl",
+    "team1": {
+      "name": "Academic Plovdiv",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/207561/image"
+    },
+    "team2": {
+      "name": "Rilski Sportist",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/110323/image"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-19",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTY5NQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "HC19Humenne-DuklaTrencin",
+    "sport": "Ice Hockey",
+    "league": "Slovakia - Extraleague - Baraj",
+    "team1": {
+      "name": "HC 19 Humenne",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Dukla Trencin",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-19",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTc0NQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "UBTCluj-BuducnostPodgorica",
+    "sport": "Basketball",
+    "league": "Aba League - Top 8",
+    "team1": {
+      "name": "U BT Cluj",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Buducnost Podgorica",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/26303/image"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-19",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjU1OTkyMA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "DynamoPardubice-OcelariTrinec",
+    "sport": "Ice Hockey",
+    "league": "Czech - Extraleague - Playoff",
+    "team1": {
+      "name": "Dynamo Pardubice",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Ocelari Trinec",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-19",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjczMDUxNA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "IvetaDapkute-MiaWainwright",
+    "sport": "Tennis",
+    "league": "Itf (W) - Roehampton (Mbr) - Qualifiers",
+    "team1": {
+      "name": "Iveta Dapkute",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/300935/image"
+    },
+    "team2": {
+      "name": "Mia Wainwright",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/460272/image"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "21:14",
+    "match_date": "2026-04-19",
+    "match_time": "21:09",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjc3ODU1Mw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "KahrabaaIsmailia-GhazlElMahallah",
+    "sport": "Football",
+    "league": "Egypt Premier League",
+    "team1": {
+      "name": "Kahrabaa Ismailia",
+      "logo": null
+    },
+    "team2": {
+      "name": "Ghazl El Mahallah",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/58319/image"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "01:00",
+    "match_date": "2026-04-20",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzlmMTEzY2Zk",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "ModernSport-ZED",
+    "sport": "Football",
+    "league": "Egypt Premier League",
+    "team1": {
+      "name": "Modern Sport",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/265830/image"
+    },
+    "team2": {
+      "name": "ZED",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/373168/image"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "01:00",
+    "match_date": "2026-04-20",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzRlY2QxYmQw",
         "label": "CH-NA"
       }
     ]
@@ -15050,6 +15054,30 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjczOTM0MQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "AlanMagadan-BrunoKuzuhara",
+    "sport": "Tennis",
+    "league": "Savannah, Usa, Qualifying",
+    "team1": {
+      "name": "Alan Magadan",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/272535/image"
+    },
+    "team2": {
+      "name": "Bruno Kuzuhara",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/328075/image"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "01:00",
+    "match_date": "2026-04-20",
+    "match_time": "00:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjc3OTM3OQ==",
         "label": "CH-NA"
       }
     ]
@@ -38315,32 +38343,5 @@
         "label": "CH-EN"
       }
     ]
-  },
-  {
-    "id": "Philadelphia76ers-BostonCeltics",
-    "league": "Usa - Nba, Playoffs",
-    "team1": {
-      "name": "Philadelphia 76ers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png"
-    },
-    "team2": {
-      "name": "Boston Celtics",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png"
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-04-19",
-    "match_time": "22:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Basketball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
   }
 ]
