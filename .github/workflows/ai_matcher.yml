@@ -2,7 +2,7 @@ name: Run AI Name Matcher
 
 on:
   schedule:
-    - cron: "0 0,12 * * *" # Runs at 00:00 and 12:00 UTC (twice a day)
+    - cron: "0 * * * *" # Runs every hour
   workflow_dispatch: # Allows manual trigger
 
 jobs:
