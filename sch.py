@@ -621,7 +621,7 @@ def main():
     # ============================================
     # PHASE 3.5: AI Name Matching
     # ============================================
-    if AI_MATCHER_AVAILABLE:
+    if AI_MATCHER_AVAILABLE and os.environ.get("RUN_AI_MATCHER") == "true":
         print("\n" + "=" * 50)
         try:
             team_res, league_res = run_ai_matcher(dry_run=False)
@@ -634,7 +634,7 @@ def main():
             print(f"⚠️  AI Matcher error (non-fatal): {e}")
         print("=" * 50)
     else:
-        print("\n⚠️  AI Matcher not available (ai_matcher.py not found). Skipping AI resolution.")
+        print("\nℹ️  AI Matcher skipped (RUN_AI_MATCHER=true not set).")
 
     # ============================================
     # PHASE 4: Apply Manual Mapping for Display

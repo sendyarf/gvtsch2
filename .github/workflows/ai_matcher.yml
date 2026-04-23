@@ -1,12 +1,12 @@
-name: Run Schedule Merger (SCH)
+name: Run AI Name Matcher
 
 on:
   schedule:
-    - cron: "*/15 * * * *" # Every 1 hour
-  workflow_dispatch:
+    - cron: "0 0,12 * * *" # Runs at 00:00 and 12:00 UTC (twice a day)
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
-  merge:
+  ai_match:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,14 +23,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Schedule Merger
-        run: python sch.py
+      - name: Run AI Matcher
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python ai_matcher.py
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add sch.json
-          git commit -m "Update sch.json" || exit 0
+          git add manual_mapping.json ai_mapping_cache.json
+          git commit -m "Auto-update AI match mapping cache" || exit 0
           git pull --rebase origin main
           git push origin main
