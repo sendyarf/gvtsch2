@@ -2,6 +2,9 @@
   "_comment": "Manual Mapping Configuration - Flashscore Style (Simplified)",
   "_usage": "Map semua variant tim/liga langsung ke display name. Tidak perlu canonical name lagi!",
   "team_names": {
+    "AaB": [
+      "Aarhus"
+    ],
     "Abu Dhabi GP Free Practice 3": [
       "GP Abu Dhabi Essais libres 3"
     ],
@@ -179,6 +182,9 @@
     "Betis": [
       "betis"
     ],
+    "Bhayangkara FC": [
+      "FC Bhayangkara"
+    ],
     "Birmingham": [
       "birmingham"
     ],
@@ -320,6 +326,12 @@
     "Chile": [
       "Chili"
     ],
+    "Chivas Guadalajara": [
+      "Guadalajara Chivas"
+    ],
+    "Ciudad Real": [
+      "Caserio Ciudad Real"
+    ],
     "Clermont": [
       "clermont"
     ],
@@ -383,6 +395,9 @@
     "Derby": [
       "derby"
     ],
+    "Dinamo București": [
+      "Din. Bucuresti"
+    ],
     "Dinamo Tirana": [
       "Din. Tirana (Alb)"
     ],
@@ -400,8 +415,14 @@
       "dusseldorf",
       "Fortuna Düsseldorf"
     ],
+    "Dynamo Makhachkala": [
+      "Dyn. Makhachkala"
+    ],
     "Ecuador": [
       "Equateur"
+    ],
+    "Edinburgh City": [
+      "Edinburgh"
     ],
     "Egypt": [
       "Egypte"
@@ -447,6 +468,9 @@
     ],
     "Exeter": [
       "exeter"
+    ],
+    "Fafe SC": [
+      "Fafe"
     ],
     "Faroe Islands": [
       "Iles Féroé"
@@ -503,6 +527,9 @@
     "Fulham": [
       "fulham"
     ],
+    "Füchse Berlin": [
+      "Fuchse Berlin"
+    ],
     "G.A. Eagles": [
       "gaeagles",
       "Go Ahead Eagles"
@@ -528,6 +555,9 @@
     "Gijon": [
       "gijon"
     ],
+    "Gimnasia LP": [
+      "Gimnasia La Plata"
+    ],
     "Girona": [
       "girona",
       "Gérone"
@@ -550,6 +580,9 @@
     ],
     "Groningen": [
       "groningen"
+    ],
+    "Grêmio FBPA": [
+      "Grêmio"
     ],
     "Guinea": [
       "Guinée"
@@ -635,6 +668,9 @@
     "Ivory Coast": [
       "Cote d'Ivoire"
     ],
+    "Jagiellonia Bialystok": [
+      "Jagiellonia"
+    ],
     "Jamaica": [
       "Jamaique"
     ],
@@ -661,6 +697,9 @@
     ],
     "Kaiserslautern": [
       "kaiserslautern"
+    ],
+    "Kansas City Current": [
+      "Kansas City NWSL W"
     ],
     "Karlsruher SC": [
       "karlsruhersc"
@@ -1067,6 +1106,10 @@
     "Scotland": [
       "Écosse"
     ],
+    "Seattle Kraken": [
+      "alias",
+      "canonical"
+    ],
     "Seattle Sounders": [
       "Seattle Sounders FC"
     ],
@@ -1321,171 +1364,391 @@
     ]
   },
   "league_names": {
-    "AFC Asian Cup U23 - Qualification - Round 1": "AFC Asian Cup U23 - Qualification",
-    "AFC Asian Cup U23 - Qualification - Round 2": "AFC Asian Cup U23 - Qualification",
-    "International Youth - U23 AFC Championship, Qualification, Group Stage": "AFC Asian Cup U23 - Qualification",
-    "Afc Ligue Des Champions": "AFC Champions League Elite",
-    "argentina:primerab": "Argentina - Primera B",
-    "TorneoLPF": "Argentina - Primera LPF",
-    "argentina:torneobetano": "Argentina - Torneo Betano",
-    "International Clubs - ASEAN Club Championship, Group A": "ASEAN Club Championship",
-    "International Clubs - ASEAN Club Championship, Group B": "ASEAN Club Championship",
-    "Coupe De Belgique": "Belgium - Belgian Cup",
-    "Brasileirão Betano": "Brazil - Serie A",
-    "Serie A Bresil": "Brazil - Serie A Betano",
-    "Brazil - Copa do Nordeste, Knockout stage": "BRAZIL: Copa do Nordeste",
-    "bulgaria:efbetleague": "Bulgaria - efbet League",
-    "bulgaria:vtoraliga": "Bulgaria - Vtora liga",
-    "Campeonato Itaú Chile": "Chile - Liga de Primera",
-    "chile:ligadeprimera": "Chile - Liga de Primera",
-    "colombia:primeraa": "Colombia - Primera A",
-    "Colombia - Primera A": "Colombia: Primera A",
-    "Colombia - Primera A, Clausura": "Colombia: Primera A",
-    "Colombia, Primera A, Clausura": "Colombia: Primera A",
-    "Liga Betplay Dimayor": "Colombia: Primera A",
-    "International Clubs - CONCACAF Central American Cup, Group A": "CONCACAF Central American Cup",
-    "International Clubs - CONCACAF Central American Cup, Group B": "CONCACAF Central American Cup",
-    "International Clubs - CONCACAF Central American Cup, Group C": "CONCACAF Central American Cup",
-    "International Clubs - CONCACAF Central American Cup, Group D": "CONCACAF Central American Cup",
-    "International Clubs - Copa Libertadores": "Copa Libertadores",
-    "International Clubs - Copa Sudamericana, Knockout stage": "Copa Sudamericana",
-    "croatia:hnl": "Croatia - HNL",
-    "cyprus:cyprusleague": "Cyprus - Cyprus League",
-    "denmark:superliga": "Denmark - Superliga",
-    "Copa Ecuador": "Ecuador - Copa Ecuador",
-    "Ecuador Ligapro": "Ecuador - Liga Pro",
-    "egypt:egyptcup": "Egypt - Egypt Cup",
-    "Championship": "England - Championship",
-    "england:championship": "England - Championship",
-    "Efl Cup": "England - EFL Cup",
-    "england:leagueone": "England - League One",
-    "england:leaguetwo": "England - League Two",
-    "england:nplpremierdivision": "England - NPL Premier Division",
-    "england:premierleague": "England - Premier League",
-    "england:premierleaguecup": "England - Premier League Cup",
-    "england:professionaldevelopmentleague": "England - Professional Development League",
-    "FA WSL": "England - WSL",
-    "Women's Super League": "England - WSL",
-    "Women'S Super League": "England - WSL",
-    "ethiopia:premierleague": "Ethiopia - Premier League",
-    "EuroBasket - Playoffs": "EuroBasket",
-    "Ligue Europa": "Europa League",
-    "Euroleague": "Europe - Euroleague",
-    "Coupe De France": "France - Coupe De France",
-    "france:ligue1": "France - Ligue 1",
-    "france:ligue2": "France - Ligue 2",
-    "D1 Féminin": "France - Premiere Ligue Women",
-    "Pro D2": "France - Pro D2",
-    "Amical International": "Friendly International",
-    "International - International Friendly Games": "Friendly International",
-    "germany:2bundesliga": "Germany - 2. Bundesliga",
-    "Bundesliga": "Germany - Bundesliga",
-    "germany:bundesliga": "Germany - Bundesliga",
-    "DFB Pokal": "Germany - DFB Pokal",
-    "gibraltar:nationalleague": "Gibraltar - National League",
-    "Coupe De Grèce": "Greece - Greek Cup",
-    "Betfred Super League": "Greece - Super League",
-    "guinea:ligue1": "Guinea - Ligue 1",
-    "hongkong:premierleague": "Hong Kong - Premier League",
-    "IDN Super League": "Indonesia - Indonesia Super League",
-    "Indonesia - Liga 1": "Indonesia - Indonesia Super League",
-    "indonesialiga1": "Indonesia - Indonesia Super League",
-    "Indonesia - Super League": "Indonesia - Indonesia Super League",
-    "israel:leumitleague": "Israel - Leumit League",
-    "Coppa Italia": "Italy - Coppa Italia",
-    "ITA Serie A": "Italy - Serie A",
-    "italy:seriea": "Italy - Serie A",
-    "Serie A": "Italy - Serie A",
-    "Serie A Femminile": "Italy - Serie A Femminile",
-    "Serie A Women": "Italy - Serie A Femminile",
-    "Serie A W": "Italy - Serie A Femminile",
-    "italy:serieb": "Italy - Serie B",
-    "italy:seriecgrpa": "Italy - Serie C - Group A",
-    "italy:seriecgrpb": "Italy - Serie C - Group B",
-    "italy:seriecgrpc": "Italy - Serie C - Group C",
-    "ivorycoast:ligue1": "Ivory Coast - Ligue 1",
-    "International Clubs - Leagues Cup": "Leagues Cup",
-    "lebanon:premierleague": "Lebanon - Premier League",
-    "liberia:lfafirstdivision": "Liberia - LFA First Division",
-    "Liga Mx": "Mexico - Liga MX",
-    "Multiplex Coupe du Monde 2026": "Multiplex World Cup 2026",
-    "netherlands:eerstedivisie": "Netherlands - Eerste Divisie",
-    "Eredivisie": "Netherlands - Eredivisie",
-    "NED Eredivisie": "Netherlands - Eredivisie",
-    "netherlands:eredivisie": "Netherlands - Eredivisie",
-    "Knvb Beker": "Netherlands - KNVB Beker",
-    "Liga 1 Te Apuesto": "Peru - Liga 1",
-    "poland:ekstraklasa": "Poland - Ekstraklasa",
-    "poland:polishcup": "Poland - Polish Cup",
-    "Taça Da Liga": "Portugal - League Cup",
-    "portugal:liga3": "Portugal - Liga 3",
-    "portugal:ligaportugal": "Portugal - Liga Portugal",
-    "portugal:ligaportugal2": "Portugal - Liga Portugal 2",
-    "portugal:primeiraliga": "Portugal - Primeira Liga",
-    "portugal:segundaliga": "Portugal - Segunda Liga",
-    "Coupe Du Portugal": "Portugal - Taça de Portugal",
-    "romania:superliga": "Romania - Superliga",
-    "rwanda:premierleague": "Rwanda - Premier League",
-    "saudiarabia:proleague": "Saudi Arabia - Pro League",
-    "Saudi Arabia - Super Cup": "Saudi Arabia - Super Cup",
-    "Saudi Supercup": "Saudi Arabia - Super Cup",
-    "Premiership": "Scotland - Premiership",
-    "sierraleone:premierleague": "Sierra Leone - Premier League",
-    "Coupe Du Roi": "Spain - Copa del Rey",
-    "LaLiga": "Spain - LaLiga",
-    "Laliga": "Spain - LaLiga",
-    "spain:laliga": "Spain - LaLiga",
-    "Laliga 2": "Spain - LaLiga 2",
-    "spain:laliga2": "Spain - LaLiga 2",
-    "tanzania:ligikuubara": "Tanzania - Ligi Kuu Bara",
-    "thailand:thaileague2": "Thailand - Thai League 2",
-    "turkey:1lig": "Turkey - 1. Lig",
-    "turkey:superlig": "Turkey - Super Lig",
-    "Coupe De Turquie": "Turkey - Turkish Cup",
-    "UEFA Champions League": "EUROPE - UEFA Champions League",
-    "Ligue Des Champions": "EUROPE - UEFA Champions League",
-    "Ligue Des Champions Femmes": "EUROPE - UEFA Champions League Women",
-    "mlb": "USA - MLB",
-    "MLS": "USA - MLS",
-    "USA - MLS": "USA - MLS",
-    "usa:mls": "USA - MLS",
-    "nba": "USA - NBA",
-    "NBA": "USA - NBA",
-    "nfl": "USA - NFL",
-    "NFL": "USA - NFL",
-    "nhl": "USA - NHL",
-    "NHL": "USA - NHL",
-    "Vietnam League 1": "Vietnam - V.League 1",
-    "world:championsleague": "World - Champions League",
-    "world:conferenceleague": "World - Conference League",
-    "world:copalibertadores": "World - Copa Libertadores",
-    "world:copasudamericana": "World - Copa Sudamericana",
-    "world:europaleague": "World - Europa League",
-    "Coupe Arabe": "World - FIFA Arab Cup",
-    "world:fifaarabcup": "World - FIFA Arab Cup",
-    "world:uefanationsleague": "World - UEFA Nations League",
-    "world:worldcup": "World Cup",
-    "International - World Cup Qualification, CONCACAF 3rd round, Group A": "World Cup Qualification",
-    "International - World Cup Qualification, CONCACAF 3rd round, Group B": "World Cup Qualification",
-    "International - World Cup Qualification, CONCACAF 3rd round, Group C": "World Cup Qualification",
-    "Qualif. Cm Afrique": "World Cup Qualification",
-    "Qualif. Cm Amsud": "World Cup Qualification",
-    "Qualif. Cm Asie": "World Cup Qualification",
-    "Qualif. Cm Concacaf": "World Cup Qualification",
-    "Qualif. Cm Europe": "World Cup Qualification",
-    "World Cup - Qualification CAF": "World Cup Qualification",
-    "World Cup - Qualification, Conmebol": "World Cup Qualification",
-    "World Cup - Qualification. Uefa. Group A": "World Cup Qualification",
-    "World Cup - Qualification. Uefa. Group B": "World Cup Qualification",
-    "World Cup - Qualification. Uefa. Group C": "World Cup Qualification",
-    "World Cup - Qualification. Uefa. Group D": "World Cup Qualification",
-    "World Cup - Qualification. Uefa. Group E": "World Cup Qualification",
-    "World Cup - Qualification. Uefa. Group F": "World Cup Qualification",
-    "World Cup - Qualification. Uefa. Group G": "World Cup Qualification",
-    "World Cup - Qualification. Uefa. Group H": "World Cup Qualification",
-    "World Cup - Qualification. Uefa. Group I": "World Cup Qualification",
-    "World Cup - Qualification. Uefa. Group J": "World Cup Qualification",
-    "World Cup - Qualification. Uefa. Group K": "World Cup Qualification",
-    "World Cup - Qualification. Uefa. Group L": "World Cup Qualification"
+    "AFC Asian Cup U23 - Qualification": [
+      "AFC Asian Cup U23 - Qualification - Round 1",
+      "AFC Asian Cup U23 - Qualification - Round 2",
+      "International Youth - U23 AFC Championship, Qualification, Group Stage"
+    ],
+    "AFC Champions League Elite": [
+      "Afc Ligue Des Champions"
+    ],
+    "Argentina - Primera B": [
+      "argentina:primerab"
+    ],
+    "Argentina - Primera LPF": [
+      "TorneoLPF"
+    ],
+    "Argentina - Torneo Betano": [
+      "argentina:torneobetano"
+    ],
+    "ASEAN Club Championship": [
+      "International Clubs - ASEAN Club Championship, Group A",
+      "International Clubs - ASEAN Club Championship, Group B"
+    ],
+    "Belgium - Belgian Cup": [
+      "Coupe De Belgique"
+    ],
+    "Brazil - Serie A": [
+      "Brasileirão Betano"
+    ],
+    "Brazil - Serie A Betano": [
+      "Serie A Bresil"
+    ],
+    "BRAZIL: Copa do Nordeste": [
+      "Brazil - Copa do Nordeste, Knockout stage"
+    ],
+    "Bulgaria - efbet League": [
+      "bulgaria:efbetleague"
+    ],
+    "Bulgaria - Vtora liga": [
+      "bulgaria:vtoraliga"
+    ],
+    "Chile - Liga de Primera": [
+      "Campeonato Itaú Chile",
+      "chile:ligadeprimera"
+    ],
+    "Colombia - Primera A": [
+      "colombia:primeraa"
+    ],
+    "Colombia: Primera A": [
+      "Colombia - Primera A",
+      "Colombia - Primera A, Clausura",
+      "Colombia, Primera A, Clausura",
+      "Liga Betplay Dimayor"
+    ],
+    "CONCACAF Central American Cup": [
+      "International Clubs - CONCACAF Central American Cup, Group A",
+      "International Clubs - CONCACAF Central American Cup, Group B",
+      "International Clubs - CONCACAF Central American Cup, Group C",
+      "International Clubs - CONCACAF Central American Cup, Group D"
+    ],
+    "Copa Libertadores": [
+      "International Clubs - Copa Libertadores"
+    ],
+    "Copa Sudamericana": [
+      "International Clubs - Copa Sudamericana, Knockout stage"
+    ],
+    "Croatia - HNL": [
+      "croatia:hnl"
+    ],
+    "Cyprus - Cyprus League": [
+      "cyprus:cyprusleague"
+    ],
+    "Denmark - Superliga": [
+      "denmark:superliga"
+    ],
+    "Ecuador - Copa Ecuador": [
+      "Copa Ecuador"
+    ],
+    "Ecuador - Liga Pro": [
+      "Ecuador Ligapro"
+    ],
+    "Egypt - Egypt Cup": [
+      "egypt:egyptcup"
+    ],
+    "England - Championship": [
+      "Championship",
+      "england:championship"
+    ],
+    "England - EFL Cup": [
+      "Efl Cup"
+    ],
+    "England - League One": [
+      "england:leagueone"
+    ],
+    "England - League Two": [
+      "england:leaguetwo"
+    ],
+    "England - NPL Premier Division": [
+      "england:nplpremierdivision"
+    ],
+    "England - Premier League": [
+      "england:premierleague"
+    ],
+    "England - Premier League Cup": [
+      "england:premierleaguecup"
+    ],
+    "England - Professional Development League": [
+      "england:professionaldevelopmentleague"
+    ],
+    "England - WSL": [
+      "FA WSL",
+      "Women'S Super League",
+      "Women's Super League"
+    ],
+    "Ethiopia - Premier League": [
+      "ethiopia:premierleague"
+    ],
+    "EuroBasket": [
+      "EuroBasket - Playoffs"
+    ],
+    "Europa League": [
+      "Ligue Europa"
+    ],
+    "Europe - Euroleague": [
+      "Euroleague"
+    ],
+    "EUROPE - UEFA Champions League": [
+      "Ligue Des Champions",
+      "UEFA Champions League"
+    ],
+    "EUROPE - UEFA Champions League Women": [
+      "Ligue Des Champions Femmes"
+    ],
+    "France - Coupe De France": [
+      "Coupe De France"
+    ],
+    "France - Ligue 1": [
+      "france:ligue1"
+    ],
+    "France - Ligue 2": [
+      "france:ligue2"
+    ],
+    "France - Premiere Ligue Women": [
+      "D1 Féminin"
+    ],
+    "France - Pro D2": [
+      "Pro D2"
+    ],
+    "Friendly International": [
+      "Amical International",
+      "International - International Friendly Games"
+    ],
+    "Germany - 2. Bundesliga": [
+      "germany:2bundesliga"
+    ],
+    "Germany - Bundesliga": [
+      "Bundesliga",
+      "germany:bundesliga"
+    ],
+    "Germany - DFB Pokal": [
+      "DFB Pokal"
+    ],
+    "Gibraltar - National League": [
+      "gibraltar:nationalleague"
+    ],
+    "Greece - Greek Cup": [
+      "Coupe De Grèce"
+    ],
+    "Greece - Super League": [
+      "Betfred Super League"
+    ],
+    "Guinea - Ligue 1": [
+      "guinea:ligue1"
+    ],
+    "Hong Kong - Premier League": [
+      "hongkong:premierleague"
+    ],
+    "Indonesia - Indonesia Super League": [
+      "IDN Super League",
+      "Indonesia - Liga 1",
+      "Indonesia - Super League",
+      "indonesialiga1"
+    ],
+    "Israel - Leumit League": [
+      "israel:leumitleague"
+    ],
+    "Italy - Coppa Italia": [
+      "Coppa Italia"
+    ],
+    "Italy - Serie A": [
+      "ITA Serie A",
+      "Serie A",
+      "italy:seriea"
+    ],
+    "Italy - Serie A Femminile": [
+      "Serie A Femminile",
+      "Serie A W",
+      "Serie A Women"
+    ],
+    "Italy - Serie B": [
+      "italy:serieb"
+    ],
+    "Italy - Serie C - Group A": [
+      "italy:seriecgrpa"
+    ],
+    "Italy - Serie C - Group B": [
+      "italy:seriecgrpb"
+    ],
+    "Italy - Serie C - Group C": [
+      "italy:seriecgrpc"
+    ],
+    "Ivory Coast - Ligue 1": [
+      "ivorycoast:ligue1"
+    ],
+    "Leagues Cup": [
+      "International Clubs - Leagues Cup"
+    ],
+    "Lebanon - Premier League": [
+      "lebanon:premierleague"
+    ],
+    "Liberia - LFA First Division": [
+      "liberia:lfafirstdivision"
+    ],
+    "Mexico - Liga MX": [
+      "Liga Mx"
+    ],
+    "Multiplex World Cup 2026": [
+      "Multiplex Coupe du Monde 2026"
+    ],
+    "Netherlands - Eerste Divisie": [
+      "netherlands:eerstedivisie"
+    ],
+    "Netherlands - Eredivisie": [
+      "Eredivisie",
+      "NED Eredivisie",
+      "netherlands:eredivisie"
+    ],
+    "Netherlands - KNVB Beker": [
+      "Knvb Beker"
+    ],
+    "Peru - Liga 1": [
+      "Liga 1 Te Apuesto"
+    ],
+    "Poland - Ekstraklasa": [
+      "poland:ekstraklasa"
+    ],
+    "Poland - Polish Cup": [
+      "poland:polishcup"
+    ],
+    "Portugal - League Cup": [
+      "Taça Da Liga"
+    ],
+    "Portugal - Liga 3": [
+      "portugal:liga3"
+    ],
+    "Portugal - Liga Portugal": [
+      "portugal:ligaportugal"
+    ],
+    "Portugal - Liga Portugal 2": [
+      "portugal:ligaportugal2"
+    ],
+    "Portugal - Primeira Liga": [
+      "portugal:primeiraliga"
+    ],
+    "Portugal - Segunda Liga": [
+      "portugal:segundaliga"
+    ],
+    "Portugal - Taça de Portugal": [
+      "Coupe Du Portugal"
+    ],
+    "Romania - Superliga": [
+      "romania:superliga"
+    ],
+    "Rwanda - Premier League": [
+      "rwanda:premierleague"
+    ],
+    "Saudi Arabia - Pro League": [
+      "saudiarabia:proleague"
+    ],
+    "Saudi Arabia - Super Cup": [
+      "Saudi Arabia - Super Cup",
+      "Saudi Supercup"
+    ],
+    "Scotland - Premiership": [
+      "Premiership"
+    ],
+    "Sierra Leone - Premier League": [
+      "sierraleone:premierleague"
+    ],
+    "Spain - Copa del Rey": [
+      "Coupe Du Roi"
+    ],
+    "Spain - LaLiga": [
+      "LaLiga",
+      "Laliga",
+      "spain:laliga"
+    ],
+    "Spain - LaLiga 2": [
+      "Laliga 2",
+      "spain:laliga2"
+    ],
+    "Tanzania - Ligi Kuu Bara": [
+      "tanzania:ligikuubara"
+    ],
+    "Thailand - Thai League 2": [
+      "thailand:thaileague2"
+    ],
+    "Turkey - 1. Lig": [
+      "turkey:1lig"
+    ],
+    "Turkey - Super Lig": [
+      "turkey:superlig"
+    ],
+    "Turkey - Turkish Cup": [
+      "Coupe De Turquie"
+    ],
+    "USA - MLB": [
+      "mlb"
+    ],
+    "USA - MLS": [
+      "MLS",
+      "USA - MLS",
+      "usa:mls"
+    ],
+    "USA - NBA": [
+      "NBA",
+      "nba"
+    ],
+    "USA - NFL": [
+      "NFL",
+      "nfl"
+    ],
+    "USA - NHL": [
+      "NHL",
+      "nhl"
+    ],
+    "Vietnam - V.League 1": [
+      "Vietnam League 1"
+    ],
+    "World - Champions League": [
+      "world:championsleague"
+    ],
+    "World - Conference League": [
+      "world:conferenceleague"
+    ],
+    "World - Copa Libertadores": [
+      "world:copalibertadores"
+    ],
+    "World - Copa Sudamericana": [
+      "world:copasudamericana"
+    ],
+    "World - Europa League": [
+      "world:europaleague"
+    ],
+    "World - FIFA Arab Cup": [
+      "Coupe Arabe",
+      "world:fifaarabcup"
+    ],
+    "World - UEFA Nations League": [
+      "world:uefanationsleague"
+    ],
+    "World Cup": [
+      "world:worldcup"
+    ],
+    "World Cup Qualification": [
+      "International - World Cup Qualification, CONCACAF 3rd round, Group A",
+      "International - World Cup Qualification, CONCACAF 3rd round, Group B",
+      "International - World Cup Qualification, CONCACAF 3rd round, Group C",
+      "Qualif. Cm Afrique",
+      "Qualif. Cm Amsud",
+      "Qualif. Cm Asie",
+      "Qualif. Cm Concacaf",
+      "Qualif. Cm Europe",
+      "World Cup - Qualification CAF",
+      "World Cup - Qualification, Conmebol",
+      "World Cup - Qualification. Uefa. Group A",
+      "World Cup - Qualification. Uefa. Group B",
+      "World Cup - Qualification. Uefa. Group C",
+      "World Cup - Qualification. Uefa. Group D",
+      "World Cup - Qualification. Uefa. Group E",
+      "World Cup - Qualification. Uefa. Group F",
+      "World Cup - Qualification. Uefa. Group G",
+      "World Cup - Qualification. Uefa. Group H",
+      "World Cup - Qualification. Uefa. Group I",
+      "World Cup - Qualification. Uefa. Group J",
+      "World Cup - Qualification. Uefa. Group K",
+      "World Cup - Qualification. Uefa. Group L"
+    ]
   }
 }

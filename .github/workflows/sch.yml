@@ -21,16 +21,18 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install -r requirements.txt
 
-      - name: Run Schedule Merger
+      - name: Run Schedule Merger & AI Matcher
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python sch.py
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add sch.json
-          git commit -m "Update sch.json" || exit 0
+          git add sch.json manual_mapping.json ai_mapping_cache.json
+          git commit -m "Update sch.json and AI mapping cache" || exit 0
           git pull --rebase origin main
           git push origin main

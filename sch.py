@@ -8,6 +8,13 @@ import unicodedata
 from functools import lru_cache
 from difflib import SequenceMatcher
 
+# AI Matcher integration
+try:
+    from ai_matcher import run_ai_matcher
+    AI_MATCHER_AVAILABLE = True
+except ImportError:
+    AI_MATCHER_AVAILABLE = False
+
 # Suppress warnings globally
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -100,8 +107,17 @@ def load_manual_mapping():
                     # Format: "Alias": "Canonical Name"
                     norm_teams[normalize_text(k)] = v.strip()
 
-            # Process League Names (keeping simple 1:1 for now, or apply same logic if needed)
-            norm_leagues = {normalize_text(k): v for k, v in raw_leagues.items() if k}
+            # Process League Names
+            norm_leagues = {}
+            for k, v in raw_leagues.items():
+                if not k: continue
+                if isinstance(v, list):
+                    canonical = k.strip()
+                    for alias in v:
+                        if alias:
+                            norm_leagues[normalize_text(alias)] = canonical
+                else:
+                    norm_leagues[normalize_text(k)] = v.strip()
             
             return norm_teams, norm_leagues
             
@@ -513,7 +529,6 @@ def main():
     adstrim = load_json_safe('adstrim.json')
     bolaloca = load_json_safe('bolaloca.json')
     streamcenter = load_json_safe('streamcenter.json')
-    ikotv = load_json_safe('ikotv.json')
     sofascore = load_json_safe('sofascore.json')
     
     # ============================================
@@ -595,22 +610,6 @@ def main():
                 soco_merged += 1
     print(f"  ✅ Merged {soco_merged} servers from soco.json")
 
-    # ikotv.json
-    print(f"Processing ikotv.json ({len(ikotv)} matches) - Server merge only...")
-    ikotv_merged = 0
-    if isinstance(ikotv, list):
-        for match in ikotv:
-            # iKOTV has dates, so we don't strictly need allow_time_only=True, 
-            # but it is safer to use standard matching first.
-            existing_key = find_matching_entry(match, merged_data, allow_time_only=False)
-            if existing_key:
-                existing_match = merged_data[existing_key]
-                existing_urls = {s['url'] for s in existing_match.get('servers', [])}
-                new_servers = match.get('servers', [])
-                merge_servers(existing_match, new_servers, existing_urls)
-                ikotv_merged += 1
-    print(f"  ✅ Merged {ikotv_merged} servers from ikotv.json")
-
     # Convert to list
     final_data = list(merged_data.values())
     
@@ -619,6 +618,24 @@ def main():
     # ============================================
     final_data = enrich_from_sofascore(final_data, sofascore)
         
+    # ============================================
+    # PHASE 3.5: AI Name Matching
+    # ============================================
+    if AI_MATCHER_AVAILABLE:
+        print("\n" + "=" * 50)
+        try:
+            team_res, league_res = run_ai_matcher(dry_run=False)
+            if team_res or league_res:
+                print("Reloading manual mapping with AI updates...")
+                global TEAM_NAMES, LEAGUE_NAMES
+                TEAM_NAMES, LEAGUE_NAMES = load_manual_mapping()
+                normalize_text.cache_clear()  # Clear LRU cache for fresh lookups
+        except Exception as e:
+            print(f"⚠️  AI Matcher error (non-fatal): {e}")
+        print("=" * 50)
+    else:
+        print("\n⚠️  AI Matcher not available (ai_matcher.py not found). Skipping AI resolution.")
+
     # ============================================
     # PHASE 4: Apply Manual Mapping for Display
     # ============================================
