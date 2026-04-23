@@ -9114,8 +9114,8 @@
     "kickoff_time": "13:00",
     "match_date": "2026-04-23",
     "match_time": "13:00",
-    "status": "inprogress",
-    "status_desc": "Pause",
+    "status": "finished",
+    "status_desc": "Ended",
     "score": "39 - 37",
     "round": "",
     "season": "2026",
@@ -9139,9 +9139,9 @@
     "kickoff_time": "14:00",
     "match_date": "2026-04-23",
     "match_time": "14:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Halftime",
+    "score": "41 - 43",
     "round": 28,
     "season": "WSBL, Women 2026",
     "sport": "Basketball",
@@ -9164,9 +9164,9 @@
     "kickoff_time": "14:00",
     "match_date": "2026-04-23",
     "match_time": "14:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Pause",
+    "score": "50 - 57",
     "round": 1,
     "season": "NBL 2026",
     "sport": "Basketball",
@@ -10650,6 +10650,31 @@
     "servers": []
   },
   {
+    "id": "ChelbasketChelyabinsk-BCNovosibirsk",
+    "league": "Russia - Super League, Playoffs",
+    "team1": {
+      "name": "Chelbasket Chelyabinsk",
+      "logo": "https://img.sofascore.com/api/v1/team/393324/image"
+    },
+    "team2": {
+      "name": "BC Novosibirsk",
+      "logo": "https://img.sofascore.com/api/v1/team/134126/image"
+    },
+    "kickoff_date": "2026-04-23",
+    "kickoff_time": "21:00",
+    "match_date": "2026-04-23",
+    "match_time": "21:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 28,
+    "season": "Super League 25/26",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "BeslidhjaEaglesU20-ElbasaniU20",
     "league": "Albania - Liga Sigal U20, Playofs",
     "team1": {
@@ -10775,6 +10800,31 @@
     "servers": []
   },
   {
+    "id": "ChelbasketChelyabinsk-BCNovosibirsk",
+    "league": "Russia - Super League, Playoffs",
+    "team1": {
+      "name": "Chelbasket Chelyabinsk",
+      "logo": "https://img.sofascore.com/api/v1/team/393324/image"
+    },
+    "team2": {
+      "name": "BC Novosibirsk",
+      "logo": "https://img.sofascore.com/api/v1/team/134126/image"
+    },
+    "kickoff_date": "2026-04-23",
+    "kickoff_time": "21:00",
+    "match_date": "2026-04-23",
+    "match_time": "21:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 28,
+    "season": "Super League 25/26",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "FCBihorOradea-SepsiOSK",
     "league": "Romania - Liga 2, Promotion Round",
     "team1": {
@@ -11770,56 +11820,6 @@
     "round": 27,
     "season": "Turkiye Kupasi 25/26",
     "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "ChelbasketChelyabinsk-BCNovosibirsk",
-    "league": "Russia - Super League, Playoffs",
-    "team1": {
-      "name": "Chelbasket Chelyabinsk",
-      "logo": "https://img.sofascore.com/api/v1/team/393324/image"
-    },
-    "team2": {
-      "name": "BC Novosibirsk",
-      "logo": "https://img.sofascore.com/api/v1/team/134126/image"
-    },
-    "kickoff_date": "2026-04-23",
-    "kickoff_time": "22:45",
-    "match_date": "2026-04-23",
-    "match_time": "22:45",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 28,
-    "season": "Super League 25/26",
-    "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "ChelbasketChelyabinsk-BCNovosibirsk",
-    "league": "Russia - Super League, Playoffs",
-    "team1": {
-      "name": "Chelbasket Chelyabinsk",
-      "logo": "https://img.sofascore.com/api/v1/team/393324/image"
-    },
-    "team2": {
-      "name": "BC Novosibirsk",
-      "logo": "https://img.sofascore.com/api/v1/team/134126/image"
-    },
-    "kickoff_date": "2026-04-23",
-    "kickoff_time": "22:45",
-    "match_date": "2026-04-23",
-    "match_time": "22:45",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 28,
-    "season": "Super League 25/26",
-    "sport": "Basketball",
     "gender": "M",
     "duration": "3.5",
     "servers": []
@@ -41594,6 +41594,56 @@
     "score": "",
     "round": 6,
     "season": "China League 1 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CesenaU20-SassuoloU20",
+    "league": "Italy - Primavera 1",
+    "team1": {
+      "name": "Cesena U20",
+      "logo": "https://img.sofascore.com/api/v1/team/826801/image"
+    },
+    "team2": {
+      "name": "Sassuolo U20",
+      "logo": "https://img.sofascore.com/api/v1/team/826807/image"
+    },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "14:00",
+    "match_date": "2026-04-25",
+    "match_time": "14:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 35,
+    "season": "Primavera 1 25/26",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "NapoliU20-InterU20",
+    "league": "Italy - Primavera 1",
+    "team1": {
+      "name": "Napoli U20",
+      "logo": "https://img.sofascore.com/api/v1/team/829592/image"
+    },
+    "team2": {
+      "name": "Inter U20",
+      "logo": "https://img.sofascore.com/api/v1/team/826804/image"
+    },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "14:00",
+    "match_date": "2026-04-25",
+    "match_time": "14:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 35,
+    "season": "Primavera 1 25/26",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
@@ -41719,6 +41769,56 @@
     "score": "",
     "round": 6,
     "season": "China League 1 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CesenaU20-SassuoloU20",
+    "league": "Italy - Primavera 1",
+    "team1": {
+      "name": "Cesena U20",
+      "logo": "https://img.sofascore.com/api/v1/team/826801/image"
+    },
+    "team2": {
+      "name": "Sassuolo U20",
+      "logo": "https://img.sofascore.com/api/v1/team/826807/image"
+    },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "14:00",
+    "match_date": "2026-04-25",
+    "match_time": "14:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 35,
+    "season": "Primavera 1 25/26",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "NapoliU20-InterU20",
+    "league": "Italy - Primavera 1",
+    "team1": {
+      "name": "Napoli U20",
+      "logo": "https://img.sofascore.com/api/v1/team/829592/image"
+    },
+    "team2": {
+      "name": "Inter U20",
+      "logo": "https://img.sofascore.com/api/v1/team/826804/image"
+    },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "14:00",
+    "match_date": "2026-04-25",
+    "match_time": "14:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 35,
+    "season": "Primavera 1 25/26",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
@@ -43919,181 +44019,6 @@
     "score": "",
     "round": 9,
     "season": "Queensland Premier League 1 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "BolognaU20-GenoaU20",
-    "league": "Italy - Primavera 1",
-    "team1": {
-      "name": "Bologna U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826805/image"
-    },
-    "team2": {
-      "name": "Genoa U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826812/image"
-    },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-25",
-    "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 35,
-    "season": "Primavera 1 25/26",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "CesenaU20-SassuoloU20",
-    "league": "Italy - Primavera 1",
-    "team1": {
-      "name": "Cesena U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826801/image"
-    },
-    "team2": {
-      "name": "Sassuolo U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826807/image"
-    },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-25",
-    "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 35,
-    "season": "Primavera 1 25/26",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FiorentinaU20-MonzaU20",
-    "league": "Italy - Primavera 1",
-    "team1": {
-      "name": "Fiorentina U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826802/image"
-    },
-    "team2": {
-      "name": "Monza U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826808/image"
-    },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-25",
-    "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 35,
-    "season": "Primavera 1 25/26",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FrosinoneU20-LazioU20",
-    "league": "Italy - Primavera 1",
-    "team1": {
-      "name": "Frosinone U20",
-      "logo": "https://img.sofascore.com/api/v1/team/170874/image"
-    },
-    "team2": {
-      "name": "Lazio U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826821/image"
-    },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-25",
-    "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 35,
-    "season": "Primavera 1 25/26",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "LecceU20-HellasVeronaU20",
-    "league": "Italy - Primavera 1",
-    "team1": {
-      "name": "Lecce U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826809/image"
-    },
-    "team2": {
-      "name": "Hellas Verona U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826806/image"
-    },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-25",
-    "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 35,
-    "season": "Primavera 1 25/26",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "MilanU20-CagliariU20",
-    "league": "Italy - Primavera 1",
-    "team1": {
-      "name": "Milan U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826811/image"
-    },
-    "team2": {
-      "name": "Cagliari U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826819/image"
-    },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-25",
-    "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 35,
-    "season": "Primavera 1 25/26",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "NapoliU20-InterU20",
-    "league": "Italy - Primavera 1",
-    "team1": {
-      "name": "Napoli U20",
-      "logo": "https://img.sofascore.com/api/v1/team/829592/image"
-    },
-    "team2": {
-      "name": "Inter U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826804/image"
-    },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-25",
-    "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 35,
-    "season": "Primavera 1 25/26",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
@@ -44244,181 +44169,6 @@
     "score": "",
     "round": 9,
     "season": "Queensland Premier League 1 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "BolognaU20-GenoaU20",
-    "league": "Italy - Primavera 1",
-    "team1": {
-      "name": "Bologna U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826805/image"
-    },
-    "team2": {
-      "name": "Genoa U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826812/image"
-    },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-25",
-    "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 35,
-    "season": "Primavera 1 25/26",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "CesenaU20-SassuoloU20",
-    "league": "Italy - Primavera 1",
-    "team1": {
-      "name": "Cesena U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826801/image"
-    },
-    "team2": {
-      "name": "Sassuolo U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826807/image"
-    },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-25",
-    "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 35,
-    "season": "Primavera 1 25/26",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FiorentinaU20-MonzaU20",
-    "league": "Italy - Primavera 1",
-    "team1": {
-      "name": "Fiorentina U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826802/image"
-    },
-    "team2": {
-      "name": "Monza U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826808/image"
-    },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-25",
-    "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 35,
-    "season": "Primavera 1 25/26",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FrosinoneU20-LazioU20",
-    "league": "Italy - Primavera 1",
-    "team1": {
-      "name": "Frosinone U20",
-      "logo": "https://img.sofascore.com/api/v1/team/170874/image"
-    },
-    "team2": {
-      "name": "Lazio U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826821/image"
-    },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-25",
-    "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 35,
-    "season": "Primavera 1 25/26",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "LecceU20-HellasVeronaU20",
-    "league": "Italy - Primavera 1",
-    "team1": {
-      "name": "Lecce U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826809/image"
-    },
-    "team2": {
-      "name": "Hellas Verona U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826806/image"
-    },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-25",
-    "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 35,
-    "season": "Primavera 1 25/26",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "MilanU20-CagliariU20",
-    "league": "Italy - Primavera 1",
-    "team1": {
-      "name": "Milan U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826811/image"
-    },
-    "team2": {
-      "name": "Cagliari U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826819/image"
-    },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-25",
-    "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 35,
-    "season": "Primavera 1 25/26",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "NapoliU20-InterU20",
-    "league": "Italy - Primavera 1",
-    "team1": {
-      "name": "Napoli U20",
-      "logo": "https://img.sofascore.com/api/v1/team/829592/image"
-    },
-    "team2": {
-      "name": "Inter U20",
-      "logo": "https://img.sofascore.com/api/v1/team/826804/image"
-    },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-25",
-    "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 35,
-    "season": "Primavera 1 25/26",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
@@ -71850,6 +71600,31 @@
     "servers": []
   },
   {
+    "id": "LecceU20-HellasVeronaU20",
+    "league": "Italy - Primavera 1",
+    "team1": {
+      "name": "Lecce U20",
+      "logo": "https://img.sofascore.com/api/v1/team/826809/image"
+    },
+    "team2": {
+      "name": "Hellas Verona U20",
+      "logo": "https://img.sofascore.com/api/v1/team/826806/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "14:00",
+    "match_date": "2026-04-26",
+    "match_time": "14:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 35,
+    "season": "Primavera 1 25/26",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "EniseyKrasnoyarsk-NeftekhimikNizhnekamsk",
     "league": "Russia - First League",
     "team1": {
@@ -72244,6 +72019,31 @@
     "score": "",
     "round": 8,
     "season": "Chinese Super League 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "MilanU20-CagliariU20",
+    "league": "Italy - Primavera 1",
+    "team1": {
+      "name": "Milan U20",
+      "logo": "https://img.sofascore.com/api/v1/team/826811/image"
+    },
+    "team2": {
+      "name": "Cagliari U20",
+      "logo": "https://img.sofascore.com/api/v1/team/826819/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "16:00",
+    "match_date": "2026-04-26",
+    "match_time": "16:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 35,
+    "season": "Primavera 1 25/26",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
@@ -73669,6 +73469,31 @@
     "score": "",
     "round": 25,
     "season": " CampoBet 2 Division 25/26",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FrosinoneU20-LazioU20",
+    "league": "Italy - Primavera 1",
+    "team1": {
+      "name": "Frosinone U20",
+      "logo": "https://img.sofascore.com/api/v1/team/170874/image"
+    },
+    "team2": {
+      "name": "Lazio U20",
+      "logo": "https://img.sofascore.com/api/v1/team/826821/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "18:00",
+    "match_date": "2026-04-26",
+    "match_time": "18:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 35,
+    "season": "Primavera 1 25/26",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
