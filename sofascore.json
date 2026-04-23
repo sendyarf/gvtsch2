@@ -4214,9 +4214,9 @@
     "kickoff_time": "23:30",
     "match_date": "2026-04-22",
     "match_time": "23:30",
-    "status": "inprogress",
-    "status_desc": "1st quarter",
-    "score": "0 - 0",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
     "round": 28,
     "season": "25/26",
     "sport": "Basketball",
@@ -5189,9 +5189,9 @@
     "kickoff_time": "00:00",
     "match_date": "2026-04-23",
     "match_time": "00:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "60 - 52",
     "round": 28,
     "season": "25/26",
     "sport": "Basketball",
@@ -5989,9 +5989,9 @@
     "kickoff_time": "01:00",
     "match_date": "2026-04-23",
     "match_time": "01:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "48 - 76",
     "round": 10,
     "season": "25/26",
     "sport": "Basketball",
@@ -6289,9 +6289,9 @@
     "kickoff_time": "01:15",
     "match_date": "2026-04-23",
     "match_time": "01:15",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "104 - 84",
     "round": 9,
     "season": "2026",
     "sport": "Basketball",
@@ -6989,9 +6989,9 @@
     "kickoff_time": "02:15",
     "match_date": "2026-04-23",
     "match_time": "02:15",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "77 - 58",
     "round": 9,
     "season": "25/26",
     "sport": "Basketball",
@@ -9139,9 +9139,9 @@
     "kickoff_time": "14:00",
     "match_date": "2026-04-23",
     "match_time": "14:00",
-    "status": "inprogress",
-    "status_desc": "Halftime",
-    "score": "41 - 43",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "70 - 88",
     "round": 28,
     "season": "WSBL, Women 2026",
     "sport": "Basketball",
@@ -9164,9 +9164,9 @@
     "kickoff_time": "14:00",
     "match_date": "2026-04-23",
     "match_time": "14:00",
-    "status": "inprogress",
-    "status_desc": "Pause",
-    "score": "50 - 57",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "94 - 103",
     "round": 1,
     "season": "NBL 2026",
     "sport": "Basketball",
@@ -9214,9 +9214,9 @@
     "kickoff_time": "15:00",
     "match_date": "2026-04-23",
     "match_time": "15:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "4th quarter",
+    "score": "60 - 74",
     "round": 1,
     "season": "MPBL 2026",
     "sport": "Basketball",
@@ -9264,9 +9264,9 @@
     "kickoff_time": "15:30",
     "match_date": "2026-04-23",
     "match_time": "15:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "2nd half",
+    "score": "2 - 0",
     "round": 29,
     "season": "Indonesia Super League 25/26",
     "sport": "Football",
@@ -9289,9 +9289,9 @@
     "kickoff_time": "15:30",
     "match_date": "2026-04-23",
     "match_time": "15:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "2nd half",
+    "score": "0 - 1",
     "round": 29,
     "season": "Indonesia Super League 25/26",
     "sport": "Football",
@@ -9314,9 +9314,9 @@
     "kickoff_time": "16:00",
     "match_date": "2026-04-23",
     "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Halftime",
+    "score": "46 - 40",
     "round": 28,
     "season": "SBL 2026",
     "sport": "Basketball",
@@ -12289,8 +12289,8 @@
     "kickoff_time": "23:00",
     "match_date": "2026-04-23",
     "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "postponed",
+    "status_desc": "Postponed",
     "score": "",
     "round": 29,
     "season": "25/26",
@@ -12689,8 +12689,8 @@
     "kickoff_time": "23:00",
     "match_date": "2026-04-23",
     "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "postponed",
+    "status_desc": "Postponed",
     "score": "",
     "round": 29,
     "season": "25/26",
@@ -20125,6 +20125,106 @@
     "servers": []
   },
   {
+    "id": "SisakU11-KAMravU11",
+    "league": "Croatia Amateur - Utakmica za 15. mjesto ",
+    "team1": {
+      "name": "Sisak U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175437/image"
+    },
+    "team2": {
+      "name": "KA Mrav U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175434/image"
+    },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "14:00",
+    "match_date": "2026-04-24",
+    "match_time": "14:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 29,
+    "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "PeaU11-ZagrebU11",
+    "league": "Croatia Amateur - Utakmica za 11. mjesto ",
+    "team1": {
+      "name": "Pešća U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175441/image"
+    },
+    "team2": {
+      "name": "Zagreb U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175431/image"
+    },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "14:00",
+    "match_date": "2026-04-24",
+    "match_time": "14:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 29,
+    "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "SisakU11-KAMravU11",
+    "league": "Croatia Amateur - Utakmica za 15. mjesto ",
+    "team1": {
+      "name": "Sisak U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175437/image"
+    },
+    "team2": {
+      "name": "KA Mrav U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175434/image"
+    },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "14:00",
+    "match_date": "2026-04-24",
+    "match_time": "14:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 29,
+    "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "PeaU11-ZagrebU11",
+    "league": "Croatia Amateur - Utakmica za 11. mjesto ",
+    "team1": {
+      "name": "Pešća U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175441/image"
+    },
+    "team2": {
+      "name": "Zagreb U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175431/image"
+    },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "14:00",
+    "match_date": "2026-04-24",
+    "match_time": "14:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 29,
+    "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "OtagoNuggets-TaurangaWhai",
     "league": "New Zealand - New Zealand NBL",
     "team1": {
@@ -20271,6 +20371,56 @@
     "season": "NBL1 South, Women 2026",
     "sport": "Basketball",
     "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CedevitaJuniorU11-LarusU11",
+    "league": "Croatia Amateur - Doigravanje ",
+    "team1": {
+      "name": "Cedevita Junior U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175443/image"
+    },
+    "team2": {
+      "name": "Larus U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1176823/image"
+    },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "15:00",
+    "match_date": "2026-04-24",
+    "match_time": "15:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 28,
+    "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "VuiiU11-NoviZagrebU11",
+    "league": "Croatia Amateur - Doigravanje ",
+    "team1": {
+      "name": "Vučići U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175435/image"
+    },
+    "team2": {
+      "name": "Novi Zagreb U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175442/image"
+    },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "15:00",
+    "match_date": "2026-04-24",
+    "match_time": "15:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 28,
+    "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
     "duration": "3.5",
     "servers": []
   },
@@ -20396,6 +20546,56 @@
     "season": "NBL1 South, Women 2026",
     "sport": "Basketball",
     "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CedevitaJuniorU11-LarusU11",
+    "league": "Croatia Amateur - Doigravanje ",
+    "team1": {
+      "name": "Cedevita Junior U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175443/image"
+    },
+    "team2": {
+      "name": "Larus U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1176823/image"
+    },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "15:00",
+    "match_date": "2026-04-24",
+    "match_time": "15:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 28,
+    "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "VuiiU11-NoviZagrebU11",
+    "league": "Croatia Amateur - Doigravanje ",
+    "team1": {
+      "name": "Vučići U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175435/image"
+    },
+    "team2": {
+      "name": "Novi Zagreb U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175442/image"
+    },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "15:00",
+    "match_date": "2026-04-24",
+    "match_time": "15:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 28,
+    "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
     "duration": "3.5",
     "servers": []
   },
@@ -20650,6 +20850,31 @@
     "servers": []
   },
   {
+    "id": "KsaverU11-OtoacU11",
+    "league": "Croatia Amateur - Utakmica za 9. mjesto ",
+    "team1": {
+      "name": "Ksaver U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175436/image"
+    },
+    "team2": {
+      "name": "Otočac U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1213425/image"
+    },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "16:00",
+    "match_date": "2026-04-24",
+    "match_time": "16:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 29,
+    "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "WestAdelaideBearcatsW-NorwoodFlamesW",
     "league": "Australia - NBL1 Central, Women",
     "team1": {
@@ -20671,6 +20896,31 @@
     "season": "NBL1 Central, Women 2026",
     "sport": "Basketball",
     "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "KsaverU11-OtoacU11",
+    "league": "Croatia Amateur - Utakmica za 9. mjesto ",
+    "team1": {
+      "name": "Ksaver U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1175436/image"
+    },
+    "team2": {
+      "name": "Otočac U11",
+      "logo": "https://img.sofascore.com/api/v1/team/1213425/image"
+    },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "16:00",
+    "match_date": "2026-04-24",
+    "match_time": "16:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 29,
+    "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
     "duration": "3.5",
     "servers": []
   },
@@ -37945,6 +38195,31 @@
     "round": "",
     "season": "2026",
     "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ClubAtlticoPlatense-SanLorenzo",
+    "league": "Argentina - Liga Profesional de Fútbol, Apertura",
+    "team1": {
+      "name": "Club Atlético Platense",
+      "logo": "https://img.sofascore.com/api/v1/team/36837/image"
+    },
+    "team2": {
+      "name": "San Lorenzo",
+      "logo": "https://img.sofascore.com/api/v1/team/3201/image"
+    },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "07:30",
+    "match_date": "2026-04-25",
+    "match_time": "07:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 16,
+    "season": "Primera LPF 2026",
+    "sport": "Football",
     "gender": "M",
     "duration": "3.5",
     "servers": []
@@ -37994,6 +38269,31 @@
     "score": "",
     "round": 11,
     "season": "Primera Division 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ClubAtlticoPlatense-SanLorenzo",
+    "league": "Argentina - Liga Profesional de Fútbol, Apertura",
+    "team1": {
+      "name": "Club Atlético Platense",
+      "logo": "https://img.sofascore.com/api/v1/team/36837/image"
+    },
+    "team2": {
+      "name": "San Lorenzo",
+      "logo": "https://img.sofascore.com/api/v1/team/3201/image"
+    },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "07:30",
+    "match_date": "2026-04-25",
+    "match_time": "07:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 16,
+    "season": "Primera LPF 2026",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
@@ -41975,15 +42275,15 @@
     "servers": []
   },
   {
-    "id": "ChunghwaTelecomW-TaiyuanW",
+    "id": "TaiyuanW-ChunghwaTelecomW",
     "league": "Chinese Taipei - Chinese Taipei WSBL, Playoffs",
     "team1": {
-      "name": "Chunghwa Telecom W",
-      "logo": "https://img.sofascore.com/api/v1/team/281163/image"
-    },
-    "team2": {
       "name": "Taiyuan W",
       "logo": "https://img.sofascore.com/api/v1/team/307708/image"
+    },
+    "team2": {
+      "name": "Chunghwa Telecom W",
+      "logo": "https://img.sofascore.com/api/v1/team/281163/image"
     },
     "kickoff_date": "2026-04-25",
     "kickoff_time": "14:00",
@@ -42175,15 +42475,15 @@
     "servers": []
   },
   {
-    "id": "ChunghwaTelecomW-TaiyuanW",
+    "id": "TaiyuanW-ChunghwaTelecomW",
     "league": "Chinese Taipei - Chinese Taipei WSBL, Playoffs",
     "team1": {
-      "name": "Chunghwa Telecom W",
-      "logo": "https://img.sofascore.com/api/v1/team/281163/image"
-    },
-    "team2": {
       "name": "Taiyuan W",
       "logo": "https://img.sofascore.com/api/v1/team/307708/image"
+    },
+    "team2": {
+      "name": "Chunghwa Telecom W",
+      "logo": "https://img.sofascore.com/api/v1/team/281163/image"
     },
     "kickoff_date": "2026-04-25",
     "kickoff_time": "14:00",
@@ -52725,6 +53025,31 @@
     "servers": []
   },
   {
+    "id": "Nanterre92Espoirs-MonacoBasketEspoirsU21",
+    "league": "France - U21 Espoirs Elite",
+    "team1": {
+      "name": "Nanterre 92 Espoirs",
+      "logo": "https://img.sofascore.com/api/v1/team/505557/image"
+    },
+    "team2": {
+      "name": "Monaco Basket Espoirs U21",
+      "logo": "https://img.sofascore.com/api/v1/team/505534/image"
+    },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "19:00",
+    "match_date": "2026-04-25",
+    "match_time": "19:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 18,
+    "season": "U21 Espoirs Elite 25/26",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "POMoudanion-KentaurosKallikrateias",
     "league": "Greece Amateur - EKASH, Playoff",
     "team1": {
@@ -59700,6 +60025,31 @@
     "servers": []
   },
   {
+    "id": "OgulinU14-ZagrebIIU14",
+    "league": "Croatia Amateur - 5. Pretkadetska liga U14",
+    "team1": {
+      "name": "Ogulin U14",
+      "logo": "https://img.sofascore.com/api/v1/team/1170640/image"
+    },
+    "team2": {
+      "name": "Zagreb II U14",
+      "logo": "https://img.sofascore.com/api/v1/team/1170634/image"
+    },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "23:00",
+    "match_date": "2026-04-25",
+    "match_time": "23:00",
+    "status": "postponed",
+    "status_desc": "Postponed",
+    "score": "",
+    "round": 10,
+    "season": "25/26",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "OaklandsWolvesW-BBraunSheffieldHattersW",
     "league": "England - SLB, Women",
     "team1": {
@@ -61800,6 +62150,31 @@
     "servers": []
   },
   {
+    "id": "MushucRunaSC-DeportivoCuenca",
+    "league": "Ecuador - LigaPro Serie A, Primera Etapa",
+    "team1": {
+      "name": "Mushuc Runa SC",
+      "logo": "https://img.sofascore.com/api/v1/team/134976/image"
+    },
+    "team2": {
+      "name": "Deportivo Cuenca",
+      "logo": "https://img.sofascore.com/api/v1/team/5251/image"
+    },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "23:45",
+    "match_date": "2026-04-25",
+    "match_time": "23:45",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 11,
+    "season": "LigaPro Primera A 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "DonBoscoLivorno-SanVincenzoBasket",
     "league": "Italy - Serie C Unica Toscana",
     "team1": {
@@ -61894,31 +62269,6 @@
     "score": "",
     "round": 31,
     "season": "Super Lig 25/26",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "ClubAtlticoPlatense-SanLorenzo",
-    "league": "Argentina - Liga Profesional de Fútbol, Apertura",
-    "team1": {
-      "name": "Club Atlético Platense",
-      "logo": "https://img.sofascore.com/api/v1/team/36837/image"
-    },
-    "team2": {
-      "name": "San Lorenzo",
-      "logo": "https://img.sofascore.com/api/v1/team/3201/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "00:00",
-    "match_date": "2026-04-26",
-    "match_time": "00:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 16,
-    "season": "Primera LPF 2026",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
@@ -67200,31 +67550,6 @@
     "servers": []
   },
   {
-    "id": "MushucRunaSC-DeportivoCuenca",
-    "league": "Ecuador - LigaPro Serie A, Primera Etapa",
-    "team1": {
-      "name": "Mushuc Runa SC",
-      "logo": "https://img.sofascore.com/api/v1/team/134976/image"
-    },
-    "team2": {
-      "name": "Deportivo Cuenca",
-      "logo": "https://img.sofascore.com/api/v1/team/5251/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "04:45",
-    "match_date": "2026-04-26",
-    "match_time": "04:45",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 11,
-    "season": "LigaPro Primera A 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "UniversidaddeChile-UniversidadCatlica",
     "league": "Chile - Liga de Primera",
     "team1": {
@@ -71671,6 +71996,31 @@
     "season": "NBL1, East 2026",
     "sport": "Basketball",
     "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ChunghwaTelecomW-TaiyuanW",
+    "league": "Chinese Taipei - Chinese Taipei WSBL, Playoffs",
+    "team1": {
+      "name": "Chunghwa Telecom W",
+      "logo": "https://img.sofascore.com/api/v1/team/281163/image"
+    },
+    "team2": {
+      "name": "Taiyuan W",
+      "logo": "https://img.sofascore.com/api/v1/team/307708/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "14:00",
+    "match_date": "2026-04-26",
+    "match_time": "14:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 28,
+    "season": "WSBL, Women 2026",
+    "sport": "Basketball",
+    "gender": "F",
     "duration": "3.5",
     "servers": []
   },
