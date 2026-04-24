@@ -138,7 +138,7 @@ def scrape_with_selenium():
                         # Create stream URL
                         stream_url = f"https://live.inplyr.com/room/{blv_id}.m3u8"
                         encoded_url = encode_url_to_base64(stream_url)
-                        player_url = f"https://multi.govoet.my.id/?hls={encoded_url}"
+                        player_url = f"https://multi.govoet.cc/?hls={encoded_url}"
                         
                         servers.append({
                             "url": player_url,
