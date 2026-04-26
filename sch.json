@@ -100,6 +100,10 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVByZW1pdW0xW1NlcmJpYV0=",
         "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOW0FyZ2VudGluYV0=",
+        "label": "CH-NA"
       }
     ]
   },
@@ -569,6 +573,10 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Db3Ntb3RlU3BvcnQyW0dyZWVjZV0=",
         "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOW0FyZ2VudGluYV0=",
+        "label": "CH-NA"
       }
     ]
   },
@@ -962,10 +970,6 @@
     "match_time": "23:25",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
-        "label": "CH-EN"
-      },
       {
         "url": "https://multi.govoet.cc/?ss=hd2",
         "label": "CH-1"
@@ -2006,15 +2010,15 @@
     ]
   },
   {
-    "id": "Penafiel-PortoB",
+    "id": "Penafiel-FCPortoB",
     "sport": "Football",
-    "league": "Portugal - Liga 2",
+    "league": "Portugal - Liga Portugal 2",
     "team1": {
       "name": "Penafiel FC",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3017/image"
     },
     "team2": {
-      "name": "Rio Ave B",
+      "name": "FC Porto B",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/74469/image"
     },
     "kickoff_date": "2026-04-26",
@@ -2022,16 +2026,7 @@
     "match_date": "2026-04-26",
     "match_time": "21:25",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv4",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY0NjM0Mw==",
-        "label": "CH-NA"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "Krasnodar-DynMakhachkala",
@@ -2050,52 +2045,9 @@
     "match_date": "2026-04-26",
     "match_time": "20:55",
     "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "NoviPazar-Cukaricki",
-    "sport": "Football",
-    "league": "Slovakia - Fortuna Liga",
-    "team1": {
-      "name": "Novi Pazar",
-      "logo": "https://img2.sport-tv-guide.live/images/team-novipazar-3184.png"
-    },
-    "team2": {
-      "name": "FK Čukarički",
-      "logo": "https://img2.sport-tv-guide.live/images/team-cukaricki-3178.png"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:30",
-    "match_date": "2026-04-26",
-    "match_time": "21:25",
-    "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVNwb3J0NltTZXJiaWFd",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Atromitos-AsterasTripolis",
-    "sport": "Football",
-    "league": "Greece - Super League",
-    "team1": {
-      "name": "Atromitos Athens",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5062/image"
-    },
-    "team2": {
-      "name": "Asteras Tripolis",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/6342/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjUwNTYxMw==",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVNwb3J0M1tTZXJiaWFd",
         "label": "CH-NA"
       }
     ]
@@ -2349,78 +2301,6 @@
     ]
   },
   {
-    "id": "Aarhus-Midtjylland",
-    "sport": "Football",
-    "league": "Slovakia - Fortuna Liga",
-    "team1": {
-      "name": "AaB",
-      "logo": "https://img2.sport-tv-guide.live/images/team-aarhus-3325.png"
-    },
-    "team2": {
-      "name": "Midtjylland",
-      "logo": "https://img2.sport-tv-guide.live/images/team-midtjylland-3318.png"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "01:00",
-    "match_date": "2026-04-27",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVNwb3J0NFtTZXJiaWFd",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "KAAkureyri-Keflavik",
-    "sport": "Football",
-    "league": "Iceland - Urvalsdeild",
-    "team1": {
-      "name": "Akureyri",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1904/image"
-    },
-    "team2": {
-      "name": "Keflavík",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/48029/image"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "01:00",
-    "match_date": "2026-04-27",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2NDA5Mw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "IndRivadavia-GimnasiaMendoza",
-    "sport": "Football",
-    "league": "Argentina - Liga Profesional",
-    "team1": {
-      "name": "Independiente Rivadavia",
-      "logo": "https://img2.sport-tv-guide.live/images/team-indrivadavia-8109.png"
-    },
-    "team2": {
-      "name": "Gimnasia y Esgrima Mendoza",
-      "logo": "https://img2.sport-tv-guide.live/images/team-gimnasiamendozaarg-12635.png"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "01:00",
-    "match_date": "2026-04-27",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=75",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
     "id": "AVSFutebolSAD-SportingCP",
     "sport": "Football",
     "league": "Portugal - Primeira Liga",
@@ -2438,46 +2318,6 @@
     "match_time": "02:25",
     "duration": "3.5",
     "servers": []
-  },
-  {
-    "id": "AFS-SportingLisbon",
-    "sport": "Football",
-    "league": "Portugal - Primeira Liga",
-    "team1": {
-      "name": "AFS",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/493909/image"
-    },
-    "team2": {
-      "name": "Sporting Lisbon",
-      "logo": null
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "02:30",
-    "match_date": "2026-04-27",
-    "match_time": "02:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=2",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=125",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=145",
-        "label": "CH-PT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2ZkZTNkY2M4",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzYyYWJmM2Yy",
-        "label": "CH-NA"
-      }
-    ]
   },
   {
     "id": "Bragantino-Palmeiras",
@@ -2663,6 +2503,30 @@
     ]
   },
   {
+    "id": "PacificFC-Forge",
+    "sport": "Football",
+    "league": "Canada - Canadian Premier League",
+    "team1": {
+      "name": "Pacific FC",
+      "logo": "https://img2.sport-tv-guide.live/images/team-pacific-18709.png"
+    },
+    "team2": {
+      "name": "Forge FC",
+      "logo": "https://img2.sport-tv-guide.live/images/team-forge-22002.png"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "05:00",
+    "match_date": "2026-04-27",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd5",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
     "id": "PhiladelphiaFlyers-PittsburghPenguins",
     "sport": "Ice Hockey",
     "league": "USA - NHL - Playoff",
@@ -2713,14 +2577,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=5",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=182",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
         "label": "CH-EN"
       },
@@ -2739,6 +2595,30 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Nb3Zpc3RhckRlcG9ydGVzW1NwYWluXQ==",
         "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "DanielAdeleye-JeremySchifris",
+    "sport": "Tennis",
+    "league": "Challenger Abidjan (CIV) Qualifiers",
+    "team1": {
+      "name": "Daniel Adeleye",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/550267/image"
+    },
+    "team2": {
+      "name": "Jeremy Schifris",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/268284/image"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-27",
+    "match_time": "01:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NzI4NA==",
+        "label": "CH-NA"
       }
     ]
   },
@@ -2846,30 +2726,6 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg2MTY5NA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "DanielAdeleye-JeremySchifris",
-    "sport": "Tennis",
-    "league": "Challenger Abidjan (CIV) Qualifiers",
-    "team1": {
-      "name": "Daniel Adeleye",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/550267/image"
-    },
-    "team2": {
-      "name": "Jeremy Schifris",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/268284/image"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-27",
-    "match_time": "01:55",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NzI4NA==",
         "label": "CH-NA"
       }
     ]
@@ -3184,189 +3040,181 @@
     ]
   },
   {
-    "id": "StLouisCardinals-SeattleMariners",
+    "id": "ArizonaDiamondbacks-SanDiegoPadres",
     "sport": "Baseball",
     "league": "USA - MLB",
     "team1": {
-      "name": "St Louis Cardinals",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3632/image"
+      "name": "Arizona Diamondbacks",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3640/image"
     },
     "team2": {
-      "name": "Seattle Mariners (MLB)",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3641/image"
+      "name": "San Diego Padres (MLB)",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3636/image"
     },
     "kickoff_date": "2026-04-27",
-    "kickoff_time": "01:15",
+    "kickoff_time": "03:05",
     "match_date": "2026-04-27",
-    "match_time": "01:10",
+    "match_time": "03:00",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=186",
+        "url": "https://multi.govoet.cc/?envivo=189",
         "label": "CH-US"
       },
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI0LnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI3LnBocA==",
         "label": "CH-EN"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TZWF0dGxlIE1hcmluZXJz",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Bcml6b25hIERpYW1vbmRiYWNrcw==",
         "label": "CH-NA"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdC4gTG91aXMgQ2FyZGluYWxz",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TYW4gRGllZ28gUGFkcmVz",
         "label": "CH-NA"
       }
     ]
   },
   {
-    "id": "ChicagoWhiteSox-WashingtonNationals",
+    "id": "SanFranciscoGiants-MiamiMarlins",
     "sport": "Baseball",
     "league": "USA - MLB",
     "team1": {
-      "name": "Chicago White Sox",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3644/image"
+      "name": "San Francisco Giants (MLB)",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3634/image"
     },
     "team2": {
-      "name": "Washington Nationals",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5930/image"
+      "name": "Miami",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3639/image"
     },
     "kickoff_date": "2026-04-27",
-    "kickoff_time": "01:10",
+    "kickoff_time": "03:05",
     "match_date": "2026-04-27",
-    "match_time": "01:05",
+    "match_time": "03:00",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=183",
+        "url": "https://multi.govoet.cc/?envivo=190",
         "label": "CH-US"
       },
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIzLnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI2LnBocA==",
         "label": "CH-EN"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DaGljYWdvIFdoaXRlIFNveA==",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9NaWFtaSBNYXJsaW5z",
         "label": "CH-NA"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9XYXNoaW5ndG9uIE5hdGlvbmFscw==",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TYW4gRnJhbmNpc2NvIEdpYW50cw==",
         "label": "CH-NA"
       }
     ]
   },
   {
-    "id": "MilwaukeeBrewers-PittsburghPirates",
+    "id": "LosAngelesDodgers-ChicagoCubs",
     "sport": "Baseball",
     "league": "USA - MLB",
     "team1": {
-      "name": "Milwaukee",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3630/image"
+      "name": "Los Angeles Dodgers",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3638/image"
     },
     "team2": {
-      "name": "Pittsburgh Pirates (MLB)",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3637/image"
+      "name": "Chicago Cubs",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3627/image"
     },
     "kickoff_date": "2026-04-27",
-    "kickoff_time": "01:10",
+    "kickoff_time": "03:10",
     "match_date": "2026-04-27",
-    "match_time": "01:05",
+    "match_time": "03:05",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=185",
+        "url": "https://multi.govoet.cc/?envivo=191",
         "label": "CH-US"
       },
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIyLnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI4LnBocA==",
         "label": "CH-EN"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9NaWx3YXVrZWUgQnJld2Vycw==",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DaGljYWdvIEN1YnM=",
         "label": "CH-NA"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9QaXR0c2J1cmdoIFBpcmF0ZXM=",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBEb2RnZXJz",
         "label": "CH-NA"
       }
     ]
   },
   {
-    "id": "HoustonAstros-NewYorkYankees",
+    "id": "KansasCityRoyals-LosAngelesAngels",
     "sport": "Baseball",
     "league": "USA - MLB",
     "team1": {
-      "name": "Houston Rockets",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3655/image"
+      "name": "Los Angeles Angels",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3651/image"
     },
     "team2": {
+      "name": "Los Angeles Angels",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5929/image"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "03:10",
+    "match_date": "2026-04-27",
+    "match_time": "03:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMwLnBocA==",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM0OTYwMg==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM0OTYyNQ==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9LYW5zYXMgQ2l0eSBSb3lhbHM=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBBbmdlbHM=",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "NewYorkMets-ColoradoRockies",
+    "sport": "Baseball",
+    "league": "USA - MLB",
+    "team1": {
       "name": "New York",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3654/image"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "01:10",
-    "match_date": "2026-04-27",
-    "match_time": "01:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=184",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIxLnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ib3VzdG9uIEFzdHJvcw==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9OZXcgWW9yayBZYW5rZWVz",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "TexasRangers-Athletics",
-    "sport": "Baseball",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Dallas Mavericks",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3647/image"
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3629/image"
     },
     "team2": {
-      "name": "Oakland Athletics",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3645/image"
+      "name": "Colorado Rockies",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3628/image"
     },
     "kickoff_date": "2026-04-27",
-    "kickoff_time": "01:35",
+    "kickoff_time": "03:40",
     "match_date": "2026-04-27",
-    "match_time": "01:30",
+    "match_time": "03:35",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=187",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI1LnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI5LnBocA==",
         "label": "CH-EN"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9PYWtsYW5kIEF0aGxldGljcw==",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Db2xvcmFkbyBSb2NraWVz",
         "label": "CH-NA"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZXhhcyBSYW5nZXJz",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM0OTYwNg==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2Q1YTVmYzQw",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9OZXcgWW9yayBNZXRz",
         "label": "CH-NA"
       }
     ]
@@ -3550,405 +3398,173 @@
     ]
   },
   {
-    "id": "NewYorkMets-ColoradoRockies",
+    "id": "ChicagoWhiteSox-WashingtonNationals",
     "sport": "Baseball",
     "league": "USA - MLB",
     "team1": {
+      "name": "Chicago White Sox",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3644/image"
+    },
+    "team2": {
+      "name": "Washington Nationals",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5930/image"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "01:10",
+    "match_date": "2026-04-27",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIzLnBocA==",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DaGljYWdvIFdoaXRlIFNveA==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9XYXNoaW5ndG9uIE5hdGlvbmFscw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "MilwaukeeBrewers-PittsburghPirates",
+    "sport": "Baseball",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Milwaukee",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3630/image"
+    },
+    "team2": {
+      "name": "Pittsburgh Pirates (MLB)",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3637/image"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "01:10",
+    "match_date": "2026-04-27",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIyLnBocA==",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9NaWx3YXVrZWUgQnJld2Vycw==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9QaXR0c2J1cmdoIFBpcmF0ZXM=",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "HoustonAstros-NewYorkYankees",
+    "sport": "Baseball",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Houston Rockets",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3655/image"
+    },
+    "team2": {
       "name": "New York",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3629/image"
-    },
-    "team2": {
-      "name": "Colorado Rockies",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3628/image"
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3654/image"
     },
     "kickoff_date": "2026-04-27",
-    "kickoff_time": "00:40",
+    "kickoff_time": "01:10",
     "match_date": "2026-04-27",
-    "match_time": "00:35",
+    "match_time": "01:05",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI5LnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIxLnBocA==",
         "label": "CH-EN"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Db2xvcmFkbyBSb2NraWVz",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ib3VzdG9uIEFzdHJvcw==",
         "label": "CH-NA"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9OZXcgWW9yayBNZXRz",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9OZXcgWW9yayBZYW5rZWVz",
         "label": "CH-NA"
       }
     ]
   },
   {
-    "id": "RealKoyari-FCSanNicolas",
-    "sport": "Football",
-    "league": "Aruba - Division de Onoare",
-    "team1": {
-      "name": "Real Koyari",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/497285/image"
-    },
-    "team2": {
-      "name": "FC San Nicolas",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1160719/image"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "03:00",
-    "match_date": "2026-04-27",
-    "match_time": "02:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjgyNDczMA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "StPetersFC-TgeDieppeBayEagles",
-    "sport": "Football",
-    "league": "Saint Kitts & Nevis - Premier League",
-    "team1": {
-      "name": "St. Peters FC",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/53753/image"
-    },
-    "team2": {
-      "name": "Tge Dieppe Bay Eagles",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "03:00",
-    "match_date": "2026-04-27",
-    "match_time": "02:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjgyNDczNA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "GuayaquilCity-TecnicoU",
-    "sport": "Football",
-    "league": "Ecuador - Liga Pro",
-    "team1": {
-      "name": "Guayaquil City SC",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/188850/image"
-    },
-    "team2": {
-      "name": "Tecnic Universitario",
-      "logo": null
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "03:30",
-    "match_date": "2026-04-27",
-    "match_time": "03:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=86",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2E5ZmRlNWY3",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjYzOTQzNQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "NewellsOldBoys-Instituto",
-    "sport": "Football",
-    "league": "Argentina - Liga Profesional",
-    "team1": {
-      "name": "Newell's Old Boys",
-      "logo": "https://img2.sport-tv-guide.live/images/team-newellsoldboys-3014.png"
-    },
-    "team2": {
-      "name": "Instituto AC",
-      "logo": "https://img2.sport-tv-guide.live/images/team-instituto-8107.png"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "03:30",
-    "match_date": "2026-04-27",
-    "match_time": "03:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=75",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "Belgrano-GimnasiaLP",
-    "sport": "Football",
-    "league": "Argentina Liga Profesional",
-    "team1": {
-      "name": "Belgrano Cordoba",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3203/image"
-    },
-    "team2": {
-      "name": "Gimnasia LP",
-      "logo": null
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "03:30",
-    "match_date": "2026-04-27",
-    "match_time": "03:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=76",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd9",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2RiZGRjMGMx",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "SanFranciscoGiants-MiamiMarlins",
+    "id": "StLouisCardinals-SeattleMariners",
     "sport": "Baseball",
     "league": "USA - MLB",
     "team1": {
-      "name": "San Francisco Giants (MLB)",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3634/image"
+      "name": "St Louis Cardinals",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3632/image"
     },
     "team2": {
-      "name": "Miami",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3639/image"
+      "name": "Seattle Mariners (MLB)",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3641/image"
     },
     "kickoff_date": "2026-04-27",
-    "kickoff_time": "03:05",
+    "kickoff_time": "01:15",
     "match_date": "2026-04-27",
-    "match_time": "03:00",
+    "match_time": "01:10",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=190",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI2LnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI0LnBocA==",
         "label": "CH-EN"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9NaWFtaSBNYXJsaW5z",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TZWF0dGxlIE1hcmluZXJz",
         "label": "CH-NA"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TYW4gRnJhbmNpc2NvIEdpYW50cw==",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdC4gTG91aXMgQ2FyZGluYWxz",
         "label": "CH-NA"
       }
     ]
   },
   {
-    "id": "ArizonaDiamondbacks-SanDiegoPadres",
+    "id": "TexasRangers-Athletics",
     "sport": "Baseball",
     "league": "USA - MLB",
     "team1": {
-      "name": "Arizona Diamondbacks",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3640/image"
+      "name": "Dallas Mavericks",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3647/image"
     },
     "team2": {
-      "name": "San Diego Padres (MLB)",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3636/image"
+      "name": "Oakland Athletics",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3645/image"
     },
     "kickoff_date": "2026-04-27",
-    "kickoff_time": "03:05",
+    "kickoff_time": "01:35",
     "match_date": "2026-04-27",
-    "match_time": "03:00",
+    "match_time": "01:30",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=189",
+        "url": "https://multi.govoet.cc/?envivo=187",
         "label": "CH-US"
       },
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI3LnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI1LnBocA==",
         "label": "CH-EN"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Bcml6b25hIERpYW1vbmRiYWNrcw==",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9PYWtsYW5kIEF0aGxldGljcw==",
         "label": "CH-NA"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TYW4gRGllZ28gUGFkcmVz",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "LosAngelesDodgers-ChicagoCubs",
-    "sport": "Baseball",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Los Angeles Dodgers",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3638/image"
-    },
-    "team2": {
-      "name": "Chicago Cubs",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3627/image"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "03:10",
-    "match_date": "2026-04-27",
-    "match_time": "03:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=191",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI4LnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DaGljYWdvIEN1YnM=",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZXhhcyBSYW5nZXJz",
         "label": "CH-NA"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBEb2RnZXJz",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "KansasCityRoyals-LosAngelesAngels",
-    "sport": "Baseball",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Los Angeles Angels",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3651/image"
-    },
-    "team2": {
-      "name": "Los Angeles Angels",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5929/image"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "03:10",
-    "match_date": "2026-04-27",
-    "match_time": "03:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDMwLnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM0OTYwMg==",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM0OTYwNg==",
         "label": "CH-NA"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM0OTYyNQ==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9LYW5zYXMgQ2l0eSBSb3lhbHM=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBBbmdlbHM=",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "JoaoFonseca-RafaelJodar",
-    "sport": "Tennis",
-    "league": "Spain - ATP Madrid",
-    "team1": {
-      "name": "Joao Fonseca",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/403869/image"
-    },
-    "team2": {
-      "name": "Rafael Jodar",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/458834/image"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "03:30",
-    "match_date": "2026-04-27",
-    "match_time": "03:25",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg2MjcyNg==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9aaWdnb1Nwb3J0NFtOZXRoZXJsYW5kc10=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQxW0ZyYW5jZV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EaWdpU3BvcnQ0W1JvbWFuaWFd",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "WilliamBushamuka-BillyUSArez",
-    "sport": "Tennis",
-    "league": "Challenger Abidjan (CIV) Qualifiers",
-    "team1": {
-      "name": "William Bushamuka",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/102117/image"
-    },
-    "team2": {
-      "name": "Billy USArez",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/932315/image"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "03:30",
-    "match_date": "2026-04-27",
-    "match_time": "03:25",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NzI4OA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "MattKuhar-ElijahSanogo",
-    "sport": "Tennis",
-    "league": "Challenger Abidjan (CIV) Qualifiers",
-    "team1": {
-      "name": "Matt Kuhar",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/199448/image"
-    },
-    "team2": {
-      "name": "Elijah Sanogo",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1123569/image"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "04:00",
-    "match_date": "2026-04-27",
-    "match_time": "03:55",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NzI4Mw==",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2Q1YTVmYzQw",
         "label": "CH-NA"
       }
     ]
@@ -4034,6 +3650,90 @@
     ]
   },
   {
+    "id": "ClevelandGuardians-TampaBayRays",
+    "sport": "Baseball",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Cleveland Cavaliers",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3650/image"
+    },
+    "team2": {
+      "name": "Tampa Bay Rays",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3653/image"
+    },
+    "kickoff_date": "2026-04-28",
+    "kickoff_time": "05:10",
+    "match_date": "2026-04-28",
+    "match_time": "05:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9GT1hTcG9ydHMxW1VTQV0=",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DbGV2ZWxhbmQgR3VhcmRpYW5z",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UYW1wYSBCYXkgUmF5cw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "TorontoBlueJays-BostonRedSox",
+    "sport": "Baseball",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Washington Nationals",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3642/image"
+    },
+    "team2": {
+      "name": "Boston Celtics",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3646/image"
+    },
+    "kickoff_date": "2026-04-28",
+    "kickoff_time": "06:07",
+    "match_date": "2026-04-28",
+    "match_time": "06:02",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Cb3N0b24gUmVkIFNveA==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ub3JvbnRvIEJsdWUgSmF5cw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "NewellsOldBoys-Instituto",
+    "sport": "Football",
+    "league": "Argentina - Liga Profesional",
+    "team1": {
+      "name": "Newell's Old Boys",
+      "logo": "https://img2.sport-tv-guide.live/images/team-newellsoldboys-3014.png"
+    },
+    "team2": {
+      "name": "Instituto AC",
+      "logo": "https://img2.sport-tv-guide.live/images/team-instituto-8107.png"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "03:30",
+    "match_date": "2026-04-27",
+    "match_time": "03:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=75",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
     "id": "SnookerWorldChampionshipTable2",
     "sport": "Snooker",
     "league": "Snooker",
@@ -4097,6 +3797,10 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVByZW1pdW0zW1NlcmJpYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOW0FyZ2VudGluYV0=",
         "label": "CH-NA"
       },
       {
@@ -4405,57 +4109,6 @@
     ]
   },
   {
-    "id": "RealOruro-TheStrongest",
-    "sport": "Football",
-    "league": "Uruguay - Primera División",
-    "team1": {
-      "name": "Real Oruro FC",
-      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
-    },
-    "team2": {
-      "name": "The Strongest",
-      "logo": "https://img2.sport-tv-guide.live/images/team-thestrongest-3124.png"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "01:55",
-    "match_date": "2026-04-27",
-    "match_time": "01:50",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0TGFMaWdhW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjYxNTUyOA==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzMzZmM3N2Zm",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "ArsenalSarandi-VillaDalmine",
-    "sport": "Football",
-    "league": "Argentina - Primera B Metropolitana",
-    "team1": {
-      "name": "Sarandi",
-      "logo": "https://img2.sport-tv-guide.live/images/team-arsenalsarandi-3042.png"
-    },
-    "team2": {
-      "name": "Dalmine",
-      "logo": "https://img2.sport-tv-guide.live/images/team-villadalmine-8099.png"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-27",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "AVS-Sporting",
     "sport": "Football",
     "league": "Portugal - Primeira Liga",
@@ -4479,6 +4132,42 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTg5NDM4Mw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "AtleticoTucuman-Banfield",
+    "sport": "Football",
+    "league": "Argentina - Liga Profesional",
+    "team1": {
+      "name": "CA Tucumán",
+      "logo": "https://img2.sport-tv-guide.live/images/team-atltucuman-3025.png"
+    },
+    "team2": {
+      "name": "Banfield",
+      "logo": "https://img2.sport-tv-guide.live/images/team-banfield-3017.png"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "06:00",
+    "match_date": "2026-04-27",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=76",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOW1VTQV0=",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOW0FyZ2VudGluYV0=",
         "label": "CH-NA"
       }
     ]
@@ -4794,6 +4483,30 @@
     ]
   },
   {
+    "id": "NoviPazar-Cukaricki",
+    "sport": "Football",
+    "league": "Slovakia - Fortuna Liga",
+    "team1": {
+      "name": "Novi Pazar",
+      "logo": "https://img2.sport-tv-guide.live/images/team-novipazar-3184.png"
+    },
+    "team2": {
+      "name": "FK Čukarički",
+      "logo": "https://img2.sport-tv-guide.live/images/team-cukaricki-3178.png"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:30",
+    "match_date": "2026-04-26",
+    "match_time": "21:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVNwb3J0NltTZXJiaWFd",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "HeerenveenW-PSVW",
     "sport": "Football",
     "league": "Netherlands - Eredivisie Women",
@@ -5043,6 +4756,49 @@
     ]
   },
   {
+    "id": "IndRivadavia-GimnasiaMendoza",
+    "sport": "Football",
+    "league": "Argentina - Liga Profesional",
+    "team1": {
+      "name": "Independiente Rivadavia",
+      "logo": "https://img2.sport-tv-guide.live/images/team-indrivadavia-8109.png"
+    },
+    "team2": {
+      "name": "Gimnasia y Esgrima Mendoza",
+      "logo": "https://img2.sport-tv-guide.live/images/team-gimnasiamendozaarg-12635.png"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "01:00",
+    "match_date": "2026-04-27",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "Aarhus-Midtjylland",
+    "sport": "Football",
+    "league": "Slovakia - Fortuna Liga",
+    "team1": {
+      "name": "AaB",
+      "logo": "https://img2.sport-tv-guide.live/images/team-aarhus-3325.png"
+    },
+    "team2": {
+      "name": "Midtjylland",
+      "logo": "https://img2.sport-tv-guide.live/images/team-midtjylland-3318.png"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "01:00",
+    "match_date": "2026-04-27",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVNwb3J0NFtTZXJiaWFd",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "AmericaMGU20-AthleticoPRU19",
     "sport": "Football",
     "league": "Brazil - Brasileiro U20",
@@ -5067,60 +4823,55 @@
     ]
   },
   {
-    "id": "PacificFC-Forge",
+    "id": "RealOruro-TheStrongest",
     "sport": "Football",
-    "league": "Canada - Canadian Premier League",
+    "league": "Uruguay - Primera División",
     "team1": {
-      "name": "Pacific FC",
-      "logo": "https://img2.sport-tv-guide.live/images/team-pacific-18709.png"
+      "name": "Real Oruro FC",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
     },
     "team2": {
-      "name": "Forge FC",
-      "logo": "https://img2.sport-tv-guide.live/images/team-forge-22002.png"
+      "name": "The Strongest",
+      "logo": "https://img2.sport-tv-guide.live/images/team-thestrongest-3124.png"
     },
     "kickoff_date": "2026-04-27",
-    "kickoff_time": "05:00",
+    "kickoff_time": "01:55",
     "match_date": "2026-04-27",
-    "match_time": "04:55",
+    "match_time": "01:50",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?ss=hd5",
-        "label": "CH-1"
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0TGFMaWdhW1NvdXRoQWZyaWNhXQ==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjYxNTUyOA==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzMzZmM3N2Zm",
+        "label": "CH-NA"
       }
     ]
   },
   {
-    "id": "AtleticoTucuman-Banfield",
+    "id": "ArsenalSarandi-VillaDalmine",
     "sport": "Football",
-    "league": "Argentina - Liga Profesional",
+    "league": "Argentina - Primera B Metropolitana",
     "team1": {
-      "name": "CA Tucumán",
-      "logo": "https://img2.sport-tv-guide.live/images/team-atltucuman-3025.png"
+      "name": "Sarandi",
+      "logo": "https://img2.sport-tv-guide.live/images/team-arsenalsarandi-3042.png"
     },
     "team2": {
-      "name": "Banfield",
-      "logo": "https://img2.sport-tv-guide.live/images/team-banfield-3017.png"
+      "name": "Dalmine",
+      "logo": "https://img2.sport-tv-guide.live/images/team-villadalmine-8099.png"
     },
     "kickoff_date": "2026-04-27",
-    "kickoff_time": "06:00",
+    "kickoff_time": "02:00",
     "match_date": "2026-04-27",
-    "match_time": "05:55",
+    "match_time": "01:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=76",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd9",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOW1VTQV0=",
-        "label": "CH-US"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "TepatitlandeMorelos-Atlante",
@@ -5336,6 +5087,97 @@
         "label": "CH-UK"
       }
     ]
+  },
+  {
+    "id": "StadeToulousain-Clermont",
+    "sport": "Rugby Union",
+    "league": "France - Top 14",
+    "team1": {
+      "name": "Toulouse",
+      "logo": "https://img2.sport-tv-guide.live/images/team-stadetoulousain-1150.png"
+    },
+    "team2": {
+      "name": "Clermont",
+      "logo": "https://img2.sport-tv-guide.live/images/team-clermont-1144.png"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-27",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=11",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzkwNWU1Yzlm",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "JoaoFonseca-RafaelJodar",
+    "sport": "Tennis",
+    "league": "Spain - ATP Madrid",
+    "team1": {
+      "name": "Joao Fonseca",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
+    },
+    "team2": {
+      "name": "Rafael Jodar",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-27",
+    "match_time": "01:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9aaWdnb1Nwb3J0NFtOZXRoZXJsYW5kc10=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQxW0ZyYW5jZV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EaWdpU3BvcnQ0W1JvbWFuaWFd",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg2MjcyNg==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "NewEnglandFreeJacks-AnthemRC",
+    "sport": "Rugby Union",
+    "league": "USA - Major League Rugby",
+    "team1": {
+      "name": "New England Free Jacks",
+      "logo": "https://img2.sport-tv-guide.live/images/team-newenglandfreejacks-29126.png"
+    },
+    "team2": {
+      "name": "Ankaran",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "03:00",
+    "match_date": "2026-04-27",
+    "match_time": "02:55",
+    "duration": "3.5",
+    "servers": []
   },
   {
     "id": "AljamainSterling-YoussefZalal",
@@ -6132,6 +5974,10 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVNwb3J0M1tTZXJiaWFd",
+        "label": "CH-NA"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM4OTgxNw==",
         "label": "CH-NA"
       }
@@ -6212,57 +6058,6 @@
         "label": "CH-NA"
       }
     ]
-  },
-  {
-    "id": "StadeToulousain-Clermont",
-    "sport": "Rugby Union",
-    "league": "France - Top 14",
-    "team1": {
-      "name": "Toulouse",
-      "logo": "https://img2.sport-tv-guide.live/images/team-stadetoulousain-1150.png"
-    },
-    "team2": {
-      "name": "Clermont",
-      "logo": "https://img2.sport-tv-guide.live/images/team-clermont-1144.png"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-27",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=11",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzkwNWU1Yzlm",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "NewEnglandFreeJacks-AnthemRC",
-    "sport": "Rugby Union",
-    "league": "USA - Major League Rugby",
-    "team1": {
-      "name": "New England Free Jacks",
-      "logo": "https://img2.sport-tv-guide.live/images/team-newenglandfreejacks-29126.png"
-    },
-    "team2": {
-      "name": "Ankaran",
-      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "03:00",
-    "match_date": "2026-04-27",
-    "match_time": "02:55",
-    "duration": "3.5",
-    "servers": []
   },
   {
     "id": "OldGloryDC-CaliforniaLegion",
@@ -6612,11 +6407,11 @@
     "league": "England - Premier League",
     "team1": {
       "name": "Fulham",
-      "logo": "https://img2.sport-tv-guide.live/images/team-fulham-30.png"
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/43/image"
     },
     "team2": {
       "name": "Aston Villa",
-      "logo": "https://img2.sport-tv-guide.live/images/team-astonvilla-33.png"
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/40/image"
     },
     "kickoff_date": "2026-04-25",
     "kickoff_time": "18:30",
@@ -6629,6 +6424,14 @@
         "label": "CH-UK"
       },
       {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9VU0FOZXR3b3JrW1VTQV0=",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVByZW1pdW0xW1NlcmJpYV0=",
+        "label": "CH-NA"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0UHJlbWllckxlYWd1ZVtTb3V0aEFmcmljYV0=",
         "label": "CH-NA"
       },
@@ -6637,12 +6440,8 @@
         "label": "CH-ES"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVByZW1pdW0xW1NlcmJpYV0=",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOW0FyZ2VudGluYV0=",
         "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9VU0FOZXR3b3JrW1VTQV0=",
-        "label": "CH-US"
       }
     ]
   },
@@ -6895,6 +6694,10 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0TGFMaWdhW1NvdXRoQWZyaWNhXQ==",
         "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOW0FyZ2VudGluYV0=",
+        "label": "CH-NA"
       }
     ]
   },
@@ -7118,6 +6921,10 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNNaXhbVUtd",
         "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVNwb3J0M1tTZXJiaWFd",
+        "label": "CH-NA"
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTg5NDQwNw==",
@@ -7376,10 +7183,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNPbmVbVUtd",
-        "label": "CH-UK"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
         "label": "CH-UK"
       },
@@ -7389,6 +7192,10 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Db3Ntb3RlU3BvcnQzW0dyZWVjZV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOW0FyZ2VudGluYV0=",
         "label": "CH-NA"
       }
     ]
@@ -7446,7 +7253,12 @@
     "match_date": "2026-04-25",
     "match_time": "20:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVNwb3J0M1tTZXJiaWFd",
+        "label": "CH-NA"
+      }
+    ]
   },
   {
     "id": "Huesca-RealZaragoza",
@@ -7490,6 +7302,10 @@
     "match_time": "01:25",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVNwb3J0M1tTZXJiaWFd",
+        "label": "CH-NA"
+      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTg5NDM5Ng==",
         "label": "CH-NA"
@@ -7545,7 +7361,12 @@
     "match_date": "2026-04-25",
     "match_time": "18:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVNwb3J0M1tTZXJiaWFd",
+        "label": "CH-NA"
+      }
+    ]
   },
   {
     "id": "Sainttienne-Troyes",
@@ -7917,7 +7738,7 @@
     "sport": "Football",
     "league": "Baller League Uk",
     "team1": {
-      "name": "Yanited",
+      "name": "Young Boys",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1080581/image"
     },
     "team2": {
@@ -8487,6 +8308,30 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg2NDY0Nw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "WilliamBushamuka-BillySuarez",
+    "sport": "Tennis",
+    "league": "Cote d Ivoire - Qualifying",
+    "team1": {
+      "name": "William Bushamuka",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/102117/image"
+    },
+    "team2": {
+      "name": "Billy Suarez",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/932315/image"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "03:10",
+    "match_date": "2026-04-27",
+    "match_time": "03:05",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NzI4OA==",
         "label": "CH-NA"
       }
     ]
@@ -9380,38 +9225,6 @@
     ]
   },
   {
-    "id": "ClevelandGuardians-TampaBayRays",
-    "sport": "Baseball",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Cleveland Cavaliers",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3650/image"
-    },
-    "team2": {
-      "name": "Tampa Bay Rays",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3653/image"
-    },
-    "kickoff_date": "2026-04-28",
-    "kickoff_time": "05:10",
-    "match_date": "2026-04-28",
-    "match_time": "05:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9GT1hTcG9ydHMxW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DbGV2ZWxhbmQgR3VhcmRpYW5z",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UYW1wYSBCYXkgUmF5cw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
     "id": "PittsburghPirates-StLouisCardinals",
     "sport": "Baseball",
     "league": "USA - MLB",
@@ -9435,34 +9248,6 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdC4gTG91aXMgQ2FyZGluYWxz",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "TorontoBlueJays-BostonRedSox",
-    "sport": "Baseball",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Washington Nationals",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3642/image"
-    },
-    "team2": {
-      "name": "Boston Celtics",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3646/image"
-    },
-    "kickoff_date": "2026-04-28",
-    "kickoff_time": "06:07",
-    "match_date": "2026-04-28",
-    "match_time": "06:02",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Cb3N0b24gUmVkIFNveA==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ub3JvbnRvIEJsdWUgSmF5cw==",
         "label": "CH-NA"
       }
     ]
@@ -9662,1094 +9447,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNNaXhbVUtd",
         "label": "CH-UK"
-      }
-    ]
-  },
-  {
-    "id": "FCerundoloTMEtcheverry-FCabralJSalisbury",
-    "sport": "Tennis",
-    "league": "Spain - ATP Madrid (Double)",
-    "team1": {
-      "name": "F.Cerundolo/T.M.Etcheverry",
-      "logo": ""
-    },
-    "team2": {
-      "name": "F.Cabral/J.Salisbury",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:15",
-    "match_date": "2026-04-26",
-    "match_time": "21:10",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg2MDgxMA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "FionaPradt-IsabellaShinikova",
-    "sport": "Tennis",
-    "league": "Germany - ITF Qualifiers",
-    "team1": {
-      "name": "Fiona Pradt",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1219288/image"
-    },
-    "team2": {
-      "name": "Isabella Shinikova",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/47876/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:29",
-    "match_date": "2026-04-26",
-    "match_time": "21:24",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NzMyOQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "SyntainicsMBC-Wurzburg",
-    "sport": "Basketball",
-    "league": "Germany - Basketball Bundesliga",
-    "team1": {
-      "name": "Syntainics MBC",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3525/image"
-    },
-    "team2": {
-      "name": "Würzburg Kickers",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1110940/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:30",
-    "match_date": "2026-04-26",
-    "match_time": "21:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM0OTQ1OA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Xamax-Bellinzona",
-    "sport": "Football",
-    "league": "Switzerland - Challenge League",
-    "team1": {
-      "name": "Xamax Neuchâtel",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2451/image"
-    },
-    "team2": {
-      "name": "Bellinzona",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2459/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:30",
-    "match_date": "2026-04-26",
-    "match_time": "21:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM1MDE4Nw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "RotWeissEssen-Saarbrucken",
-    "sport": "Football",
-    "league": "Germany - 3. Liga",
-    "team1": {
-      "name": "Rot Weiss Essen",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2562/image"
-    },
-    "team2": {
-      "name": "Saarbrücken",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/200708/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:30",
-    "match_date": "2026-04-26",
-    "match_time": "21:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM5NzMzOQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "AtleticoValladolid-BidasoaIrun",
-    "sport": "Handball",
-    "league": "Spain - Asobal",
-    "team1": {
-      "name": "Real Valladolid",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/297415/image"
-    },
-    "team2": {
-      "name": "Bidasoa",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3970/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:30",
-    "match_date": "2026-04-26",
-    "match_time": "21:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjQ1Mzc2MA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "HannoverBurgdorf-Lemgo",
-    "sport": "Handball",
-    "league": "Germany - Bundesliga",
-    "team1": {
-      "name": "Hannover 96",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5447/image"
-    },
-    "team2": {
-      "name": "Lemgo FC",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3996/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:30",
-    "match_date": "2026-04-26",
-    "match_time": "21:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjQ2NjA2Mg==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "YoungBoys-StGallen",
-    "sport": "Football",
-    "league": "Swiss - Super League - Gr. Championship",
-    "team1": {
-      "name": "Young Boys",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2445/image"
-    },
-    "team2": {
-      "name": "FC St. Gallen",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2442/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:30",
-    "match_date": "2026-04-26",
-    "match_time": "21:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2MzUzMQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Servette-Winterthur",
-    "sport": "Football",
-    "league": "Swiss - Super League - Gr.Retrogradare",
-    "team1": {
-      "name": "Servette",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2448/image"
-    },
-    "team2": {
-      "name": "FC Winterthur",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2458/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:30",
-    "match_date": "2026-04-26",
-    "match_time": "21:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2MzUzMg==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "EisbarenBerlin-AdlerMannheim",
-    "sport": "Ice Hockey",
-    "league": "Germany - DEL",
-    "team1": {
-      "name": "Eisbären Berlin",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Adler Mannheim",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:30",
-    "match_date": "2026-04-26",
-    "match_time": "21:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjgwNTgxMw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Unstoppable-SlivenBasket",
-    "sport": "Basketball",
-    "league": "Bulgaria - Bbl",
-    "team1": {
-      "name": "Unstoppable",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/930628/image"
-    },
-    "team2": {
-      "name": "Sliven 2020",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/930622/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:30",
-    "match_date": "2026-04-26",
-    "match_time": "21:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjgxMTQ5Mg==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "UEikeriQGleason-CGauffRMontgomery",
-    "sport": "Tennis",
-    "league": "Spain - WTA Madrid",
-    "team1": {
-      "name": "Ullensaker/Kisa IL",
-      "logo": ""
-    },
-    "team2": {
-      "name": "C.Gauff/R.Montgomery",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:30",
-    "match_date": "2026-04-26",
-    "match_time": "21:25",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3MjU2Mg==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "SadaNahimana-PolinaSkliar",
-    "sport": "Tennis",
-    "league": "Germany - ITF Qualifiers",
-    "team1": {
-      "name": "Sada",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/210717/image"
-    },
-    "team2": {
-      "name": "Polina Skliar",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1089379/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:12",
-    "match_date": "2026-04-26",
-    "match_time": "21:07",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NTgwMQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "RIwanagaKNakanishi-YBektasBErcetin",
-    "sport": "Badminton",
-    "league": "Indonesia - Thomas Cup",
-    "team1": {
-      "name": "R.Iwanaga/K.Nakanishi",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Y. Bektas/B. Ercetin",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:40",
-    "match_date": "2026-04-26",
-    "match_time": "21:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg4NTA4Mw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "UtrechtW-TwenteW",
-    "sport": "Football",
-    "league": "Netherlands - Eredivisie (W)",
-    "team1": {
-      "name": "Utrecht (Women)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Twente",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:45",
-    "match_date": "2026-04-26",
-    "match_time": "21:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY0NzM1Ng==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "NACBredaW-HeraUnitedW",
-    "sport": "Football",
-    "league": "Netherlands - Eredivisie (W)",
-    "team1": {
-      "name": "NAC Breda",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Hera United",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1125049/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:45",
-    "match_date": "2026-04-26",
-    "match_time": "21:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY0NzM4Ng==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "AZAlkmaarW-ADODenHaagW",
-    "sport": "Football",
-    "league": "Netherlands - Eredivisie (W)",
-    "team1": {
-      "name": "AZ Alkmaar",
-      "logo": ""
-    },
-    "team2": {
-      "name": "ADO Den Haag",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:45",
-    "match_date": "2026-04-26",
-    "match_time": "21:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2MzUzNA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "ZwolleW-ExcelsiorW",
-    "sport": "Football",
-    "league": "Netherlands - Eredivisie (W)",
-    "team1": {
-      "name": "PEC Zwolle",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1117232/image"
-    },
-    "team2": {
-      "name": "Excelsior",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:45",
-    "match_date": "2026-04-26",
-    "match_time": "21:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2MzUzNQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "JulieBelgraver-AstridLewYanFoon",
-    "sport": "Tennis",
-    "league": "France - WTA 125",
-    "team1": {
-      "name": "Julie Belgraver",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/233694/image"
-    },
-    "team2": {
-      "name": "Astrid Lew Yan Foon",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/377956/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:00",
-    "match_date": "2026-04-26",
-    "match_time": "20:55",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NTMwNg==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "HamKam-Start",
-    "sport": "Football",
-    "league": "Norway - Eliteserien",
-    "team1": {
-      "name": "HamKam",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/666/image"
-    },
-    "team2": {
-      "name": "Start Kristiansand",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/667/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTkwMzMzMA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Tromso-Sandefjord",
-    "sport": "Football",
-    "league": "Norway - Eliteserien",
-    "team1": {
-      "name": "Tromsø IL",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Sandefjord Fotball",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/676/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTkwMzMzMg==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Aalesund-Kristiansund",
-    "sport": "Football",
-    "league": "Norway - Eliteserien",
-    "team1": {
-      "name": "Aalesund FK",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/677/image"
-    },
-    "team2": {
-      "name": "Kristiansund BK",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/957/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTkwMzMzNA==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2Mzc4Ng==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "SturmGraz-AustriaViena",
-    "sport": "Football",
-    "league": "Austria - BundesLeague Gr.Championship",
-    "team1": {
-      "name": "Sturm Graz",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2051/image"
-    },
-    "team2": {
-      "name": "Austria Vienna",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2203/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM1MDE5OQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "BasketsKoblenz-Bayreuth",
-    "sport": "Basketball",
-    "league": "Germany - ProA",
-    "team1": {
-      "name": "Koblenz",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/404450/image"
-    },
-    "team2": {
-      "name": "Bayreuth",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/35347/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM5OTM3OQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "RheinStarsKoln-NurnbergFalcons",
-    "sport": "Basketball",
-    "league": "Germany - ProA",
-    "team1": {
-      "name": "Rhein-Neckar Lowen",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/207253/image"
-    },
-    "team2": {
-      "name": "Nurnberg",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/80755/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM5OTM4MA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "SaintRaphael-SelEastat",
-    "sport": "Handball",
-    "league": "France - Starligue",
-    "team1": {
-      "name": "Saint-Raphaël",
-      "logo": ""
-    },
-    "team2": {
-      "name": "SelEastat",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjQwODUxOQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Stuttgart-Magdeburg",
-    "sport": "Handball",
-    "league": "Germany - Bundesliga",
-    "team1": {
-      "name": "VfB Stuttgart",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/6272/image"
-    },
-    "team2": {
-      "name": "Magdeburg",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3982/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjQ0MTMxMg==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "OdraOpole-PolandBytom",
-    "sport": "Football",
-    "league": "Poland - I League",
-    "team1": {
-      "name": "Odra Opole",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/7916/image"
-    },
-    "team2": {
-      "name": "Polonia Bytom",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjQ2OTQ5OQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "TatranPresov-Trencin",
-    "sport": "Football",
-    "league": "Slovakia - 1. League - Gr. Retrogradare",
-    "team1": {
-      "name": "Tatran Prešov",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2403/image"
-    },
-    "team2": {
-      "name": "Trenčín",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1112958/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjQ5MjA4NA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Varese-Cremona",
-    "sport": "Basketball",
-    "league": "Italy - Serie A",
-    "team1": {
-      "name": "Varese Calcio",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3576/image"
-    },
-    "team2": {
-      "name": "Cremonese",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/37490/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjYwMzY4Mw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "BullsKapfenberg-ArkadiaTraiskirchen",
-    "sport": "Basketball",
-    "league": "Austria - ABL Playoff",
-    "team1": {
-      "name": "Kapfenberg",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5688/image"
-    },
-    "team2": {
-      "name": "SKN St. Pölten",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY0OTg3Mg==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "OrleansLoiret-VendeeChallans",
-    "sport": "Basketball",
-    "league": "France - LNB Pro B",
-    "team1": {
-      "name": "Orléans",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/6395/image"
-    },
-    "team2": {
-      "name": "Vendée Challans",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/300929/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2MzYxMw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Moss-LynFK",
-    "sport": "Football",
-    "league": "Norway - 1.Division",
-    "team1": {
-      "name": "Moss FK",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/662/image"
-    },
-    "team2": {
-      "name": "Lyn 1896",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/657/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2Mzc4Mw==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzRkYWIxOWRh",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Raufoss-Hodd",
-    "sport": "Football",
-    "league": "Norway - 1.Division",
-    "team1": {
-      "name": "Raufoss",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/668/image"
-    },
-    "team2": {
-      "name": "Hødd",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2Mzc4NA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Sandnes-Stromsgodset",
-    "sport": "Football",
-    "league": "Norway - 1.Division",
-    "team1": {
-      "name": "Sandnes Ulf",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/929/image"
-    },
-    "team2": {
-      "name": "Stromsgodset IF",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2Mzc4NQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Balti-Milsami",
-    "sport": "Football",
-    "league": "Moldova - Super League",
-    "team1": {
-      "name": "Balti",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/7517/image"
-    },
-    "team2": {
-      "name": "Milsami Orhei",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/53475/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2Mzc5MA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "RigaFCII-JFKVentspils",
-    "sport": "Football",
-    "league": "Latvia - 1. League",
-    "team1": {
-      "name": "Riga FC",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/411588/image"
-    },
-    "team2": {
-      "name": "JFK Olimps/RFS",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/467723/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2Mzc5Nw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "FCSpaeri-DilaGori",
-    "sport": "Football",
-    "league": "Georgia - Erovnuli League",
-    "team1": {
-      "name": "Spaeri",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/307794/image"
-    },
-    "team2": {
-      "name": "Dila Gori",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/33819/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2MzgwMw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "DynamoPardubice-OcelariTrinec",
-    "sport": "Ice Hockey",
-    "league": "Czech Republic - ExtraLeague",
-    "team1": {
-      "name": "Dynamo Pardubice",
-      "logo": ""
-    },
-    "team2": {
-      "name": "FC Trinec",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjczNTQxOQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "UUKorihaitUusikaupunki-SalonVilpas",
-    "sport": "Basketball",
-    "league": "Finland - KorisLeague",
-    "team1": {
-      "name": "UU-Korihait",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/6519/image"
-    },
-    "team2": {
-      "name": "HIFK",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/35522/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjgyMzczNw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "Politehnika-Haskovo",
-    "sport": "Basketball",
-    "league": "Bulgaria - Bbl",
-    "team1": {
-      "name": "Politehnika",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/395046/image"
-    },
-    "team2": {
-      "name": "Haskovo",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/930626/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjgyNDY3NQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "EvaVedder-AmeliaHoner",
-    "sport": "Tennis",
-    "league": "USA - ITF (W)",
-    "team1": {
-      "name": "Eva Vedder",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/201729/image"
-    },
-    "team2": {
-      "name": "Amelia Honer",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/391875/image"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:06",
-    "match_date": "2026-04-26",
-    "match_time": "22:01",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NzAxNw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "KKrawietzTPuetz-TGriekspoorBNakashima",
-    "sport": "Tennis",
-    "league": "Spain - ATP Madrid (Double)",
-    "team1": {
-      "name": "Kevin Krawietz/Tim Puetz",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Tallon Griekspoor",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg2MDgxMQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "ASutjiadiJTjen-CBucsaNMelicharMartinez",
-    "sport": "Tennis",
-    "league": "Spain - WTA Madrid",
-    "team1": {
-      "name": "PSM Makassar",
-      "logo": ""
-    },
-    "team2": {
-      "name": "C.Bucsa/N.Melichar-Martinez",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:30",
-    "match_date": "2026-04-26",
-    "match_time": "22:25",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3MTg0Nw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "DominicStephanStricker-MatyasCerny",
-    "sport": "Tennis",
-    "league": "Czech Republic - Challenger",
-    "team1": {
-      "name": "Dominic Stephan Stricker",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/296369/image"
-    },
-    "team2": {
-      "name": "Martin Damm",
-      "logo": ""
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:00",
-    "match_date": "2026-04-26",
-    "match_time": "21:55",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NjcwNw==",
-        "label": "CH-NA"
       }
     ]
   },
@@ -12544,7 +11241,7 @@
   {
     "id": "AndersAntonsen-GustavBjorkler",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Anders Antonsen",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/215405/image"
@@ -12792,7 +11489,7 @@
   {
     "id": "IzvidacLjubuski-Tatabanya",
     "sport": "Handball",
-    "league": "Ehf - European Cup",
+    "league": "Europe - EHF European Cup",
     "team1": {
       "name": "Igman Izvidac Ljubuski",
       "logo": ""
@@ -12831,10 +11528,6 @@
     "match_time": "00:55",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=86",
-        "label": "CH-ES"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjYzOTQzNA==",
         "label": "CH-NA"
@@ -12889,6 +11582,30 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2Mzk1Mg==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "KAAkureyri-Keflavik",
+    "sport": "Football",
+    "league": "Iceland - Urvalsdeild",
+    "team1": {
+      "name": "Akureyri",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1904/image"
+    },
+    "team2": {
+      "name": "Keflavík",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/48029/image"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "01:00",
+    "match_date": "2026-04-27",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2NDA5Mw==",
         "label": "CH-NA"
       }
     ]
@@ -12959,10 +11676,6 @@
     "match_time": "01:10",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=84",
-        "label": "CH-ES"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjUzNjg4OA==",
         "label": "CH-NA"
@@ -13566,7 +12279,7 @@
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/424070/image"
     },
     "team2": {
-      "name": "Uruguay Coronado",
+      "name": "Coronado",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/75251/image"
     },
     "kickoff_date": "2026-04-27",
@@ -13577,6 +12290,54 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjcwNjAyNA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "RealKoyari-FCSanNicolas",
+    "sport": "Football",
+    "league": "Aruba - Division de Onoare",
+    "team1": {
+      "name": "Real Tomayapo",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/497285/image"
+    },
+    "team2": {
+      "name": "FC San Nicolas",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1160719/image"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "03:00",
+    "match_date": "2026-04-27",
+    "match_time": "02:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjgyNDczMA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "StPetersFC-TgeDieppeBayEagles",
+    "sport": "Football",
+    "league": "Saint Kitts & Nevis - Premier League",
+    "team1": {
+      "name": "St. Peter's FC",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/53753/image"
+    },
+    "team2": {
+      "name": "Dieppe Bay Eagles",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "03:00",
+    "match_date": "2026-04-27",
+    "match_time": "02:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjgyNDczNA==",
         "label": "CH-NA"
       }
     ]
@@ -13601,30 +12362,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjgzNTEyOA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "YuHsunHuang-RachelChan",
-    "sport": "Badminton",
-    "league": "Indonesia - Uber Cup",
-    "team1": {
-      "name": "Yu-Hsun Huang",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/311374/image"
-    },
-    "team2": {
-      "name": "Rachel Chan",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/394484/image"
-    },
-    "kickoff_date": "2026-04-27",
-    "kickoff_time": "03:05",
-    "match_date": "2026-04-27",
-    "match_time": "03:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg4ODEzMA==",
         "label": "CH-NA"
       }
     ]
@@ -13658,9 +12395,89 @@
     ]
   },
   {
+    "id": "GuayaquilCity-TecnicoUniversitario",
+    "sport": "Football",
+    "league": "Ecuador - Serie A",
+    "team1": {
+      "name": "Guayaquil City SC",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/188850/image"
+    },
+    "team2": {
+      "name": "Técnico Universitario",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/21941/image"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "03:30",
+    "match_date": "2026-04-27",
+    "match_time": "03:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=86",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjYzOTQzNQ==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2E5ZmRlNWY3",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "SVNotch-FCInterWanica",
+    "sport": "Football",
+    "league": "Suriname - Major League",
+    "team1": {
+      "name": "SV Notch",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/410518/image"
+    },
+    "team2": {
+      "name": "FC Inter Wanica",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/410520/image"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "03:30",
+    "match_date": "2026-04-27",
+    "match_time": "03:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjc5ODk3Ng==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "YuHsunHuang-RachelChan",
+    "sport": "Badminton",
+    "league": "Indonesia - Uber Cup",
+    "team1": {
+      "name": "Yu-Hsun Huang",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/311374/image"
+    },
+    "team2": {
+      "name": "Rachel Chan",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/394484/image"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "03:05",
+    "match_date": "2026-04-27",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg4ODEzMA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "DitlevJaegerHolm-RomeoMakboul",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Ditlev Jaeger Holm",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/251253/image"
@@ -13701,6 +12518,34 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjcyMDE2MQ==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2Y2YjZkMWFi",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "MattKuhar-ElijahSanogo",
+    "sport": "Tennis",
+    "league": "Challenger Abidjan (CIV) Qualifiers",
+    "team1": {
+      "name": "Matt Kuhar",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/199448/image"
+    },
+    "team2": {
+      "name": "Elijah Sanogo",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1123569/image"
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "03:00",
+    "match_date": "2026-04-27",
+    "match_time": "02:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NzI4Mw==",
         "label": "CH-NA"
       }
     ]
@@ -13950,6 +12795,10 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2NDMwNQ==",
         "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzE5MWYyZTk1",
+        "label": "CH-NA"
       }
     ]
   },
@@ -13977,6 +12826,10 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTkwMzM0Mw==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2FmNzMzNjg5",
         "label": "CH-NA"
       }
     ]
@@ -14182,7 +13035,7 @@
     "sport": "Basketball",
     "league": "Puerto Rico - Superior Nacional",
     "team1": {
-      "name": "Cangrejeros Santurce",
+      "name": "Cangrejeros de Santurce",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/176000/image"
     },
     "team2": {
@@ -15102,6 +13955,78 @@
     ]
   },
   {
+    "id": "Belgrano-GimnasiaLP",
+    "sport": "Football",
+    "league": "Argentina Liga Profesional",
+    "team1": {
+      "name": "Belgrano Cordoba",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3203/image"
+    },
+    "team2": {
+      "name": "Gimnasia LP",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "03:30",
+    "match_date": "2026-04-27",
+    "match_time": "03:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=76",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2RiZGRjMGMx",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "AFS-SportingLisbon",
+    "sport": "Football",
+    "league": "Portugal - Primeira Liga",
+    "team1": {
+      "name": "AFS",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/493909/image"
+    },
+    "team2": {
+      "name": "Sporting CP",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-27",
+    "kickoff_time": "02:30",
+    "match_date": "2026-04-27",
+    "match_time": "02:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=2",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=125",
+        "label": "CH-DE"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=145",
+        "label": "CH-PT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2ZkZTNkY2M4",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzYyYWJmM2Yy",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "NascarCupSeriesJackLink500",
     "sport": "Motorsport",
     "league": "Nascar",
@@ -15152,7 +14077,7 @@
   {
     "id": "GolfLPGATheChevronChampionship",
     "sport": "Golf",
-    "league": "Golf Lpga",
+    "league": "USA - LPGA",
     "team1": {
       "name": "Golf LPGA The Chevron Championship",
       "logo": null
@@ -15169,6 +14094,1094 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzU4OTgzOGUz",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "HamKam-Start",
+    "sport": "Football",
+    "league": "Norway - Eliteserien",
+    "team1": {
+      "name": "HamKam",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/666/image"
+    },
+    "team2": {
+      "name": "Start Kristiansand",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/667/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTkwMzMzMA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Tromso-Sandefjord",
+    "sport": "Football",
+    "league": "Norway - Eliteserien",
+    "team1": {
+      "name": "Tromsø IL",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Sandefjord Fotball",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/676/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTkwMzMzMg==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Aalesund-Kristiansund",
+    "sport": "Football",
+    "league": "Norway - Eliteserien",
+    "team1": {
+      "name": "Aalesund FK",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/677/image"
+    },
+    "team2": {
+      "name": "Kristiansund BK",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/957/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMTkwMzMzNA==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2Mzc4Ng==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "SturmGraz-AustriaViena",
+    "sport": "Football",
+    "league": "Austria - BundesLeague Gr.Championship",
+    "team1": {
+      "name": "Sturm Graz",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2051/image"
+    },
+    "team2": {
+      "name": "Austria Vienna",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2203/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM1MDE5OQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "BasketsKoblenz-Bayreuth",
+    "sport": "Basketball",
+    "league": "Germany - ProA",
+    "team1": {
+      "name": "Koblenz",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/404450/image"
+    },
+    "team2": {
+      "name": "Bayreuth",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/35347/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM5OTM3OQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "RheinStarsKoln-NurnbergFalcons",
+    "sport": "Basketball",
+    "league": "Germany - ProA",
+    "team1": {
+      "name": "Rhein-Neckar Lowen",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/207253/image"
+    },
+    "team2": {
+      "name": "Nurnberg",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/80755/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM5OTM4MA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "SaintRaphael-SelEastat",
+    "sport": "Handball",
+    "league": "France - Starligue",
+    "team1": {
+      "name": "Saint-Raphaël",
+      "logo": ""
+    },
+    "team2": {
+      "name": "SelEastat",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjQwODUxOQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Stuttgart-Magdeburg",
+    "sport": "Handball",
+    "league": "Germany - Bundesliga",
+    "team1": {
+      "name": "VfB Stuttgart",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/6272/image"
+    },
+    "team2": {
+      "name": "Magdeburg",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3982/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjQ0MTMxMg==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "OdraOpole-PolandBytom",
+    "sport": "Football",
+    "league": "Poland - I League",
+    "team1": {
+      "name": "Odra Opole",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/7916/image"
+    },
+    "team2": {
+      "name": "Polonia Bytom",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjQ2OTQ5OQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "TatranPresov-Trencin",
+    "sport": "Football",
+    "league": "Slovakia - 1. League - Gr. Retrogradare",
+    "team1": {
+      "name": "Tatran Prešov",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2403/image"
+    },
+    "team2": {
+      "name": "Trenčín",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1112958/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjQ5MjA4NA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Varese-Cremona",
+    "sport": "Basketball",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Varese Calcio",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3576/image"
+    },
+    "team2": {
+      "name": "Cremonese",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/37490/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjYwMzY4Mw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "BullsKapfenberg-ArkadiaTraiskirchen",
+    "sport": "Basketball",
+    "league": "Austria - ABL Playoff",
+    "team1": {
+      "name": "Kapfenberg",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5688/image"
+    },
+    "team2": {
+      "name": "SKN St. Pölten",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY0OTg3Mg==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "OrleansLoiret-VendeeChallans",
+    "sport": "Basketball",
+    "league": "France - LNB Pro B",
+    "team1": {
+      "name": "Orléans",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/6395/image"
+    },
+    "team2": {
+      "name": "Vendée Challans",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/300929/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2MzYxMw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Moss-LynFK",
+    "sport": "Football",
+    "league": "Norway - 1.Division",
+    "team1": {
+      "name": "Moss FK",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/662/image"
+    },
+    "team2": {
+      "name": "Lyn 1896",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/657/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2Mzc4Mw==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzRkYWIxOWRh",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Raufoss-Hodd",
+    "sport": "Football",
+    "league": "Norway - 1.Division",
+    "team1": {
+      "name": "Raufoss",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/668/image"
+    },
+    "team2": {
+      "name": "Hødd",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2Mzc4NA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Sandnes-Stromsgodset",
+    "sport": "Football",
+    "league": "Norway - 1.Division",
+    "team1": {
+      "name": "Sandnes Ulf",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/929/image"
+    },
+    "team2": {
+      "name": "Stromsgodset IF",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2Mzc4NQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Balti-Milsami",
+    "sport": "Football",
+    "league": "Moldova - Super League",
+    "team1": {
+      "name": "Balti",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/7517/image"
+    },
+    "team2": {
+      "name": "Milsami Orhei",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/53475/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2Mzc5MA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "RigaFCII-JFKVentspils",
+    "sport": "Football",
+    "league": "Latvia - 1. League",
+    "team1": {
+      "name": "Riga FC",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/411588/image"
+    },
+    "team2": {
+      "name": "JFK Olimps/RFS",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/467723/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2Mzc5Nw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "FCSpaeri-DilaGori",
+    "sport": "Football",
+    "league": "Georgia - Erovnuli League",
+    "team1": {
+      "name": "Spaeri",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/307794/image"
+    },
+    "team2": {
+      "name": "Dila Gori",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/33819/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2MzgwMw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "DynamoPardubice-OcelariTrinec",
+    "sport": "Ice Hockey",
+    "league": "Czech Republic - ExtraLeague",
+    "team1": {
+      "name": "Dynamo Pardubice",
+      "logo": ""
+    },
+    "team2": {
+      "name": "FC Trinec",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjczNTQxOQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "UUKorihaitUusikaupunki-SalonVilpas",
+    "sport": "Basketball",
+    "league": "Finland - KorisLeague",
+    "team1": {
+      "name": "UU-Korihait",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/6519/image"
+    },
+    "team2": {
+      "name": "HIFK",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/35522/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjgyMzczNw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Politehnika-Haskovo",
+    "sport": "Basketball",
+    "league": "Bulgaria - Bbl",
+    "team1": {
+      "name": "Politehnika",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/395046/image"
+    },
+    "team2": {
+      "name": "Haskovo",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/930626/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjgyNDY3NQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "EvaVedder-AmeliaHoner",
+    "sport": "Tennis",
+    "league": "USA - ITF (W)",
+    "team1": {
+      "name": "Eva Vedder",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/201729/image"
+    },
+    "team2": {
+      "name": "Amelia Honer",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/391875/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:06",
+    "match_date": "2026-04-26",
+    "match_time": "22:01",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NzAxNw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "KKrawietzTPuetz-TGriekspoorBNakashima",
+    "sport": "Tennis",
+    "league": "Spain - ATP Madrid (Double)",
+    "team1": {
+      "name": "Kevin Krawietz/Tim Puetz",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Tallon Griekspoor",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg2MDgxMQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "ASutjiadiJTjen-CBucsaNMelicharMartinez",
+    "sport": "Tennis",
+    "league": "Spain - WTA Madrid",
+    "team1": {
+      "name": "PSM Makassar",
+      "logo": ""
+    },
+    "team2": {
+      "name": "C.Bucsa/N.Melichar-Martinez",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:30",
+    "match_date": "2026-04-26",
+    "match_time": "22:25",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3MTg0Nw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "DominicStephanStricker-MatyasCerny",
+    "sport": "Tennis",
+    "league": "Czech Republic - Challenger",
+    "team1": {
+      "name": "Dominic Stephan Stricker",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/296369/image"
+    },
+    "team2": {
+      "name": "Martin Damm",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "22:00",
+    "match_date": "2026-04-26",
+    "match_time": "21:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NjcwNw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "RIwanagaKNakanishi-YBektasBErcetin",
+    "sport": "Badminton",
+    "league": "Indonesia - Thomas Cup",
+    "team1": {
+      "name": "R.Iwanaga/K.Nakanishi",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Y. Bektas/B. Ercetin",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:40",
+    "match_date": "2026-04-26",
+    "match_time": "21:35",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg4NTA4Mw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "UtrechtW-TwenteW",
+    "sport": "Football",
+    "league": "Netherlands - Eredivisie (W)",
+    "team1": {
+      "name": "Utrecht (Women)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Twente",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:45",
+    "match_date": "2026-04-26",
+    "match_time": "21:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY0NzM1Ng==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "NACBredaW-HeraUnitedW",
+    "sport": "Football",
+    "league": "Netherlands - Eredivisie (W)",
+    "team1": {
+      "name": "NAC Breda",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Hera United",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1125049/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:45",
+    "match_date": "2026-04-26",
+    "match_time": "21:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY0NzM4Ng==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "AZAlkmaarW-ADODenHaagW",
+    "sport": "Football",
+    "league": "Netherlands - Eredivisie (W)",
+    "team1": {
+      "name": "AZ Alkmaar",
+      "logo": ""
+    },
+    "team2": {
+      "name": "ADO Den Haag",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:45",
+    "match_date": "2026-04-26",
+    "match_time": "21:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2MzUzNA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "ZwolleW-ExcelsiorW",
+    "sport": "Football",
+    "league": "Netherlands - Eredivisie (W)",
+    "team1": {
+      "name": "PEC Zwolle",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1117232/image"
+    },
+    "team2": {
+      "name": "Excelsior",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:45",
+    "match_date": "2026-04-26",
+    "match_time": "21:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2MzUzNQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "JulieBelgraver-AstridLewYanFoon",
+    "sport": "Tennis",
+    "league": "France - WTA 125",
+    "team1": {
+      "name": "Julie Belgraver",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/233694/image"
+    },
+    "team2": {
+      "name": "Astrid Lew Yan Foon",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/377956/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:00",
+    "match_date": "2026-04-26",
+    "match_time": "20:55",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NTMwNg==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "FCerundoloTMEtcheverry-FCabralJSalisbury",
+    "sport": "Tennis",
+    "league": "Spain - ATP Madrid (Double)",
+    "team1": {
+      "name": "F.Cerundolo/T.M.Etcheverry",
+      "logo": ""
+    },
+    "team2": {
+      "name": "F.Cabral/J.Salisbury",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:15",
+    "match_date": "2026-04-26",
+    "match_time": "21:10",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg2MDgxMA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "FionaPradt-IsabellaShinikova",
+    "sport": "Tennis",
+    "league": "Germany - ITF Qualifiers",
+    "team1": {
+      "name": "Fiona Pradt",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1219288/image"
+    },
+    "team2": {
+      "name": "Isabella Shinikova",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/47876/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:29",
+    "match_date": "2026-04-26",
+    "match_time": "21:24",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NzMyOQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "SyntainicsMBC-Wurzburg",
+    "sport": "Basketball",
+    "league": "Germany - Basketball Bundesliga",
+    "team1": {
+      "name": "Syntainics MBC",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3525/image"
+    },
+    "team2": {
+      "name": "Würzburg Kickers",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1110940/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:30",
+    "match_date": "2026-04-26",
+    "match_time": "21:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM0OTQ1OA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Xamax-Bellinzona",
+    "sport": "Football",
+    "league": "Switzerland - Challenge League",
+    "team1": {
+      "name": "Xamax Neuchâtel",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2451/image"
+    },
+    "team2": {
+      "name": "Bellinzona",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2459/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:30",
+    "match_date": "2026-04-26",
+    "match_time": "21:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM1MDE4Nw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "RotWeissEssen-Saarbrucken",
+    "sport": "Football",
+    "league": "Germany - 3. Liga",
+    "team1": {
+      "name": "Rot Weiss Essen",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2562/image"
+    },
+    "team2": {
+      "name": "Saarbrücken",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/200708/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:30",
+    "match_date": "2026-04-26",
+    "match_time": "21:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM5NzMzOQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "AtleticoValladolid-BidasoaIrun",
+    "sport": "Handball",
+    "league": "Spain - Asobal",
+    "team1": {
+      "name": "Real Valladolid",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/297415/image"
+    },
+    "team2": {
+      "name": "Bidasoa",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3970/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:30",
+    "match_date": "2026-04-26",
+    "match_time": "21:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjQ1Mzc2MA==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "HannoverBurgdorf-Lemgo",
+    "sport": "Handball",
+    "league": "Germany - Bundesliga",
+    "team1": {
+      "name": "Hannover 96",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5447/image"
+    },
+    "team2": {
+      "name": "Lemgo FC",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3996/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:30",
+    "match_date": "2026-04-26",
+    "match_time": "21:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjQ2NjA2Mg==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "YoungBoys-StGallen",
+    "sport": "Football",
+    "league": "Swiss - Super League - Gr. Championship",
+    "team1": {
+      "name": "Young Boys",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2445/image"
+    },
+    "team2": {
+      "name": "FC St. Gallen",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2442/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:30",
+    "match_date": "2026-04-26",
+    "match_time": "21:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2MzUzMQ==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Servette-Winterthur",
+    "sport": "Football",
+    "league": "Swiss - Super League - Gr.Retrogradare",
+    "team1": {
+      "name": "Servette",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2448/image"
+    },
+    "team2": {
+      "name": "FC Winterthur",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2458/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:30",
+    "match_date": "2026-04-26",
+    "match_time": "21:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjY2MzUzMg==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "EisbarenBerlin-AdlerMannheim",
+    "sport": "Ice Hockey",
+    "league": "Germany - DEL",
+    "team1": {
+      "name": "Eisbären Berlin",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Adler Mannheim",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:30",
+    "match_date": "2026-04-26",
+    "match_time": "21:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjgwNTgxMw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Unstoppable-SlivenBasket",
+    "sport": "Basketball",
+    "league": "Bulgaria - Bbl",
+    "team1": {
+      "name": "Unstoppable",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/930628/image"
+    },
+    "team2": {
+      "name": "Sliven 2020",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/930622/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:30",
+    "match_date": "2026-04-26",
+    "match_time": "21:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjgxMTQ5Mg==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "UEikeriQGleason-CGauffRMontgomery",
+    "sport": "Tennis",
+    "league": "Spain - WTA Madrid",
+    "team1": {
+      "name": "Ullensaker/Kisa IL",
+      "logo": ""
+    },
+    "team2": {
+      "name": "C.Gauff/R.Montgomery",
+      "logo": ""
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:30",
+    "match_date": "2026-04-26",
+    "match_time": "21:25",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3MjU2Mg==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "SadaNahimana-PolinaSkliar",
+    "sport": "Tennis",
+    "league": "Germany - ITF Qualifiers",
+    "team1": {
+      "name": "Sada",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/210717/image"
+    },
+    "team2": {
+      "name": "Polina Skliar",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1089379/image"
+    },
+    "kickoff_date": "2026-04-26",
+    "kickoff_time": "21:12",
+    "match_date": "2026-04-26",
+    "match_time": "21:07",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NTgwMQ==",
         "label": "CH-NA"
       }
     ]
@@ -15538,7 +15551,7 @@
     "sport": "Football",
     "league": "Sweden - Ettan Sodra",
     "team1": {
-      "name": "Kristianstad FC",
+      "name": "Kristianstad",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1830/image"
     },
     "team2": {
@@ -17784,7 +17797,7 @@
   {
     "id": "MohZakiUbaidillah-TanawatYimjit",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "PSBS Biak Numfor",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/830391/image"
@@ -19416,10 +19429,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNPbmVbVUtd",
-        "label": "CH-UK"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNUd29bVUtd",
         "label": "CH-UK"
       },
@@ -19776,7 +19785,7 @@
   {
     "id": "AlwiFarhan-PanitchaphonTeeraratsakul",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Alwi Farhan",
       "logo": ""
@@ -20184,7 +20193,7 @@
   {
     "id": "MarkSelby-WuYize",
     "sport": "Snooker",
-    "league": "Championshipul Mondial 2026",
+    "league": "Romania - Championshipul Mondial",
     "team1": {
       "name": "Mark Selby",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/22459/image"
@@ -20208,7 +20217,7 @@
   {
     "id": "EnogatRoy-MohamedAbdelazizOuchefoun",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Enogat Roy",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/369986/image"
@@ -20736,7 +20745,7 @@
   {
     "id": "TomaJuniorPopov-MohamedABelarbi",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Toma Junior Popov",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/241059/image"
@@ -21224,7 +21233,7 @@
   {
     "id": "JonatanChristie-VitidsarnKunlavut",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Jonatan Christie",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/164088/image"
@@ -21272,7 +21281,7 @@
   {
     "id": "ChristoPopov-AdelHamek",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Christo Popov",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/275000/image"
@@ -25720,6 +25729,10 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg0NDg3NQ==",
         "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0TW90b3JzcG9ydFtTb3V0aEFmcmljYV0=",
+        "label": "CH-NA"
       }
     ]
   },
@@ -26374,7 +26387,7 @@
   {
     "id": "YudaiOkimoto-AnandaGalvaniDaniswara",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Yudai Okimoto",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/490101/image"
@@ -28013,6 +28026,10 @@
         "label": "CH-NA"
       },
       {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0TW90b3JzcG9ydFtTb3V0aEFmcmljYV0=",
+        "label": "CH-NA"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVNwb3J0OFtTZXJiaWFd",
         "label": "CH-NA"
       },
@@ -29562,7 +29579,7 @@
   {
     "id": "JohnHiggins-RonnieOSullivan",
     "sport": "Snooker",
-    "league": "Championshipul Mondial 2026",
+    "league": "Romania - Championshipul Mondial",
     "team1": {
       "name": "John Higgins",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/22449/image"
@@ -29586,7 +29603,7 @@
   {
     "id": "KokiWatanabe-ElielMelleri",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Koki Watanabe",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/212159/image"
@@ -30790,7 +30807,7 @@
   {
     "id": "KodaiNaraoka-JoakimOldorff",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Kodai Naraoka",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/212157/image"
@@ -32598,7 +32615,7 @@
   {
     "id": "ZiiJiaLee-NadeemDalvi",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Zii Jia Lee",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/244095/image"
@@ -33502,7 +33519,7 @@
   {
     "id": "HosseinVafaei-JuddTrump",
     "sport": "Snooker",
-    "league": "Championshipul Mondial 2026",
+    "league": "Romania - Championshipul Mondial",
     "team1": {
       "name": "Hossein Vafaei",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/55445/image"
@@ -33520,10 +33537,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg0NDEzNw==",
         "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNPbmVbVUtd",
-        "label": "CH-UK"
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNUd29bVUtd",
@@ -34730,7 +34743,7 @@
   {
     "id": "SholehAidil-CholanKayan",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Sholeh Aidil",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/320187/image"
@@ -36594,7 +36607,7 @@
   {
     "id": "JustinHoh-HarryHuang",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Justin Hoh",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/382660/image"
@@ -37218,7 +37231,7 @@
   {
     "id": "ChiaHaoLee-RomeoMakboul",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Chia Hao Lee",
       "logo": ""
@@ -37702,7 +37715,7 @@
   {
     "id": "ChrisWakelin-NeilRobertson",
     "sport": "Snooker",
-    "league": "Championshipul Mondial 2026",
+    "league": "Romania - Championshipul Mondial",
     "team1": {
       "name": "Chris Wakelin",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/130342/image"
@@ -38234,7 +38247,7 @@
   {
     "id": "ChiYuJen-KimLinell",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Chi Yu Jen",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/211891/image"
@@ -39150,7 +39163,7 @@
   {
     "id": "TienChenChou-GustavBjorkler",
     "sport": "Badminton",
-    "league": "Bwf Thomas Cup 2026",
+    "league": "Indonesia - Thomas Cup",
     "team1": {
       "name": "Tien Chen Chou",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/87480/image"
@@ -40750,7 +40763,7 @@
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/304387/image"
     },
     "team2": {
-      "name": "Cangrejeros Santurce",
+      "name": "Cangrejeros de Santurce",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/176000/image"
     },
     "kickoff_date": "2026-04-25",
@@ -41312,7 +41325,7 @@
   {
     "id": "GolfLPGATheChevronChampionship",
     "sport": "Golf",
-    "league": "Golf Lpga",
+    "league": "USA - LPGA",
     "team1": {
       "name": "Golf LPGA The Chevron Championship",
       "logo": null
@@ -42002,10 +42015,6 @@
         "label": "CH-UK"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNPbmVbVUtd",
-        "label": "CH-UK"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHM1W1VLXQ==",
         "label": "CH-UK"
       },
@@ -42407,29 +42416,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "ClevelandCavaliers-TorontoRaptors",
-    "league": "USA - NBA",
-    "team1": {
-      "name": "Cleveland Cavaliers",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png"
-    },
-    "team2": {
-      "name": "Toronto Raptors",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png"
-    },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "23:00",
-    "match_date": "2026-04-26",
-    "match_time": "22:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
         "label": "CH-EN"
       }
     ]
