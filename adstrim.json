@@ -75,10 +75,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UVUROW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
         "label": "CH-UK"
       },
@@ -387,6 +383,34 @@
     ]
   },
   {
+    "id": "ClevelandCavaliers-TorontoRaptors",
+    "sport": "Basketball",
+    "league": "NBA, Playoffs",
+    "team1": {
+      "name": "Cleveland Cavaliers",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3432/image"
+    },
+    "team2": {
+      "name": "Toronto Raptors",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3433/image"
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-04-30",
+    "match_time": "06:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DbGV2ZWxhbmQgQ2F2YWxpZXJz",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ub3JvbnRvIFJhcHRvcnM=",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "Feirense-Torreense",
     "sport": "Football",
     "league": "Liga Portugal 2",
@@ -590,201 +614,49 @@
     "servers": []
   },
   {
-    "id": "DenverNuggets-MinnesotaTimberwolvesENGHD",
-    "sport": "Basketball",
-    "league": "NBA Basketball",
+    "id": "HorseRacing",
+    "sport": "Horse Racing",
+    "league": "Horse Racing",
     "team1": {
-      "name": "Denver Nuggets",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3417/image"
-    },
-    "team2": {
-      "name": "Minnesota Timberwolves --- ENG HD",
-      "logo": null
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "09:30",
-    "match_date": "2026-04-29",
-    "match_time": "09:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2JmMDMwMmNi",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EZW52ZXIgTnVnZ2V0cw==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9NaW5uZXNvdGEgVGltYmVyd29sdmVz",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "DenverNuggets-MinnesotaTimberwolvesHD",
-    "sport": "Basketball",
-    "league": "NBA Basketball",
-    "team1": {
-      "name": "Denver Nuggets",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3417/image"
-    },
-    "team2": {
-      "name": "Minnesota Timberwolves --- HD",
-      "logo": null
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "09:30",
-    "match_date": "2026-04-29",
-    "match_time": "09:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzUxYjBkNWZk",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EZW52ZXIgTnVnZ2V0cw==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9NaW5uZXNvdGEgVGltYmVyd29sdmVz",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "WWEMondayNightRAWCH2HD",
-    "sport": "Wrestling",
-    "league": "WWE Wrestling",
-    "team1": {
-      "name": "WWE Monday Night RAW --- CH 2 HD",
+      "name": "Horse Racing",
       "logo": null
     },
     "team2": {
       "name": "",
       "logo": null
     },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "07:00",
-    "match_date": "2026-04-29",
-    "match_time": "07:00",
+    "kickoff_date": "2026-04-28",
+    "kickoff_time": "19:00",
+    "match_date": "2026-04-28",
+    "match_time": "19:00",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2U1YWY0MGQ2",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2U0YzlhNDJk",
         "label": "CH-NA"
       }
     ]
   },
   {
-    "id": "LosAngelesDodgers-MiamiMarlins",
-    "sport": "Baseball",
-    "league": "MLB",
+    "id": "SnookerWorldChampionshipTable2",
+    "sport": "Snooker",
+    "league": "Snooker",
     "team1": {
-      "name": "Los Angeles Dodgers",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3638/image"
+      "name": "Snooker World Championship --- Table 2",
+      "logo": null
     },
     "team2": {
-      "name": "Miami Marlins",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3639/image"
+      "name": "",
+      "logo": null
     },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "09:10",
-    "match_date": "2026-04-29",
-    "match_time": "09:10",
+    "kickoff_date": "2026-04-28",
+    "kickoff_time": "16:00",
+    "match_date": "2026-04-28",
+    "match_time": "16:00",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBEb2RnZXJz",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9NaWFtaSBNYXJsaW5z",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "MinnesotaTwins-SeattleMariners",
-    "sport": "Baseball",
-    "league": "MLB",
-    "team1": {
-      "name": "Minnesota Twins",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3649/image"
-    },
-    "team2": {
-      "name": "Seattle Mariners",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3641/image"
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "06:40",
-    "match_date": "2026-04-29",
-    "match_time": "06:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9NaW5uZXNvdGEgVHdpbnM=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TZWF0dGxlIE1hcmluZXJz",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "ChicagoWhiteSox-LosAngelesAngels",
-    "sport": "Baseball",
-    "league": "MLB",
-    "team1": {
-      "name": "Chicago White Sox",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3644/image"
-    },
-    "team2": {
-      "name": "Los Angeles Angels",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5929/image"
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "06:40",
-    "match_date": "2026-04-29",
-    "match_time": "06:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DaGljYWdvIFdoaXRlIFNveA==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBBbmdlbHM=",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "TorontoBlueJays-BostonRedSox",
-    "sport": "Baseball",
-    "league": "MLB",
-    "team1": {
-      "name": "Toronto Blue Jays",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3642/image"
-    },
-    "team2": {
-      "name": "Boston Red Sox",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3646/image"
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "06:07",
-    "match_date": "2026-04-29",
-    "match_time": "06:07",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Cb3N0b24gUmVkIFNveA==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ub3JvbnRvIEJsdWUgSmF5cw==",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzljMWE5OWRi",
         "label": "CH-NA"
       }
     ]
@@ -806,7 +678,12 @@
     "match_date": "2026-04-28",
     "match_time": "21:00",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DYW5hbDExW1BvcnR1Z2FsXQ==",
+        "label": "CH-NA"
+      }
+    ]
   },
   {
     "id": "AcademicoViseu-LeixoesU23",
@@ -825,7 +702,12 @@
     "match_date": "2026-04-28",
     "match_time": "23:30",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DYW5hbDExW1BvcnR1Z2FsXQ==",
+        "label": "CH-NA"
+      }
+    ]
   },
   {
     "id": "PSG-Bayern",
@@ -868,7 +750,12 @@
     "match_date": "2026-04-29",
     "match_time": "02:00",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DYW5hbDExW1BvcnR1Z2FsXQ==",
+        "label": "CH-NA"
+      }
+    ]
   },
   {
     "id": "Botafogo-IndependientePetrolero",
@@ -1074,44 +961,6 @@
     ]
   },
   {
-    "id": "BotafogoRJ-Independiente",
-    "sport": "Football",
-    "league": "Copa Sudamericana",
-    "team1": {
-      "name": "Botafogo RJ",
-      "logo": "https://img2.sport-tv-guide.live/images/team-botafogorj-3119.png"
-    },
-    "team2": {
-      "name": "Independiente",
-      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "04:50",
-    "match_date": "2026-04-29",
-    "match_time": "04:50",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "SanLorenzo-Santos",
-    "sport": "Football",
-    "league": "Copa Sudamericana",
-    "team1": {
-      "name": "San Lorenzo",
-      "logo": "https://img2.sport-tv-guide.live/images/team-sanlorenzo-3015.png"
-    },
-    "team2": {
-      "name": "Santos",
-      "logo": "https://img2.sport-tv-guide.live/images/team-santos-2727.png"
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "04:50",
-    "match_date": "2026-04-29",
-    "match_time": "04:50",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "Charlotte-AtlantaUnited",
     "sport": "Football",
     "league": "US Open Cup",
@@ -1142,10 +991,10 @@
       "name": "Audax Italiano",
       "logo": "https://img2.sport-tv-guide.live/images/team-audax-italiano-9225.png"
     },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "06:50",
-    "match_date": "2026-04-29",
-    "match_time": "06:50",
+    "kickoff_date": "2026-04-28",
+    "kickoff_time": "07:00",
+    "match_date": "2026-04-28",
+    "match_time": "07:00",
     "duration": "3.5",
     "servers": [
       {
@@ -1259,6 +1108,44 @@
     ]
   },
   {
+    "id": "CzechRepublicU18-FinlandU18",
+    "sport": "Ice Hockey",
+    "league": "WCH U18",
+    "team1": {
+      "name": "Czech Republic U18",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/countries/czech-republic.png"
+    },
+    "team2": {
+      "name": "Finland U18",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/countries/finland.png"
+    },
+    "kickoff_date": "2026-04-28",
+    "kickoff_time": "17:00",
+    "match_date": "2026-04-28",
+    "match_time": "17:00",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "USAU18-LatviaU18",
+    "sport": "Ice Hockey",
+    "league": "WCH U18",
+    "team1": {
+      "name": "USA U18",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/countries/usa.png"
+    },
+    "team2": {
+      "name": "Latvia U18",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/countries/latvia.png"
+    },
+    "kickoff_date": "2026-04-28",
+    "kickoff_time": "21:00",
+    "match_date": "2026-04-28",
+    "match_time": "21:00",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "BarsKazan-MetallurgMagnitogorsk",
     "sport": "Ice Hockey",
     "league": "KHL",
@@ -1283,6 +1170,78 @@
     ]
   },
   {
+    "id": "TampaBayLightning-MontrealCanadiens",
+    "sport": "Ice Hockey",
+    "league": "NHL",
+    "team1": {
+      "name": "Tampa Bay Lightning",
+      "logo": "https://img2.sport-tv-guide.live/images/team-tampabaylightning-483.png"
+    },
+    "team2": {
+      "name": "Montreal Canadiens",
+      "logo": "https://img2.sport-tv-guide.live/images/team-montrealcanadiens-477.png"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "06:00",
+    "match_date": "2026-04-29",
+    "match_time": "06:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRbVVNBXQ==",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "PhiladelphiaFlyers-PittsburghPenguins",
+    "sport": "Ice Hockey",
+    "league": "NHL",
+    "team1": {
+      "name": "Philadelphia Flyers",
+      "logo": "https://img2.sport-tv-guide.live/images/team-philadelphiaflyers-478.png"
+    },
+    "team2": {
+      "name": "Pittsburgh Penguins",
+      "logo": "https://img2.sport-tv-guide.live/images/team-pittsburghpenguins-475.png"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "06:00",
+    "match_date": "2026-04-29",
+    "match_time": "06:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "VegasGoldenKnights-UtahMammoth",
+    "sport": "Ice Hockey",
+    "league": "NHL",
+    "team1": {
+      "name": "Vegas Golden Knights",
+      "logo": "https://img2.sport-tv-guide.live/images/team-vegasgoldenknights-5902.png"
+    },
+    "team2": {
+      "name": "Utah Mammoth",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
+    },
+    "kickoff_date": "2026-04-28",
+    "kickoff_time": "09:00",
+    "match_date": "2026-04-28",
+    "match_time": "09:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRbVVNBXQ==",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
     "id": "JannikSinner-CameronNorrie",
     "sport": "Tennis",
     "league": "ATP Madrid",
@@ -1301,9 +1260,61 @@
     "duration": "2.33",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
+        "label": "CH-UK"
       },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNNYWluRXZlbnRbVUtd",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UU04yW0NhbmFkYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9aaWdnb1Nwb3J0W05ldGhlcmxhbmRzXQ==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9aaWdnb1Nwb3J0NFtOZXRoZXJsYW5kc10=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0R3JhbmRzdGFuZFtTb3V0aEFmcmljYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0VGVubmlzW1NvdXRoQWZyaWNhXQ==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQxW0ZyYW5jZV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EaWdpU3BvcnQyW1JvbWFuaWFd",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "JiriLehecka-LorenzoMusetti",
+    "sport": "Tennis",
+    "league": "ATP Madrid",
+    "team1": {
+      "name": "Jiri Lehecka",
+      "logo": "https://img2.sport-tv-guide.live/images/team-lehecka-j-35998.png"
+    },
+    "team2": {
+      "name": "Lorenzo Musetti",
+      "logo": "https://img2.sport-tv-guide.live/images/team-musetti-lorenzo-21547.png"
+    },
+    "kickoff_date": "2026-04-28",
+    "kickoff_time": "18:00",
+    "match_date": "2026-04-28",
+    "match_time": "18:00",
+    "duration": "2.33",
+    "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
         "label": "CH-UK"
@@ -1375,33 +1386,29 @@
     ]
   },
   {
-    "id": "JiriLehecka-LorenzoMusetti",
+    "id": "StefanosTsitsipas-CasperRuud",
     "sport": "Tennis",
     "league": "ATP Madrid",
     "team1": {
-      "name": "Jiri Lehecka",
-      "logo": "https://img2.sport-tv-guide.live/images/team-lehecka-j-35998.png"
+      "name": "Stefanos Tsitsipas",
+      "logo": "https://img2.sport-tv-guide.live/images/team-tsitsipas-stefanos-2635.png"
     },
     "team2": {
-      "name": "Lorenzo Musetti",
-      "logo": "https://img2.sport-tv-guide.live/images/team-musetti-lorenzo-21547.png"
+      "name": "Casper Ruud",
+      "logo": "https://img2.sport-tv-guide.live/images/team-ruud-casper-2637.png"
     },
     "kickoff_date": "2026-04-28",
-    "kickoff_time": "18:00",
+    "kickoff_time": "20:00",
     "match_date": "2026-04-28",
-    "match_time": "18:00",
+    "match_time": "20:00",
     "duration": "2.33",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNNYWluRXZlbnRbVUtd",
         "label": "CH-UK"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNNYWluRXZlbnRbVUtd",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
         "label": "CH-UK"
       },
       {
@@ -1435,33 +1442,29 @@
     ]
   },
   {
-    "id": "StefanosTsitsipas-CasperRuud",
+    "id": "VitKopriva-RafaelJodar",
     "sport": "Tennis",
     "league": "ATP Madrid",
     "team1": {
-      "name": "Stefanos Tsitsipas",
-      "logo": "https://img2.sport-tv-guide.live/images/team-tsitsipas-stefanos-2635.png"
+      "name": "Vit Kopriva",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
     },
     "team2": {
-      "name": "Casper Ruud",
-      "logo": "https://img2.sport-tv-guide.live/images/team-ruud-casper-2637.png"
+      "name": "Rafael Jodar",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
     },
     "kickoff_date": "2026-04-28",
-    "kickoff_time": "20:00",
+    "kickoff_time": "20:05",
     "match_date": "2026-04-28",
-    "match_time": "20:00",
+    "match_time": "20:05",
     "duration": "2.33",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNNYWluRXZlbnRbVUtd",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
         "label": "CH-UK"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNNYWluRXZlbnRbVUtd",
         "label": "CH-UK"
       },
       {
@@ -1513,10 +1516,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMzW1VLXQ==",
-        "label": "CH-UK"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNUd29bVUtd",
         "label": "CH-UK"
       },
@@ -1550,10 +1549,6 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNUd29bVUtd",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMzW1VLXQ==",
         "label": "CH-UK"
       }
     ]
@@ -1633,10 +1628,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UVUROW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9QcmVtaWVyc3BvcnQxW0lyZWxhbmRd",
         "label": "CH-NA"
       },
@@ -1684,10 +1675,6 @@
     "match_time": "01:00",
     "duration": "2.33",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNNYWluRXZlbnRbVUtd",
         "label": "CH-UK"
@@ -1765,10 +1752,6 @@
     "duration": "2.33",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNNYWluRXZlbnRbVUtd",
         "label": "CH-UK"
       },
@@ -1823,6 +1806,49 @@
     ]
   },
   {
+    "id": "LibertadAsuncion-IndependientedelValle",
+    "sport": "Football",
+    "league": "Copa Libertadores",
+    "team1": {
+      "name": "Libertad Asuncion",
+      "logo": "https://img2.sport-tv-guide.live/images/team-libertadasuncion-3133.png"
+    },
+    "team2": {
+      "name": "Independiente del Valle",
+      "logo": "https://img2.sport-tv-guide.live/images/team-inddelvalle-9540.png"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "05:00",
+    "match_date": "2026-04-29",
+    "match_time": "05:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9GT1hTcG9ydHMyW0FyZ2VudGluYV0=",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "BotafogoRJ-Independiente",
+    "sport": "Football",
+    "league": "Copa Sudamericana",
+    "team1": {
+      "name": "Botafogo RJ",
+      "logo": "https://img2.sport-tv-guide.live/images/team-botafogorj-3119.png"
+    },
+    "team2": {
+      "name": "Independiente",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "05:00",
+    "match_date": "2026-04-29",
+    "match_time": "05:00",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "AlAhly-MaktownFlyers",
     "sport": "Basketball",
     "league": "Basketball African League",
@@ -1866,6 +1892,53 @@
     ]
   },
   {
+    "id": "Unicaja-GranCanaria",
+    "sport": "Basketball",
+    "league": "ACB",
+    "team1": {
+      "name": "Unicaja",
+      "logo": "https://img2.sport-tv-guide.live/images/team-unicaja-368.png"
+    },
+    "team2": {
+      "name": "Gran Canaria",
+      "logo": "https://img2.sport-tv-guide.live/images/team-grancanaria-371.png"
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "01:00",
+    "match_date": "2026-04-30",
+    "match_time": "01:00",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "DetroitPistons-OrlandoMagic",
+    "sport": "Basketball",
+    "league": "NBA",
+    "team1": {
+      "name": "Detroit Pistons",
+      "logo": "https://img2.sport-tv-guide.live/images/team-detroitpistons-893.png"
+    },
+    "team2": {
+      "name": "Orlando Magic",
+      "logo": "https://img2.sport-tv-guide.live/images/team-orlandomagic-896.png"
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-04-30",
+    "match_time": "06:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EZXRyb2l0IFBpc3RvbnM=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9PcmxhbmRvIE1hZ2lj",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "NashvilleSC-UANLTigres",
     "sport": "Football",
     "league": "CONCACAF Champions Cup",
@@ -1889,10 +1962,6 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9GT1hTcG9ydHMxW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UVUROW1VTQV0=",
         "label": "CH-US"
       },
       {
@@ -1980,12 +2049,7 @@
     "match_date": "2026-04-30",
     "match_time": "00:25",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0UFNMW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "Polokwane-MamelodiSundowns",
@@ -2327,82 +2391,6 @@
     "match_time": "01:30",
     "duration": "3.5",
     "servers": []
-  },
-  {
-    "id": "LosAngelesLakers-HoustonRockets",
-    "sport": "Basketball",
-    "league": "NBA",
-    "team1": {
-      "name": "Los Angeles Lakers",
-      "logo": "https://img2.sport-tv-guide.live/images/team-losangeleslakers-880.png"
-    },
-    "team2": {
-      "name": "Houston Rockets",
-      "logo": "https://img2.sport-tv-guide.live/images/team-houstonrockets-873.png"
-    },
-    "kickoff_date": "2026-04-30",
-    "kickoff_time": "04:00",
-    "match_date": "2026-04-30",
-    "match_time": "04:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ib3VzdG9uIFJvY2tldHM=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBMYWtlcnM=",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "TampaBayLightning-MontrealCanadiens",
-    "sport": "Ice Hockey",
-    "league": "NHL",
-    "team1": {
-      "name": "Tampa Bay Lightning",
-      "logo": "https://img2.sport-tv-guide.live/images/team-tampabaylightning-483.png"
-    },
-    "team2": {
-      "name": "Montreal Canadiens",
-      "logo": "https://img2.sport-tv-guide.live/images/team-montrealcanadiens-477.png"
-    },
-    "kickoff_date": "2026-04-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-04-30",
-    "match_time": "06:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "MinnesotaWild-DallasStars",
-    "sport": "Ice Hockey",
-    "league": "NHL",
-    "team1": {
-      "name": "Minnesota Wild",
-      "logo": "https://img2.sport-tv-guide.live/images/team-minnesotawild-462.png"
-    },
-    "team2": {
-      "name": "Dallas Stars",
-      "logo": "https://img2.sport-tv-guide.live/images/team-dallasstars-471.png"
-    },
-    "kickoff_date": "2026-04-30",
-    "kickoff_time": "06:00",
-    "match_date": "2026-04-30",
-    "match_time": "06:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
-        "label": "CH-US"
-      }
-    ]
   },
   {
     "id": "ParisSaintGermain-FCBayernMnchen",
@@ -3030,34 +3018,6 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9PcmxhbmRvIE1hZ2lj",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "ClevelandCavaliers-TorontoRaptors",
-    "sport": "Basketball",
-    "league": "NBA, Playoffs",
-    "team1": {
-      "name": "Cleveland Cavaliers",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3432/image"
-    },
-    "team2": {
-      "name": "Toronto Raptors",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3433/image"
-    },
-    "kickoff_date": "2026-04-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-04-30",
-    "match_time": "06:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DbGV2ZWxhbmQgQ2F2YWxpZXJz",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ub3JvbnRvIFJhcHRvcnM=",
         "label": "CH-NA"
       }
     ]
@@ -3778,6 +3738,34 @@
     ]
   },
   {
+    "id": "TorontoBlueJays-BostonRedSox",
+    "sport": "Baseball",
+    "league": "MLB",
+    "team1": {
+      "name": "Toronto Blue Jays",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3642/image"
+    },
+    "team2": {
+      "name": "Boston Red Sox",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3646/image"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "06:07",
+    "match_date": "2026-04-29",
+    "match_time": "06:07",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Cb3N0b24gUmVkIFNveA==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ub3JvbnRvIEJsdWUgSmF5cw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "NewYorkMets-WashingtonNationals",
     "sport": "Baseball",
     "league": "MLB",
@@ -3834,6 +3822,34 @@
     ]
   },
   {
+    "id": "ChicagoWhiteSox-LosAngelesAngels",
+    "sport": "Baseball",
+    "league": "MLB",
+    "team1": {
+      "name": "Chicago White Sox",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3644/image"
+    },
+    "team2": {
+      "name": "Los Angeles Angels",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5929/image"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "06:40",
+    "match_date": "2026-04-29",
+    "match_time": "06:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DaGljYWdvIFdoaXRlIFNveA==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBBbmdlbHM=",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "MilwaukeeBrewers-ArizonaDiamondbacks",
     "sport": "Baseball",
     "league": "MLB",
@@ -3857,6 +3873,62 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9NaWx3YXVrZWUgQnJld2Vycw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "MinnesotaTwins-SeattleMariners",
+    "sport": "Baseball",
+    "league": "MLB",
+    "team1": {
+      "name": "Minnesota Twins",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3649/image"
+    },
+    "team2": {
+      "name": "Seattle Mariners",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3641/image"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "06:40",
+    "match_date": "2026-04-29",
+    "match_time": "06:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9NaW5uZXNvdGEgVHdpbnM=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TZWF0dGxlIE1hcmluZXJz",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "LosAngelesDodgers-MiamiMarlins",
+    "sport": "Baseball",
+    "league": "MLB",
+    "team1": {
+      "name": "Los Angeles Dodgers",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3638/image"
+    },
+    "team2": {
+      "name": "Miami Marlins",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3639/image"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "09:10",
+    "match_date": "2026-04-29",
+    "match_time": "09:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBEb2RnZXJz",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9NaWFtaSBNYXJsaW5z",
         "label": "CH-NA"
       }
     ]
@@ -4311,6 +4383,416 @@
     "servers": []
   },
   {
+    "id": "DartsPlayersChampionship11",
+    "sport": "Darts",
+    "league": "Darts",
+    "team1": {
+      "name": "Darts Players Championship 11",
+      "logo": null
+    },
+    "team2": {
+      "name": "",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-28",
+    "kickoff_time": "19:00",
+    "match_date": "2026-04-28",
+    "match_time": "19:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2UyMDkyMDk3",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "CyclingTourofTurkey",
+    "sport": "Cycling",
+    "league": "Cycling",
+    "team1": {
+      "name": "Cycling Tour of Turkey",
+      "logo": null
+    },
+    "team2": {
+      "name": "",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-28",
+    "kickoff_time": "18:30",
+    "match_date": "2026-04-28",
+    "match_time": "18:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzI0MDYzMWZi",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "TennisATPMadrid",
+    "sport": "Tennis",
+    "league": "Tennis ATP",
+    "team1": {
+      "name": "Tennis ATP Madrid",
+      "logo": null
+    },
+    "team2": {
+      "name": "",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-28",
+    "kickoff_time": "16:00",
+    "match_date": "2026-04-28",
+    "match_time": "16:00",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzNiNDU0NWQ2",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "SnookerWorldChampionshipTable1",
+    "sport": "Snooker",
+    "league": "Snooker",
+    "team1": {
+      "name": "Snooker World Championship --- Table 1",
+      "logo": null
+    },
+    "team2": {
+      "name": "",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-28",
+    "kickoff_time": "16:00",
+    "match_date": "2026-04-28",
+    "match_time": "16:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3Xzg2MDU3NTU5",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "AremaFC-Persebaya",
+    "sport": "Football",
+    "league": "Indonesia Liga 1",
+    "team1": {
+      "name": "Arema FC",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/47465/image"
+    },
+    "team2": {
+      "name": "Persebaya",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/76319/image"
+    },
+    "kickoff_date": "2026-04-28",
+    "kickoff_time": "15:30",
+    "match_date": "2026-04-28",
+    "match_time": "15:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2VlNGU0MDli",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "LosAngelesLakers-HoustonRockets",
+    "sport": "Basketball",
+    "league": "NBA",
+    "team1": {
+      "name": "Los Angeles Lakers",
+      "logo": "https://img2.sport-tv-guide.live/images/team-losangeleslakers-880.png"
+    },
+    "team2": {
+      "name": "Houston Rockets",
+      "logo": "https://img2.sport-tv-guide.live/images/team-houstonrockets-873.png"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "09:00",
+    "match_date": "2026-04-29",
+    "match_time": "09:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ib3VzdG9uIFJvY2tldHM=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBMYWtlcnM=",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "BotafogoRJ-Independiente",
+    "sport": "Football",
+    "league": "Copa Sudamericana",
+    "team1": {
+      "name": "Botafogo RJ",
+      "logo": "https://img2.sport-tv-guide.live/images/team-botafogorj-3119.png"
+    },
+    "team2": {
+      "name": "Independiente",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "04:50",
+    "match_date": "2026-04-29",
+    "match_time": "04:50",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "SanLorenzo-Santos",
+    "sport": "Football",
+    "league": "Copa Sudamericana",
+    "team1": {
+      "name": "San Lorenzo",
+      "logo": "https://img2.sport-tv-guide.live/images/team-sanlorenzo-3015.png"
+    },
+    "team2": {
+      "name": "Santos",
+      "logo": "https://img2.sport-tv-guide.live/images/team-santos-2727.png"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "04:50",
+    "match_date": "2026-04-29",
+    "match_time": "04:50",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "BarracasCentral-AudaxItaliano",
+    "sport": "Football",
+    "league": "Copa Sudamericana",
+    "team1": {
+      "name": "Barracas Central",
+      "logo": "https://img2.sport-tv-guide.live/images/team-barracascentral-8127.png"
+    },
+    "team2": {
+      "name": "Audax Italiano",
+      "logo": "https://img2.sport-tv-guide.live/images/team-audax-italiano-9225.png"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "06:50",
+    "match_date": "2026-04-29",
+    "match_time": "06:50",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "MartaKostyuk-LindaNoskova",
+    "sport": "Tennis",
+    "league": "WTA Madrid",
+    "team1": {
+      "name": "Marta Kostyuk",
+      "logo": "https://img2.sport-tv-guide.live/images/team-kostyuk-marta-9496.png"
+    },
+    "team2": {
+      "name": "Linda Noskova",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "18:00",
+    "match_date": "2026-04-29",
+    "match_time": "18:00",
+    "duration": "2.33",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UU04zW0NhbmFkYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0R3JhbmRzdGFuZFtTb3V0aEFmcmljYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0VGVubmlzW1NvdXRoQWZyaWNhXQ==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EaWdpU3BvcnQyW1JvbWFuaWFd",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "TampaBayLightning-MontrealCanadiens",
+    "sport": "Ice Hockey",
+    "league": "NHL",
+    "team1": {
+      "name": "Tampa Bay Lightning",
+      "logo": "https://img2.sport-tv-guide.live/images/team-tampabaylightning-483.png"
+    },
+    "team2": {
+      "name": "Montreal Canadiens",
+      "logo": "https://img2.sport-tv-guide.live/images/team-montrealcanadiens-477.png"
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-04-30",
+    "match_time": "06:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "MinnesotaWild-DallasStars",
+    "sport": "Ice Hockey",
+    "league": "NHL",
+    "team1": {
+      "name": "Minnesota Wild",
+      "logo": "https://img2.sport-tv-guide.live/images/team-minnesotawild-462.png"
+    },
+    "team2": {
+      "name": "Dallas Stars",
+      "logo": "https://img2.sport-tv-guide.live/images/team-dallasstars-471.png"
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "06:00",
+    "match_date": "2026-04-30",
+    "match_time": "06:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "LosAngelesLakers-HoustonRockets",
+    "sport": "Basketball",
+    "league": "NBA",
+    "team1": {
+      "name": "Los Angeles Lakers",
+      "logo": "https://img2.sport-tv-guide.live/images/team-losangeleslakers-880.png"
+    },
+    "team2": {
+      "name": "Houston Rockets",
+      "logo": "https://img2.sport-tv-guide.live/images/team-houstonrockets-873.png"
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "04:00",
+    "match_date": "2026-04-30",
+    "match_time": "04:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ib3VzdG9uIFJvY2tldHM=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBMYWtlcnM=",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "WWEMondayNightRAWCH2HD",
+    "sport": "Wrestling",
+    "league": "WWE Wrestling",
+    "team1": {
+      "name": "WWE Monday Night RAW --- CH 2 HD",
+      "logo": null
+    },
+    "team2": {
+      "name": "",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "07:00",
+    "match_date": "2026-04-29",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2U1YWY0MGQ2",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "DenverNuggets-MinnesotaTimberwolvesENGHD",
+    "sport": "Basketball",
+    "league": "NBA Basketball",
+    "team1": {
+      "name": "Denver Nuggets",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3417/image"
+    },
+    "team2": {
+      "name": "Minnesota Timberwolves --- ENG HD",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "09:30",
+    "match_date": "2026-04-29",
+    "match_time": "09:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2JmMDMwMmNi",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EZW52ZXIgTnVnZ2V0cw==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9NaW5uZXNvdGEgVGltYmVyd29sdmVz",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "DenverNuggets-MinnesotaTimberwolvesHD",
+    "sport": "Basketball",
+    "league": "NBA Basketball",
+    "team1": {
+      "name": "Denver Nuggets",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3417/image"
+    },
+    "team2": {
+      "name": "Minnesota Timberwolves --- HD",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "09:30",
+    "match_date": "2026-04-29",
+    "match_time": "09:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzUxYjBkNWZk",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EZW52ZXIgTnVnZ2V0cw==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9NaW5uZXNvdGEgVGltYmVyd29sdmVz",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "PhoenixSuns-OklahomaCityThunderENG",
     "sport": "Basketball",
     "league": "NBA Basketball",
@@ -4583,42 +5065,6 @@
     ]
   },
   {
-    "id": "MartaKostyuk-LindaNoskova",
-    "sport": "Tennis",
-    "league": "WTA Madrid",
-    "team1": {
-      "name": "Marta Kostyuk",
-      "logo": "https://img2.sport-tv-guide.live/images/team-kostyuk-marta-9496.png"
-    },
-    "team2": {
-      "name": "Linda Noskova",
-      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "18:00",
-    "match_date": "2026-04-29",
-    "match_time": "18:00",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UU04zW0NhbmFkYV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0R3JhbmRzdGFuZFtTb3V0aEFmcmljYV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0VGVubmlzW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EaWdpU3BvcnQyW1JvbWFuaWFd",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
     "id": "DenverNuggets-MinnesotaTimberwolvesENGHD",
     "sport": "Basketball",
     "league": "NBA Basketball",
@@ -4766,66 +5212,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3Xzg5OGJhMzFl",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "VitKopriva-RafaelJodar",
-    "sport": "Tennis",
-    "league": "ATP Madrid",
-    "team1": {
-      "name": "Vit Kopriva",
-      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
-    },
-    "team2": {
-      "name": "Rafael Jodar",
-      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
-    },
-    "kickoff_date": "2026-04-28",
-    "kickoff_time": "20:05",
-    "match_date": "2026-04-28",
-    "match_time": "20:05",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNNYWluRXZlbnRbVUtd",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UU04yW0NhbmFkYV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9aaWdnb1Nwb3J0W05ldGhlcmxhbmRzXQ==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9aaWdnb1Nwb3J0NFtOZXRoZXJsYW5kc10=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0R3JhbmRzdGFuZFtTb3V0aEFmcmljYV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0VGVubmlzW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQxW0ZyYW5jZV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EaWdpU3BvcnQyW1JvbWFuaWFd",
         "label": "CH-NA"
       }
     ]
@@ -5141,10 +5527,6 @@
     "duration": "2.33",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
         "label": "CH-UK"
       },
@@ -5224,10 +5606,6 @@
     "match_time": "03:00",
     "duration": "2.33",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNNYWluRXZlbnRbVUtd",
         "label": "CH-UK"
@@ -5320,10 +5698,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UVUROW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9QcmVtaWVyc3BvcnQxW0lyZWxhbmRd",
         "label": "CH-NA"
       },
@@ -5371,10 +5745,6 @@
     "match_time": "02:00",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UVUROW1VTQV0=",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
         "label": "CH-UK"
@@ -5518,30 +5888,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9PcmxhbmRvIE1hZ2lj",
         "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "TampaBayLightning-MontrealCanadiens",
-    "sport": "Ice Hockey",
-    "league": "NHL",
-    "team1": {
-      "name": "Tampa Bay Lightning",
-      "logo": "https://img2.sport-tv-guide.live/images/team-tampabaylightning-483.png"
-    },
-    "team2": {
-      "name": "Montreal Canadiens",
-      "logo": "https://img2.sport-tv-guide.live/images/team-montrealcanadiens-477.png"
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "06:00",
-    "match_date": "2026-04-29",
-    "match_time": "06:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRbVVNBXQ==",
-        "label": "CH-US"
       }
     ]
   },
@@ -6387,10 +6733,6 @@
     "duration": "2.33",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
         "label": "CH-UK"
       },
@@ -6462,10 +6804,6 @@
     "match_time": "00:00",
     "duration": "2.33",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
         "label": "CH-UK"
@@ -6601,10 +6939,6 @@
     "match_time": "01:00",
     "duration": "2.33",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
         "label": "CH-UK"
@@ -6981,30 +7315,6 @@
     ]
   },
   {
-    "id": "TennisATPMadrid",
-    "sport": "Tennis",
-    "league": "Tennis ATP",
-    "team1": {
-      "name": "Tennis ATP Madrid",
-      "logo": null
-    },
-    "team2": {
-      "name": "",
-      "logo": null
-    },
-    "kickoff_date": "2026-04-28",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-28",
-    "match_time": "16:00",
-    "duration": "2.33",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzNiNDU0NWQ2",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
     "id": "VikingurReykjavik-Akranes",
     "sport": "Football",
     "league": "Iceland League",
@@ -7287,10 +7597,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMzW1VLXQ==",
-        "label": "CH-UK"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNUd29bVUtd",
         "label": "CH-UK"
       },
@@ -7335,39 +7641,11 @@
         "label": "CH-UK"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMzW1VLXQ==",
-        "label": "CH-UK"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQyW0ZyYW5jZV0=",
         "label": "CH-NA"
       },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQxW0ZyYW5jZV0=",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "HorseRacing",
-    "sport": "Horse Racing",
-    "league": "Horse Racing",
-    "team1": {
-      "name": "Horse Racing",
-      "logo": null
-    },
-    "team2": {
-      "name": "",
-      "logo": null
-    },
-    "kickoff_date": "2026-04-28",
-    "kickoff_time": "19:00",
-    "match_date": "2026-04-28",
-    "match_time": "19:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2U0YzlhNDJk",
         "label": "CH-NA"
       }
     ]
@@ -7512,30 +7790,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjQyNzUyNQ==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "SnookerWorldChampionshipTable2",
-    "sport": "Snooker",
-    "league": "Snooker",
-    "team1": {
-      "name": "Snooker World Championship --- Table 2",
-      "logo": null
-    },
-    "team2": {
-      "name": "",
-      "logo": null
-    },
-    "kickoff_date": "2026-04-28",
-    "kickoff_time": "19:00",
-    "match_date": "2026-04-28",
-    "match_time": "19:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzljMWE5OWRi",
         "label": "CH-NA"
       }
     ]
@@ -11093,30 +11347,6 @@
     ]
   },
   {
-    "id": "LibertadAsuncion-IndependientedelValle",
-    "sport": "Football",
-    "league": "Copa Libertadores - Gr.H",
-    "team1": {
-      "name": "Libertad Asuncion",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5996/image"
-    },
-    "team2": {
-      "name": "Independiente del Valle",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/39723/image"
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "05:00",
-    "match_date": "2026-04-29",
-    "match_time": "05:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjM4NjMwOA==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
     "id": "SanLorenzoAlmagro-Santos",
     "sport": "Football",
     "league": "Copa Southamericana - Gr.D",
@@ -11552,54 +11782,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2VlNDUyNDM0",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "DartsPlayersChampionship11",
-    "sport": "Darts",
-    "league": "Darts",
-    "team1": {
-      "name": "Darts Players Championship 11",
-      "logo": null
-    },
-    "team2": {
-      "name": "",
-      "logo": null
-    },
-    "kickoff_date": "2026-04-28",
-    "kickoff_time": "19:00",
-    "match_date": "2026-04-28",
-    "match_time": "19:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2UyMDkyMDk3",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "SnookerWorldChampionshipTable1",
-    "sport": "Snooker",
-    "league": "Snooker",
-    "team1": {
-      "name": "Snooker World Championship --- Table 1",
-      "logo": null
-    },
-    "team2": {
-      "name": "",
-      "logo": null
-    },
-    "kickoff_date": "2026-04-28",
-    "kickoff_time": "19:00",
-    "match_date": "2026-04-28",
-    "match_time": "19:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3Xzg2MDU3NTU5",
         "label": "CH-NA"
       }
     ]
@@ -13223,10 +13405,6 @@
         "label": "CH-UK"
       },
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMzW1VLXQ==",
-        "label": "CH-UK"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQyW0ZyYW5jZV0=",
         "label": "CH-NA"
       }
@@ -13731,10 +13909,6 @@
     "duration": "2.33",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
         "label": "CH-UK"
       },
@@ -14231,10 +14405,6 @@
     "duration": "2.33",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
         "label": "CH-UK"
       },
@@ -14575,10 +14745,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMzW1VLXQ==",
-        "label": "CH-UK"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNUd29bVUtd",
         "label": "CH-UK"
       },
@@ -14783,10 +14949,6 @@
     "duration": "2.33",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQxW1BvbGFuZF0=",
         "label": "CH-NA"
       },
@@ -14838,10 +15000,6 @@
     "match_time": "22:20",
     "duration": "2.33",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9aaWdnb1Nwb3J0W05ldGhlcmxhbmRzXQ==",
         "label": "CH-NA"
@@ -15758,10 +15916,6 @@
     "match_time": "18:00",
     "duration": "2.33",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UU04zW0NhbmFkYV0=",
         "label": "CH-NA"
@@ -19098,10 +19252,6 @@
     "duration": "2.33",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9aaWdnb1Nwb3J0W05ldGhlcmxhbmRzXQ==",
         "label": "CH-NA"
       },
@@ -19153,10 +19303,6 @@
     "match_time": "02:05",
     "duration": "2.33",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9aaWdnb1Nwb3J0NFtOZXRoZXJsYW5kc10=",
         "label": "CH-NA"
@@ -19553,10 +19699,6 @@
     "duration": "2.33",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
         "label": "CH-UK"
       },
@@ -19936,10 +20078,6 @@
     "duration": "2.33",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ta3lTcG9ydHNUZW5uaXNbVUtd",
         "label": "CH-UK"
       },
@@ -20025,30 +20163,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOW1VTQV0=",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "BarracasCentral-AudaxItaliano",
-    "sport": "Football",
-    "league": "Copa Sudamericana",
-    "team1": {
-      "name": "Barracas Central",
-      "logo": "https://img2.sport-tv-guide.live/images/team-barracascentral-8127.png"
-    },
-    "team2": {
-      "name": "Audax Italiano",
-      "logo": "https://img2.sport-tv-guide.live/images/team-audax-italiano-9225.png"
-    },
-    "kickoff_date": "2026-04-28",
-    "kickoff_time": "07:00",
-    "match_date": "2026-04-28",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOMltVU0Fd",
         "label": "CH-US"
       }
     ]
@@ -20274,25 +20388,6 @@
     ]
   },
   {
-    "id": "BotafogoRJ-Independiente",
-    "sport": "Football",
-    "league": "Copa Sudamericana",
-    "team1": {
-      "name": "Botafogo RJ",
-      "logo": "https://img2.sport-tv-guide.live/images/team-botafogorj-3119.png"
-    },
-    "team2": {
-      "name": "Independiente",
-      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "05:00",
-    "match_date": "2026-04-29",
-    "match_time": "05:00",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "JustinaMikulskyte-SofyaLansere",
     "sport": "Tennis",
     "league": "WTA 125 - Huzhou (CHN)",
@@ -20406,10 +20501,6 @@
     "match_time": "20:00",
     "duration": "2.33",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UZW5uaXNDaGFubmVsW1VTQV0=",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UU04zW0NhbmFkYV0=",
         "label": "CH-NA"
