@@ -1,4 +1,6 @@
-from curl_cffi import requests
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
 import json
 import re
 import argparse
@@ -21,7 +23,7 @@ def fetch_sofascore(sport="football", date_str=None):
         now = datetime.now(jakarta_tz)
         date_str = now.strftime("%Y-%m-%d")
     
-    url = f"https://www.sofascore.com/api/v1/sport/{sport}/scheduled-events/{date_str}"
+    url = f"https://api.sofascore.com/api/v1/sport/{sport}/scheduled-events/{date_str}"
     
     headers = {
         "Referer": "https://www.sofascore.com/",
@@ -31,34 +33,25 @@ def fetch_sofascore(sport="football", date_str=None):
     print(f"Fetching {sport} events for {date_str}...")
     
     try:
-        # Create a session to persist cookies
-        s = requests.Session()
+        chrome_options = Options()
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--no-sandbox')
+        chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
         
-        # 1. Visit Homepage first to get cookies/Cloudflare challenges
-        # Use impersonate="chrome" to mimic a real browser
-        s.get("https://www.sofascore.com/", headers=headers, impersonate="chrome", timeout=30)
+        driver = webdriver.Chrome(options=chrome_options)
+        driver.get(url)
+        time.sleep(4)
         
-        # 2. Now fetch the API data with these cookies
-        response = s.get(url, headers=headers, impersonate="chrome", timeout=30)
+        body_text = driver.find_element(By.TAG_NAME, 'body').text
+        driver.quit()
         
-        # Check for 403 specifically
-        if response.status_code == 403:
-             print(f"⚠️  403 Forbidden. Retrying with delay...")
-             time.sleep(5)
-             # Try creating a new session
-             s = requests.Session()
-             s.get("https://www.sofascore.com/", headers=headers, impersonate="chrome", timeout=30)
-             response = s.get(url, headers=headers, impersonate="chrome", timeout=30)
-        
-        response.raise_for_status()
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching data: {e}")
-        return []
-    
-    try:
-        data = response.json()
-    except json.JSONDecodeError as e:
-        print(f"Error parsing JSON: {e}")
+        data = json.loads(body_text)
+    except Exception as e:
+        print(f"Error fetching or parsing data: {e}")
+        try:
+            driver.quit()
+        except:
+            pass
         return []
     
     events = data.get("events", [])
@@ -135,7 +128,7 @@ def fetch_sofascore(sport="football", date_str=None):
             # Kickoff time - convert UNIX timestamp to GMT+7
             start_ts = event.get("startTimestamp", 0)
             if start_ts:
-                dt_utc = datetime.utcfromtimestamp(start_ts).replace(tzinfo=pytz.utc)
+                dt_utc = datetime.fromtimestamp(start_ts, pytz.utc)
                 dt_jakarta = dt_utc.astimezone(jakarta_tz)
                 kickoff_date = dt_jakarta.strftime("%Y-%m-%d")
                 kickoff_time = dt_jakarta.strftime("%H:%M")
