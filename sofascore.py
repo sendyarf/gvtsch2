@@ -1,6 +1,4 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
+import requests
 import json
 import re
 import argparse
@@ -23,9 +21,10 @@ def fetch_sofascore(sport="football", date_str=None):
         now = datetime.now(jakarta_tz)
         date_str = now.strftime("%Y-%m-%d")
     
-    url = f"https://api.sofascore.com/api/v1/sport/{sport}/scheduled-events/{date_str}"
+    url = f"https://api.sofascore1.com/api/v1/sport/{sport}/scheduled-events/{date_str}"
     
     headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Referer": "https://www.sofascore.com/",
         "Origin": "https://www.sofascore.com",
     }
@@ -33,25 +32,11 @@ def fetch_sofascore(sport="football", date_str=None):
     print(f"Fetching {sport} events for {date_str}...")
     
     try:
-        chrome_options = Options()
-        chrome_options.add_argument('--headless')
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
-        
-        driver = webdriver.Chrome(options=chrome_options)
-        driver.get(url)
-        time.sleep(4)
-        
-        body_text = driver.find_element(By.TAG_NAME, 'body').text
-        driver.quit()
-        
-        data = json.loads(body_text)
+        response = requests.get(url, headers=headers, timeout=15)
+        response.raise_for_status()
+        data = response.json()
     except Exception as e:
         print(f"Error fetching or parsing data: {e}")
-        try:
-            driver.quit()
-        except:
-            pass
         return []
     
     events = data.get("events", [])
