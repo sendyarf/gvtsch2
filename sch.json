@@ -440,42 +440,6 @@
         "label": "CH-IS"
       },
       {
-        "url": "https://multi.govoet.cc/?envivo=11",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=61",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=126",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=148",
-        "label": "CH-GR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=123",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=140",
-        "label": "CH-IT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=68",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=78",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=87",
-        "label": "CH-ES"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
         "label": "CH-UK"
       },
@@ -1703,13 +1667,13 @@
   {
     "id": "BorehamWood-ForestGreen",
     "sport": "Football",
-    "league": "England - English National League",
+    "league": "England - National League, Playoffs",
     "team1": {
       "name": "Boreham Wood",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/36467/image"
     },
     "team2": {
-      "name": "Forest Green",
+      "name": "Forest Green Rovers FC",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/94/image"
     },
     "kickoff_date": "2026-04-30",
@@ -1726,18 +1690,21 @@
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjg3NTY5MQ==",
         "label": "CH-NA"
       }
-    ]
+    ],
+    "status": "finished",
+    "status_desc": "AET",
+    "gender": "M"
   },
   {
     "id": "Macclesfield-Chester",
     "sport": "Football",
     "league": "England - English National League",
     "team1": {
-      "name": "Macclesfield",
+      "name": "Macclesfield Town FC",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/447756/image"
     },
     "team2": {
-      "name": "Chester",
+      "name": "Chester FC",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/262/image"
     },
     "kickoff_date": "2026-04-30",
@@ -1774,14 +1741,6 @@
     "match_time": "02:10",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=144",
-        "label": "CH-PT"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjc4MTU4MQ==",
         "label": "CH-NA"
@@ -2261,8 +2220,8 @@
     "match_time": "05:55",
     "duration": "3.5",
     "servers": [],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -2627,10 +2586,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
-        "label": "CH-EN"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9OZXcgWW9yayBZYW5rZWVz",
         "label": "CH-NA"
       },
@@ -2658,10 +2613,6 @@
     "match_time": "02:02",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=184",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE5LnBocA==",
         "label": "CH-EN"
@@ -2694,10 +2645,6 @@
     "match_time": "02:05",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=185",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIwLnBocA==",
         "label": "CH-EN"
@@ -6880,8 +6827,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -7164,7 +7111,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -7195,7 +7142,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -7446,7 +7393,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "2nd quarter",
+    "status_desc": "3rd quarter",
     "gender": "M"
   },
   {
@@ -7640,8 +7587,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "F"
   },
   {
@@ -7667,8 +7614,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
     "gender": "F"
   },
   {
@@ -7694,8 +7641,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
     "gender": "F"
   },
   {
