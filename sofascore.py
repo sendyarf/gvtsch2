@@ -1,4 +1,4 @@
-import requests
+from curl_cffi import requests
 import json
 import re
 import argparse
@@ -32,7 +32,7 @@ def fetch_sofascore(sport="football", date_str=None):
     print(f"Fetching {sport} events for {date_str}...")
     
     try:
-        response = requests.get(url, headers=headers, timeout=15)
+        response = requests.get(url, headers=headers, timeout=15, impersonate="chrome")
         response.raise_for_status()
         data = response.json()
     except Exception as e:
