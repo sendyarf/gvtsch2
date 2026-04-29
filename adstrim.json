@@ -1,5 +1,29 @@
 [
   {
+    "id": "CSKASofia-Ludogorets",
+    "sport": "Football",
+    "league": "Bulgarian Cup",
+    "team1": {
+      "name": "CSKA Sofia",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3275/image"
+    },
+    "team2": {
+      "name": "Ludogorets",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/43840/image"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "23:00",
+    "match_date": "2026-04-29",
+    "match_time": "23:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzUxZTY4MTlk",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "AlTaawoun-AlIttihad",
     "sport": "Football",
     "league": "Saudi Pro League",
@@ -515,6 +539,10 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Nb3Zpc3RhckRlcG9ydGVzW1NwYWluXQ==",
+        "label": "CH-ES"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVByZW1pdW0yW1NlcmJpYV0=",
         "label": "CH-NA"
       },
@@ -541,25 +569,6 @@
     "match_date": "2026-04-30",
     "match_time": "01:00",
     "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "MumbaiIndians-SunrisersHyderabad",
-    "sport": "Cricket",
-    "league": "Indian Premier League",
-    "team1": {
-      "name": "Mumbai Indians",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187780/image"
-    },
-    "team2": {
-      "name": "Sunrisers Hyderabad",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187844/image"
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "21:00",
-    "match_date": "2026-04-29",
-    "match_time": "21:00",
-    "duration": "8.33",
     "servers": []
   },
   {
@@ -686,6 +695,81 @@
     ]
   },
   {
+    "id": "ClevelandGuardians-TampaBayRays",
+    "sport": "Baseball",
+    "league": "MLB",
+    "team1": {
+      "name": "Cleveland Guardians",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3650/image"
+    },
+    "team2": {
+      "name": "Tampa Bay Rays",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3653/image"
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "00:10",
+    "match_date": "2026-04-30",
+    "match_time": "00:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DbGV2ZWxhbmQgR3VhcmRpYW5z",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UYW1wYSBCYXkgUmF5cw==",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "ChicagoWhiteSox-LosAngelesAngels",
+    "sport": "Baseball",
+    "league": "MLB",
+    "team1": {
+      "name": "Chicago White Sox",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3644/image"
+    },
+    "team2": {
+      "name": "Los Angeles Angels",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5929/image"
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "00:10",
+    "match_date": "2026-04-30",
+    "match_time": "00:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DaGljYWdvIFdoaXRlIFNveA==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBBbmdlbHM=",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "MumbaiIndians-SunrisersHyderabad",
+    "sport": "Cricket",
+    "league": "Indian Premier League",
+    "team1": {
+      "name": "Mumbai Indians",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187780/image"
+    },
+    "team2": {
+      "name": "Sunrisers Hyderabad",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187844/image"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "21:00",
+    "match_date": "2026-04-29",
+    "match_time": "21:00",
+    "duration": "8.33",
+    "servers": []
+  },
+  {
     "id": "HorseRacing",
     "sport": "Horse Racing",
     "league": "Horse Racing",
@@ -721,14 +805,14 @@
       "name": "",
       "logo": null
     },
-    "kickoff_date": "2026-04-29",
+    "kickoff_date": "2026-04-30",
     "kickoff_time": "16:00",
-    "match_date": "2026-04-29",
+    "match_date": "2026-04-30",
     "match_time": "16:00",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2FhYzBkNDU2",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzhhNTg4YjBm",
         "label": "CH-NA"
       }
     ]
@@ -903,12 +987,7 @@
     "match_date": "2026-04-30",
     "match_time": "00:25",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0UFNMW1NvdXRoQWZyaWNhXQ==",
-        "label": "CH-NA"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "Polokwane-MamelodiSundowns",
@@ -1186,90 +1265,6 @@
     ]
   },
   {
-    "id": "ZhaoXintong-ShaunMurphy",
-    "sport": "Snooker",
-    "league": "Halo World Championship",
-    "team1": {
-      "name": "Zhao Xintong",
-      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
-    },
-    "team2": {
-      "name": "Shaun Murphy",
-      "logo": "https://img2.sport-tv-guide.live/images/team-murphy-shaun-12673.png"
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "20:15",
-    "match_date": "2026-04-29",
-    "match_time": "20:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNUd29bVUtd",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMzW1VLXQ==",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQyW1BvbGFuZF0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQxW0ZyYW5jZV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQyW0ZyYW5jZV0=",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "WuYize-HosseinVafaeiAyouri",
-    "sport": "Snooker",
-    "league": "Halo World Championship",
-    "team1": {
-      "name": "Wu Yize",
-      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
-    },
-    "team2": {
-      "name": "Hossein Vafaei Ayouri",
-      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "20:15",
-    "match_date": "2026-04-29",
-    "match_time": "20:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMzW1VLXQ==",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNUd29bVUtd",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQxW0ZyYW5jZV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQyW0ZyYW5jZV0=",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
     "id": "Szeged-SCMagdeburg",
     "sport": "Handball",
     "league": "Champions League",
@@ -1511,6 +1506,10 @@
     "match_time": "01:45",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Nb3Zpc3RhckRlcG9ydGVzW1NwYWluXQ==",
+        "label": "CH-ES"
+      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVByZW1pdW0yW1NlcmJpYV0=",
         "label": "CH-NA"
@@ -2911,62 +2910,6 @@
     ]
   },
   {
-    "id": "ChicagoWhiteSox-LosAngelesAngels",
-    "sport": "Baseball",
-    "league": "MLB",
-    "team1": {
-      "name": "Chicago White Sox",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3644/image"
-    },
-    "team2": {
-      "name": "Los Angeles Angels",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5929/image"
-    },
-    "kickoff_date": "2026-04-30",
-    "kickoff_time": "00:10",
-    "match_date": "2026-04-30",
-    "match_time": "00:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DaGljYWdvIFdoaXRlIFNveA==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Mb3MgQW5nZWxlcyBBbmdlbHM=",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "ClevelandGuardians-TampaBayRays",
-    "sport": "Baseball",
-    "league": "MLB",
-    "team1": {
-      "name": "Cleveland Guardians",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3650/image"
-    },
-    "team2": {
-      "name": "Tampa Bay Rays",
-      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/3653/image"
-    },
-    "kickoff_date": "2026-04-30",
-    "kickoff_time": "00:10",
-    "match_date": "2026-04-30",
-    "match_time": "00:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9DbGV2ZWxhbmQgR3VhcmRpYW5z",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UYW1wYSBCYXkgUmF5cw==",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
     "id": "MinnesotaTwins-SeattleMariners",
     "sport": "Baseball",
     "league": "MLB",
@@ -3687,6 +3630,246 @@
     "servers": []
   },
   {
+    "id": "Vikingur-Hoyvik",
+    "sport": "Football",
+    "league": "Faroe Islands Premier League",
+    "team1": {
+      "name": "Vikingur",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/316499/image"
+    },
+    "team2": {
+      "name": "Hoyvik",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/100065/image"
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "00:30",
+    "match_date": "2026-04-30",
+    "match_time": "00:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2RiOTZlYTAx",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Toftir-Klaksvik",
+    "sport": "Football",
+    "league": "Faroe Islands Premier League",
+    "team1": {
+      "name": "Toftir",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5186/image"
+    },
+    "team2": {
+      "name": "Klaksvik",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "00:30",
+    "match_date": "2026-04-30",
+    "match_time": "00:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzA5NDI4ZDkx",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "HBTorshavn-B36Torshavn",
+    "sport": "Football",
+    "league": "Faroe Islands Premier League",
+    "team1": {
+      "name": "HB Torshavn",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5187/image"
+    },
+    "team2": {
+      "name": "B36 Torshavn",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5185/image"
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "00:30",
+    "match_date": "2026-04-30",
+    "match_time": "00:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2YxOWQ1OTk0",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "WadiDegla-AlIttihad",
+    "sport": "Football",
+    "league": "Egypt Premier League",
+    "team1": {
+      "name": "Wadi Degla",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/43568/image"
+    },
+    "team2": {
+      "name": "Al Ittihad",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/34315/image"
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "00:00",
+    "match_date": "2026-04-30",
+    "match_time": "00:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzYwMWIxYmU5",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "ModernSport-ElGaish",
+    "sport": "Football",
+    "league": "Egypt Premier League",
+    "team1": {
+      "name": "Modern Sport",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/265830/image"
+    },
+    "team2": {
+      "name": "El Gaish",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/43561/image"
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "00:00",
+    "match_date": "2026-04-30",
+    "match_time": "00:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzBjYzQ3NmEy",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "Tromso-Brann",
+    "sport": "Football",
+    "league": "Norway Eliteserien",
+    "team1": {
+      "name": "Tromso",
+      "logo": null
+    },
+    "team2": {
+      "name": "Brann",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1159/image"
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "00:00",
+    "match_date": "2026-04-30",
+    "match_time": "00:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzU4ZmE0YTE4",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "NantesW-LyonW",
+    "sport": "Football",
+    "league": "France Premiere Ligue Women",
+    "team1": {
+      "name": "Nantes W",
+      "logo": null
+    },
+    "team2": {
+      "name": "Lyon W",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "00:00",
+    "match_date": "2026-04-30",
+    "match_time": "00:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2E0NjU0MDMy",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "FCDenBosch-AlmereCity",
+    "sport": "Football",
+    "league": "Dutch Eredivisie",
+    "team1": {
+      "name": "FC Den Bosch",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2963/image"
+    },
+    "team2": {
+      "name": "Almere City",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2990/image"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "23:45",
+    "match_date": "2026-04-29",
+    "match_time": "23:45",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzhjMTRjZGZm",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "WerderBremenW-BayernMunchenW",
+    "sport": "Football",
+    "league": "German Women Bundesliga",
+    "team1": {
+      "name": "Werder Bremen W",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2534/image"
+    },
+    "team2": {
+      "name": "Bayern Munchen W",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "23:00",
+    "match_date": "2026-04-29",
+    "match_time": "23:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2FkMGUzZmU2",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "ShababAlAhliDubai-Khorfakkan",
+    "sport": "Football",
+    "league": "UAE Premier League",
+    "team1": {
+      "name": "Shabab Al-Ahli Dubai",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/264111/image"
+    },
+    "team2": {
+      "name": "Khorfakkan",
+      "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1117618/image"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "22:20",
+    "match_date": "2026-04-29",
+    "match_time": "22:20",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3Xzc5NTUxN2Vm",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "Noah-AraratArmenia",
     "sport": "Football",
     "league": "Armenia Premier League",
@@ -3962,38 +4145,38 @@
       "name": "",
       "logo": null
     },
-    "kickoff_date": "2026-04-29",
+    "kickoff_date": "2026-04-30",
     "kickoff_time": "16:00",
-    "match_date": "2026-04-29",
+    "match_date": "2026-04-30",
     "match_time": "16:00",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2I4MzhhOTBj",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2M5MzdmNzIy",
         "label": "CH-NA"
       }
     ]
   },
   {
-    "id": "SnookerWorldChampionshipTable1",
+    "id": "SnookerWorldSamuraiTable1",
     "sport": "Snooker",
     "league": "Snooker",
     "team1": {
-      "name": "Snooker World Championship --- Table 1",
+      "name": "Snooker World Samurai --- Table 1",
       "logo": null
     },
     "team2": {
       "name": "",
       "logo": null
     },
-    "kickoff_date": "2026-04-29",
+    "kickoff_date": "2026-04-30",
     "kickoff_time": "16:00",
-    "match_date": "2026-04-29",
+    "match_date": "2026-04-30",
     "match_time": "16:00",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzUzY2I3NWNl",
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3Xzk5MTIzZTM5",
         "label": "CH-NA"
       }
     ]
@@ -4143,23 +4326,160 @@
     ]
   },
   {
-    "id": "ManchesterUnitedU18-LiverpoolU18",
-    "sport": "Football",
-    "league": "Premier League U18",
+    "id": "ZhaoXintong-ShaunMurphy",
+    "sport": "Snooker",
+    "league": "Halo World Championship",
     "team1": {
-      "name": "Manchester United U18",
-      "logo": "https://img2.sport-tv-guide.live/images/team-manchesterunitedu18-13365.png"
+      "name": "Zhao Xintong",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
     },
     "team2": {
-      "name": "Liverpool U18",
-      "logo": "https://img2.sport-tv-guide.live/images/team-liverpoolu18-13361.png"
+      "name": "Shaun Murphy",
+      "logo": "https://img2.sport-tv-guide.live/images/team-murphy-shaun-12673.png"
     },
     "kickoff_date": "2026-04-29",
-    "kickoff_time": "18:30",
+    "kickoff_time": "20:15",
     "match_date": "2026-04-29",
-    "match_time": "18:30",
+    "match_time": "20:15",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNUd29bVUtd",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMzW1VLXQ==",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQyW1BvbGFuZF0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQxW0ZyYW5jZV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQyW0ZyYW5jZV0=",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "WuYize-HosseinVafaeiAyouri",
+    "sport": "Snooker",
+    "league": "Halo World Championship",
+    "team1": {
+      "name": "Wu Yize",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
+    },
+    "team2": {
+      "name": "Hossein Vafaei Ayouri",
+      "logo": "https://img2.sport-tv-guide.live/images/teams/team0.png"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "20:15",
+    "match_date": "2026-04-29",
+    "match_time": "20:15",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMzW1VLXQ==",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNUd29bVUtd",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQxW0ZyYW5jZV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FdXJvc3BvcnQyW0ZyYW5jZV0=",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "SnookerWorldSamuraiTable2",
+    "sport": "Snooker",
+    "league": "Snooker",
+    "team1": {
+      "name": "Snooker World Samurai --- Table 2",
+      "logo": null
+    },
+    "team2": {
+      "name": "",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "16:00",
+    "match_date": "2026-04-29",
+    "match_time": "16:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2FhYzBkNDU2",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "MMAONESamurai",
+    "sport": "MMA",
+    "league": "MMA Fighting",
+    "team1": {
+      "name": "MMA ONE Samurai",
+      "logo": null
+    },
+    "team2": {
+      "name": "",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "16:00",
+    "match_date": "2026-04-29",
+    "match_time": "16:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3X2I4MzhhOTBj",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
+    "id": "SnookerWorldChampionshipTable1",
+    "sport": "Snooker",
+    "league": "Snooker",
+    "team1": {
+      "name": "Snooker World Championship --- Table 1",
+      "logo": null
+    },
+    "team2": {
+      "name": "",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "16:00",
+    "match_date": "2026-04-29",
+    "match_time": "16:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9zY2Z3XzUzY2I3NWNl",
+        "label": "CH-NA"
+      }
+    ]
   },
   {
     "id": "SnookerWorldChampionshipTable2",
@@ -4184,6 +4504,25 @@
         "label": "CH-NA"
       }
     ]
+  },
+  {
+    "id": "ManchesterUnitedU18-LiverpoolU18",
+    "sport": "Football",
+    "league": "Premier League U18",
+    "team1": {
+      "name": "Manchester United U18",
+      "logo": "https://img2.sport-tv-guide.live/images/team-manchesterunitedu18-13365.png"
+    },
+    "team2": {
+      "name": "Liverpool U18",
+      "logo": "https://img2.sport-tv-guide.live/images/team-liverpoolu18-13361.png"
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "18:30",
+    "match_date": "2026-04-29",
+    "match_time": "18:30",
+    "duration": "3.5",
+    "servers": []
   },
   {
     "id": "KarolinaPliskova-AnastasiaPotapova",
@@ -6425,6 +6764,10 @@
     "match_time": "01:00",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Nb3Zpc3RhckRlcG9ydGVzW1NwYWluXQ==",
+        "label": "CH-ES"
+      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ob3ZhU3BvcnRzNVtHcmVlY2Vd",
         "label": "CH-NA"
@@ -9659,70 +10002,6 @@
     ]
   },
   {
-    "id": "AtleticoMadrid-Arsenal",
-    "sport": "Football",
-    "league": "Champions League",
-    "team1": {
-      "name": "Atletico Madrid",
-      "logo": "https://img2.sport-tv-guide.live/images/team-atlmadrid-160.png"
-    },
-    "team2": {
-      "name": "Arsenal",
-      "logo": "https://img2.sport-tv-guide.live/images/team-arsenal-2.png"
-    },
-    "kickoff_date": "2026-04-30",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-30",
-    "match_time": "02:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UVUROW1VTQV0=",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9QcmVtaWVyc3BvcnQxW0lyZWxhbmRd",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UVUROW01leGljb10=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9aaWdnb1Nwb3J0W05ldGhlcmxhbmRzXQ==",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0R3JhbmRzdGFuZFtTb3V0aEFmcmljYV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVByZW1pdW0xW1NlcmJpYV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Db3Ntb3RlU3BvcnQxW0dyZWVjZV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EaWdpU3BvcnQxW1JvbWFuaWFd",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOW0FyZ2VudGluYV0=",
-        "label": "CH-NA"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EQVpOMURldXRzY2hsYW5kW0dlcm1hbnld",
-        "label": "CH-NA"
-      }
-    ]
-  },
-  {
     "id": "DeportivoGarcilaso-FBCMelgar",
     "sport": "Football",
     "league": "Primera Division",
@@ -11638,6 +11917,110 @@
     ]
   },
   {
+    "id": "SnookerWorldChampionship",
+    "sport": "Snooker",
+    "league": "Snooker",
+    "team1": {
+      "name": "Snooker World Championship",
+      "logo": null
+    },
+    "team2": {
+      "name": "",
+      "logo": null
+    },
+    "kickoff_date": "2026-04-29",
+    "kickoff_time": "16:00",
+    "match_date": "2026-04-29",
+    "match_time": "16:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMzW1VLXQ==",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNUd29bVUtd",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNPbmVbVUtd",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHM1W1VLXQ==",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHM1W1VLXQ==",
+        "label": "CH-UK"
+      }
+    ]
+  },
+  {
+    "id": "AtleticoMadrid-Arsenal",
+    "sport": "Football",
+    "league": "Champions League",
+    "team1": {
+      "name": "Atletico Madrid",
+      "logo": "https://img2.sport-tv-guide.live/images/team-atlmadrid-160.png"
+    },
+    "team2": {
+      "name": "Arsenal",
+      "logo": "https://img2.sport-tv-guide.live/images/team-arsenal-2.png"
+    },
+    "kickoff_date": "2026-04-30",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-30",
+    "match_time": "02:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UVUROW1VTQV0=",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMxW1VLXQ==",
+        "label": "CH-UK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9QcmVtaWVyc3BvcnQxW0lyZWxhbmRd",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UVUROW01leGljb10=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9aaWdnb1Nwb3J0W05ldGhlcmxhbmRzXQ==",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9TdXBlclNwb3J0R3JhbmRzdGFuZFtTb3V0aEFmcmljYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9BcmVuYVByZW1pdW0xW1NlcmJpYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Db3Ntb3RlU3BvcnQxW0dyZWVjZV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EaWdpU3BvcnQxW1JvbWFuaWFd",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOW0FyZ2VudGluYV0=",
+        "label": "CH-NA"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9EQVpOMURldXRzY2hsYW5kW0dlcm1hbnld",
+        "label": "CH-NA"
+      }
+    ]
+  },
+  {
     "id": "Southampton-Ipswich",
     "sport": "Football",
     "league": "Championship",
@@ -11778,46 +12161,6 @@
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9FU1BOW0FyZ2VudGluYV0=",
         "label": "CH-NA"
-      }
-    ]
-  },
-  {
-    "id": "SnookerWorldChampionship",
-    "sport": "Snooker",
-    "league": "Snooker",
-    "team1": {
-      "name": "Snooker World Championship",
-      "logo": null
-    },
-    "team2": {
-      "name": "",
-      "logo": null
-    },
-    "kickoff_date": "2026-04-29",
-    "kickoff_time": "16:00",
-    "match_date": "2026-04-29",
-    "match_time": "16:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHMzW1VLXQ==",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNUd29bVUtd",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9CQkNPbmVbVUtd",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHM1W1VLXQ==",
-        "label": "CH-UK"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9UTlRTcG9ydHM1W1VLXQ==",
-        "label": "CH-UK"
       }
     ]
   }
