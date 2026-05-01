@@ -2832,8 +2832,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
     "gender": "M"
   },
   {
@@ -2859,8 +2859,8 @@
         "label": "CH-US"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "3rd quarter",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -4249,8 +4249,8 @@
     "match_time": "20:55",
     "duration": "3.5",
     "servers": [],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -4314,8 +4314,8 @@
     "match_time": "22:25",
     "duration": "3.5",
     "servers": [],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -5134,7 +5134,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -5156,7 +5156,7 @@
     "duration": "3.5",
     "servers": [],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -12770,7 +12770,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "Halftime",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -12797,7 +12797,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "2nd half",
+    "status_desc": "1st extra",
     "gender": "M"
   },
   {
@@ -12872,7 +12872,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -12946,8 +12946,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
     "gender": "M"
   },
   {
@@ -18777,8 +18777,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
     "gender": "M"
   },
   {
@@ -23377,29 +23377,6 @@
     "gender": "M"
   },
   {
-    "id": "Rizespor-Konyaspor",
-    "league": "Turkey - Süper Lig",
-    "team1": {
-      "name": "Rizespor",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Konyaspor",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-01",
-    "kickoff_time": "21:00",
-    "match_date": "2026-05-01",
-    "match_time": "20:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=151",
-        "label": "CH-TR"
-      }
-    ]
-  },
-  {
     "id": "Andorra-Albacete",
     "league": "Spain - LaLiga 2",
     "team1": {
@@ -23831,6 +23808,52 @@
       },
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUyLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "F1MiamiGrandPrixSprintShootout",
+    "league": "Motor Sport",
+    "team1": {
+      "name": "F1 Miami Grand Prix Sprint Shootout",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAAB3CAMAAADSMpnKAAAAaVBMVEX/////AQD/AAD/2Nj/GRn/aWn/Jib/9vb/Cgr/w8P//Pz/5OT/3Nz/6ur/+fn/UVH/8PD/Li7/Pz//V1f/d3f/srL/ubn/ZGT/bW3/Xl7/lZX/iYn/qan/f3//Ojr/pKT/ysr/np7/SUn5T2NHAAACrUlEQVR4nO2X6Y6jMAyAPWnLHW6GcrSlff+HnIQe2hKXiYFdaSV//ZcI1/kIjgPAMAzDMAzDMAzDMAzDMAzDMP8ncSrDKNqtBSBFx11yQlF/Kuvkds6c/TrEBeDmIePHmJRQWBViM74hvWHjR1JK8pTph77070ugvw/D5oTQnhKBTNQUT7LTCW3EwxMyTvI05MJCiaUpIXoIEoFMUDzF7XaWtvIUHISwUmJlSnuCAtmcJE/yvLUnN8E8HQie0mzqaY0pnRM0AploAvucImdTT57yVKz1JB2Ckl9N6ZyCWiATRE/4xljG3ocY90TISe6RdY94e2cB/runpymap8xYlU6oaXs/ki4h0IugQT1RaoHpSb2BNhpDBHEcuzRUFT4gBU8Uaz11EsAd+rZs8tzZe/YIUX3wRKmZIeJJbQp1NJ+9JZu8Mj1pUyIheNohnvIIgn78B+yTnGM8W9Z7coxuRyRSf9BL6tTo6Wh4UqtL7FNC91OSgswXlfexp8M9ERry0dPkDC9ckNmyzlPv8RLzdFvlSXl2dbuwQJN69gpQY54aiidTiGjiewuzwJTuM1FPlO8O86Rzytd4QkoexVOUGUJ0X/GHJ5Kpv+ZJneEp4smqZipPR8xTsczT6wyfenocWVZ89ESpmYgndccwPKmwp/7b/5Xhg6eE4GmXmUJKuNfM96W2llG1J/Pet9ZTiewn4VW2IUvUU2qf08TTeIafUE+DZcS7p+m9b/Q0dF07XMDt5hPEPKmcXNPTt+0yT5in25hG6ifhRUCfybkAhie1pm6VJ3h4er/3Pfe4PEB/9E9dOBNA9XQGbQDu2RileDLJn68rrOHqi2ouKVnWhwm1qntxNx1uBtuc+mYaUVG+vlrZQrXrouvs62MYhmEYhmEYhmEYhmEYhmEYhmH+AT/KYTGDu72/ZgAAAABJRU5ErkJggg=="
+    },
+    "team2": {
+      "name": "",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAAB3CAMAAADSMpnKAAAAaVBMVEX/////AQD/AAD/2Nj/GRn/aWn/Jib/9vb/Cgr/w8P//Pz/5OT/3Nz/6ur/+fn/UVH/8PD/Li7/Pz//V1f/d3f/srL/ubn/ZGT/bW3/Xl7/lZX/iYn/qan/f3//Ojr/pKT/ysr/np7/SUn5T2NHAAACrUlEQVR4nO2X6Y6jMAyAPWnLHW6GcrSlff+HnIQe2hKXiYFdaSV//ZcI1/kIjgPAMAzDMAzDMAzDMAzDMAzDMP8ncSrDKNqtBSBFx11yQlF/Kuvkds6c/TrEBeDmIePHmJRQWBViM74hvWHjR1JK8pTph77070ugvw/D5oTQnhKBTNQUT7LTCW3EwxMyTvI05MJCiaUpIXoIEoFMUDzF7XaWtvIUHISwUmJlSnuCAtmcJE/yvLUnN8E8HQie0mzqaY0pnRM0AploAvucImdTT57yVKz1JB2Ckl9N6ZyCWiATRE/4xljG3ocY90TISe6RdY94e2cB/runpymap8xYlU6oaXs/ki4h0IugQT1RaoHpSb2BNhpDBHEcuzRUFT4gBU8Uaz11EsAd+rZs8tzZe/YIUX3wRKmZIeJJbQp1NJ+9JZu8Mj1pUyIheNohnvIIgn78B+yTnGM8W9Z7coxuRyRSf9BL6tTo6Wh4UqtL7FNC91OSgswXlfexp8M9ERry0dPkDC9ckNmyzlPv8RLzdFvlSXl2dbuwQJN69gpQY54aiidTiGjiewuzwJTuM1FPlO8O86Rzytd4QkoexVOUGUJ0X/GHJ5Kpv+ZJneEp4smqZipPR8xTsczT6wyfenocWVZ89ESpmYgndccwPKmwp/7b/5Xhg6eE4GmXmUJKuNfM96W2llG1J/Pet9ZTiewn4VW2IUvUU2qf08TTeIafUE+DZcS7p+m9b/Q0dF07XMDt5hPEPKmcXNPTt+0yT5in25hG6ifhRUCfybkAhie1pm6VJ3h4er/3Pfe4PEB/9E9dOBNA9XQGbQDu2RileDLJn68rrOHqi2ouKVnWhwm1qntxNx1uBtuc+mYaUVG+vlrZQrXrouvs62MYhmEYhmEYhmEYhmEYhmEYhmH+AT/KYTGDu72/ZgAAAABJRU5ErkJggg=="
+    },
+    "kickoff_date": "2026-05-02",
+    "kickoff_time": "02:30",
+    "match_date": "2026-05-02",
+    "match_time": "02:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDQ5LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "F1MiamiGrandPrix",
+    "league": "Motor Sport",
+    "team1": {
+      "name": "F1 Miami Grand Prix",
+      "logo": ""
+    },
+    "team2": {
+      "name": "",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-01",
+    "kickoff_time": "22:00",
+    "match_date": "2026-05-01",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDQ5LnBocA==",
         "label": "CH-EN"
       }
     ]
