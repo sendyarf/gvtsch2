@@ -455,8 +455,8 @@
     "match_time": "09:25",
     "duration": "3.5",
     "servers": [],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -512,8 +512,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1886,10 +1886,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
-        "label": "CH-EN"
-      },
-      {
         "url": "https://multi.govoet.cc/?ss=hd2",
         "label": "CH-1"
       },
@@ -1906,8 +1902,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1928,10 +1924,6 @@
     "match_time": "06:55",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY2LnBocA==",
-        "label": "CH-EN"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Cb3N0b24gQ2VsdGljcw==",
         "label": "CH-NA"
@@ -1964,22 +1956,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=193",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=97",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=89",
-        "label": "CH-ES"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY3LnBocA==",
         "label": "CH-EN"
       },
@@ -2004,8 +1980,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -3244,10 +3220,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI1LnBocA==",
-        "label": "CH-EN"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9NaW5uZXNvdGEgVHdpbnM=",
         "label": "CH-NA"
       },
@@ -3596,12 +3568,7 @@
     "match_date": "2026-05-01",
     "match_time": "05:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "BostonBruins-BuffaloSabres",
@@ -5549,10 +5516,6 @@
     "match_time": "04:30",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI0LnBocA==",
-        "label": "CH-EN"
-      },
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9QaGlsYWRlbHBoaWEgUGhpbGxpZXM=",
         "label": "CH-NA"
@@ -12582,10 +12545,10 @@
   {
     "id": "SCCovilha-Amora",
     "sport": "Football",
-    "league": "Portugal - League 3 - Gr.Retrogradare 2",
+    "league": "Portugal - Liga 3, Relegation Round, Group 2",
     "team1": {
       "name": "SC Covilha",
-      "logo": ""
+      "logo": "https://img.sofascore.com/api/v1/team/3037/image"
     },
     "team2": {
       "name": "Amora",
@@ -12601,7 +12564,10 @@
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9iZXQxMjc1MTMwMQ==",
         "label": "CH-NA"
       }
-    ]
+    ],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
   },
   {
     "id": "Sesvete-Karlovac",
@@ -21616,8 +21582,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23093,106 +23059,25 @@
     "gender": "M"
   },
   {
-    "id": "IndMedellinCol-CuscoPer",
-    "league": "Copa Libertadores",
-    "team1": {
-      "name": "Ind. Medellin (Col)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Cusco (Per)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-01",
-    "kickoff_time": "09:00",
-    "match_date": "2026-05-01",
-    "match_time": "08:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=87",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=79",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "AlianzaAtlPer-MacaraEcu",
-    "league": "Copa Sudamericana",
-    "team1": {
-      "name": "Alianza Atl. (Per)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Macara (Ecu)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-01",
-    "kickoff_time": "09:00",
-    "match_date": "2026-05-01",
-    "match_time": "08:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=94",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "AnaheimDucks-EdmontonOilers",
+    "id": "EdmontonOilers-AnaheimDucks",
     "league": "USA - NHL",
     "team1": {
-      "name": "Anaheim Ducks",
-      "logo": ""
+      "name": "Edmonton Oilers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png"
     },
     "team2": {
-      "name": "Edmonton Oilers",
-      "logo": ""
+      "name": "Anaheim Ducks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png"
     },
     "kickoff_date": "2026-05-01",
-    "kickoff_time": "09:00",
+    "kickoff_time": "08:00",
     "match_date": "2026-05-01",
-    "match_time": "08:55",
+    "match_time": "07:55",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=6",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=195",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
         "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "JaibaBrava-Cancun",
-    "league": "Mexico - Liga de Expansión MX",
-    "team1": {
-      "name": "Leones del Norte",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Cancún",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-01",
-    "kickoff_time": "10:05",
-    "match_date": "2026-05-01",
-    "match_time": "10:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=99",
-        "label": "CH-ES"
       }
     ]
   }
