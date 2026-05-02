@@ -370,8 +370,8 @@
     "match_time": "18:55",
     "duration": "3.5",
     "servers": [],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -397,8 +397,8 @@
         "label": "CH-NL"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -631,7 +631,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -976,7 +976,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1039,7 +1039,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -1066,7 +1066,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1257,7 +1257,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1581,8 +1581,8 @@
         "label": "CH-3"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1882,7 +1882,7 @@
     "duration": "3.5",
     "servers": [],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -23369,430 +23369,6 @@
     "gender": "M"
   },
   {
-    "id": "bundesliga2konferenz",
-    "league": "Germany - Bundesliga 2",
-    "team1": {
-      "name": "Bundesliga 2 Conference League",
-      "logo": ""
-    },
-    "team2": {
-      "name": "",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:00",
-    "match_date": "2026-05-02",
-    "match_time": "17:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=112",
-        "label": "CH-DE"
-      }
-    ]
-  },
-  {
-    "id": "ArminiaBielefeld-Bochum",
-    "league": "Germany - Bundesliga 2",
-    "team1": {
-      "name": "Arminia Bielefeld",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Bochum",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:00",
-    "match_date": "2026-05-02",
-    "match_time": "17:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=113",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=78",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd9",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "HolsteinKiel-Braunschweig",
-    "league": "Germany - Bundesliga 2",
-    "team1": {
-      "name": "Holstein Kiel",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Braunschweig",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:00",
-    "match_date": "2026-05-02",
-    "match_time": "17:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=115",
-        "label": "CH-DE"
-      }
-    ]
-  },
-  {
-    "id": "SGDynamoDresden-Kaiserslautern",
-    "league": "Germany - 2. Bundesliga",
-    "team1": {
-      "name": "SG Dynamo Dresden",
-      "logo": "https://img.sofascore.com/api/v1/team/2595/image"
-    },
-    "team2": {
-      "name": "Kaiserslautern",
-      "logo": "https://img.sofascore.com/api/v1/team/2675/image"
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:00",
-    "match_date": "2026-05-02",
-    "match_time": "17:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=114",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd10",
-        "label": "CH-1"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Blackburn-Leicester",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Blackburn",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Leicester City",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-02",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=190",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "BristolCity-Stoke",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Bristol City",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Stoke",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-02",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=191",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "Derby-SheffieldUtd",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Derby",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Sheffield Utd",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-02",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=192",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "Hull-Norwich",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Hull",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Norwich",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-02",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=193",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "Ipswich-QPR",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Ipswich",
-      "logo": "https://img.sofascore.com/api/v1/team/32/image"
-    },
-    "team2": {
-      "name": "QPR",
-      "logo": "https://img.sofascore.com/api/v1/team/1/image"
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-02",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=9",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=127",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=79",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Millwall-OxfordUtd",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Millwall",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Oxford Utd",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-02",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=10",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=128",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=80",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "Portsmouth-Birmingham",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Portsmouth",
-      "logo": "https://img.sofascore.com/api/v1/team/2/image"
-    },
-    "team2": {
-      "name": "Birmingham",
-      "logo": "https://img.sofascore.com/api/v1/team/9/image"
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-02",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=194",
-        "label": "CH-US"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Preston-Southampton",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Preston",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Southampton",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-02",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=195",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "SheffieldWed-WestBrom",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Sheffield Wed",
-      "logo": ""
-    },
-    "team2": {
-      "name": "West Brom",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-02",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=196",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "Swansea-Charlton",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Swansea",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Charlton",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-02",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=197",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "Watford-Coventry",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Watford",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Coventry",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-02",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=198",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "Wrexham-Middlesbrough",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Wrexham",
-      "logo": "https://img.sofascore.com/api/v1/team/64/image"
-    },
-    "team2": {
-      "name": "Middlesbrough",
-      "logo": "https://img.sofascore.com/api/v1/team/36/image"
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-02",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=199",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=93",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=98",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br2",
-        "label": "CH-1"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
     "id": "LyonW-ArsenalW",
     "league": "Europe - Uefa Champions League, Women, Knockout Stage",
     "team1": {
@@ -23824,7 +23400,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "F"
   },
   {
@@ -23873,8 +23449,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -23954,8 +23530,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -23981,8 +23557,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -24035,8 +23611,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -24062,8 +23638,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -26609,8 +26185,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -26636,8 +26212,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -26663,8 +26239,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -26691,7 +26267,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
