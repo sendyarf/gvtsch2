@@ -1880,7 +1880,24 @@
     "match_date": "2026-05-02",
     "match_time": "15:25",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yOTEyNzcubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzIwODEubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MTMzOTQubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80MDA3MjIubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
   },
   {
     "id": "MalutUnited-PersisSolo",
@@ -2096,14 +2113,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=195",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY3LnBocA==",
-        "label": "CH-EN"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly92aWV3ZW1iZWQucnUvY2hhbm5lbC9Ib3VzdG9uIFJvY2tldHM=",
         "label": "CH-NA"
       },
@@ -2112,8 +2121,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -5067,7 +5076,7 @@
   {
     "id": "ChindiaTrgovite-SteauaBucureti",
     "sport": "Football",
-    "league": "Romania - Liga 2",
+    "league": "Romania - Liga 2, Promotion Round",
     "team1": {
       "name": "Chindia Târgoviște",
       "logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/56127/image"
@@ -5081,7 +5090,10 @@
     "match_date": "2026-05-01",
     "match_time": "21:25",
     "duration": "3.5",
-    "servers": []
+    "servers": [],
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
   },
   {
     "id": "DetroitPistons-OrlandoMagic",
@@ -5184,8 +5196,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -13554,8 +13566,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -22938,8 +22950,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23039,8 +23051,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23423,145 +23435,6 @@
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
-  },
-  {
-    "id": "LosAngelesAngels-NewYorkMets",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Los Angeles Angels",
-      "logo": ""
-    },
-    "team2": {
-      "name": "New York",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "08:38",
-    "match_date": "2026-05-02",
-    "match_time": "08:33",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=196",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI2LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Athletics-ClevelandGuardians",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Oakland Athletics",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Cleveland Cavaliers",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "08:40",
-    "match_date": "2026-05-02",
-    "match_time": "08:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=197",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI4LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "SanDiegoPadres-ChicagoWhiteSox",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "San Diego Padres (MLB)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Chicago White Sox",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "08:40",
-    "match_date": "2026-05-02",
-    "match_time": "08:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=198",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI3LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "SeattleMariners-KansasCityRoyals",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Seattle Mariners (MLB)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Los Angeles Angels",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "08:45",
-    "match_date": "2026-05-02",
-    "match_time": "08:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=199",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI5LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "UtahMammoth-VegasGoldenKnights",
-    "league": "USA - NHL",
-    "team1": {
-      "name": "Utah Jazz",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Las Vegas Golden Knights",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "09:00",
-    "match_date": "2026-05-02",
-    "match_time": "08:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=7",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=200",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUyLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
   },
   {
     "id": "bundesliga2konferenz",
