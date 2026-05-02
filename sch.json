@@ -400,8 +400,8 @@
         "label": "CH-NL"
       }
     ],
-    "status": "suspended",
-    "status_desc": "Suspended",
+    "status": "inprogress",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -616,7 +616,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "Halftime",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1053,10 +1053,6 @@
       {
         "url": "https://multi.govoet.cc/?shaka=sport1cz",
         "label": "CH-CZ"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDkucGhw",
-        "label": "CH-EN"
       }
     ],
     "status": "finished",
@@ -1102,8 +1098,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1435,8 +1431,8 @@
         "label": "CH-4"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1897,7 +1893,7 @@
   {
     "id": "Waalwijk-WillemII",
     "sport": "Football",
-    "league": "Netherlands - Eredivisie",
+    "league": "Netherlands - Vriendenloterij Eredivisie, Relegation/Promotion Playoffs",
     "team1": {
       "name": "RKC Waalwijk",
       "logo": "https://static.flashscore.com/res/image/data/AJd4wp8k-YsXoN1Be.png"
@@ -1911,7 +1907,10 @@
     "match_date": "2026-05-05",
     "match_time": "23:40",
     "duration": "3.5",
-    "servers": []
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
   },
   {
     "id": "ASRoma-Fiorentina",
@@ -23242,56 +23241,6 @@
     "gender": "M"
   },
   {
-    "id": "Lanus-DepRiestra",
-    "league": "Argentina - Liga Profesional De Fútbol, Apertura",
-    "team1": {
-      "name": "Lanús",
-      "logo": "https://img.sofascore.com/api/v1/team/3218/image"
-    },
-    "team2": {
-      "name": "Dep. Riestra",
-      "logo": "https://img.sofascore.com/api/v1/team/189723/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "00:30",
-    "match_date": "2026-05-03",
-    "match_time": "00:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=76",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "NewYorkYankees-BaltimoreOrioles",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "New York",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Baltimore Orioles",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "00:35",
-    "match_date": "2026-05-03",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=171",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
     "id": "FCCajamarca-SportBoys",
     "league": "Peru - Liga 1, Apertura",
     "team1": {
@@ -23738,8 +23687,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23789,7 +23738,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "Halftime",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -23820,7 +23769,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "Halftime",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -23901,7 +23850,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -23936,7 +23885,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -24151,8 +24100,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
