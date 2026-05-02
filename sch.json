@@ -117,10 +117,6 @@
       {
         "url": "https://multi.govoet.cc/?shaka=telemundo",
         "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDQucGhw",
-        "label": "CH-EN"
       }
     ],
     "status": "finished",
@@ -358,24 +354,7 @@
     "match_date": "2026-05-03",
     "match_time": "00:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=125",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=141",
-        "label": "CH-NL"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=88",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=98",
-        "label": "CH-ES"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "Nijmegen-Telstar",
@@ -400,8 +379,8 @@
         "label": "CH-NL"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -615,8 +594,8 @@
         "label": "CH-1"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23241,457 +23220,6 @@
     "gender": "M"
   },
   {
-    "id": "FCCajamarca-SportBoys",
-    "league": "Peru - Liga 1, Apertura",
-    "team1": {
-      "name": "Cajamarca FC",
-      "logo": "https://img.sofascore.com/api/v1/team/1082002/image"
-    },
-    "team2": {
-      "name": "Sport Boys Warnes",
-      "logo": "https://img.sofascore.com/api/v1/team/2312/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-03",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=84",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Tenerife-MoraBancAndorra",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Tenerife",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Andorra",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-03",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=157",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "MultiplexLigue2",
-    "league": "France - Ligue 2",
-    "team1": {
-      "name": "Multiplex Ligue 2",
-      "logo": ""
-    },
-    "team2": {
-      "name": "",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-03",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=2",
-        "label": "CH-FR"
-      }
-    ]
-  },
-  {
-    "id": "Amiens-RedStar",
-    "league": "France - Ligue 2",
-    "team1": {
-      "name": "Amiens",
-      "logo": "https://img.sofascore.com/api/v1/team/1676/image"
-    },
-    "team2": {
-      "name": "Red Star",
-      "logo": "https://img.sofascore.com/api/v1/team/52874/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-03",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=6",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=4",
-        "label": "CH-FR"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Boulogne-Annecy",
-    "league": "France - Ligue 2",
-    "team1": {
-      "name": "Boulogne",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Annecy",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-03",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=164",
-        "label": "CH-FR"
-      }
-    ]
-  },
-  {
-    "id": "Dunkerque-Grenoble",
-    "league": "France - Ligue 2",
-    "team1": {
-      "name": "Dunkerque",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Grenoble",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-03",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=162",
-        "label": "CH-FR"
-      }
-    ]
-  },
-  {
-    "id": "Guingamp-Bastia",
-    "league": "France - Ligue 2",
-    "team1": {
-      "name": "Guingamp",
-      "logo": "https://img.sofascore.com/api/v1/team/1654/image"
-    },
-    "team2": {
-      "name": "Bastia",
-      "logo": "https://img.sofascore.com/api/v1/team/1655/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-03",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=8",
-        "label": "CH-FR"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Montpellier-Clermont",
-    "league": "France - Ligue 2",
-    "team1": {
-      "name": "Montpellier",
-      "logo": "https://img.sofascore.com/api/v1/team/1642/image"
-    },
-    "team2": {
-      "name": "Clermont",
-      "logo": "https://img.sofascore.com/api/v1/team/1680/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-03",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=7",
-        "label": "CH-FR"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "PauFC-Nancy",
-    "league": "France - Ligue 2",
-    "team1": {
-      "name": "Pau FC",
-      "logo": "https://img.sofascore.com/api/v1/team/1685/image"
-    },
-    "team2": {
-      "name": "Nancy",
-      "logo": "https://img.sofascore.com/api/v1/team/1675/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-03",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=163",
-        "label": "CH-FR"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Rodez-StEtienne",
-    "league": "France - Ligue 2",
-    "team1": {
-      "name": "Rodez",
-      "logo": "https://img.sofascore.com/api/v1/team/6925/image"
-    },
-    "team2": {
-      "name": "St Etienne",
-      "logo": "https://img.sofascore.com/api/v1/team/1678/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-03",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=1",
-        "label": "CH-FR"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Troyes-Laval",
-    "league": "France - Ligue 2",
-    "team1": {
-      "name": "Troyes",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Laval",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-03",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=5",
-        "label": "CH-FR"
-      }
-    ]
-  },
-  {
-    "id": "LommelSK-BeerschotVA",
-    "league": "Belgium - Pro League, Relegation/Promotion Playoff",
-    "team1": {
-      "name": "Lommel SK",
-      "logo": "https://img.sofascore.com/api/v1/team/5046/image"
-    },
-    "team2": {
-      "name": "Beerschot VA",
-      "logo": "https://img.sofascore.com/api/v1/team/169260/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-03",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=154",
-        "label": "CH-FR"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "MinnesotaTwins-TorontoBlueJays",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Minnesota",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Washington Nationals",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:10",
-    "match_date": "2026-05-03",
-    "match_time": "01:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=172",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "ChicagoCubs-ArizonaDiamondbacks",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Chicago Cubs",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Arizona Diamondbacks",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:20",
-    "match_date": "2026-05-03",
-    "match_time": "01:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=173",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Schalke-Dusseldorf",
-    "league": "Germany - Bundesliga 2",
-    "team1": {
-      "name": "Schalke",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Dusseldorf",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:30",
-    "match_date": "2026-05-03",
-    "match_time": "01:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=112",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=79",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd3",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=eleven2",
-        "label": "CH-2"
-      }
-    ]
-  },
-  {
-    "id": "CACerro-Maldonado",
-    "league": "Uruguay - Liga AUF",
-    "team1": {
-      "name": "Cerro Porteño",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Maldonado",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:30",
-    "match_date": "2026-05-03",
-    "match_time": "01:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=109",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "SportingKansasCity-SeattleSounders",
-    "league": "USA - MLS",
-    "team1": {
-      "name": "Sporting Kansas City",
-      "logo": "https://img.sofascore.com/api/v1/team/2509/image"
-    },
-    "team2": {
-      "name": "Seattle Sounders",
-      "logo": "https://img.sofascore.com/api/v1/team/22009/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "01:30",
-    "match_date": "2026-05-03",
-    "match_time": "01:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=70",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=174",
-        "label": "CH-US"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
     "id": "StTruiden-RoyaleUnionSG",
     "league": "Belgium - Pro League",
     "team1": {
@@ -23737,8 +23265,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23768,8 +23296,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23849,8 +23377,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23884,8 +23412,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -24101,7 +23629,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -24173,8 +23701,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -24212,8 +23740,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -24243,8 +23771,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -25186,6 +24714,52 @@
     ]
   },
   {
+    "id": "ArizonaDiamondbacks-ChicagoCubs",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Arizona Diamondbacks",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png"
+    },
+    "team2": {
+      "name": "Chicago Cubs",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png"
+    },
+    "kickoff_date": "2026-05-03",
+    "kickoff_time": "00:20",
+    "match_date": "2026-05-03",
+    "match_time": "00:15",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "TorontoBlueJays-MinnesotaTwins",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Washington Nationals",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tor.png"
+    },
+    "team2": {
+      "name": "Minnesota",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png"
+    },
+    "kickoff_date": "2026-05-03",
+    "kickoff_time": "00:10",
+    "match_date": "2026-05-03",
+    "match_time": "00:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
     "id": "ConahWalker-SamEggington",
     "league": "Boxing",
     "team1": {
@@ -25230,59 +24804,5 @@
         "label": "CH-EN"
       }
     ]
-  },
-  {
-    "id": "ASMonaco-Metz",
-    "league": "France - Ligue 1",
-    "team1": {
-      "name": "AS Monaco FC",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png"
-    },
-    "team2": {
-      "name": "Metz",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png"
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "23:00",
-    "match_date": "2026-05-02",
-    "match_time": "22:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcucGhw",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "AthleticClub-Alavs",
-    "league": "Spain - LaLiga",
-    "team1": {
-      "name": "Ath Bilbao",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
-    },
-    "team2": {
-      "name": "Alavés",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png"
-    },
-    "kickoff_date": "2026-05-02",
-    "kickoff_time": "22:30",
-    "match_date": "2026-05-02",
-    "match_time": "22:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
   }
 ]
