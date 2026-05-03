@@ -885,18 +885,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=4",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=123",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=118",
-        "label": "CH-ES"
-      },
-      {
         "url": "https://multi.govoet.cc/?ss=hd3",
         "label": "CH-1"
       },
@@ -1097,10 +1085,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDkucGhw",
-        "label": "CH-EN"
-      },
-      {
         "url": "https://multi.govoet.cc/?ss=hd7",
         "label": "CH-1"
       },
@@ -1160,8 +1144,8 @@
         "label": "CH-PT"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1460,8 +1444,8 @@
         "label": "CH-4"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1650,8 +1634,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "3rd quarter",
     "gender": "M"
   },
   {
@@ -1956,8 +1940,8 @@
         "label": "CH-1"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "3rd quarter",
     "gender": "M"
   },
   {
@@ -4941,8 +4925,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "3rd quarter",
     "gender": "M"
   },
   {
@@ -23230,171 +23214,6 @@
     "gender": "M"
   },
   {
-    "id": "Dender-RAALLaLouviere",
-    "league": "Belgium - Pro League, Relegation Round",
-    "team1": {
-      "name": "Dender",
-      "logo": "https://img.sofascore.com/api/v1/team/389232/image"
-    },
-    "team2": {
-      "name": "La Louviere",
-      "logo": "https://img.sofascore.com/api/v1/team/368506/image"
-    },
-    "kickoff_date": "2026-05-04",
-    "kickoff_time": "00:15",
-    "match_date": "2026-05-04",
-    "match_time": "00:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=154",
-        "label": "CH-FR"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "BostonRedSox-HoustonAstros",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Boston Celtics",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Houston Rockets",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-04",
-    "kickoff_time": "00:35",
-    "match_date": "2026-05-04",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=171",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "NewYorkYankees-BaltimoreOrioles",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "New York",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Baltimore Orioles",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-04",
-    "kickoff_time": "00:35",
-    "match_date": "2026-05-04",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=172",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "PittsburghPirates-CincinnatiReds",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Pittsburgh Pirates (MLB)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Cincinnati Reds",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-04",
-    "kickoff_time": "00:35",
-    "match_date": "2026-05-04",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=173",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "WashingtonNationals-MilwaukeeBrewers",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Washington Nationals",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Milwaukee",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-04",
-    "kickoff_time": "00:35",
-    "match_date": "2026-05-04",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=174",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "MiamiMarlins-PhiladelphiaPhillies",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Miami",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Philadelphia Phillies (MLB)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-04",
-    "kickoff_time": "00:40",
-    "match_date": "2026-05-04",
-    "match_time": "00:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=175",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "TampaBayRays-SanFranciscoGiants",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Tampa Bay Rays",
-      "logo": ""
-    },
-    "team2": {
-      "name": "San Francisco Giants (MLB)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-04",
-    "kickoff_time": "00:40",
-    "match_date": "2026-05-04",
-    "match_time": "00:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=176",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
     "id": "Panathinaikos-AEKAthens",
     "league": "Greece - Stoiximan Super League, Championship Round",
     "team1": {
@@ -23421,8 +23240,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23448,8 +23267,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23479,8 +23298,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23506,8 +23325,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23587,8 +23406,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23614,8 +23433,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23641,8 +23460,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23672,8 +23491,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23749,8 +23568,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23776,8 +23595,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23835,7 +23654,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -23996,8 +23815,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -24069,8 +23888,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -24620,8 +24439,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
