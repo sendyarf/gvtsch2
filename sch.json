@@ -681,12 +681,7 @@
     "match_date": "2026-05-03",
     "match_time": "02:00",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?ss=hd4",
-        "label": "CH-1"
-      }
-    ],
+    "servers": [],
     "status": "finished",
     "status_desc": "Ended",
     "gender": "M"
@@ -1221,16 +1216,7 @@
     "match_date": "2026-05-03",
     "match_time": "01:40",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?ss=hd7",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv3",
-        "label": "CH-2"
-      }
-    ],
+    "servers": [],
     "status": "finished",
     "status_desc": "Ended",
     "gender": "M"
@@ -1607,22 +1593,6 @@
       {
         "url": "https://multi.govoet.cc/?shaka=bein2aus",
         "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd6",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=eleven1",
-        "label": "CH-3"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br2",
-        "label": "CH-4"
       }
     ],
     "status": "finished",
@@ -2115,14 +2085,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=185",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
         "label": "CH-EN"
       },
@@ -2131,8 +2093,8 @@
         "label": "CH-1"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "2nd quarter",
     "gender": "M"
   },
   {
@@ -3527,8 +3489,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "2nd quarter",
     "gender": "M"
   },
   {
@@ -3741,8 +3703,8 @@
         "label": "CH-NA"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "2nd quarter",
     "gender": "M"
   },
   {
@@ -23517,759 +23479,6 @@
     "gender": "M"
   },
   {
-    "id": "JaguaresdeCordoba-Cucuta",
-    "league": "Colombia: Primera A",
-    "team1": {
-      "name": "Jaguares de Córdoba",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Deportes Tolima",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "04:00",
-    "match_date": "2026-05-03",
-    "match_time": "03:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=81",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "LDUQuito-GuayaquilCity",
-    "league": "Ecuador - Liga Pro",
-    "team1": {
-      "name": "Liga Deportiva Universitaria de Quito",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Guayaquil City SC",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "04:30",
-    "match_date": "2026-05-03",
-    "match_time": "04:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=86",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "LiverpoolM-Danubio",
-    "league": "Uruguay - Liga Auf Uruguaya, Apertura",
-    "team1": {
-      "name": "Liverpool M.",
-      "logo": "https://img.sofascore.com/api/v1/team/6879/image"
-    },
-    "team2": {
-      "name": "Danubio",
-      "logo": "https://img.sofascore.com/api/v1/team/3228/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "04:30",
-    "match_date": "2026-05-03",
-    "match_time": "04:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=109",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Palmeiras-Santos",
-    "league": "Brazil - Brasileirão Betano",
-    "team1": {
-      "name": "Palmeiras",
-      "logo": "https://img.sofascore.com/api/v1/team/1963/image"
-    },
-    "team2": {
-      "name": "Santos FC",
-      "logo": "https://img.sofascore.com/api/v1/team/1968/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "04:30",
-    "match_date": "2026-05-03",
-    "match_time": "04:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=55",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=61",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=125",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br5",
-        "label": "CH-1"
-      }
-    ],
-    "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
-    "gender": "M"
-  },
-  {
-    "id": "SanLorenzo-Independiente",
-    "league": "Argentina - Liga Profesional De Fútbol, Apertura",
-    "team1": {
-      "name": "San Lorenzo de Almagro",
-      "logo": "https://img.sofascore.com/api/v1/team/3201/image"
-    },
-    "team2": {
-      "name": "Independiente",
-      "logo": "https://img.sofascore.com/api/v1/team/3209/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "04:45",
-    "match_date": "2026-05-03",
-    "match_time": "04:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=75",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd10",
-        "label": "CH-1"
-      }
-    ],
-    "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
-    "gender": "M"
-  },
-  {
-    "id": "UniondeSantaFe-TalleresCordoba",
-    "league": "Argentina - Primera LPF",
-    "team1": {
-      "name": "Union Santa Fe",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Talleres Córdoba",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "04:45",
-    "match_date": "2026-05-03",
-    "match_time": "04:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=76",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd9",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "ClubAmericaW-JuarezW",
-    "league": "Mexico - Liga MX Women",
-    "team1": {
-      "name": "Club América (Women)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Juarez",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "04:55",
-    "match_date": "2026-05-03",
-    "match_time": "04:50",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=106",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "TampaBayRays-SanFranciscoGiants",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Tampa Bay Rays",
-      "logo": ""
-    },
-    "team2": {
-      "name": "San Francisco Giants (MLB)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "05:10",
-    "match_date": "2026-05-03",
-    "match_time": "05:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=181",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIzLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Cienciano-ComerciantesUnidos",
-    "league": "Peru - Liga 1, Apertura",
-    "team1": {
-      "name": "Cienciano del Cusco",
-      "logo": "https://img.sofascore.com/api/v1/team/2301/image"
-    },
-    "team2": {
-      "name": "Comerciantes Unidos",
-      "logo": "https://img.sofascore.com/api/v1/team/213609/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "05:30",
-    "match_date": "2026-05-03",
-    "match_time": "05:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=84",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
-    "gender": "M"
-  },
-  {
-    "id": "DetroitTigers-TexasRangers",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Detroit Tigers",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Dallas Mavericks",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "06:15",
-    "match_date": "2026-05-03",
-    "match_time": "06:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=182",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI0LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "StLouisCardinals-LosAngelesDodgers",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "St Louis Cardinals",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Los Angeles Dodgers",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "06:15",
-    "match_date": "2026-05-03",
-    "match_time": "06:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=4",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=183",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI1LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "InterMiami-OrlandoCity",
-    "league": "USA - MLS",
-    "team1": {
-      "name": "Inter Miami CF",
-      "logo": "https://img.sofascore.com/api/v1/team/337602/image"
-    },
-    "team2": {
-      "name": "Orlando City SC",
-      "logo": "https://img.sofascore.com/api/v1/team/52237/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "06:15",
-    "match_date": "2026-05-03",
-    "match_time": "06:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=184",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=160",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd5",
-        "label": "CH-1"
-      }
-    ],
-    "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
-    "gender": "M"
-  },
-  {
-    "id": "AtlantaUtd-CFMontreal",
-    "league": "USA - MLS",
-    "team1": {
-      "name": "Atlanta United FC",
-      "logo": "https://img.sofascore.com/api/v1/team/243211/image"
-    },
-    "team2": {
-      "name": "Montreal Impact",
-      "logo": "https://img.sofascore.com/api/v1/team/22006/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-03",
-    "match_time": "06:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=186",
-        "label": "CH-US"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "ColumbusCrew-MinnesotaUnited",
-    "league": "USA - MLS",
-    "team1": {
-      "name": "Columbus Crew SC",
-      "logo": "https://img.sofascore.com/api/v1/team/2504/image"
-    },
-    "team2": {
-      "name": "Minnesota United FC",
-      "logo": "https://img.sofascore.com/api/v1/team/41618/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-03",
-    "match_time": "06:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=187",
-        "label": "CH-US"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "NewEnglandRevolution-Charlotte",
-    "league": "USA - MLS",
-    "team1": {
-      "name": "New England Revolution",
-      "logo": "https://img.sofascore.com/api/v1/team/2511/image"
-    },
-    "team2": {
-      "name": "Charlotte FC",
-      "logo": "https://img.sofascore.com/api/v1/team/404108/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-03",
-    "match_time": "06:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=188",
-        "label": "CH-US"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "NewYorkRedBulls-FCDallas",
-    "league": "USA - MLS",
-    "team1": {
-      "name": "New York Red Bulls",
-      "logo": "https://img.sofascore.com/api/v1/team/2506/image"
-    },
-    "team2": {
-      "name": "Dallas FC",
-      "logo": "https://img.sofascore.com/api/v1/team/2512/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-03",
-    "match_time": "06:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=189",
-        "label": "CH-US"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "PhiladelphiaUnion-NashvilleSC",
-    "league": "USA - MLS",
-    "team1": {
-      "name": "Philadelphia Union",
-      "logo": "https://img.sofascore.com/api/v1/team/39833/image"
-    },
-    "team2": {
-      "name": "Nashville SC",
-      "logo": "https://img.sofascore.com/api/v1/team/337612/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-03",
-    "match_time": "06:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=190",
-        "label": "CH-US"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "BarcelonaSC-Manta",
-    "league": "Ecuador - Liga Pro",
-    "team1": {
-      "name": "Barcelona SC",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Manta FC",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-03",
-    "match_time": "06:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=86",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "CarolinaHurricanes-PhiladelphiaFlyers",
-    "league": "USA - NHL",
-    "team1": {
-      "name": "Carolina Hurricanes",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Philadelphia Flyers",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-03",
-    "match_time": "06:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=2",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=191",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Cruzeiro-AtleticoMG",
-    "league": "Brazil - Brasileirão Betano",
-    "team1": {
-      "name": "Cruzeiro",
-      "logo": "https://img.sofascore.com/api/v1/team/1954/image"
-    },
-    "team2": {
-      "name": "Atletico Mineiro",
-      "logo": "https://img.sofascore.com/api/v1/team/1977/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-03",
-    "match_time": "06:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=125",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br1",
-        "label": "CH-1"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "ColoradoRockies-AtlantaBraves",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Colorado Rockies",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Atlanta Braves",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "07:10",
-    "match_date": "2026-05-03",
-    "match_time": "07:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=192",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI2LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Platense-EstudiantesLP",
-    "league": "Argentina - Primera LPF",
-    "team1": {
-      "name": "Rosario Central",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Estudiantes de La Plata",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "07:15",
-    "match_date": "2026-05-03",
-    "match_time": "07:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=76",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "ChicagoFire-FCCincinnati",
-    "league": "USA - MLS",
-    "team1": {
-      "name": "Chicago Fire SC",
-      "logo": "https://img.sofascore.com/api/v1/team/2505/image"
-    },
-    "team2": {
-      "name": "Cincinnati FC",
-      "logo": "https://img.sofascore.com/api/v1/team/215167/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "07:30",
-    "match_date": "2026-05-03",
-    "match_time": "07:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=193",
-        "label": "CH-US"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "HoustonDynamo-ColoradoRapids",
-    "league": "USA - MLS",
-    "team1": {
-      "name": "Houston Dynamo FC",
-      "logo": "https://img.sofascore.com/api/v1/team/2508/image"
-    },
-    "team2": {
-      "name": "Colorado Rapids",
-      "logo": "https://img.sofascore.com/api/v1/team/2510/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "07:30",
-    "match_date": "2026-05-03",
-    "match_time": "07:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=194",
-        "label": "CH-US"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "SanDiegoPadres-ChicagoWhiteSox",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "San Diego Padres (MLB)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Chicago White Sox",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "07:40",
-    "match_date": "2026-05-03",
-    "match_time": "07:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=195",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI3LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "AlianzaLima-Moquegua",
-    "league": "Peru - Liga 1, Apertura",
-    "team1": {
-      "name": "Alianza Lima",
-      "logo": "https://img.sofascore.com/api/v1/team/2311/image"
-    },
-    "team2": {
-      "name": "Moquegua FC",
-      "logo": "https://img.sofascore.com/api/v1/team/492848/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "08:00",
-    "match_date": "2026-05-03",
-    "match_time": "07:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=84",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "TigresUANL-GuadalajaraChivas",
-    "league": "Mexico - Liga Mx, Clausura Playoffs",
-    "team1": {
-      "name": "Tigres UANL",
-      "logo": "https://img.sofascore.com/api/v1/team/1940/image"
-    },
-    "team2": {
-      "name": "Chivas Guadalajara",
-      "logo": "https://img.sofascore.com/api/v1/team/1938/image"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "08:00",
-    "match_date": "2026-05-03",
-    "match_time": "07:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=70",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=73",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=108",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
     "id": "SanDiegoFC-LosAngelesFC",
     "league": "USA - MLS",
     "team1": {
@@ -26697,6 +25906,75 @@
     "gender": "M"
   },
   {
+    "id": "ChicagoWhiteSox-SanDiegoPadres",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Chicago White Sox",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png"
+    },
+    "team2": {
+      "name": "San Diego Padres (MLB)",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png"
+    },
+    "kickoff_date": "2026-05-03",
+    "kickoff_time": "06:40",
+    "match_date": "2026-05-03",
+    "match_time": "06:35",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI3LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "AtlantaBraves-ColoradoRockies",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Atlanta Braves",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png"
+    },
+    "team2": {
+      "name": "Colorado Rockies",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png"
+    },
+    "kickoff_date": "2026-05-03",
+    "kickoff_time": "06:10",
+    "match_date": "2026-05-03",
+    "match_time": "06:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI2LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "PhiladelphiaFlyers-CarolinaHurricanes",
+    "league": "USA - NHL",
+    "team1": {
+      "name": "Philadelphia Flyers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png"
+    },
+    "team2": {
+      "name": "Carolina Hurricanes",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png"
+    },
+    "kickoff_date": "2026-05-03",
+    "kickoff_time": "06:00",
+    "match_date": "2026-05-03",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
     "id": "Benavidez-Zurdo",
     "league": "Boxing",
     "team1": {
@@ -26720,116 +25998,70 @@
     ]
   },
   {
-    "id": "HoustonAstros-BostonRedSox",
+    "id": "TexasRangers-DetroitTigers",
     "league": "USA - MLB",
     "team1": {
-      "name": "Houston Rockets",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png"
+      "name": "Dallas Mavericks",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png"
     },
     "team2": {
-      "name": "Boston Celtics",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png"
+      "name": "Detroit Tigers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png"
     },
     "kickoff_date": "2026-05-03",
-    "kickoff_time": "02:10",
+    "kickoff_time": "05:15",
     "match_date": "2026-05-03",
-    "match_time": "02:05",
+    "match_time": "05:10",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIxLnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI0LnBocA==",
         "label": "CH-EN"
       }
     ]
   },
   {
-    "id": "PhiladelphiaPhillies-MiamiMarlins",
+    "id": "LosAngelesDodgers-StLouisCardinals",
     "league": "USA - MLB",
     "team1": {
-      "name": "Philadelphia Phillies (MLB)",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png"
+      "name": "Los Angeles Dodgers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png"
     },
     "team2": {
-      "name": "Miami",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mia.png"
+      "name": "St Louis Cardinals",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png"
     },
     "kickoff_date": "2026-05-03",
-    "kickoff_time": "02:10",
+    "kickoff_time": "05:15",
     "match_date": "2026-05-03",
-    "match_time": "02:05",
+    "match_time": "05:10",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIyLnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI1LnBocA==",
         "label": "CH-EN"
       }
     ]
   },
   {
-    "id": "CincinnatiReds-PittsburghPirates",
+    "id": "SanFranciscoGiants-TampaBayRays",
     "league": "USA - MLB",
     "team1": {
-      "name": "Cincinnati Reds",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png"
+      "name": "San Francisco Giants (MLB)",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png"
     },
     "team2": {
-      "name": "Pittsburgh Pirates (MLB)",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png"
+      "name": "Tampa Bay Rays",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png"
     },
     "kickoff_date": "2026-05-03",
-    "kickoff_time": "02:05",
+    "kickoff_time": "04:10",
     "match_date": "2026-05-03",
-    "match_time": "02:00",
+    "match_time": "04:05",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "MilwaukeeBrewers-WashingtonNationals",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Milwaukee",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
-    },
-    "team2": {
-      "name": "Washington Nationals",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/wsh.png"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "02:05",
-    "match_date": "2026-05-03",
-    "match_time": "02:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE5LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "ClevelandGuardians-Athletics",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Cleveland Cavaliers",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png"
-    },
-    "team2": {
-      "name": "Oakland Athletics",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png"
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "02:05",
-    "match_date": "2026-05-03",
-    "match_time": "02:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIwLnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIzLnBocA==",
         "label": "CH-EN"
       }
     ]
