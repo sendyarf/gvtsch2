@@ -170,8 +170,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -468,12 +468,7 @@
     "match_date": "2026-05-03",
     "match_time": "17:10",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=142",
-        "label": "CH-NL"
-      }
-    ],
+    "servers": [],
     "status": "finished",
     "status_desc": "Ended",
     "gender": "M"
@@ -510,7 +505,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -721,8 +716,8 @@
         "label": "CH-1"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -1031,8 +1026,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -1240,26 +1235,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=137",
-        "label": "CH-IT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=70",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=87",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=97",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=145",
-        "label": "CH-PT"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDkucGhw",
         "label": "CH-EN"
       },
@@ -1276,8 +1251,8 @@
         "label": "CH-3"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1305,10 +1280,6 @@
       {
         "url": "https://multi.govoet.cc/?envivo=137",
         "label": "CH-IT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=60",
-        "label": "CH-ES"
       },
       {
         "url": "https://multi.govoet.cc/?envivo=89",
@@ -1339,8 +1310,8 @@
         "label": "CH-3"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -1650,8 +1621,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1901,8 +1872,8 @@
     "match_time": "18:55",
     "duration": "3.5",
     "servers": [],
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -17221,8 +17192,8 @@
     "match_time": "00:20",
     "duration": "3.5",
     "servers": [],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -23478,75 +23449,6 @@
     "gender": "M"
   },
   {
-    "id": "Manresa-Valencia",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Manresa",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Valencia CF",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "17:00",
-    "match_date": "2026-05-03",
-    "match_time": "16:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=155",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "RealMadrid-Murcia",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Real Madrid",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Murcia FC",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "17:00",
-    "match_date": "2026-05-03",
-    "match_time": "16:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=157",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "Bilbao-Granada",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Ath Bilbao",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Granada CF",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-03",
-    "kickoff_time": "17:30",
-    "match_date": "2026-05-03",
-    "match_time": "17:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=156",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
     "id": "Hibernian-Celtic",
     "league": "Scotland - Scottish Premiership, Championship Round",
     "team1": {
@@ -23577,8 +23479,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23635,8 +23537,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23662,8 +23564,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23693,8 +23595,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23724,8 +23626,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23755,8 +23657,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -23856,7 +23758,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
