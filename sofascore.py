@@ -157,7 +157,7 @@ def fetch_sofascore(sport="football", date_str=None):
 
 def main():
     parser = argparse.ArgumentParser(description="Scrape scheduled events from SofaScore API")
-    parser.add_argument("--sport", default="football,basketball", help="Sport slugs, comma-separated (default: football,basketball)")
+    parser.add_argument("--sport", default="football,basketball,baseball,ice-hockey", help="Sport slugs, comma-separated (default: football,basketball,baseball,ice-hockey)")
     parser.add_argument("--date", default=None, help="Single date in YYYY-MM-DD format (overrides auto 3-day mode)")
     parser.add_argument("--days", type=int, default=3, help="Number of days to fetch (default: 3, starting from today)")
     parser.add_argument("--output", default="sofascore.json", help="Output filename (default: sofascore.json)")
