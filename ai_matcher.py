@@ -114,7 +114,7 @@ def collect_all_names_from_sources():
     """Collect all unique team and league names from all source JSON files"""
     source_files = [
         'bolaloca.json', 'streamcenter.json', 'sportsonline.json',
-        'soco.json', 'adstrim.json', 'manual_sch.json'
+        'soco.json', 'manual_sch.json'
     ]
     
     teams = set()

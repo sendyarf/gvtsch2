@@ -24,9 +24,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # Priority Order (Creation & Merging):
 # 1. manual_sch.json    - Highest priority. Create new or merge servers.
 # 2. flashscore.json    - Primary data source. Create new (no servers).
-# 3. adstrim.json      - Create new or merge servers.
-# 4. bolaloca.json      - Create new or merge servers. No logos (needs enrichment).
-# 5. streamcenter.json  - Create new or merge servers.
+# 3. bolaloca.json      - Create new or merge servers. No logos (needs enrichment).
+# 4. streamcenter.json  - Create new or merge servers.
 #
 # Merge Only Sources:
 # 6. sportsonline.json  - Only merge servers.
@@ -426,35 +425,44 @@ def find_matching_entry(match, merged_dict, allow_time_only=False):
         existing_date = existing_match.get('kickoff_date', '')
         existing_time = existing_match.get('kickoff_time', '')
         
-        # Strict Date/Time match -> Fuzzy Team match
-        if match_date and existing_date and match_date == existing_date and match_time == existing_time:
-            if fuzzy_match_teams(
-                match['team1']['name'], match['team2']['name'],
-                existing_match['team1']['name'], existing_match['team2']['name'],
-                threshold=50
-            ):
-                return existing_key
+        # Comprehensive datetime comparison
+        if match_date and existing_date and match_time and existing_time:
+            try:
+                from datetime import datetime
+                dt1 = datetime.strptime(f"{match_date} {match_time}", "%Y-%m-%d %H:%M")
+                dt2 = datetime.strptime(f"{existing_date} {existing_time}", "%Y-%m-%d %H:%M")
+                diff_minutes = abs((dt1 - dt2).total_seconds() / 60)
+                
+                # Strict Date/Time match -> Fuzzy Team match (50%)
+                if diff_minutes == 0:
+                    if fuzzy_match_teams(
+                        match['team1']['name'], match['team2']['name'],
+                        existing_match['team1']['name'], existing_match['team2']['name'],
+                        threshold=50
+                    ):
+                        return existing_key
+                        
+                # Fuzzy Time match (±15 mins) -> Stronger Team match (80%)
+                elif diff_minutes <= 15:
+                    if fuzzy_match_teams(
+                        match['team1']['name'], match['team2']['name'],
+                        existing_match['team1']['name'], existing_match['team2']['name'],
+                        threshold=80
+                    ):
+                        return existing_key
+                        
+                # Wide Time match (±24 hours) for timezone differences -> Strong Team match (85%)
+                elif diff_minutes <= 24 * 60:
+                    if fuzzy_match_teams(
+                        match['team1']['name'], match['team2']['name'],
+                        existing_match['team1']['name'], existing_match['team2']['name'],
+                        threshold=85
+                    ):
+                        return existing_key
+            except Exception:
+                pass
         
-        # Fuzzy Time match (±15 mins)
-        if match_date and existing_date and match_date == existing_date:
-            if match_time and existing_time:
-                try:
-                    from datetime import datetime
-                    t1 = datetime.strptime(match_time, "%H:%M")
-                    t2 = datetime.strptime(existing_time, "%H:%M")
-                    diff_minutes = abs((t1 - t2).total_seconds() / 60)
-                    
-                    if diff_minutes <= 15:
-                        if fuzzy_match_teams(
-                            match['team1']['name'], match['team2']['name'],
-                            existing_match['team1']['name'], existing_match['team2']['name'],
-                            threshold=80
-                        ):
-                            return existing_key
-                except:
-                    pass
-        
-        # Match by Time + Teams only (for sportsonline.json)
+        # Match by Time + Teams only (for sources like sportsonline.json that might lack date)
         if allow_time_only and (not match_date or not existing_date) and match_time and existing_time:
             try:
                 from datetime import datetime
@@ -469,27 +477,8 @@ def find_matching_entry(match, merged_dict, allow_time_only=False):
                         threshold=85
                     ):
                         return existing_key
-            except:
+            except Exception:
                 pass
-
-        # Match by Date + Strong Team Match (Relaxed Time)
-        if match_date and existing_date and match_date == existing_date:
-             if match_time and existing_time:
-                try:
-                    from datetime import datetime
-                    t1 = datetime.strptime(match_time, "%H:%M")
-                    t2 = datetime.strptime(existing_time, "%H:%M")
-                    diff_minutes = abs((t1 - t2).total_seconds() / 60)
-                    
-                    if diff_minutes <= 180:
-                        if fuzzy_match_teams(
-                            match['team1']['name'], match['team2']['name'],
-                            existing_match['team1']['name'], existing_match['team2']['name'],
-                            threshold=85
-                        ):
-                            return existing_key
-                except:
-                    pass
     
     return None
 
@@ -526,7 +515,6 @@ def main():
     # Load Data
     manual_sch = load_json_safe('manual_sch.json')
     flashscore = load_json_safe('flashscore.json')
-    adstrim = load_json_safe('adstrim.json')
     bolaloca = load_json_safe('bolaloca.json')
     streamcenter = load_json_safe('streamcenter.json')
     sofascore = load_json_safe('sofascore.json')
@@ -538,7 +526,6 @@ def main():
     primary_sources = [
         ('manual_sch.json', manual_sch, True),  # prepend servers
         ('flashscore.json', flashscore, False),
-        ('adstrim.json', adstrim, False),
         ('bolaloca.json', bolaloca, False),
         ('streamcenter.json', streamcenter, False),
     ]
@@ -667,9 +654,9 @@ def main():
         print(f"⚠️  Filtered out {filtered_count} matches with missing date/time.")
 
     # ============================================
-    # PHASE 6: Reorder servers (adstrim/iframex to end)
+    # PHASE 6: Reorder servers (iframex to end)
     # ============================================
-    print("\nReordering servers (moving adstrim/iframex to end)...")
+    print("\nReordering servers (moving iframex to end)...")
     reordered_count = 0
     for match in final_data:
         servers = match.get('servers', [])

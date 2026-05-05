@@ -92,8 +92,8 @@ def fetch_sofascore(sport="football", date_str=None):
             # Team logos
             home_id = home_team.get("id", "")
             away_id = away_team.get("id", "")
-            home_logo = f"https://img.sofascore.com/api/v1/team/{home_id}/image" if home_id else ""
-            away_logo = f"https://img.sofascore.com/api/v1/team/{away_id}/image" if away_id else ""
+            home_logo = f"https://sofa-proxy.librani.workers.dev/api/v1/team/{home_id}/image" if home_id else ""
+            away_logo = f"https://sofa-proxy.librani.workers.dev/api/v1/team/{away_id}/image" if away_id else ""
             
             # Scores
             home_score = event.get("homeScore", {})
