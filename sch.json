@@ -139,14 +139,14 @@
   {
     "id": "Arsenal-AtlMadrid",
     "sport": "Football",
-    "league": "EUROPE - UEFA Champions League",
+    "league": "Europe - Uefa Champions League, Knockout Stage",
     "team1": {
       "name": "Arsenal",
-      "logo": "https://static.flashscore.com/res/image/data/0n1ffK6k-vcNAdtF9.png"
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/42/image"
     },
     "team2": {
       "name": "Atl. Madrid",
-      "logo": "https://static.flashscore.com/res/image/data/Kv2QSkhT-GhHiNvXF.png"
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2836/image"
     },
     "kickoff_date": "2026-05-06",
     "kickoff_time": "02:00",
@@ -218,7 +218,10 @@
         "url": "https://multi.govoet.cc/?ss=br3",
         "label": "CH-13"
       }
-    ]
+    ],
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
   },
   {
     "id": "BayernMunich-PSG",
@@ -253,6 +256,42 @@
       {
         "url": "https://multi.govoet.cc/?shaka=5sportplus",
         "label": "CH-IS"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=11",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=126",
+        "label": "CH-GB"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=61",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=148",
+        "label": "CH-GR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=111",
+        "label": "CH-DE"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=139",
+        "label": "CH-IT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=68",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=79",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=87",
+        "label": "CH-ES"
       },
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
@@ -465,6 +504,26 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?envivo=1",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=90",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=97",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=71",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=190",
+        "label": "CH-US"
+      },
+      {
         "url": "https://multi.govoet.cc/?ss=hd2",
         "label": "CH-1"
       }
@@ -490,7 +549,28 @@
     "match_date": "2026-05-07",
     "match_time": "08:25",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=1",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=90",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=97",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=71",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=196",
+        "label": "CH-US"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -616,14 +696,14 @@
   },
   {
     "id": "SportingCristalPer-PalmeirasBra",
-    "league": "Copa Libertadores",
+    "league": "South America - Conmebol Libertadores, Group F",
     "team1": {
       "name": "Sporting Cristal",
-      "logo": ""
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2302/image"
     },
     "team2": {
       "name": "Palmeiras",
-      "logo": ""
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1963/image"
     },
     "kickoff_date": "2026-05-06",
     "kickoff_time": "05:00",
@@ -655,7 +735,11 @@
         "url": "https://multi.govoet.cc/?ss=br5",
         "label": "CH-3"
       }
-    ]
+    ],
+    "sport": "Football",
+    "status": "inprogress",
+    "status_desc": "1st half",
+    "gender": "M"
   },
   {
     "id": "DepRiestraArg-GremioBra",
@@ -764,6 +848,10 @@
         "label": "CH-US"
       },
       {
+        "url": "https://multi.govoet.cc/?envivo=186",
+        "label": "CH-US"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
         "label": "CH-EN"
       }
@@ -792,6 +880,10 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?envivo=181",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=187",
         "label": "CH-US"
       },
       {
@@ -826,6 +918,10 @@
         "label": "CH-US"
       },
       {
+        "url": "https://multi.govoet.cc/?envivo=188",
+        "label": "CH-US"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE1LnBocA==",
         "label": "CH-EN"
       }
@@ -854,6 +950,10 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?envivo=183",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=180",
         "label": "CH-US"
       },
       {
@@ -888,6 +988,10 @@
         "label": "CH-US"
       },
       {
+        "url": "https://multi.govoet.cc/?envivo=189",
+        "label": "CH-US"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE5LnBocA==",
         "label": "CH-EN"
       }
@@ -916,6 +1020,14 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?envivo=186",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=4",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=192",
         "label": "CH-US"
       },
       {
@@ -950,6 +1062,10 @@
         "label": "CH-US"
       },
       {
+        "url": "https://multi.govoet.cc/?envivo=193",
+        "label": "CH-US"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIxLnBocA==",
         "label": "CH-EN"
       }
@@ -981,6 +1097,10 @@
         "label": "CH-US"
       },
       {
+        "url": "https://multi.govoet.cc/?envivo=194",
+        "label": "CH-US"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIyLnBocA==",
         "label": "CH-EN"
       }
@@ -1009,6 +1129,10 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?envivo=189",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=181",
         "label": "CH-US"
       },
       {
@@ -1074,14 +1198,14 @@
   },
   {
     "id": "UniversidadCentralVen-InddelValleEcu",
-    "league": "Copa Libertadores",
+    "league": "South America - Conmebol Libertadores, Group H",
     "team1": {
       "name": "Universidad Central de Venezuela",
-      "logo": ""
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/249952/image"
     },
     "team2": {
       "name": "Independiente del Valle",
-      "logo": ""
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/39723/image"
     },
     "kickoff_date": "2026-05-06",
     "kickoff_time": "07:00",
@@ -1097,7 +1221,11 @@
         "url": "https://multi.govoet.cc/?envivo=80",
         "label": "CH-ES"
       }
-    ]
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
   },
   {
     "id": "ColoradoAvalanche-MinnesotaWild",
@@ -1156,6 +1284,10 @@
         "label": "CH-US"
       },
       {
+        "url": "https://multi.govoet.cc/?envivo=182",
+        "label": "CH-US"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI0LnBocA==",
         "label": "CH-EN"
       }
@@ -1194,14 +1326,14 @@
   },
   {
     "id": "PuertoCabelloVen-CiencianoPer",
-    "league": "Copa Sudamericana",
+    "league": "South America - Conmebol Sudamericana, Group B",
     "team1": {
       "name": "Puerto Cabello",
-      "logo": ""
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/230725/image"
     },
     "team2": {
       "name": "Cienciano del Cusco",
-      "logo": ""
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2301/image"
     },
     "kickoff_date": "2026-05-06",
     "kickoff_time": "07:30",
@@ -1213,7 +1345,11 @@
         "url": "https://multi.govoet.cc/?envivo=96",
         "label": "CH-ES"
       }
-    ]
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
   },
   {
     "id": "RecoletaPar-SantosBra",
@@ -1275,14 +1411,14 @@
   },
   {
     "id": "TigresUANL-NashvilleSC",
-    "league": "CONCACAF - Champions Cup",
+    "league": "North & Central America - Concacaf Champions Cup",
     "team1": {
       "name": "Tigres UANL",
-      "logo": ""
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1940/image"
     },
     "team2": {
       "name": "Nashville SC",
-      "logo": ""
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/337612/image"
     },
     "kickoff_date": "2026-05-06",
     "kickoff_time": "08:30",
@@ -1298,7 +1434,11 @@
         "url": "https://multi.govoet.cc/?ss=hd1",
         "label": "CH-1"
       }
-    ]
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
   },
   {
     "id": "LosAngelesAngels-ChicagoWhiteSox",
@@ -1319,6 +1459,10 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?envivo=194",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=184",
         "label": "CH-US"
       },
       {
@@ -1353,6 +1497,10 @@
         "label": "CH-US"
       },
       {
+        "url": "https://multi.govoet.cc/?envivo=198",
+        "label": "CH-US"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI4LnBocA==",
         "label": "CH-EN"
       }
@@ -1381,6 +1529,10 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?envivo=196",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=185",
         "label": "CH-US"
       },
       {
@@ -1415,6 +1567,10 @@
         "label": "CH-US"
       },
       {
+        "url": "https://multi.govoet.cc/?envivo=183",
+        "label": "CH-US"
+      },
+      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI5LnBocA==",
         "label": "CH-EN"
       }
@@ -1426,14 +1582,14 @@
   },
   {
     "id": "DepCuencaEcu-SanLorenzoArg",
-    "league": "Copa Sudamericana",
+    "league": "South America - Conmebol Sudamericana, Group D",
     "team1": {
       "name": "Deportivo Cuenca",
-      "logo": ""
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5251/image"
     },
     "team2": {
       "name": "San Lorenzo de Almagro",
-      "logo": ""
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3201/image"
     },
     "kickoff_date": "2026-05-06",
     "kickoff_time": "09:00",
@@ -1460,6 +1616,668 @@
       {
         "url": "https://multi.govoet.cc/?ss=br6",
         "label": "CH-3"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "PSGW-StrasbourgW",
+    "league": "France - Première Ligue, Féminine",
+    "team1": {
+      "name": "Paris Saint-Germain Women",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/55505/image"
+    },
+    "team2": {
+      "name": "Strasbourg W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/404735/image"
+    },
+    "kickoff_date": "2026-05-06",
+    "kickoff_time": "22:00",
+    "match_date": "2026-05-06",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=12",
+        "label": "CH-FR"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "F"
+  },
+  {
+    "id": "ParisFCW-LensW",
+    "league": "France - Première Ligue, Féminine",
+    "team1": {
+      "name": "Paris FC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/264964/image"
+    },
+    "team2": {
+      "name": "Lens W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/404737/image"
+    },
+    "kickoff_date": "2026-05-06",
+    "kickoff_time": "22:00",
+    "match_date": "2026-05-06",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=11",
+        "label": "CH-FR"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "F"
+  },
+  {
+    "id": "ZalgirisKaunas-Fenerbahce",
+    "league": "Europe - Euroleague",
+    "team1": {
+      "name": "Zalgiris Kaunas",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Fenerbahce",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "00:00",
+    "match_date": "2026-05-06",
+    "match_time": "23:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=62",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "AlAhliSC-AlFateh",
+    "league": "Saudi Arabia - Saudi Pro League",
+    "team1": {
+      "name": "Al Ahli SC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/34469/image"
+    },
+    "team2": {
+      "name": "Al Fateh",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/56023/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "01:00",
+    "match_date": "2026-05-07",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=160",
+        "label": "CH-SA"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Panathinaikos-Valencia",
+    "league": "Europe - Euroleague",
+    "team1": {
+      "name": "Panathinaikos",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Valencia",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "01:15",
+    "match_date": "2026-05-07",
+    "match_time": "01:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=55",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=150",
+        "label": "CH-GR"
+      }
+    ]
+  },
+  {
+    "id": "CuscoPer-EstudiantesLPArg",
+    "league": "Copa Libertadores",
+    "team1": {
+      "name": "Cusco (Per)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Estudiantes LP",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "05:00",
+    "match_date": "2026-05-07",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=87",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=78",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=98",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=69",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "LaGuairaVen-BolivarBol",
+    "league": "Copa Libertadores",
+    "team1": {
+      "name": "La Guaira (Ven)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Bolivar (Bol)",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "05:00",
+    "match_date": "2026-05-07",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=91",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=80",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "AItalianoChi-VascoBra",
+    "league": "Copa Sudamericana",
+    "team1": {
+      "name": "A. Italiano (Chi)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Vasco (Bra)",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "05:00",
+    "match_date": "2026-05-07",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=96",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=144",
+        "label": "CH-PT"
+      }
+    ]
+  },
+  {
+    "id": "MontevideoCityUru-PalestinoChi",
+    "league": "South America - Conmebol Sudamericana, Group F",
+    "team1": {
+      "name": "Montevideo City Torque",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/174972/image"
+    },
+    "team2": {
+      "name": "Palestino FC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3157/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "05:00",
+    "match_date": "2026-05-07",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=88",
+        "label": "CH-ES"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "BuffaloSabres-MontrealCanadiens",
+    "league": "Usa - Nhl, Playoffs",
+    "team1": {
+      "name": "Buffalo Sabres",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3678/image"
+    },
+    "team2": {
+      "name": "Montreal Canadiens",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3690/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "06:00",
+    "match_date": "2026-05-07",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=5",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=191",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv2",
+        "label": "CH-1"
+      }
+    ],
+    "sport": "Ice hockey",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Patriotas-Chico",
+    "league": "Copa Colombia",
+    "team1": {
+      "name": "Patriotas",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Chico FC",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "07:00",
+    "match_date": "2026-05-07",
+    "match_time": "06:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=82",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "BarracasCentralArg-OlimpiaAsuncionPar",
+    "league": "Copa Sudamericana",
+    "team1": {
+      "name": "Barracas Central",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Olimpia Asuncion (Par)",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "07:00",
+    "match_date": "2026-05-07",
+    "match_time": "06:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=91",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "MacaraEcu-TigreArg",
+    "league": "Copa Sudamericana",
+    "team1": {
+      "name": "Macara (Ecu)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Tigre (Arg)",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "07:00",
+    "match_date": "2026-05-07",
+    "match_time": "06:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=94",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "IndRivadaviaArg-FluminenseBra",
+    "league": "Copa Libertadores",
+    "team1": {
+      "name": "Ind. Rivadavia (Arg)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Fluminense RJ",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "07:30",
+    "match_date": "2026-05-07",
+    "match_time": "07:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=92",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=78",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "SantaFeCol-CorinthiansBra",
+    "league": "South America - Conmebol Libertadores, Group E",
+    "team1": {
+      "name": "Santa Fe",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/6116/image"
+    },
+    "team2": {
+      "name": "Corinthians (Bra)",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1957/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "07:30",
+    "match_date": "2026-05-07",
+    "match_time": "07:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=87",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=98",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=79",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv3",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br1",
+        "label": "CH-2"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "BotafogoRJBra-RacingClubArg",
+    "league": "South America - Conmebol Sudamericana, Group E",
+    "team1": {
+      "name": "Botafogo RJ",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1958/image"
+    },
+    "team2": {
+      "name": "Racing Club de France",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3215/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "07:30",
+    "match_date": "2026-05-07",
+    "match_time": "07:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=89",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=61",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=69",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=144",
+        "label": "CH-PT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv1",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br4",
+        "label": "CH-4"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "ColoradoRockies-NewYorkMets",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Colorado Rockies",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3628/image"
+    },
+    "team2": {
+      "name": "New York",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3629/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "08:20",
+    "match_date": "2026-05-07",
+    "match_time": "08:15",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=195",
+        "label": "CH-US"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Toluca-LosAngelesFC",
+    "league": "North & Central America - Concacaf Champions Cup",
+    "team1": {
+      "name": "Toluca",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1931/image"
+    },
+    "team2": {
+      "name": "Los Angeles FC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/274650/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "08:30",
+    "match_date": "2026-05-07",
+    "match_time": "08:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=68",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd5",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv4",
+        "label": "CH-2"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "VegasGoldenKnights-AnaheimDucks",
+    "league": "Usa - Nhl, Playoffs",
+    "team1": {
+      "name": "Las Vegas Golden Knights",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/257523/image"
+    },
+    "team2": {
+      "name": "Anaheim Ducks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3675/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "08:30",
+    "match_date": "2026-05-07",
+    "match_time": "08:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=6",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=197",
+        "label": "CH-US"
+      }
+    ],
+    "sport": "Ice hockey",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "DeportesTolimaCol-NacionalUru",
+    "league": "South America - Conmebol Libertadores, Group B",
+    "team1": {
+      "name": "Deportes Tolima",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/6111/image"
+    },
+    "team2": {
+      "name": "Club Nacional",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3230/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "09:00",
+    "match_date": "2026-05-07",
+    "match_time": "08:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=88",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br3",
+        "label": "CH-1"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "UCatolicaChi-CruzeiroBra",
+    "league": "South America - Conmebol Libertadores, Group D",
+    "team1": {
+      "name": "Universidad Católica",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3151/image"
+    },
+    "team2": {
+      "name": "Cruzeiro",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1954/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "09:00",
+    "match_date": "2026-05-07",
+    "match_time": "08:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=91",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=80",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br6",
+        "label": "CH-1"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "AlianzaAtlPer-AmericaDeCaliCol",
+    "league": "Copa Sudamericana",
+    "team1": {
+      "name": "Alianza Atl. (Per)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "America de Cali",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "09:00",
+    "match_date": "2026-05-07",
+    "match_time": "08:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=158",
+        "label": "CH-ES"
       }
     ]
   }
