@@ -292,7 +292,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1090,91 +1090,6 @@
     "gender": "M"
   },
   {
-    "id": "ZalgirisKaunas-Fenerbahce",
-    "league": "Europe - Euroleague",
-    "team1": {
-      "name": "Zalgiris Kaunas",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Fenerbahce",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "00:00",
-    "match_date": "2026-05-06",
-    "match_time": "23:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=62",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "TampaBayRays-TorontoBlueJays",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Tampa Bay Rays",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3653/image"
-    },
-    "team2": {
-      "name": "Toronto Blue Jays",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3642/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "00:10",
-    "match_date": "2026-05-07",
-    "match_time": "00:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=180",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE1LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "8th Inning",
-    "gender": "M"
-  },
-  {
-    "id": "StLouisCardinals-MilwaukeeBrewers",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "St.Louis Cardinals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3632/image"
-    },
-    "team2": {
-      "name": "Milwaukee",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3630/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "00:15",
-    "match_date": "2026-05-07",
-    "match_time": "00:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=181",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "6th Inning",
-    "gender": "M"
-  },
-  {
     "id": "AlAhliSC-AlFateh",
     "league": "Saudi Arabia - Saudi Pro League",
     "team1": {
@@ -1197,8 +1112,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1229,7 +1144,7 @@
     ],
     "sport": "Baseball",
     "status": "inprogress",
-    "status_desc": "3rd Inning",
+    "status_desc": "8th Inning",
     "gender": "M"
   },
   {
@@ -1286,8 +1201,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "5th Inning",
     "gender": "M"
   },
   {
@@ -1317,8 +1232,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "2nd Inning",
     "gender": "M"
   },
   {
@@ -1348,8 +1263,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "3rd Inning",
     "gender": "M"
   },
   {
@@ -2142,5 +2057,59 @@
         "label": "CH-ES"
       }
     ]
+  },
+  {
+    "id": "MilwaukeeBrewers-StLouisCardinals",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Milwaukee",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3630/image"
+    },
+    "team2": {
+      "name": "St. Louis Cardinals",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3632/image"
+    },
+    "kickoff_date": "2026-05-06",
+    "kickoff_time": "23:15",
+    "match_date": "2026-05-06",
+    "match_time": "23:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
+  },
+  {
+    "id": "TorontoBlueJays-TampaBayRays",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Toronto Blue Jays",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3642/image"
+    },
+    "team2": {
+      "name": "Tampa Bay Rays",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3653/image"
+    },
+    "kickoff_date": "2026-05-06",
+    "kickoff_time": "23:10",
+    "match_date": "2026-05-06",
+    "match_time": "23:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE1LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
   }
 ]
