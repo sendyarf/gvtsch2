@@ -319,26 +319,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=90",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=97",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=71",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=190",
-        "label": "CH-US"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY1LnBocA==",
         "label": "CH-EN"
       },
@@ -369,26 +349,6 @@
     "match_time": "08:25",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=90",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=97",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=71",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=196",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY2LnBocA==",
         "label": "CH-EN"
@@ -921,7 +881,12 @@
     "match_date": "2026-05-08",
     "match_time": "05:55",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=188",
+        "label": "CH-US"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -944,6 +909,10 @@
     "match_time": "08:25",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=191",
+        "label": "CH-US"
+      },
       {
         "url": "https://multi.govoet.cc/?ss=hd2",
         "label": "CH-1"
@@ -998,592 +967,6 @@
     "gender": "M"
   },
   {
-    "id": "DetroitTigers-BostonRedSox",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Detroit Tigers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3648/image"
-    },
-    "team2": {
-      "name": "Boston Celtics",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3646/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "05:40",
-    "match_date": "2026-05-07",
-    "match_time": "05:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=186",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIzLnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "3rd Inning",
-    "gender": "M"
-  },
-  {
-    "id": "MiamiMarlins-BaltimoreOrioles",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Miami",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3639/image"
-    },
-    "team2": {
-      "name": "Baltimore Orioles",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3652/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "05:40",
-    "match_date": "2026-05-07",
-    "match_time": "05:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=187",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIyLnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "PhiladelphiaPhillies-Athletics",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Philadelphia Phillies (MLB)",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3635/image"
-    },
-    "team2": {
-      "name": "Oakland",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3645/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "05:40",
-    "match_date": "2026-05-07",
-    "match_time": "05:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=188",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIxLnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "WashingtonNationals-MinnesotaTwins",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Washington Nationals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5930/image"
-    },
-    "team2": {
-      "name": "Minnesota Timberwolves",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3649/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "05:45",
-    "match_date": "2026-05-07",
-    "match_time": "05:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=189",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI0LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "BuffaloSabres-MontrealCanadiens",
-    "league": "Usa - Nhl, Playoffs",
-    "team1": {
-      "name": "Buffalo Sabres",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3678/image"
-    },
-    "team2": {
-      "name": "Montreal Canadiens",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3690/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "06:00",
-    "match_date": "2026-05-07",
-    "match_time": "05:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=5",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=191",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv2",
-        "label": "CH-1"
-      }
-    ],
-    "sport": "Ice hockey",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "NewYorkYankees-TexasRangers",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "New York",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3654/image"
-    },
-    "team2": {
-      "name": "Dallas Mavericks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3647/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "06:05",
-    "match_date": "2026-05-07",
-    "match_time": "06:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=4",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=192",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI1LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "ChicagoCubs-CincinnatiReds",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Chicago Cubs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3627/image"
-    },
-    "team2": {
-      "name": "Cincinnati Reds",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3633/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "06:40",
-    "match_date": "2026-05-07",
-    "match_time": "06:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=193",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI2LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "KansasCityRoyals-ClevelandGuardians",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Kansas City Royals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3651/image"
-    },
-    "team2": {
-      "name": "Cleveland Cavaliers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3650/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "06:40",
-    "match_date": "2026-05-07",
-    "match_time": "06:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=194",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI3LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "Patriotas-Chico",
-    "league": "Copa Colombia",
-    "team1": {
-      "name": "Patriotas",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Chico FC",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-07",
-    "match_time": "06:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=82",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "BarracasCentralArg-OlimpiaAsuncionPar",
-    "league": "Copa Sudamericana",
-    "team1": {
-      "name": "Barracas Central",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Olimpia Asuncion (Par)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-07",
-    "match_time": "06:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=91",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "MacaraEcu-TigreArg",
-    "league": "Copa Sudamericana",
-    "team1": {
-      "name": "Macara (Ecu)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Tigre (Arg)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-07",
-    "match_time": "06:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=94",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "IndRivadaviaArg-FluminenseBra",
-    "league": "Copa Libertadores",
-    "team1": {
-      "name": "Ind. Rivadavia (Arg)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Fluminense RJ",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "07:30",
-    "match_date": "2026-05-07",
-    "match_time": "07:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=92",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=78",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "SantaFeCol-CorinthiansBra",
-    "league": "South America - Conmebol Libertadores, Group E",
-    "team1": {
-      "name": "Santa Fe",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/6116/image"
-    },
-    "team2": {
-      "name": "Corinthians (Bra)",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1957/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "07:30",
-    "match_date": "2026-05-07",
-    "match_time": "07:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=87",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=98",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=79",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv3",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br1",
-        "label": "CH-2"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "BotafogoRJBra-RacingClubArg",
-    "league": "South America - Conmebol Sudamericana, Group E",
-    "team1": {
-      "name": "Botafogo RJ",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1958/image"
-    },
-    "team2": {
-      "name": "Racing Club de France",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3215/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "07:30",
-    "match_date": "2026-05-07",
-    "match_time": "07:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=89",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=61",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=69",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=144",
-        "label": "CH-PT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd9",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd11",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv1",
-        "label": "CH-3"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br4",
-        "label": "CH-4"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "ColoradoRockies-NewYorkMets",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Colorado Rockies",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3628/image"
-    },
-    "team2": {
-      "name": "New York",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3629/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "08:20",
-    "match_date": "2026-05-07",
-    "match_time": "08:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=195",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI4LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "Toluca-LosAngelesFC",
-    "league": "North & Central America - Concacaf Champions Cup",
-    "team1": {
-      "name": "Toluca",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1931/image"
-    },
-    "team2": {
-      "name": "Los Angeles FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/274650/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "08:30",
-    "match_date": "2026-05-07",
-    "match_time": "08:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=68",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd5",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv4",
-        "label": "CH-2"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "VegasGoldenKnights-AnaheimDucks",
-    "league": "Usa - Nhl, Playoffs",
-    "team1": {
-      "name": "Las Vegas Golden Knights",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/257523/image"
-    },
-    "team2": {
-      "name": "Anaheim Ducks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3675/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "08:30",
-    "match_date": "2026-05-07",
-    "match_time": "08:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=6",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=197",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Ice hockey",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "ArizonaDiamondbacks-PittsburghPirates",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Arizona Diamondbacks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3640/image"
-    },
-    "team2": {
-      "name": "Pittsburgh Pirates (MLB)",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3637/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "08:40",
-    "match_date": "2026-05-07",
-    "match_time": "08:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=198",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI5LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
     "id": "DeportesTolimaCol-NacionalUru",
     "league": "South America - Conmebol Libertadores, Group B",
     "team1": {
@@ -1610,8 +993,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1645,8 +1028,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1673,51 +1056,1520 @@
     ]
   },
   {
-    "id": "AtlantaBraves-SeattleMariners",
-    "league": "Usa - Mlb",
+    "id": "APopyrin-MBerrettini",
+    "league": "Tournoi De Rome",
     "team1": {
-      "name": "Atlanta Braves",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3656/image"
+      "name": "A. Popyrin",
+      "logo": ""
     },
     "team2": {
-      "name": "Seattle Mariners (MLB)",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3641/image"
+      "name": "M. Berrettini",
+      "logo": ""
     },
     "kickoff_date": "2026-05-07",
-    "kickoff_time": "02:10",
+    "kickoff_time": "16:00",
     "match_date": "2026-05-07",
-    "match_time": "02:05",
+    "match_time": "15:55",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIwLnBocA==",
+        "url": "https://multi.govoet.cc/?envivo=63",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "DSvrcina-MKecmanovic",
+    "league": "Tournoi De Rome",
+    "team1": {
+      "name": "D. Svrcina",
+      "logo": ""
+    },
+    "team2": {
+      "name": "M. Kecmanovic",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "16:00",
+    "match_date": "2026-05-07",
+    "match_time": "15:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=66",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "TennisTournoiWTAdeRome2026",
+    "league": "Tournoi De Rome",
+    "team1": {
+      "name": "Tennis Tournoi WTA de Rome 2026 -",
+      "logo": ""
+    },
+    "team2": {
+      "name": "",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "16:00",
+    "match_date": "2026-05-07",
+    "match_time": "15:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=3",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=4",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=5",
+        "label": "CH-FR"
+      }
+    ]
+  },
+  {
+    "id": "MGiron-MCilic",
+    "league": "Tournoi De Rome",
+    "team1": {
+      "name": "M. Giron",
+      "logo": ""
+    },
+    "team2": {
+      "name": "M. Cilic",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "17:30",
+    "match_date": "2026-05-07",
+    "match_time": "17:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=65",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "RABurruchaga-MBellucci",
+    "league": "Tournoi De Rome",
+    "team1": {
+      "name": "RA. Burruchaga",
+      "logo": ""
+    },
+    "team2": {
+      "name": "M. Bellucci",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "17:30",
+    "match_date": "2026-05-07",
+    "match_time": "17:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=64",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "RBautistaAgut-FMaestrelli",
+    "league": "Tournoi De Rome",
+    "team1": {
+      "name": "R. Bautista-Agut",
+      "logo": ""
+    },
+    "team2": {
+      "name": "F. Maestrelli",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "19:00",
+    "match_date": "2026-05-07",
+    "match_time": "18:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=55",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=65",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "STsitsipas-TMachac",
+    "league": "Tournoi De Rome",
+    "team1": {
+      "name": "S. Tsitsipas",
+      "logo": ""
+    },
+    "team2": {
+      "name": "T. Machac",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "19:00",
+    "match_date": "2026-05-07",
+    "match_time": "18:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=64",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "SOfner-AMichelsen",
+    "league": "Tournoi De Rome",
+    "team1": {
+      "name": "S. Ofner",
+      "logo": ""
+    },
+    "team2": {
+      "name": "A. Michelsen",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "20:30",
+    "match_date": "2026-05-07",
+    "match_time": "20:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=66",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "TATirante-GCadenasso",
+    "league": "Tournoi De Rome",
+    "team1": {
+      "name": "TA. Tirante",
+      "logo": ""
+    },
+    "team2": {
+      "name": "G. Cadenasso",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "20:30",
+    "match_date": "2026-05-07",
+    "match_time": "20:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=65",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "DShapovalov-MNavone",
+    "league": "Tournoi De Rome",
+    "team1": {
+      "name": "D. Shapovalov",
+      "logo": ""
+    },
+    "team2": {
+      "name": "M. Navone",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "22:00",
+    "match_date": "2026-05-07",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=65",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "TennisMasters1000deRome2026",
+    "league": "Tournoi De Rome",
+    "team1": {
+      "name": "Tennis Masters 1000 de Rome 2026 -",
+      "logo": ""
+    },
+    "team2": {
+      "name": "",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "22:00",
+    "match_date": "2026-05-07",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=16",
+        "label": "CH-FR"
+      }
+    ]
+  },
+  {
+    "id": "APellegrino-LNardi",
+    "league": "Tournoi De Rome",
+    "team1": {
+      "name": "A. Pellegrino",
+      "logo": ""
+    },
+    "team2": {
+      "name": "L. Nardi",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "23:30",
+    "match_date": "2026-05-07",
+    "match_time": "23:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=64",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "NewYorkYankees-TexasRangers",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "New York",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3654/image"
+    },
+    "team2": {
+      "name": "Dallas Mavericks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3647/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "23:35",
+    "match_date": "2026-05-07",
+    "match_time": "23:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=180",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI1LnBocA==",
         "label": "CH-EN"
       }
     ],
     "sport": "Baseball",
-    "status": "finished",
-    "status_desc": "Ended",
+    "status": "notstarted",
+    "status_desc": "Not started",
     "gender": "M"
   },
   {
-    "id": "ChicagoWhiteSox-LosAngelesAngels",
-    "league": "Usa - Mlb",
+    "id": "LSonego-IBuse",
+    "league": "Tournoi De Rome",
     "team1": {
-      "name": "Chicago White Sox",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3644/image"
+      "name": "L. Sonego",
+      "logo": ""
     },
     "team2": {
-      "name": "Los Angeles Angels",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5929/image"
+      "name": "I. Buse",
+      "logo": ""
     },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "02:07",
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "00:00",
     "match_date": "2026-05-07",
-    "match_time": "02:02",
+    "match_time": "23:55",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE5LnBocA==",
+        "url": "https://multi.govoet.cc/?envivo=63",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "WashingtonNationals-MinnesotaTwins",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Washington Nationals",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5930/image"
+    },
+    "team2": {
+      "name": "Minnesota Timberwolves",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3649/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "00:05",
+    "match_date": "2026-05-08",
+    "match_time": "00:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=2",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=181",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI0LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "HapoelTelAviv-RealMadrid",
+    "league": "International - Euroleague, Playoffs",
+    "team1": {
+      "name": "Hapoel Tel Aviv",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/82179/image"
+    },
+    "team2": {
+      "name": "Real Madrid",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3540/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "01:00",
+    "match_date": "2026-05-08",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=55",
+        "label": "CH-ES"
+      }
+    ],
+    "sport": "Basketball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "AlShabab-AlNassr",
+    "league": "Saudi Arabia - Saudi Pro League",
+    "team1": {
+      "name": "Al Shabab",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/34313/image"
+    },
+    "team2": {
+      "name": "Al-Nassr FC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/23400/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "01:00",
+    "match_date": "2026-05-08",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=166",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=70",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd10",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv1",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br5",
+        "label": "CH-3"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "KansasCityRoyals-ClevelandGuardians",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Kansas City Royals",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3651/image"
+    },
+    "team2": {
+      "name": "Cleveland Cavaliers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3650/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "01:10",
+    "match_date": "2026-05-08",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=182",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI3LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "ChicagoCubs-CincinnatiReds",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Chicago Cubs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3627/image"
+    },
+    "team2": {
+      "name": "Cincinnati Reds",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3633/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "01:20",
+    "match_date": "2026-05-08",
+    "match_time": "01:15",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=183",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI2LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "CrystalPalace-ShakhtarDonetsk",
+    "league": "Europe - Uefa Conference League, Knockout Stage",
+    "team1": {
+      "name": "Crystal Palace",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/7/image"
+    },
+    "team2": {
+      "name": "Shakhtar Donetsk",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3313/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-08",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=34",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=130",
+        "label": "CH-GB"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=165",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=139",
+        "label": "CH-IT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=97",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd2",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven2",
+        "label": "CH-2"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Strasbourg-RayoVallecano",
+    "league": "Europe - Uefa Conference League, Knockout Stage",
+    "team1": {
+      "name": "Strasbourg",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1659/image"
+    },
+    "team2": {
+      "name": "Rayo Vallecano",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2818/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-08",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=11",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=61",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=133",
+        "label": "CH-GB"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=140",
+        "label": "CH-IT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd6",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven3",
+        "label": "CH-4"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "MultiplexLigueEuropaLigueConference",
+    "league": "Europa League",
+    "team1": {
+      "name": "Multiplex Ligue Europa/Ligue Conference -",
+      "logo": ""
+    },
+    "team2": {
+      "name": "",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-08",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=14",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=163",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "AstonVilla-Nottingham",
+    "league": "Europe - Uefa Europa League, Knockout Stage",
+    "team1": {
+      "name": "Aston Villa",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/40/image"
+    },
+    "team2": {
+      "name": "Nottingham Forest",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/14/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-08",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=12",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=126",
+        "label": "CH-GB"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=162",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=138",
+        "label": "CH-IT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=149",
+        "label": "CH-GR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=68",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=87",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd7",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven1",
+        "label": "CH-4"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Freiburg-Braga",
+    "league": "Europe - Uefa Europa League, Knockout Stage",
+    "team1": {
+      "name": "SC Freiburg",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2538/image"
+    },
+    "team2": {
+      "name": "Braga",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2999/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-08",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=35",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=131",
+        "label": "CH-GB"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=111",
+        "label": "CH-DE"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=164",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=137",
+        "label": "CH-IT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=88",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=100",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd5",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd3",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv5",
+        "label": "CH-3"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "ProvenceRugby-Vannes",
+    "league": "France - Pro D2",
+    "team1": {
+      "name": "Provence",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Vannes",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-08",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=12",
+        "label": "CH-FR"
+      }
+    ]
+  },
+  {
+    "id": "ColoradoRockies-NewYorkMets",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Colorado Rockies",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3628/image"
+    },
+    "team2": {
+      "name": "New York",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3629/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "02:10",
+    "match_date": "2026-05-08",
+    "match_time": "02:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=184",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI4LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "ArizonaDiamondbacks-PittsburghPirates",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Arizona Diamondbacks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3640/image"
+    },
+    "team2": {
+      "name": "Pittsburgh Pirates (MLB)",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3637/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "02:40",
+    "match_date": "2026-05-08",
+    "match_time": "02:35",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=185",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI5LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "MirassolBra-LDUQuitoEcu",
+    "league": "Copa Libertadores",
+    "team1": {
+      "name": "Mirassol FC",
+      "logo": ""
+    },
+    "team2": {
+      "name": "LDU Quito",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "05:00",
+    "match_date": "2026-05-08",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=79",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=93",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=69",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br4",
+        "label": "CH-3"
+      }
+    ]
+  },
+  {
+    "id": "PlatenseArg-PenarolUru",
+    "league": "Copa Libertadores",
+    "team1": {
+      "name": "Platense",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Penarol (Uru)",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "05:00",
+    "match_date": "2026-05-08",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=88",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=98",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=55",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=162",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=78",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "BostonRiverUru-MillonariosCol",
+    "league": "South America - Conmebol Sudamericana, Group C",
+    "team1": {
+      "name": "Boston River",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/174970/image"
+    },
+    "team2": {
+      "name": "Millonarios",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/6117/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "05:00",
+    "match_date": "2026-05-08",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=87",
+        "label": "CH-ES"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "OHigginsChi-SaoPauloBra",
+    "league": "South America - Conmebol Sudamericana, Group C",
+    "team1": {
+      "name": "O'Higgins",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3163/image"
+    },
+    "team2": {
+      "name": "São Paulo FC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1981/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "05:00",
+    "match_date": "2026-05-08",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=91",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=144",
+        "label": "CH-PT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br2",
+        "label": "CH-2"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "MiamiMarlins-BaltimoreOrioles",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Miami",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3639/image"
+    },
+    "team2": {
+      "name": "Baltimore Orioles",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3652/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "05:40",
+    "match_date": "2026-05-08",
+    "match_time": "05:35",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=186",
+        "label": "CH-US"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "PhiladelphiaPhillies-Athletics",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Philadelphia Phillies (MLB)",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3635/image"
+    },
+    "team2": {
+      "name": "Oakland",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3645/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "05:40",
+    "match_date": "2026-05-08",
+    "match_time": "05:35",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=187",
+        "label": "CH-US"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "IndYumbo-Pereira",
+    "league": "Copa Colombia",
+    "team1": {
+      "name": "Ind. Yumbo",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Pereira SC",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "06:00",
+    "match_date": "2026-05-08",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=81",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "BostonRedSox-TampaBayRays",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Boston Celtics",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3646/image"
+    },
+    "team2": {
+      "name": "Tampa Bay Rays",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3653/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "06:10",
+    "match_date": "2026-05-08",
+    "match_time": "06:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=5",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=189",
+        "label": "CH-US"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "CoquimboChi-UdeDeportesPer",
+    "league": "South America - Conmebol Libertadores, Group B",
+    "team1": {
+      "name": "Coquimbo Unido",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3165/image"
+    },
+    "team2": {
+      "name": "Universitario de Deportes",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2305/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "07:00",
+    "match_date": "2026-05-08",
+    "match_time": "06:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=87",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=80",
+        "label": "CH-ES"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "PhiladelphiaFlyers-CarolinaHurricanes",
+    "league": "Usa - Nhl, Playoffs",
+    "team1": {
+      "name": "Philadelphia Flyers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3699/image"
+    },
+    "team2": {
+      "name": "Carolina Hurricanes",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3680/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "07:00",
+    "match_date": "2026-05-08",
+    "match_time": "06:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=4",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=190",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv3",
+        "label": "CH-1"
+      }
+    ],
+    "sport": "Ice hockey",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "IndMedellinCol-FlamengoRJBra",
+    "league": "Copa Libertadores",
+    "team1": {
+      "name": "Ind. Medellin (Col)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Flamengo RJ",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "07:30",
+    "match_date": "2026-05-08",
+    "match_time": "07:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=88",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=78",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=99",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=144",
+        "label": "CH-PT"
+      }
+    ]
+  },
+  {
+    "id": "BloomingBol-BragantinoBra",
+    "league": "Copa Sudamericana",
+    "team1": {
+      "name": "Blooming (Bol)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Bragantino (Bra)",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "07:30",
+    "match_date": "2026-05-08",
+    "match_time": "07:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=96",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "CaraboboVen-RiverPlateArg",
+    "league": "Copa Sudamericana",
+    "team1": {
+      "name": "Carabobo (Ven)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "River Plate (Arg)",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "07:30",
+    "match_date": "2026-05-08",
+    "match_time": "07:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=94",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=69",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Bucaramanga-RealSantander",
+    "league": "Copa Colombia",
+    "team1": {
+      "name": "Bucaramanga FC",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Real Santander",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "08:00",
+    "match_date": "2026-05-08",
+    "match_time": "07:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=81",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=82",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "JuniorCol-CerroPortenoPar",
+    "league": "South America - Conmebol Libertadores, Group F",
+    "team1": {
+      "name": "Junior",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/6105/image"
+    },
+    "team2": {
+      "name": "Cerro Porteño",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5991/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "09:00",
+    "match_date": "2026-05-08",
+    "match_time": "08:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=79",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=87",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=69",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br3",
+        "label": "CH-3"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "SanDiegoPadres-StLouisCardinals",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "San Diego Padres (MLB)",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3636/image"
+    },
+    "team2": {
+      "name": "St.Louis Cardinals",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3632/image"
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "09:10",
+    "match_date": "2026-05-08",
+    "match_time": "09:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=192",
+        "label": "CH-US"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "TolucaW-ClubAmericaW",
+    "league": "Mexico - Liga MX Women",
+    "team1": {
+      "name": "Toluca",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Club América (Women)",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-08",
+    "kickoff_time": "10:00",
+    "match_date": "2026-05-08",
+    "match_time": "09:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=106",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "AnaheimDucks-VegasGoldenKnights",
+    "league": "Usa - Nhl, Playoffs",
+    "team1": {
+      "name": "Anaheim Ducks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3675/image"
+    },
+    "team2": {
+      "name": "Las Vegas Golden Knights",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/257523/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "07:30",
+    "match_date": "2026-05-07",
+    "match_time": "07:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Ice hockey",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "MontrealCanadiens-BuffaloSabres",
+    "league": "Usa - Nhl, Playoffs",
+    "team1": {
+      "name": "Montreal Canadiens",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3690/image"
+    },
+    "team2": {
+      "name": "Buffalo Sabres",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3678/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "05:00",
+    "match_date": "2026-05-07",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Ice hockey",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Athletics-PhiladelphiaPhillies",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Oakland",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3645/image"
+    },
+    "team2": {
+      "name": "Philadelphia Phillies (MLB)",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3635/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "04:40",
+    "match_date": "2026-05-07",
+    "match_time": "04:35",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIxLnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "BaltimoreOrioles-MiamiMarlins",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Baltimore Orioles",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3652/image"
+    },
+    "team2": {
+      "name": "Miami",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3639/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "04:40",
+    "match_date": "2026-05-07",
+    "match_time": "04:35",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIyLnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "BostonRedSox-DetroitTigers",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Boston Celtics",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3646/image"
+    },
+    "team2": {
+      "name": "Detroit Tigers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3648/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "04:40",
+    "match_date": "2026-05-07",
+    "match_time": "04:35",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIzLnBocA==",
         "label": "CH-EN"
       }
     ],
