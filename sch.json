@@ -1599,60 +1599,6 @@
     "gender": "M"
   },
   {
-    "id": "APellegrino-LNardi",
-    "league": "Tournoi De Rome",
-    "team1": {
-      "name": "A. Pellegrino",
-      "logo": ""
-    },
-    "team2": {
-      "name": "L. Nardi",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "23:30",
-    "match_date": "2026-05-07",
-    "match_time": "23:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=64",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "NewYorkYankees-TexasRangers",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "New York",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3654/image"
-    },
-    "team2": {
-      "name": "Dallas Mavericks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3647/image"
-    },
-    "kickoff_date": "2026-05-07",
-    "kickoff_time": "23:35",
-    "match_date": "2026-05-07",
-    "match_time": "23:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=180",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE1LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "5th Inning",
-    "gender": "M"
-  },
-  {
     "id": "LSonego-IBuse",
     "league": "Tournoi De Rome",
     "team1": {
@@ -1707,7 +1653,7 @@
     ],
     "sport": "Baseball",
     "status": "inprogress",
-    "status_desc": "Pause",
+    "status_desc": "8th Inning",
     "gender": "M"
   },
   {
@@ -1734,7 +1680,7 @@
     ],
     "sport": "Basketball",
     "status": "inprogress",
-    "status_desc": "1st quarter",
+    "status_desc": "4th quarter",
     "gender": "M"
   },
   {
@@ -1777,7 +1723,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1807,8 +1753,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "6th Inning",
     "gender": "M"
   },
   {
@@ -1838,8 +1784,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "5th Inning",
     "gender": "M"
   },
   {
@@ -1893,8 +1839,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -1952,8 +1898,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -2050,8 +1996,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -2117,8 +2063,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -2139,7 +2085,7 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=13",
+        "url": "https://multi.govoet.cc/?envivo=36",
         "label": "CH-FR"
       }
     ]
@@ -2171,8 +2117,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "3rd Inning",
     "gender": "M"
   },
   {
@@ -2202,8 +2148,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st Inning",
     "gender": "M"
   },
   {
@@ -2756,5 +2702,32 @@
         "label": "CH-ES"
       }
     ]
+  },
+  {
+    "id": "TexasRangers-NewYorkYankees",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Dallas Mavericks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3647/image"
+    },
+    "team2": {
+      "name": "New York",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3654/image"
+    },
+    "kickoff_date": "2026-05-07",
+    "kickoff_time": "22:35",
+    "match_date": "2026-05-07",
+    "match_time": "22:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE1LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
   }
 ]
