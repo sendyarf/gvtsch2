@@ -548,8 +548,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -599,8 +599,8 @@
         "label": "CH-3"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -841,8 +841,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -1673,6 +1673,345 @@
     "gender": "M"
   },
   {
+    "id": "Angers-Strasbourg",
+    "sport": "Football",
+    "league": "France - Ligue 1",
+    "team1": {
+      "name": "Angers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1684/image"
+    },
+    "team2": {
+      "name": "Strasbourg",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1659/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-11",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Auxerre-Nice",
+    "sport": "Football",
+    "league": "France - Ligue 1",
+    "team1": {
+      "name": "Auxerre",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1646/image"
+    },
+    "team2": {
+      "name": "Nice",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1661/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-11",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "LeHavre-Marseille",
+    "sport": "Football",
+    "league": "France - Ligue 1",
+    "team1": {
+      "name": "Le Havre",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1662/image"
+    },
+    "team2": {
+      "name": "Marseille",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1641/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-11",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Metz-Lorient",
+    "sport": "Football",
+    "league": "France - Ligue 1",
+    "team1": {
+      "name": "Metz",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1651/image"
+    },
+    "team2": {
+      "name": "Lorient",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1656/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-11",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Monaco-Lille",
+    "sport": "Football",
+    "league": "France - Ligue 1",
+    "team1": {
+      "name": "Monaco",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1653/image"
+    },
+    "team2": {
+      "name": "Lille",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1643/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-11",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "PSG-Brest",
+    "sport": "Football",
+    "league": "France - Ligue 1",
+    "team1": {
+      "name": "Paris Saint-Germain",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1644/image"
+    },
+    "team2": {
+      "name": "Brest",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1715/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-11",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcucGhw",
+        "label": "CH-EN"
+      }
+    ],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Rennes-ParisFC",
+    "sport": "Football",
+    "league": "France - Ligue 1",
+    "team1": {
+      "name": "Rennes",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1658/image"
+    },
+    "team2": {
+      "name": "Paris FC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/6070/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-11",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Toulouse-Lyon",
+    "sport": "Football",
+    "league": "France - Ligue 1",
+    "team1": {
+      "name": "Toulouse",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1681/image"
+    },
+    "team2": {
+      "name": "Olympique Lyonnais",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1649/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-11",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Mainz-UnionBerlin",
+    "sport": "Football",
+    "league": "Germany - Bundesliga",
+    "team1": {
+      "name": "Mainz",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2556/image"
+    },
+    "team2": {
+      "name": "1. FC Union Berlin",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2547/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "00:30",
+    "match_date": "2026-05-11",
+    "match_time": "00:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "ACMilan-Atalanta",
+    "sport": "Football",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "AC Milan",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2692/image"
+    },
+    "team2": {
+      "name": "Atalanta",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2686/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "01:45",
+    "match_date": "2026-05-11",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDkucGhw",
+        "label": "CH-EN"
+      }
+    ],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Barcelona-RealMadrid",
+    "sport": "Football",
+    "league": "Spain - LaLiga",
+    "team1": {
+      "name": "Barcelona",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2817/image"
+    },
+    "team2": {
+      "name": "Real Madrid",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2829/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-11",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
+        "label": "CH-EN"
+      }
+    ],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "BaliUnited-Borneo",
+    "sport": "Football",
+    "league": "Indonesia - Indonesia Super League",
+    "team1": {
+      "name": "Bali United",
+      "logo": "https://static.flashscore.com/res/image/data/Me4JWEme-K6ujqDls.png"
+    },
+    "team2": {
+      "name": "Borneo",
+      "logo": "https://static.flashscore.com/res/image/data/xvzHySR0-SKnIGW8l.png"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "19:00",
+    "match_date": "2026-05-11",
+    "match_time": "18:55",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FCBhayangkara-MaduraUnited",
+    "sport": "Football",
+    "league": "Indonesia - Indonesia Super League",
+    "team1": {
+      "name": "Bhayangkara FC",
+      "logo": "https://static.flashscore.com/res/image/data/0rQnZJmC-UBTLvuxH.png"
+    },
+    "team2": {
+      "name": "Madura United",
+      "logo": "https://static.flashscore.com/res/image/data/lzhPY7Sq-llzIXtHf.png"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "19:00",
+    "match_date": "2026-05-11",
+    "match_time": "18:55",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "Philadelphia76ers-NewYorkKnicks",
+    "sport": "Basketball",
+    "league": "Usa - Nba, Playoffs",
+    "team1": {
+      "name": "Philadelphia 76ers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3420/image"
+    },
+    "team2": {
+      "name": "New York Knicks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3421/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "02:30",
+    "match_date": "2026-05-11",
+    "match_time": "02:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "MinnesotaTimberwolves-SanAntonioSpurs",
+    "sport": "Basketball",
+    "league": "Usa - Nba, Playoffs",
+    "team1": {
+      "name": "Minnesota Timberwolves",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3426/image"
+    },
+    "team2": {
+      "name": "San Antonio Spurs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3429/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-11",
+    "match_time": "06:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
     "id": "bundesliga2konferenz",
     "league": "Germany - Bundesliga 2",
     "team1": {
@@ -1722,8 +2061,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1757,8 +2096,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1957,8 +2296,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -2038,8 +2377,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -2065,8 +2404,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -2793,87 +3132,6 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "RealMadrid-Barcelona",
-    "league": "Spain - LaLiga",
-    "team1": {
-      "name": "Real Madrid",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2829/image"
-    },
-    "team2": {
-      "name": "Barcelona",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2817/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-11",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "Brest-ParisSaintGermain",
-    "league": "France - Ligue 1",
-    "team1": {
-      "name": "Brest",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1715/image"
-    },
-    "team2": {
-      "name": "Paris Saint-Germain",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1644/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-11",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcucGhw",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "Atalanta-ACMilan",
-    "league": "Italy - Serie A",
-    "team1": {
-      "name": "Atalanta",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2686/image"
-    },
-    "team2": {
-      "name": "AC Milan",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2692/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "00:45",
-    "match_date": "2026-05-11",
-    "match_time": "00:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDkucGhw",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Football",
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
