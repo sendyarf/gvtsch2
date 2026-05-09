@@ -70,8 +70,8 @@
         "label": "CH-4"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -113,8 +113,8 @@
         "label": "CH-1"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -164,8 +164,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -227,8 +227,8 @@
         "label": "CH-4"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -726,8 +726,8 @@
         "label": "CH-1"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -761,8 +761,8 @@
         "label": "CH-1"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -792,12 +792,16 @@
         "label": "CH-DE"
       },
       {
+        "url": "https://multi.govoet.cc/?envivo=117",
+        "label": "CH-ES"
+      },
+      {
         "url": "https://multi.govoet.cc/?ss=hd4",
         "label": "CH-1"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -835,8 +839,8 @@
         "label": "CH-1"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -1008,8 +1012,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1347,8 +1351,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1695,8 +1699,8 @@
     "match_time": "18:55",
     "duration": "3.5",
     "servers": [],
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2316,122 +2320,6 @@
     "gender": "M"
   },
   {
-    "id": "bundesliga2konferenz",
-    "league": "Germany - Bundesliga 2",
-    "team1": {
-      "name": "Bundesliga 2 Conference League",
-      "logo": ""
-    },
-    "team2": {
-      "name": "",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-09",
-    "kickoff_time": "18:00",
-    "match_date": "2026-05-09",
-    "match_time": "17:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=112",
-        "label": "CH-DE"
-      }
-    ]
-  },
-  {
-    "id": "Bochum-Hannover",
-    "league": "Germany - Bundesliga 2",
-    "team1": {
-      "name": "Bochum",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Hannover",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-09",
-    "kickoff_time": "18:00",
-    "match_date": "2026-05-09",
-    "match_time": "17:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=114",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=78",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd9",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=eleven3",
-        "label": "CH-2"
-      }
-    ]
-  },
-  {
-    "id": "Braunschweig-SGDynamoDresden",
-    "league": "Germany - Bundesliga 2",
-    "team1": {
-      "name": "Braunschweig",
-      "logo": ""
-    },
-    "team2": {
-      "name": "SG Dynamo Dresden",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-09",
-    "kickoff_time": "18:00",
-    "match_date": "2026-05-09",
-    "match_time": "17:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=115",
-        "label": "CH-DE"
-      }
-    ]
-  },
-  {
-    "id": "HolsteinKiel-Magdeburg",
-    "league": "Germany - 2. Bundesliga",
-    "team1": {
-      "name": "Holstein Kiel",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2573/image"
-    },
-    "team2": {
-      "name": "Magdeburg",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2591/image"
-    },
-    "kickoff_date": "2026-05-09",
-    "kickoff_time": "18:00",
-    "match_date": "2026-05-09",
-    "match_time": "17:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=113",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=80",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd10",
-        "label": "CH-1"
-      }
-    ],
-    "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
-    "gender": "M"
-  },
-  {
     "id": "Middlesbrough-Southampton",
     "league": "England - Championship, Promotion Playoffs",
     "team1": {
@@ -2486,8 +2374,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2513,8 +2401,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2563,8 +2451,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -2690,8 +2578,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -2717,8 +2605,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
