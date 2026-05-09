@@ -770,10 +770,6 @@
         "label": "CH-EN"
       },
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDkucGhw",
-        "label": "CH-EN"
-      },
-      {
         "url": "https://multi.govoet.cc/?ss=hd7",
         "label": "CH-1"
       },
@@ -845,8 +841,8 @@
         "label": "CH-4"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1134,8 +1130,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2197,8 +2193,8 @@
       }
     ],
     "sport": "Football",
-    "status": "suspended",
-    "status_desc": "Suspended",
+    "status": "canceled",
+    "status_desc": "Abandoned",
     "gender": "M"
   },
   {
@@ -2444,8 +2440,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2471,8 +2467,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2498,8 +2494,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2525,8 +2521,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2564,8 +2560,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2622,8 +2618,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2653,8 +2649,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2904,8 +2900,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -2931,8 +2927,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -2989,8 +2985,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -4128,6 +4124,29 @@
     "gender": "F"
   },
   {
+    "id": "Leo-Aleem",
+    "league": "Boxing",
+    "team1": {
+      "name": "Leo",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Aleem",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-10",
+    "kickoff_time": "06:00",
+    "match_date": "2026-05-10",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDQ1LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
     "id": "AtlantaDream-MinnesotaLynx",
     "league": "Usa - Wnba",
     "team1": {
@@ -4153,29 +4172,6 @@
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "F"
-  },
-  {
-    "id": "Leo-Aleem",
-    "league": "Boxing",
-    "team1": {
-      "name": "Leo",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Aleem",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-10",
-    "kickoff_time": "06:00",
-    "match_date": "2026-05-10",
-    "match_time": "05:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDQ1LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
   },
   {
     "id": "WWEBacklash",
@@ -4247,7 +4243,7 @@
     ],
     "sport": "Basketball",
     "status": "inprogress",
-    "status_desc": "2nd quarter",
+    "status_desc": "3rd quarter",
     "gender": "F"
   },
   {
