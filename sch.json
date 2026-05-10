@@ -944,8 +944,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -1449,8 +1449,8 @@
         "label": "CH-VN"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2311,37 +2311,6 @@
     "gender": "M"
   },
   {
-    "id": "GrandPrixdeFranceWarmupdesMotoGP",
-    "league": "Motogp",
-    "team1": {
-      "name": "Grand Prix de France Warm up des Moto GP -",
-      "logo": ""
-    },
-    "team2": {
-      "name": "",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-10",
-    "kickoff_time": "14:40",
-    "match_date": "2026-05-10",
-    "match_time": "14:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=14",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=60",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=11",
-        "label": "CH-FR"
-      }
-    ]
-  },
-  {
     "id": "GrandPrixdeFranceLacoursedesMoto3",
     "league": "Moto3",
     "team1": {
@@ -2453,8 +2422,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -2618,6 +2587,33 @@
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
+  },
+  {
+    "id": "GrandPrixdeFrancedesMotoGP",
+    "league": "Motogp",
+    "team1": {
+      "name": "Grand Prix de France des Moto GP -",
+      "logo": ""
+    },
+    "team2": {
+      "name": "",
+      "logo": ""
+    },
+    "kickoff_date": "2026-05-10",
+    "kickoff_time": "19:00",
+    "match_date": "2026-05-10",
+    "match_time": "18:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=11",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=60",
+        "label": "CH-ES"
+      }
+    ]
   },
   {
     "id": "MultiplexPremierLeague",
