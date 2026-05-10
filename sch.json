@@ -165,8 +165,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -208,8 +208,8 @@
         "label": "CH-1"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -267,8 +267,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -759,8 +759,8 @@
         "label": "CH-1"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -916,22 +916,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=137",
-        "label": "CH-IT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=87",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=97",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=123",
-        "label": "CH-DE"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDkucGhw",
         "label": "CH-EN"
       },
@@ -944,8 +928,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -979,8 +963,8 @@
         "label": "CH-1"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -1022,8 +1006,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -1229,7 +1213,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1472,7 +1456,7 @@
     "duration": "3.5",
     "servers": [],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -2331,122 +2315,6 @@
     "gender": "M"
   },
   {
-    "id": "ForcaLleida-Bilbao",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Lleida Esportiu",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Bilbao",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-10",
-    "kickoff_time": "17:00",
-    "match_date": "2026-05-10",
-    "match_time": "16:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=155",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "GrandPrixdeFranceLacoursedesMoto2",
-    "league": "Moto2",
-    "team1": {
-      "name": "Grand Prix de France La course des Moto 2 -",
-      "logo": ""
-    },
-    "team2": {
-      "name": "",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-10",
-    "kickoff_time": "17:15",
-    "match_date": "2026-05-10",
-    "match_time": "17:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=14",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=60",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "MoraBancAndorra-Manresa",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Andorra",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Manresa",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-10",
-    "kickoff_time": "17:30",
-    "match_date": "2026-05-10",
-    "match_time": "17:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=156",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "Celtic-Rangers",
-    "league": "Scotland - Scottish Premiership, Championship Round",
-    "team1": {
-      "name": "Celtic",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2352/image"
-    },
-    "team2": {
-      "name": "Rangers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2351/image"
-    },
-    "kickoff_date": "2026-05-10",
-    "kickoff_time": "18:00",
-    "match_date": "2026-05-10",
-    "match_time": "17:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=128",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=135",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=136",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd1",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv2",
-        "label": "CH-2"
-      }
-    ],
-    "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
-    "gender": "M"
-  },
-  {
     "id": "bundesliga2konferenz",
     "league": "Germany - Bundesliga 2",
     "team1": {
@@ -2500,8 +2368,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2527,8 +2395,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2554,8 +2422,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2605,7 +2473,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
