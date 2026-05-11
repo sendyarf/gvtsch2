@@ -1120,8 +1120,8 @@
     "match_time": "05:55",
     "duration": "3.5",
     "servers": [],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1736,8 +1736,8 @@
     "match_time": "02:25",
     "duration": "3.5",
     "servers": [],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1758,18 +1758,6 @@
     "match_time": "06:25",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=85",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=194",
-        "label": "CH-US"
-      },
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDY2LnBocA==",
         "label": "CH-EN"
@@ -1863,483 +1851,6 @@
     "gender": "M"
   },
   {
-    "id": "Corinthians-SaoPaulo",
-    "league": "Brazil - Brasileirão Betano",
-    "team1": {
-      "name": "Corinthians",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1957/image"
-    },
-    "team2": {
-      "name": "Sao Paulo",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1981/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "04:30",
-    "match_date": "2026-05-11",
-    "match_time": "04:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=50",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br3",
-        "label": "CH-2"
-      }
-    ],
-    "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
-    "gender": "M"
-  },
-  {
-    "id": "Santos-Bragantino",
-    "league": "Brazil - Serie A Betano",
-    "team1": {
-      "name": "Santos FC",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Bragantino",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "04:30",
-    "match_date": "2026-05-11",
-    "match_time": "04:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=164",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "RiverPlate-SanLorenzo",
-    "league": "Argentina - Liga Profesional De Fútbol, Apertura Playoffs",
-    "team1": {
-      "name": "River Plate",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3211/image"
-    },
-    "team2": {
-      "name": "San Lorenzo de Almagro",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3201/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "05:00",
-    "match_date": "2026-05-11",
-    "match_time": "04:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=76",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=61",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=70",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=87",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=125",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd9",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv1",
-        "label": "CH-2"
-      }
-    ],
-    "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
-    "gender": "M"
-  },
-  {
-    "id": "Cusco-LosChankas",
-    "league": "Peru - Liga 1, Apertura",
-    "team1": {
-      "name": "Cusco FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/63760/image"
-    },
-    "team2": {
-      "name": "Los Chankas",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/252254/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "05:30",
-    "match_date": "2026-05-11",
-    "match_time": "05:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=84",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
-    "gender": "M"
-  },
-  {
-    "id": "Nacional-CACerro",
-    "league": "Uruguay - Liga Auf Uruguaya, Apertura",
-    "team1": {
-      "name": "Club Nacional",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3230/image"
-    },
-    "team2": {
-      "name": "Cerro Porteño",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/22011/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "05:30",
-    "match_date": "2026-05-11",
-    "match_time": "05:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=109",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
-    "gender": "M"
-  },
-  {
-    "id": "Gremio-FlamengoRJ",
-    "league": "Brazil - Brasileirão Betano",
-    "team1": {
-      "name": "Grêmio FBPA",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5926/image"
-    },
-    "team2": {
-      "name": "Flamengo RJ",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5981/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "05:30",
-    "match_date": "2026-05-11",
-    "match_time": "05:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=82",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br1",
-        "label": "CH-1"
-      }
-    ],
-    "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
-    "gender": "M"
-  },
-  {
-    "id": "Pachuca-Toluca",
-    "league": "Mexico - Liga MX",
-    "team1": {
-      "name": "Pachuca CF",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Toluca",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "06:00",
-    "match_date": "2026-05-11",
-    "match_time": "05:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=68",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd10",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "MinnesotaUnited-AustinFC",
-    "league": "USA - MLS",
-    "team1": {
-      "name": "Minnesota United FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/41618/image"
-    },
-    "team2": {
-      "name": "Austin FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/377973/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "06:00",
-    "match_date": "2026-05-11",
-    "match_time": "05:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=192",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "MontrealCanadiens-BuffaloSabres",
-    "league": "Usa - Nhl, Playoffs",
-    "team1": {
-      "name": "Montreal Canadiens",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3690/image"
-    },
-    "team2": {
-      "name": "Buffalo Sabres",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3678/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "06:00",
-    "match_date": "2026-05-11",
-    "match_time": "05:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=5",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=191",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=62",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv3",
-        "label": "CH-1"
-      }
-    ],
-    "sport": "Ice hockey",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "Manta-Macara",
-    "league": "Ecuador - Ligapro Serie A, Primera Etapa",
-    "team1": {
-      "name": "Manta FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/33561/image"
-    },
-    "team2": {
-      "name": "Macara",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/6001/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "06:10",
-    "match_date": "2026-05-11",
-    "match_time": "06:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=86",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "OnceCaldas-Junior",
-    "league": "Colombia - Liga Dimayor, Apertura, Playoffs",
-    "team1": {
-      "name": "Once Caldas",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/6118/image"
-    },
-    "team2": {
-      "name": "Junior",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/6105/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "06:10",
-    "match_date": "2026-05-11",
-    "match_time": "06:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=81",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "KansasCityRoyals-DetroitTigers",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Kansas City Royals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3651/image"
-    },
-    "team2": {
-      "name": "Detroit Tigers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3648/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "06:20",
-    "match_date": "2026-05-11",
-    "match_time": "06:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=4",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=193",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=88",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI5LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "VelezSarsfield-GimnasiaLP",
-    "league": "Argentina - Primera LPF",
-    "team1": {
-      "name": "Velez Sarsfield",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Gimnasia L.P.",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "07:30",
-    "match_date": "2026-05-11",
-    "match_time": "07:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=75",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=70",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd11",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "LosAngelesFC-HoustonDynamo",
-    "league": "USA - MLS",
-    "team1": {
-      "name": "Los Angeles FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/274650/image"
-    },
-    "team2": {
-      "name": "Houston Dynamo FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2508/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "08:00",
-    "match_date": "2026-05-11",
-    "match_time": "07:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=195",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "UNAMPumas-ClubAmerica",
-    "league": "Mexico - Liga MX",
-    "team1": {
-      "name": "UNAM Pumas",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Club America",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "08:15",
-    "match_date": "2026-05-11",
-    "match_time": "08:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=68",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=106",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=107",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=108",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
     "id": "AnaheimDucks-VegasGoldenKnights",
     "league": "Usa - Nhl, Playoffs",
     "team1": {
@@ -2397,9 +1908,63 @@
       }
     ],
     "sport": "Basketball",
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "F"
+  },
+  {
+    "id": "DetroitTigers-KansasCityRoyals",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Detroit Tigers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3648/image"
+    },
+    "team2": {
+      "name": "Kansas City Royals",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3651/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "05:20",
+    "match_date": "2026-05-11",
+    "match_time": "05:15",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI5LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
+  },
+  {
+    "id": "BuffaloSabres-MontrealCanadiens",
+    "league": "Usa - Nhl, Playoffs",
+    "team1": {
+      "name": "Buffalo Sabres",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3678/image"
+    },
+    "team2": {
+      "name": "Montreal Canadiens",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3690/image"
+    },
+    "kickoff_date": "2026-05-11",
+    "kickoff_time": "05:00",
+    "match_date": "2026-05-11",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Ice hockey",
     "status": "notstarted",
     "status_desc": "Not started",
-    "gender": "F"
+    "gender": "M"
   },
   {
     "id": "LasVegasAces-LosAngelesSparks",
@@ -2424,116 +1989,8 @@
       }
     ],
     "sport": "Basketball",
-    "status": "inprogress",
-    "status_desc": "2nd quarter",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "F"
-  },
-  {
-    "id": "AtlantaBraves-LosAngelesDodgers",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Atlanta Braves",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3656/image"
-    },
-    "team2": {
-      "name": "Los Angeles Dodgers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3638/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "02:10",
-    "match_date": "2026-05-11",
-    "match_time": "02:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI2LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "NewYorkMets-ArizonaDiamondbacks",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "New York",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3629/image"
-    },
-    "team2": {
-      "name": "Arizona Diamondbacks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3640/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "02:10",
-    "match_date": "2026-05-11",
-    "match_time": "02:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI3LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "StLouisCardinals-SanDiegoPadres",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "St. Louis Cardinals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3632/image"
-    },
-    "team2": {
-      "name": "San Diego Padres (MLB)",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3636/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "02:10",
-    "match_date": "2026-05-11",
-    "match_time": "02:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI4LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "finished",
-    "status_desc": "AET",
-    "gender": "M"
-  },
-  {
-    "id": "PittsburghPirates-SanFranciscoGiants",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Pittsburgh Pirates (MLB)",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3637/image"
-    },
-    "team2": {
-      "name": "San Francisco Giants (MLB)",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3634/image"
-    },
-    "kickoff_date": "2026-05-11",
-    "kickoff_time": "02:05",
-    "match_date": "2026-05-11",
-    "match_time": "02:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI1LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "Overtime",
-    "gender": "M"
   }
 ]
