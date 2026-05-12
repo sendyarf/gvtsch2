@@ -1322,8 +1322,8 @@
         "label": "CH-3"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1623,61 +1623,6 @@
     "gender": "M"
   },
   {
-    "id": "CeltaVigo-Levante",
-    "league": "Spain - LaLiga",
-    "team1": {
-      "name": "Celta Vigo",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2821/image"
-    },
-    "team2": {
-      "name": "Levante UD",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2849/image"
-    },
-    "kickoff_date": "2026-05-13",
-    "kickoff_time": "00:00",
-    "match_date": "2026-05-12",
-    "match_time": "23:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=2",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=50",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=71",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=107",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd6",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=eleven1",
-        "label": "CH-3"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
     "id": "Betis-Elche",
     "league": "Spain - LaLiga",
     "team1": {
@@ -1724,8 +1669,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1798,8 +1743,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1829,8 +1774,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1879,8 +1824,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1906,8 +1851,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1960,8 +1905,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2020,7 +1965,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -2819,5 +2764,32 @@
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "F"
+  },
+  {
+    "id": "Levante-CeltaVigo",
+    "league": "Spain - LaLiga",
+    "team1": {
+      "name": "Levante UD",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2849/image"
+    },
+    "team2": {
+      "name": "Celta Vigo",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2821/image"
+    },
+    "kickoff_date": "2026-05-12",
+    "kickoff_time": "23:00",
+    "match_date": "2026-05-12",
+    "match_time": "22:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Football",
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
   }
 ]
