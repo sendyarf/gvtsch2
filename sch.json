@@ -1198,10 +1198,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
-        "label": "CH-EN"
-      },
-      {
         "url": "https://multi.govoet.cc/?ss=hd1",
         "label": "CH-1"
       },
@@ -1329,10 +1325,6 @@
     "match_time": "01:55",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
-        "label": "CH-EN"
-      },
       {
         "url": "https://multi.govoet.cc/?ss=hd2",
         "label": "CH-1"
@@ -1866,8 +1858,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -3073,33 +3065,6 @@
     "sport": "Baseball",
     "status": "notstarted",
     "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "Bologna-Napoli",
-    "league": "Italy - Serie A",
-    "team1": {
-      "name": "Bologna",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2685/image"
-    },
-    "team2": {
-      "name": "Napoli",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2714/image"
-    },
-    "kickoff_date": "2026-05-12",
-    "kickoff_time": "00:45",
-    "match_date": "2026-05-12",
-    "match_time": "00:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDkucGhw",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
     "gender": "M"
   }
 ]
