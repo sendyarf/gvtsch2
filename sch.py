@@ -364,9 +364,9 @@ def enrich_from_sofascore(matches, sofascore_data):
                 match['league'] = source_item['league']
                 league_count += 1
             
-            # 5. Fill missing logos (always prefer SofaScore logos as they are higher quality and less prone to errors)
-            need_logo1 = True
-            need_logo2 = True
+            # 5. Fill missing logos (only if not already set, e.g. from manual_sch)
+            need_logo1 = not match['team1'].get('logo')
+            need_logo2 = not match['team2'].get('logo')
             
             if need_logo1 or need_logo2:
                 st1 = normalize_team_name(source_item['team1']['name'])
