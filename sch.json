@@ -58,8 +58,8 @@
         "label": "CH-3"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -109,8 +109,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -160,8 +160,8 @@
         "label": "CH-3"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -262,8 +262,8 @@
         "label": "CH-3"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -325,8 +325,8 @@
         "label": "CH-4"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -396,8 +396,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -443,8 +443,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -666,53 +666,355 @@
     "gender": "M"
   },
   {
-    "id": "OlympiacosPiraeus-Panathinaikos",
-    "league": "Greece - Super League",
+    "id": "AstonVilla-Liverpool",
+    "sport": "Football",
+    "league": "England - Premier League",
     "team1": {
-      "name": "Olympiacos Piraeus",
-      "logo": ""
+      "name": "Aston Villa",
+      "logo": "https://static.flashscore.com/res/image/data/UHchCEVH-jwz95gs0.png"
     },
     "team2": {
-      "name": "Panathinaikos",
-      "logo": ""
+      "name": "Liverpool",
+      "logo": "https://static.flashscore.com/res/image/data/nBClzyne-KCp4zq5F.png"
     },
-    "kickoff_date": "2026-05-13",
-    "kickoff_time": "23:30",
-    "match_date": "2026-05-13",
-    "match_time": "23:25",
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "02:00",
+    "match_date": "2026-05-16",
+    "match_time": "01:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=148",
-        "label": "CH-GR"
-      }
-    ]
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
   },
   {
-    "id": "PAOK-AEKAthens",
-    "league": "Greece - Stoiximan Super League, Championship Round",
+    "id": "StEtienne-Rodez",
+    "sport": "Football",
+    "league": "France - Ligue 1, Relegation/Promotion Playoffs",
     "team1": {
-      "name": "PAOK FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3251/image"
+      "name": "St Etienne",
+      "logo": "https://static.flashscore.com/res/image/data/SvNL7CBN-8Ca53MKO.png"
     },
     "team2": {
-      "name": "AEK Athens",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3250/image"
+      "name": "Rodez",
+      "logo": "https://static.flashscore.com/res/image/data/GAe6vS7k-lrqg4wyC.png"
     },
-    "kickoff_date": "2026-05-13",
-    "kickoff_time": "23:30",
-    "match_date": "2026-05-13",
-    "match_time": "23:25",
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "01:30",
+    "match_date": "2026-05-16",
+    "match_time": "01:25",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=150",
-        "label": "CH-GR"
-      }
-    ],
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "BMonchengladbach-Hoffenheim",
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "league": "Germany - Bundesliga",
+    "team1": {
+      "name": "B. Monchengladbach",
+      "logo": "https://static.flashscore.com/res/image/data/tjlAHwhT-84sATBUR.png"
+    },
+    "team2": {
+      "name": "TSG 1899 Hoffenheim",
+      "logo": "https://static.flashscore.com/res/image/data/IyZBMF7k-n7lWn9DL.png"
+    },
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "20:30",
+    "match_date": "2026-05-16",
+    "match_time": "20:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "BayerLeverkusen-HamburgerSV",
+    "sport": "Football",
+    "league": "Germany - Bundesliga",
+    "team1": {
+      "name": "Bayer Leverkusen",
+      "logo": "https://static.flashscore.com/res/image/data/dWZYQIPq-WrjrBuU2.png"
+    },
+    "team2": {
+      "name": "Hamburger SV",
+      "logo": "https://static.flashscore.com/res/image/data/dWB5gKjC-86lnAaq9.png"
+    },
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "20:30",
+    "match_date": "2026-05-16",
+    "match_time": "20:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "BayernMunich-FCKoln",
+    "sport": "Football",
+    "league": "Germany - Bundesliga",
+    "team1": {
+      "name": "Bayern Munich",
+      "logo": "https://static.flashscore.com/res/image/data/lWGBVoA6-SvLFaVNH.png"
+    },
+    "team2": {
+      "name": "FC Koln",
+      "logo": "https://static.flashscore.com/res/image/data/KMphsCCN-86lnAaq9.png"
+    },
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "20:30",
+    "match_date": "2026-05-16",
+    "match_time": "20:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "EintrachtFrankfurt-Stuttgart",
+    "sport": "Football",
+    "league": "Germany - Bundesliga",
+    "team1": {
+      "name": "Eintracht Frankfurt",
+      "logo": "https://static.flashscore.com/res/image/data/2aegVtQq-86lnAaq9.png"
+    },
+    "team2": {
+      "name": "Stuttgart",
+      "logo": "https://static.flashscore.com/res/image/data/fgQWGn86-f1Z3XxZa.png"
+    },
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "20:30",
+    "match_date": "2026-05-16",
+    "match_time": "20:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Freiburg-RBLeipzig",
+    "sport": "Football",
+    "league": "Germany - Bundesliga",
+    "team1": {
+      "name": "SC Freiburg",
+      "logo": "https://static.flashscore.com/res/image/data/0pdxCFiT-86lnAaq9.png"
+    },
+    "team2": {
+      "name": "RB Leipzig",
+      "logo": "https://static.flashscore.com/res/image/data/fNS5fTmC-WvvSE8Dm.png"
+    },
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "20:30",
+    "match_date": "2026-05-16",
+    "match_time": "20:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Heidenheim-Mainz",
+    "sport": "Football",
+    "league": "Germany - Bundesliga",
+    "team1": {
+      "name": "1. FC Heidenheim 1846",
+      "logo": "https://static.flashscore.com/res/image/data/UH4XQKBN-bNiAN2lt.png"
+    },
+    "team2": {
+      "name": "Mainz",
+      "logo": "https://static.flashscore.com/res/image/data/tbR3gUTH-EoYxhN5r.png"
+    },
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "20:30",
+    "match_date": "2026-05-16",
+    "match_time": "20:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "StPauli-Wolfsburg",
+    "sport": "Football",
+    "league": "Germany - Bundesliga",
+    "team1": {
+      "name": "St. Pauli",
+      "logo": "https://static.flashscore.com/res/image/data/QHdIUX96-lrmFNGea.png"
+    },
+    "team2": {
+      "name": "Wolfsburg",
+      "logo": "https://static.flashscore.com/res/image/data/0Mr1oIkC-SSSLeFGl.png"
+    },
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "20:30",
+    "match_date": "2026-05-16",
+    "match_time": "20:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "UnionBerlin-Augsburg",
+    "sport": "Football",
+    "league": "Germany - Bundesliga",
+    "team1": {
+      "name": "1. FC Union Berlin",
+      "logo": "https://static.flashscore.com/res/image/data/0OMJUule-ncmj9JbF.png"
+    },
+    "team2": {
+      "name": "Augsburg",
+      "logo": "https://static.flashscore.com/res/image/data/Qgbz4piC-Qmnf8wEL.png"
+    },
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "20:30",
+    "match_date": "2026-05-16",
+    "match_time": "20:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "WerderBremen-Dortmund",
+    "sport": "Football",
+    "league": "Germany - Bundesliga",
+    "team1": {
+      "name": "Werder Bremen",
+      "logo": "https://static.flashscore.com/res/image/data/pIavfLS0-EVomMG4o.png"
+    },
+    "team2": {
+      "name": "Borussia Dortmund",
+      "logo": "https://static.flashscore.com/res/image/data/xSfDCO76-WrjrBuU2.png"
+    },
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "20:30",
+    "match_date": "2026-05-16",
+    "match_time": "20:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "PersikKediri-PersijaJakarta",
+    "sport": "Football",
+    "league": "Indonesia - Indonesia Super League",
+    "team1": {
+      "name": "Persik",
+      "logo": "https://static.flashscore.com/res/image/data/pbvGiliT-fudV7NWp.png"
+    },
+    "team2": {
+      "name": "Persija Jakarta",
+      "logo": "https://static.flashscore.com/res/image/data/804UVjme-65biHEjh.png"
+    },
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "15:30",
+    "match_date": "2026-05-16",
+    "match_time": "15:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "MalutUnited-Persita",
+    "sport": "Football",
+    "league": "Indonesia - Indonesia Super League",
+    "team1": {
+      "name": "Malut United",
+      "logo": "https://static.flashscore.com/res/image/data/4UwHHmne-IijC3nOP.png"
+    },
+    "team2": {
+      "name": "Persita Tangerang",
+      "logo": "https://static.flashscore.com/res/image/data/zZLAaUT0-Mw6HAN8i.png"
+    },
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "19:00",
+    "match_date": "2026-05-16",
+    "match_time": "18:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "PersisSolo-DewaUnited",
+    "sport": "Football",
+    "league": "Indonesia - Indonesia Super League",
+    "team1": {
+      "name": "Persis Solo",
+      "logo": "https://static.flashscore.com/res/image/data/drGWzvQq-UHp0ZgHn.png"
+    },
+    "team2": {
+      "name": "Dewa United",
+      "logo": "https://static.flashscore.com/res/image/data/GO1FYtUH-fJYKj2Xi.png"
+    },
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "19:00",
+    "match_date": "2026-05-16",
+    "match_time": "18:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "ClevelandCavaliers-DetroitPistons",
+    "sport": "Basketball",
+    "league": "Usa - Nba, Playoffs",
+    "team1": {
+      "name": "Cleveland Cavaliers",
+      "logo": "https://static.flashscore.com/res/image/data/xjtpSnU0-6ZJgih6O.png"
+    },
+    "team2": {
+      "name": "Detroit Pistons",
+      "logo": "https://static.flashscore.com/res/image/data/G6CnZjgT-xrW85HXg.png"
+    },
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "06:00",
+    "match_date": "2026-05-16",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "MinnesotaTimberwolves-SanAntonioSpurs",
+    "sport": "Basketball",
+    "league": "Usa - Nba, Playoffs",
+    "team1": {
+      "name": "Minnesota Timberwolves",
+      "logo": "https://static.flashscore.com/res/image/data/bNkuOd86-KbXk58wB.png"
+    },
+    "team2": {
+      "name": "San Antonio Spurs",
+      "logo": "https://static.flashscore.com/res/image/data/0l5OxLS0-SrHHDGUm.png"
+    },
+    "kickoff_date": "2026-05-16",
+    "kickoff_time": "08:30",
+    "match_date": "2026-05-16",
+    "match_time": "08:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
     "gender": "M"
   },
   {
@@ -765,8 +1067,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "3rd Inning",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -796,8 +1098,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -885,8 +1187,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -916,8 +1218,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -943,8 +1245,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -1156,8 +1458,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "3rd Inning",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2372,8 +2674,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   }
 ]
