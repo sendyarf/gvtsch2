@@ -58,8 +58,8 @@
         "label": "CH-3"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -80,22 +80,6 @@
     "match_time": "23:55",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=20",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=69",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=89",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=145",
-        "label": "CH-PT"
-      },
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcucGhw",
         "label": "CH-EN"
@@ -160,8 +144,8 @@
         "label": "CH-3"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -200,16 +184,7 @@
     "match_date": "2026-05-13",
     "match_time": "23:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=5",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=50",
-        "label": "CH-ES"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "Villarreal-Sevilla",
@@ -229,22 +204,6 @@
     "match_time": "23:55",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=2",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=51",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=71",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=88",
-        "label": "CH-ES"
-      },
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
         "label": "CH-EN"
@@ -325,8 +284,8 @@
         "label": "CH-4"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -396,8 +355,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -444,7 +403,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1018,114 +977,6 @@
     "gender": "M"
   },
   {
-    "id": "Breogan-ForcaLleida",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Breogan",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Lleida Esportiu",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-14",
-    "kickoff_time": "00:00",
-    "match_date": "2026-05-13",
-    "match_time": "23:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=155",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "ClevelandGuardians-LosAngelesAngels",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Cleveland Cavaliers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3650/image"
-    },
-    "team2": {
-      "name": "Los Angeles Angels",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5929/image"
-    },
-    "kickoff_date": "2026-05-14",
-    "kickoff_time": "00:10",
-    "match_date": "2026-05-14",
-    "match_time": "00:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=165",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Genclerbirligi-Trabzonspor",
-    "league": "Turkey - Turkiye Kupasi, Knockout Stage",
-    "team1": {
-      "name": "Genclerbirligi",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/7802/image"
-    },
-    "team2": {
-      "name": "Trabzonspor",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3051/image"
-    },
-    "kickoff_date": "2026-05-14",
-    "kickoff_time": "00:30",
-    "match_date": "2026-05-14",
-    "match_time": "00:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=151",
-        "label": "CH-TR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd3",
-        "label": "CH-1"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Granada-Barcelona",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Granada CF",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Barcelona",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-14",
-    "kickoff_time": "00:30",
-    "match_date": "2026-05-14",
-    "match_time": "00:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=157",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
     "id": "Valencia-Panathinaikos",
     "league": "Europe - Euroleague",
     "team1": {
@@ -1187,8 +1038,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1218,8 +1069,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1245,8 +1096,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -2650,6 +2501,33 @@
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "F"
+  },
+  {
+    "id": "LosAngelesAngels-ClevelandGuardians",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Los Angeles Angels",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/laa.png"
+    },
+    "team2": {
+      "name": "Cleveland Cavaliers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png"
+    },
+    "kickoff_date": "2026-05-13",
+    "kickoff_time": "23:10",
+    "match_date": "2026-05-13",
+    "match_time": "23:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
   },
   {
     "id": "AthleticClub-Espanyol",
