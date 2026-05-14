@@ -206,26 +206,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=6",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=52",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=123",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=71",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=94",
-        "label": "CH-ES"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
         "label": "CH-EN"
       },
@@ -246,8 +226,8 @@
         "label": "CH-4"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -293,8 +273,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -372,8 +352,8 @@
         "label": "CH-5"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -1386,176 +1366,6 @@
     "gender": "M"
   },
   {
-    "id": "AlFateh-AlNajma",
-    "league": "Saudi Arabia - Saudi Pro League",
-    "team1": {
-      "name": "Al Fateh",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/56023/image"
-    },
-    "team2": {
-      "name": "Al Najma",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/395831/image"
-    },
-    "kickoff_date": "2026-05-14",
-    "kickoff_time": "22:55",
-    "match_date": "2026-05-14",
-    "match_time": "22:50",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=162",
-        "label": "CH-SA"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "PittsburghPirates-ColoradoRockies",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Pittsburgh Pirates (MLB)",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3637/image"
-    },
-    "team2": {
-      "name": "Colorado Rockies",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3628/image"
-    },
-    "kickoff_date": "2026-05-14",
-    "kickoff_time": "23:35",
-    "match_date": "2026-05-14",
-    "match_time": "23:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=180",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE1LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "Pause",
-    "gender": "M"
-  },
-  {
-    "id": "CincinnatiReds-WashingtonNationals",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Cincinnati Reds",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3633/image"
-    },
-    "team2": {
-      "name": "Washington Nationals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5930/image"
-    },
-    "kickoff_date": "2026-05-14",
-    "kickoff_time": "23:40",
-    "match_date": "2026-05-14",
-    "match_time": "23:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=181",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "8th Inning",
-    "gender": "M"
-  },
-  {
-    "id": "Bilbao-RealMadrid",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Bilbao",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Real Madrid",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-15",
-    "kickoff_time": "00:00",
-    "match_date": "2026-05-14",
-    "match_time": "23:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=156",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "SanPabloBurgos-Unicaja",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Burgos",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Unicaja",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-15",
-    "kickoff_time": "00:00",
-    "match_date": "2026-05-14",
-    "match_time": "23:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=55",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=155",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "NewYorkMets-DetroitTigers",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "New York",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3629/image"
-    },
-    "team2": {
-      "name": "Detroit Tigers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3648/image"
-    },
-    "kickoff_date": "2026-05-15",
-    "kickoff_time": "00:10",
-    "match_date": "2026-05-15",
-    "match_time": "00:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=182",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "6th Inning",
-    "gender": "M"
-  },
-  {
     "id": "MilwaukeeBrewers-SanDiegoPadres",
     "league": "Usa - Mlb",
     "team1": {
@@ -1583,7 +1393,7 @@
     ],
     "sport": "Baseball",
     "status": "inprogress",
-    "status_desc": "3rd Inning",
+    "status_desc": "8th Inning",
     "gender": "M"
   },
   {
@@ -1613,8 +1423,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "Pause",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1640,8 +1450,8 @@
       }
     ],
     "sport": "Basketball",
-    "status": "inprogress",
-    "status_desc": "Pause",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1667,8 +1477,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1694,8 +1504,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1730,7 +1540,7 @@
     ],
     "sport": "Baseball",
     "status": "inprogress",
-    "status_desc": "3rd Inning",
+    "status_desc": "Pause",
     "gender": "M"
   },
   {
@@ -1760,8 +1570,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Pause",
     "gender": "M"
   },
   {
@@ -2274,5 +2084,86 @@
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "F"
+  },
+  {
+    "id": "DetroitTigers-NewYorkMets",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Detroit Tigers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png"
+    },
+    "team2": {
+      "name": "New York",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png"
+    },
+    "kickoff_date": "2026-05-14",
+    "kickoff_time": "23:10",
+    "match_date": "2026-05-14",
+    "match_time": "23:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
+  },
+  {
+    "id": "WashingtonNationals-CincinnatiReds",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Washington Nationals",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/wsh.png"
+    },
+    "team2": {
+      "name": "Cincinnati Reds",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png"
+    },
+    "kickoff_date": "2026-05-14",
+    "kickoff_time": "22:40",
+    "match_date": "2026-05-14",
+    "match_time": "22:35",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
+  },
+  {
+    "id": "ColoradoRockies-PittsburghPirates",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Colorado Rockies",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png"
+    },
+    "team2": {
+      "name": "Pittsburgh Pirates (MLB)",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png"
+    },
+    "kickoff_date": "2026-05-14",
+    "kickoff_time": "22:35",
+    "match_date": "2026-05-14",
+    "match_time": "22:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE1LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
   }
 ]
