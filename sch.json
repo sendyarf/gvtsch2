@@ -16,10 +16,7 @@
     "match_date": "2026-05-14",
     "match_time": "01:55",
     "duration": "3.5",
-    "servers": [],
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
+    "servers": []
   },
   {
     "id": "Brest-Strasbourg",
@@ -38,10 +35,7 @@
     "match_date": "2026-05-13",
     "match_time": "23:55",
     "duration": "3.5",
-    "servers": [],
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
+    "servers": []
   },
   {
     "id": "Lens-PSG",
@@ -60,10 +54,7 @@
     "match_date": "2026-05-14",
     "match_time": "01:55",
     "duration": "3.5",
-    "servers": [],
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
+    "servers": []
   },
   {
     "id": "Osasuna-AtlMadrid",
@@ -120,10 +111,7 @@
     "match_date": "2026-05-13",
     "match_time": "23:55",
     "duration": "3.5",
-    "servers": [],
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
+    "servers": []
   },
   {
     "id": "Alaves-Barcelona",
@@ -147,10 +135,7 @@
         "url": "https://multi.govoet.cc/?shaka=bein3aus",
         "label": "CH-EN"
       }
-    ],
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
+    ]
   },
   {
     "id": "Lazio-Inter",
@@ -181,11 +166,7 @@
         "url": "https://multi.govoet.cc/?shaka=premier1",
         "label": "CH-EN"
       }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
+    ]
   },
   {
     "id": "Getafe-Mallorca",
@@ -204,10 +185,7 @@
     "match_date": "2026-05-14",
     "match_time": "02:25",
     "duration": "3.5",
-    "servers": [],
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
+    "servers": []
   },
   {
     "id": "Valencia-RayoVallecano",
@@ -268,8 +246,8 @@
         "label": "CH-4"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -315,8 +293,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -517,6 +495,311 @@
         "label": "CH-3"
       }
     ],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "ManchesterUtd-Nottingham",
+    "sport": "Football",
+    "league": "England - Premier League",
+    "team1": {
+      "name": "Manchester Utd",
+      "logo": "https://static.flashscore.com/res/image/data/GhGV3qjT-h2pPXz3k.png"
+    },
+    "team2": {
+      "name": "Nottingham Forest",
+      "logo": "https://static.flashscore.com/res/image/data/86ODdyle-ImKwLTtA.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "18:30",
+    "match_date": "2026-05-17",
+    "match_time": "18:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Brentford-CrystalPalace",
+    "sport": "Football",
+    "league": "England - Premier League",
+    "team1": {
+      "name": "Brentford",
+      "logo": "https://static.flashscore.com/res/image/data/SjSCLv86-r9Mudk7j.png"
+    },
+    "team2": {
+      "name": "Crystal Palace",
+      "logo": "https://static.flashscore.com/res/image/data/GfkvlLmC-drybTCiH.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "21:00",
+    "match_date": "2026-05-17",
+    "match_time": "20:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Everton-Sunderland",
+    "sport": "Football",
+    "league": "England - Premier League",
+    "team1": {
+      "name": "Everton",
+      "logo": "https://static.flashscore.com/res/image/data/EBfZuwme-bRmKmISE.png"
+    },
+    "team2": {
+      "name": "Sunderland",
+      "logo": "https://static.flashscore.com/res/image/data/rPPdotBN-0d34NJCO.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "21:00",
+    "match_date": "2026-05-17",
+    "match_time": "20:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Leeds-Brighton",
+    "sport": "Football",
+    "league": "England - Premier League",
+    "team1": {
+      "name": "Leeds",
+      "logo": "https://static.flashscore.com/res/image/data/lvs4WW5k-MTp25XgE.png"
+    },
+    "team2": {
+      "name": "Brighton",
+      "logo": "https://static.flashscore.com/res/image/data/G0q9xjRq-b92lfEJC.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "21:00",
+    "match_date": "2026-05-17",
+    "match_time": "20:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Wolves-Fulham",
+    "sport": "Football",
+    "league": "England - Premier League",
+    "team1": {
+      "name": "Wolves",
+      "logo": "https://static.flashscore.com/res/image/data/MV7MiUmC-ABWS7fBq.png"
+    },
+    "team2": {
+      "name": "Fulham",
+      "logo": "https://static.flashscore.com/res/image/data/fkbYUWme-ImMEe0UF.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "21:00",
+    "match_date": "2026-05-17",
+    "match_time": "20:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Newcastle-WestHam",
+    "sport": "Football",
+    "league": "England - Premier League",
+    "team1": {
+      "name": "Newcastle",
+      "logo": "https://static.flashscore.com/res/image/data/UXo7VXPq-2Vnc5VQf.png"
+    },
+    "team2": {
+      "name": "West Ham",
+      "logo": "https://static.flashscore.com/res/image/data/YeSfKGlC-Q9DJHs4l.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "23:30",
+    "match_date": "2026-05-17",
+    "match_time": "23:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "AZAlkmaar-NACBreda",
+    "sport": "Football",
+    "league": "Netherlands - Vriendenloterij Eredivisie",
+    "team1": {
+      "name": "AZ Alkmaar",
+      "logo": "https://static.flashscore.com/res/image/data/v9zOEImC-4vob7cTR.png"
+    },
+    "team2": {
+      "name": "NAC Breda",
+      "logo": "https://static.flashscore.com/res/image/data/IVhDS6UH-voRxy8ml.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "19:30",
+    "match_date": "2026-05-17",
+    "match_time": "19:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "FCVolendam-Telstar",
+    "sport": "Football",
+    "league": "Netherlands - Vriendenloterij Eredivisie",
+    "team1": {
+      "name": "FC Volendam",
+      "logo": "https://static.flashscore.com/res/image/data/8tDUPO86-WYtEUtB2.png"
+    },
+    "team2": {
+      "name": "Telstar",
+      "logo": "https://static.flashscore.com/res/image/data/d46y71iT-xxe4Fem8.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "19:30",
+    "match_date": "2026-05-17",
+    "match_time": "19:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Heerenveen-Ajax",
+    "sport": "Football",
+    "league": "Netherlands - Eredivisie",
+    "team1": {
+      "name": "Heerenveen",
+      "logo": "https://static.flashscore.com/res/image/data/lIIfTBWH-4vob7cTR.png"
+    },
+    "team2": {
+      "name": "Ajax",
+      "logo": "https://static.flashscore.com/res/image/data/hEQxyYA6-bZZPiwAI.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "19:30",
+    "match_date": "2026-05-17",
+    "match_time": "19:25",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "Heracles-Groningen",
+    "sport": "Football",
+    "league": "Netherlands - Vriendenloterij Eredivisie",
+    "team1": {
+      "name": "Heracles",
+      "logo": "https://static.flashscore.com/res/image/data/MqiB1mme-vuxu3x67.png"
+    },
+    "team2": {
+      "name": "Groningen",
+      "logo": "https://static.flashscore.com/res/image/data/AJOIh8jT-Mm3KkBrA.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "19:30",
+    "match_date": "2026-05-17",
+    "match_time": "19:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "PSV-Twente",
+    "sport": "Football",
+    "league": "Netherlands - Vriendenloterij Eredivisie",
+    "team1": {
+      "name": "PSV",
+      "logo": "https://static.flashscore.com/res/image/data/fefX7RQq-j5zA1baQ.png"
+    },
+    "team2": {
+      "name": "Twente",
+      "logo": "https://static.flashscore.com/res/image/data/Uo9lu6le-4vob7cTR.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "19:30",
+    "match_date": "2026-05-17",
+    "match_time": "19:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "SpartaRotterdam-Excelsior",
+    "sport": "Football",
+    "league": "Netherlands - Vriendenloterij Eredivisie",
+    "team1": {
+      "name": "Sparta Rotterdam",
+      "logo": "https://static.flashscore.com/res/image/data/MHUzob96-rTjpk23j.png"
+    },
+    "team2": {
+      "name": "Excelsior",
+      "logo": "https://static.flashscore.com/res/image/data/82r5rXU0-GOuuvzfL.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "19:30",
+    "match_date": "2026-05-17",
+    "match_time": "19:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Utrecht-Sittard",
+    "sport": "Football",
+    "league": "Netherlands - Vriendenloterij Eredivisie",
+    "team1": {
+      "name": "Utrecht",
+      "logo": "https://static.flashscore.com/res/image/data/hWQdBH7k-4vob7cTR.png"
+    },
+    "team2": {
+      "name": "Sittard",
+      "logo": "https://static.flashscore.com/res/image/data/2Z2jcUT0-EFoqxv3t.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "19:30",
+    "match_date": "2026-05-17",
+    "match_time": "19:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Zwolle-Feyenoord",
+    "sport": "Football",
+    "league": "Netherlands - Vriendenloterij Eredivisie",
+    "team1": {
+      "name": "PEC Zwolle",
+      "logo": "https://static.flashscore.com/res/image/data/jDtO0Y5k-vFbzuVd5.png"
+    },
+    "team2": {
+      "name": "Feyenoord",
+      "logo": "https://static.flashscore.com/res/image/data/Ag6J0jT0-Wz6bfhxO.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "19:30",
+    "match_date": "2026-05-17",
+    "match_time": "19:25",
+    "duration": "3.5",
+    "servers": [],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -747,6 +1030,160 @@
     "gender": "M"
   },
   {
+    "id": "Como-Parma",
+    "sport": "Football",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Como",
+      "logo": "https://static.flashscore.com/res/image/data/4pxypIS0-hpmw8K1h.png"
+    },
+    "team2": {
+      "name": "Parma Calcio 1913",
+      "logo": "https://static.flashscore.com/res/image/data/WI9nVggT-fydXzLY6.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "17:00",
+    "match_date": "2026-05-17",
+    "match_time": "16:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Genoa-ACMilan",
+    "sport": "Football",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Genoa",
+      "logo": "https://static.flashscore.com/res/image/data/S48z3Poe-hCD6m1R3.png"
+    },
+    "team2": {
+      "name": "AC Milan",
+      "logo": "https://static.flashscore.com/res/image/data/WOOHTbSq-KtCfnbWp.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "17:00",
+    "match_date": "2026-05-17",
+    "match_time": "16:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Juventus-Fiorentina",
+    "sport": "Football",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Juventus",
+      "logo": "https://static.flashscore.com/res/image/data/AufWJrhT-0nz5yHcE.png"
+    },
+    "team2": {
+      "name": "Fiorentina",
+      "logo": "https://static.flashscore.com/res/image/data/fZhEFLjT-6XKdgOM6.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "17:00",
+    "match_date": "2026-05-17",
+    "match_time": "16:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Pisa-Napoli",
+    "sport": "Football",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Pisa",
+      "logo": "https://static.flashscore.com/res/image/data/vPrevkT0-GMOw3SI3.png"
+    },
+    "team2": {
+      "name": "Napoli",
+      "logo": "https://static.flashscore.com/res/image/data/tSuMfRjT-Stb48WaO.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "17:00",
+    "match_date": "2026-05-17",
+    "match_time": "16:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "ASRoma-Lazio",
+    "sport": "Football",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "AS Roma",
+      "logo": "https://static.flashscore.com/res/image/data/j31Z1pne-GtNb9h2q.png"
+    },
+    "team2": {
+      "name": "SS Lazio",
+      "logo": "https://static.flashscore.com/res/image/data/4CLpo27k-EaFfQ9z6.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "17:30",
+    "match_date": "2026-05-17",
+    "match_time": "17:25",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Inter-Verona",
+    "sport": "Football",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Inter",
+      "logo": "https://static.flashscore.com/res/image/data/fLNbBiQq-O8c8nWOb.png"
+    },
+    "team2": {
+      "name": "Hellas Verona FC",
+      "logo": "https://static.flashscore.com/res/image/data/YDLnjflC-Kxh373f3.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "20:00",
+    "match_date": "2026-05-17",
+    "match_time": "19:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Atalanta-Bologna",
+    "sport": "Football",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Atalanta",
+      "logo": "https://static.flashscore.com/res/image/data/z3aHqFBN-rg6usZns.png"
+    },
+    "team2": {
+      "name": "Bologna",
+      "logo": "https://static.flashscore.com/res/image/data/6ovaa9T0-McvX4bye.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "23:00",
+    "match_date": "2026-05-17",
+    "match_time": "22:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
     "id": "PersikKediri-PersijaJakarta",
     "sport": "Football",
     "league": "Indonesia - Indonesia Super League",
@@ -805,6 +1242,88 @@
     "kickoff_date": "2026-05-16",
     "kickoff_time": "19:00",
     "match_date": "2026-05-16",
+    "match_time": "18:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "BaliUnited-FCBhayangkara",
+    "sport": "Football",
+    "league": "Indonesia - Indonesia Super League",
+    "team1": {
+      "name": "Bali United",
+      "logo": "https://static.flashscore.com/res/image/data/Me4JWEme-K6ujqDls.png"
+    },
+    "team2": {
+      "name": "Bhayangkara FC",
+      "logo": "https://static.flashscore.com/res/image/data/0rQnZJmC-UBTLvuxH.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "15:30",
+    "match_date": "2026-05-17",
+    "match_time": "15:25",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "PersijapJepara-Borneo",
+    "sport": "Football",
+    "league": "Indonesia - Indonesia Super League",
+    "team1": {
+      "name": "Persija Jakarta",
+      "logo": "https://static.flashscore.com/res/image/data/MsJcYbRq-ngTEm5d7.png"
+    },
+    "team2": {
+      "name": "Borneo",
+      "logo": "https://static.flashscore.com/res/image/data/xvzHySR0-SKnIGW8l.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "19:00",
+    "match_date": "2026-05-17",
+    "match_time": "18:55",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "PSIMYogyakarta-MaduraUnited",
+    "sport": "Football",
+    "league": "Indonesia - Indonesia Super League",
+    "team1": {
+      "name": "PSIM Yogyakarta",
+      "logo": "https://static.flashscore.com/res/image/data/lCS3WI5k-IFY6Af8o.png"
+    },
+    "team2": {
+      "name": "Madura United",
+      "logo": "https://static.flashscore.com/res/image/data/lzhPY7Sq-llzIXtHf.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "19:00",
+    "match_date": "2026-05-17",
+    "match_time": "18:55",
+    "duration": "3.5",
+    "servers": [],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "PSMMakassar-PersibBandung",
+    "sport": "Football",
+    "league": "Indonesia - Indonesia Super League",
+    "team1": {
+      "name": "PSM Makassar",
+      "logo": "https://static.flashscore.com/res/image/data/j7AOPb6k-jNkiROW3.png"
+    },
+    "team2": {
+      "name": "Persib Bandung",
+      "logo": "https://static.flashscore.com/res/image/data/K0fBknlC-fXN2TGqm.png"
+    },
+    "kickoff_date": "2026-05-17",
+    "kickoff_time": "19:00",
+    "match_date": "2026-05-17",
     "match_time": "18:55",
     "duration": "3.5",
     "servers": [],
@@ -889,8 +1408,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -920,8 +1439,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Pause",
     "gender": "M"
   },
   {
@@ -951,8 +1470,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "8th Inning",
     "gender": "M"
   },
   {
@@ -1032,8 +1551,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "6th Inning",
     "gender": "M"
   },
   {
@@ -1063,8 +1582,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "3rd Inning",
     "gender": "M"
   },
   {
@@ -1094,8 +1613,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Pause",
     "gender": "M"
   },
   {
@@ -1121,8 +1640,8 @@
       }
     ],
     "sport": "Basketball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Pause",
     "gender": "M"
   },
   {
@@ -1148,8 +1667,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -1175,8 +1694,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -1210,8 +1729,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "3rd Inning",
     "gender": "M"
   },
   {
