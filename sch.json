@@ -204,24 +204,7 @@
     "match_date": "2026-05-14",
     "match_time": "23:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd6",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=eleven1",
-        "label": "CH-3"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br6",
-        "label": "CH-4"
-      }
-    ],
+    "servers": [],
     "status": "finished",
     "status_desc": "Ended",
     "gender": "M"
@@ -243,20 +226,7 @@
     "match_date": "2026-05-15",
     "match_time": "00:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUucGhw",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd9",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=eleven2",
-        "label": "CH-2"
-      }
-    ],
+    "servers": [],
     "status": "finished",
     "status_desc": "Ended",
     "gender": "M"
@@ -292,48 +262,8 @@
         "label": "CH-EN"
       },
       {
-        "url": "https://multi.govoet.cc/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=51",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=123",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=71",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=94",
-        "label": "CH-ES"
-      },
-      {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDYucGhw",
         "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd6",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd8",
-        "label": "CH-3"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=eleven1",
-        "label": "CH-4"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br2",
-        "label": "CH-5"
       }
     ],
     "status": "finished",
@@ -1350,87 +1280,6 @@
     "gender": "M"
   },
   {
-    "id": "Athletics-StLouisCardinals",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Oakland",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3645/image"
-    },
-    "team2": {
-      "name": "St.Louis Cardinals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3632/image"
-    },
-    "kickoff_date": "2026-05-15",
-    "kickoff_time": "02:05",
-    "match_date": "2026-05-15",
-    "match_time": "02:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=186",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIxLnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "9th Inning",
-    "gender": "M"
-  },
-  {
-    "id": "Baskonia-Murcia",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Baskonia",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Murcia FC",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-15",
-    "kickoff_time": "02:30",
-    "match_date": "2026-05-15",
-    "match_time": "02:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=158",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "GranCanaria-Tenerife",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Gran Canaria",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Tenerife",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-15",
-    "kickoff_time": "02:30",
-    "match_date": "2026-05-15",
-    "match_time": "02:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=55",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=155",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
     "id": "ChapecoenseSC-BotafogoRJ",
     "league": "Brazil - Copa Betano Do Brasil",
     "team1": {
@@ -1454,7 +1303,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1511,8 +1360,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -1538,8 +1387,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -1892,105 +1741,24 @@
     "gender": "F"
   },
   {
-    "id": "SeattleMariners-HoustonAstros",
+    "id": "StLouisCardinals-Athletics",
     "league": "Usa - Mlb",
     "team1": {
-      "name": "Seattle Mariners (MLB)",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png"
+      "name": "St. Louis Cardinals",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png"
     },
     "team2": {
-      "name": "Houston Rockets",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png"
+      "name": "Oakland",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png"
     },
     "kickoff_date": "2026-05-15",
-    "kickoff_time": "00:10",
+    "kickoff_time": "01:05",
     "match_date": "2026-05-15",
-    "match_time": "00:05",
+    "match_time": "01:00",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIwLnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "MiamiMarlins-MinnesotaTwins",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Miami",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mia.png"
-    },
-    "team2": {
-      "name": "Minnesota Timberwolves",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png"
-    },
-    "kickoff_date": "2026-05-14",
-    "kickoff_time": "23:40",
-    "match_date": "2026-05-14",
-    "match_time": "23:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "SanDiegoPadres-MilwaukeeBrewers",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "San Diego Padres (MLB)",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png"
-    },
-    "team2": {
-      "name": "Milwaukee",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
-    },
-    "kickoff_date": "2026-05-14",
-    "kickoff_time": "23:40",
-    "match_date": "2026-05-14",
-    "match_time": "23:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE5LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "DetroitTigers-NewYorkMets",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Detroit Tigers",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png"
-    },
-    "team2": {
-      "name": "New York",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png"
-    },
-    "kickoff_date": "2026-05-14",
-    "kickoff_time": "23:10",
-    "match_date": "2026-05-14",
-    "match_time": "23:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIxLnBocA==",
         "label": "CH-EN"
       }
     ],
