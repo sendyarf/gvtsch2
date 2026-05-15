@@ -23,6 +23,22 @@
       {
         "url": "https://multi.govoet.cc/?shaka=nova1",
         "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv2",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br2",
+        "label": "CH-4"
       }
     ],
     "sport": "Football",
@@ -418,7 +434,12 @@
     "match_date": "2026-05-16",
     "match_time": "20:25",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd5",
+        "label": "CH-1"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -440,7 +461,12 @@
     "match_date": "2026-05-16",
     "match_time": "20:25",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd10",
+        "label": "CH-1"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -484,7 +510,16 @@
     "match_date": "2026-05-16",
     "match_time": "20:25",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven1",
+        "label": "CH-2"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -506,7 +541,16 @@
     "match_date": "2026-05-16",
     "match_time": "20:25",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd8",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven2",
+        "label": "CH-2"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -550,7 +594,16 @@
     "match_date": "2026-05-16",
     "match_time": "20:25",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven3",
+        "label": "CH-2"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -594,7 +647,16 @@
     "match_date": "2026-05-16",
     "match_time": "20:25",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br4",
+        "label": "CH-2"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -1022,91 +1084,6 @@
     "gender": "M"
   },
   {
-    "id": "ChapecoenseSC-BotafogoRJ",
-    "league": "Brazil - Copa Betano Do Brasil",
-    "team1": {
-      "name": "Chapecoense-SC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/21845/image"
-    },
-    "team2": {
-      "name": "Botafogo RJ",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1958/image"
-    },
-    "kickoff_date": "2026-05-15",
-    "kickoff_time": "04:00",
-    "match_date": "2026-05-15",
-    "match_time": "03:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=111",
-        "label": "CH-PT"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "AtleticoGO-AthleticoPR",
-    "league": "Brazil - Copa do Brasil",
-    "team1": {
-      "name": "Atletico Goianiense",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Athletico Paranaense",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-15",
-    "kickoff_time": "05:00",
-    "match_date": "2026-05-15",
-    "match_time": "04:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=112",
-        "label": "CH-PT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br1",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
-    "id": "Confianca-Gremio",
-    "league": "Brazil - Copa Betano Do Brasil",
-    "team1": {
-      "name": "Confianca",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2017/image"
-    },
-    "team2": {
-      "name": "Grêmio FBPA",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5926/image"
-    },
-    "kickoff_date": "2026-05-15",
-    "kickoff_time": "05:00",
-    "match_date": "2026-05-15",
-    "match_time": "04:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=115",
-        "label": "CH-PT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br3",
-        "label": "CH-1"
-      }
-    ],
-    "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
-    "gender": "M"
-  },
-  {
     "id": "Corinthians-BarraFC",
     "league": "Brazil - Copa Betano Do Brasil",
     "team1": {
@@ -1129,8 +1106,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1165,7 +1142,7 @@
     ],
     "sport": "Baseball",
     "status": "inprogress",
-    "status_desc": "3rd Inning",
+    "status_desc": "Pause",
     "gender": "M"
   },
   {
@@ -1188,15 +1165,11 @@
       {
         "url": "https://multi.govoet.cc/?envivo=117",
         "label": "CH-PT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br4",
-        "label": "CH-1"
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1262,7 +1235,7 @@
     ],
     "sport": "Baseball",
     "status": "inprogress",
-    "status_desc": "2nd Inning",
+    "status_desc": "8th Inning",
     "gender": "M"
   },
   {
@@ -1292,8 +1265,8 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "6th Inning",
     "gender": "M"
   },
   {
@@ -1324,15 +1297,11 @@
       {
         "url": "https://multi.govoet.cc/?envivo=100",
         "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br1",
-        "label": "CH-1"
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -1386,10 +1355,6 @@
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUxLnBocA==",
         "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv2",
-        "label": "CH-1"
       }
     ],
     "sport": "Ice hockey",
@@ -1478,8 +1443,8 @@
       }
     ],
     "sport": "Basketball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "3rd quarter",
     "gender": "F"
   }
 ]
