@@ -67,7 +67,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -521,8 +521,8 @@
         "label": "CH-1"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -560,8 +560,8 @@
         "label": "CH-1"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -599,8 +599,8 @@
         "label": "CH-ES"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -639,7 +639,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -677,8 +677,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -708,8 +708,8 @@
         "label": "CH-DE"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -751,8 +751,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -778,8 +778,8 @@
         "label": "CH-DE"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -825,8 +825,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1858,126 +1858,6 @@
     "gender": "M"
   },
   {
-    "id": "Celtic-Hearts",
-    "league": "Scotland - Scottish Premiership, Championship Round",
-    "team1": {
-      "name": "Celtic",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2352/image"
-    },
-    "team2": {
-      "name": "Hearts",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2353/image"
-    },
-    "kickoff_date": "2026-05-16",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-16",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=127",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=135",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=125",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd5",
-        "label": "CH-1"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Falkirk-Rangers",
-    "league": "Scotland - Scottish Premiership, Championship Round",
-    "team1": {
-      "name": "Falkirk FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2363/image"
-    },
-    "team2": {
-      "name": "Rangers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2351/image"
-    },
-    "kickoff_date": "2026-05-16",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-16",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=136",
-        "label": "CH-GB"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Hibernian-Motherwell",
-    "league": "Scotland - Scottish Premiership, Championship Round",
-    "team1": {
-      "name": "Hibernian",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2354/image"
-    },
-    "team2": {
-      "name": "Motherwell",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2346/image"
-    },
-    "kickoff_date": "2026-05-16",
-    "kickoff_time": "18:30",
-    "match_date": "2026-05-16",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=130",
-        "label": "CH-GB"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "GrandPrixdeCatalogneEssaisqualificatifs1et2desMoto2",
-    "league": "Moto2",
-    "team1": {
-      "name": "Grand Prix de Catalogne Essais qualificatifs 1 et 2 des Moto 2 -",
-      "logo": ""
-    },
-    "team2": {
-      "name": "",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-16",
-    "kickoff_time": "18:40",
-    "match_date": "2026-05-16",
-    "match_time": "18:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=14",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=67",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
     "id": "RealSociedadB-Mirandes",
     "league": "Spain - LaLiga 2",
     "team1": {
@@ -2132,7 +2012,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -2162,8 +2042,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -2189,8 +2069,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -2228,8 +2108,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -2397,8 +2277,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
