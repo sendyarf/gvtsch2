@@ -2,7 +2,7 @@ name: Run Soco Scraper
 
 on:
   schedule:
-    - cron: "0 6 * * *" # Every day at 13:00 WIB (06:00 UTC)
+    - cron: "0 */1 * * *" # Every hour
   workflow_dispatch:
 
 env:
