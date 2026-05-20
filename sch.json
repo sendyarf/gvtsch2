@@ -87,7 +87,20 @@
     "match_date": "2026-05-21",
     "match_time": "23:40",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd5",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven1",
+        "label": "CH-3"
+      }
+    ]
   },
   {
     "id": "OklahomaCityThunder-SanAntonioSpurs",
@@ -133,7 +146,16 @@
     "match_date": "2026-05-20",
     "match_time": "06:55",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd2",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv1",
+        "label": "CH-2"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -186,7 +208,16 @@
     "match_date": "2026-05-22",
     "match_time": "01:55",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven1",
+        "label": "CH-2"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -208,7 +239,20 @@
     "match_date": "2026-05-22",
     "match_time": "01:25",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd3",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br3",
+        "label": "CH-3"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -230,7 +274,16 @@
     "match_date": "2026-05-23",
     "match_time": "01:40",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd7",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv3",
+        "label": "CH-2"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -472,154 +525,6 @@
     "gender": "M"
   },
   {
-    "id": "Tenerife-JoventutBadalona",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Tenerife",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Joventut Badalona",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-21",
-    "kickoff_time": "02:00",
-    "match_date": "2026-05-21",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=183",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=55",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "Freiburg-AstonVilla",
-    "league": "Europe - Uefa Europa League, Knockout Stage",
-    "team1": {
-      "name": "SC Freiburg",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2538/image"
-    },
-    "team2": {
-      "name": "Aston Villa",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/40/image"
-    },
-    "kickoff_date": "2026-05-21",
-    "kickoff_time": "02:00",
-    "match_date": "2026-05-21",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=11",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=126",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=61",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=111",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=139",
-        "label": "CH-IT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=68",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=87",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=97",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "ColoradoRockies-TexasRangers",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Colorado Rockies",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3628/image"
-    },
-    "team2": {
-      "name": "Dallas Mavericks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3647/image"
-    },
-    "kickoff_date": "2026-05-21",
-    "kickoff_time": "02:10",
-    "match_date": "2026-05-21",
-    "match_time": "02:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=184",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "Pause",
-    "gender": "M"
-  },
-  {
-    "id": "ArizonaDiamondbacks-SanFranciscoGiants",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Arizona Diamondbacks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3640/image"
-    },
-    "team2": {
-      "name": "San Francisco Giants (MLB)",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3634/image"
-    },
-    "kickoff_date": "2026-05-21",
-    "kickoff_time": "02:40",
-    "match_date": "2026-05-21",
-    "match_time": "02:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=185",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE5LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "7th Inning",
-    "gender": "M"
-  },
-  {
     "id": "TalleresCordoba-AtlTucuman",
     "league": "Copa Argentina",
     "team1": {
@@ -693,7 +598,7 @@
     ],
     "sport": "Baseball",
     "status": "inprogress",
-    "status_desc": "5th Inning",
+    "status_desc": "9th Inning",
     "gender": "M"
   },
   {
@@ -735,8 +640,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -766,8 +671,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -828,8 +733,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -1131,6 +1036,10 @@
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
         "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv3",
+        "label": "CH-1"
       }
     ],
     "sport": "Ice hockey",
@@ -1491,28 +1400,82 @@
     "gender": "F"
   },
   {
-    "id": "HoustonAstros-MinnesotaTwins",
+    "id": "SanFranciscoGiants-ArizonaDiamondbacks",
     "league": "Usa - Mlb",
     "team1": {
-      "name": "Houston Rockets",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png"
+      "name": "San Francisco Giants (MLB)",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png"
     },
     "team2": {
-      "name": "Minnesota Timberwolves",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png"
+      "name": "Arizona Diamondbacks",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png"
     },
-    "kickoff_date": "2026-05-20",
-    "kickoff_time": "23:40",
-    "match_date": "2026-05-20",
-    "match_time": "23:35",
+    "kickoff_date": "2026-05-21",
+    "kickoff_time": "01:40",
+    "match_date": "2026-05-21",
+    "match_time": "01:35",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE5LnBocA==",
         "label": "CH-EN"
       }
     ],
     "sport": "Baseball",
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
+  },
+  {
+    "id": "TexasRangers-ColoradoRockies",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Dallas Mavericks",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png"
+    },
+    "team2": {
+      "name": "Colorado Rockies",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png"
+    },
+    "kickoff_date": "2026-05-21",
+    "kickoff_time": "01:10",
+    "match_date": "2026-05-21",
+    "match_time": "01:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
+  },
+  {
+    "id": "AstonVilla-SCFreiburg",
+    "league": "Europe - Uefa Europa League, Knockout Stage",
+    "team1": {
+      "name": "Aston Villa",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+    },
+    "team2": {
+      "name": "SC Freiburg",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png"
+    },
+    "kickoff_date": "2026-05-21",
+    "kickoff_time": "01:00",
+    "match_date": "2026-05-21",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Football",
     "status": "finished",
     "status_desc": "Ended",
     "gender": "M"
