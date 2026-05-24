@@ -610,8 +610,8 @@
         "label": "CH-2"
       }
     ],
-    "status": "inprogress",
-    "status_desc": "Halftime",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1189,308 +1189,6 @@
     "gender": "M"
   },
   {
-    "id": "CincinnatiReds-StLouisCardinals",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Cincinnati Reds",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3633/image"
-    },
-    "team2": {
-      "name": "St.Louis Cardinals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3632/image"
-    },
-    "kickoff_date": "2026-05-25",
-    "kickoff_time": "00:40",
-    "match_date": "2026-05-25",
-    "match_time": "00:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=185",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIxLnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "postponed",
-    "status_desc": "Postponed",
-    "gender": "M"
-  },
-  {
-    "id": "MiamiMarlins-NewYorkMets",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Miami",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3639/image"
-    },
-    "team2": {
-      "name": "New York",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3629/image"
-    },
-    "kickoff_date": "2026-05-25",
-    "kickoff_time": "00:40",
-    "match_date": "2026-05-25",
-    "match_time": "00:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=186",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIwLnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "TecnicoU-LeonesdelNorte",
-    "league": "Ecuador - Ligapro Serie A, Primera Etapa",
-    "team1": {
-      "name": "Tecnic Universitario",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/21941/image"
-    },
-    "team2": {
-      "name": "Leones del Norte",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/388234/image"
-    },
-    "kickoff_date": "2026-05-25",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-25",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=86",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "Olympiacos-RealMadrid",
-    "league": "Europe - Euroleague",
-    "team1": {
-      "name": "Olympiacos Piraeus",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Real Madrid",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-25",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-25",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=67",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "Wanderers-Maldonado",
-    "league": "Uruguay - Liga AUF",
-    "team1": {
-      "name": "Wanderers",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Maldonado",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-25",
-    "kickoff_time": "01:00",
-    "match_date": "2026-05-25",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=109",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "KansasCityRoyals-SeattleMariners",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Kansas City Royals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3651/image"
-    },
-    "team2": {
-      "name": "Seattle Mariners (MLB)",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3641/image"
-    },
-    "kickoff_date": "2026-05-25",
-    "kickoff_time": "01:10",
-    "match_date": "2026-05-25",
-    "match_time": "01:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=187",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIzLnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "9th Inning",
-    "gender": "M"
-  },
-  {
-    "id": "MilwaukeeBrewers-LosAngelesDodgers",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Milwaukee",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3630/image"
-    },
-    "team2": {
-      "name": "Los Angeles Dodgers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3638/image"
-    },
-    "kickoff_date": "2026-05-25",
-    "kickoff_time": "01:10",
-    "match_date": "2026-05-25",
-    "match_time": "01:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=188",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIyLnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "SportHuancayo-Cienciano",
-    "league": "Peru - Liga 1, Apertura",
-    "team1": {
-      "name": "Sport Huancayo",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/33895/image"
-    },
-    "team2": {
-      "name": "Cienciano del Cusco",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2301/image"
-    },
-    "kickoff_date": "2026-05-25",
-    "kickoff_time": "01:15",
-    "match_date": "2026-05-25",
-    "match_time": "01:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=84",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "finished",
-    "status_desc": "Ended",
-    "gender": "M"
-  },
-  {
-    "id": "ChicagoCubs-HoustonAstros",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Chicago Cubs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3627/image"
-    },
-    "team2": {
-      "name": "Houston Rockets",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3655/image"
-    },
-    "kickoff_date": "2026-05-25",
-    "kickoff_time": "01:20",
-    "match_date": "2026-05-25",
-    "match_time": "01:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=189",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI0LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "9th Inning",
-    "gender": "M"
-  },
-  {
-    "id": "RiverPlate-Belgrano",
-    "league": "Argentina - Primera LPF",
-    "team1": {
-      "name": "River Plate",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Belgrano Cordoba",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-25",
-    "kickoff_time": "01:30",
-    "match_date": "2026-05-25",
-    "match_time": "01:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=75",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=76",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=87",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=125",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=61",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=70",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br2",
-        "label": "CH-1"
-      }
-    ]
-  },
-  {
     "id": "FARRabat-MamelodiSundowns",
     "league": "Africa - Caf Champions League, Knockout Stage",
     "team1": {
@@ -1521,8 +1219,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1571,8 +1269,8 @@
       }
     ],
     "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -1630,7 +1328,7 @@
     ],
     "sport": "Baseball",
     "status": "inprogress",
-    "status_desc": "3rd Inning",
+    "status_desc": "5th Inning",
     "gender": "M"
   },
   {
@@ -1661,7 +1359,7 @@
     ],
     "sport": "Baseball",
     "status": "inprogress",
-    "status_desc": "3rd Inning",
+    "status_desc": "Pause",
     "gender": "M"
   },
   {
@@ -1692,7 +1390,7 @@
     ],
     "sport": "Baseball",
     "status": "inprogress",
-    "status_desc": "2nd Inning",
+    "status_desc": "6th Inning",
     "gender": "M"
   },
   {
@@ -1723,7 +1421,7 @@
     ],
     "sport": "Baseball",
     "status": "inprogress",
-    "status_desc": "3rd Inning",
+    "status_desc": "6th Inning",
     "gender": "M"
   },
   {
@@ -1773,7 +1471,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1822,8 +1520,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -1849,8 +1547,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -1892,8 +1590,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -2221,8 +1919,8 @@
       }
     ],
     "sport": "Basketball",
-    "status": "inprogress",
-    "status_desc": "3rd quarter",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "F"
   },
   {
@@ -2248,29 +1946,29 @@
       }
     ],
     "sport": "Basketball",
-    "status": "inprogress",
-    "status_desc": "4th quarter",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "F"
   },
   {
-    "id": "ClevelandGuardians-PhiladelphiaPhillies",
+    "id": "HoustonAstros-ChicagoCubs",
     "league": "Usa - Mlb",
     "team1": {
-      "name": "Cleveland Cavaliers",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png"
+      "name": "Houston Rockets",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png"
     },
     "team2": {
-      "name": "Philadelphia Phillies (MLB)",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png"
+      "name": "Chicago Cubs",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png"
     },
-    "kickoff_date": "2026-05-24",
-    "kickoff_time": "23:35",
-    "match_date": "2026-05-24",
-    "match_time": "23:30",
+    "kickoff_date": "2026-05-25",
+    "kickoff_time": "00:20",
+    "match_date": "2026-05-25",
+    "match_time": "00:15",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDI0LnBocA==",
         "label": "CH-EN"
       }
     ],
@@ -2280,51 +1978,51 @@
     "gender": "M"
   },
   {
-    "id": "MinnesotaTwins-BostonRedSox",
+    "id": "LosAngelesDodgers-MilwaukeeBrewers",
     "league": "Usa - Mlb",
     "team1": {
-      "name": "Minnesota Timberwolves",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png"
+      "name": "Los Angeles Dodgers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png"
     },
     "team2": {
-      "name": "Boston Celtics",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png"
+      "name": "Milwaukee",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
     },
-    "kickoff_date": "2026-05-24",
-    "kickoff_time": "23:35",
-    "match_date": "2026-05-24",
-    "match_time": "23:30",
+    "kickoff_date": "2026-05-25",
+    "kickoff_time": "00:10",
+    "match_date": "2026-05-25",
+    "match_time": "00:05",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIyLnBocA==",
         "label": "CH-EN"
       }
     ],
     "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "9th Inning",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
-    "id": "TampaBayRays-NewYorkYankees",
+    "id": "SeattleMariners-KansasCityRoyals",
     "league": "Usa - Mlb",
     "team1": {
-      "name": "Tampa Bay Rays",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png"
+      "name": "Seattle Mariners (MLB)",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png"
     },
     "team2": {
-      "name": "New York",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png"
+      "name": "Kansas City Royals",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png"
     },
-    "kickoff_date": "2026-05-24",
-    "kickoff_time": "23:35",
-    "match_date": "2026-05-24",
-    "match_time": "23:30",
+    "kickoff_date": "2026-05-25",
+    "kickoff_time": "00:10",
+    "match_date": "2026-05-25",
+    "match_time": "00:05",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE5LnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIzLnBocA==",
         "label": "CH-EN"
       }
     ],
