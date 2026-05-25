@@ -900,7 +900,7 @@
       }
     ],
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "1st extra",
     "gender": "M"
   },
   {
@@ -969,130 +969,6 @@
     "gender": "M"
   },
   {
-    "id": "BaltimoreOrioles-TampaBayRays",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Baltimore Orioles",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3652/image"
-    },
-    "team2": {
-      "name": "Tampa Bay Rays",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3653/image"
-    },
-    "kickoff_date": "2026-05-26",
-    "kickoff_time": "00:35",
-    "match_date": "2026-05-26",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=180",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "PittsburghPirates-ChicagoCubs",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Pittsburgh Pirates (MLB)",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3637/image"
-    },
-    "team2": {
-      "name": "Chicago Cubs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3627/image"
-    },
-    "kickoff_date": "2026-05-26",
-    "kickoff_time": "00:35",
-    "match_date": "2026-05-26",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=181",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE1LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "ChicagoWhiteSox-MinnesotaTwins",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Chicago White Sox",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3644/image"
-    },
-    "team2": {
-      "name": "Minnesota Timberwolves",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3649/image"
-    },
-    "kickoff_date": "2026-05-26",
-    "kickoff_time": "01:10",
-    "match_date": "2026-05-26",
-    "match_time": "01:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=182",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "MilwaukeeBrewers-StLouisCardinals",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Milwaukee",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3630/image"
-    },
-    "team2": {
-      "name": "St.Louis Cardinals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3632/image"
-    },
-    "kickoff_date": "2026-05-26",
-    "kickoff_time": "01:10",
-    "match_date": "2026-05-26",
-    "match_time": "01:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=183",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
     "id": "StMirren-PartickThistle",
     "league": "Scotland - Scottish Premiership, Relegation/Promotion",
     "team1": {
@@ -1120,7 +996,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1216,8 +1092,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -1599,5 +1475,113 @@
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "F"
+  },
+  {
+    "id": "MinnesotaTwins-ChicagoWhiteSox",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Minnesota Timberwolves",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png"
+    },
+    "team2": {
+      "name": "Chicago White Sox",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png"
+    },
+    "kickoff_date": "2026-05-26",
+    "kickoff_time": "00:10",
+    "match_date": "2026-05-26",
+    "match_time": "00:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "StLouisCardinals-MilwaukeeBrewers",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "St. Louis Cardinals",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png"
+    },
+    "team2": {
+      "name": "Milwaukee",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
+    },
+    "kickoff_date": "2026-05-26",
+    "kickoff_time": "00:10",
+    "match_date": "2026-05-26",
+    "match_time": "00:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "ChicagoCubs-PittsburghPirates",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Chicago Cubs",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png"
+    },
+    "team2": {
+      "name": "Pittsburgh Pirates (MLB)",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png"
+    },
+    "kickoff_date": "2026-05-25",
+    "kickoff_time": "23:35",
+    "match_date": "2026-05-25",
+    "match_time": "23:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE1LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "TampaBayRays-BaltimoreOrioles",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Tampa Bay Rays",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png"
+    },
+    "team2": {
+      "name": "Baltimore Orioles",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png"
+    },
+    "kickoff_date": "2026-05-25",
+    "kickoff_time": "23:35",
+    "match_date": "2026-05-25",
+    "match_time": "23:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
   }
 ]
