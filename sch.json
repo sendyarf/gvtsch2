@@ -944,103 +944,6 @@
     "gender": "M"
   },
   {
-    "id": "KansasCityRoyals-NewYorkYankees",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Kansas City Royals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3651/image"
-    },
-    "team2": {
-      "name": "New York",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3654/image"
-    },
-    "kickoff_date": "2026-05-26",
-    "kickoff_time": "02:40",
-    "match_date": "2026-05-26",
-    "match_time": "02:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=184",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=99",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=90",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE5LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "NewYorkMets-CincinnatiReds",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "New York",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3629/image"
-    },
-    "team2": {
-      "name": "Cincinnati Reds",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3633/image"
-    },
-    "kickoff_date": "2026-05-26",
-    "kickoff_time": "03:10",
-    "match_date": "2026-05-26",
-    "match_time": "03:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=185",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIwLnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "ComerciantesUnidos-DeportivoGarcilaso",
-    "league": "Peru - Liga 1, Apertura",
-    "team1": {
-      "name": "Comerciantes Unidos",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/213609/image"
-    },
-    "team2": {
-      "name": "Deportivo Garcilaso",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/458584/image"
-    },
-    "kickoff_date": "2026-05-26",
-    "kickoff_time": "03:30",
-    "match_date": "2026-05-26",
-    "match_time": "03:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=84",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
-    "gender": "M"
-  },
-  {
     "id": "SanFranciscoGiants-ArizonaDiamondbacks",
     "league": "Usa - Mlb",
     "team1": {
@@ -1164,8 +1067,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -1425,51 +1328,24 @@
     "gender": "F"
   },
   {
-    "id": "MinnesotaTwins-ChicagoWhiteSox",
+    "id": "CincinnatiReds-NewYorkMets",
     "league": "Usa - Mlb",
     "team1": {
-      "name": "Minnesota Timberwolves",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png"
+      "name": "Cincinnati Reds",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png"
     },
     "team2": {
-      "name": "Chicago White Sox",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png"
+      "name": "New York",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png"
     },
     "kickoff_date": "2026-05-26",
-    "kickoff_time": "00:10",
+    "kickoff_time": "02:10",
     "match_date": "2026-05-26",
-    "match_time": "00:05",
+    "match_time": "02:05",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "StLouisCardinals-MilwaukeeBrewers",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "St. Louis Cardinals",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png"
-    },
-    "team2": {
-      "name": "Milwaukee",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
-    },
-    "kickoff_date": "2026-05-26",
-    "kickoff_time": "00:10",
-    "match_date": "2026-05-26",
-    "match_time": "00:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIwLnBocA==",
         "label": "CH-EN"
       }
     ],
