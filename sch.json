@@ -873,34 +873,9 @@
     "match_date": "2026-05-26",
     "match_time": "01:25",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=111",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=91",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd3",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=eleven1",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br1",
-        "label": "CH-3"
-      }
-    ],
-    "status": "inprogress",
-    "status_desc": "1st extra",
+    "servers": [],
+    "status": "finished",
+    "status_desc": "AET",
     "gender": "M"
   },
   {
@@ -966,37 +941,6 @@
     "servers": [],
     "status": "notstarted",
     "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "StMirren-PartickThistle",
-    "league": "Scotland - Scottish Premiership, Relegation/Promotion",
-    "team1": {
-      "name": "St. Mirren",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2359/image"
-    },
-    "team2": {
-      "name": "Partick Thistle",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2358/image"
-    },
-    "kickoff_date": "2026-05-26",
-    "kickoff_time": "02:00",
-    "match_date": "2026-05-26",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=127",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd1",
-        "label": "CH-1"
-      }
-    ],
-    "sport": "Football",
-    "status": "inprogress",
-    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1093,7 +1037,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1353,6 +1297,10 @@
       {
         "url": "https://multi.govoet.cc/?ss=sporttv2",
         "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv3",
+        "label": "CH-2"
       }
     ],
     "sport": "Ice hockey",
@@ -1522,60 +1470,6 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "ChicagoCubs-PittsburghPirates",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Chicago Cubs",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png"
-    },
-    "team2": {
-      "name": "Pittsburgh Pirates (MLB)",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png"
-    },
-    "kickoff_date": "2026-05-25",
-    "kickoff_time": "23:35",
-    "match_date": "2026-05-25",
-    "match_time": "23:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE1LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "TampaBayRays-BaltimoreOrioles",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Tampa Bay Rays",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png"
-    },
-    "team2": {
-      "name": "Baltimore Orioles",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png"
-    },
-    "kickoff_date": "2026-05-25",
-    "kickoff_time": "23:35",
-    "match_date": "2026-05-25",
-    "match_time": "23:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
         "label": "CH-EN"
       }
     ],
