@@ -816,7 +816,12 @@
     "match_date": "2026-05-25",
     "match_time": "06:55",
     "duration": "3.5",
-    "servers": [],
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd2",
+        "label": "CH-1"
+      }
+    ],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -944,68 +949,6 @@
     "gender": "M"
   },
   {
-    "id": "SanFranciscoGiants-ArizonaDiamondbacks",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "San Francisco Giants (MLB)",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3634/image"
-    },
-    "team2": {
-      "name": "Arizona Diamondbacks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3640/image"
-    },
-    "kickoff_date": "2026-05-26",
-    "kickoff_time": "04:05",
-    "match_date": "2026-05-26",
-    "match_time": "04:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=186",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIxLnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "ClevelandGuardians-WashingtonNationals",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Cleveland Cavaliers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3650/image"
-    },
-    "team2": {
-      "name": "Washington Nationals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5930/image"
-    },
-    "kickoff_date": "2026-05-26",
-    "kickoff_time": "05:10",
-    "match_date": "2026-05-26",
-    "match_time": "05:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=187",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIyLnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
     "id": "SanDiegoPadres-PhiladelphiaPhillies",
     "league": "Usa - Mlb",
     "team1": {
@@ -1068,7 +1011,7 @@
     ],
     "sport": "Football",
     "status": "inprogress",
-    "status_desc": "1st half",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -1160,8 +1103,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -1323,29 +1266,29 @@
       }
     ],
     "sport": "Basketball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
     "gender": "F"
   },
   {
-    "id": "CincinnatiReds-NewYorkMets",
+    "id": "WashingtonNationals-ClevelandGuardians",
     "league": "Usa - Mlb",
     "team1": {
-      "name": "Cincinnati Reds",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png"
+      "name": "Washington Nationals",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/wsh.png"
     },
     "team2": {
-      "name": "New York",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png"
+      "name": "Cleveland Cavaliers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png"
     },
     "kickoff_date": "2026-05-26",
-    "kickoff_time": "02:10",
+    "kickoff_time": "04:10",
     "match_date": "2026-05-26",
-    "match_time": "02:05",
+    "match_time": "04:05",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIwLnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIyLnBocA==",
         "label": "CH-EN"
       }
     ],
