@@ -795,63 +795,7 @@
     "match_date": "2026-05-25",
     "match_time": "06:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?ss=hd2",
-        "label": "CH-1"
-      }
-    ],
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "Nice-StEtienne",
-    "sport": "Football",
-    "league": "France - Ligue 1, Relegation/Promotion Playoffs",
-    "team1": {
-      "name": "Nice",
-      "logo": "https://static.flashscore.com/res/image/data/bJCGymle-00sqJmg8.png"
-    },
-    "team2": {
-      "name": "St Etienne",
-      "logo": "https://static.flashscore.com/res/image/data/SvNL7CBN-8Ca53MKO.png"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "01:45",
-    "match_date": "2026-05-30",
-    "match_time": "01:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=69",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=138",
-        "label": "CH-IT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=91",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcucGhw",
-        "label": "CH-EN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd4",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv2",
-        "label": "CH-2"
-      }
-    ],
+    "servers": [],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
@@ -932,99 +876,26 @@
     "gender": "M"
   },
   {
-    "id": "SanAntonioSpurs-OklahomaCityThunder",
+    "id": "OklahomaCityThunder-SanAntonioSpurs",
     "sport": "Basketball",
     "league": "Usa - Nba, Playoffs",
     "team1": {
-      "name": "San Antonio Spurs",
-      "logo": "https://static.flashscore.com/res/image/data/0l5OxLS0-SrHHDGUm.png"
-    },
-    "team2": {
       "name": "Oklahoma City Thunder",
       "logo": "https://static.flashscore.com/res/image/data/KvT52V5k-4zc22IQb.png"
     },
-    "kickoff_date": "2026-05-29",
-    "kickoff_time": "07:30",
-    "match_date": "2026-05-29",
-    "match_time": "07:25",
+    "team2": {
+      "name": "San Antonio Spurs",
+      "logo": "https://static.flashscore.com/res/image/data/0l5OxLS0-SrHHDGUm.png"
+    },
+    "kickoff_date": "2026-05-31",
+    "kickoff_time": "07:00",
+    "match_date": "2026-05-31",
+    "match_time": "06:55",
     "duration": "3.5",
     "servers": [],
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
-  },
-  {
-    "id": "SouthAfrica-Nicaragua",
-    "league": "World - Int. Friendly Games",
-    "team1": {
-      "name": "South Africa",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/4736/image"
-    },
-    "team2": {
-      "name": "Nicaragua",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/21817/image"
-    },
-    "kickoff_date": "2026-05-29",
-    "kickoff_time": "23:00",
-    "match_date": "2026-05-29",
-    "match_time": "22:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=112",
-        "label": "CH-ES"
-      }
-    ],
-    "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "Manresa-RealMadrid",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Manresa",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Real Madrid",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-29",
-    "kickoff_time": "23:00",
-    "match_date": "2026-05-29",
-    "match_time": "22:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=155",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "SanPabloBurgos-Granada",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Burgos",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Granada CF",
-      "logo": ""
-    },
-    "kickoff_date": "2026-05-29",
-    "kickoff_time": "23:00",
-    "match_date": "2026-05-29",
-    "match_time": "22:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=156",
-        "label": "CH-ES"
-      }
-    ]
   },
   {
     "id": "MamelodiSundownsRsa-RBLeipzigGer",
@@ -1256,6 +1127,57 @@
         "label": "CH-ES"
       }
     ]
+  },
+  {
+    "id": "Nice-StEtienne",
+    "league": "France - Ligue 1, Relegation/Promotion Playoffs",
+    "team1": {
+      "name": "Nice",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1661/image"
+    },
+    "team2": {
+      "name": "St Etienne",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1678/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "01:45",
+    "match_date": "2026-05-30",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=1",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=69",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=138",
+        "label": "CH-IT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=91",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcucGhw",
+        "label": "CH-EN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv2",
+        "label": "CH-2"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
   },
   {
     "id": "LyonW-ParisFCW",
