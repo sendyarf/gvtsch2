@@ -1191,7 +1191,7 @@
     "match_time": "23:00",
     "status": "finished",
     "status_desc": "Ended",
-    "score": "64 - 52",
+    "score": "64 - 55",
     "round": 28,
     "season": "United League 25/26",
     "sport": "Basketball",
@@ -2614,8 +2614,8 @@
     "kickoff_time": "03:10",
     "match_date": "2026-05-29",
     "match_time": "03:10",
-    "status": "inprogress",
-    "status_desc": "9th Inning",
+    "status": "finished",
+    "status_desc": "Ended",
     "score": "2 - 10",
     "round": 1,
     "season": "MLB 2026",
@@ -2739,9 +2739,9 @@
     "kickoff_time": "04:00",
     "match_date": "2026-05-29",
     "match_time": "04:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "2 - 1",
     "round": 12,
     "season": "Campeonato GPO 2026",
     "sport": "Baseball",
@@ -2864,9 +2864,9 @@
     "kickoff_time": "05:00",
     "match_date": "2026-05-29",
     "match_time": "05:00",
-    "status": "inprogress",
-    "status_desc": "Halftime",
-    "score": "0 - 0",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "2 - 0",
     "round": 6,
     "season": "CONMEBOL Libertadores 2026",
     "sport": "Football",
@@ -2889,9 +2889,9 @@
     "kickoff_time": "05:00",
     "match_date": "2026-05-29",
     "match_time": "05:00",
-    "status": "inprogress",
-    "status_desc": "Halftime",
-    "score": "3 - 1",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "4 - 1",
     "round": 6,
     "season": "CONMEBOL Libertadores 2026",
     "sport": "Football",
@@ -2940,8 +2940,8 @@
     "match_date": "2026-05-29",
     "match_time": "05:00",
     "status": "inprogress",
-    "status_desc": "2nd quarter",
-    "score": "51 - 52",
+    "status_desc": "4th quarter",
+    "score": "110 - 104",
     "round": "",
     "season": "2026",
     "sport": "Basketball",
@@ -3039,8 +3039,8 @@
     "kickoff_time": "05:05",
     "match_date": "2026-05-29",
     "match_time": "05:05",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "postponed",
+    "status_desc": "Postponed",
     "score": "",
     "round": 1,
     "season": "Double-A Texas League 2026",
@@ -3115,8 +3115,8 @@
     "match_date": "2026-05-29",
     "match_time": "05:30",
     "status": "inprogress",
-    "status_desc": "2nd quarter",
-    "score": "33 - 27",
+    "status_desc": "4th quarter",
+    "score": "79 - 64",
     "round": 1,
     "season": "LBF, Women 2026",
     "sport": "Basketball",
@@ -3140,8 +3140,8 @@
     "match_date": "2026-05-29",
     "match_time": "05:30",
     "status": "inprogress",
-    "status_desc": "2nd quarter",
-    "score": "30 - 35",
+    "status_desc": "Pause",
+    "score": "85 - 95",
     "round": 7,
     "season": "LNB 2026",
     "sport": "Basketball",
@@ -3365,8 +3365,8 @@
     "match_date": "2026-05-29",
     "match_time": "05:35",
     "status": "inprogress",
-    "status_desc": "2nd Inning",
-    "score": "0 - 0",
+    "status_desc": "Pause",
+    "score": "1 - 1",
     "round": 1,
     "season": "MLB 2026",
     "sport": "Baseball",
@@ -3390,8 +3390,8 @@
     "match_date": "2026-05-29",
     "match_time": "05:35",
     "status": "inprogress",
-    "status_desc": "1st Inning",
-    "score": "0 - 2",
+    "status_desc": "5th Inning",
+    "score": "1 - 3",
     "round": 1,
     "season": "Northwoods League 2026",
     "sport": "Baseball",
@@ -3690,8 +3690,8 @@
     "match_date": "2026-05-29",
     "match_time": "05:40",
     "status": "inprogress",
-    "status_desc": "Pause",
-    "score": "0 - 0",
+    "status_desc": "6th Inning",
+    "score": "0 - 2",
     "round": 1,
     "season": "MLB 2026",
     "sport": "Baseball",
@@ -3800,6 +3800,31 @@
     "servers": []
   },
   {
+    "id": "BasketSanAlfonso-Olimpia",
+    "league": "Paraguay - LNB, Apertura",
+    "team1": {
+      "name": "Basket San Alfonso",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/390731/image"
+    },
+    "team2": {
+      "name": "Olimpia",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/267568/image"
+    },
+    "kickoff_date": "2026-05-29",
+    "kickoff_time": "05:55",
+    "match_date": "2026-05-29",
+    "match_time": "05:55",
+    "status": "inprogress",
+    "status_desc": "4th quarter",
+    "score": "44 - 93",
+    "round": 14,
+    "season": "LNB 2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "SesiFrancaBasquete-CaixaBrasiliaBasquete",
     "league": "Brazil - Brazil NBB, Playoffs",
     "team1": {
@@ -3814,9 +3839,9 @@
     "kickoff_time": "06:00",
     "match_date": "2026-05-29",
     "match_time": "06:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "3rd quarter",
+    "score": "52 - 31",
     "round": 28,
     "season": "NBB 25/26",
     "sport": "Basketball",
@@ -3839,9 +3864,9 @@
     "kickoff_time": "06:00",
     "match_date": "2026-05-29",
     "match_time": "06:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "3rd quarter",
+    "score": "55 - 42",
     "round": 1,
     "season": "LBF, Women 2026",
     "sport": "Basketball",
@@ -3875,31 +3900,6 @@
     "servers": []
   },
   {
-    "id": "BasketSanAlfonso-Olimpia",
-    "league": "Paraguay - LNB, Apertura",
-    "team1": {
-      "name": "Basket San Alfonso",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/390731/image"
-    },
-    "team2": {
-      "name": "Olimpia",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/267568/image"
-    },
-    "kickoff_date": "2026-05-29",
-    "kickoff_time": "06:00",
-    "match_date": "2026-05-29",
-    "match_time": "06:00",
-    "status": "inprogress",
-    "status_desc": "1st quarter",
-    "score": "0 - 4",
-    "round": 14,
-    "season": "LNB 2026",
-    "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "ColoniasGold-DeportivoCampoalto",
     "league": "Paraguay - LNB, Apertura",
     "team1": {
@@ -3914,9 +3914,9 @@
     "kickoff_time": "06:00",
     "match_date": "2026-05-29",
     "match_time": "06:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "4th quarter",
+    "score": "82 - 58",
     "round": 14,
     "season": "LNB 2026",
     "sport": "Basketball",
@@ -3939,9 +3939,9 @@
     "kickoff_time": "06:00",
     "match_date": "2026-05-29",
     "match_time": "06:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Pause",
+    "score": "60 - 64",
     "round": "",
     "season": "2026",
     "sport": "Basketball",
@@ -3964,9 +3964,9 @@
     "kickoff_time": "06:00",
     "match_date": "2026-05-29",
     "match_time": "06:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "3rd quarter",
+    "score": "34 - 30",
     "round": 28,
     "season": "SuperLiga 2026",
     "sport": "Basketball",
@@ -3989,9 +3989,9 @@
     "kickoff_time": "06:00",
     "match_date": "2026-05-29",
     "match_time": "06:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "3rd quarter",
+    "score": "51 - 46",
     "round": 28,
     "season": "SuperLiga 2026",
     "sport": "Basketball",
@@ -4189,9 +4189,9 @@
     "kickoff_time": "06:05",
     "match_date": "2026-05-29",
     "match_time": "06:05",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "3rd Inning",
+    "score": "0 - 10",
     "round": 1,
     "season": "Northwoods League 2026",
     "sport": "Baseball",
@@ -4214,9 +4214,9 @@
     "kickoff_time": "06:05",
     "match_date": "2026-05-29",
     "match_time": "06:05",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "5th Inning",
+    "score": "0 - 0",
     "round": 1,
     "season": "Northwoods League 2026",
     "sport": "Baseball",
@@ -4514,9 +4514,9 @@
     "kickoff_time": "06:15",
     "match_date": "2026-05-29",
     "match_time": "06:15",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Pause",
+    "score": "37 - 48",
     "round": 28,
     "season": "LUB 25/26",
     "sport": "Basketball",
@@ -4539,9 +4539,9 @@
     "kickoff_time": "06:30",
     "match_date": "2026-05-29",
     "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Pause",
+    "score": "41 - 48",
     "round": 7,
     "season": "LNB 2026",
     "sport": "Basketball",
@@ -4714,9 +4714,9 @@
     "kickoff_time": "06:35",
     "match_date": "2026-05-29",
     "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "3rd Inning",
+    "score": "1 - 0",
     "round": 1,
     "season": "Northwoods League 2026",
     "sport": "Baseball",
@@ -4739,9 +4739,9 @@
     "kickoff_time": "06:35",
     "match_date": "2026-05-29",
     "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "2nd Inning",
+    "score": "0 - 1",
     "round": 1,
     "season": "Northwoods League 2026",
     "sport": "Baseball",
@@ -4764,9 +4764,9 @@
     "kickoff_time": "06:35",
     "match_date": "2026-05-29",
     "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "3rd Inning",
+    "score": "1 - 0",
     "round": 1,
     "season": "Northwoods League 2026",
     "sport": "Baseball",
@@ -4789,9 +4789,9 @@
     "kickoff_time": "06:35",
     "match_date": "2026-05-29",
     "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "2nd Inning",
+    "score": "5 - 2",
     "round": 1,
     "season": "Northwoods League 2026",
     "sport": "Baseball",
@@ -4814,9 +4814,9 @@
     "kickoff_time": "06:35",
     "match_date": "2026-05-29",
     "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "3rd Inning",
+    "score": "0 - 1",
     "round": 1,
     "season": "Northwoods League 2026",
     "sport": "Baseball",
@@ -4839,9 +4839,9 @@
     "kickoff_time": "06:35",
     "match_date": "2026-05-29",
     "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "3rd Inning",
+    "score": "2 - 0",
     "round": 1,
     "season": "Northwoods League 2026",
     "sport": "Baseball",
@@ -5089,9 +5089,9 @@
     "kickoff_time": "07:00",
     "match_date": "2026-05-29",
     "match_time": "07:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
+    "score": "13 - 9",
     "round": 1,
     "season": "WNBA 2026",
     "sport": "Basketball",
@@ -5114,9 +5114,9 @@
     "kickoff_time": "07:00",
     "match_date": "2026-05-29",
     "match_time": "07:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
+    "score": "22 - 23",
     "round": 1,
     "season": "BSN 2026",
     "sport": "Basketball",
@@ -5139,9 +5139,9 @@
     "kickoff_time": "07:00",
     "match_date": "2026-05-29",
     "match_time": "07:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
+    "score": "13 - 11",
     "round": "",
     "season": "2026",
     "sport": "Basketball",
@@ -5264,9 +5264,9 @@
     "kickoff_time": "07:05",
     "match_date": "2026-05-29",
     "match_time": "07:05",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "1st Inning",
+    "score": "0 - 1",
     "round": 1,
     "season": "MLB 2026",
     "sport": "Baseball",
@@ -15675,6 +15675,31 @@
     "servers": []
   },
   {
+    "id": "DaytonaTortugas-TampaTarpons",
+    "league": "USA - MiLB, Single-A Florida State League",
+    "team1": {
+      "name": "Daytona Tortugas",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453274/image"
+    },
+    "team2": {
+      "name": "Tampa Tarpons",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453269/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "03:05",
+    "match_date": "2026-05-30",
+    "match_time": "03:05",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Single-A Florida State League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "VancouverCanadians-EugeneEmeralds",
     "league": "USA - MiLB, High-A Northwest League",
     "team1": {
@@ -15700,6 +15725,31 @@
     "servers": []
   },
   {
+    "id": "DaytonaTortugas-TampaTarpons",
+    "league": "USA - MiLB, Single-A Florida State League",
+    "team1": {
+      "name": "Daytona Tortugas",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453274/image"
+    },
+    "team2": {
+      "name": "Tampa Tarpons",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453269/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "03:05",
+    "match_date": "2026-05-30",
+    "match_time": "03:05",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Single-A Florida State League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "lskWrocawCyber-UBTClujCyber",
     "league": "Virtual Basketball - Group A",
     "team1": {
@@ -15769,6 +15819,31 @@
     "score": "",
     "round": 12,
     "season": "Campeonato GPO 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "GeorgiaBulldogs-LIUSharks",
+    "league": "USA - NCAA Division I, Championship",
+    "team1": {
+      "name": "Georgia Bulldogs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/454172/image"
+    },
+    "team2": {
+      "name": "LIU Sharks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/454175/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "04:00",
+    "match_date": "2026-05-30",
+    "match_time": "04:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 10,
+    "season": "NCAA Division I, National Championship 2026",
     "sport": "Baseball",
     "gender": "M",
     "duration": "3.5",
@@ -15894,6 +15969,31 @@
     "score": "",
     "round": 12,
     "season": "Campeonato GPO 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "GeorgiaBulldogs-LIUSharks",
+    "league": "USA - NCAA Division I, Championship",
+    "team1": {
+      "name": "Georgia Bulldogs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/454172/image"
+    },
+    "team2": {
+      "name": "LIU Sharks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/454175/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "04:00",
+    "match_date": "2026-05-30",
+    "match_time": "04:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 10,
+    "season": "NCAA Division I, National Championship 2026",
     "sport": "Baseball",
     "gender": "M",
     "duration": "3.5",
@@ -17194,31 +17294,6 @@
     "score": "",
     "round": 1,
     "season": "Double-A Eastern League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "DaytonaTortugas-TampaTarpons",
-    "league": "USA - MiLB, Single-A Florida State League",
-    "team1": {
-      "name": "Daytona Tortugas",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453274/image"
-    },
-    "team2": {
-      "name": "Tampa Tarpons",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453269/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "05:35",
-    "match_date": "2026-05-30",
-    "match_time": "05:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Single-A Florida State League 2026",
     "sport": "Baseball",
     "gender": "M",
     "duration": "3.5",
@@ -17394,31 +17469,6 @@
     "score": "",
     "round": 1,
     "season": "Double-A Eastern League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "DaytonaTortugas-TampaTarpons",
-    "league": "USA - MiLB, Single-A Florida State League",
-    "team1": {
-      "name": "Daytona Tortugas",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453274/image"
-    },
-    "team2": {
-      "name": "Tampa Tarpons",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453269/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "05:35",
-    "match_date": "2026-05-30",
-    "match_time": "05:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Single-A Florida State League 2026",
     "sport": "Baseball",
     "gender": "M",
     "duration": "3.5",
@@ -18334,31 +18384,6 @@
     "team2": {
       "name": "LA-Lafayette Ragin Cajuns",
       "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/454187/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:00",
-    "match_date": "2026-05-30",
-    "match_time": "06:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 10,
-    "season": "NCAA Division I, National Championship 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "GeorgiaBulldogs-LIUSharks",
-    "league": "USA - NCAA Division I, Championship",
-    "team1": {
-      "name": "Georgia Bulldogs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/454172/image"
-    },
-    "team2": {
-      "name": "LIU Sharks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/454175/image"
     },
     "kickoff_date": "2026-05-30",
     "kickoff_time": "06:00",
@@ -18659,31 +18684,6 @@
     "team2": {
       "name": "LA-Lafayette Ragin Cajuns",
       "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/454187/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:00",
-    "match_date": "2026-05-30",
-    "match_time": "06:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 10,
-    "season": "NCAA Division I, National Championship 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "GeorgiaBulldogs-LIUSharks",
-    "league": "USA - NCAA Division I, Championship",
-    "team1": {
-      "name": "Georgia Bulldogs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/454172/image"
-    },
-    "team2": {
-      "name": "LIU Sharks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/454175/image"
     },
     "kickoff_date": "2026-05-30",
     "kickoff_time": "06:00",
@@ -20495,1556 +20495,6 @@
     "round": 29,
     "season": "Liga Argentina 25/26",
     "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "OlimpiaQueensW-DeportivoSanJosW",
-    "league": "Paraguay - LNBF , Fase Regular",
-    "team1": {
-      "name": "Olimpia Queens W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130133/image"
-    },
-    "team2": {
-      "name": "Deportivo San José W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130135/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Apertura 2026 ",
-    "sport": "Basketball",
-    "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "RaleighFirebirds-KissimmeeLambs",
-    "league": "USA - The Basketball League, Round 1",
-    "team1": {
-      "name": "Raleigh Firebirds",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1078139/image"
-    },
-    "team2": {
-      "name": "Kissimmee Lambs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1176754/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "2026",
-    "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "ChicagoSkyW-MinnesotaLynxW",
-    "league": "USA - WNBA",
-    "team1": {
-      "name": "Chicago Sky W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/35546/image"
-    },
-    "team2": {
-      "name": "Minnesota Lynx W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3440/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "WNBA 2026",
-    "sport": "Basketball",
-    "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "NewYorkLibertyW-PhoenixMercuryW",
-    "league": "USA - WNBA",
-    "team1": {
-      "name": "New York Liberty W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3446/image"
-    },
-    "team2": {
-      "name": "Phoenix Mercury W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3444/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "WNBA 2026",
-    "sport": "Basketball",
-    "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "WashingtonMysticsW-LosAngelesSparksW",
-    "league": "USA - WNBA",
-    "team1": {
-      "name": "Washington Mystics W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3454/image"
-    },
-    "team2": {
-      "name": "Los Angeles Sparks W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3447/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "WNBA 2026",
-    "sport": "Basketball",
-    "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "ClubAtlticoSanIsidro-LansBC",
-    "league": "Argentina - Liga Argentina, Playoffs",
-    "team1": {
-      "name": "Club Atlético San Isidro",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/301957/image"
-    },
-    "team2": {
-      "name": "Lanús BC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/89914/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 29,
-    "season": "Liga Argentina 25/26",
-    "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "OlimpiaQueensW-DeportivoSanJosW",
-    "league": "Paraguay - LNBF , Fase Regular",
-    "team1": {
-      "name": "Olimpia Queens W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130133/image"
-    },
-    "team2": {
-      "name": "Deportivo San José W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130135/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Apertura 2026 ",
-    "sport": "Basketball",
-    "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "RaleighFirebirds-KissimmeeLambs",
-    "league": "USA - The Basketball League, Round 1",
-    "team1": {
-      "name": "Raleigh Firebirds",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1078139/image"
-    },
-    "team2": {
-      "name": "Kissimmee Lambs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1176754/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "2026",
-    "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "Granada-Jinotega",
-    "league": "Nicaragua - Campeonato GPO",
-    "team1": {
-      "name": "Granada",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077758/image"
-    },
-    "team2": {
-      "name": "Jinotega",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077752/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 12,
-    "season": "Campeonato GPO 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "MississippiMudMonsters-TriCityValleycats",
-    "league": "USA - Frontier League, West Division ",
-    "team1": {
-      "name": "Mississippi Mud Monsters",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1091489/image"
-    },
-    "team2": {
-      "name": "Tri-City Valleycats",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453373/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Frontier League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "ChicagoDogs-WinnipegGoldeyes",
-    "league": "USA - American Association, East Division ",
-    "team1": {
-      "name": "Chicago Dogs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475777/image"
-    },
-    "team2": {
-      "name": "Winnipeg Goldeyes",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475719/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "American Association 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "KaneCountyCougars-LincolnSaltdogs",
-    "league": "USA - American Association, East Division ",
-    "team1": {
-      "name": "Kane County Cougars",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453356/image"
-    },
-    "team2": {
-      "name": "Lincoln Saltdogs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475778/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "American Association 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "Granada-Jinotega",
-    "league": "Nicaragua - Campeonato GPO",
-    "team1": {
-      "name": "Granada",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077758/image"
-    },
-    "team2": {
-      "name": "Jinotega",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077752/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 12,
-    "season": "Campeonato GPO 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "MississippiMudMonsters-TriCityValleycats",
-    "league": "USA - Frontier League, West Division ",
-    "team1": {
-      "name": "Mississippi Mud Monsters",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1091489/image"
-    },
-    "team2": {
-      "name": "Tri-City Valleycats",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453373/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Frontier League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "ChicagoDogs-WinnipegGoldeyes",
-    "league": "USA - American Association, East Division ",
-    "team1": {
-      "name": "Chicago Dogs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475777/image"
-    },
-    "team2": {
-      "name": "Winnipeg Goldeyes",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475719/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "American Association 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "KaneCountyCougars-LincolnSaltdogs",
-    "league": "USA - American Association, East Division ",
-    "team1": {
-      "name": "Kane County Cougars",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453356/image"
-    },
-    "team2": {
-      "name": "Lincoln Saltdogs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475778/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:30",
-    "match_date": "2026-05-30",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "American Association 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "DuluthHuskies-LaCrosseLoggers",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Duluth Huskies",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453494/image"
-    },
-    "team2": {
-      "name": "La Crosse Loggers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453500/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "GreenBayRockers-MadisonMallards",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Green Bay Rockers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453498/image"
-    },
-    "team2": {
-      "name": "Madison Mallards",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453487/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "KenoshaKingfish-RichmondFlyingMummies",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Kenosha Kingfish",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453485/image"
-    },
-    "team2": {
-      "name": "Richmond Flying Mummies",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1230408/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "LakeshoreChinooks-FondDuLacDockSpiders",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Lakeshore Chinooks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453488/image"
-    },
-    "team2": {
-      "name": "Fond Du Lac Dock Spiders",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453481/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "MankatoMoondogs-WillmarStingers",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Mankato Moondogs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453493/image"
-    },
-    "team2": {
-      "name": "Willmar Stingers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453496/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "RochesterHonkers-MinotHotTots",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Rochester Honkers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453495/image"
-    },
-    "team2": {
-      "name": "Minot Hot Tots",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/465259/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "RockfordRivets-WaterlooBucks",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Rockford Rivets",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453491/image"
-    },
-    "team2": {
-      "name": "Waterloo Bucks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453483/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "WausauWoodchucks-WisconsinRapidsRafters",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Wausau Woodchucks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453482/image"
-    },
-    "team2": {
-      "name": "Wisconsin Rapids Rafters",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453497/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "NashvilleSounds-GwinnettStripers",
-    "league": "USA - MiLB, Triple-A International League",
-    "team1": {
-      "name": "Nashville Sounds",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/312952/image"
-    },
-    "team2": {
-      "name": "Gwinnett Stripers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453312/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Triple-A International League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "OmahaStormChasers-MemphisRedbirds",
-    "league": "USA - MiLB, Triple-A International League",
-    "team1": {
-      "name": "Omaha Storm Chasers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/304261/image"
-    },
-    "team2": {
-      "name": "Memphis Redbirds",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/304260/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Triple-A International League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "MontgomeryBiscuits-RocketCityTrashPandas",
-    "league": "USA - MiLB, Double-A Southern League",
-    "team1": {
-      "name": "Montgomery Biscuits",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453449/image"
-    },
-    "team2": {
-      "name": "Rocket City Trash Pandas",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453457/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Double-A Southern League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "CedarRapidsKernels-QuadCitiesRiverBandits",
-    "league": "USA - MiLB, High-A Midwest League",
-    "team1": {
-      "name": "Cedar Rapids Kernels",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453360/image"
-    },
-    "team2": {
-      "name": "Quad Cities River Bandits",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453350/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "High-A Midwest League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "WindCityThunderbolts-EvansvilleOtters",
-    "league": "USA - Frontier League, Midwest Central Division ",
-    "team1": {
-      "name": "Wind City Thunderbolts",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475715/image"
-    },
-    "team2": {
-      "name": "Evansville Otters",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475771/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Frontier League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "JolietSlammers-GatewayGrizzlies",
-    "league": "USA - Frontier League, Midwest West Division",
-    "team1": {
-      "name": "Joliet Slammers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475774/image"
-    },
-    "team2": {
-      "name": "Gateway Grizzlies",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475712/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Frontier League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "KansasCityMonarchs-SiouxCityExplorers",
-    "league": "USA - American Association, West Division",
-    "team1": {
-      "name": "Kansas City Monarchs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/468026/image"
-    },
-    "team2": {
-      "name": "Sioux City Explorers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/468025/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "American Association 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "LakeCountryDockhounds-MilwaukeeMilkmen",
-    "league": "USA - American Association, East Division ",
-    "team1": {
-      "name": "Lake Country Dockhounds",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475779/image"
-    },
-    "team2": {
-      "name": "Milwaukee Milkmen",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/468027/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "American Association 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "DuluthHuskies-LaCrosseLoggers",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Duluth Huskies",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453494/image"
-    },
-    "team2": {
-      "name": "La Crosse Loggers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453500/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "GreenBayRockers-MadisonMallards",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Green Bay Rockers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453498/image"
-    },
-    "team2": {
-      "name": "Madison Mallards",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453487/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "KenoshaKingfish-RichmondFlyingMummies",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Kenosha Kingfish",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453485/image"
-    },
-    "team2": {
-      "name": "Richmond Flying Mummies",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1230408/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "LakeshoreChinooks-FondDuLacDockSpiders",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Lakeshore Chinooks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453488/image"
-    },
-    "team2": {
-      "name": "Fond Du Lac Dock Spiders",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453481/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "MankatoMoondogs-WillmarStingers",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Mankato Moondogs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453493/image"
-    },
-    "team2": {
-      "name": "Willmar Stingers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453496/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "RochesterHonkers-MinotHotTots",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Rochester Honkers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453495/image"
-    },
-    "team2": {
-      "name": "Minot Hot Tots",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/465259/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "RockfordRivets-WaterlooBucks",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Rockford Rivets",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453491/image"
-    },
-    "team2": {
-      "name": "Waterloo Bucks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453483/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "WausauWoodchucks-WisconsinRapidsRafters",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Wausau Woodchucks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453482/image"
-    },
-    "team2": {
-      "name": "Wisconsin Rapids Rafters",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453497/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "NashvilleSounds-GwinnettStripers",
-    "league": "USA - MiLB, Triple-A International League",
-    "team1": {
-      "name": "Nashville Sounds",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/312952/image"
-    },
-    "team2": {
-      "name": "Gwinnett Stripers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453312/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Triple-A International League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "OmahaStormChasers-MemphisRedbirds",
-    "league": "USA - MiLB, Triple-A International League",
-    "team1": {
-      "name": "Omaha Storm Chasers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/304261/image"
-    },
-    "team2": {
-      "name": "Memphis Redbirds",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/304260/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Triple-A International League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "MontgomeryBiscuits-RocketCityTrashPandas",
-    "league": "USA - MiLB, Double-A Southern League",
-    "team1": {
-      "name": "Montgomery Biscuits",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453449/image"
-    },
-    "team2": {
-      "name": "Rocket City Trash Pandas",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453457/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Double-A Southern League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "CedarRapidsKernels-QuadCitiesRiverBandits",
-    "league": "USA - MiLB, High-A Midwest League",
-    "team1": {
-      "name": "Cedar Rapids Kernels",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453360/image"
-    },
-    "team2": {
-      "name": "Quad Cities River Bandits",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453350/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "High-A Midwest League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "WindCityThunderbolts-EvansvilleOtters",
-    "league": "USA - Frontier League, Midwest Central Division ",
-    "team1": {
-      "name": "Wind City Thunderbolts",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475715/image"
-    },
-    "team2": {
-      "name": "Evansville Otters",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475771/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Frontier League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "JolietSlammers-GatewayGrizzlies",
-    "league": "USA - Frontier League, Midwest West Division",
-    "team1": {
-      "name": "Joliet Slammers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475774/image"
-    },
-    "team2": {
-      "name": "Gateway Grizzlies",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475712/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Frontier League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "KansasCityMonarchs-SiouxCityExplorers",
-    "league": "USA - American Association, West Division",
-    "team1": {
-      "name": "Kansas City Monarchs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/468026/image"
-    },
-    "team2": {
-      "name": "Sioux City Explorers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/468025/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "American Association 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "LakeCountryDockhounds-MilwaukeeMilkmen",
-    "league": "USA - American Association, East Division ",
-    "team1": {
-      "name": "Lake Country Dockhounds",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475779/image"
-    },
-    "team2": {
-      "name": "Milwaukee Milkmen",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/468027/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:35",
-    "match_date": "2026-05-30",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "American Association 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "ChicagoWhiteSox-DetroitTigers",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Chicago White Sox",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3644/image"
-    },
-    "team2": {
-      "name": "Detroit Tigers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3648/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:40",
-    "match_date": "2026-05-30",
-    "match_time": "06:40",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "MLB 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "WisconsinTimberRattlers-PeoriaChiefs",
-    "league": "USA - MiLB, High-A Midwest League",
-    "team1": {
-      "name": "Wisconsin Timber Rattlers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453359/image"
-    },
-    "team2": {
-      "name": "Peoria Chiefs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453361/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:40",
-    "match_date": "2026-05-30",
-    "match_time": "06:40",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "High-A Midwest League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "ChicagoWhiteSox-DetroitTigers",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Chicago White Sox",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3644/image"
-    },
-    "team2": {
-      "name": "Detroit Tigers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3648/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:40",
-    "match_date": "2026-05-30",
-    "match_time": "06:40",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "MLB 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "WisconsinTimberRattlers-PeoriaChiefs",
-    "league": "USA - MiLB, High-A Midwest League",
-    "team1": {
-      "name": "Wisconsin Timber Rattlers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453359/image"
-    },
-    "team2": {
-      "name": "Peoria Chiefs",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453361/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:40",
-    "match_date": "2026-05-30",
-    "match_time": "06:40",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "High-A Midwest League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "GarySouthshoreRailcats-CleburneRailroaders",
-    "league": "USA - American Association, East Division ",
-    "team1": {
-      "name": "Gary Southshore Railcats",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475718/image"
-    },
-    "team2": {
-      "name": "Cleburne Railroaders",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475717/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:45",
-    "match_date": "2026-05-30",
-    "match_time": "06:45",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "American Association 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "GarySouthshoreRailcats-CleburneRailroaders",
-    "league": "USA - American Association, East Division ",
-    "team1": {
-      "name": "Gary Southshore Railcats",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475718/image"
-    },
-    "team2": {
-      "name": "Cleburne Railroaders",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475717/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "06:45",
-    "match_date": "2026-05-30",
-    "match_time": "06:45",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "American Association 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "Juventude-AmricaMineiro",
-    "league": "Brazil - Brasileirão Série B",
-    "team1": {
-      "name": "Juventude",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1980/image"
-    },
-    "team2": {
-      "name": "América Mineiro",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1973/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-30",
-    "match_time": "07:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 11,
-    "season": "Brasileiro Serie B 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "RacingLouisvilleW-DenverSummitFCW",
-    "league": "USA - NWSL",
-    "team1": {
-      "name": "Racing Louisville W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/377825/image"
-    },
-    "team2": {
-      "name": "Denver Summit FC W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1165117/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-30",
-    "match_time": "07:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "National Womens Soccer League 2026",
-    "sport": "Football",
-    "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "GimnasiaJujuy-NuevaChicago",
-    "league": "Argentina - Primera B Nacional",
-    "team1": {
-      "name": "Gimnasia Jujuy",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5292/image"
-    },
-    "team2": {
-      "name": "Nueva Chicago",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3200/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-30",
-    "match_time": "07:00",
-    "status": "postponed",
-    "status_desc": "Postponed",
-    "score": "",
-    "round": 16,
-    "season": "Primera Nacional 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "RacingdeCrdoba-ClubFerroCarrilOeste",
-    "league": "Argentina - Primera B Nacional",
-    "team1": {
-      "name": "Racing de Córdoba",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/273657/image"
-    },
-    "team2": {
-      "name": "Club Ferro Carril Oeste",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/36841/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-30",
-    "match_time": "07:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 16,
-    "season": "Primera Nacional 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "Juventude-AmricaMineiro",
-    "league": "Brazil - Brasileirão Série B",
-    "team1": {
-      "name": "Juventude",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1980/image"
-    },
-    "team2": {
-      "name": "América Mineiro",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1973/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-30",
-    "match_time": "07:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 11,
-    "season": "Brasileiro Serie B 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "RacingLouisvilleW-DenverSummitFCW",
-    "league": "USA - NWSL",
-    "team1": {
-      "name": "Racing Louisville W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/377825/image"
-    },
-    "team2": {
-      "name": "Denver Summit FC W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1165117/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-30",
-    "match_time": "07:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "National Womens Soccer League 2026",
-    "sport": "Football",
-    "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "GimnasiaJujuy-NuevaChicago",
-    "league": "Argentina - Primera B Nacional",
-    "team1": {
-      "name": "Gimnasia Jujuy",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5292/image"
-    },
-    "team2": {
-      "name": "Nueva Chicago",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3200/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-30",
-    "match_time": "07:00",
-    "status": "postponed",
-    "status_desc": "Postponed",
-    "score": "",
-    "round": 16,
-    "season": "Primera Nacional 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "RacingdeCrdoba-ClubFerroCarrilOeste",
-    "league": "Argentina - Primera B Nacional",
-    "team1": {
-      "name": "Racing de Córdoba",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/273657/image"
-    },
-    "team2": {
-      "name": "Club Ferro Carril Oeste",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/36841/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-30",
-    "match_time": "07:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 16,
-    "season": "Primera Nacional 2026",
-    "sport": "Football",
     "gender": "M",
     "duration": "3.5",
     "servers": []
@@ -22061,9 +20511,9 @@
       "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130136/image"
     },
     "kickoff_date": "2026-05-30",
-    "kickoff_time": "07:00",
+    "kickoff_time": "06:30",
     "match_date": "2026-05-30",
-    "match_time": "07:00",
+    "match_time": "06:30",
     "status": "notstarted",
     "status_desc": "Not started",
     "score": "",
@@ -22071,6 +20521,1581 @@
     "season": "Apertura 2026 ",
     "sport": "Basketball",
     "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "OlimpiaQueensW-DeportivoSanJosW",
+    "league": "Paraguay - LNBF , Fase Regular",
+    "team1": {
+      "name": "Olimpia Queens W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130133/image"
+    },
+    "team2": {
+      "name": "Deportivo San José W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130135/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Apertura 2026 ",
+    "sport": "Basketball",
+    "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "RaleighFirebirds-KissimmeeLambs",
+    "league": "USA - The Basketball League, Round 1",
+    "team1": {
+      "name": "Raleigh Firebirds",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1078139/image"
+    },
+    "team2": {
+      "name": "Kissimmee Lambs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1176754/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ChicagoSkyW-MinnesotaLynxW",
+    "league": "USA - WNBA",
+    "team1": {
+      "name": "Chicago Sky W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/35546/image"
+    },
+    "team2": {
+      "name": "Minnesota Lynx W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3440/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "WNBA 2026",
+    "sport": "Basketball",
+    "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "NewYorkLibertyW-PhoenixMercuryW",
+    "league": "USA - WNBA",
+    "team1": {
+      "name": "New York Liberty W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3446/image"
+    },
+    "team2": {
+      "name": "Phoenix Mercury W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3444/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "WNBA 2026",
+    "sport": "Basketball",
+    "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "WashingtonMysticsW-LosAngelesSparksW",
+    "league": "USA - WNBA",
+    "team1": {
+      "name": "Washington Mystics W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3454/image"
+    },
+    "team2": {
+      "name": "Los Angeles Sparks W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3447/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "WNBA 2026",
+    "sport": "Basketball",
+    "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ClubAtlticoSanIsidro-LansBC",
+    "league": "Argentina - Liga Argentina, Playoffs",
+    "team1": {
+      "name": "Club Atlético San Isidro",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/301957/image"
+    },
+    "team2": {
+      "name": "Lanús BC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/89914/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 29,
+    "season": "Liga Argentina 25/26",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FelixPerezCardozoW-SoldeAmricaW",
+    "league": "Paraguay - LNBF , Fase Regular",
+    "team1": {
+      "name": "Felix Perez Cardozo W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/415223/image"
+    },
+    "team2": {
+      "name": "Sol de América W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130136/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Apertura 2026 ",
+    "sport": "Basketball",
+    "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "OlimpiaQueensW-DeportivoSanJosW",
+    "league": "Paraguay - LNBF , Fase Regular",
+    "team1": {
+      "name": "Olimpia Queens W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130133/image"
+    },
+    "team2": {
+      "name": "Deportivo San José W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130135/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Apertura 2026 ",
+    "sport": "Basketball",
+    "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "RaleighFirebirds-KissimmeeLambs",
+    "league": "USA - The Basketball League, Round 1",
+    "team1": {
+      "name": "Raleigh Firebirds",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1078139/image"
+    },
+    "team2": {
+      "name": "Kissimmee Lambs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1176754/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "Granada-Jinotega",
+    "league": "Nicaragua - Campeonato GPO",
+    "team1": {
+      "name": "Granada",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077758/image"
+    },
+    "team2": {
+      "name": "Jinotega",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077752/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 12,
+    "season": "Campeonato GPO 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "MississippiMudMonsters-TriCityValleycats",
+    "league": "USA - Frontier League, West Division ",
+    "team1": {
+      "name": "Mississippi Mud Monsters",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1091489/image"
+    },
+    "team2": {
+      "name": "Tri-City Valleycats",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453373/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Frontier League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ChicagoDogs-WinnipegGoldeyes",
+    "league": "USA - American Association, East Division ",
+    "team1": {
+      "name": "Chicago Dogs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475777/image"
+    },
+    "team2": {
+      "name": "Winnipeg Goldeyes",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475719/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "American Association 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "KaneCountyCougars-LincolnSaltdogs",
+    "league": "USA - American Association, East Division ",
+    "team1": {
+      "name": "Kane County Cougars",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453356/image"
+    },
+    "team2": {
+      "name": "Lincoln Saltdogs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475778/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "American Association 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "Granada-Jinotega",
+    "league": "Nicaragua - Campeonato GPO",
+    "team1": {
+      "name": "Granada",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077758/image"
+    },
+    "team2": {
+      "name": "Jinotega",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077752/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 12,
+    "season": "Campeonato GPO 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "MississippiMudMonsters-TriCityValleycats",
+    "league": "USA - Frontier League, West Division ",
+    "team1": {
+      "name": "Mississippi Mud Monsters",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1091489/image"
+    },
+    "team2": {
+      "name": "Tri-City Valleycats",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453373/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Frontier League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ChicagoDogs-WinnipegGoldeyes",
+    "league": "USA - American Association, East Division ",
+    "team1": {
+      "name": "Chicago Dogs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475777/image"
+    },
+    "team2": {
+      "name": "Winnipeg Goldeyes",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475719/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "American Association 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "KaneCountyCougars-LincolnSaltdogs",
+    "league": "USA - American Association, East Division ",
+    "team1": {
+      "name": "Kane County Cougars",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453356/image"
+    },
+    "team2": {
+      "name": "Lincoln Saltdogs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475778/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:30",
+    "match_date": "2026-05-30",
+    "match_time": "06:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "American Association 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "DuluthHuskies-LaCrosseLoggers",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Duluth Huskies",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453494/image"
+    },
+    "team2": {
+      "name": "La Crosse Loggers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453500/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "GreenBayRockers-MadisonMallards",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Green Bay Rockers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453498/image"
+    },
+    "team2": {
+      "name": "Madison Mallards",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453487/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "KenoshaKingfish-RichmondFlyingMummies",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Kenosha Kingfish",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453485/image"
+    },
+    "team2": {
+      "name": "Richmond Flying Mummies",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1230408/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "LakeshoreChinooks-FondDuLacDockSpiders",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Lakeshore Chinooks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453488/image"
+    },
+    "team2": {
+      "name": "Fond Du Lac Dock Spiders",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453481/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "MankatoMoondogs-WillmarStingers",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Mankato Moondogs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453493/image"
+    },
+    "team2": {
+      "name": "Willmar Stingers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453496/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "RochesterHonkers-MinotHotTots",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Rochester Honkers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453495/image"
+    },
+    "team2": {
+      "name": "Minot Hot Tots",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/465259/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "RockfordRivets-WaterlooBucks",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Rockford Rivets",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453491/image"
+    },
+    "team2": {
+      "name": "Waterloo Bucks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453483/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "WausauWoodchucks-WisconsinRapidsRafters",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Wausau Woodchucks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453482/image"
+    },
+    "team2": {
+      "name": "Wisconsin Rapids Rafters",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453497/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "NashvilleSounds-GwinnettStripers",
+    "league": "USA - MiLB, Triple-A International League",
+    "team1": {
+      "name": "Nashville Sounds",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/312952/image"
+    },
+    "team2": {
+      "name": "Gwinnett Stripers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453312/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Triple-A International League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "OmahaStormChasers-MemphisRedbirds",
+    "league": "USA - MiLB, Triple-A International League",
+    "team1": {
+      "name": "Omaha Storm Chasers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/304261/image"
+    },
+    "team2": {
+      "name": "Memphis Redbirds",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/304260/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Triple-A International League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "MontgomeryBiscuits-RocketCityTrashPandas",
+    "league": "USA - MiLB, Double-A Southern League",
+    "team1": {
+      "name": "Montgomery Biscuits",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453449/image"
+    },
+    "team2": {
+      "name": "Rocket City Trash Pandas",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453457/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Double-A Southern League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CedarRapidsKernels-QuadCitiesRiverBandits",
+    "league": "USA - MiLB, High-A Midwest League",
+    "team1": {
+      "name": "Cedar Rapids Kernels",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453360/image"
+    },
+    "team2": {
+      "name": "Quad Cities River Bandits",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453350/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "High-A Midwest League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "WindCityThunderbolts-EvansvilleOtters",
+    "league": "USA - Frontier League, Midwest Central Division ",
+    "team1": {
+      "name": "Wind City Thunderbolts",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475715/image"
+    },
+    "team2": {
+      "name": "Evansville Otters",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475771/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Frontier League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "JolietSlammers-GatewayGrizzlies",
+    "league": "USA - Frontier League, Midwest West Division",
+    "team1": {
+      "name": "Joliet Slammers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475774/image"
+    },
+    "team2": {
+      "name": "Gateway Grizzlies",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475712/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Frontier League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "KansasCityMonarchs-SiouxCityExplorers",
+    "league": "USA - American Association, West Division",
+    "team1": {
+      "name": "Kansas City Monarchs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/468026/image"
+    },
+    "team2": {
+      "name": "Sioux City Explorers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/468025/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "American Association 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "LakeCountryDockhounds-MilwaukeeMilkmen",
+    "league": "USA - American Association, East Division ",
+    "team1": {
+      "name": "Lake Country Dockhounds",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475779/image"
+    },
+    "team2": {
+      "name": "Milwaukee Milkmen",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/468027/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "American Association 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "DuluthHuskies-LaCrosseLoggers",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Duluth Huskies",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453494/image"
+    },
+    "team2": {
+      "name": "La Crosse Loggers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453500/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "GreenBayRockers-MadisonMallards",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Green Bay Rockers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453498/image"
+    },
+    "team2": {
+      "name": "Madison Mallards",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453487/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "KenoshaKingfish-RichmondFlyingMummies",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Kenosha Kingfish",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453485/image"
+    },
+    "team2": {
+      "name": "Richmond Flying Mummies",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1230408/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "LakeshoreChinooks-FondDuLacDockSpiders",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Lakeshore Chinooks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453488/image"
+    },
+    "team2": {
+      "name": "Fond Du Lac Dock Spiders",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453481/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "MankatoMoondogs-WillmarStingers",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Mankato Moondogs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453493/image"
+    },
+    "team2": {
+      "name": "Willmar Stingers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453496/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "RochesterHonkers-MinotHotTots",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Rochester Honkers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453495/image"
+    },
+    "team2": {
+      "name": "Minot Hot Tots",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/465259/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "RockfordRivets-WaterlooBucks",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Rockford Rivets",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453491/image"
+    },
+    "team2": {
+      "name": "Waterloo Bucks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453483/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "WausauWoodchucks-WisconsinRapidsRafters",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Wausau Woodchucks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453482/image"
+    },
+    "team2": {
+      "name": "Wisconsin Rapids Rafters",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453497/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "NashvilleSounds-GwinnettStripers",
+    "league": "USA - MiLB, Triple-A International League",
+    "team1": {
+      "name": "Nashville Sounds",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/312952/image"
+    },
+    "team2": {
+      "name": "Gwinnett Stripers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453312/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Triple-A International League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "OmahaStormChasers-MemphisRedbirds",
+    "league": "USA - MiLB, Triple-A International League",
+    "team1": {
+      "name": "Omaha Storm Chasers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/304261/image"
+    },
+    "team2": {
+      "name": "Memphis Redbirds",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/304260/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Triple-A International League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "MontgomeryBiscuits-RocketCityTrashPandas",
+    "league": "USA - MiLB, Double-A Southern League",
+    "team1": {
+      "name": "Montgomery Biscuits",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453449/image"
+    },
+    "team2": {
+      "name": "Rocket City Trash Pandas",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453457/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Double-A Southern League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CedarRapidsKernels-QuadCitiesRiverBandits",
+    "league": "USA - MiLB, High-A Midwest League",
+    "team1": {
+      "name": "Cedar Rapids Kernels",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453360/image"
+    },
+    "team2": {
+      "name": "Quad Cities River Bandits",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453350/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "High-A Midwest League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "WindCityThunderbolts-EvansvilleOtters",
+    "league": "USA - Frontier League, Midwest Central Division ",
+    "team1": {
+      "name": "Wind City Thunderbolts",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475715/image"
+    },
+    "team2": {
+      "name": "Evansville Otters",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475771/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Frontier League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "JolietSlammers-GatewayGrizzlies",
+    "league": "USA - Frontier League, Midwest West Division",
+    "team1": {
+      "name": "Joliet Slammers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475774/image"
+    },
+    "team2": {
+      "name": "Gateway Grizzlies",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475712/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Frontier League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "KansasCityMonarchs-SiouxCityExplorers",
+    "league": "USA - American Association, West Division",
+    "team1": {
+      "name": "Kansas City Monarchs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/468026/image"
+    },
+    "team2": {
+      "name": "Sioux City Explorers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/468025/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "American Association 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "LakeCountryDockhounds-MilwaukeeMilkmen",
+    "league": "USA - American Association, East Division ",
+    "team1": {
+      "name": "Lake Country Dockhounds",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475779/image"
+    },
+    "team2": {
+      "name": "Milwaukee Milkmen",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/468027/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:35",
+    "match_date": "2026-05-30",
+    "match_time": "06:35",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "American Association 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ChicagoWhiteSox-DetroitTigers",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Chicago White Sox",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3644/image"
+    },
+    "team2": {
+      "name": "Detroit Tigers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3648/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:40",
+    "match_date": "2026-05-30",
+    "match_time": "06:40",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "MLB 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "WisconsinTimberRattlers-PeoriaChiefs",
+    "league": "USA - MiLB, High-A Midwest League",
+    "team1": {
+      "name": "Wisconsin Timber Rattlers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453359/image"
+    },
+    "team2": {
+      "name": "Peoria Chiefs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453361/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:40",
+    "match_date": "2026-05-30",
+    "match_time": "06:40",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "High-A Midwest League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ChicagoWhiteSox-DetroitTigers",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Chicago White Sox",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3644/image"
+    },
+    "team2": {
+      "name": "Detroit Tigers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3648/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:40",
+    "match_date": "2026-05-30",
+    "match_time": "06:40",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "MLB 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "WisconsinTimberRattlers-PeoriaChiefs",
+    "league": "USA - MiLB, High-A Midwest League",
+    "team1": {
+      "name": "Wisconsin Timber Rattlers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453359/image"
+    },
+    "team2": {
+      "name": "Peoria Chiefs",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453361/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:40",
+    "match_date": "2026-05-30",
+    "match_time": "06:40",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "High-A Midwest League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "GarySouthshoreRailcats-CleburneRailroaders",
+    "league": "USA - American Association, East Division ",
+    "team1": {
+      "name": "Gary Southshore Railcats",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475718/image"
+    },
+    "team2": {
+      "name": "Cleburne Railroaders",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475717/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:45",
+    "match_date": "2026-05-30",
+    "match_time": "06:45",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "American Association 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "GarySouthshoreRailcats-CleburneRailroaders",
+    "league": "USA - American Association, East Division ",
+    "team1": {
+      "name": "Gary Southshore Railcats",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475718/image"
+    },
+    "team2": {
+      "name": "Cleburne Railroaders",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/475717/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "06:45",
+    "match_date": "2026-05-30",
+    "match_time": "06:45",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "American Association 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "Juventude-AmricaMineiro",
+    "league": "Brazil - Brasileirão Série B",
+    "team1": {
+      "name": "Juventude",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1980/image"
+    },
+    "team2": {
+      "name": "América Mineiro",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1973/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "07:00",
+    "match_date": "2026-05-30",
+    "match_time": "07:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 11,
+    "season": "Brasileiro Serie B 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "RacingLouisvilleW-DenverSummitFCW",
+    "league": "USA - NWSL",
+    "team1": {
+      "name": "Racing Louisville W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/377825/image"
+    },
+    "team2": {
+      "name": "Denver Summit FC W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1165117/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "07:00",
+    "match_date": "2026-05-30",
+    "match_time": "07:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "National Womens Soccer League 2026",
+    "sport": "Football",
+    "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "GimnasiaJujuy-NuevaChicago",
+    "league": "Argentina - Primera B Nacional",
+    "team1": {
+      "name": "Gimnasia Jujuy",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5292/image"
+    },
+    "team2": {
+      "name": "Nueva Chicago",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3200/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "07:00",
+    "match_date": "2026-05-30",
+    "match_time": "07:00",
+    "status": "postponed",
+    "status_desc": "Postponed",
+    "score": "",
+    "round": 16,
+    "season": "Primera Nacional 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "RacingdeCrdoba-ClubFerroCarrilOeste",
+    "league": "Argentina - Primera B Nacional",
+    "team1": {
+      "name": "Racing de Córdoba",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/273657/image"
+    },
+    "team2": {
+      "name": "Club Ferro Carril Oeste",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/36841/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "07:00",
+    "match_date": "2026-05-30",
+    "match_time": "07:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 16,
+    "season": "Primera Nacional 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "Juventude-AmricaMineiro",
+    "league": "Brazil - Brasileirão Série B",
+    "team1": {
+      "name": "Juventude",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1980/image"
+    },
+    "team2": {
+      "name": "América Mineiro",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1973/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "07:00",
+    "match_date": "2026-05-30",
+    "match_time": "07:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 11,
+    "season": "Brasileiro Serie B 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "RacingLouisvilleW-DenverSummitFCW",
+    "league": "USA - NWSL",
+    "team1": {
+      "name": "Racing Louisville W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/377825/image"
+    },
+    "team2": {
+      "name": "Denver Summit FC W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1165117/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "07:00",
+    "match_date": "2026-05-30",
+    "match_time": "07:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "National Womens Soccer League 2026",
+    "sport": "Football",
+    "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "GimnasiaJujuy-NuevaChicago",
+    "league": "Argentina - Primera B Nacional",
+    "team1": {
+      "name": "Gimnasia Jujuy",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5292/image"
+    },
+    "team2": {
+      "name": "Nueva Chicago",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3200/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "07:00",
+    "match_date": "2026-05-30",
+    "match_time": "07:00",
+    "status": "postponed",
+    "status_desc": "Postponed",
+    "score": "",
+    "round": 16,
+    "season": "Primera Nacional 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "RacingdeCrdoba-ClubFerroCarrilOeste",
+    "league": "Argentina - Primera B Nacional",
+    "team1": {
+      "name": "Racing de Córdoba",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/273657/image"
+    },
+    "team2": {
+      "name": "Club Ferro Carril Oeste",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/36841/image"
+    },
+    "kickoff_date": "2026-05-30",
+    "kickoff_time": "07:00",
+    "match_date": "2026-05-30",
+    "match_time": "07:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 16,
+    "season": "Primera Nacional 2026",
+    "sport": "Football",
+    "gender": "M",
     "duration": "3.5",
     "servers": []
   },
@@ -22171,31 +22196,6 @@
     "season": "2026",
     "sport": "Basketball",
     "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FelixPerezCardozoW-SoldeAmricaW",
-    "league": "Paraguay - LNBF , Fase Regular",
-    "team1": {
-      "name": "Felix Perez Cardozo W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/415223/image"
-    },
-    "team2": {
-      "name": "Sol de América W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130136/image"
-    },
-    "kickoff_date": "2026-05-30",
-    "kickoff_time": "07:00",
-    "match_date": "2026-05-30",
-    "match_time": "07:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Apertura 2026 ",
-    "sport": "Basketball",
-    "gender": "F",
     "duration": "3.5",
     "servers": []
   },
@@ -55750,31 +55750,6 @@
     "servers": []
   },
   {
-    "id": "KalamazooGrowlers-BattleCreekBattleJacks",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Kalamazoo Growlers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453486/image"
-    },
-    "team2": {
-      "name": "Battle Creek Battle Jacks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453489/image"
-    },
-    "kickoff_date": "2026-05-31",
-    "kickoff_time": "07:05",
-    "match_date": "2026-05-31",
-    "match_time": "07:05",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "MankatoMoondogs-WillmarStingers",
     "league": "USA - Northwoods League",
     "team1": {
@@ -55819,31 +55794,6 @@
     "score": "",
     "round": 1,
     "season": "Double-A Texas League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "KalamazooGrowlers-BattleCreekBattleJacks",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Kalamazoo Growlers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453486/image"
-    },
-    "team2": {
-      "name": "Battle Creek Battle Jacks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453489/image"
-    },
-    "kickoff_date": "2026-05-31",
-    "kickoff_time": "07:05",
-    "match_date": "2026-05-31",
-    "match_time": "07:05",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
     "sport": "Baseball",
     "gender": "M",
     "duration": "3.5",
@@ -64425,6 +64375,31 @@
     "servers": []
   },
   {
+    "id": "AlAhlySC-AlAhlyBenghazi",
+    "league": "International - Africa League, Knockout Stage",
+    "team1": {
+      "name": "Al Ahly SC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/339117/image"
+    },
+    "team2": {
+      "name": "Al Ahly Benghazi",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/507033/image"
+    },
+    "kickoff_date": "2026-05-31",
+    "kickoff_time": "20:00",
+    "match_date": "2026-05-31",
+    "match_time": "20:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 50,
+    "season": "Basketball Africa League 2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "Benedetto1964CentoU16-USLivornoU16",
     "league": "Italy Amateur - Girone A",
     "team1": {
@@ -65844,6 +65819,81 @@
     "score": "",
     "round": "",
     "season": "2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "TigersBBC-AtlticoPetrleosdeLuanda",
+    "league": "International - Africa League, Knockout Stage",
+    "team1": {
+      "name": "Tigers BBC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/343350/image"
+    },
+    "team2": {
+      "name": "Atlético Petróleos de Luanda",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/382375/image"
+    },
+    "kickoff_date": "2026-05-31",
+    "kickoff_time": "23:00",
+    "match_date": "2026-05-31",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 29,
+    "season": "Basketball Africa League 2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "SCJuvecaserta2021-OrziBasket",
+    "league": "Italy - Serie B, Playoffs",
+    "team1": {
+      "name": "SC Juvecaserta 2021",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/24478/image"
+    },
+    "team2": {
+      "name": "Orzi Basket",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/266192/image"
+    },
+    "kickoff_date": "2026-05-31",
+    "kickoff_time": "23:00",
+    "match_date": "2026-05-31",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 28,
+    "season": "Serie B 25/26",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "VirtusGVMRoma1960-RuckerSanveSanVendemiano",
+    "league": "Italy - Serie B, Playoffs",
+    "team1": {
+      "name": "Virtus GVM Roma 1960",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/801048/image"
+    },
+    "team2": {
+      "name": "Rucker Sanve San Vendemiano",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/328467/image"
+    },
+    "kickoff_date": "2026-05-31",
+    "kickoff_time": "23:00",
+    "match_date": "2026-05-31",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 28,
+    "season": "Serie B 25/26",
     "sport": "Basketball",
     "gender": "M",
     "duration": "3.5",
@@ -68870,6 +68920,31 @@
     "round": 9,
     "season": "Brasileiro Serie D 2026",
     "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "MontecatiniTermeBasketball-TreviglioBrianzaBasket",
+    "league": "Italy - Serie B, Playoffs",
+    "team1": {
+      "name": "Montecatini Terme Basketball",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/331079/image"
+    },
+    "team2": {
+      "name": "Treviglio Brianza Basket",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/801044/image"
+    },
+    "kickoff_date": "2026-06-01",
+    "kickoff_time": "01:30",
+    "match_date": "2026-06-01",
+    "match_time": "01:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 28,
+    "season": "Serie B 25/26",
+    "sport": "Basketball",
     "gender": "M",
     "duration": "3.5",
     "servers": []
