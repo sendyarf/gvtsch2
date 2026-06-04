@@ -89,99 +89,6 @@
     "gender": "M"
   },
   {
-    "id": "BostonRedSox-BaltimoreOrioles",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Boston Celtics",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3646/image"
-    },
-    "team2": {
-      "name": "Baltimore Orioles",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3652/image"
-    },
-    "kickoff_date": "2026-06-05",
-    "kickoff_time": "00:35",
-    "match_date": "2026-06-05",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=191",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "5th Inning",
-    "gender": "M"
-  },
-  {
-    "id": "NewYorkYankees-ClevelandGuardians",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "New York",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3654/image"
-    },
-    "team2": {
-      "name": "Cleveland Cavaliers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3650/image"
-    },
-    "kickoff_date": "2026-06-05",
-    "kickoff_time": "00:35",
-    "match_date": "2026-06-05",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=192",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "6th Inning",
-    "gender": "M"
-  },
-  {
-    "id": "MilwaukeeBrewers-SanFranciscoGiants",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Milwaukee",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3630/image"
-    },
-    "team2": {
-      "name": "San Francisco Giants (MLB)",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3634/image"
-    },
-    "kickoff_date": "2026-06-05",
-    "kickoff_time": "01:10",
-    "match_date": "2026-06-05",
-    "match_time": "01:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=193",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "3rd Inning",
-    "gender": "M"
-  },
-  {
     "id": "Spain-Iraq",
     "league": "World - Int. Friendly Games",
     "team1": {
@@ -236,8 +143,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -702,55 +609,82 @@
     "gender": "F"
   },
   {
-    "id": "SanDiegoPadres-PhiladelphiaPhillies",
+    "id": "SanFranciscoGiants-MilwaukeeBrewers",
     "league": "Usa - Mlb",
     "team1": {
-      "name": "San Diego Padres (MLB)",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png"
+      "name": "San Francisco Giants (MLB)",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png"
     },
     "team2": {
-      "name": "Philadelphia Phillies (MLB)",
-      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png"
+      "name": "Milwaukee",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
     },
-    "kickoff_date": "2026-06-04",
-    "kickoff_time": "23:05",
-    "match_date": "2026-06-04",
-    "match_time": "23:00",
+    "kickoff_date": "2026-06-05",
+    "kickoff_time": "00:10",
+    "match_date": "2026-06-05",
+    "match_time": "00:05",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE1LnBocA==",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
         "label": "CH-EN"
       }
     ],
     "sport": "Baseball",
     "status": "inprogress",
-    "status_desc": "7th Inning",
+    "status_desc": "8th Inning",
     "gender": "M"
   },
   {
-    "id": "Greece-Sweden",
-    "league": "World - Int. Friendly Games",
+    "id": "BaltimoreOrioles-BostonRedSox",
+    "league": "Usa - Mlb",
     "team1": {
-      "name": "Greece",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gre.png"
+      "name": "Baltimore Orioles",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png"
     },
     "team2": {
-      "name": "Sweden",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
+      "name": "Boston Celtics",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png"
     },
     "kickoff_date": "2026-06-04",
-    "kickoff_time": "23:00",
+    "kickoff_time": "23:35",
     "match_date": "2026-06-04",
-    "match_time": "22:55",
+    "match_time": "23:30",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDIucGhw",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
         "label": "CH-EN"
       }
     ],
-    "sport": "Football",
+    "sport": "Baseball",
+    "status": "finished",
+    "status_desc": "Ended",
+    "gender": "M"
+  },
+  {
+    "id": "ClevelandGuardians-NewYorkYankees",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "Cleveland Cavaliers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png"
+    },
+    "team2": {
+      "name": "New York",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png"
+    },
+    "kickoff_date": "2026-06-04",
+    "kickoff_time": "23:35",
+    "match_date": "2026-06-04",
+    "match_time": "23:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE3LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
     "status": "finished",
     "status_desc": "Ended",
     "gender": "M"
