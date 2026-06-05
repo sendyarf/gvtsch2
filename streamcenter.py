@@ -117,7 +117,7 @@ def parse_streamcenter():
         id_str = f"{clean_name(team1)}-{clean_name(team2)}" if team2 else clean_name(team1)
         
         encoded_url = base64.b64encode(video_url.encode('utf-8')).decode('utf-8')
-        final_url = f"https://multi.govoet.cc/?iframe={encoded_url}"
+        final_url = f"https://multi.govoet.cc/?iframex={encoded_url}"
         
         server_data = {
             "url": final_url,
