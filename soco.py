@@ -9,6 +9,13 @@ import base64
 import time
 from datetime import datetime
 from urllib.parse import urlparse, parse_qs
+import sys
+
+# Configure console output to use UTF-8 to prevent encoding crashes on Windows
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
 
 def encode_url_to_base64(url):
     """Encode URL to base64"""
@@ -28,9 +35,9 @@ def setup_driver():
     return driver
 
 def scrape_with_selenium():
-    """Scrape Indonesia league matches using Selenium"""
+    """Scrape all matches using Selenium"""
     
-    base_url = "https://socolive8.cv/"
+    base_url = "https://socolive16.cv/"
     driver = None
     
     try:
@@ -64,19 +71,15 @@ def scrape_with_selenium():
         match_elements = driver.find_elements(By.CLASS_NAME, 'match-item')
         
         print(f"\nFound {len(match_elements)} total matches")
-        print("Filtering Indonesia league matches...\n")
+        print("Processing matches...\n")
         
-        indonesia_matches = []
+        matches = []
         
         for match_elem in match_elements:
             try:
                 # Check league name
                 league_elem = match_elem.find_element(By.CLASS_NAME, 'match-item__comp')
                 league_name = league_elem.text.strip()
-                
-                # Filter only Indonesia league
-                if "Giải bóng đá VĐQG Indonesia" not in league_name:
-                    continue
                 
                 print(f"Processing: {league_name}")
                 
@@ -191,14 +194,14 @@ def scrape_with_selenium():
                     "servers": servers
                 }
                 
-                indonesia_matches.append(match_data)
+                matches.append(match_data)
                 print(f"  Added with {len(servers)} server(s)\n")
                 
             except Exception as e:
                 print(f"  Error processing match: {e}")
                 continue
         
-        return indonesia_matches
+        return matches
         
     except Exception as e:
         print(f"Error: {e}")
@@ -224,7 +227,7 @@ def save_to_json(matches, filename="soco.json"):
 
 def main():
     print("=" * 60)
-    print("SOCOLIVE INDONESIA LEAGUE SCRAPER (SELENIUM)")
+    print("SOCOLIVE MATCH SCRAPER (SELENIUM)")
     print("=" * 60)
     
     matches = scrape_with_selenium()
@@ -233,7 +236,7 @@ def main():
         save_to_json(matches, "soco.json")
         
         print("\n" + "=" * 60)
-        print(f"SUMMARY: Found {len(matches)} Indonesia league match(es)")
+        print(f"SUMMARY: Found {len(matches)} match(es)")
         print("=" * 60)
         
         for i, match in enumerate(matches, 1):
@@ -241,7 +244,7 @@ def main():
             print(f"   Date: {match['match_date']} {match['match_time']}")
             print(f"   Servers: {len(match['servers'])}")
     else:
-        print("\n❌ No Indonesia league matches found")
+        print("\n❌ No matches found")
 
 if __name__ == "__main__":
     main()
