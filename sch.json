@@ -57,95 +57,6 @@
     "gender": "M"
   },
   {
-    "id": "ClevelandGuardians-NewYorkYankees",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Cleveland Cavaliers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3650/image"
-    },
-    "team2": {
-      "name": "New York",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3654/image"
-    },
-    "kickoff_date": "2026-06-11",
-    "kickoff_time": "00:10",
-    "match_date": "2026-06-11",
-    "match_time": "00:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=3",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=180",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE2LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "Pause",
-    "gender": "M"
-  },
-  {
-    "id": "TampaBayRays-BostonRedSox",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "Tampa Bay Rays",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3653/image"
-    },
-    "team2": {
-      "name": "Boston Celtics",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3646/image"
-    },
-    "kickoff_date": "2026-06-11",
-    "kickoff_time": "00:10",
-    "match_date": "2026-06-11",
-    "match_time": "00:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=181",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE1LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "inprogress",
-    "status_desc": "6th Inning",
-    "gender": "M"
-  },
-  {
-    "id": "Valencia-JoventutBadalona",
-    "league": "Spain - Liga Endesa",
-    "team1": {
-      "name": "Valencia",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Joventut Badalona",
-      "logo": ""
-    },
-    "kickoff_date": "2026-06-11",
-    "kickoff_time": "01:00",
-    "match_date": "2026-06-11",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=155",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
     "id": "Malaga-LasPalmas",
     "league": "Spain - Laliga 2, Promotion Playoffs",
     "team1": {
@@ -173,35 +84,11 @@
       {
         "url": "https://multi.govoet.cc/?envivo=71",
         "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yNzM3MzYubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zNzI3NDYubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80NzIyNDEubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTU3MTUubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTgxMTkubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDc1NTIubTN1OA==",
-        "label": "CH-VN"
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "finished",
+    "status_desc": "Ended",
     "gender": "M"
   },
   {
@@ -275,8 +162,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -306,8 +193,39 @@
       }
     ],
     "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "6th Inning",
+    "gender": "M"
+  },
+  {
+    "id": "SanDiegoPadres-CincinnatiReds",
+    "league": "Usa - Mlb",
+    "team1": {
+      "name": "San Diego Padres (MLB)",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3636/image"
+    },
+    "team2": {
+      "name": "Cincinnati Reds",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3633/image"
+    },
+    "kickoff_date": "2026-06-11",
+    "kickoff_time": "03:10",
+    "match_date": "2026-06-11",
+    "match_time": "03:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=183",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Baseball",
+    "status": "inprogress",
+    "status_desc": "Pause",
     "gender": "M"
   },
   {
@@ -322,9 +240,9 @@
       "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/4756/image"
     },
     "kickoff_date": "2026-06-11",
-    "kickoff_time": "03:00",
+    "kickoff_time": "04:00",
     "match_date": "2026-06-11",
-    "match_time": "02:55",
+    "match_time": "03:55",
     "duration": "3.5",
     "servers": [
       {
@@ -338,18 +256,6 @@
       {
         "url": "https://multi.govoet.cc/?envivo=158",
         "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd1",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv3",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br2",
-        "label": "CH-3"
       },
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NTI3MTYubTN1OA==",
@@ -381,39 +287,8 @@
       }
     ],
     "sport": "Football",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "gender": "M"
-  },
-  {
-    "id": "SanDiegoPadres-CincinnatiReds",
-    "league": "Usa - Mlb",
-    "team1": {
-      "name": "San Diego Padres (MLB)",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3636/image"
-    },
-    "team2": {
-      "name": "Cincinnati Reds",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3633/image"
-    },
-    "kickoff_date": "2026-06-11",
-    "kickoff_time": "03:10",
-    "match_date": "2026-06-11",
-    "match_time": "03:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=183",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
-        "label": "CH-EN"
-      }
-    ],
-    "sport": "Baseball",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "1st half",
     "gender": "M"
   },
   {
@@ -753,6 +628,87 @@
       }
     ],
     "sport": "Baseball",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Czechia-SouthKorea",
+    "league": "World - Fifa World Cup, Group A",
+    "team1": {
+      "name": "Czechia",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png"
+    },
+    "team2": {
+      "name": "South Korea",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png"
+    },
+    "kickoff_date": "2026-06-12",
+    "kickoff_time": "08:00",
+    "match_date": "2026-06-12",
+    "match_time": "07:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Football",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "VegasGoldenKnights-CarolinaHurricanes",
+    "league": "Usa - Nhl, Playoffs",
+    "team1": {
+      "name": "Las Vegas Golden Knights",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png"
+    },
+    "team2": {
+      "name": "Carolina Hurricanes",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png"
+    },
+    "kickoff_date": "2026-06-12",
+    "kickoff_time": "06:00",
+    "match_date": "2026-06-12",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDUwLnBocA==",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Ice hockey",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "SouthAfrica-Mexico",
+    "league": "World - Fifa World Cup, Group A",
+    "team1": {
+      "name": "South Africa",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png"
+    },
+    "team2": {
+      "name": "Mexico",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png"
+    },
+    "kickoff_date": "2026-06-12",
+    "kickoff_time": "01:00",
+    "match_date": "2026-06-12",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
+        "label": "CH-EN"
+      }
+    ],
+    "sport": "Football",
     "status": "notstarted",
     "status_desc": "Not started",
     "gender": "M"
