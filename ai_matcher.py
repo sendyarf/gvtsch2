@@ -277,16 +277,17 @@ def resolve_team_names_with_ai(unmatched_teams, reference_teams):
     for batch_idx, batch in enumerate(batches):
         print(f"  Batch {batch_idx+1}/{len(batches)} ({len(batch)} names)...")
         
-        prompt = f"""I have team names from streaming sites. Match each to its SofaScore/Flashscore canonical name.
-- Handle abbreviations, languages (FR/ES/PT/VI/ID), different spellings
-- Country names -> standard English
-- Non-team names (F1, AEW, tennis players) -> "SKIP"
+        prompt = f"""I have team and sports event names from streaming sites. Match each to its SofaScore/Flashscore canonical name.
+- Handle abbreviations, languages (FR/ES/PT/VI/ID), different spellings.
+- For country names, translate to standard English (e.g. "Corée du Sud" -> "South Korea").
+- For sports event names (like Formula 1, MotoGP, tennis tournaments, UFC, or single-player events) that are not in the known list, translate and standardize them to clean, standard English (e.g., "Grand Prix de Barcelone Essais libres 1" -> "Spanish Grand Prix - Practice 1", "Roland Garros Double Hommes" -> "French Open - Men's Doubles").
+- If the name is completely invalid or spam, return "SKIP".
 
 Names to match: {json.dumps(batch, ensure_ascii=False)}
 
 Known teams (partial): {json.dumps(ref_list, ensure_ascii=False)}
 
-Respond with ONLY a JSON object. Example: {{"Gérone": "Girona", "F1 GP": "SKIP"}}"""
+Respond with ONLY a JSON object. Example: {{"Gérone": "Girona", "Grand Prix de Barcelone Essais libres 1": "Spanish Grand Prix - Practice 1", "RandomSpamText": "SKIP"}}"""
 
         try:
             answer, model_used = _call_deepseek(prompt)
