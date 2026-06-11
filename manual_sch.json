@@ -2,23 +2,49 @@
 
 [
 
-  {
-    "id": "Indonesia-Mozambique",
-    "league": "World - Int. Friendly Games",
+{
+    "id": "Mexico-SouthAfrica",
+    "league": "World - FIFA World Cup, Group A",
     "team1": {
-      "name": "Indonesia",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/4829/image"
+      "name": "Mexico",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/4781/image"
     },
     "team2": {
-      "name": "Mozambique",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/4783/image"
+      "name": "South Africa",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/4736/image"
     },
-    "kickoff_date": "2026-06-09",
-    "kickoff_time": "20:00",
-    "match_date": "2026-06-09",
-    "match_time": "20:00",
+    "kickoff_date": "2026-06-12",
+    "kickoff_time": "02:00",
+    "match_date": "2026-06-12",
+    "match_time": "02:00",
     "duration": "3.5",
-    "servers": []
-  }
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=telemundo",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=sportv",
+        "label": "CH-PT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=ctsport",
+        "label": "CH-CZ"
+      },
+       {
+        "url": "https://multi.govoet.cc/?shaka=jojsport",
+        "label": "CH-SK"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=tvela1",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=nhkbs4k",
+        "label": "CH-JP"
+      }
+
+    ]
+  },
 
 ]
