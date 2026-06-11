@@ -1074,14 +1074,14 @@
     "gender": "M"
   },
   {
-    "id": "GrandPrixdeBarceloneEssaislibres1-13",
+    "id": "GrandPrixdeBarceloneEssaislibres1",
     "league": "World - Formula 1",
     "team1": {
       "name": "Grand Prix de Barcelone Essais libres 1",
       "logo": ""
     },
     "team2": {
-      "name": "13",
+      "name": "",
       "logo": ""
     },
     "kickoff_date": "2026-06-12",
@@ -1089,7 +1089,16 @@
     "match_date": "2026-06-12",
     "match_time": "18:25",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=13",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=60",
+        "label": "CH-ES"
+      }
+    ]
   },
   {
     "id": "LasVegasAces-PortlandFire",

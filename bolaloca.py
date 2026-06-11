@@ -71,6 +71,10 @@ def parse_bolaloca():
 
             # Parse Teams
             # "Gérone - Real Madrid" or "Qatar F1 Grand Prix -"
+            match_info = match_info.strip()
+            if match_info.endswith('-'):
+                match_info = match_info[:-1].strip()
+
             if ' - ' in match_info:
                 parts = match_info.split(' - ')
                 team1_name = parts[0].strip()
