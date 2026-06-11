@@ -43,6 +43,7 @@ def scrape_flashscore():
         {"url": "https://www.flashscore.com/football/indonesia/super-league/fixtures/", "league": "Indonesia - Super League", "sport": "Football"},
        {"url": "https://www.flashscore.com/football/europe/champions-league/fixtures/", "league": "UEFA Champions League", "sport": "Football"},
        {"url": "https://www.flashscore.com/basketball/usa/nba/fixtures/", "league": "USA - NBA", "sport": "Basketball"},
+       {"url": "https://www.flashscore.com/football/world/world-championship/fixtures/", "league": "World - FIFA World Cup", "sport": "Football"},
     ]
 
     # Set up Chrome options for headless mode
