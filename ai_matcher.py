@@ -26,7 +26,7 @@ if sys.platform == 'win32':
 # CONFIGURATION
 # ============================================
 # Automatically use environment variable if available (for GitHub Actions)
-DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "sk-4eab0e63d3e1446eabbd7497461cd68c")
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 DEEPSEEK_MODEL = "deepseek-v4-flash"
 BATCH_SIZE = 30  # Names per AI request
 MAX_REF_NAMES = 200  # Limit reference names sent to AI (saves tokens)
