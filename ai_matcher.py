@@ -10,7 +10,8 @@ import time
 import re
 import unicodedata
 from difflib import SequenceMatcher
-from groq import Groq
+import requests
+
 
 # Fix Windows console encoding for emoji/unicode
 if sys.platform == 'win32':
@@ -25,18 +26,13 @@ if sys.platform == 'win32':
 # CONFIGURATION
 # ============================================
 # Automatically use environment variable if available (for GitHub Actions)
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-# Model priority: try smaller/faster models first to conserve token limits
-GROQ_MODELS = [
-    "llama-3.1-8b-instant",        # Fast, low token usage
-    "llama-3.3-70b-versatile",     # Fallback: more accurate
-]
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "sk-4eab0e63d3e1446eabbd7497461cd68c")
+DEEPSEEK_MODEL = "deepseek-v4-flash"
 BATCH_SIZE = 30  # Names per AI request
 MAX_REF_NAMES = 200  # Limit reference names sent to AI (saves tokens)
 AI_CACHE_FILE = "ai_mapping_cache.json"
 MANUAL_MAPPING_FILE = "manual_mapping.json"
 
-client = Groq(api_key=GROQ_API_KEY)
 
 
 # ============================================
@@ -238,27 +234,35 @@ def find_unmatched_names(source_names, reference_names, existing_lookup, thresho
 # ============================================
 # AI RESOLUTION
 # ============================================
-def _call_groq(prompt, max_tokens=4096):
-    """Call Groq API with model fallback on rate limits"""
-    for model in GROQ_MODELS:
-        try:
-            response = client.chat.completions.create(
-                model=model,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.1,
-                max_tokens=max_tokens
-            )
-            return response.choices[0].message.content.strip(), model
-        except Exception as e:
-            error_str = str(e)
-            if "429" in error_str or "rate_limit" in error_str:
-                print(f"    Rate limited on {model}, trying next model...")
-                continue
-            raise e
-    return None, None
+def _call_deepseek(prompt, max_tokens=4096):
+    """Call DeepSeek API using requests"""
+    url = "https://api.deepseek.com/chat/completions"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {DEEPSEEK_API_KEY}"
+    }
+    payload = {
+        "model": DEEPSEEK_MODEL,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.1,
+        "max_tokens": max_tokens
+    }
+    
+    try:
+        response = requests.post(url, headers=headers, json=payload, timeout=60)
+        if response.status_code == 200:
+            res_json = response.json()
+            content = res_json["choices"][0]["message"]["content"].strip()
+            return content, DEEPSEEK_MODEL
+        else:
+            print(f"    [ERR] DeepSeek API returned status code {response.status_code}: {response.text}")
+            return None, None
+    except Exception as e:
+        print(f"    [ERR] DeepSeek API call failed: {e}")
+        return None, None
 
 def resolve_team_names_with_ai(unmatched_teams, reference_teams):
-    """Use Groq AI to match unmatched team names to reference (SofaScore) names"""
+    """Use DeepSeek AI to match unmatched team names to reference (SofaScore) names"""
     if not unmatched_teams:
         return {}
     
@@ -285,35 +289,46 @@ Known teams (partial): {json.dumps(ref_list, ensure_ascii=False)}
 Respond with ONLY a JSON object. Example: {{"Gérone": "Girona", "F1 GP": "SKIP"}}"""
 
         try:
-            answer, model_used = _call_groq(prompt)
+            answer, model_used = _call_deepseek(prompt)
             if answer:
-                json_match = re.search(r'\{.*\}', answer, re.DOTALL)
+                # Remove code blocks if present
+                clean_answer = answer.strip()
+                if clean_answer.startswith("```"):
+                    # Remove starting ```json or ```
+                    clean_answer = re.sub(r'^```[a-zA-Z]*\s*', '', clean_answer)
+                    # Remove ending ```
+                    clean_answer = re.sub(r'\s*```$', '', clean_answer)
+                
+                json_match = re.search(r'\{.*\}', clean_answer, re.DOTALL)
                 if json_match:
-                    batch_results = json.loads(json_match.group())
-                    count = 0
-                    for unmatched, canonical in batch_results.items():
-                        if (canonical and canonical != "SKIP" and canonical != unmatched
-                                and unmatched.lower() not in ('alias', 'canonical', 'example')):
-                            results[unmatched] = canonical
-                            count += 1
-                    print(f"    [OK] Resolved {count}/{len(batch)} ({model_used})")
+                    try:
+                        batch_results = json.loads(json_match.group())
+                        count = 0
+                        for unmatched, canonical in batch_results.items():
+                            if (canonical and canonical != "SKIP" and canonical != unmatched
+                                    and unmatched.lower() not in ('alias', 'canonical', 'example')):
+                                results[unmatched] = canonical
+                                count += 1
+                        print(f"    [OK] Resolved {count}/{len(batch)} ({model_used})")
+                    except Exception as je:
+                        print(f"    [WARN] Failed to load JSON: {je}. Raw response was:\n{answer}")
                 else:
-                    print(f"    [WARN] Could not parse AI response")
+                    print(f"    [WARN] Could not parse AI response. Raw response was:\n{answer}")
             else:
-                print(f"    [SKIP] All models rate limited")
-                break  # Stop trying if all models are rate limited
+                print(f"    [SKIP] DeepSeek API call failed or returned empty response")
+                break  # Stop trying if API failed
                 
         except Exception as e:
             print(f"    [ERR] batch {batch_idx+1}: {e}")
         
-        # Rate limiting
+        # Rate limiting / polite delay
         if batch_idx < len(batches) - 1:
             time.sleep(1)
     
     return results
 
 def resolve_league_names_with_ai(unmatched_leagues, reference_leagues):
-    """Use Groq AI to match unmatched league names to canonical names"""
+    """Use DeepSeek AI to match unmatched league names to canonical names"""
     if not unmatched_leagues:
         return {}
     
@@ -336,25 +351,34 @@ Names to match: {json.dumps(batch, ensure_ascii=False)}
 
 Known leagues (partial): {json.dumps(ref_list, ensure_ascii=False)}
 
-Respond with ONLY a JSON object. Example: {{"Laliga": "Spain - LaLiga", "Random": "SKIP"}}"""
+Respond with ONLY a JSON object (do not wrap in markdown or backticks, just raw JSON). Example: {{"Laliga": "Spain - LaLiga", "Random": "SKIP"}}"""
 
         try:
-            answer, model_used = _call_groq(prompt)
+            answer, model_used = _call_deepseek(prompt)
             if answer:
-                json_match = re.search(r'\{.*\}', answer, re.DOTALL)
+                # Remove code blocks if present
+                clean_answer = answer.strip()
+                if clean_answer.startswith("```"):
+                    clean_answer = re.sub(r'^```[a-zA-Z]*\s*', '', clean_answer)
+                    clean_answer = re.sub(r'\s*```$', '', clean_answer)
+                
+                json_match = re.search(r'\{.*\}', clean_answer, re.DOTALL)
                 if json_match:
-                    batch_results = json.loads(json_match.group())
-                    count = 0
-                    for unmatched, canonical in batch_results.items():
-                        if (canonical and canonical != "SKIP" and canonical != unmatched
-                                and unmatched.lower() not in ('alias', 'canonical', 'example')):
-                            results[unmatched] = canonical
-                            count += 1
-                    print(f"    [OK] Resolved {count}/{len(batch)} ({model_used})")
+                    try:
+                        batch_results = json.loads(json_match.group())
+                        count = 0
+                        for unmatched, canonical in batch_results.items():
+                            if (canonical and canonical != "SKIP" and canonical != unmatched
+                                    and unmatched.lower() not in ('alias', 'canonical', 'example')):
+                                results[unmatched] = canonical
+                                count += 1
+                        print(f"    [OK] Resolved {count}/{len(batch)} ({model_used})")
+                    except Exception as je:
+                        print(f"    [WARN] Failed to load JSON: {je}. Raw response was:\n{answer}")
                 else:
-                    print(f"    [WARN] Could not parse AI response")
+                    print(f"    [WARN] Could not parse AI response. Raw response was:\n{answer}")
             else:
-                print(f"    [SKIP] All models rate limited")
+                print(f"    [SKIP] DeepSeek API call failed or returned empty response")
                 break
                 
         except Exception as e:
@@ -364,6 +388,7 @@ Respond with ONLY a JSON object. Example: {{"Laliga": "Spain - LaLiga", "Random"
             time.sleep(1)
     
     return results
+
 
 
 # ============================================
