@@ -894,12 +894,8 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?shaka=foxone",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?shaka=fussballtv1",
-        "label": "CH-DE"
+        "url": "https://multi.govoet.cc/?shaka=vrt1",
+        "label": "CH-BE"
       },
       {
         "url": "https://multi.govoet.cc/?shaka=dsports",
@@ -1066,8 +1062,8 @@
         "label": "CH-EN"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "2nd half",
     "gender": "M"
   },
   {
@@ -1089,8 +1085,8 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?shaka=foxone",
-        "label": "CH-ES"
+        "url": "https://multi.govoet.cc/?shaka=vrt1",
+        "label": "CH-BE"
       },
       {
         "url": "https://multi.govoet.cc/?shaka=telemundo",
@@ -1268,8 +1264,8 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?shaka=foxone",
-        "label": "CH-ES"
+        "url": "https://multi.govoet.cc/?shaka=vrt1",
+        "label": "CH-BE"
       },
       {
         "url": "https://multi.govoet.cc/?shaka=telemundo",
@@ -1660,6 +1656,54 @@
       {
         "url": "https://multi.govoet.cc/?shaka=tipik",
         "label": "CH-BE"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMTgyMDYubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMjMyMjYubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xNDc4MDEubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xNjg3NDAubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zMjcxNTkubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zNDQzNzAubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zNjA2NjMubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80MTQzMTcubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80MzQ5ODIubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80OTQyMDEubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzQyMTkubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zODc2OTQubTN1OA==",
+        "label": "CH-VN"
       }
     ],
     "status": "notstarted",
@@ -2056,6 +2100,255 @@
       {
         "url": "https://multi.govoet.cc/?ss=br3",
         "label": "CH-14"
+      }
+    ],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Switzerland-BosniaHerzegovina",
+    "sport": "Football",
+    "league": "World - Fifa World Cup, Group B",
+    "team1": {
+      "name": "Switzerland",
+      "logo": "https://static.flashscore.com/res/image/data/buRKTH76-88LAtdNt.png"
+    },
+    "team2": {
+      "name": "Bosnia and Herzegovina",
+      "logo": "https://static.flashscore.com/res/image/data/fgkmOTPq-Cfuwb3yH.png"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "02:00",
+    "match_date": "2026-06-19",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd5",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd3",
+        "label": "CH-4"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-5"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd6",
+        "label": "CH-6"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd7",
+        "label": "CH-7"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd8",
+        "label": "CH-8"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-9"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd10",
+        "label": "CH-10"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-11"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv5",
+        "label": "CH-12"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br2",
+        "label": "CH-13"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br1",
+        "label": "CH-14"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br3",
+        "label": "CH-15"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br4",
+        "label": "CH-16"
+      }
+    ],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Canada-Qatar",
+    "sport": "Football",
+    "league": "World - Fifa World Cup, Group B",
+    "team1": {
+      "name": "Canada",
+      "logo": "https://static.flashscore.com/res/image/data/bymI0wAN-EqLGVN18.png"
+    },
+    "team2": {
+      "name": "Qatar",
+      "logo": "https://static.flashscore.com/res/image/data/WEb3WvAN-UPMdbcD9.png"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "05:00",
+    "match_date": "2026-06-19",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd5",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd3",
+        "label": "CH-4"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-5"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd6",
+        "label": "CH-6"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd7",
+        "label": "CH-7"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd8",
+        "label": "CH-8"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-9"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd10",
+        "label": "CH-10"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-11"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv5",
+        "label": "CH-12"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br2",
+        "label": "CH-13"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br3",
+        "label": "CH-14"
+      }
+    ],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Mexico-SouthKorea",
+    "sport": "Football",
+    "league": "World - Fifa World Cup, Group A",
+    "team1": {
+      "name": "Mexico",
+      "logo": "https://static.flashscore.com/res/image/data/hv6zUUPq-h2jzesb5.png"
+    },
+    "team2": {
+      "name": "South Korea",
+      "logo": "https://static.flashscore.com/res/image/data/G6sdC2S0-bL62vc24.png"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "08:00",
+    "match_date": "2026-06-19",
+    "match_time": "07:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd5",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd3",
+        "label": "CH-4"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-5"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd6",
+        "label": "CH-6"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd7",
+        "label": "CH-7"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd8",
+        "label": "CH-8"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-9"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-10"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv5",
+        "label": "CH-11"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br2",
+        "label": "CH-12"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br1",
+        "label": "CH-13"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br3",
+        "label": "CH-14"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br4",
+        "label": "CH-15"
       }
     ],
     "status": "notstarted",
