@@ -910,6 +910,10 @@
     "match_time": "02:00",
     "duration": "3.5",
     "servers": [
+          {
+        "url": "https://multi.govoet.cc/?shaka=foxone",
+        "label": "CH-ES"
+      },
         {
         "url": "https://multi.govoet.cc/?shaka=fussballtv1",
         "label": "CH-DE"
@@ -922,10 +926,7 @@
         "url": "https://multi.govoet.cc/?shaka=telemundo",
         "label": "CH-ES"
       },
-        {
-        "url": "https://multi.govoet.cc/?shaka=foxone",
-        "label": "CH-ES"
-      },
+      
         {
         "url": "https://multi.govoet.cc/?shaka=tvela1",
         "label": "CH-ES"
@@ -954,6 +955,10 @@
     "match_time": "05:00",
     "duration": "3.5",
     "servers": [
+          {
+        "url": "https://multi.govoet.cc/?shaka=foxone",
+        "label": "CH-ES"
+      },
         {
         "url": "https://multi.govoet.cc/?shaka=telemundo",
         "label": "CH-ES"
@@ -990,6 +995,10 @@
     "match_time": "08:00",
     "duration": "3.5",
     "servers": [
+          {
+        "url": "https://multi.govoet.cc/?shaka=foxone",
+        "label": "CH-ES"
+      },
         {
         "url": "https://multi.govoet.cc/?shaka=telemundo",
         "label": "CH-ES"
@@ -1047,6 +1056,101 @@
         "label": "CH-DE"
       }
     ]
+  },
+    {
+    "id": "Portugal-DRCongo",
+    "sport": "Football",
+    "league": "World - FIFA World Cup",
+    "team1": {
+      "name": "Portugal",
+      "logo": "https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png"
+    },
+    "team2": {
+      "name": "D.R. Congo",
+      "logo": "https://static.flashscore.com/res/image/data/ILTHkp96-YFbDUeTh.png"
+    },
+    "kickoff_date": "2026-06-18",
+    "kickoff_time": "00:00",
+    "match_date": "2026-06-18",
+    "match_time": "00:00",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "England-Croatia",
+    "sport": "Football",
+    "league": "World - FIFA World Cup",
+    "team1": {
+      "name": "England",
+      "logo": "https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png"
+    },
+    "team2": {
+      "name": "Croatia",
+      "logo": "https://static.flashscore.com/res/image/data/GAQDu7jC-Gff8fOAh.png"
+    },
+    "kickoff_date": "2026-06-18",
+    "kickoff_time": "03:00",
+    "match_date": "2026-06-18",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "Ghana-Panama",
+    "sport": "Football",
+    "league": "World - FIFA World Cup",
+    "team1": {
+      "name": "Ghana",
+      "logo": "https://static.flashscore.com/res/image/data/OzvG52Rq-8vfTQDSH.png"
+    },
+    "team2": {
+      "name": "Panama",
+      "logo": "https://static.flashscore.com/res/image/data/WYjftaA6-6yXdouA1.png"
+    },
+    "kickoff_date": "2026-06-18",
+    "kickoff_time": "06:00",
+    "match_date": "2026-06-18",
+    "match_time": "06:00",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "Uzbekistan-Colombia",
+    "sport": "Football",
+    "league": "World - FIFA World Cup",
+    "team1": {
+      "name": "Uzbekistan",
+      "logo": "https://static.flashscore.com/res/image/data/najJX2oe-ABIAlQIr.png"
+    },
+    "team2": {
+      "name": "Colombia",
+      "logo": "https://static.flashscore.com/res/image/data/Y70aXOTH-C6kVdO5F.png"
+    },
+    "kickoff_date": "2026-06-18",
+    "kickoff_time": "09:00",
+    "match_date": "2026-06-18",
+    "match_time": "09:00",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CzechRepublic-SouthAfrica",
+    "sport": "Football",
+    "league": "World - FIFA World Cup",
+    "team1": {
+      "name": "Czech Republic",
+      "logo": "https://static.flashscore.com/res/image/data/GAWR2Tme-b1xaMyVe.png"
+    },
+    "team2": {
+      "name": "South Africa",
+      "logo": "https://static.flashscore.com/res/image/data/rVRaM7A6-xQxQqqtQ.png"
+    },
+    "kickoff_date": "2026-06-18",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-18",
+    "match_time": "23:00",
+    "duration": "3.5",
+    "servers": []
   }
 
 ]
