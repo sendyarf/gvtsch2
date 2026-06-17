@@ -1425,31 +1425,6 @@
     "servers": []
   },
   {
-    "id": "EauClaireExpress-WausauWoodchucks",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Eau Claire Express",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453499/image"
-    },
-    "team2": {
-      "name": "Wausau Woodchucks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453482/image"
-    },
-    "kickoff_date": "2026-06-18",
-    "kickoff_time": "00:05",
-    "match_date": "2026-06-18",
-    "match_time": "00:05",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "GreenBayRockers-WisconsinRapidsRafters",
     "league": "USA - Northwoods League",
     "team1": {
@@ -1614,9 +1589,9 @@
     "kickoff_time": "00:05",
     "match_date": "2026-06-18",
     "match_time": "00:05",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "4 - 8",
     "round": 1,
     "season": "High-A Midwest League 2026",
     "sport": "Baseball",
@@ -1889,9 +1864,9 @@
     "kickoff_time": "01:00",
     "match_date": "2026-06-18",
     "match_time": "01:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "13 - 11",
     "round": 1,
     "season": "Liga Elite 2026",
     "sport": "Baseball",
@@ -2314,8 +2289,8 @@
     "kickoff_time": "02:10",
     "match_date": "2026-06-18",
     "match_time": "02:10",
-    "status": "inprogress",
-    "status_desc": "8th Inning",
+    "status": "finished",
+    "status_desc": "Ended",
     "score": "5 - 4",
     "round": 1,
     "season": "MLB 2026",
@@ -2414,8 +2389,8 @@
     "kickoff_time": "02:40",
     "match_date": "2026-06-18",
     "match_time": "02:40",
-    "status": "inprogress",
-    "status_desc": "6th Inning",
+    "status": "finished",
+    "status_desc": "Ended",
     "score": "8 - 1",
     "round": 1,
     "season": "MLB 2026",
@@ -2439,9 +2414,9 @@
     "kickoff_time": "03:00",
     "match_date": "2026-06-18",
     "match_time": "03:00",
-    "status": "inprogress",
-    "status_desc": "2nd half",
-    "score": "3 - 2",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "4 - 2",
     "round": 1,
     "season": "World Cup 2026",
     "sport": "Football",
@@ -2489,9 +2464,9 @@
     "kickoff_time": "03:00",
     "match_date": "2026-06-18",
     "match_time": "03:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "5 - 7",
     "round": 1,
     "season": "Single-A California League 2026",
     "sport": "Baseball",
@@ -2590,8 +2565,8 @@
     "match_date": "2026-06-18",
     "match_time": "04:05",
     "status": "inprogress",
-    "status_desc": "1st Inning",
-    "score": "1 - 0",
+    "status_desc": "6th Inning",
+    "score": "1 - 2",
     "round": 1,
     "season": "Northwoods League 2026",
     "sport": "Baseball",
@@ -2615,8 +2590,8 @@
     "match_date": "2026-06-18",
     "match_time": "04:05",
     "status": "inprogress",
-    "status_desc": "2nd Inning",
-    "score": "1 - 1",
+    "status_desc": "Pause",
+    "score": "4 - 1",
     "round": 1,
     "season": "Northwoods League 2026",
     "sport": "Baseball",
@@ -2819,6 +2794,31 @@
     "score": "",
     "round": "",
     "season": "LMBP 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "EauClaireExpress-WausauWoodchucks",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Eau Claire Express",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453499/image"
+    },
+    "team2": {
+      "name": "Wausau Woodchucks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453482/image"
+    },
+    "kickoff_date": "2026-06-18",
+    "kickoff_time": "05:05",
+    "match_date": "2026-06-18",
+    "match_time": "05:05",
+    "status": "postponed",
+    "status_desc": "Postponed",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
     "sport": "Baseball",
     "gender": "M",
     "duration": "3.5",
@@ -3114,8 +3114,8 @@
     "kickoff_time": "05:35",
     "match_date": "2026-06-18",
     "match_time": "05:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "delayed",
+    "status_desc": "Start delayed",
     "score": "",
     "round": 1,
     "season": "Northwoods League 2026",
@@ -3139,9 +3139,9 @@
     "kickoff_time": "05:35",
     "match_date": "2026-06-18",
     "match_time": "05:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "2nd Inning",
+    "score": "2 - 2",
     "round": 1,
     "season": "Northwoods League 2026",
     "sport": "Baseball",
@@ -3414,9 +3414,9 @@
     "kickoff_time": "05:45",
     "match_date": "2026-06-18",
     "match_time": "05:45",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "1st Inning",
+    "score": "0 - 0",
     "round": 1,
     "season": "MLB 2026",
     "sport": "Baseball",
@@ -3564,9 +3564,9 @@
     "kickoff_time": "06:00",
     "match_date": "2026-06-18",
     "match_time": "06:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "1st half",
+    "score": "0 - 0",
     "round": 1,
     "season": "World Cup 2026",
     "sport": "Football",
@@ -3589,8 +3589,8 @@
     "kickoff_time": "06:00",
     "match_date": "2026-06-18",
     "match_time": "06:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "postponed",
+    "status_desc": "Postponed",
     "score": "",
     "round": 1,
     "season": "USL Championship 2026",
@@ -3639,9 +3639,9 @@
     "kickoff_time": "06:00",
     "match_date": "2026-06-18",
     "match_time": "06:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
+    "score": "6 - 4",
     "round": 1,
     "season": "WNBA 2026",
     "sport": "Basketball",
@@ -3670,6 +3670,31 @@
     "round": 14,
     "season": "U20 Paulista 2026",
     "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "TigresdeQuintanaRoo-SultanesdeMonterrey",
+    "league": "Mexico - Mexican League",
+    "team1": {
+      "name": "Tigres de Quintana Roo",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/66412/image"
+    },
+    "team2": {
+      "name": "Sultanes de Monterrey",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/66396/image"
+    },
+    "kickoff_date": "2026-06-18",
+    "kickoff_time": "06:00",
+    "match_date": "2026-06-18",
+    "match_time": "06:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Mexican League 2026",
+    "sport": "Baseball",
     "gender": "M",
     "duration": "3.5",
     "servers": []
@@ -3914,8 +3939,8 @@
     "kickoff_time": "06:05",
     "match_date": "2026-06-18",
     "match_time": "06:05",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "postponed",
+    "status_desc": "Postponed",
     "score": "",
     "round": 1,
     "season": "Triple-A International League 2026",
@@ -4239,9 +4264,9 @@
     "kickoff_time": "06:30",
     "match_date": "2026-06-18",
     "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
+    "score": "5 - 7",
     "round": 51,
     "season": "LNB 2026",
     "sport": "Basketball",
@@ -4334,31 +4359,6 @@
     "team2": {
       "name": "Minnesota Mud Puppies",
       "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453501/image"
-    },
-    "kickoff_date": "2026-06-18",
-    "kickoff_time": "06:35",
-    "match_date": "2026-06-18",
-    "match_time": "06:35",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Northwoods League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "EauClaireExpress-WausauWoodchucks",
-    "league": "USA - Northwoods League",
-    "team1": {
-      "name": "Eau Claire Express",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453499/image"
-    },
-    "team2": {
-      "name": "Wausau Woodchucks",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453482/image"
     },
     "kickoff_date": "2026-06-18",
     "kickoff_time": "06:35",
@@ -5175,31 +5175,6 @@
     "servers": []
   },
   {
-    "id": "TigresdeQuintanaRoo-SultanesdeMonterrey",
-    "league": "Mexico - Mexican League",
-    "team1": {
-      "name": "Tigres de Quintana Roo",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/66412/image"
-    },
-    "team2": {
-      "name": "Sultanes de Monterrey",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/66396/image"
-    },
-    "kickoff_date": "2026-06-18",
-    "kickoff_time": "07:30",
-    "match_date": "2026-06-18",
-    "match_time": "07:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Mexican League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "GreatFallsVoyagers-GlacierRangeRiders",
     "league": "USA - MiLB, Pioneer League",
     "team1": {
@@ -5669,6 +5644,31 @@
     "score": "",
     "round": 1,
     "season": "Mexican League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "EauClaireExpress-WausauWoodchucks",
+    "league": "USA - Northwoods League",
+    "team1": {
+      "name": "Eau Claire Express",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453499/image"
+    },
+    "team2": {
+      "name": "Wausau Woodchucks",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453482/image"
+    },
+    "kickoff_date": "2026-06-18",
+    "kickoff_time": "08:35",
+    "match_date": "2026-06-18",
+    "match_time": "08:35",
+    "status": "postponed",
+    "status_desc": "Postponed",
+    "score": "",
+    "round": 1,
+    "season": "Northwoods League 2026",
     "sport": "Baseball",
     "gender": "M",
     "duration": "3.5",
@@ -11950,6 +11950,31 @@
     "servers": []
   },
   {
+    "id": "FCBaraCyber-MaccabiTACyber",
+    "league": "Virtual Basketball - Euroleague: regular season",
+    "team1": {
+      "name": "FC Barça (Cyber)",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1105834/image"
+    },
+    "team2": {
+      "name": "Maccabi TA (Cyber)",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1105827/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "01:30",
+    "match_date": "2026-06-19",
+    "match_time": "01:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 15,
+    "season": "2K26 Cyber Euro League 2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "TexasRangers-MinnesotaTwins",
     "league": "USA - MLB",
     "team1": {
@@ -18000,6 +18025,56 @@
     "servers": []
   },
   {
+    "id": "StPaulSaints-OmahaStormChasers",
+    "league": "USA - MiLB, Triple-A International League",
+    "team1": {
+      "name": "St. Paul Saints",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/454245/image"
+    },
+    "team2": {
+      "name": "Omaha Storm Chasers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/304261/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "07:37",
+    "match_date": "2026-06-19",
+    "match_time": "07:37",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Triple-A International League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "StPaulSaints-OmahaStormChasers",
+    "league": "USA - MiLB, Triple-A International League",
+    "team1": {
+      "name": "St. Paul Saints",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/454245/image"
+    },
+    "team2": {
+      "name": "Omaha Storm Chasers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/304261/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "07:37",
+    "match_date": "2026-06-19",
+    "match_time": "07:37",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Triple-A International League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "Mexico-SouthKorea",
     "league": "World - FIFA World Cup, Group A",
     "team1": {
@@ -24025,6 +24100,31 @@
     "servers": []
   },
   {
+    "id": "ECSOESBSofiaCyber-DolomitiTrentoCyber",
+    "league": "Virtual Basketball - Group B",
+    "team1": {
+      "name": "ECSO/ESB Sofia (Cyber)",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1218396/image"
+    },
+    "team2": {
+      "name": "Dolomiti Trento (Cyber)",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1106569/image"
+    },
+    "kickoff_date": "2026-06-20",
+    "kickoff_time": "01:00",
+    "match_date": "2026-06-20",
+    "match_time": "01:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 7,
+    "season": "Cyber EuroCup 2026",
+    "sport": "Basketball",
+    "gender": "",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "MulhouseBasketAgglomration-LevalloisMetropolitansBasketball",
     "league": "France - Nationale 1, Playoffs",
     "team1": {
@@ -24100,6 +24200,31 @@
     "servers": []
   },
   {
+    "id": "ECSOESBSofiaCyber-DolomitiTrentoCyber",
+    "league": "Virtual Basketball - Group B",
+    "team1": {
+      "name": "ECSO/ESB Sofia (Cyber)",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1218396/image"
+    },
+    "team2": {
+      "name": "Dolomiti Trento (Cyber)",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1106569/image"
+    },
+    "kickoff_date": "2026-06-20",
+    "kickoff_time": "01:00",
+    "match_date": "2026-06-20",
+    "match_time": "01:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 7,
+    "season": "Cyber EuroCup 2026",
+    "sport": "Basketball",
+    "gender": "",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "CachorrosdeHolguin-LeadoresdeLasTunas",
     "league": "Cuba - Liga Elite",
     "team1": {
@@ -27850,6 +27975,56 @@
     "servers": []
   },
   {
+    "id": "DeportivoSanJosW-OlimpiaQueensW",
+    "league": "Paraguay - LNBF , PLAYOFF B",
+    "team1": {
+      "name": "Deportivo San José W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130135/image"
+    },
+    "team2": {
+      "name": "Olimpia Queens W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130133/image"
+    },
+    "kickoff_date": "2026-06-20",
+    "kickoff_time": "06:00",
+    "match_date": "2026-06-20",
+    "match_time": "06:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Apertura 2026 ",
+    "sport": "Basketball",
+    "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "DeportivoSanJosW-OlimpiaQueensW",
+    "league": "Paraguay - LNBF , PLAYOFF B",
+    "team1": {
+      "name": "Deportivo San José W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130135/image"
+    },
+    "team2": {
+      "name": "Olimpia Queens W",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130133/image"
+    },
+    "kickoff_date": "2026-06-20",
+    "kickoff_time": "06:00",
+    "match_date": "2026-06-20",
+    "match_time": "06:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Apertura 2026 ",
+    "sport": "Basketball",
+    "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "GreenevilleFlyboys-DanvilleOtterbots",
     "league": "USA - Appalachian League",
     "team1": {
@@ -29575,31 +29750,6 @@
     "servers": []
   },
   {
-    "id": "DeportivoSanJosW-OlimpiaQueensW",
-    "league": "Paraguay - LNBF , PLAYOFF B",
-    "team1": {
-      "name": "Deportivo San José W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130135/image"
-    },
-    "team2": {
-      "name": "Olimpia Queens W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130133/image"
-    },
-    "kickoff_date": "2026-06-20",
-    "kickoff_time": "06:30",
-    "match_date": "2026-06-20",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Apertura 2026 ",
-    "sport": "Basketball",
-    "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "ConnecticutSunW-TorontoTempoW",
     "league": "USA - WNBA",
     "team1": {
@@ -29709,31 +29859,6 @@
     "team2": {
       "name": "Felix Perez Cardozo W",
       "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/415223/image"
-    },
-    "kickoff_date": "2026-06-20",
-    "kickoff_time": "06:30",
-    "match_date": "2026-06-20",
-    "match_time": "06:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Apertura 2026 ",
-    "sport": "Basketball",
-    "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "DeportivoSanJosW-OlimpiaQueensW",
-    "league": "Paraguay - LNBF , PLAYOFF B",
-    "team1": {
-      "name": "Deportivo San José W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130135/image"
-    },
-    "team2": {
-      "name": "Olimpia Queens W",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1130133/image"
     },
     "kickoff_date": "2026-06-20",
     "kickoff_time": "06:30",
