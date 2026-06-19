@@ -1550,31 +1550,6 @@
     "servers": []
   },
   {
-    "id": "RedSoxFCL-PiratesFCL",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "Red Sox FCL",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453286/image"
-    },
-    "team2": {
-      "name": "Pirates FCL",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453282/image"
-    },
-    "kickoff_date": "2026-06-18",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-18",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "RichmondFlyingMummies-RoyalOakLeprechauns",
     "league": "USA - Northwoods League",
     "team1": {
@@ -2839,8 +2814,8 @@
     "kickoff_time": "04:00",
     "match_date": "2026-06-19",
     "match_time": "04:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "canceled",
+    "status_desc": "Abandoned",
     "score": "",
     "round": "",
     "season": "LMBP 2026",
@@ -3414,8 +3389,8 @@
     "kickoff_time": "05:30",
     "match_date": "2026-06-19",
     "match_time": "05:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "postponed",
+    "status_desc": "Postponed",
     "score": "",
     "round": 1,
     "season": "Atlantic League 2026",
@@ -3989,9 +3964,9 @@
     "kickoff_time": "05:50",
     "match_date": "2026-06-19",
     "match_time": "05:50",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "12 - 13",
     "round": 1,
     "season": "Frontier League 2026",
     "sport": "Baseball",
@@ -4494,31 +4469,6 @@
     "score": "",
     "round": 1,
     "season": "Triple-A International League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "PensacolaBlueWahoos-BirminghamBarons",
-    "league": "USA - MiLB, Double-A Southern League",
-    "team1": {
-      "name": "Pensacola Blue Wahoos",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453454/image"
-    },
-    "team2": {
-      "name": "Birmingham Barons",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453456/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "06:05",
-    "match_date": "2026-06-19",
-    "match_time": "06:05",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Double-A Southern League 2026",
     "sport": "Baseball",
     "gender": "M",
     "duration": "3.5",
@@ -6589,9 +6539,9 @@
     "kickoff_time": "14:00",
     "match_date": "2026-06-19",
     "match_time": "14:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "9 - 4",
     "round": 1,
     "season": "NZIHL 2026",
     "sport": "Ice hockey",
@@ -6614,8 +6564,8 @@
     "kickoff_time": "14:30",
     "match_date": "2026-06-19",
     "match_time": "14:30",
-    "status": "inprogress",
-    "status_desc": "1st half",
+    "status": "finished",
+    "status_desc": "Ended",
     "score": "1 - 0",
     "round": 4,
     "season": "FA Cup 2026",
@@ -6639,9 +6589,9 @@
     "kickoff_time": "14:30",
     "match_date": "2026-06-19",
     "match_time": "14:30",
-    "status": "inprogress",
-    "status_desc": "1st half",
-    "score": "0 - 1",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "1 - 2",
     "round": 4,
     "season": "FA Cup 2026",
     "sport": "Football",
@@ -6664,9 +6614,9 @@
     "kickoff_time": "14:30",
     "match_date": "2026-06-19",
     "match_time": "14:30",
-    "status": "inprogress",
-    "status_desc": "1st half",
-    "score": "1 - 1",
+    "status": "finished",
+    "status_desc": "AP",
+    "score": "5 - 6",
     "round": 4,
     "season": "FA Cup 2026",
     "sport": "Football",
@@ -6689,9 +6639,9 @@
     "kickoff_time": "14:30",
     "match_date": "2026-06-19",
     "match_time": "14:30",
-    "status": "inprogress",
-    "status_desc": "2nd quarter",
-    "score": "35 - 24",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "101 - 69",
     "round": 1,
     "season": "NBL 2026",
     "sport": "Basketball",
@@ -6714,9 +6664,9 @@
     "kickoff_time": "15:00",
     "match_date": "2026-06-19",
     "match_time": "15:00",
-    "status": "inprogress",
-    "status_desc": "1st quarter",
-    "score": "26 - 27",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "99 - 81",
     "round": 11,
     "season": "NBL1 South, Women 2026",
     "sport": "Basketball",
@@ -6739,8 +6689,8 @@
     "kickoff_time": "15:05",
     "match_date": "2026-06-19",
     "match_time": "15:05",
-    "status": "inprogress",
-    "status_desc": "1st Inning",
+    "status": "finished",
+    "status_desc": "Ended",
     "score": "0 - 1",
     "round": 1,
     "season": "CPBL 2026",
@@ -6764,9 +6714,9 @@
     "kickoff_time": "15:30",
     "match_date": "2026-06-19",
     "match_time": "15:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "91 - 69",
     "round": 10,
     "season": "NBL1 North, Women 2026",
     "sport": "Basketball",
@@ -6789,9 +6739,9 @@
     "kickoff_time": "16:00",
     "match_date": "2026-06-19",
     "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "9th Inning",
+    "score": "8 - 4",
     "round": 1,
     "season": "NPB 2026",
     "sport": "Baseball",
@@ -6814,9 +6764,9 @@
     "kickoff_time": "16:00",
     "match_date": "2026-06-19",
     "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "4 - 3",
     "round": 1,
     "season": "NPB 2026",
     "sport": "Baseball",
@@ -6839,9 +6789,9 @@
     "kickoff_time": "16:00",
     "match_date": "2026-06-19",
     "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "9th Inning",
+    "score": "4 - 5",
     "round": 1,
     "season": "NPB 2026",
     "sport": "Baseball",
@@ -6864,9 +6814,9 @@
     "kickoff_time": "16:00",
     "match_date": "2026-06-19",
     "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "9 - 2",
     "round": 1,
     "season": "NPB 2026",
     "sport": "Baseball",
@@ -6889,9 +6839,9 @@
     "kickoff_time": "16:00",
     "match_date": "2026-06-19",
     "match_time": "16:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "2 - 3",
     "round": 1,
     "season": "NPB 2026",
     "sport": "Baseball",
@@ -6914,9 +6864,9 @@
     "kickoff_time": "16:05",
     "match_date": "2026-06-19",
     "match_time": "16:05",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "8th Inning",
+    "score": "4 - 11",
     "round": 1,
     "season": "CPBL 2026",
     "sport": "Baseball",
@@ -6939,9 +6889,9 @@
     "kickoff_time": "16:05",
     "match_date": "2026-06-19",
     "match_time": "16:05",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "9th Inning",
+    "score": "3 - 11",
     "round": 1,
     "season": "CPBL 2026",
     "sport": "Baseball",
@@ -6964,9 +6914,9 @@
     "kickoff_time": "16:15",
     "match_date": "2026-06-19",
     "match_time": "16:15",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "3 - 11",
     "round": 1,
     "season": "NPB 2026",
     "sport": "Baseball",
@@ -6989,9 +6939,9 @@
     "kickoff_time": "16:30",
     "match_date": "2026-06-19",
     "match_time": "16:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "83 - 67",
     "round": 11,
     "season": "NBL1 South, Women 2026",
     "sport": "Basketball",
@@ -7014,9 +6964,9 @@
     "kickoff_time": "16:30",
     "match_date": "2026-06-19",
     "match_time": "16:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "9th Inning",
+    "score": "3 - 3",
     "round": 1,
     "season": "KBO League 2026",
     "sport": "Baseball",
@@ -7039,9 +6989,9 @@
     "kickoff_time": "16:30",
     "match_date": "2026-06-19",
     "match_time": "16:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "1 - 2",
     "round": 1,
     "season": "KBO League 2026",
     "sport": "Baseball",
@@ -7064,9 +7014,9 @@
     "kickoff_time": "16:30",
     "match_date": "2026-06-19",
     "match_time": "16:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Pause",
+    "score": "2 - 11",
     "round": 1,
     "season": "KBO League 2026",
     "sport": "Baseball",
@@ -7089,9 +7039,9 @@
     "kickoff_time": "16:30",
     "match_date": "2026-06-19",
     "match_time": "16:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "3 - 2",
     "round": 1,
     "season": "KBO League 2026",
     "sport": "Baseball",
@@ -7114,8 +7064,8 @@
     "kickoff_time": "16:30",
     "match_date": "2026-06-19",
     "match_time": "16:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "interrupted",
+    "status_desc": "Interrupted",
     "score": "",
     "round": 1,
     "season": "KBO League 2026",
@@ -7139,9 +7089,9 @@
     "kickoff_time": "17:00",
     "match_date": "2026-06-19",
     "match_time": "17:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "99 - 82",
     "round": 11,
     "season": "NBL1, South 2026",
     "sport": "Basketball",
@@ -7164,9 +7114,9 @@
     "kickoff_time": "17:00",
     "match_date": "2026-06-19",
     "match_time": "17:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "69 - 46",
     "round": 7,
     "season": "Cyber EuroCup 2026",
     "sport": "Basketball",
@@ -7189,9 +7139,9 @@
     "kickoff_time": "17:00",
     "match_date": "2026-06-19",
     "match_time": "17:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "99 - 82",
     "round": 11,
     "season": "NBL1, South 2026",
     "sport": "Basketball",
@@ -7214,9 +7164,9 @@
     "kickoff_time": "17:00",
     "match_date": "2026-06-19",
     "match_time": "17:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "69 - 46",
     "round": 7,
     "season": "Cyber EuroCup 2026",
     "sport": "Basketball",
@@ -7239,9 +7189,9 @@
     "kickoff_time": "17:20",
     "match_date": "2026-06-19",
     "match_time": "17:20",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "AET",
+    "score": "116 - 111",
     "round": 13,
     "season": "NBL1 West, Women 2026",
     "sport": "Basketball",
@@ -7264,9 +7214,9 @@
     "kickoff_time": "17:20",
     "match_date": "2026-06-19",
     "match_time": "17:20",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "AET",
+    "score": "100 - 93",
     "round": 13,
     "season": "NBL1 West, Women 2026",
     "sport": "Basketball",
@@ -7289,9 +7239,9 @@
     "kickoff_time": "17:20",
     "match_date": "2026-06-19",
     "match_time": "17:20",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "AET",
+    "score": "116 - 111",
     "round": 13,
     "season": "NBL1 West, Women 2026",
     "sport": "Basketball",
@@ -7314,9 +7264,9 @@
     "kickoff_time": "17:20",
     "match_date": "2026-06-19",
     "match_time": "17:20",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "AET",
+    "score": "100 - 93",
     "round": 13,
     "season": "NBL1 West, Women 2026",
     "sport": "Basketball",
@@ -7339,9 +7289,9 @@
     "kickoff_time": "17:30",
     "match_date": "2026-06-19",
     "match_time": "17:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "2nd half",
+    "score": "1 - 2",
     "round": 15,
     "season": "Queensland Premier League 1 2026",
     "sport": "Football",
@@ -7364,9 +7314,9 @@
     "kickoff_time": "17:30",
     "match_date": "2026-06-19",
     "match_time": "17:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "2 - 1",
     "round": 15,
     "season": "Queensland Premier League 1 2026",
     "sport": "Football",
@@ -7389,9 +7339,9 @@
     "kickoff_time": "17:30",
     "match_date": "2026-06-19",
     "match_time": "17:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "2nd half",
+    "score": "1 - 2",
     "round": 15,
     "season": "Queensland Premier League 1 2026",
     "sport": "Football",
@@ -7414,9 +7364,9 @@
     "kickoff_time": "17:30",
     "match_date": "2026-06-19",
     "match_time": "17:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "2 - 1",
     "round": 15,
     "season": "Queensland Premier League 1 2026",
     "sport": "Football",
@@ -7439,9 +7389,9 @@
     "kickoff_time": "17:30",
     "match_date": "2026-06-19",
     "match_time": "17:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "86 - 96",
     "round": 10,
     "season": "NBL1, North 2026",
     "sport": "Basketball",
@@ -7464,9 +7414,9 @@
     "kickoff_time": "17:30",
     "match_date": "2026-06-19",
     "match_time": "17:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "89 - 80",
     "round": 13,
     "season": "NBL1 West, Women 2026",
     "sport": "Basketball",
@@ -7489,9 +7439,9 @@
     "kickoff_time": "17:30",
     "match_date": "2026-06-19",
     "match_time": "17:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "86 - 96",
     "round": 10,
     "season": "NBL1, North 2026",
     "sport": "Basketball",
@@ -7514,9 +7464,9 @@
     "kickoff_time": "17:30",
     "match_date": "2026-06-19",
     "match_time": "17:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "89 - 80",
     "round": 13,
     "season": "NBL1 West, Women 2026",
     "sport": "Basketball",
@@ -7539,9 +7489,9 @@
     "kickoff_time": "18:00",
     "match_date": "2026-06-19",
     "match_time": "18:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "2nd half",
+    "score": "1 - 0",
     "round": 4,
     "season": "FA Cup 2026",
     "sport": "Football",
@@ -7564,9 +7514,9 @@
     "kickoff_time": "18:00",
     "match_date": "2026-06-19",
     "match_time": "18:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "2nd half",
+    "score": "0 - 3",
     "round": 4,
     "season": "FA Cup 2026",
     "sport": "Football",
@@ -7589,9 +7539,9 @@
     "kickoff_time": "18:00",
     "match_date": "2026-06-19",
     "match_time": "18:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "2nd half",
+    "score": "1 - 0",
     "round": 4,
     "season": "FA Cup 2026",
     "sport": "Football",
@@ -7614,9 +7564,9 @@
     "kickoff_time": "18:00",
     "match_date": "2026-06-19",
     "match_time": "18:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "2nd half",
+    "score": "0 - 3",
     "round": 4,
     "season": "FA Cup 2026",
     "sport": "Football",
@@ -7639,9 +7589,9 @@
     "kickoff_time": "18:30",
     "match_date": "2026-06-19",
     "match_time": "18:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Halftime",
+    "score": "0 - 1",
     "round": 4,
     "season": "FA Cup 2026",
     "sport": "Football",
@@ -7664,9 +7614,9 @@
     "kickoff_time": "18:30",
     "match_date": "2026-06-19",
     "match_time": "18:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Halftime",
+    "score": "0 - 1",
     "round": 4,
     "season": "FA Cup 2026",
     "sport": "Football",
@@ -7689,9 +7639,9 @@
     "kickoff_time": "18:30",
     "match_date": "2026-06-19",
     "match_time": "18:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Halftime",
+    "score": "0 - 0",
     "round": 4,
     "season": "FA Cup 2026",
     "sport": "Football",
@@ -7714,9 +7664,9 @@
     "kickoff_time": "18:30",
     "match_date": "2026-06-19",
     "match_time": "18:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Halftime",
+    "score": "1 - 1",
     "round": 4,
     "season": "FA Cup 2026",
     "sport": "Football",
@@ -7739,9 +7689,9 @@
     "kickoff_time": "18:30",
     "match_date": "2026-06-19",
     "match_time": "18:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Halftime",
+    "score": "0 - 1",
     "round": 4,
     "season": "FA Cup 2026",
     "sport": "Football",
@@ -7764,9 +7714,9 @@
     "kickoff_time": "18:30",
     "match_date": "2026-06-19",
     "match_time": "18:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Halftime",
+    "score": "0 - 1",
     "round": 4,
     "season": "FA Cup 2026",
     "sport": "Football",
@@ -7789,9 +7739,9 @@
     "kickoff_time": "18:30",
     "match_date": "2026-06-19",
     "match_time": "18:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Halftime",
+    "score": "0 - 0",
     "round": 4,
     "season": "FA Cup 2026",
     "sport": "Football",
@@ -7814,37 +7764,12 @@
     "kickoff_time": "18:30",
     "match_date": "2026-06-19",
     "match_time": "18:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "Halftime",
+    "score": "1 - 1",
     "round": 4,
     "season": "FA Cup 2026",
     "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "MountGambierPioneers-KilsythCobras",
-    "league": "Australia - NBL1, South",
-    "team1": {
-      "name": "Mount Gambier Pioneers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/216915/image"
-    },
-    "team2": {
-      "name": "Kilsyth Cobras",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/216911/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "18:30",
-    "match_date": "2026-06-19",
-    "match_time": "18:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 11,
-    "season": "NBL1, South 2026",
-    "sport": "Basketball",
     "gender": "M",
     "duration": "3.5",
     "servers": []
@@ -7864,9 +7789,9 @@
     "kickoff_time": "18:30",
     "match_date": "2026-06-19",
     "match_time": "18:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "34 - 58",
     "round": 12,
     "season": "2K26 Cyber Euro League 2026",
     "sport": "Basketball",
@@ -7875,31 +7800,6 @@
     "servers": []
   },
   {
-    "id": "MountGambierPioneers-KilsythCobras",
-    "league": "Australia - NBL1, South",
-    "team1": {
-      "name": "Mount Gambier Pioneers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/216915/image"
-    },
-    "team2": {
-      "name": "Kilsyth Cobras",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/216911/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "18:30",
-    "match_date": "2026-06-19",
-    "match_time": "18:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 11,
-    "season": "NBL1, South 2026",
-    "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "algirisKaunasCyber-HapoelIBICyber",
     "league": "Virtual Basketball - Euroleague: regular season",
     "team1": {
@@ -7914,9 +7814,9 @@
     "kickoff_time": "18:30",
     "match_date": "2026-06-19",
     "match_time": "18:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "finished",
+    "status_desc": "Ended",
+    "score": "34 - 58",
     "round": 12,
     "season": "2K26 Cyber Euro League 2026",
     "sport": "Basketball",
@@ -7939,9 +7839,9 @@
     "kickoff_time": "19:00",
     "match_date": "2026-06-19",
     "match_time": "19:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "2nd quarter",
+    "score": "25 - 24",
     "round": 29,
     "season": "IBL 2026",
     "sport": "Basketball",
@@ -7964,9 +7864,9 @@
     "kickoff_time": "19:00",
     "match_date": "2026-06-19",
     "match_time": "19:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
+    "status": "inprogress",
+    "status_desc": "2nd quarter",
+    "score": "25 - 24",
     "round": 29,
     "season": "IBL 2026",
     "sport": "Basketball",
@@ -8025,6 +7925,31 @@
     "servers": []
   },
   {
+    "id": "MountGambierPioneers-KilsythCobras",
+    "league": "Australia - NBL1, South",
+    "team1": {
+      "name": "Mount Gambier Pioneers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/216915/image"
+    },
+    "team2": {
+      "name": "Kilsyth Cobras",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/216911/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "19:10",
+    "match_date": "2026-06-19",
+    "match_time": "19:10",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
+    "score": "26 - 14",
+    "round": 11,
+    "season": "NBL1, South 2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "CockburnCougars-LakesideLightning",
     "league": "Australia - NBL1, West",
     "team1": {
@@ -8069,6 +7994,31 @@
     "score": "",
     "round": 13,
     "season": "NBL1, West 2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "MountGambierPioneers-KilsythCobras",
+    "league": "Australia - NBL1, South",
+    "team1": {
+      "name": "Mount Gambier Pioneers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/216915/image"
+    },
+    "team2": {
+      "name": "Kilsyth Cobras",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/216911/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "19:10",
+    "match_date": "2026-06-19",
+    "match_time": "19:10",
+    "status": "inprogress",
+    "status_desc": "1st quarter",
+    "score": "26 - 14",
+    "round": 11,
+    "season": "NBL1, South 2026",
     "sport": "Basketball",
     "gender": "M",
     "duration": "3.5",
@@ -9700,31 +9650,6 @@
     "servers": []
   },
   {
-    "id": "FCKoper-KFShkndija",
-    "league": "World - Club Friendly Games",
-    "team1": {
-      "name": "FC Koper",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2417/image"
-    },
-    "team2": {
-      "name": "KF Shkëndija",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5413/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "22:30",
-    "match_date": "2026-06-19",
-    "match_time": "22:30",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Club Friendly Games 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "ETOFCGyr-GrazerAK1902",
     "league": "World - Club Friendly Games",
     "team1": {
@@ -9750,6 +9675,556 @@
     "servers": []
   },
   {
+    "id": "FKRiteriai-FCHegelmann",
+    "league": "Lithuania - TOPLYGA",
+    "team1": {
+      "name": "FK Riteriai",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/310557/image"
+    },
+    "team2": {
+      "name": "FC Hegelmann",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/171484/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "canceled",
+    "status_desc": "Canceled",
+    "score": "",
+    "round": 18,
+    "season": "TOPLYGA 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "NKRae-NKAluminijKidrievo",
+    "league": "World - Club Friendly Games",
+    "team1": {
+      "name": "NK Rače",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/325202/image"
+    },
+    "team2": {
+      "name": "NK Aluminij Kidričevo",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2424/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Club Friendly Games 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FKRiteriai-FCHegelmann",
+    "league": "Lithuania - TOPLYGA",
+    "team1": {
+      "name": "FK Riteriai",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/310557/image"
+    },
+    "team2": {
+      "name": "FC Hegelmann",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/171484/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "canceled",
+    "status_desc": "Canceled",
+    "score": "",
+    "round": 18,
+    "season": "TOPLYGA 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "NKRae-NKAluminijKidrievo",
+    "league": "World - Club Friendly Games",
+    "team1": {
+      "name": "NK Rače",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/325202/image"
+    },
+    "team2": {
+      "name": "NK Aluminij Kidričevo",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2424/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Club Friendly Games 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "WydadAC-IttihadDeTanger",
+    "league": "Morocco - Division Excellence, Playoff",
+    "team1": {
+      "name": "Wydad AC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/285648/image"
+    },
+    "team2": {
+      "name": "Ittihad De Tanger",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1151093/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 27,
+    "season": "25/26",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "WydadAC-IttihadDeTanger",
+    "league": "Morocco - Division Excellence, Playoff",
+    "team1": {
+      "name": "Wydad AC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/285648/image"
+    },
+    "team2": {
+      "name": "Ittihad De Tanger",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1151093/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 27,
+    "season": "25/26",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ZelayaCentral-Carazo",
+    "league": "Nicaragua - Campeonato GPO",
+    "team1": {
+      "name": "Zelaya Central",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077544/image"
+    },
+    "team2": {
+      "name": "Carazo",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077744/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 15,
+    "season": "Campeonato GPO 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FCLAstros-FCLMarlins",
+    "league": "USA - MiLB, Florida Complex League",
+    "team1": {
+      "name": "FCL Astros",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453299/image"
+    },
+    "team2": {
+      "name": "FCL Marlins",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453284/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Florida Complex League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FCLCardinals-FCLNationals",
+    "league": "USA - MiLB, Florida Complex League",
+    "team1": {
+      "name": "FCL Cardinals",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453289/image"
+    },
+    "team2": {
+      "name": "FCL Nationals",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453285/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Florida Complex League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FCLPhillies-FCLTigers",
+    "league": "USA - MiLB, Florida Complex League",
+    "team1": {
+      "name": "FCL Phillies",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453290/image"
+    },
+    "team2": {
+      "name": "FCL Tigers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453280/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Florida Complex League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FCLRays-FCLBraves",
+    "league": "USA - MiLB, Florida Complex League",
+    "team1": {
+      "name": "FCL Rays",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453278/image"
+    },
+    "team2": {
+      "name": "FCL Braves",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453287/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Florida Complex League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FCLTwins-RedSoxFCL",
+    "league": "USA - MiLB, Florida Complex League",
+    "team1": {
+      "name": "FCL Twins",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453283/image"
+    },
+    "team2": {
+      "name": "Red Sox FCL",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453286/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Florida Complex League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FCLYankees-FCLBlueJays",
+    "league": "USA - MiLB, Florida Complex League",
+    "team1": {
+      "name": "FCL Yankees",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453281/image"
+    },
+    "team2": {
+      "name": "FCL Blue Jays",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453291/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Florida Complex League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "OriolesFCL-PiratesFCL",
+    "league": "USA - MiLB, Florida Complex League",
+    "team1": {
+      "name": "Orioles FCL",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453279/image"
+    },
+    "team2": {
+      "name": "Pirates FCL",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453282/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Florida Complex League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "ZelayaCentral-Carazo",
+    "league": "Nicaragua - Campeonato GPO",
+    "team1": {
+      "name": "Zelaya Central",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077544/image"
+    },
+    "team2": {
+      "name": "Carazo",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077744/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 15,
+    "season": "Campeonato GPO 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FCLAstros-FCLMarlins",
+    "league": "USA - MiLB, Florida Complex League",
+    "team1": {
+      "name": "FCL Astros",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453299/image"
+    },
+    "team2": {
+      "name": "FCL Marlins",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453284/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Florida Complex League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FCLCardinals-FCLNationals",
+    "league": "USA - MiLB, Florida Complex League",
+    "team1": {
+      "name": "FCL Cardinals",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453289/image"
+    },
+    "team2": {
+      "name": "FCL Nationals",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453285/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Florida Complex League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FCLPhillies-FCLTigers",
+    "league": "USA - MiLB, Florida Complex League",
+    "team1": {
+      "name": "FCL Phillies",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453290/image"
+    },
+    "team2": {
+      "name": "FCL Tigers",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453280/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Florida Complex League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FCLRays-FCLBraves",
+    "league": "USA - MiLB, Florida Complex League",
+    "team1": {
+      "name": "FCL Rays",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453278/image"
+    },
+    "team2": {
+      "name": "FCL Braves",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453287/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Florida Complex League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FCLTwins-RedSoxFCL",
+    "league": "USA - MiLB, Florida Complex League",
+    "team1": {
+      "name": "FCL Twins",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453283/image"
+    },
+    "team2": {
+      "name": "Red Sox FCL",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453286/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Florida Complex League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FCLYankees-FCLBlueJays",
+    "league": "USA - MiLB, Florida Complex League",
+    "team1": {
+      "name": "FCL Yankees",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453281/image"
+    },
+    "team2": {
+      "name": "FCL Blue Jays",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453291/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Florida Complex League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "OriolesFCL-PiratesFCL",
+    "league": "USA - MiLB, Florida Complex League",
+    "team1": {
+      "name": "Orioles FCL",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453279/image"
+    },
+    "team2": {
+      "name": "Pirates FCL",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453282/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-06-19",
+    "match_time": "23:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 1,
+    "season": "Florida Complex League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "FCKoper-KFShkndija",
     "league": "World - Club Friendly Games",
     "team1": {
@@ -9761,565 +10236,15 @@
       "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5413/image"
     },
     "kickoff_date": "2026-06-19",
-    "kickoff_time": "22:30",
+    "kickoff_time": "23:30",
     "match_date": "2026-06-19",
-    "match_time": "22:30",
+    "match_time": "23:30",
     "status": "notstarted",
     "status_desc": "Not started",
     "score": "",
     "round": "",
     "season": "Club Friendly Games 2026",
     "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FKRiteriai-FCHegelmann",
-    "league": "Lithuania - TOPLYGA",
-    "team1": {
-      "name": "FK Riteriai",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/310557/image"
-    },
-    "team2": {
-      "name": "FC Hegelmann",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/171484/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "canceled",
-    "status_desc": "Canceled",
-    "score": "",
-    "round": 18,
-    "season": "TOPLYGA 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "NKRae-NKAluminijKidrievo",
-    "league": "World - Club Friendly Games",
-    "team1": {
-      "name": "NK Rače",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/325202/image"
-    },
-    "team2": {
-      "name": "NK Aluminij Kidričevo",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2424/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Club Friendly Games 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FKRiteriai-FCHegelmann",
-    "league": "Lithuania - TOPLYGA",
-    "team1": {
-      "name": "FK Riteriai",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/310557/image"
-    },
-    "team2": {
-      "name": "FC Hegelmann",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/171484/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "canceled",
-    "status_desc": "Canceled",
-    "score": "",
-    "round": 18,
-    "season": "TOPLYGA 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "NKRae-NKAluminijKidrievo",
-    "league": "World - Club Friendly Games",
-    "team1": {
-      "name": "NK Rače",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/325202/image"
-    },
-    "team2": {
-      "name": "NK Aluminij Kidričevo",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2424/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Club Friendly Games 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "WydadAC-IttihadDeTanger",
-    "league": "Morocco - Division Excellence, Playoff",
-    "team1": {
-      "name": "Wydad AC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/285648/image"
-    },
-    "team2": {
-      "name": "Ittihad De Tanger",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1151093/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 27,
-    "season": "25/26",
-    "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "WydadAC-IttihadDeTanger",
-    "league": "Morocco - Division Excellence, Playoff",
-    "team1": {
-      "name": "Wydad AC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/285648/image"
-    },
-    "team2": {
-      "name": "Ittihad De Tanger",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1151093/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 27,
-    "season": "25/26",
-    "sport": "Basketball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "ZelayaCentral-Carazo",
-    "league": "Nicaragua - Campeonato GPO",
-    "team1": {
-      "name": "Zelaya Central",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077544/image"
-    },
-    "team2": {
-      "name": "Carazo",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077744/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 15,
-    "season": "Campeonato GPO 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FCLAstros-FCLMarlins",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "FCL Astros",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453299/image"
-    },
-    "team2": {
-      "name": "FCL Marlins",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453284/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FCLCardinals-FCLNationals",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "FCL Cardinals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453289/image"
-    },
-    "team2": {
-      "name": "FCL Nationals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453285/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FCLPhillies-FCLTigers",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "FCL Phillies",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453290/image"
-    },
-    "team2": {
-      "name": "FCL Tigers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453280/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FCLRays-FCLBraves",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "FCL Rays",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453278/image"
-    },
-    "team2": {
-      "name": "FCL Braves",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453287/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FCLTwins-RedSoxFCL",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "FCL Twins",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453283/image"
-    },
-    "team2": {
-      "name": "Red Sox FCL",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453286/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FCLYankees-FCLBlueJays",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "FCL Yankees",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453281/image"
-    },
-    "team2": {
-      "name": "FCL Blue Jays",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453291/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "OriolesFCL-PiratesFCL",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "Orioles FCL",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453279/image"
-    },
-    "team2": {
-      "name": "Pirates FCL",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453282/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "ZelayaCentral-Carazo",
-    "league": "Nicaragua - Campeonato GPO",
-    "team1": {
-      "name": "Zelaya Central",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077544/image"
-    },
-    "team2": {
-      "name": "Carazo",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1077744/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 15,
-    "season": "Campeonato GPO 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FCLAstros-FCLMarlins",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "FCL Astros",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453299/image"
-    },
-    "team2": {
-      "name": "FCL Marlins",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453284/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FCLCardinals-FCLNationals",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "FCL Cardinals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453289/image"
-    },
-    "team2": {
-      "name": "FCL Nationals",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453285/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FCLPhillies-FCLTigers",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "FCL Phillies",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453290/image"
-    },
-    "team2": {
-      "name": "FCL Tigers",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453280/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FCLRays-FCLBraves",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "FCL Rays",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453278/image"
-    },
-    "team2": {
-      "name": "FCL Braves",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453287/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FCLTwins-RedSoxFCL",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "FCL Twins",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453283/image"
-    },
-    "team2": {
-      "name": "Red Sox FCL",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453286/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "FCLYankees-FCLBlueJays",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "FCL Yankees",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453281/image"
-    },
-    "team2": {
-      "name": "FCL Blue Jays",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453291/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "OriolesFCL-PiratesFCL",
-    "league": "USA - MiLB, Florida Complex League",
-    "team1": {
-      "name": "Orioles FCL",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453279/image"
-    },
-    "team2": {
-      "name": "Pirates FCL",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453282/image"
-    },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "23:00",
-    "match_date": "2026-06-19",
-    "match_time": "23:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 1,
-    "season": "Florida Complex League 2026",
-    "sport": "Baseball",
     "gender": "M",
     "duration": "3.5",
     "servers": []
@@ -10334,6 +10259,31 @@
     "team2": {
       "name": "SV Oberwart",
       "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2139/image"
+    },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "23:30",
+    "match_date": "2026-06-19",
+    "match_time": "23:30",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Club Friendly Games 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "FCKoper-KFShkndija",
+    "league": "World - Club Friendly Games",
+    "team1": {
+      "name": "FC Koper",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/2417/image"
+    },
+    "team2": {
+      "name": "KF Shkëndija",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/5413/image"
     },
     "kickoff_date": "2026-06-19",
     "kickoff_time": "23:30",
@@ -12544,6 +12494,31 @@
     "score": "",
     "round": 1,
     "season": "Double-A Eastern League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "PensacolaBlueWahoos-BirminghamBarons",
+    "league": "USA - MiLB, Double-A Southern League",
+    "team1": {
+      "name": "Pensacola Blue Wahoos",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453454/image"
+    },
+    "team2": {
+      "name": "Birmingham Barons",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453456/image"
+    },
+    "kickoff_date": "2026-06-20",
+    "kickoff_time": "05:00",
+    "match_date": "2026-06-20",
+    "match_time": "05:00",
+    "status": "suspended",
+    "status_desc": "Suspended",
+    "score": "",
+    "round": 1,
+    "season": "Double-A Southern League 2026",
     "sport": "Baseball",
     "gender": "M",
     "duration": "3.5",
@@ -12619,6 +12594,31 @@
     "score": "",
     "round": 1,
     "season": "Double-A Eastern League 2026",
+    "sport": "Baseball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "PensacolaBlueWahoos-BirminghamBarons",
+    "league": "USA - MiLB, Double-A Southern League",
+    "team1": {
+      "name": "Pensacola Blue Wahoos",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453454/image"
+    },
+    "team2": {
+      "name": "Birmingham Barons",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/453456/image"
+    },
+    "kickoff_date": "2026-06-20",
+    "kickoff_time": "05:00",
+    "match_date": "2026-06-20",
+    "match_time": "05:00",
+    "status": "suspended",
+    "status_desc": "Suspended",
+    "score": "",
+    "round": 1,
+    "season": "Double-A Southern League 2026",
     "sport": "Baseball",
     "gender": "M",
     "duration": "3.5",
@@ -23125,6 +23125,31 @@
     "servers": []
   },
   {
+    "id": "NingboFC-ChongqingTonglianglongFC",
+    "league": "China - FA Cup",
+    "team1": {
+      "name": "Ningbo FC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/221238/image"
+    },
+    "team2": {
+      "name": "Chongqing Tonglianglong FC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/474989/image"
+    },
+    "kickoff_date": "2026-06-20",
+    "kickoff_time": "16:00",
+    "match_date": "2026-06-20",
+    "match_time": "16:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 4,
+    "season": "FA Cup 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "DAC1904-FCTK1914amorn",
     "league": "World - Club Friendly Games",
     "team1": {
@@ -23244,6 +23269,31 @@
     "score": "",
     "round": "",
     "season": "Club Friendly Games 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "NingboFC-ChongqingTonglianglongFC",
+    "league": "China - FA Cup",
+    "team1": {
+      "name": "Ningbo FC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/221238/image"
+    },
+    "team2": {
+      "name": "Chongqing Tonglianglong FC",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/474989/image"
+    },
+    "kickoff_date": "2026-06-20",
+    "kickoff_time": "16:00",
+    "match_date": "2026-06-20",
+    "match_time": "16:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 4,
+    "season": "FA Cup 2026",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
@@ -25675,31 +25725,6 @@
     "servers": []
   },
   {
-    "id": "NingboFC-ChongqingTonglianglongFC",
-    "league": "China - FA Cup",
-    "team1": {
-      "name": "Ningbo FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/221238/image"
-    },
-    "team2": {
-      "name": "Chongqing Tonglianglong FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/474989/image"
-    },
-    "kickoff_date": "2026-06-20",
-    "kickoff_time": "18:00",
-    "match_date": "2026-06-20",
-    "match_time": "18:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 4,
-    "season": "FA Cup 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "WuxiWugou-QingdaoHainiu",
     "league": "China - FA Cup",
     "team1": {
@@ -25750,31 +25775,6 @@
     "servers": []
   },
   {
-    "id": "NingboFC-ChongqingTonglianglongFC",
-    "league": "China - FA Cup",
-    "team1": {
-      "name": "Ningbo FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/221238/image"
-    },
-    "team2": {
-      "name": "Chongqing Tonglianglong FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/474989/image"
-    },
-    "kickoff_date": "2026-06-20",
-    "kickoff_time": "18:00",
-    "match_date": "2026-06-20",
-    "match_time": "18:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 4,
-    "season": "FA Cup 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "WuxiWugou-QingdaoHainiu",
     "league": "China - FA Cup",
     "team1": {
@@ -25819,31 +25819,6 @@
     "score": "",
     "round": 14,
     "season": "Premier League 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "NingboFC-ChongqingTonglianglongFC",
-    "league": "China - FA Cup",
-    "team1": {
-      "name": "Ningbo FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/221238/image"
-    },
-    "team2": {
-      "name": "Chongqing Tonglianglong FC",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/474989/image"
-    },
-    "kickoff_date": "2026-06-20",
-    "kickoff_time": "18:00",
-    "match_date": "2026-06-20",
-    "match_time": "18:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 4,
-    "season": "FA Cup 2026",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
@@ -27000,6 +26975,31 @@
     "servers": []
   },
   {
+    "id": "Grnikczna-FCDinamoBucureti",
+    "league": "World - Club Friendly Games",
+    "team1": {
+      "name": "Górnik Łęczna",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3125/image"
+    },
+    "team2": {
+      "name": "FC Dinamo București",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3292/image"
+    },
+    "kickoff_date": "2026-06-20",
+    "kickoff_time": "19:00",
+    "match_date": "2026-06-20",
+    "match_time": "19:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Club Friendly Games 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "PorsGrenland-EikTnsberg",
     "league": "Norway - 2nd Division, Group 1",
     "team1": {
@@ -27109,6 +27109,31 @@
     "team2": {
       "name": "HamKam",
       "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/666/image"
+    },
+    "kickoff_date": "2026-06-20",
+    "kickoff_time": "19:00",
+    "match_date": "2026-06-20",
+    "match_time": "19:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Club Friendly Games 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "Grnikczna-FCDinamoBucureti",
+    "league": "World - Club Friendly Games",
+    "team1": {
+      "name": "Górnik Łęczna",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3125/image"
+    },
+    "team2": {
+      "name": "FC Dinamo București",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3292/image"
     },
     "kickoff_date": "2026-06-20",
     "kickoff_time": "19:00",
@@ -28246,31 +28271,6 @@
     "season": "Toppserien, Women 2026",
     "sport": "Football",
     "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "CSKASofia-BrinjeGrosuplje",
-    "league": "World - Club Friendly Games",
-    "team1": {
-      "name": "CSKA Sofia",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3275/image"
-    },
-    "team2": {
-      "name": "Brinje Grosuplje",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/274937/image"
-    },
-    "kickoff_date": "2026-06-20",
-    "kickoff_time": "21:00",
-    "match_date": "2026-06-20",
-    "match_time": "21:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Club Friendly Games 2026",
-    "sport": "Football",
-    "gender": "M",
     "duration": "3.5",
     "servers": []
   },
@@ -28371,31 +28371,6 @@
     "season": "Toppserien, Women 2026",
     "sport": "Football",
     "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "CSKASofia-BrinjeGrosuplje",
-    "league": "World - Club Friendly Games",
-    "team1": {
-      "name": "CSKA Sofia",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3275/image"
-    },
-    "team2": {
-      "name": "Brinje Grosuplje",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/274937/image"
-    },
-    "kickoff_date": "2026-06-20",
-    "kickoff_time": "21:00",
-    "match_date": "2026-06-20",
-    "match_time": "21:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": "",
-    "season": "Club Friendly Games 2026",
-    "sport": "Football",
-    "gender": "M",
     "duration": "3.5",
     "servers": []
   },
@@ -30246,6 +30221,31 @@
     "season": "Toppserien, Women 2026",
     "sport": "Football",
     "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CSKASofia-BrinjeGrosuplje",
+    "league": "World - Club Friendly Games",
+    "team1": {
+      "name": "CSKA Sofia",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3275/image"
+    },
+    "team2": {
+      "name": "Brinje Grosuplje",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/274937/image"
+    },
+    "kickoff_date": "2026-06-20",
+    "kickoff_time": "22:00",
+    "match_date": "2026-06-20",
+    "match_time": "22:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Club Friendly Games 2026",
+    "sport": "Football",
+    "gender": "M",
     "duration": "3.5",
     "servers": []
   },
@@ -30346,6 +30346,31 @@
     "season": "Toppserien, Women 2026",
     "sport": "Football",
     "gender": "F",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CSKASofia-BrinjeGrosuplje",
+    "league": "World - Club Friendly Games",
+    "team1": {
+      "name": "CSKA Sofia",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3275/image"
+    },
+    "team2": {
+      "name": "Brinje Grosuplje",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/274937/image"
+    },
+    "kickoff_date": "2026-06-20",
+    "kickoff_time": "22:00",
+    "match_date": "2026-06-20",
+    "match_time": "22:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": "",
+    "season": "Club Friendly Games 2026",
+    "sport": "Football",
+    "gender": "M",
     "duration": "3.5",
     "servers": []
   },
@@ -33300,6 +33325,31 @@
     "servers": []
   },
   {
+    "id": "CDCobreloa-Cobresal",
+    "league": "Chile - Copa Chile, Group C",
+    "team1": {
+      "name": "CD Cobreloa",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3159/image"
+    },
+    "team2": {
+      "name": "Cobresal",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3167/image"
+    },
+    "kickoff_date": "2026-06-21",
+    "kickoff_time": "02:00",
+    "match_date": "2026-06-21",
+    "match_time": "02:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 3,
+    "season": "Copa Chile 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "Almera-MlagaCF",
     "league": "Spain - LaLiga 2, Promotion Playoffs",
     "team1": {
@@ -33525,6 +33575,31 @@
     "servers": []
   },
   {
+    "id": "CDCobreloa-Cobresal",
+    "league": "Chile - Copa Chile, Group C",
+    "team1": {
+      "name": "CD Cobreloa",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3159/image"
+    },
+    "team2": {
+      "name": "Cobresal",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/3167/image"
+    },
+    "kickoff_date": "2026-06-21",
+    "kickoff_time": "02:00",
+    "match_date": "2026-06-21",
+    "match_time": "02:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 3,
+    "season": "Copa Chile 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
     "id": "PhoenixMercuryW-SeattleStormW",
     "league": "USA - WNBA",
     "team1": {
@@ -35770,6 +35845,31 @@
     "round": 3,
     "season": "Copa Chile 2026",
     "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CDAlemndeConcepcin-CdbLaUnion",
+    "league": "Chile - LNB 2, Playoffs",
+    "team1": {
+      "name": "CD Alemán de Concepción",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/416358/image"
+    },
+    "team2": {
+      "name": "Cdb La Union",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1173851/image"
+    },
+    "kickoff_date": "2026-06-21",
+    "kickoff_time": "05:00",
+    "match_date": "2026-06-21",
+    "match_time": "05:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 97,
+    "season": "LNB 2 2026",
+    "sport": "Basketball",
     "gender": "M",
     "duration": "3.5",
     "servers": []
@@ -35794,6 +35894,31 @@
     "score": "",
     "round": 28,
     "season": "LSB 2026",
+    "sport": "Basketball",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "CDAlemndeConcepcin-CdbLaUnion",
+    "league": "Chile - LNB 2, Playoffs",
+    "team1": {
+      "name": "CD Alemán de Concepción",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/416358/image"
+    },
+    "team2": {
+      "name": "Cdb La Union",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1173851/image"
+    },
+    "kickoff_date": "2026-06-21",
+    "kickoff_time": "05:00",
+    "match_date": "2026-06-21",
+    "match_time": "05:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 97,
+    "season": "LNB 2 2026",
     "sport": "Basketball",
     "gender": "M",
     "duration": "3.5",
@@ -41046,31 +41171,6 @@
     "season": "WNBA 2026",
     "sport": "Basketball",
     "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "CDAlemndeConcepcin-CdbLaUnion",
-    "league": "Chile - LNB 2, Playoffs",
-    "team1": {
-      "name": "CD Alemán de Concepción",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/416358/image"
-    },
-    "team2": {
-      "name": "Cdb La Union",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1173851/image"
-    },
-    "kickoff_date": "2026-06-21",
-    "kickoff_time": "07:00",
-    "match_date": "2026-06-21",
-    "match_time": "07:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 97,
-    "season": "LNB 2 2026",
-    "sport": "Basketball",
-    "gender": "M",
     "duration": "3.5",
     "servers": []
   },
@@ -41271,31 +41371,6 @@
     "season": "WNBA 2026",
     "sport": "Basketball",
     "gender": "F",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "CDAlemndeConcepcin-CdbLaUnion",
-    "league": "Chile - LNB 2, Playoffs",
-    "team1": {
-      "name": "CD Alemán de Concepción",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/416358/image"
-    },
-    "team2": {
-      "name": "Cdb La Union",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/1173851/image"
-    },
-    "kickoff_date": "2026-06-21",
-    "kickoff_time": "07:00",
-    "match_date": "2026-06-21",
-    "match_time": "07:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 97,
-    "season": "LNB 2 2026",
-    "sport": "Basketball",
-    "gender": "M",
     "duration": "3.5",
     "servers": []
   },
@@ -51325,31 +51400,6 @@
     "servers": []
   },
   {
-    "id": "Araguana-NacionalAM",
-    "league": "Brazil - Brasileirão Série D, Knockout Stage",
-    "team1": {
-      "name": "Araguaína",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/35283/image"
-    },
-    "team2": {
-      "name": "Nacional-AM",
-      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/21859/image"
-    },
-    "kickoff_date": "2026-06-22",
-    "kickoff_time": "02:00",
-    "match_date": "2026-06-22",
-    "match_time": "02:00",
-    "status": "notstarted",
-    "status_desc": "Not started",
-    "score": "",
-    "round": 32,
-    "season": "Brasileiro Serie D 2026",
-    "sport": "Football",
-    "gender": "M",
-    "duration": "3.5",
-    "servers": []
-  },
-  {
     "id": "Brasiliense-GoiatubaEC",
     "league": "Brazil - Brasileirão Série D, Knockout Stage",
     "team1": {
@@ -52744,6 +52794,31 @@
     "score": "",
     "round": 11,
     "season": "Besta deild 2026",
+    "sport": "Football",
+    "gender": "M",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "Araguana-NacionalAM",
+    "league": "Brazil - Brasileirão Série D, Knockout Stage",
+    "team1": {
+      "name": "Araguaína",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/35283/image"
+    },
+    "team2": {
+      "name": "Nacional-AM",
+      "logo": "https://sofa-proxy.librani.workers.dev/api/v1/team/21859/image"
+    },
+    "kickoff_date": "2026-06-22",
+    "kickoff_time": "04:00",
+    "match_date": "2026-06-22",
+    "match_time": "04:00",
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "score": "",
+    "round": 32,
+    "season": "Brasileiro Serie D 2026",
     "sport": "Football",
     "gender": "M",
     "duration": "3.5",
