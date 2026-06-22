@@ -254,54 +254,6 @@
         "label": "CH-PT"
       },
       {
-        "url": "https://multi.govoet.cc/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=26",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=56",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=49",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=131",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=137",
-        "label": "CH-IT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=114",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=94",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=73",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=72",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=158",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=159",
-        "label": "CH-ES"
-      },
-      {
         "url": "https://multi.govoet.cc/?ss=hd1",
         "label": "CH-1"
       },
@@ -356,10 +308,6 @@
       {
         "url": "https://multi.govoet.cc/?ss=br2",
         "label": "CH-14"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDEucGhw",
-        "label": "CH-EN"
       }
     ],
     "status": "finished",
@@ -529,8 +477,8 @@
         "label": "CH-EN"
       }
     ],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "status": "inprogress",
+    "status_desc": "Halftime",
     "gender": "M"
   },
   {
@@ -1260,27 +1208,334 @@
     "gender": "M"
   },
   {
-    "id": "Barcelona-Valencia",
-    "league": "Spain - Liga Endesa",
+    "id": "BosniaHerzegovina-Qatar",
+    "sport": "Football",
+    "league": "World - Fifa World Cup, Group B",
     "team1": {
-      "name": "Barcelona",
-      "logo": ""
+      "name": "Bosnia and Herzegovina",
+      "logo": "https://static.flashscore.com/res/image/data/fgkmOTPq-Cfuwb3yH.png"
     },
     "team2": {
-      "name": "Valencia",
-      "logo": ""
+      "name": "Qatar",
+      "logo": "https://static.flashscore.com/res/image/data/WEb3WvAN-UPMdbcD9.png"
     },
-    "kickoff_date": "2026-06-23",
-    "kickoff_time": "01:00",
-    "match_date": "2026-06-23",
-    "match_time": "00:55",
+    "kickoff_date": "2026-06-25",
+    "kickoff_time": "02:00",
+    "match_date": "2026-06-25",
+    "match_time": "01:55",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=155",
-        "label": "CH-ES"
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd8",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-4"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv1",
+        "label": "CH-5"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br2",
+        "label": "CH-6"
       }
-    ]
+    ],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Switzerland-Canada",
+    "sport": "Football",
+    "league": "World - Fifa World Cup, Group B",
+    "team1": {
+      "name": "Switzerland",
+      "logo": "https://static.flashscore.com/res/image/data/buRKTH76-88LAtdNt.png"
+    },
+    "team2": {
+      "name": "Canada",
+      "logo": "https://static.flashscore.com/res/image/data/bymI0wAN-EqLGVN18.png"
+    },
+    "kickoff_date": "2026-06-25",
+    "kickoff_time": "02:00",
+    "match_date": "2026-06-25",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd3",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-4"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd6",
+        "label": "CH-5"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd7",
+        "label": "CH-6"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd10",
+        "label": "CH-7"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv5",
+        "label": "CH-8"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br4",
+        "label": "CH-9"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br1",
+        "label": "CH-10"
+      }
+    ],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Morocco-Haiti",
+    "sport": "Football",
+    "league": "World - Fifa World Cup, Group C",
+    "team1": {
+      "name": "Morocco",
+      "logo": "https://static.flashscore.com/res/image/data/r18xjQkC-hOurGDLS.png"
+    },
+    "team2": {
+      "name": "Haiti",
+      "logo": "https://static.flashscore.com/res/image/data/d2aGgEQq-GY05WHbt.png"
+    },
+    "kickoff_date": "2026-06-25",
+    "kickoff_time": "05:00",
+    "match_date": "2026-06-25",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd8",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd10",
+        "label": "CH-4"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv5",
+        "label": "CH-5"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br2",
+        "label": "CH-6"
+      }
+    ],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "Scotland-Brazil",
+    "sport": "Football",
+    "league": "World - Fifa World Cup, Group C",
+    "team1": {
+      "name": "Scotland",
+      "logo": "https://static.flashscore.com/res/image/data/zknbF9U0-lfZlm1uk.png"
+    },
+    "team2": {
+      "name": "Brazil",
+      "logo": "https://static.flashscore.com/res/image/data/S4Kz1kjC-88LAtdNt.png"
+    },
+    "kickoff_date": "2026-06-25",
+    "kickoff_time": "05:00",
+    "match_date": "2026-06-25",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd3",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd6",
+        "label": "CH-4"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd7",
+        "label": "CH-5"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-6"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-7"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv1",
+        "label": "CH-8"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br4",
+        "label": "CH-9"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br1",
+        "label": "CH-10"
+      }
+    ],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "CzechRepublic-Mexico",
+    "sport": "Football",
+    "league": "World - Fifa World Cup, Group A",
+    "team1": {
+      "name": "Czech Republic",
+      "logo": "https://static.flashscore.com/res/image/data/GAWR2Tme-b1xaMyVe.png"
+    },
+    "team2": {
+      "name": "Mexico",
+      "logo": "https://static.flashscore.com/res/image/data/hv6zUUPq-h2jzesb5.png"
+    },
+    "kickoff_date": "2026-06-25",
+    "kickoff_time": "08:00",
+    "match_date": "2026-06-25",
+    "match_time": "07:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd3",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-4"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd6",
+        "label": "CH-5"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd7",
+        "label": "CH-6"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-7"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv5",
+        "label": "CH-8"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br4",
+        "label": "CH-9"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br1",
+        "label": "CH-10"
+      }
+    ],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
+  },
+  {
+    "id": "SouthAfrica-SouthKorea",
+    "sport": "Football",
+    "league": "World - Fifa World Cup, Group A",
+    "team1": {
+      "name": "South Africa",
+      "logo": "https://static.flashscore.com/res/image/data/rVRaM7A6-xQxQqqtQ.png"
+    },
+    "team2": {
+      "name": "South Korea",
+      "logo": "https://static.flashscore.com/res/image/data/G6sdC2S0-bL62vc24.png"
+    },
+    "kickoff_date": "2026-06-25",
+    "kickoff_time": "08:00",
+    "match_date": "2026-06-25",
+    "match_time": "07:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd8",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd10",
+        "label": "CH-4"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv1",
+        "label": "CH-5"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br2",
+        "label": "CH-6"
+      }
+    ],
+    "status": "notstarted",
+    "status_desc": "Not started",
+    "gender": "M"
   },
   {
     "id": "DetroitTigers-NewYorkYankees",
