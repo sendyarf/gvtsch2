@@ -97,8 +97,8 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?shaka=tvpsport",
-        "label": "CH-PL"
+        "url": "https://multi.govoet.cc/?shaka=fox1us",
+        "label": "CH-EN"
        },
       {
         "url": "https://multi.govoet.cc/?shaka=jojsport",
@@ -123,7 +123,32 @@
     "match_date": "2026-06-27",
     "match_time": "07:00",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+       {
+        "url": "https://multi.govoet.cc/?shaka=tsn1",
+        "label": "CH-EN"
+       },
+      {
+        "url": "https://multi.govoet.cc/?shaka=dsports",
+        "label": "CH-EN"
+       },
+      {
+        "url": "https://multi.govoet.cc/?shaka=cazetv",
+        "label": "CH-PT"
+       },
+      {
+        "url": "https://multi.govoet.cc/?shaka=ctsport",
+        "label": "CH-CZ"
+       },
+      {
+        "url": "https://multi.govoet.cc/?hls=trece",
+        "label": "CH-PL"
+       },
+      {
+        "url": "https://multi.govoet.cc/?shaka=foxone",
+        "label": "CH-EN"
+       }
+    ]
   },
   {
     "id": "Egypt-Iran",
@@ -144,8 +169,12 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?shaka=tvpsport",
-        "label": "CH-PL"
+        "url": "https://multi.govoet.cc/?shaka=fox1us",
+        "label": "CH-EN"
+       },
+       {
+        "url": "https://multi.govoet.cc/?hls=unicanal",
+        "label": "CH-PA"
        }
     ]
   },
@@ -170,6 +199,10 @@
       {
         "url": "https://multi.govoet.cc/?shaka=jojsport",
         "label": "CH-SK"
+       },
+      {
+        "url": "https://multi.govoet.cc/?shaka=cazetv",
+        "label": "CH-PT"
        }
     ]
   },
