@@ -840,6 +840,18 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?shaka=ctsport",
+        "label": "CH-CZ"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=tvpsport",
+        "label": "CH-PL"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=jojsport",
+        "label": "CH-SK"
+      },
+      {
         "url": "https://multi.govoet.cc/?ss=hd1",
         "label": "CH-1"
       },
@@ -904,6 +916,10 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?shaka=tvpsport",
+        "label": "CH-PL"
+      },
+      {
         "url": "https://multi.govoet.cc/?ss=hd1",
         "label": "CH-1"
       },
@@ -935,6 +951,14 @@
     "match_time": "06:55",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=tvpsport",
+        "label": "CH-PL"
+      },
+      {
+        "url": "https://multi.govoet.cc/?shaka=jojsport",
+        "label": "CH-SK"
+      },
       {
         "url": "https://multi.govoet.cc/?ss=hd5",
         "label": "CH-1"
@@ -1016,6 +1040,10 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?shaka=tvpsport",
+        "label": "CH-PL"
+      },
+      {
         "url": "https://multi.govoet.cc/?ss=hd5",
         "label": "CH-1"
       },
@@ -1059,6 +1087,10 @@
     "match_time": "09:55",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=jojsport",
+        "label": "CH-SK"
+      },
       {
         "url": "https://multi.govoet.cc/?ss=hd1",
         "label": "CH-1"
@@ -1125,7 +1157,12 @@
     "match_date": "2026-06-28",
     "match_time": "03:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=tvpsport",
+        "label": "CH-PL"
+      }
+    ]
   },
   {
     "id": "Colombia-Portugal",
@@ -1144,7 +1181,12 @@
     "match_date": "2026-06-28",
     "match_time": "06:25",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=jojsport",
+        "label": "CH-SK"
+      }
+    ]
   },
   {
     "id": "DRCongo-Uzbekistan",
@@ -1163,7 +1205,12 @@
     "match_date": "2026-06-28",
     "match_time": "06:25",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=tvpsport",
+        "label": "CH-PL"
+      }
+    ]
   },
   {
     "id": "Algeria-Austria",
@@ -1182,7 +1229,12 @@
     "match_date": "2026-06-28",
     "match_time": "08:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?shaka=tvpsport",
+        "label": "CH-PL"
+      }
+    ]
   },
   {
     "id": "Jordan-Argentina",
@@ -1204,10 +1256,37 @@
     "servers": []
   },
   {
+    "id": "GrandPrixdAutricheEssaislibres1",
+    "league": "World - Formula 1",
+    "team1": {
+      "name": "Grand Prix d'Autriche Essais libres 1",
+      "logo": ""
+    },
+    "team2": {
+      "name": "",
+      "logo": ""
+    },
+    "kickoff_date": "2026-06-26",
+    "kickoff_time": "18:15",
+    "match_date": "2026-06-26",
+    "match_time": "18:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=13",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=60",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
     "id": "MotoGPNetherlands",
     "league": "Motor Sport",
     "team1": {
-      "name": "Moto GP Netherlands",
+      "name": "MotoGP Netherlands",
       "logo": ""
     },
     "team2": {
@@ -1230,7 +1309,7 @@
     "id": "LenovoAustrianGrandPrixFreePractice2",
     "league": "Motor Sport",
     "team1": {
-      "name": "Lenovo Austrian Grand Prix Free Practice 2",
+      "name": "Austrian Grand Prix - Practice 2",
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLUj8ODlDiFsatRHIWqWN5uAEXSLk2YLqtLCGIG3jM6SES_tJv9aAoVZg&s=10"
     },
     "team2": {
