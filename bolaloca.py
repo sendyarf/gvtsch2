@@ -6,7 +6,7 @@ from datetime import datetime
 import pytz
 
 def parse_bolaloca():
-    url = "https://18zone.click/vip3.php"
+    url = "https://cartelive.club/vip3.php"
     try:
         response = requests.get(url, timeout=15)
         response.raise_for_status()
