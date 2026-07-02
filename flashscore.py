@@ -96,7 +96,7 @@ def scrape_flashscore():
             print(f"Waiting for {league_name} page to load...")
             try:
                 WebDriverWait(driver, 20).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, ".event__match--twoLine, .event__match--static"))
+                    EC.presence_of_element_located((By.CSS_SELECTOR, ".event__match"))
                 )
             except TimeoutException:
                 print(f"Timeout waiting for {league_name} page to load. Skipping.")
@@ -104,27 +104,28 @@ def scrape_flashscore():
 
             # Handle "Show more matches" if present with reduced sleep
             print(f"Checking for 'Show more matches' button for {league_name}...")
-            while True:
+            # We only need to click it if it exists, use low timeout to not block
+            for _ in range(3): # Limit clicks to at most 3 to avoid infinite loop
                 try:
-                    show_more = WebDriverWait(driver, 10).until(
-                        EC.element_to_be_clickable((By.CSS_SELECTOR, "a.wclButtonLink"))
+                    show_more = WebDriverWait(driver, 2).until(
+                        EC.element_to_be_clickable((By.CSS_SELECTOR, "a.event__more, a.wclButtonLink, a[class*='event__more']"))
                     )
                     print(f"Clicking 'Show more matches' to load additional {league_name} fixtures...")
-                    show_more.click()
-                    time.sleep(3)  # Reduced from 2 seconds
+                    driver.execute_script("arguments[0].click();", show_more)
+                    time.sleep(2)
                 except:
                     print(f"No more matches to load for {league_name}.")
                     break
 
             # Find all match elements
             print(f"Collecting match data for {league_name}...")
-            match_elements = driver.find_elements(By.CSS_SELECTOR, ".event__match--twoLine, .event__match--static")
+            match_elements = driver.find_elements(By.CSS_SELECTOR, ".event__match")
 
             for match in match_elements:
                 try:
                     # Home team
                     home_participant = match.find_element(By.CLASS_NAME, "event__homeParticipant")
-                    home_name = home_participant.find_element(By.CSS_SELECTOR, "span.wcl-name_jjfMf").text
+                    home_name = home_participant.find_element(By.CSS_SELECTOR, "span[class*='wcl-name']").text
                     try:
                         home_logo = home_participant.find_element(By.TAG_NAME, "img").get_attribute("src")
                     except NoSuchElementException:
@@ -132,14 +133,14 @@ def scrape_flashscore():
 
                     # Away team
                     away_participant = match.find_element(By.CLASS_NAME, "event__awayParticipant")
-                    away_name = away_participant.find_element(By.CSS_SELECTOR, "span.wcl-name_jjfMf").text
+                    away_name = away_participant.find_element(By.CSS_SELECTOR, "span[class*='wcl-name']").text
                     try:
                         away_logo = away_participant.find_element(By.TAG_NAME, "img").get_attribute("src")
                     except NoSuchElementException:
                         away_logo = ""
 
                     # Time and date
-                    time_div = match.find_element(By.CLASS_NAME, "event__time")
+                    time_div = match.find_element(By.CSS_SELECTOR, ".event__stageTime, .event__time")
                     time_text = time_div.text.split("\n")[0]  # Get the time line, ignore preview if present
 
                     # Robust date parsing with fallback
