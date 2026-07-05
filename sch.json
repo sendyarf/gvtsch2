@@ -998,91 +998,6 @@
     "servers": []
   },
   {
-    "id": "NewYorkYankees-MinnesotaTwins",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "New York",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Minnesota Timberwolves",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-06",
-    "kickoff_time": "00:35",
-    "match_date": "2026-07-06",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=183",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
-    "id": "Macara-LDUQuito",
-    "league": "Ecuador - Liga Pro",
-    "team1": {
-      "name": "Macara",
-      "logo": ""
-    },
-    "team2": {
-      "name": "LDU Quito",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-06",
-    "kickoff_time": "01:00",
-    "match_date": "2026-07-06",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=86",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTc5MjkubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTI5MjgubTN1OA==",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "ClevelandGuardians-ChicagoWhiteSox",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Cleveland Cavaliers",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Chicago White Sox",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-06",
-    "kickoff_time": "01:00",
-    "match_date": "2026-07-06",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=184",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE5LnBocA==",
-        "label": "CH-EN"
-      }
-    ]
-  },
-  {
     "id": "ChicagoCubs-StLouisCardinals",
     "league": "USA - MLB",
     "team1": {
@@ -1590,6 +1505,52 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDcwLnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "ChicagoWhiteSox-ClevelandGuardians",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Chicago White Sox",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png"
+    },
+    "team2": {
+      "name": "Cleveland Cavaliers",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png"
+    },
+    "kickoff_date": "2026-07-06",
+    "kickoff_time": "00:00",
+    "match_date": "2026-07-05",
+    "match_time": "23:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE5LnBocA==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "MinnesotaTwins-NewYorkYankees",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Minnesota Timberwolves",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png"
+    },
+    "team2": {
+      "name": "New York",
+      "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png"
+    },
+    "kickoff_date": "2026-07-05",
+    "kickoff_time": "23:35",
+    "match_date": "2026-07-05",
+    "match_time": "23:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframex=aHR0cHM6Ly9zdHJlYW1zLmNlbnRlci9lbWJlZC9jaDE4LnBocA==",
         "label": "CH-EN"
       }
     ]
