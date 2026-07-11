@@ -122,6 +122,10 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?shaka=m6",
+        "label": "CH-FR"
+      },
+      {
         "url": "https://multi.govoet.cc/?envivo=1",
         "label": "CH-FR"
       },
@@ -278,6 +282,10 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?shaka=m6",
+        "label": "CH-FR"
+      },
+      {
         "url": "https://multi.govoet.cc/?envivo=1",
         "label": "CH-FR"
       },
@@ -417,79 +425,6 @@
     "servers": []
   },
   {
-    "id": "Danubio-Nacional",
-    "league": "Uruguay - Liga AUF",
-    "team1": {
-      "name": "Danubio",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Club Nacional",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-12",
-    "kickoff_time": "01:00",
-    "match_date": "2026-07-12",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=109",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "ChicagoWhiteSox-Athletics",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Chicago White Sox",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Oakland",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-12",
-    "kickoff_time": "01:10",
-    "match_date": "2026-07-12",
-    "match_time": "01:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=171",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "MinnesotaTwins-LosAngelesAngels",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Minnesota Timberwolves",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Los Angeles Angels",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-12",
-    "kickoff_time": "01:10",
-    "match_date": "2026-07-12",
-    "match_time": "01:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=3",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=172",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
     "id": "Magallanes-AItaliano",
     "league": "Chile - Copa Chile",
     "team1": {
@@ -532,10 +467,6 @@
       {
         "url": "https://multi.govoet.cc/?envivo=85",
         "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDc1NTIubTN1OA==",
-        "label": "CH-VN"
       }
     ]
   },
