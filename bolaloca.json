@@ -1,28 +1,821 @@
 [
   {
-    "id": "GrandPrixdAllemagneLacoursedesMotoGP",
-    "league": "MotoGP",
+    "id": "PittsburghPirates-MilwaukeeBrewers",
+    "league": "MLB",
     "team1": {
-      "name": "Grand Prix d’Allemagne La course des Moto GP",
+      "name": "Pittsburgh Pirates",
       "logo": ""
     },
     "team2": {
-      "name": "",
+      "name": "Milwaukee Brewers",
       "logo": ""
     },
     "kickoff_date": "2026-07-11",
-    "kickoff_time": "20:00",
+    "kickoff_time": "23:05",
     "match_date": "2026-07-11",
-    "match_time": "20:00",
+    "match_time": "23:05",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=14",
+        "url": "https://multi.govoet.cc/?envivo=170",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "Danubio-Nacional",
+    "league": "Liga AUF Uruguaya",
+    "team1": {
+      "name": "Danubio",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Nacional",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "01:00",
+    "match_date": "2026-07-12",
+    "match_time": "01:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=109",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "ChicagoWhiteSox-Athletics",
+    "league": "MLB",
+    "team1": {
+      "name": "Chicago White Sox",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Athletics",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "01:10",
+    "match_date": "2026-07-12",
+    "match_time": "01:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=171",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "MinnesotaTwins-LosAngelesAngels",
+    "league": "MLB",
+    "team1": {
+      "name": "Minnesota Twins",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Los Angeles Angels",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "01:10",
+    "match_date": "2026-07-12",
+    "match_time": "01:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=3",
         "label": "CH-FR"
       },
       {
-        "url": "https://multi.govoet.cc/?envivo=67",
+        "url": "https://multi.govoet.cc/?envivo=172",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "Magallanes-AItaliano",
+    "league": "Copa Chili",
+    "team1": {
+      "name": "Magallanes",
+      "logo": ""
+    },
+    "team2": {
+      "name": "A. Italiano",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "02:00",
+    "match_date": "2026-07-12",
+    "match_time": "02:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=83",
         "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "MushucRuna-InddelValle",
+    "league": "Ecuador Ligapro",
+    "team1": {
+      "name": "Mushuc Runa",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Ind. del Valle",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "02:10",
+    "match_date": "2026-07-12",
+    "match_time": "02:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=85",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "OrlandoMagic-MiamiHeat",
+    "league": "NBA",
+    "team1": {
+      "name": "Orlando Magic",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Miami Heat",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "02:30",
+    "match_date": "2026-07-12",
+    "match_time": "02:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=173",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "CharlotteHornets-NewOrleansPelicans",
+    "league": "NBA",
+    "team1": {
+      "name": "Charlotte Hornets",
+      "logo": ""
+    },
+    "team2": {
+      "name": "New Orleans Pelicans",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "03:00",
+    "match_date": "2026-07-12",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=4",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=174",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "PittsburghPirates-MilwaukeeBrewers",
+    "league": "MLB",
+    "team1": {
+      "name": "Pittsburgh Pirates",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Milwaukee Brewers",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "03:05",
+    "match_date": "2026-07-12",
+    "match_time": "03:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=175",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "SanFranciscoGiants-ColoradoRockies",
+    "league": "MLB",
+    "team1": {
+      "name": "San Francisco Giants",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Colorado Rockies",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "03:05",
+    "match_date": "2026-07-12",
+    "match_time": "03:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=176",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "WashingtonNationals-NewYorkYankees",
+    "league": "MLB",
+    "team1": {
+      "name": "Washington Nationals",
+      "logo": ""
+    },
+    "team2": {
+      "name": "New York Yankees",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "03:05",
+    "match_date": "2026-07-12",
+    "match_time": "03:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=177",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "MiamiMarlins-ClevelandGuardians",
+    "league": "MLB",
+    "team1": {
+      "name": "Miami Marlins",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Cleveland Guardians",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "03:10",
+    "match_date": "2026-07-12",
+    "match_time": "03:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=178",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "NewYorkMets-BostonRedSox",
+    "league": "MLB",
+    "team1": {
+      "name": "New York Mets",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Boston Red Sox",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "03:10",
+    "match_date": "2026-07-12",
+    "match_time": "03:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=179",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "TampaBayRays-SeattleMariners",
+    "league": "MLB",
+    "team1": {
+      "name": "Tampa Bay Rays",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Seattle Mariners",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "03:10",
+    "match_date": "2026-07-12",
+    "match_time": "03:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=180",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "Norway-England",
+    "league": "Coupe Du Monde",
+    "team1": {
+      "name": "Norway",
+      "logo": ""
+    },
+    "team2": {
+      "name": "England",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "04:00",
+    "match_date": "2026-07-12",
+    "match_time": "04:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=1",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=26",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=56",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=49",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=131",
+        "label": "CH-GB"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=111",
+        "label": "CH-DE"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=137",
+        "label": "CH-IT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=73",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=94",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=107",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=108",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Wanderers-Progreso",
+    "league": "Liga AUF Uruguaya",
+    "team1": {
+      "name": "Wanderers",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Progreso",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "04:00",
+    "match_date": "2026-07-12",
+    "match_time": "04:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=109",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "SanLuis-UCatolica",
+    "league": "Copa Chili",
+    "team1": {
+      "name": "San Luis",
+      "logo": ""
+    },
+    "team2": {
+      "name": "U. Catolica",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "04:30",
+    "match_date": "2026-07-12",
+    "match_time": "04:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=83",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Philadelphia76ers-IndianaPacers",
+    "league": "NBA",
+    "team1": {
+      "name": "Philadelphia 76ers",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Indiana Pacers",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "04:30",
+    "match_date": "2026-07-12",
+    "match_time": "04:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=181",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "SanAntonioSpurs-NewYorkKnicks",
+    "league": "NBA",
+    "team1": {
+      "name": "San Antonio Spurs",
+      "logo": ""
+    },
+    "team2": {
+      "name": "New York Knicks",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "05:00",
+    "match_date": "2026-07-12",
+    "match_time": "05:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=182",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "DetroitTigers-PhiladelphiaPhillies",
+    "league": "MLB",
+    "team1": {
+      "name": "Detroit Tigers",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Philadelphia Phillies",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "05:10",
+    "match_date": "2026-07-12",
+    "match_time": "05:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=5",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=183",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "GuayaquilCity-Delfin",
+    "league": "Ecuador Ligapro",
+    "team1": {
+      "name": "Guayaquil City",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Delfin",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "06:00",
+    "match_date": "2026-07-12",
+    "match_time": "06:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=86",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "BaltimoreOrioles-KansasCityRoyals",
+    "league": "MLB",
+    "team1": {
+      "name": "Baltimore Orioles",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Kansas City Royals",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "06:05",
+    "match_date": "2026-07-12",
+    "match_time": "06:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=184",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "TexasRangers-HoustonAstros",
+    "league": "MLB",
+    "team1": {
+      "name": "Texas Rangers",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Houston Astros",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "06:05",
+    "match_date": "2026-07-12",
+    "match_time": "06:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=185",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "CincinnatiReds-ChicagoCubs",
+    "league": "MLB",
+    "team1": {
+      "name": "Cincinnati Reds",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Chicago Cubs",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "06:10",
+    "match_date": "2026-07-12",
+    "match_time": "06:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=186",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "StLouisCardinals-AtlantaBraves",
+    "league": "MLB",
+    "team1": {
+      "name": "St.Louis Cardinals",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Atlanta Braves",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "06:15",
+    "match_date": "2026-07-12",
+    "match_time": "06:15",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=187",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "MinnesotaTimberwolves-DenverNuggets",
+    "league": "NBA",
+    "team1": {
+      "name": "Minnesota Timberwolves",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Denver Nuggets",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "06:30",
+    "match_date": "2026-07-12",
+    "match_time": "06:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=188",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "BrooklynNets-AtlantaHawks",
+    "league": "NBA",
+    "team1": {
+      "name": "Brooklyn Nets",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Atlanta Hawks",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "07:00",
+    "match_date": "2026-07-12",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=189",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "SanDiegoPadres-TorontoBlueJays",
+    "league": "MLB",
+    "team1": {
+      "name": "San Diego Padres",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Toronto Blue Jays",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "07:40",
+    "match_date": "2026-07-12",
+    "match_time": "07:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=190",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "Argentina-Switzerland",
+    "league": "Coupe Du Monde",
+    "team1": {
+      "name": "Argentina",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Switzerland",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "08:00",
+    "match_date": "2026-07-12",
+    "match_time": "08:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=1",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=56",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=131",
+        "label": "CH-GB"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=111",
+        "label": "CH-DE"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=73",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=94",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=158",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=159",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "LosAngelesDodgers-ArizonaDiamondbacks",
+    "league": "MLB",
+    "team1": {
+      "name": "Los Angeles Dodgers",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Arizona Diamondbacks",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "08:10",
+    "match_date": "2026-07-12",
+    "match_time": "08:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=89",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=191",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "TorontoRaptors-HoustonRockets",
+    "league": "NBA",
+    "team1": {
+      "name": "Toronto Raptors",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Houston Rockets",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "08:30",
+    "match_date": "2026-07-12",
+    "match_time": "08:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=192",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "DallasMavericks-LosAngelesLakers",
+    "league": "NBA",
+    "team1": {
+      "name": "Dallas Mavericks",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Los Angeles Lakers",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "09:00",
+    "match_date": "2026-07-12",
+    "match_time": "09:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=193",
+        "label": "CH-US"
       }
     ]
   },
@@ -158,704 +951,6 @@
       {
         "url": "https://multi.govoet.cc/?envivo=67",
         "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "LiverpoolM-CACerro",
-    "league": "Liga AUF Uruguaya",
-    "team1": {
-      "name": "Liverpool M.",
-      "logo": ""
-    },
-    "team2": {
-      "name": "CA Cerro",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-12",
-    "kickoff_time": "22:00",
-    "match_date": "2026-07-12",
-    "match_time": "22:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=109",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "PittsburghPirates-MilwaukeeBrewers",
-    "league": "MLB",
-    "team1": {
-      "name": "Pittsburgh Pirates",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Milwaukee Brewers",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-12",
-    "kickoff_time": "23:15",
-    "match_date": "2026-07-12",
-    "match_time": "23:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=170",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "Cobreloa-LaSerena",
-    "league": "Copa Chili",
-    "team1": {
-      "name": "Cobreloa",
-      "logo": ""
-    },
-    "team2": {
-      "name": "La Serena",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-12",
-    "kickoff_time": "23:30",
-    "match_date": "2026-07-12",
-    "match_time": "23:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=83",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "LDUQuito-Libertad",
-    "league": "Ecuador Ligapro",
-    "team1": {
-      "name": "LDU Quito",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Libertad",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "00:00",
-    "match_date": "2026-07-13",
-    "match_time": "00:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=85",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "BaltimoreOrioles-KansasCityRoyals",
-    "league": "MLB",
-    "team1": {
-      "name": "Baltimore Orioles",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Kansas City Royals",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "00:35",
-    "match_date": "2026-07-13",
-    "match_time": "00:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=171",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "WashingtonNationals-NewYorkYankees",
-    "league": "MLB",
-    "team1": {
-      "name": "Washington Nationals",
-      "logo": ""
-    },
-    "team2": {
-      "name": "New York Yankees",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "00:35",
-    "match_date": "2026-07-13",
-    "match_time": "00:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=172",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "CincinnatiReds-ChicagoCubs",
-    "league": "MLB",
-    "team1": {
-      "name": "Cincinnati Reds",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Chicago Cubs",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "00:40",
-    "match_date": "2026-07-13",
-    "match_time": "00:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=173",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "DetroitTigers-PhiladelphiaPhillies",
-    "league": "MLB",
-    "team1": {
-      "name": "Detroit Tigers",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Philadelphia Phillies",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "00:40",
-    "match_date": "2026-07-13",
-    "match_time": "00:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=174",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "MiamiMarlins-ClevelandGuardians",
-    "league": "MLB",
-    "team1": {
-      "name": "Miami Marlins",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Cleveland Guardians",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "00:40",
-    "match_date": "2026-07-13",
-    "match_time": "00:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=175",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "NewYorkMets-BostonRedSox",
-    "league": "MLB",
-    "team1": {
-      "name": "New York Mets",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Boston Red Sox",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "00:40",
-    "match_date": "2026-07-13",
-    "match_time": "00:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=176",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "TampaBayRays-SeattleMariners",
-    "league": "MLB",
-    "team1": {
-      "name": "Tampa Bay Rays",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Seattle Mariners",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "00:40",
-    "match_date": "2026-07-13",
-    "match_time": "00:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=177",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "BostonRiver-CentralEsp",
-    "league": "Liga AUF Uruguaya",
-    "team1": {
-      "name": "Boston River",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Central Esp.",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "01:00",
-    "match_date": "2026-07-13",
-    "match_time": "01:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=109",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "ChicagoWhiteSox-Athletics",
-    "league": "MLB",
-    "team1": {
-      "name": "Chicago White Sox",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Athletics",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "01:10",
-    "match_date": "2026-07-13",
-    "match_time": "01:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=178",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "MinnesotaTwins-LosAngelesAngels",
-    "league": "MLB",
-    "team1": {
-      "name": "Minnesota Twins",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Los Angeles Angels",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "01:10",
-    "match_date": "2026-07-13",
-    "match_time": "01:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=179",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "StLouisCardinals-AtlantaBraves",
-    "league": "MLB",
-    "team1": {
-      "name": "St.Louis Cardinals",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Atlanta Braves",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "01:15",
-    "match_date": "2026-07-13",
-    "match_time": "01:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=180",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "TexasRangers-HoustonAstros",
-    "league": "MLB",
-    "team1": {
-      "name": "Texas Rangers",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Houston Astros",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "01:35",
-    "match_date": "2026-07-13",
-    "match_time": "01:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=181",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "NewOrleansPelicans-PhoenixSuns",
-    "league": "NBA",
-    "team1": {
-      "name": "New Orleans Pelicans",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Phoenix Suns",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "02:00",
-    "match_date": "2026-07-13",
-    "match_time": "02:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=4",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=182",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "IndRivadavia-Tigre",
-    "league": "Copa Argentina",
-    "team1": {
-      "name": "Ind. Rivadavia",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Tigre",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "02:15",
-    "match_date": "2026-07-13",
-    "match_time": "02:15",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=77",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "DetroitPistons-ClevelandCavaliers",
-    "league": "NBA",
-    "team1": {
-      "name": "Detroit Pistons",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Cleveland Cavaliers",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "03:00",
-    "match_date": "2026-07-13",
-    "match_time": "03:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=183",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "SanFranciscoGiants-ColoradoRockies",
-    "league": "MLB",
-    "team1": {
-      "name": "San Francisco Giants",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Colorado Rockies",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "03:05",
-    "match_date": "2026-07-13",
-    "match_time": "03:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=184",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "LosAngelesDodgers-ArizonaDiamondbacks",
-    "league": "MLB",
-    "team1": {
-      "name": "Los Angeles Dodgers",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Arizona Diamondbacks",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "03:10",
-    "match_date": "2026-07-13",
-    "match_time": "03:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=185",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "SanDiegoPadres-TorontoBlueJays",
-    "league": "MLB",
-    "team1": {
-      "name": "San Diego Padres",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Toronto Blue Jays",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "03:10",
-    "match_date": "2026-07-13",
-    "match_time": "03:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=186",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "BostonCeltics-CharlotteHornets",
-    "league": "NBA",
-    "team1": {
-      "name": "Boston Celtics",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Charlotte Hornets",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "04:00",
-    "match_date": "2026-07-13",
-    "match_time": "04:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=4",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=187",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "DConcepcion-DPuertoMontt",
-    "league": "Copa Chili",
-    "team1": {
-      "name": "D. Concepcion",
-      "logo": ""
-    },
-    "team2": {
-      "name": "D. Puerto Montt",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "04:30",
-    "match_date": "2026-07-13",
-    "match_time": "04:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=83",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "RacingMontevideo-Penarol",
-    "league": "Liga AUF Uruguaya",
-    "team1": {
-      "name": "Racing Montevideo",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Penarol",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "04:30",
-    "match_date": "2026-07-13",
-    "match_time": "04:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=109",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "GoldenStateWarriors-OklahomaCityThunder",
-    "league": "NBA",
-    "team1": {
-      "name": "Golden State Warriors",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Oklahoma City Thunder",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "05:00",
-    "match_date": "2026-07-13",
-    "match_time": "05:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=188",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "PortlandTrailBlazers-OrlandoMagic",
-    "league": "NBA",
-    "team1": {
-      "name": "Portland Trail Blazers",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Orlando Magic",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "06:00",
-    "match_date": "2026-07-13",
-    "match_time": "06:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=189",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "WashingtonWizards-SacramentoKings",
-    "league": "NBA",
-    "team1": {
-      "name": "Washington Wizards",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Sacramento Kings",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "07:00",
-    "match_date": "2026-07-13",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=190",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "MilwaukeeBucks-SanAntonioSpurs",
-    "league": "NBA",
-    "team1": {
-      "name": "Milwaukee Bucks",
-      "logo": ""
-    },
-    "team2": {
-      "name": "San Antonio Spurs",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "08:00",
-    "match_date": "2026-07-13",
-    "match_time": "08:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=191",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "UtahJazz-LosAngelesClippers",
-    "league": "NBA",
-    "team1": {
-      "name": "Utah Jazz",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Los Angeles Clippers",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-13",
-    "kickoff_time": "09:00",
-    "match_date": "2026-07-13",
-    "match_time": "09:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=192",
-        "label": "CH-US"
       }
     ]
   }
