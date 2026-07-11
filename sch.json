@@ -187,10 +187,95 @@
     "servers": []
   },
   {
+    "id": "GrandPrixdAllemagneLacoursedesMotoGP",
+    "league": "World - MotoGP",
+    "team1": {
+      "name": "German Grand Prix - MotoGP Race",
+      "logo": ""
+    },
+    "team2": {
+      "name": "",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-11",
+    "kickoff_time": "20:00",
+    "match_date": "2026-07-11",
+    "match_time": "19:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=14",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=67",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=11",
+        "label": "CH-FR"
+      }
+    ]
+  },
+  {
+    "id": "GrandPrixdAllemagnedeMotoGPWarmupdesMotoGP",
+    "league": "World - MotoGP",
+    "team1": {
+      "name": "German Grand Prix - MotoGP Warm Up",
+      "logo": ""
+    },
+    "team2": {
+      "name": "",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "14:40",
+    "match_date": "2026-07-12",
+    "match_time": "14:35",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=14",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=67",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "GrandPrixdAllemagneLaparadedespllotes",
+    "league": "World - MotoGP",
+    "team1": {
+      "name": "German Grand Prix - Rider Parade",
+      "logo": ""
+    },
+    "team2": {
+      "name": "",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-12",
+    "kickoff_time": "15:00",
+    "match_date": "2026-07-12",
+    "match_time": "14:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=14",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=67",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
     "id": "LiverpoolM-CACerro",
     "league": "Uruguay - Liga AUF",
     "team1": {
-      "name": "Liverpool M.",
+      "name": "Liverpool",
       "logo": ""
     },
     "team2": {
@@ -555,14 +640,14 @@
     ]
   },
   {
-    "id": "fr-182",
-    "league": "4",
+    "id": "NewOrleansPelicans-PhoenixSuns",
+    "league": "USA - NBA",
     "team1": {
-      "name": "fr",
+      "name": "New Orleans Pelicans",
       "logo": ""
     },
     "team2": {
-      "name": "182",
+      "name": "Phoenix Suns",
       "logo": ""
     },
     "kickoff_date": "2026-07-13",
@@ -570,11 +655,20 @@
     "match_date": "2026-07-13",
     "match_time": "01:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=4",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=182",
+        "label": "CH-US"
+      }
+    ]
   },
   {
     "id": "IndRivadavia-Tigre",
-    "league": "Copa Argentina",
+    "league": "Argentina - Copa Argentina",
     "team1": {
       "name": "Independiente Rivadavia",
       "logo": ""
@@ -600,6 +694,29 @@
       {
         "url": "https://multi.govoet.cc/?ss=sporttv1",
         "label": "CH-2"
+      }
+    ]
+  },
+  {
+    "id": "DetroitPistons-ClevelandCavaliers",
+    "league": "USA - NBA",
+    "team1": {
+      "name": "Detroit Pistons",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Cleveland Cavaliers",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-13",
+    "kickoff_time": "03:00",
+    "match_date": "2026-07-13",
+    "match_time": "02:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=183",
+        "label": "CH-US"
       }
     ]
   },
@@ -673,14 +790,14 @@
     ]
   },
   {
-    "id": "fr-187",
-    "league": "4",
+    "id": "BostonCeltics-CharlotteHornets",
+    "league": "USA - NBA",
     "team1": {
-      "name": "fr",
+      "name": "Boston Celtics",
       "logo": ""
     },
     "team2": {
-      "name": "187",
+      "name": "Charlotte Hornets",
       "logo": ""
     },
     "kickoff_date": "2026-07-13",
@@ -688,7 +805,16 @@
     "match_date": "2026-07-13",
     "match_time": "03:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=4",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=187",
+        "label": "CH-US"
+      }
+    ]
   },
   {
     "id": "DConcepcion-DPuertoMontt",
@@ -721,7 +847,7 @@
       "logo": ""
     },
     "team2": {
-      "name": "Penarol",
+      "name": "Peñarol",
       "logo": ""
     },
     "kickoff_date": "2026-07-13",
@@ -733,6 +859,121 @@
       {
         "url": "https://multi.govoet.cc/?envivo=109",
         "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "GoldenStateWarriors-OklahomaCityThunder",
+    "league": "USA - NBA",
+    "team1": {
+      "name": "Golden State Warriors",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Oklahoma City Thunder",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-13",
+    "kickoff_time": "05:00",
+    "match_date": "2026-07-13",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=188",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "PortlandTrailBlazers-OrlandoMagic",
+    "league": "USA - NBA",
+    "team1": {
+      "name": "Portland Trail Blazers",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Orlando Magic",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-13",
+    "kickoff_time": "06:00",
+    "match_date": "2026-07-13",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=189",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "WashingtonWizards-SacramentoKings",
+    "league": "USA - NBA",
+    "team1": {
+      "name": "Washington Wizards",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Sacramento Kings",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-13",
+    "kickoff_time": "07:00",
+    "match_date": "2026-07-13",
+    "match_time": "06:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=190",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "MilwaukeeBucks-SanAntonioSpurs",
+    "league": "USA - NBA",
+    "team1": {
+      "name": "Milwaukee Bucks",
+      "logo": ""
+    },
+    "team2": {
+      "name": "San Antonio Spurs",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-13",
+    "kickoff_time": "08:00",
+    "match_date": "2026-07-13",
+    "match_time": "07:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=191",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "UtahJazz-LosAngelesClippers",
+    "league": "USA - NBA",
+    "team1": {
+      "name": "Utah Jazz",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Los Angeles Clippers",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-13",
+    "kickoff_time": "09:00",
+    "match_date": "2026-07-13",
+    "match_time": "08:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=192",
+        "label": "CH-US"
       }
     ]
   },
