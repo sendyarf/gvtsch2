@@ -57,6 +57,7 @@ def parse_sportsonline():
         match = line_regex.match(line)
         if match:
             time_str, content, url = match.groups()
+            url = url.strip()
             
             league = ""
             team1 = ""
@@ -69,8 +70,14 @@ def parse_sportsonline():
             else:
                 match_info = content
             
-            if ' x ' in match_info:
-                teams = match_info.split(' x ')
+            if ' x ' in match_info or ' X ' in match_info:
+                sep = ' X ' if ' X ' in match_info else ' x '
+                teams = match_info.split(sep)
+                team1 = teams[0].strip()
+                team2 = teams[1].strip()
+            elif ' vs ' in match_info or ' VS ' in match_info:
+                sep = ' VS ' if ' VS ' in match_info else ' vs '
+                teams = match_info.split(sep)
                 team1 = teams[0].strip()
                 team2 = teams[1].strip()
             elif ' @ ' in match_info:
@@ -116,9 +123,9 @@ def parse_sportsonline():
                 "league": league,
                 "team1": {"name": team1, "logo": ""},
                 "team2": {"name": team2, "logo": ""},
-                "kickoff_date": "",
+                "kickoff_date": kickoff_date,
                 "kickoff_time": kickoff_time,
-                "match_date": "",
+                "match_date": kickoff_date,
                 "match_time": kickoff_time,
                 "duration": "3.5",
                 "servers": [server_data]
