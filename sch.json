@@ -203,37 +203,6 @@
     "servers": []
   },
   {
-    "id": "BostonRedSox-TampaBayRays",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Boston Celtics",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Tampa Bay Rays",
-      "logo": ""
-    },
-    "kickoff_date": "2026-07-18",
-    "kickoff_time": "00:35",
-    "match_date": "2026-07-18",
-    "match_time": "00:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=6",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=180",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=184",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
     "id": "FCCajamarca-JuanPabloII",
     "league": "Peru - Liga 1",
     "team1": {
@@ -307,18 +276,6 @@
       {
         "url": "https://multi.govoet.cc/?ss=eleven1",
         "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NTc4NDUubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMzIzNDMubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzYxODUubTN1OA==",
-        "label": "CH-VN"
       }
     ]
   },
@@ -507,6 +464,29 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?envivo=183",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "BostonRedSox-TampaBayRays",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Boston Celtics",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Tampa Bay Rays",
+      "logo": ""
+    },
+    "kickoff_date": "2026-07-18",
+    "kickoff_time": "06:10",
+    "match_date": "2026-07-18",
+    "match_time": "06:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=184",
         "label": "CH-US"
       }
     ]
