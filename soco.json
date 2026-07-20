@@ -1,27 +1,606 @@
 [
   {
     "id": "truc-tiep",
-    "league": "FIN D1",
+    "league": "ROM D1",
     "team1": {
-      "name": "TPS Turku"
+      "name": "FC Rapid 1923"
     },
     "team2": {
-      "name": "Ilves Tampere"
+      "name": "Sepsi OSK Sfantul Gheorghe"
     },
-    "kickoff_date": "2026-07-20",
-    "kickoff_time": "22:00",
-    "match_date": "2026-07-20",
-    "match_time": "22:00",
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "01:30",
+    "match_date": "2026-07-21",
+    "match_time": "01:30",
     "duration": "3.0",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yMzUyMzIubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTczMTMubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80NTk0MDEubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTgxMTkubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "BUL D1",
+    "team1": {
+      "name": "Botev Plovdiv"
+    },
+    "team2": {
+      "name": "Lokomotiv Sofia"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "01:30",
+    "match_date": "2026-07-21",
+    "match_time": "01:30",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yNTA4NzQubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81ODk4NDgubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "ICE PR",
+    "team1": {
+      "name": "Keflavik"
+    },
+    "team2": {
+      "name": "Akranes"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "02:15",
+    "match_date": "2026-07-21",
+    "match_time": "02:15",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTA1MTgubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTg1NDYubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDM5MTQubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "ICE PR",
+    "team1": {
+      "name": "Hafnarfjordur"
+    },
+    "team2": {
+      "name": "Breidablik"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "02:15",
+    "match_date": "2026-07-21",
+    "match_time": "02:15",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjI2MDIubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjIwOTMubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80MDA3MjIubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "INT CF",
+    "team1": {
+      "name": "Sporting CP"
+    },
+    "team2": {
+      "name": "Strasbourg"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "02:15",
+    "match_date": "2026-07-21",
+    "match_time": "02:15",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDIwMTkubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjAwMDMubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDIxNTMubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTg1NDkubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "ARG D2",
+    "team1": {
+      "name": "Colegiales"
+    },
+    "team2": {
+      "name": "Ferrocarril Midland"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "06:00",
+    "match_date": "2026-07-21",
+    "match_time": "06:00",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMzkzODQubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDc0MDAubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "ARG D2",
+    "team1": {
+      "name": "Patronato Parana"
+    },
+    "team2": {
+      "name": "Atletico Atlanta"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "06:00",
+    "match_date": "2026-07-21",
+    "match_time": "06:00",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zNzI3NDYubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zMDQxNDgubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "ARG D2",
+    "team1": {
+      "name": "Quilmes"
+    },
+    "team2": {
+      "name": "Gimnasia Jujuy"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "06:00",
+    "match_date": "2026-07-21",
+    "match_time": "06:00",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NTI3MTYubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zMjE0NDMubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "ARG D2",
+    "team1": {
+      "name": "Chaco For Ever"
+    },
+    "team2": {
+      "name": "CA San Miguel"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "07:00",
+    "match_date": "2026-07-21",
+    "match_time": "07:00",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzYxODUubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NTc4NDUubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "ARG D2",
+    "team1": {
+      "name": "Central Norte Salta"
+    },
+    "team2": {
+      "name": "Deportivo Moron"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "07:30",
+    "match_date": "2026-07-21",
+    "match_time": "07:30",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80MTQzMTcubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMDkwNTMubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zMjcxNTkubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMTgyMDYubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "CHA FACup",
+    "team1": {
+      "name": "Lanzhou Longyuan Athletic"
+    },
+    "team2": {
+      "name": "Shaanxi Union"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "14:00",
+    "match_date": "2026-07-21",
+    "match_time": "14:00",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDMyNTUubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NjA2OTAubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MDE0MTIubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjA3OTcubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "CHA FACup",
+    "team1": {
+      "name": "Dalian Kewei"
+    },
+    "team2": {
+      "name": "Beijing Guoan"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "15:00",
+    "match_date": "2026-07-21",
+    "match_time": "15:00",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80MTQzMTcubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMDkwNTMubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80ODQ4NDUubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xODc1NzkubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMTgyMDYubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDMyNTUubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "VIE U21",
+    "team1": {
+      "name": "PVF U21"
+    },
+    "team2": {
+      "name": "LPBank HAGL U21"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "15:30",
+    "match_date": "2026-07-21",
+    "match_time": "15:30",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTIwOTgubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zMDQxNDgubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTkxMDgubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zNzI3NDYubTN1OA==",
+        "label": "CH-VN"
+      },
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zNjA2NjMubTN1OA==",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTk2MzQubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDc0MDAubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "AUS CGP",
+    "team1": {
+      "name": "Canberra Juventus"
+    },
+    "team2": {
+      "name": "Canberra FC"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "16:30",
+    "match_date": "2026-07-21",
+    "match_time": "16:30",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NDg4NjAubTN1OA==",
         "label": "CH-VN"
       },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80ODU3MzkubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "AUS FFA",
+    "team1": {
+      "name": "Preston Lions"
+    },
+    "team2": {
+      "name": "Newcastle Jets"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "16:30",
+    "match_date": "2026-07-21",
+    "match_time": "16:30",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yODM1MDEubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yOTEyNzcubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yNTA4NzQubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzE5ODkubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "AUS FFA",
+    "team1": {
+      "name": "Queensland Lions SC"
+    },
+    "team2": {
+      "name": "Perth Glory"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "16:30",
+    "match_date": "2026-07-21",
+    "match_time": "16:30",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yMzUyMzIubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NTc4NDUubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80NzIyNDEubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTgxMTkubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "AUS FFA",
+    "team1": {
+      "name": "Cumberland United FC"
+    },
+    "team2": {
+      "name": "Heidelberg United"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "17:00",
+    "match_date": "2026-07-21",
+    "match_time": "17:00",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDMyNTUubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTczMTMubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "KOR D1",
+    "team1": {
+      "name": "Jeju SK FC"
+    },
+    "team2": {
+      "name": "Gangwon FC"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "17:30",
+    "match_date": "2026-07-21",
+    "match_time": "17:30",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTA1MTgubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80MDY4NjUubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjAwMDMubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTA2NzcubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "KOR D1",
+    "team1": {
+      "name": "Jeonbuk Hyundai Motors"
+    },
+    "team2": {
+      "name": "Daejeon Citizen"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "17:30",
+    "match_date": "2026-07-21",
+    "match_time": "17:30",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MjczODQubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NTI3MTYubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81ODIzNDIubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yNzM3MzYubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NjA2OTAubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81ODk4NDgubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "KOR D1",
+    "team1": {
+      "name": "Ulsan HD FC"
+    },
+    "team2": {
+      "name": "Incheon United Club"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "17:30",
+    "match_date": "2026-07-21",
+    "match_time": "17:30",
+    "duration": "3.0",
+    "servers": [
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80MTQzMTcubTN1OA==",
         "label": "CH-VN"
@@ -35,69 +614,127 @@
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzIwODEubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80OTE4NzMubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MDE0MTIubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zMjE0NDMubTN1OA==",
         "label": "CH-VN"
       }
     ]
   },
   {
     "id": "truc-tiep",
-    "league": "LAT D1",
+    "league": "AUS FFA",
     "team1": {
-      "name": "Jelgava"
+      "name": "Bayswater City"
     },
     "team2": {
-      "name": "Rigas Futbola Skola"
+      "name": "Sydney FC"
     },
-    "kickoff_date": "2026-07-20",
-    "kickoff_time": "22:00",
-    "match_date": "2026-07-20",
-    "match_time": "22:00",
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "17:30",
+    "match_date": "2026-07-21",
+    "match_time": "17:30",
     "duration": "3.0",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTA1MTgubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDMyNTUubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTczMTMubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80NjI0MTMubTN1OA==",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "truc-tiep",
-    "league": "ROM D1",
-    "team1": {
-      "name": "Corvinul Hunedoara"
-    },
-    "team2": {
-      "name": "FK Csikszereda Miercurea Ciuc"
-    },
-    "kickoff_date": "2026-07-20",
-    "kickoff_time": "22:30",
-    "match_date": "2026-07-20",
-    "match_time": "22:30",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMzIzNDMubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yNTA4NzQubTN1OA==",
-        "label": "CH-VN"
-      },
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTg1NDYubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTc5MjkubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjA3OTcubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "CHA FACup",
+    "team1": {
+      "name": "Shanghai Port"
+    },
+    "team2": {
+      "name": "Shenzhen Peng City"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "18:00",
+    "match_date": "2026-07-21",
+    "match_time": "18:00",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzIwODEubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80NTk0MDEubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMTgyMDYubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yNTYwODAubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDc0MDAubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDM5MTQubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "VIE U21",
+    "team1": {
+      "name": "Song Lam Nghe An U21"
+    },
+    "team2": {
+      "name": "SHB Da Nang U21"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "18:00",
+    "match_date": "2026-07-21",
+    "match_time": "18:00",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTkxMDgubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "CHA FACup",
+    "team1": {
+      "name": "Shanghai Shenhua"
+    },
+    "team2": {
+      "name": "Qingdao Hainiu"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "18:35",
+    "match_date": "2026-07-21",
+    "match_time": "18:35",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMDkwNTMubTN1OA==",
         "label": "CH-VN"
       },
       {
@@ -105,69 +742,184 @@
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjAwMDMubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80ODQ4NDUubTN1OA==",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xODc1NzkubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zMjcxNTkubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NDg4NjAubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzQwNTUubTN1OA==",
         "label": "CH-VN"
       }
     ]
   },
   {
     "id": "truc-tiep",
-    "league": "LIT D1",
+    "league": "CHA FACup",
     "team1": {
-      "name": "Suduva"
+      "name": "Wuhan Three Towns"
     },
     "team2": {
-      "name": "Hegelmann"
+      "name": "Shandong Taishan"
     },
-    "kickoff_date": "2026-07-20",
-    "kickoff_time": "22:45",
-    "match_date": "2026-07-20",
-    "match_time": "22:45",
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "18:35",
+    "match_date": "2026-07-21",
+    "match_time": "18:35",
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTc5MjkubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yNTA4NzQubTN1OA==",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTg1NDkubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80OTQyMDEubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMjMyMjYubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTk2MzQubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xNDc4MDEubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80ODU3MzkubTN1OA==",
         "label": "CH-VN"
       }
     ]
   },
   {
     "id": "truc-tiep",
-    "league": "FIN D1",
+    "league": "CHA FACup",
     "team1": {
-      "name": "IFK Mariehamn"
+      "name": "Chongqing Tonglianglong"
     },
     "team2": {
-      "name": "Lahti"
+      "name": "Qingdao West Coast"
     },
-    "kickoff_date": "2026-07-20",
-    "kickoff_time": "23:00",
-    "match_date": "2026-07-20",
-    "match_time": "23:00",
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "18:35",
+    "match_date": "2026-07-21",
+    "match_time": "18:35",
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yNTYwODAubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDIxNTMubTN1OA==",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81ODk4NDgubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMzIzNDMubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "CHA FACup",
+    "team1": {
+      "name": "Henan FC"
+    },
+    "team2": {
+      "name": "Dalian Yingbo"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "19:00",
+    "match_date": "2026-07-21",
+    "match_time": "19:00",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTIwOTgubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yODM1MDEubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zNzI3NDYubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zMDQxNDgubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "CHA FACup",
+    "team1": {
+      "name": "Yunnan Yukun"
+    },
+    "team2": {
+      "name": "Chengdu Rongcheng"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "19:00",
+    "match_date": "2026-07-21",
+    "match_time": "19:00",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTUzMzUubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzE5ODkubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zODA0NjAubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDc1NTIubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjIwOTMubTN1OA==",
         "label": "CH-VN"
       },
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzYxODUubTN1OA==",
         "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "UZB PFL",
+    "team1": {
+      "name": "Buxoro FK"
+    },
+    "team2": {
+      "name": "Bunyodkor"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "22:00",
+    "match_date": "2026-07-21",
+    "match_time": "22:00",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yNzM3MzYubTN1OA==",
+        "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NTc4NDUubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yODM1MDEubTN1OA==",
         "label": "CH-VN"
       },
       {
@@ -182,21 +934,29 @@
   },
   {
     "id": "truc-tiep",
-    "league": "LAT D1",
+    "league": "UZB PFL",
     "team1": {
-      "name": "Super Nova"
+      "name": "Pakhtakor"
     },
     "team2": {
-      "name": "Grobina"
+      "name": "Xorazm Urganch"
     },
-    "kickoff_date": "2026-07-20",
-    "kickoff_time": "23:00",
-    "match_date": "2026-07-20",
-    "match_time": "23:00",
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "22:00",
+    "match_date": "2026-07-21",
+    "match_time": "22:00",
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MTEzNjcubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTIwOTgubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xNjg3NDAubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NjA2OTAubTN1OA==",
         "label": "CH-VN"
       },
       {
@@ -207,46 +967,152 @@
   },
   {
     "id": "truc-tiep",
-    "league": "BUL D1",
+    "league": "UZB PFL",
     "team1": {
-      "name": "Slavia Sofia"
+      "name": "Sogdiana Jizak"
     },
     "team2": {
-      "name": "CSKA Sofia"
+      "name": "Neftchi Fergana"
     },
-    "kickoff_date": "2026-07-20",
-    "kickoff_time": "23:15",
-    "match_date": "2026-07-20",
-    "match_time": "23:15",
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "22:00",
+    "match_date": "2026-07-21",
+    "match_time": "22:00",
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDM5MTQubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80MDY4NjUubTN1OA==",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjI2MDIubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTczMTMubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MDE0MTIubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjA3OTcubTN1OA==",
         "label": "CH-VN"
       }
     ]
   },
   {
     "id": "truc-tiep",
-    "league": "RUS D2",
+    "league": "UEFA CL",
     "team1": {
-      "name": "Rotor Volgograd"
+      "name": "Ararat-Armenia FC"
     },
     "team2": {
-      "name": "SKA Khabarovsk"
+      "name": "Shamrock Rovers"
     },
-    "kickoff_date": "2026-07-20",
-    "kickoff_time": "23:30",
-    "match_date": "2026-07-20",
-    "match_time": "23:30",
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "23:00",
+    "match_date": "2026-07-21",
+    "match_time": "23:00",
     "duration": "3.0",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTUzMzUubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTA2NzcubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzYxODUubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NTc4NDUubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NTI3MTYubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMzIzNDMubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "UEFA CL",
+    "team1": {
+      "name": "FC Iberia 1999 Tbilisi"
+    },
+    "team2": {
+      "name": "Slovan Bratislava"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "23:00",
+    "match_date": "2026-07-21",
+    "match_time": "23:00",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTA1MTgubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjAwODQubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjI2MDIubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjIwOTMubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTg1NDkubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MjczODMubTN1OA==",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "UEFA CL",
+    "team1": {
+      "name": "Mjallby AIF"
+    },
+    "team2": {
+      "name": "Lincoln Red Imps FC"
+    },
+    "kickoff_date": "2026-07-21",
+    "kickoff_time": "23:00",
+    "match_date": "2026-07-21",
+    "match_time": "23:00",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yNTYwODAubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81ODk4NDgubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80OTQyMDEubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMjMyMjYubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTc5MjkubTN1OA==",
         "label": "CH-VN"
       },
       {
@@ -257,29 +1123,29 @@
   },
   {
     "id": "truc-tiep",
-    "league": "SWE D1",
+    "league": "UEFA CL",
     "team1": {
-      "name": "Kalmar"
+      "name": "Sabah Baku"
     },
     "team2": {
-      "name": "Malmo FF"
+      "name": "KuPs"
     },
     "kickoff_date": "2026-07-21",
-    "kickoff_time": "00:00",
+    "kickoff_time": "23:00",
     "match_date": "2026-07-21",
-    "match_time": "00:00",
+    "match_time": "23:00",
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzQwNTUubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMzkzODQubTN1OA==",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zODc2OTQubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTg1NDYubTN1OA==",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MjczODQubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDIwMTkubTN1OA==",
         "label": "CH-VN"
       },
       {
@@ -287,77 +1153,11 @@
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zMjcxNTkubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDIxNTMubTN1OA==",
         "label": "CH-VN"
       },
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTk2MzQubTN1OA==",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "truc-tiep",
-    "league": "SWE D1",
-    "team1": {
-      "name": "Orgryte"
-    },
-    "team2": {
-      "name": "Djurgardens"
-    },
-    "kickoff_date": "2026-07-21",
-    "kickoff_time": "00:00",
-    "match_date": "2026-07-21",
-    "match_time": "00:00",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yNzM3MzYubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MTA2NzcubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MjczODMubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80OTE4NzMubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zNjA2NjMubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81ODIzNDIubTN1OA==",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "truc-tiep",
-    "league": "SWE D2",
-    "team1": {
-      "name": "Norrby IF"
-    },
-    "team2": {
-      "name": "GIF Sundsvall"
-    },
-    "kickoff_date": "2026-07-21",
-    "kickoff_time": "00:00",
-    "match_date": "2026-07-21",
-    "match_time": "00:00",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjAwODQubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80MTQzMTcubTN1OA==",
         "label": "CH-VN"
       }
     ]
