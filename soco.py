@@ -37,7 +37,7 @@ def setup_driver():
 def scrape_with_selenium():
     """Scrape all matches using Selenium"""
     
-    base_url = "https://socolivef.cv/"
+    base_url = "https://socolive.watch/"
     driver = None
     
     try:
