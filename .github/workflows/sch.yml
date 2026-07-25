@@ -1,13 +1,13 @@
-name: Run Schedule Merger (SCH)
+name: Schedule Merge
 
 on:
   schedule:
-    - cron: "*/15 * * * *" # Every 1 hour
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 jobs:
   merge:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout repository
@@ -23,14 +23,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Schedule Merger
+      - name: Run schedule merge
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: python sch.py
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add sch.json
-          git commit -m "Update sch.json" || exit 0
+          git add -A
+          git diff --staged --quiet || git commit -m "Update sch.json"
           git pull --rebase origin main
           git push origin main
