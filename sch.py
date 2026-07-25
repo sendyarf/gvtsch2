@@ -582,10 +582,11 @@ def main():
                 sportsonline_merged += 1
     print(f"  ✅ Merged {sportsonline_merged} servers from sportsonline.json")
 
-    # soco.json
+    # soco.json (merge servers + create new entries)
     soco_data = load_json_safe('soco.json')
-    print(f"Processing soco.json ({len(soco_data)} matches) - Server merge only...")
+    print(f"Processing soco.json ({len(soco_data)} matches) - Merge & create...")
     soco_merged = 0
+    soco_created = 0
     if isinstance(soco_data, list):
         for match in soco_data:
             existing_key = find_matching_entry(match, merged_data, allow_time_only=False)
@@ -601,7 +602,14 @@ def main():
                 if not existing_match['team2'].get('logo') and match.get('team2', {}).get('logo'):
                     existing_match['team2']['logo'] = match['team2']['logo']
                 soco_merged += 1
-    print(f"  ✅ Merged {soco_merged} servers from soco.json")
+            else:
+                # Create new entry if match doesn't exist yet
+                key = create_composite_key(match)
+                if 'servers' not in match:
+                    match['servers'] = []
+                merged_data[key] = match
+                soco_created += 1
+    print(f"  ✅ Merged {soco_merged} servers, created {soco_created} new entries from soco.json")
 
     # Convert to list
     final_data = list(merged_data.values())
