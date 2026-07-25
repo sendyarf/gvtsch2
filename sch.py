@@ -594,6 +594,12 @@ def main():
                 existing_urls = {s['url'] for s in existing_match.get('servers', [])}
                 new_servers = match.get('servers', [])
                 merge_servers(existing_match, new_servers, existing_urls)
+
+                # Use soco logos as fallback if SofaScore/primary source has no logo
+                if not existing_match['team1'].get('logo') and match.get('team1', {}).get('logo'):
+                    existing_match['team1']['logo'] = match['team1']['logo']
+                if not existing_match['team2'].get('logo') and match.get('team2', {}).get('logo'):
+                    existing_match['team2']['logo'] = match['team2']['logo']
                 soco_merged += 1
     print(f"  ✅ Merged {soco_merged} servers from soco.json")
 
@@ -608,7 +614,8 @@ def main():
     # ============================================
     # PHASE 3.5: AI Name Matching
     # ============================================
-    if AI_MATCHER_AVAILABLE and os.environ.get("RUN_AI_MATCHER") == "true":
+    # Runs by default. Set SKIP_AI_MATCHER=true to disable.
+    if AI_MATCHER_AVAILABLE and os.environ.get("SKIP_AI_MATCHER") != "true":
         print("\n" + "=" * 50)
         try:
             team_res, league_res = run_ai_matcher(dry_run=False)
@@ -621,7 +628,10 @@ def main():
             print(f"⚠️  AI Matcher error (non-fatal): {e}")
         print("=" * 50)
     else:
-        print("\nℹ️  AI Matcher skipped (RUN_AI_MATCHER=true not set).")
+        if not AI_MATCHER_AVAILABLE:
+            print("\nℹ️  AI Matcher not available (import failed).")
+        else:
+            print("\nℹ️  AI Matcher skipped (SKIP_AI_MATCHER=true).")
 
     # ============================================
     # PHASE 4: Apply Manual Mapping for Display

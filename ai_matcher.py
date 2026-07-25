@@ -277,17 +277,21 @@ def resolve_team_names_with_ai(unmatched_teams, reference_teams):
     for batch_idx, batch in enumerate(batches):
         print(f"  Batch {batch_idx+1}/{len(batches)} ({len(batch)} names)...")
         
-        prompt = f"""I have team and sports event names from streaming sites. Match each to its SofaScore/Flashscore canonical name.
-- Handle abbreviations, languages (FR/ES/PT/VI/ID), different spellings.
-- For country names, translate to standard English (e.g. "Corée du Sud" -> "South Korea").
-- For sports event names (like Formula 1, MotoGP, tennis tournaments, UFC, or single-player events) that are not in the known list, translate and standardize them to clean, standard English (e.g., "Grand Prix de Barcelone Essais libres 1" -> "Spanish Grand Prix - Practice 1", "Roland Garros Double Hommes" -> "French Open - Men's Doubles").
-- If the name is completely invalid or spam, return "SKIP".
+        prompt = f"""You are a sports data expert. Translate/normalize these team and sports event names to standard English.
+
+RULES:
+1. Always output in English only
+2. Handle abbreviations and multi-language names (FR/ES/PT/VI/ID) and translate to English
+3. Country names: translate to English (e.g. "Corée du Sud" → "South Korea", "Espagne" → "Spain")
+4. For Formula 1, MotoGP, tennis tournaments, UFC and single-player events NOT in the known list: translate to clean English (e.g. "Grand Prix de Barcelone Essais libres 1" → "Spanish Grand Prix - Practice 1", "Roland Garros Double Hommes" → "French Open - Men's Doubles")
+5. If the name is completely invalid or spam → "SKIP"
+6. If the name matches a known team closely, return the known team name exactly
 
 Names to match: {json.dumps(batch, ensure_ascii=False)}
 
 Known teams (partial): {json.dumps(ref_list, ensure_ascii=False)}
 
-Respond with ONLY a JSON object. Example: {{"Gérone": "Girona", "Grand Prix de Barcelone Essais libres 1": "Spanish Grand Prix - Practice 1", "RandomSpamText": "SKIP"}}"""
+Respond with ONLY a raw JSON object (no markdown). Example: {{"Gérone": "Girona", "Grand Prix de Barcelone Essais libres 1": "Spanish Grand Prix - Practice 1", "RandomSpamText": "SKIP"}}"""
 
         try:
             answer, model_used = _call_deepseek(prompt)
@@ -343,16 +347,24 @@ def resolve_league_names_with_ai(unmatched_leagues, reference_leagues):
     for batch_idx, batch in enumerate(batches):
         print(f"  Batch {batch_idx+1}/{len(batches)} ({len(batch)} names)...")
         
-        prompt = f"""I have league names from streaming sites. Match each to standard "Country - Competition" format.
-- Handle multi-language (FR/ES/PT)
-- NBA -> "USA - NBA", NFL -> "USA - NFL", etc.
-- Non-league names -> "SKIP"
+        prompt = f"""You are a sports data expert. Translate these league/competition names to standard English format.
 
-Names to match: {json.dumps(batch, ensure_ascii=False)}
+RULES:
+1. Always output in English only — NO other language allowed in your response
+2. Club league format: "Country - Competition Name" (e.g. "France - Ligue 1", "Brazil - Serie A", "Ecuador - Primera A")
+3. International competitions: "World - FIFA World Cup", "Europe - UEFA Champions League", "South America - Copa Libertadores", "South America - Copa Sudamericana"
+4. Friendly matches: ALWAYS use exactly "Club Friendly" (NOT "Amical club", NOT "Amistoso", NOT "Friendly Match", NOT "International Friendly", NOT "Amical")
+5. Vietnamese names: translate fully ("Giải bóng đá vô địch Ecuador" → "Ecuador - Primera A", "Giải bóng đá đội tuyển dự bị nhà nghề Mỹ" → "USA - MLS Next Pro", "Giải VDQG" → translate the country)
+6. French names: "Amical club" → "Club Friendly", "Amical équipes nationales" → "International Friendly"
+7. Abbreviations: "BRA D1" → "Brazil - Serie A", "USA MLS" → "USA - MLS", "CON CSA" → "South America - Copa Sudamericana", "CON LIB" → "South America - Copa Libertadores", "UEFA CL" → "Europe - UEFA Champions League", "UEFA EL" → "Europe - UEFA Europa League"
+8. NBA → "USA - NBA", NFL → "USA - NFL", etc.
+9. Non-league/invalid/spam names → "SKIP"
 
-Known leagues (partial): {json.dumps(ref_list, ensure_ascii=False)}
+Names to translate: {json.dumps(batch, ensure_ascii=False)}
 
-Respond with ONLY a JSON object (do not wrap in markdown or backticks, just raw JSON). Example: {{"Laliga": "Spain - LaLiga", "Random": "SKIP"}}"""
+Known leagues for reference: {json.dumps(ref_list, ensure_ascii=False)}
+
+Respond with ONLY a raw JSON object (no markdown, no explanation). Example: {{"Laliga": "Spain - LaLiga", "Amical club": "Club Friendly", "Random": "SKIP"}}"""
 
         try:
             answer, model_used = _call_deepseek(prompt)
