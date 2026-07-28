@@ -400,7 +400,12 @@
     "match_date": "2026-07-30",
     "match_time": "00:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd2",
+        "label": "CH-1"
+      }
+    ]
   },
   {
     "id": "GornikZabrzePol-FenerbahceTur",
@@ -444,57 +449,6 @@
     "match_time": "01:10",
     "duration": "3.5",
     "servers": []
-  },
-  {
-    "id": "ChelseaEng-WSWanderersAus",
-    "league": "Club Friendly",
-    "team1": {
-      "name": "Chelsea (Eng)",
-      "logo": "https://sta.vnres.co/file/common/20260724/71b9ce0c0aea7ac198d7aace13584a00.png"
-    },
-    "team2": {
-      "name": "WS Wanderers (Australia)",
-      "logo": "https://sta.vnres.co/file/common/20260719/f9221715443e634f4c558a45f6226199.png"
-    },
-    "kickoff_date": "2026-07-28",
-    "kickoff_time": "16:45",
-    "match_date": "2026-07-28",
-    "match_time": "16:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=130",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=144",
-        "label": "CH-PT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80MTQzMTcubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xNDc4MDEubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xNjg3NDAubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzIwODEubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zNjA2NjMubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NDg4NjAubTN1OA==",
-        "label": "CH-VN"
-      }
-    ]
   },
   {
     "id": "RealMadridEsp-LeganesEsp",
@@ -1285,6 +1239,49 @@
       {
         "url": "https://multi.govoet.cc/?envivo=195",
         "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "Club Friendly",
+    "team1": {
+      "name": "Chelsea",
+      "logo": "https://sta.vnres.co/file/common/20260724/71b9ce0c0aea7ac198d7aace13584a00.png"
+    },
+    "team2": {
+      "name": "Western Sydney Wanderers",
+      "logo": "https://sta.vnres.co/file/common/20260719/f9221715443e634f4c558a45f6226199.png"
+    },
+    "kickoff_date": "2026-07-28",
+    "kickoff_time": "16:45",
+    "match_date": "2026-07-28",
+    "match_time": "16:40",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80MTQzMTcubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xNDc4MDEubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xNjg3NDAubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzIwODEubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zNjA2NjMubTN1OA==",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NDg4NjAubTN1OA==",
+        "label": "CH-VN"
       }
     ]
   },
