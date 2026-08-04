@@ -19,10 +19,6 @@
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTk2MzQubTN1OA==",
         "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd2",
-        "label": "CH-1"
       }
     ]
   },
@@ -44,6 +40,10 @@
     "match_time": "22:55",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-1"
+      },
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjA1MDQubTN1OA==",
         "label": "CH-VN"
@@ -169,6 +169,10 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-1"
+      },
+      {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjE4NDAubTN1OA==",
         "label": "CH-VN"
       },
@@ -199,7 +203,12 @@
     "match_date": "2026-08-05",
     "match_time": "00:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd8",
+        "label": "CH-1"
+      }
+    ]
   },
   {
     "id": "OlympiacosPiraeusGre-NijmegenNed",
@@ -297,319 +306,6 @@
     "servers": []
   },
   {
-    "id": "PhiladelphiaPhillies-WashingtonNationals",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Philadelphia Phillies (MLB)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Washington Nationals",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-04",
-    "kickoff_time": "05:40",
-    "match_date": "2026-08-04",
-    "match_time": "05:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=180",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "NewYorkYankees-StLouisCardinals",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "New York",
-      "logo": ""
-    },
-    "team2": {
-      "name": "St.Louis Cardinals",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-04",
-    "kickoff_time": "06:05",
-    "match_date": "2026-08-04",
-    "match_time": "06:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=181",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "MilwaukeeBrewers-PittsburghPirates",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Milwaukee",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Pittsburgh Pirates (MLB)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-04",
-    "kickoff_time": "06:40",
-    "match_date": "2026-08-04",
-    "match_time": "06:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=182",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "LDUQuito-Delfin",
-    "league": "Ecuador - Liga Pro",
-    "team1": {
-      "name": "LDU Quito",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Delfin SC",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-04",
-    "kickoff_time": "07:00",
-    "match_date": "2026-08-04",
-    "match_time": "06:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=86",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "ChicagoCubs-LosAngelesDodgers",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Chicago Cubs",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Los Angeles Dodgers",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-04",
-    "kickoff_time": "07:05",
-    "match_date": "2026-08-04",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=183",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "TexasRangers-SanFranciscoGiants",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Dallas Mavericks",
-      "logo": ""
-    },
-    "team2": {
-      "name": "San Francisco Giants (MLB)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-04",
-    "kickoff_time": "07:05",
-    "match_date": "2026-08-04",
-    "match_time": "07:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=184",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "HoustonAstros-TorontoBlueJays",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Houston Rockets",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Toronto Blue Jays",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-04",
-    "kickoff_time": "07:10",
-    "match_date": "2026-08-04",
-    "match_time": "07:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=185",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "CentralCordoba-SanLorenzo",
-    "league": "Argentina - Primera LPF",
-    "team1": {
-      "name": "Central Cordoba",
-      "logo": "https://sta.vnres.co/file/common/20260727/3db4f0d3045ef6fd25e07855dca604df.png"
-    },
-    "team2": {
-      "name": "San Lorenzo de Almagro",
-      "logo": "https://sta.vnres.co/file/common/20260531/ffe4935c3a716ad72e6859091682b52a.png"
-    },
-    "kickoff_date": "2026-08-04",
-    "kickoff_time": "07:15",
-    "match_date": "2026-08-04",
-    "match_time": "07:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=75",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd10",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDc0MDAubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80ODU3MzkubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zODA0NjAubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzQwNTUubTN1OA==",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "Huracan-AtlTucuman",
-    "league": "Argentina - Primera LPF",
-    "team1": {
-      "name": "Huracan",
-      "logo": "https://sta.vnres.co/file/common/20260727/717fb916c646bd090c3c24caee3f37d8.png"
-    },
-    "team2": {
-      "name": "Atlético Tucumán",
-      "logo": "https://sta.vnres.co/file/common/20260724/cb05a17177439d5906d39323f5187a9a.png"
-    },
-    "kickoff_date": "2026-08-04",
-    "kickoff_time": "07:15",
-    "match_date": "2026-08-04",
-    "match_time": "07:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=76",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zNzI3NDYubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zMDQxNDgubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NTI3MTYubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTgxMTkubTN1OA==",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "ColoradoRockies-TampaBayRays",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Colorado Rockies",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Tampa Bay Rays",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-04",
-    "kickoff_time": "07:40",
-    "match_date": "2026-08-04",
-    "match_time": "07:35",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=186",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "Bucaramanga-Cucuta",
-    "league": "Colombia: Primera A",
-    "team1": {
-      "name": "Bucaramanga FC",
-      "logo": "https://sta.vnres.co/file/common/20260729/c94435a7fbb5f6a3cb7fec2240682837.png"
-    },
-    "team2": {
-      "name": "Cúcuta",
-      "logo": "https://sta.vnres.co/file/common/20260724/ca06db3431688a12cdd022f975a3c9de.png"
-    },
-    "kickoff_date": "2026-08-04",
-    "kickoff_time": "08:00",
-    "match_date": "2026-08-04",
-    "match_time": "07:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=81",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yOTEyNzcubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80ODQ4NDUubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zMjcxNTkubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NDg4NjAubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMzkzODQubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80NjI0MTMubTN1OA==",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
     "id": "ArizonaDiamondbacks-SanDiegoPadres",
     "league": "USA - MLB",
     "team1": {
@@ -634,140 +330,43 @@
   },
   {
     "id": "truc-tiep",
-    "league": "Mexico - Liga Mx Femenil",
+    "league": "Colombia: Primera A",
     "team1": {
-      "name": "Atlante Women",
-      "logo": "https://sta.vnres.co/file/common/20260801/50c28af6a4787469a8fde2b82c8b89a6.png"
+      "name": "Atletico Bucaramanga",
+      "logo": "https://sta.vnres.co/file/common/20260729/c94435a7fbb5f6a3cb7fec2240682837.png"
     },
     "team2": {
-      "name": "Club Necaxa Women",
-      "logo": "https://sta.vnres.co/file/common/20260801/4d2abd4db15503c92ff61c31590fdf5f.png"
+      "name": "Cucuta Deportivo",
+      "logo": "https://sta.vnres.co/file/common/20260724/ca06db3431688a12cdd022f975a3c9de.png"
     },
     "kickoff_date": "2026-08-04",
-    "kickoff_time": "04:45",
+    "kickoff_time": "08:00",
     "match_date": "2026-08-04",
-    "match_time": "04:40",
+    "match_time": "07:55",
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80ODU3MzkubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yOTEyNzcubTN1OA==",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81OTgxMTkubTN1OA==",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "truc-tiep",
-    "league": "Argentina - Primera División",
-    "team1": {
-      "name": "Platense",
-      "logo": "https://sta.vnres.co/file/common/20260727/d4501c1e40341b221b48f6b987317906.png"
-    },
-    "team2": {
-      "name": "Talleres Cordoba",
-      "logo": "https://sta.vnres.co/file/common/20260723/614842b334e6eab1789af0ee48239ba0.png"
-    },
-    "kickoff_date": "2026-08-04",
-    "kickoff_time": "05:00",
-    "match_date": "2026-08-04",
-    "match_time": "04:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81MzQwNTUubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80ODQ4NDUubTN1OA==",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDc0MDAubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zMjcxNTkubTN1OA==",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zNzI3NDYubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NDg4NjAubTN1OA==",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8zMDQxNDgubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMzkzODQubTN1OA==",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8xMzIzNDMubTN1OA==",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "truc-tiep",
-    "league": "Argentina - Primera División",
-    "team1": {
-      "name": "Velez Sarsfield",
-      "logo": "https://sta.vnres.co/file/common/20260727/75769d24bf17fbbd42c30d80eedc8d3c.png"
-    },
-    "team2": {
-      "name": "Independiente",
-      "logo": "https://sta.vnres.co/file/common/20260724/e7b17e9fb019eee6cf820a764e581bf4.png"
-    },
-    "kickoff_date": "2026-08-04",
-    "kickoff_time": "05:00",
-    "match_date": "2026-08-04",
-    "match_time": "04:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NTI3MTYubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjE4ODcubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yODM1MDEubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MDIwMTkubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS82MjI2MDIubTN1OA==",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "truc-tiep",
-    "league": "Brazil - Copa Do Brasil",
-    "team1": {
-      "name": "Athletico Paranaense (Bra)",
-      "logo": "https://sta.vnres.co/file/common/20260720/5b748b8026aed863f6745c7c2077f31e.png"
-    },
-    "team2": {
-      "name": "Vitória - BA",
-      "logo": "https://sta.vnres.co/file/common/20260724/783fb4f914d7cedd2bb1db302170f67f.png"
-    },
-    "kickoff_date": "2026-08-04",
-    "kickoff_time": "07:00",
-    "match_date": "2026-08-04",
-    "match_time": "06:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80MTQzMTcubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NTI4MzIubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS8yMzUyMzIubTN1OA==",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS81NTc4NDUubTN1OA==",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9saXZlLmlucGx5ci5jb20vcm9vbS80NjI0MTMubTN1OA==",
         "label": "CH-VN"
       }
     ]
