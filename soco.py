@@ -273,7 +273,7 @@ def translate_leagues_with_ai(matches):
 def scrape_with_selenium():
     """Scrape all matches using Selenium"""
     
-    base_url = "https://socolive25.cv/"
+    base_url = "https://socolive2.watch/"
     driver = None
     
     try:
