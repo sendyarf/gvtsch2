@@ -412,7 +412,7 @@ def scrape_with_selenium():
                         blv_id = query_params['blv'][0]
                         
                         # Create stream URL
-                        stream_url = f"https://live.inplyr.com/room/{blv_id}.m3u8"
+                        stream_url = f"https://pull.niur.live/live/stream-{blv_id}_lhd.m3u8"
                         encoded_url = encode_url_to_base64(stream_url)
                         player_url = f"https://multi.govoet.cc/?hls={encoded_url}"
                         
