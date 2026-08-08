@@ -41,10 +41,6 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=141",
-        "label": "CH-NL"
-      },
-      {
         "url": "https://multi.govoet.cc/?ss=hd5",
         "label": "CH-1"
       }
@@ -97,6 +93,10 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?envivo=142",
+        "label": "CH-NL"
+      },
+      {
         "url": "https://multi.govoet.cc/?ss=hd8",
         "label": "CH-1"
       },
@@ -123,7 +123,12 @@
     "match_date": "2026-08-09",
     "match_time": "19:25",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=141",
+        "label": "CH-NL"
+      }
+    ]
   },
   {
     "id": "Zwolle-Ajax",
@@ -143,6 +148,14 @@
     "match_time": "19:25",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=143",
+        "label": "CH-NL"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=98",
+        "label": "CH-ES"
+      },
       {
         "url": "https://multi.govoet.cc/?ss=hd9",
         "label": "CH-1"
@@ -167,6 +180,10 @@
     "match_time": "21:40",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=142",
+        "label": "CH-NL"
+      },
       {
         "url": "https://multi.govoet.cc/?ss=hd8",
         "label": "CH-1"
@@ -229,590 +246,6 @@
     "match_time": "22:55",
     "duration": "3.5",
     "servers": []
-  },
-  {
-    "id": "MainzGer-ParisFCFra",
-    "league": "Club Friendly",
-    "team1": {
-      "name": "Mainz (Ger)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Paris FC (Fra)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-08",
-    "kickoff_time": "22:00",
-    "match_date": "2026-08-08",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=163",
-        "label": "CH-FR"
-      }
-    ]
-  },
-  {
-    "id": "PSGFra-ManchesterUtdEng",
-    "league": "Club Friendly",
-    "team1": {
-      "name": "PSG (Fra)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Manchester United",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-08",
-    "kickoff_time": "22:00",
-    "match_date": "2026-08-08",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=130",
-        "label": "CH-GB"
-      }
-    ]
-  },
-  {
-    "id": "RennesFra-BrentfordEng",
-    "league": "Club Friendly",
-    "team1": {
-      "name": "Rennes (France)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Brentford (Eng)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-08",
-    "kickoff_time": "22:00",
-    "match_date": "2026-08-08",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=20",
-        "label": "CH-FR"
-      }
-    ]
-  },
-  {
-    "id": "SchalkeGer-AtalantaIta",
-    "league": "Club Friendly",
-    "team1": {
-      "name": "Schalke (Germany)",
-      "logo": "https://sta.vnres.co/file/common/20260806/a3d2129acf1e0724248aeff525a3052d.png"
-    },
-    "team2": {
-      "name": "Atalanta (Ita)",
-      "logo": "https://sta.vnres.co/file/common/20260806/085d7ff044b3e765b9cdaa86369fabab.jpg"
-    },
-    "kickoff_date": "2026-08-08",
-    "kickoff_time": "22:00",
-    "match_date": "2026-08-08",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=111",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=137",
-        "label": "CH-IT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MTA1MThfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MjAwODRfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "GrandPrixdeGrandeBretagneCourseSprint",
-    "league": "World - MotoGP",
-    "team1": {
-      "name": "Grand Prix de Grande-Bretagne Course Sprint",
-      "logo": ""
-    },
-    "team2": {
-      "name": "",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-08",
-    "kickoff_time": "22:00",
-    "match_date": "2026-08-08",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=14",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=67",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "AuxerreFra-TroyesFra",
-    "league": "Club Friendly",
-    "team1": {
-      "name": "Auxerre (Fra)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Troyes (Fra)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-08",
-    "kickoff_time": "23:00",
-    "match_date": "2026-08-08",
-    "match_time": "22:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=164",
-        "label": "CH-FR"
-      }
-    ]
-  },
-  {
-    "id": "StLiege-CercleBruggeKSV",
-    "league": "Belgium - Pro League",
-    "team1": {
-      "name": "St. Liege",
-      "logo": "https://sta.vnres.co/file/common/20260805/f0d6cdc40f91a23995e3eb7f24167936.png"
-    },
-    "team2": {
-      "name": "Cercle Brugge KSV",
-      "logo": "https://sta.vnres.co/file/common/20260805/a8a6fe65fa415f2bad7dab087009e776.png"
-    },
-    "kickoff_date": "2026-08-08",
-    "kickoff_time": "23:15",
-    "match_date": "2026-08-08",
-    "match_time": "23:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=153",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS01MTEzNjdfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MjE4NDNfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "BrestFra-VeneziaIta",
-    "league": "Club Friendly",
-    "team1": {
-      "name": "Brest (Fra)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Venezia (Italy)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-08",
-    "kickoff_time": "23:30",
-    "match_date": "2026-08-08",
-    "match_time": "23:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=20",
-        "label": "CH-FR"
-      }
-    ]
-  },
-  {
-    "id": "CoventryEng-EspanyolEsp",
-    "league": "Club Friendly",
-    "team1": {
-      "name": "Coventry (Eng)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Espanyol",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-08",
-    "kickoff_time": "23:30",
-    "match_date": "2026-08-08",
-    "match_time": "23:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=49",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "Cheltenham-Charlton",
-    "league": "England - EFL Cup",
-    "team1": {
-      "name": "Cheltenham Town",
-      "logo": "https://sta.vnres.co/file/common/20260805/5e82c83efb60f71f04a50e7224feb9a2.png"
-    },
-    "team2": {
-      "name": "Charlton",
-      "logo": "https://sta.vnres.co/file/common/20260805/5333347931d6ddc94470939b899b8372.png"
-    },
-    "kickoff_date": "2026-08-08",
-    "kickoff_time": "23:30",
-    "match_date": "2026-08-08",
-    "match_time": "23:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=170",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MjA2NDlfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS00MDA3MjJfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "Colchester-Southampton",
-    "league": "England - EFL Cup",
-    "team1": {
-      "name": "Colchester United",
-      "logo": "https://sta.vnres.co/file/common/20260805/e0513a54fcc3938c146224b9da93ecd1.png"
-    },
-    "team2": {
-      "name": "Southampton",
-      "logo": "https://sta.vnres.co/file/common/20260805/b4c060cd13f8fd465db0da5dceefe67a.png"
-    },
-    "kickoff_date": "2026-08-08",
-    "kickoff_time": "23:30",
-    "match_date": "2026-08-08",
-    "match_time": "23:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=4",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=97",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=127",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=128",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS0yNzM3MzZfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS01ODk4NDhfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS01MjczODNfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS01MzIwODFfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "Rotherham-WestBrom",
-    "league": "England - EFL Cup",
-    "team1": {
-      "name": "Rotherham",
-      "logo": "https://sta.vnres.co/file/common/20260805/7656dffc8775b63c993289640d66e1ce.png"
-    },
-    "team2": {
-      "name": "West Brom",
-      "logo": "https://sta.vnres.co/file/common/20260805/eeed8b81b6383db3f58c13d6d10a4e0b.png"
-    },
-    "kickoff_date": "2026-08-08",
-    "kickoff_time": "23:30",
-    "match_date": "2026-08-08",
-    "match_time": "23:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=171",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS00MDY4NjVfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MjA1MDRfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "GAEagles-WillemII",
-    "league": "Netherlands - Eredivisie",
-    "team1": {
-      "name": "G.A. Eagles",
-      "logo": "https://sta.vnres.co/file/common/20260805/9ffdf358cb9c535fd64402cc6d900369.png"
-    },
-    "team2": {
-      "name": "Willem II",
-      "logo": "https://sta.vnres.co/file/common/20260805/2a65fe621f7ee3a2f39ba827661975da.png"
-    },
-    "kickoff_date": "2026-08-08",
-    "kickoff_time": "23:45",
-    "match_date": "2026-08-08",
-    "match_time": "23:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=143",
-        "label": "CH-NL"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MjE4NDBfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MjIwOTNfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS0zMjE0NDNfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MjA2NjFfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "APOELCyp-KifisiaGre",
-    "league": "Club Friendly",
-    "team1": {
-      "name": "APOEL (Cyp)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Kifisia (Gre)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-09",
-    "kickoff_time": "00:00",
-    "match_date": "2026-08-08",
-    "match_time": "23:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=148",
-        "label": "CH-GR"
-      }
-    ]
-  },
-  {
-    "id": "FerencvarosHun-RealMadridEsp",
-    "league": "Club Friendly",
-    "team1": {
-      "name": "Ferencvaros (Hun)",
-      "logo": "https://sta.vnres.co/file/common/20260806/a242ad6b8efb482ef2d7de7566971ca7.png"
-    },
-    "team2": {
-      "name": "Real Madrid (Spain)",
-      "logo": "https://sta.vnres.co/file/common/20260729/0c09fa2afd64752fd3b7993b92057f3f.png"
-    },
-    "kickoff_date": "2026-08-09",
-    "kickoff_time": "00:00",
-    "match_date": "2026-08-08",
-    "match_time": "23:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=45",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=88",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=94",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=97",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS00NjI0MTNfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS00OTQyMDFfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS00OTE4NzNfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS0xODc1NzlfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS01OTk2MzRfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS0yNTA4NzRfbGhkLm0zdTg=",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "AtlTucuman-SarmientoJunin",
-    "league": "Argentina - Primera LPF",
-    "team1": {
-      "name": "Atlético Tucumán",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Sarmiento Junin",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-09",
-    "kickoff_time": "00:45",
-    "match_date": "2026-08-09",
-    "match_time": "00:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=76",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "DepRiestra-EstudiantesLP",
-    "league": "Argentina - Primera LPF",
-    "team1": {
-      "name": "Dep. Riestra",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Estudiantes de La Plata",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-09",
-    "kickoff_time": "00:45",
-    "match_date": "2026-08-09",
-    "match_time": "00:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=75",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "GalatasarayTur-VillarrealEsp",
-    "league": "Club Friendly",
-    "team1": {
-      "name": "Galatasaray (Turkey)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Villarreal",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-09",
-    "kickoff_time": "01:00",
-    "match_date": "2026-08-09",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=50",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "Cajamarca-ADTarma",
-    "league": "Peru - Liga 1",
-    "team1": {
-      "name": "Cajamarca FC",
-      "logo": ""
-    },
-    "team2": {
-      "name": "AD Tarma",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-09",
-    "kickoff_time": "01:00",
-    "match_date": "2026-08-09",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=84",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "LiverpoolM-Albion",
-    "league": "Uruguay - Liga AUF",
-    "team1": {
-      "name": "Liverpool",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Albion FC",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-09",
-    "kickoff_time": "01:00",
-    "match_date": "2026-08-09",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=109",
-        "label": "CH-ES"
-      }
-    ]
   },
   {
     "id": "BetisEsp-BournemouthEng",
@@ -1368,6 +801,10 @@
       {
         "url": "https://multi.govoet.cc/?envivo=180",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=182",
+        "label": "CH-US"
       }
     ]
   },
@@ -1475,6 +912,10 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?envivo=182",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=185",
         "label": "CH-US"
       }
     ]
@@ -1691,6 +1132,10 @@
       {
         "url": "https://multi.govoet.cc/?envivo=184",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=80",
+        "label": "CH-ES"
       }
     ]
   },
@@ -1713,6 +1158,10 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?envivo=185",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=180",
         "label": "CH-US"
       }
     ]
@@ -1760,6 +1209,10 @@
       {
         "url": "https://multi.govoet.cc/?envivo=186",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=187",
+        "label": "CH-US"
       }
     ]
   },
@@ -1783,6 +1236,10 @@
       {
         "url": "https://multi.govoet.cc/?envivo=187",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=188",
+        "label": "CH-US"
       }
     ]
   },
@@ -1805,6 +1262,10 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?envivo=188",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=186",
         "label": "CH-US"
       }
     ]
@@ -1852,6 +1313,10 @@
       {
         "url": "https://multi.govoet.cc/?envivo=190",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=191",
+        "label": "CH-US"
       }
     ]
   },
@@ -1875,6 +1340,10 @@
       {
         "url": "https://multi.govoet.cc/?envivo=191",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=189",
+        "label": "CH-US"
       }
     ]
   },
@@ -1897,6 +1366,10 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?envivo=192",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=190",
         "label": "CH-US"
       }
     ]
@@ -2020,6 +1493,10 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?envivo=193",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=192",
         "label": "CH-US"
       }
     ]
@@ -2225,6 +1702,10 @@
       {
         "url": "https://multi.govoet.cc/?envivo=194",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=193",
+        "label": "CH-US"
       }
     ]
   },
@@ -2275,6 +1756,1338 @@
       {
         "url": "https://multi.govoet.cc/?ss=hd5",
         "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "GrandPrixdeGrandeBretagneWarmup",
+    "league": "World - MotoGP",
+    "team1": {
+      "name": "Grand Prix de Grande-Bretagne Warm up",
+      "logo": ""
+    },
+    "team2": {
+      "name": "",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "15:40",
+    "match_date": "2026-08-09",
+    "match_time": "15:35",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=14",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=67",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=11",
+        "label": "CH-FR"
+      }
+    ]
+  },
+  {
+    "id": "ManchesterCityEng-AtlMadridEsp",
+    "league": "Club Friendly",
+    "team1": {
+      "name": "Manchester City (Eng)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Atl. Madrid (Esp)",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "18:00",
+    "match_date": "2026-08-09",
+    "match_time": "17:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=61",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=87",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd6",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br2",
+        "label": "CH-3"
+      }
+    ]
+  },
+  {
+    "id": "multiplex2Bundesliga",
+    "league": "Germany - Bundesliga 2",
+    "team1": {
+      "name": "multiplex 2. Bundesliga",
+      "logo": ""
+    },
+    "team2": {
+      "name": "",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "18:30",
+    "match_date": "2026-08-09",
+    "match_time": "18:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=111",
+        "label": "CH-DE"
+      }
+    ]
+  },
+  {
+    "id": "Cottbus-Hannover",
+    "league": "Germany - Bundesliga 2",
+    "team1": {
+      "name": "Cottbus",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Hannover",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "18:30",
+    "match_date": "2026-08-09",
+    "match_time": "18:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=112",
+        "label": "CH-DE"
+      }
+    ]
+  },
+  {
+    "id": "Nurnberg-SGDynamoDresden",
+    "league": "Germany - Bundesliga 2",
+    "team1": {
+      "name": "Nurnberg",
+      "logo": ""
+    },
+    "team2": {
+      "name": "SG Dynamo Dresden",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "18:30",
+    "match_date": "2026-08-09",
+    "match_time": "18:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=113",
+        "label": "CH-DE"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven3",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "StPauli-GreutherFurth",
+    "league": "Germany - Bundesliga 2",
+    "team1": {
+      "name": "St. Pauli",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Greuther Furth",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "18:30",
+    "match_date": "2026-08-09",
+    "match_time": "18:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=4",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=78",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=114",
+        "label": "CH-DE"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=138",
+        "label": "CH-IT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven2",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "Gent-KVMechelen",
+    "league": "Belgium - Pro League",
+    "team1": {
+      "name": "Gent",
+      "logo": ""
+    },
+    "team2": {
+      "name": "KV Mechelen",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "18:30",
+    "match_date": "2026-08-09",
+    "match_time": "18:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=153",
+        "label": "CH-FR"
+      }
+    ]
+  },
+  {
+    "id": "JohorDTMys-ChelseaEng",
+    "league": "Club Friendly",
+    "team1": {
+      "name": "Johor DT",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Chelsea (Eng)",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "19:00",
+    "match_date": "2026-08-09",
+    "match_time": "18:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=155",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Kilmarnock-Celtic",
+    "league": "Scotland - Premiership",
+    "team1": {
+      "name": "Kilmarnock",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Celtic",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "19:30",
+    "match_date": "2026-08-09",
+    "match_time": "19:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=135",
+        "label": "CH-GB"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "LiverpoolEng-MonacoFra",
+    "league": "Club Friendly",
+    "team1": {
+      "name": "Liverpool (England)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Monaco (France)",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "20:30",
+    "match_date": "2026-08-09",
+    "match_time": "20:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=20",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=144",
+        "label": "CH-PT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=70",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Danubio-CACerro",
+    "league": "Uruguay - Liga AUF",
+    "team1": {
+      "name": "Danubio",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Cerro Porteño",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "21:00",
+    "match_date": "2026-08-09",
+    "match_time": "20:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=109",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Charleroi-Leuven",
+    "league": "Belgium - Pro League",
+    "team1": {
+      "name": "Charleroi SC",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Oud-Heverlee Leuven",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "21:00",
+    "match_date": "2026-08-09",
+    "match_time": "20:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=154",
+        "label": "CH-FR"
+      }
+    ]
+  },
+  {
+    "id": "Waregem-Genk",
+    "league": "Belgium - Pro League",
+    "team1": {
+      "name": "Zulte Waregem",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Genk",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "21:00",
+    "match_date": "2026-08-09",
+    "match_time": "20:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=153",
+        "label": "CH-FR"
+      }
+    ]
+  },
+  {
+    "id": "Mansfield-SheffieldUtd",
+    "league": "England - EFL Cup",
+    "team1": {
+      "name": "Mansfield",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Sheffield Utd",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "22:00",
+    "match_date": "2026-08-09",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=127",
+        "label": "CH-GB"
+      }
+    ]
+  },
+  {
+    "id": "Rangers-Hibernian",
+    "league": "Scotland - Premiership",
+    "team1": {
+      "name": "Rangers (Sco)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Hibernian",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "22:00",
+    "match_date": "2026-08-09",
+    "match_time": "21:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=136",
+        "label": "CH-GB"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd5",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "MarseilleFra-AthBilbaoEsp",
+    "league": "Club Friendly",
+    "team1": {
+      "name": "Marseille (France)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Athletic Bilbao (Esp)",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "22:30",
+    "match_date": "2026-08-09",
+    "match_time": "22:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=20",
+        "label": "CH-FR"
+      }
+    ]
+  },
+  {
+    "id": "DConcepcion-UDeConcepcion",
+    "league": "Chile - Liga de Primera",
+    "team1": {
+      "name": "Dep. Concepcion",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Universidad de Concepción",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "23:30",
+    "match_date": "2026-08-09",
+    "match_time": "23:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=83",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Anderlecht-RAALLaLouviere",
+    "league": "Belgium - Pro League",
+    "team1": {
+      "name": "RSC Anderlecht",
+      "logo": ""
+    },
+    "team2": {
+      "name": "La Louviere",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "23:30",
+    "match_date": "2026-08-09",
+    "match_time": "23:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=153",
+        "label": "CH-FR"
+      }
+    ]
+  },
+  {
+    "id": "FCPorto-Alverca",
+    "league": "Portugal - Primeira Liga",
+    "team1": {
+      "name": "FC Porto",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Alverca FC",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "00:00",
+    "match_date": "2026-08-09",
+    "match_time": "23:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=2",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=144",
+        "label": "CH-PT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br2",
+        "label": "CH-2"
+      }
+    ]
+  },
+  {
+    "id": "Antwerp-Beveren",
+    "league": "Belgium - Pro League",
+    "team1": {
+      "name": "Royal Antwerp",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Beveren",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "00:15",
+    "match_date": "2026-08-10",
+    "match_time": "00:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=154",
+        "label": "CH-FR"
+      }
+    ]
+  },
+  {
+    "id": "DeportivoGarcilaso-Moquegua",
+    "league": "Peru - Liga 1",
+    "team1": {
+      "name": "Deportivo Garcilaso",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Moquegua FC",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "01:00",
+    "match_date": "2026-08-10",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=84",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "DefensorSp-Wanderers",
+    "league": "Uruguay - Liga AUF",
+    "team1": {
+      "name": "Defensor Sporting Club",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Western Sydney Wanderers",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "01:00",
+    "match_date": "2026-08-10",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=109",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "SanLorenzo-Huracan",
+    "league": "Argentina - Primera LPF",
+    "team1": {
+      "name": "San Lorenzo de Almagro",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Huracan",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "01:00",
+    "match_date": "2026-08-10",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=76",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "FrosinoneIta-LazioIta",
+    "league": "Club Friendly",
+    "team1": {
+      "name": "Frosinone (Ita)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Lazio (Ita)",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "01:45",
+    "match_date": "2026-08-10",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=137",
+        "label": "CH-IT"
+      }
+    ]
+  },
+  {
+    "id": "OHiggins-Limache",
+    "league": "Chile - Liga de Primera",
+    "team1": {
+      "name": "O'Higgins",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Limache FC",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "02:00",
+    "match_date": "2026-08-10",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=83",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Palmeiras-Internacional",
+    "league": "Brazil - Serie A Betano",
+    "team1": {
+      "name": "Palmeiras",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Internacional",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "02:00",
+    "match_date": "2026-08-10",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=61",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=125",
+        "label": "CH-DE"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br1",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "SeattleSounders-Queretaro",
+    "league": "Leagues Cup",
+    "team1": {
+      "name": "Seattle Sounders",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Querétaro FC",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "02:30",
+    "match_date": "2026-08-10",
+    "match_time": "02:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=160",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Benfica-AcademicoViseu",
+    "league": "Portugal - Primeira Liga",
+    "team1": {
+      "name": "Benfica",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Academico Viseu",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "02:30",
+    "match_date": "2026-08-10",
+    "match_time": "02:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=2",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=147",
+        "label": "CH-PT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=btv",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "GilVicente-RioAve",
+    "league": "Portugal - Primeira Liga",
+    "team1": {
+      "name": "Gil Vicente FC",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Rio Ave FC",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "02:30",
+    "match_date": "2026-08-10",
+    "match_time": "02:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=145",
+        "label": "CH-PT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv2",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "Moreirense-Braga",
+    "league": "Portugal - Primeira Liga",
+    "team1": {
+      "name": "Moreirense FC",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Braga",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "02:30",
+    "match_date": "2026-08-10",
+    "match_time": "02:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=5",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=146",
+        "label": "CH-PT"
+      }
+    ]
+  },
+  {
+    "id": "FBCMelgar-FCCajamarca",
+    "league": "Peru - Liga 1",
+    "team1": {
+      "name": "Melgar",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Cajamarca FC",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "03:30",
+    "match_date": "2026-08-10",
+    "match_time": "03:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=84",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "DefensayJusticia-NewellsOldBoys",
+    "league": "Argentina - Primera LPF",
+    "team1": {
+      "name": "Defensa y Justicia (Arg)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Newells Old Boys",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "03:45",
+    "match_date": "2026-08-10",
+    "match_time": "03:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=76",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "GimnasiaLP-BarracasCentral",
+    "league": "Argentina - Primera LPF",
+    "team1": {
+      "name": "Gimnasia L.P.",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Barracas Central",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "03:45",
+    "match_date": "2026-08-10",
+    "match_time": "03:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=75",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Delfin-Orense",
+    "league": "Ecuador - Liga Pro",
+    "team1": {
+      "name": "Delfin SC",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Orense CF",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "04:00",
+    "match_date": "2026-08-10",
+    "match_time": "03:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=86",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Alianza-Bucaramanga",
+    "league": "Colombia: Primera A",
+    "team1": {
+      "name": "Alianza Lima",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Bucaramanga FC",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "04:05",
+    "match_date": "2026-08-10",
+    "match_time": "04:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=81",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=82",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "UnionLaCalera-ColoColo",
+    "league": "Chile - Liga de Primera",
+    "team1": {
+      "name": "Union La Calera",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Colo Colo",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "04:30",
+    "match_date": "2026-08-10",
+    "match_time": "04:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=83",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Nacional-BostonRiver",
+    "league": "Uruguay - Liga AUF",
+    "team1": {
+      "name": "Club Nacional",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Boston River",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "04:30",
+    "match_date": "2026-08-10",
+    "match_time": "04:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=109",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Santos-AthleticoPR",
+    "league": "Brazil - Serie A Betano",
+    "team1": {
+      "name": "Santos FC",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Athletico Paranaense",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "04:30",
+    "match_date": "2026-08-10",
+    "match_time": "04:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=125",
+        "label": "CH-DE"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br4",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "AtlSanLuisW-ClubTijuanaW",
+    "league": "Mexico - Liga MX Women",
+    "team1": {
+      "name": "Atl. San Luis W",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Club Tijuana W",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "05:00",
+    "match_date": "2026-08-10",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=98",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "JaguaresdeCordoba-OnceCaldas",
+    "league": "Colombia: Primera A",
+    "team1": {
+      "name": "Jaguares de Cordoba",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Once Caldas",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "06:10",
+    "match_date": "2026-08-10",
+    "match_time": "06:05",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=81",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "ArgentinosJrs-RacingClub",
+    "league": "Argentina - Primera LPF",
+    "team1": {
+      "name": "Argentinos Juniors",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Racing Club de France",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "06:15",
+    "match_date": "2026-08-10",
+    "match_time": "06:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=75",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv1",
+        "label": "CH-2"
+      }
+    ]
+  },
+  {
+    "id": "CruzAzul-NewYorkCity",
+    "league": "Leagues Cup",
+    "team1": {
+      "name": "Cruz Azul (Mex)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "New York City FC",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "06:30",
+    "match_date": "2026-08-10",
+    "match_time": "06:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=68",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd5",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "PhiladelphiaUnion-Necaxa",
+    "league": "Leagues Cup",
+    "team1": {
+      "name": "Philadelphia Union",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Necaxa",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "06:30",
+    "match_date": "2026-08-10",
+    "match_time": "06:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=161",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "UDeChile-Palestino",
+    "league": "Chile - Liga de Primera",
+    "team1": {
+      "name": "Universidad de Chile",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Palestino FC",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "07:00",
+    "match_date": "2026-08-10",
+    "match_time": "06:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=83",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "GuayaquilCity-Emelec",
+    "league": "Ecuador - Liga Pro",
+    "team1": {
+      "name": "Guayaquil City SC",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Emelec",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "07:00",
+    "match_date": "2026-08-10",
+    "match_time": "06:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=86",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "ChicagoFire-SantosLaguna",
+    "league": "Leagues Cup",
+    "team1": {
+      "name": "Chicago Fire SC",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Santos Laguna",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "07:00",
+    "match_date": "2026-08-10",
+    "match_time": "06:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=162",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "NashvilleSC-AtlSanLuis",
+    "league": "Leagues Cup",
+    "team1": {
+      "name": "Nashville SC",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Atlético San Luis",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "07:00",
+    "match_date": "2026-08-10",
+    "match_time": "06:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=163",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "SanDiegoPadres-HoustonAstros",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "San Diego Padres (MLB)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Houston Rockets",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "07:20",
+    "match_date": "2026-08-10",
+    "match_time": "07:15",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=5",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=194",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=89",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "AustinFC-Puebla",
+    "league": "Leagues Cup",
+    "team1": {
+      "name": "Austin FC",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Puebla FC",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "08:00",
+    "match_date": "2026-08-10",
+    "match_time": "07:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=164",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "AmericaDeCali-AtlNacional",
+    "league": "Colombia: Primera A",
+    "team1": {
+      "name": "America De Cali",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Atlético Nacional",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "08:15",
+    "match_date": "2026-08-10",
+    "match_time": "08:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=81",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=82",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "SanDiegoFC-ClubTijuana",
+    "league": "Leagues Cup",
+    "team1": {
+      "name": "San Diego Loyal SC",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Club Tijuana Xoloitzcuintles",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "09:00",
+    "match_date": "2026-08-10",
+    "match_time": "08:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=165",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "ClubAmerica-PortlandTimbers",
+    "league": "Leagues Cup",
+    "team1": {
+      "name": "Club America",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Portland Timbers",
+      "logo": ""
+    },
+    "kickoff_date": "2026-08-10",
+    "kickoff_time": "09:15",
+    "match_date": "2026-08-10",
+    "match_time": "09:10",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=166",
+        "label": "CH-ES"
       }
     ]
   },
@@ -3226,6 +4039,33 @@
   },
   {
     "id": "truc-tiep",
+    "league": "Club Friendly",
+    "team1": {
+      "name": "Schalke",
+      "logo": "https://sta.vnres.co/file/common/20260806/a3d2129acf1e0724248aeff525a3052d.png"
+    },
+    "team2": {
+      "name": "Atalanta",
+      "logo": "https://sta.vnres.co/file/common/20260806/085d7ff044b3e765b9cdaa86369fabab.jpg"
+    },
+    "kickoff_date": "2026-08-08",
+    "kickoff_time": "22:00",
+    "match_date": "2026-08-08",
+    "match_time": "21:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MTA1MThfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MjAwODRfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
     "league": "Switzerland - Super League",
     "team1": {
       "name": "Lausanne Sports",
@@ -3255,6 +4095,200 @@
       },
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS01MzE5ODlfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "Belgium - Pro League",
+    "team1": {
+      "name": "St. Liege",
+      "logo": "https://sta.vnres.co/file/common/20260805/f0d6cdc40f91a23995e3eb7f24167936.png"
+    },
+    "team2": {
+      "name": "Cercle Brugge",
+      "logo": "https://sta.vnres.co/file/common/20260805/a8a6fe65fa415f2bad7dab087009e776.png"
+    },
+    "kickoff_date": "2026-08-08",
+    "kickoff_time": "23:15",
+    "match_date": "2026-08-08",
+    "match_time": "23:10",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS01MTEzNjdfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MjE4NDNfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "England - League Cup",
+    "team1": {
+      "name": "Colchester United",
+      "logo": "https://sta.vnres.co/file/common/20260805/e0513a54fcc3938c146224b9da93ecd1.png"
+    },
+    "team2": {
+      "name": "Southampton",
+      "logo": "https://sta.vnres.co/file/common/20260805/b4c060cd13f8fd465db0da5dceefe67a.png"
+    },
+    "kickoff_date": "2026-08-08",
+    "kickoff_time": "23:30",
+    "match_date": "2026-08-08",
+    "match_time": "23:25",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS0yNzM3MzZfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS01ODk4NDhfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS01MjczODNfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS01MzIwODFfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "England - League Cup",
+    "team1": {
+      "name": "Cheltenham Town",
+      "logo": "https://sta.vnres.co/file/common/20260805/5e82c83efb60f71f04a50e7224feb9a2.png"
+    },
+    "team2": {
+      "name": "Charlton",
+      "logo": "https://sta.vnres.co/file/common/20260805/5333347931d6ddc94470939b899b8372.png"
+    },
+    "kickoff_date": "2026-08-08",
+    "kickoff_time": "23:30",
+    "match_date": "2026-08-08",
+    "match_time": "23:25",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MjA2NDlfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS00MDA3MjJfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "England - League Cup",
+    "team1": {
+      "name": "Rotherham United",
+      "logo": "https://sta.vnres.co/file/common/20260805/7656dffc8775b63c993289640d66e1ce.png"
+    },
+    "team2": {
+      "name": "West Bromwich Albion",
+      "logo": "https://sta.vnres.co/file/common/20260805/eeed8b81b6383db3f58c13d6d10a4e0b.png"
+    },
+    "kickoff_date": "2026-08-08",
+    "kickoff_time": "23:30",
+    "match_date": "2026-08-08",
+    "match_time": "23:25",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS00MDY4NjVfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MjA1MDRfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "Netherlands - Eredivisie",
+    "team1": {
+      "name": "G.A. Eagles",
+      "logo": "https://sta.vnres.co/file/common/20260805/9ffdf358cb9c535fd64402cc6d900369.png"
+    },
+    "team2": {
+      "name": "Willem II",
+      "logo": "https://sta.vnres.co/file/common/20260805/2a65fe621f7ee3a2f39ba827661975da.png"
+    },
+    "kickoff_date": "2026-08-08",
+    "kickoff_time": "23:45",
+    "match_date": "2026-08-08",
+    "match_time": "23:40",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MjE4NDBfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MjIwOTNfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS0zMjE0NDNfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS02MjA2NjFfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "truc-tiep",
+    "league": "Club Friendly",
+    "team1": {
+      "name": "Ferencvárosi TC",
+      "logo": "https://sta.vnres.co/file/common/20260806/a242ad6b8efb482ef2d7de7566971ca7.png"
+    },
+    "team2": {
+      "name": "Real Madrid",
+      "logo": "https://sta.vnres.co/file/common/20260729/0c09fa2afd64752fd3b7993b92057f3f.png"
+    },
+    "kickoff_date": "2026-08-09",
+    "kickoff_time": "00:00",
+    "match_date": "2026-08-08",
+    "match_time": "23:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS00NjI0MTNfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS00OTQyMDFfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS00OTE4NzNfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS0xODc1NzlfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS01OTk2MzRfbGhkLm0zdTg=",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdXIubGl2ZS9saXZlL3N0cmVhbS0yNTA4NzRfbGhkLm0zdTg=",
         "label": "CH-VN"
       }
     ]
