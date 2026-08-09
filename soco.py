@@ -1,9 +1,3 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.options import Options
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import json
 import base64
 import time
@@ -11,8 +5,20 @@ import os
 import re
 import unicodedata
 from datetime import datetime
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import urlparse, parse_qs, urljoin
 import sys
+
+try:
+    import requests
+except ImportError:
+    print("[WARN] requests library not available")
+    requests = None
+
+try:
+    from bs4 import BeautifulSoup
+except ImportError:
+    print("[WARN] beautifulsoup4 not available")
+    BeautifulSoup = None
 
 # Configure console output to use UTF-8 to prevent encoding crashes on Windows
 if hasattr(sys.stdout, 'reconfigure'):
@@ -47,17 +53,14 @@ def normalize_text(text):
     return text
 
 def setup_driver():
-    """Setup Chrome driver with options"""
-    chrome_options = Options()
-    chrome_options.add_argument('--headless')  # Run in background
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-dev-shm-usage')
-    chrome_options.add_argument('--disable-gpu')
-    chrome_options.add_argument('--window-size=1920,1080')
-    chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
-    
-    driver = webdriver.Chrome(options=chrome_options)
-    return driver
+    """No-op kept for compatibility; scraping now uses requests + BeautifulSoup."""
+    return None
+
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.9',
+}
 
 # ============================================
 # LEAGUE TRANSLATION (via DeepSeek AI)
@@ -267,189 +270,131 @@ def translate_leagues_with_ai(matches):
 
 
 # ============================================
-# SELENIUM SCRAPING
+# SCRAPING (requests + BeautifulSoup)
 # ============================================
 
-def scrape_with_selenium():
-    """Scrape all matches using Selenium"""
-    
-    base_url = "https://socolive2.watch/"
-    driver = None
-    
+def parse_time(time_text):
+    """
+    Parse time text like '18:00 08/08' -> (match_date, match_time).
+    Falls back to today 00:00 if parsing fails.
+    """
     try:
-        print("Starting Chrome driver...")
-        driver = setup_driver()
-        
-        print(f"Navigating to {base_url}...")
-        driver.get(base_url)
-        
-        # Wait for page to load
-        time.sleep(3)
-        
-        # Click on "Nay" (Today) tab if needed
-        try:
-            today_tab = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, 'li[data-value="tday"]'))
-            )
-            if not today_tab.get_attribute('class') or 'active' not in today_tab.get_attribute('class'):
-                print("Clicking on 'Today' tab...")
-                today_tab.click()
-                time.sleep(2)
-        except:
-            print("Today tab already active or not found")
-        
-        # Wait for match items to load
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CLASS_NAME, 'match-item'))
-        )
-        
-        # Find all match items
-        match_elements = driver.find_elements(By.CLASS_NAME, 'match-item')
-        
+        time_parts = time_text.split()
+        if len(time_parts) >= 2:
+            time_str = time_parts[0]
+            date_str = time_parts[1]
+            current_year = datetime.now().year
+            date_obj = datetime.strptime(f"{date_str}/{current_year} {time_str}", "%d/%m/%Y %H:%M")
+            return date_obj.strftime("%Y-%m-%d"), date_obj.strftime("%H:%M")
+    except Exception:
+        pass
+    return datetime.now().strftime("%Y-%m-%d"), "00:00"
+
+def _img_src(img):
+    """Get real image URL, respecting lazy-load data-src."""
+    if img is None:
+        return ''
+    # data-src holds the real URL for lazy-loaded images
+    src = img.get('data-src') or img.get('src') or ''
+    if not src or src.startswith('data:'):
+        return ''
+    return src.strip()
+
+def scrape_with_selenium():
+    """Scrape all matches by fetching the page HTML directly."""
+    if requests is None or BeautifulSoup is None:
+        print("[ERR] requests/beautifulsoup4 are required")
+        return []
+
+    base_url = "https://socolive2.watch/"
+
+    try:
+        print(f"Fetching {base_url}...")
+        resp = requests.get(base_url, headers=HEADERS, timeout=30)
+        resp.raise_for_status()
+        print(f"  HTTP {resp.status_code}, {len(resp.text)} bytes")
+
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        match_elements = soup.select('.match-item')
+
         print(f"\nFound {len(match_elements)} total matches")
         print("Processing matches...\n")
-        
+
         matches = []
-        
         for match_elem in match_elements:
             try:
-                # Check league name
-                league_elem = match_elem.find_element(By.CLASS_NAME, 'match-item__comp')
-                league_name = league_elem.text.strip()
-                
-                print(f"Processing: {league_name}")
-                
-                # Extract time
-                try:
-                    time_elem = match_elem.find_element(By.CSS_SELECTOR, '.match-item__time span')
-                    time_text = time_elem.text.strip()
-                except:
-                    time_text = ""
-                
-                # Extract teams
-                try:
-                    home_team_elem = match_elem.find_element(By.CSS_SELECTOR, '.name-home span')
-                    home_team = home_team_elem.text.strip()
-                except:
-                    home_team = "Unknown"
-                
-                try:
-                    away_team_elem = match_elem.find_element(By.CSS_SELECTOR, '.name-away span')
-                    away_team = away_team_elem.text.strip()
-                except:
-                    away_team = "Unknown"
+                # League name
+                league_elem = match_elem.select_one('.match-item__comp')
+                league_name = league_elem.get_text(strip=True) if league_elem else ''
 
-                # Extract team logos (fallback for when SofaScore doesn't have them)
-                home_logo = ''
-                away_logo = ''
-                try:
-                    logo_selectors_home = [
-                        '.name-home img', '.home-logo img', '.team-home img',
-                        '.logo-home img', '.img-home img'
-                    ]
-                    for sel in logo_selectors_home:
-                        try:
-                            img = match_elem.find_element(By.CSS_SELECTOR, sel)
-                            src = img.get_attribute('src') or ''
-                            if src and 'http' in src:
-                                home_logo = src
-                                break
-                        except:
-                            continue
-                except:
-                    pass
+                # Time
+                time_elem = match_elem.select_one('.match-item__time span')
+                time_text = time_elem.get_text(strip=True) if time_elem else ""
 
-                try:
-                    logo_selectors_away = [
-                        '.name-away img', '.away-logo img', '.team-away img',
-                        '.logo-away img', '.img-away img'
-                    ]
-                    for sel in logo_selectors_away:
-                        try:
-                            img = match_elem.find_element(By.CSS_SELECTOR, sel)
-                            src = img.get_attribute('src') or ''
-                            if src and 'http' in src:
-                                away_logo = src
-                                break
-                        except:
-                            continue
-                except:
-                    pass
-                
+                # Teams
+                home_team_elem = match_elem.select_one('.name-home span')
+                home_team = home_team_elem.get_text(strip=True) if home_team_elem else "Unknown"
+                away_team_elem = match_elem.select_one('.name-away span')
+                away_team = away_team_elem.get_text(strip=True) if away_team_elem else "Unknown"
+
+                # Logos
+                home_logo = _img_src(match_elem.select_one('.logo-home img'))
+                away_logo = _img_src(match_elem.select_one('.logo-away img'))
+
                 print(f"  Match: {home_team} vs {away_team}")
                 print(f"  Time: {time_text}")
-                
-                # Extract match URL
-                try:
-                    link_elem = match_elem.find_element(By.CLASS_NAME, 'link-match')
-                    match_url = link_elem.get_attribute('href')
-                except:
-                    match_url = ""
-                
-                # Extract BLV channels
-                blv_elements = match_elem.find_elements(By.CLASS_NAME, 'blv-item-scl')
-                
+
+                # Match URL
+                link_elem = match_elem.select_one('a.link-match')
+                match_url = urljoin(base_url, link_elem.get('href', '')) if link_elem else ""
+
+                # BLV channels
+                blv_elements = match_elem.select('.blv-item-scl')
+
                 if not blv_elements:
                     print(f"  No BLV channels found, skipping...")
                     continue
-                
+
                 servers = []
-                
                 for blv_elem in blv_elements:
                     try:
-                        blv_link = blv_elem.find_element(By.CLASS_NAME, 'dropdown-item')
-                        blv_url = blv_link.get_attribute('href')
-                        blv_name_elem = blv_link.find_element(By.TAG_NAME, 'span')
-                        blv_name = blv_name_elem.text.strip()
-                        
+                        blv_link = blv_elem.select_one('a.dropdown-item')
+                        if blv_link is None:
+                            continue
+                        blv_url = urljoin(base_url, blv_link.get('href', ''))
+                        blv_name_elem = blv_link.select_one('span')
+                        blv_name = blv_name_elem.get_text(strip=True) if blv_name_elem else ''
+
                         # Extract blv parameter
-                        parsed_url = urlparse(blv_url)
-                        query_params = parse_qs(parsed_url.query)
-                        
+                        query_params = parse_qs(urlparse(blv_url).query)
                         if 'blv' not in query_params:
                             continue
-                        
+
                         blv_id = query_params['blv'][0]
-                        
+
                         # Create stream URL
-                        stream_url = f"https://pull.niur.live/live/stream-{blv_id}_lhd.m3u8"
+                        stream_url = f"https://pull.niues.live/live/stream-{blv_id}_lhd.m3u8"
                         encoded_url = encode_url_to_base64(stream_url)
                         player_url = f"https://multi.govoet.cc/?hls={encoded_url}"
-                        
+
                         servers.append({
                             "url": player_url,
                             "label": f"CH-VN"
                         })
-                        
                         print(f"  Channel: {blv_name} (BLV ID: {blv_id})")
-                    except Exception as e:
+                    except Exception:
                         continue
-                
+
                 if not servers:
                     print(f"  No valid servers found, skipping...")
                     continue
-                
-                # Parse time
-                try:
-                    time_parts = time_text.split()
-                    if len(time_parts) >= 2:
-                        time_str = time_parts[0]
-                        date_str = time_parts[1]
-                        current_year = datetime.now().year
-                        date_obj = datetime.strptime(f"{date_str}/{current_year} {time_str}", "%d/%m/%Y %H:%M")
-                        match_date = date_obj.strftime("%Y-%m-%d")
-                        match_time = date_obj.strftime("%H:%M")
-                    else:
-                        match_date = datetime.now().strftime("%Y-%m-%d")
-                        match_time = "00:00"
-                except:
-                    match_date = datetime.now().strftime("%Y-%m-%d")
-                    match_time = "00:00"
-                
+
+                match_date, match_time = parse_time(time_text)
+
                 # Create match ID
                 match_id = urlparse(match_url).path.split('/')[-2] if match_url else ""
-                
-                # Build team objects — include logo if found
+
+                # Build team objects
                 team1_obj = {"name": home_team}
                 if home_logo:
                     team1_obj["logo"] = home_logo
@@ -458,8 +403,7 @@ def scrape_with_selenium():
                 if away_logo:
                     team2_obj["logo"] = away_logo
 
-                # Create match object
-                match_data = {
+                matches.append({
                     "id": match_id,
                     "league": league_name,
                     "team1": team1_obj,
@@ -470,27 +414,20 @@ def scrape_with_selenium():
                     "match_time": match_time,
                     "duration": "3.0",
                     "servers": servers
-                }
-                
-                matches.append(match_data)
+                })
                 print(f"  Added with {len(servers)} server(s)\n")
-                
+
             except Exception as e:
                 print(f"  Error processing match: {e}")
                 continue
-        
+
         return matches
-        
+
     except Exception as e:
         print(f"Error: {e}")
         import traceback
         traceback.print_exc()
         return []
-    
-    finally:
-        if driver:
-            driver.quit()
-            print("Browser closed")
 
 def save_to_json(matches, filename="soco.json"):
     """Save matches to JSON file"""
@@ -505,7 +442,7 @@ def save_to_json(matches, filename="soco.json"):
 
 def main():
     print("=" * 60)
-    print("SOCOLIVE MATCH SCRAPER (SELENIUM)")
+    print("SOCOLIVE MATCH SCRAPER")
     print("=" * 60)
     
     matches = scrape_with_selenium()
