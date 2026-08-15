@@ -306,7 +306,7 @@ def scrape_with_selenium():
         print("[ERR] requests/beautifulsoup4 are required")
         return []
 
-    base_url = "https://socolivetv.watch/"
+    base_url = "https://socolive3.watch/"
 
     try:
         print(f"Fetching {base_url}...")
