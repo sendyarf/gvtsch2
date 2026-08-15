@@ -39,12 +39,7 @@
     "match_date": "2026-08-15",
     "match_time": "00:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?ss=hd10",
-        "label": "CH-1"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "WillemII-Nijmegen",
@@ -67,6 +62,14 @@
       {
         "url": "https://multi.govoet.cc/?envivo=143",
         "label": "CH-NL"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNjYxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjEwNjc3X2xoZC5tM3U4",
+        "label": "CH-VN"
       }
     ]
   },
@@ -397,189 +400,6 @@
     ]
   },
   {
-    "id": "multiplex2Bundesliga",
-    "league": "Germany - Bundesliga 2",
-    "team1": {
-      "name": "multiplex 2. Bundesliga",
-      "logo": ""
-    },
-    "team2": {
-      "name": "",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "18:00",
-    "match_date": "2026-08-15",
-    "match_time": "17:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=111",
-        "label": "CH-DE"
-      }
-    ]
-  },
-  {
-    "id": "GreutherFurth-Nurnberg",
-    "league": "Germany - Bundesliga 2",
-    "team1": {
-      "name": "Greuther Furth",
-      "logo": "https://sta.vnres.co/file/common/20260811/3dc3f595374d61424d3c9f6cbad014c3.png"
-    },
-    "team2": {
-      "name": "Nurnberg",
-      "logo": "https://sta.vnres.co/file/common/20260811/206901dc0075f54391e8f761b4ada483.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "18:00",
-    "match_date": "2026-08-15",
-    "match_time": "17:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=112",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=78",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjgzNTAxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzUxNTMwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTU3ODQ1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "HerthaBerlin-Heidenheim",
-    "league": "Germany - Bundesliga 2",
-    "team1": {
-      "name": "Hertha Berlin",
-      "logo": "https://sta.vnres.co/file/common/20260811/7a0f9819289572786d3374d4ed2b4fa1.png"
-    },
-    "team2": {
-      "name": "1. FC Heidenheim 1846",
-      "logo": "https://sta.vnres.co/file/common/20260811/78ca3c3336263d87d6d309acbc15d2c1.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "18:00",
-    "match_date": "2026-08-15",
-    "match_time": "17:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=113",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=eleven1",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTI3Mzg0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTMyMDgxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDU5NDAxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzIxNDQzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "VfLOsnabruck-Magdeburg",
-    "league": "Germany - Bundesliga 2",
-    "team1": {
-      "name": "VfL Osnabruck",
-      "logo": "https://sta.vnres.co/file/common/20260811/ec191f765b60022c78606d0ce20c3aad.png"
-    },
-    "team2": {
-      "name": "Magdeburg",
-      "logo": "https://sta.vnres.co/file/common/20260811/c280ef869fb08e92dc6cff14176fabd6.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "18:00",
-    "match_date": "2026-08-15",
-    "match_time": "17:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=114",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTA5MDUzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMjQwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE4OTUwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNjYxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "Bolton-Preston",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Bolton",
-      "logo": "https://sta.vnres.co/file/common/20260811/8fbb0590ee6e54a31b9ffb4df3c0a4f5.png"
-    },
-    "team2": {
-      "name": "Preston",
-      "logo": "https://sta.vnres.co/file/common/20260811/55f3b17b31095ab376284af25f3f3fd1.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "18:30",
-    "match_date": "2026-08-15",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=127",
-        "label": "CH-GB"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDcyMjQxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTgyMzQyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjczNzM2X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE4NTQ2X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
     "id": "WerderBremenGer-AuxerreFra",
     "league": "Club Friendly",
     "team1": {
@@ -644,7 +464,7 @@
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDg1NzM5X2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMjQwX2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
@@ -677,11 +497,11 @@
     "league": "Club Friendly",
     "team1": {
       "name": "B. Monchengladbach (Ger)",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/26f7822f174c6669b303490ad964b9ba.png"
     },
     "team2": {
       "name": "Aston Villa (England)",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/e4b819115a113bca757fb737a7e1c37c.png"
     },
     "kickoff_date": "2026-08-15",
     "kickoff_time": "20:30",
@@ -692,6 +512,14 @@
       {
         "url": "https://multi.govoet.cc/?envivo=48",
         "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAyMDE5X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzA0MTQ4X2xoZC5tM3U4",
+        "label": "CH-VN"
       }
     ]
   },
@@ -700,11 +528,11 @@
     "league": "Club Friendly",
     "team1": {
       "name": "Bayern Munich (Germany)",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/8bf6d9fb2602eda427bcaae16ef11175.png"
     },
     "team2": {
       "name": "RB Leipzig (Ger)",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/58d4f96b0bfa0d967617650353050a67.png"
     },
     "kickoff_date": "2026-08-15",
     "kickoff_time": "20:30",
@@ -715,6 +543,22 @@
       {
         "url": "https://multi.govoet.cc/?envivo=117",
         "label": "CH-DE"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIxODQwX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk3OTI5X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNzk3X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTExMzY3X2xoZC5tM3U4",
+        "label": "CH-VN"
       }
     ]
   },
@@ -738,29 +582,6 @@
       {
         "url": "https://multi.govoet.cc/?envivo=37",
         "label": "CH-FR"
-      }
-    ]
-  },
-  {
-    "id": "UnionBerlinGer-IpswichEng",
-    "league": "Club Friendly",
-    "team1": {
-      "name": "Union Berlin (Ger)",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Ipswich (Eng)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "20:30",
-    "match_date": "2026-08-15",
-    "match_time": "20:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=116",
-        "label": "CH-GB"
       }
     ]
   },
@@ -865,11 +686,11 @@
     "league": "Club Friendly",
     "team1": {
       "name": "Newcastle (Eng)",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/a3f098749edb7bf0f3b3361cc8ff5e63.png"
     },
     "team2": {
       "name": "Bayer Leverkusen (Germany)",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/0ca377b9a1f18250b7c3f50411158203.png"
     },
     "kickoff_date": "2026-08-15",
     "kickoff_time": "21:00",
@@ -880,6 +701,14 @@
       {
         "url": "https://multi.govoet.cc/?envivo=97",
         "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzUxNTMwX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNTA0X2xoZC5tM3U4",
+        "label": "CH-VN"
       }
     ]
   },
@@ -911,11 +740,11 @@
     "league": "Club Friendly",
     "team1": {
       "name": "Tottenham (ENG)",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/0fef5152d88a2d484cf01911084d8ad2.png"
     },
     "team2": {
       "name": "Hoffenheim (Ger)",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/1f3dbed0bb4ac38db7a1fd604fc87438.png"
     },
     "kickoff_date": "2026-08-15",
     "kickoff_time": "21:00",
@@ -926,6 +755,22 @@
       {
         "url": "https://multi.govoet.cc/?envivo=98",
         "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTAxNDEyX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDAwNzIyX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTM5Mzg0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjA3NTUyX2xoZC5tM3U4",
+        "label": "CH-VN"
       }
     ]
   },
@@ -980,11 +825,11 @@
     "league": "England - Championship",
     "team1": {
       "name": "Middlesbrough",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/cb84480103ce98dc4e617d897789fb9a.png"
     },
     "team2": {
       "name": "Lincoln",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/386ca0e2a3e4dc60e96f7923f2b91008.png"
     },
     "kickoff_date": "2026-08-15",
     "kickoff_time": "21:00",
@@ -1003,6 +848,22 @@
       {
         "url": "https://multi.govoet.cc/?envivo=149",
         "label": "CH-GR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzIxNDQzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjM1MjMyX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTIzMjI2X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDU5NDAxX2xoZC5tM3U4",
+        "label": "CH-VN"
       }
     ]
   },
@@ -1080,11 +941,11 @@
     "league": "Belgium - Pro League",
     "team1": {
       "name": "Royale Union SG",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/7fc539a733a663708c54a8554b1ea10d.png"
     },
     "team2": {
       "name": "Zulte Waregem",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/6a1ed0f6b2fdf61f70eb36f7ca6c9df3.png"
     },
     "kickoff_date": "2026-08-15",
     "kickoff_time": "21:00",
@@ -1095,6 +956,22 @@
       {
         "url": "https://multi.govoet.cc/?envivo=153",
         "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyNjAyX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjEwNTE4X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTQ3ODAxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTI3Mzg0X2xoZC5tM3U4",
+        "label": "CH-VN"
       }
     ]
   },
@@ -1130,11 +1007,11 @@
     "league": "Club Friendly",
     "team1": {
       "name": "Manchester United",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/388baa75dd380b1b3c8c8b42c434c75d.png"
     },
     "team2": {
       "name": "AC Milan (Ita)",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/746636a8306945c92cebb7b81f3f9ac8.png"
     },
     "kickoff_date": "2026-08-15",
     "kickoff_time": "21:45",
@@ -1161,6 +1038,30 @@
       {
         "url": "https://multi.govoet.cc/?envivo=69",
         "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDYyNDEzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4NzQwX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDM0OTgyX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzYwNjYzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTE4MjA2X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDE0MzE3X2xoZC5tM3U4",
+        "label": "CH-VN"
       }
     ]
   },
@@ -1192,11 +1093,11 @@
     "league": "Spain - LaLiga 2",
     "team1": {
       "name": "Andorra",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/7e557ad3c029eec48f5d6e859a92d6d2.png"
     },
     "team2": {
       "name": "Ceuta",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/93d5d4337511cf5efaf1a25e821803f0.png"
     },
     "kickoff_date": "2026-08-15",
     "kickoff_time": "22:00",
@@ -1207,6 +1108,18 @@
       {
         "url": "https://multi.govoet.cc/?envivo=53",
         "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNjQ5X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMjQxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE3MzEzX2xoZC5tM3U4",
+        "label": "CH-VN"
       }
     ]
   },
@@ -1238,11 +1151,11 @@
     "league": "Club Friendly",
     "team1": {
       "name": "Borussia Dortmund",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/9ca46a7ea7059c1e7457ad81eea7bbb3.png"
     },
     "team2": {
       "name": "AS Roma",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/4d0a1b449981aae96b0ca5162ca8aec5.png"
     },
     "kickoff_date": "2026-08-15",
     "kickoff_time": "22:30",
@@ -1265,6 +1178,22 @@
       {
         "url": "https://multi.govoet.cc/?ss=hd3",
         "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjUwODc0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTg5ODQ4X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDcyMjQxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzgwNDYwX2xoZC5tM3U4",
+        "label": "CH-VN"
       }
     ]
   },
@@ -1346,11 +1275,11 @@
     "league": "Turkey - Süper Lig",
     "team1": {
       "name": "Kasımpaşa",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/4eafcfb405ac4d97215900a2dde6ac87.png"
     },
     "team2": {
       "name": "Trabzonspor",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/ee1274a86b2e4961ead15ccf6a9e5d00.png"
     },
     "kickoff_date": "2026-08-15",
     "kickoff_time": "23:00",
@@ -1377,6 +1306,22 @@
       {
         "url": "https://multi.govoet.cc/?ss=hd11",
         "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTM2MTg1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTU3ODQ1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMjQwX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNzk3X2xoZC5tM3U4",
+        "label": "CH-VN"
       }
     ]
   },
@@ -1385,11 +1330,11 @@
     "league": "Turkey - Süper Lig",
     "team1": {
       "name": "Konyaspor",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/82ccf2d39dfa9cb8505134f618775774.png"
     },
     "team2": {
       "name": "Rizespor",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/a02556ee90db46e548a2c0fbb30cc3d9.png"
     },
     "kickoff_date": "2026-08-15",
     "kickoff_time": "23:00",
@@ -1400,6 +1345,18 @@
       {
         "url": "https://multi.govoet.cc/?envivo=152",
         "label": "CH-TR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIxODg3X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwMDg0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAzOTE0X2xoZC5tM3U4",
+        "label": "CH-VN"
       }
     ]
   },
@@ -1408,11 +1365,11 @@
     "league": "Belgium - Pro League",
     "team1": {
       "name": "Kortrijk",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/c760e13725becd23a71ef1a3f6538982.png"
     },
     "team2": {
       "name": "Royal Antwerp",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260811/c83617edc99d3339690d7c2bf1e5f4ff.png"
     },
     "kickoff_date": "2026-08-15",
     "kickoff_time": "23:15",
@@ -1423,6 +1380,14 @@
       {
         "url": "https://multi.govoet.cc/?envivo=153",
         "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTExMzY3X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE4NTQ2X2xoZC5tM3U4",
+        "label": "CH-VN"
       }
     ]
   },
@@ -3413,202 +3378,24 @@
     ]
   },
   {
-    "id": "olympic-kingsway-sc-vs-sorrento-f-c-15-08-2026",
-    "league": "Australia - Football West Premier",
+    "id": "bolton-wanderers-vs-preston-north-end-15-08-2026",
+    "league": "England - Championship",
     "team1": {
-      "name": "Olympic Kingsway SC",
-      "logo": "https://sta.vnres.co/file/common/20260811/68dfa0eed12371e5ec1760d37f5bfbce.png"
+      "name": "Bolton Wanderers",
+      "logo": "https://sta.vnres.co/file/common/20260811/8fbb0590ee6e54a31b9ffb4df3c0a4f5.png"
     },
     "team2": {
-      "name": "Sorrento F.C.",
-      "logo": "https://sta.vnres.co/file/common/20260811/3e681af643770951323ff4333f718425.png"
+      "name": "Preston North End",
+      "logo": "https://sta.vnres.co/file/common/20260811/55f3b17b31095ab376284af25f3f3fd1.png"
     },
     "kickoff_date": "2026-08-15",
-    "kickoff_time": "14:00",
+    "kickoff_time": "18:30",
     "match_date": "2026-08-15",
-    "match_time": "13:55",
+    "match_time": "18:25",
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDA2ODY1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTE4MjA2X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "manly-united-vs-nws-spirit-fc-15-08-2026",
-    "league": "Australia - Nsw Premier League",
-    "team1": {
-      "name": "Manly United",
-      "logo": "https://sta.vnres.co/file/common/20260811/c7a2c5fd519a1967417c1a53581a70d9.png"
-    },
-    "team2": {
-      "name": "NWS Spirit FC",
-      "logo": "https://sta.vnres.co/file/common/20260811/7762d92e00ed55c536d4787010f8a2cc.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "14:00",
-    "match_date": "2026-08-15",
-    "match_time": "13:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDkxODczX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAyMTUzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "sydney-olympic-vs-sydney-united-58-fc-15-08-2026",
-    "league": "Australia - Nsw Premier League",
-    "team1": {
-      "name": "Sydney Olympic",
-      "logo": "https://sta.vnres.co/file/common/20260811/f3affb088064d7895bac43ac0ab61276.png"
-    },
-    "team2": {
-      "name": "Sydney United 58 FC",
-      "logo": "https://sta.vnres.co/file/common/20260811/c39109c9d092fafb356f4e2546e9685d.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "14:00",
-    "match_date": "2026-08-15",
-    "match_time": "13:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTM0MDU1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjA3NDAwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "monaro-panthers-vs-canberra-fc-15-08-2026",
-    "league": "Aus Cgp",
-    "team1": {
-      "name": "Monaro Panthers",
-      "logo": "https://sta.vnres.co/file/common/20260811/95ca1fcaf35a49aac3bd69e9590cf7f0.png"
-    },
-    "team2": {
-      "name": "Canberra FC (Aus)",
-      "logo": "https://sta.vnres.co/file/common/20260811/655469237f6de95873b3b28d3647480e.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "14:45",
-    "match_date": "2026-08-15",
-    "match_time": "14:40",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDg1NzM5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk4MTE5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "caroline-springs-george-cross-vs-avondale-fc-15-08-2026",
-    "league": "Australia - Victorian Premier League",
-    "team1": {
-      "name": "Caroline Springs George Cross",
-      "logo": "https://sta.vnres.co/file/common/20260811/ebce08b889e7b3e521ca18d4d48efc61.png"
-    },
-    "team2": {
-      "name": "Avondale FC",
-      "logo": "https://sta.vnres.co/file/common/20260811/41652600e66c5ba098937e93b04e2e9e.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "15:00",
-    "match_date": "2026-08-15",
-    "match_time": "14:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzcyNzQ2X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzA0MTQ4X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "kashima-antlers-vs-nagoya-grampus-15-08-2026",
-    "league": "Japan - J1 League",
-    "team1": {
-      "name": "Kashima Antlers",
-      "logo": "https://sta.vnres.co/file/common/20260811/abdeec4bf89df13c520c3bee093af827.png"
-    },
-    "team2": {
-      "name": "Nagoya Grampus",
-      "logo": "https://sta.vnres.co/file/common/20260811/60a9b2e01b8225119ec416f1fe6cb2a9.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "16:00",
-    "match_date": "2026-08-15",
-    "match_time": "15:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTg3NTc5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzgwNDYwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTQ3ODAxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4NzQwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTIzMjI2X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "mito-hollyhock-vs-gamba-osaka-15-08-2026",
-    "league": "Japan - J1 League",
-    "team1": {
-      "name": "Mito Hollyhock",
-      "logo": "https://sta.vnres.co/file/common/20260811/84b6f1772ccbc67157135cdaa0509679.png"
-    },
-    "team2": {
-      "name": "Gamba Osaka",
-      "logo": "https://sta.vnres.co/file/common/20260811/16f527fbdc5c7bf7f8691e7b868d4873.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "16:00",
-    "match_date": "2026-08-15",
-    "match_time": "15:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjEwNTE4X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTUyNzE2X2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDcyMjQxX2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
@@ -3616,263 +3403,11 @@
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTA5MDUzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "shimizu-s-pulse-vs-yokohama-f-marinos-15-08-2026",
-    "league": "Japan - J1 League",
-    "team1": {
-      "name": "Shimizu S-Pulse",
-      "logo": "https://sta.vnres.co/file/common/20260811/8dee27abf39f1bc761703b54dc7e8faf.png"
-    },
-    "team2": {
-      "name": "Yokohama F. Marinos",
-      "logo": "https://sta.vnres.co/file/common/20260811/00eaab0b3a3c0a9daa9ced0dd5627b6a.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "16:30",
-    "match_date": "2026-08-15",
-    "match_time": "16:25",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTI3MzgzX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjczNzM2X2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTYwNjkwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjUwODc0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTg5ODQ4X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "binan-tatak-gel-vs-bacolod-masskara-15-08-2026",
-    "league": "Philippines - MPBL",
-    "team1": {
-      "name": "Binan Tatak Gel",
-      "logo": "https://sta.vnres.co/file/common/20260813/a1815958f3569613b606af78e746d250.png"
-    },
-    "team2": {
-      "name": "Bacolod Masskara",
-      "logo": "https://sta.vnres.co/file/common/20260813/c9dda9308561ec16d6308d1c36eebe6c.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "16:00",
-    "match_date": "2026-08-15",
-    "match_time": "15:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTE1NTMwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4OTY0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "san-juan-knights-vs-imus-braderhood-15-08-2026",
-    "league": "Philippines - MPBL",
-    "team1": {
-      "name": "San Juan Knights",
-      "logo": "https://sta.vnres.co/file/common/20260813/ae331f5fb9dfd9a80d75e6691fa7ffd4.png"
-    },
-    "team2": {
-      "name": "Imus Braderhood",
-      "logo": "https://sta.vnres.co/file/common/20260813/5db717a78d8a4ec559ec37aae6cd60f2.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "16:00",
-    "match_date": "2026-08-15",
-    "match_time": "15:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTIyNTkxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTU4MjY0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4OTY0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTE1NTMwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "kawasaki-frontale-vs-kyoto-sanga-15-08-2026",
-    "league": "Japan - J1 League",
-    "team1": {
-      "name": "Kawasaki Frontale",
-      "logo": "https://sta.vnres.co/file/common/20260811/60fad7dbf0478785a0d28bd0467510fd.png"
-    },
-    "team2": {
-      "name": "Kyoto Sanga",
-      "logo": "https://sta.vnres.co/file/common/20260811/a8cdf1642abbe27fb970b552634013e3.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "17:00",
-    "match_date": "2026-08-15",
-    "match_time": "16:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE5NjcyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTExMzY3X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTUyODMyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAyMDE5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "urawa-red-diamonds-vs-sanfrecce-hiroshima-15-08-2026",
-    "league": "Japan - J1 League",
-    "team1": {
-      "name": "Urawa Red Diamonds",
-      "logo": "https://sta.vnres.co/file/common/20260811/454062b29b36394e678e284ec7d37142.png"
-    },
-    "team2": {
-      "name": "Sanfrecce Hiroshima",
-      "logo": "https://sta.vnres.co/file/common/20260811/f86e8001b0a8af22e19b11c9c0d9b2c7.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "17:00",
-    "match_date": "2026-08-15",
-    "match_time": "16:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk4MTE5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjkxMjc3X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDg0ODQ1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAyMTUzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "vissel-kobe-vs-fc-tokyo-15-08-2026",
-    "league": "Japan - J1 League",
-    "team1": {
-      "name": "Vissel Kobe",
-      "logo": "https://sta.vnres.co/file/common/20260811/b80a0e8e01cd4ec946b1567055eea391.png"
-    },
-    "team2": {
-      "name": "FC Tokyo",
-      "logo": "https://sta.vnres.co/file/common/20260811/f33ad72de3556d43bccd13e6c2806911.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "17:00",
-    "match_date": "2026-08-15",
-    "match_time": "16:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTAxNDEyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk5NjM0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjU2MDgwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwMDg0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "fc-seoul-vs-daejeon-citizen-15-08-2026",
-    "league": "South Korea - K League 1",
-    "team1": {
-      "name": "FC Seoul (Kor)",
-      "logo": "https://sta.vnres.co/file/common/20260811/4778d19ab804b711000b68cad0da2f96.png"
-    },
-    "team2": {
-      "name": "Daejeon Hana Citizen",
-      "logo": "https://sta.vnres.co/file/common/20260811/40f76b0f97a7216bd2d4cfc31e58af09.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "17:30",
-    "match_date": "2026-08-15",
-    "match_time": "17:25",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNjQ5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE5NTYxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "liaoning-tieren-vs-shenzhen-peng-city-15-08-2026",
-    "league": "China - Super League",
-    "team1": {
-      "name": "Liaoning Shenyang Urban",
-      "logo": "https://sta.vnres.co/file/common/20260811/43702b56f63e3766093b7853403162b8.png"
-    },
-    "team2": {
-      "name": "Shenzhen Peng City",
-      "logo": "https://sta.vnres.co/file/common/20260811/95d6f5ff5418520e89bead32396c276a.png"
-    },
-    "kickoff_date": "2026-08-15",
-    "kickoff_time": "18:00",
-    "match_date": "2026-08-15",
-    "match_time": "17:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAzOTE0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzA0MTQ4X2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE4NTQ2X2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
@@ -3965,10 +3500,6 @@
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzcyNzQ2X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE3MzEzX2xoZC5tM3U4",
         "label": "CH-VN"
       }
@@ -4005,6 +3536,153 @@
       },
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTE4MjA2X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "singapore-vs-thailand-15-08-2026",
+    "league": "Asia - Aff Championship",
+    "team1": {
+      "name": "Singapore",
+      "logo": "https://sta.vnres.co/file/common/20260811/2da480e4984070935a25d8d0f9c7eded.png"
+    },
+    "team2": {
+      "name": "Thailand",
+      "logo": "https://sta.vnres.co/file/common/20260811/71f19fb32b36308990d4f1b3f3aa7f53.png"
+    },
+    "kickoff_date": "2026-08-15",
+    "kickoff_time": "20:00",
+    "match_date": "2026-08-15",
+    "match_time": "19:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjU2MDgwX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzg3Njk0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjkxMjc3X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDg0ODQ1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAyMTUzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk5NjM0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "cska-moscow-vs-fakel-voronezh-15-08-2026",
+    "league": "Russia - Premier League",
+    "team1": {
+      "name": "CSKA Moscow",
+      "logo": "https://sta.vnres.co/file/common/20260811/a964440f8c33fe9b73c21070e8e9b7c9.png"
+    },
+    "team2": {
+      "name": "Fakel Voronezh",
+      "logo": "https://sta.vnres.co/file/common/20260811/1f9038b624bb41514a6ffd74d959fab1.png"
+    },
+    "kickoff_date": "2026-08-15",
+    "kickoff_time": "20:15",
+    "match_date": "2026-08-15",
+    "match_time": "20:10",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTUyNzE2X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk4MTE5X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "syria-u18-vs-lebanon-u18-15-08-2026",
+    "league": "Acu18",
+    "team1": {
+      "name": "Syria U18",
+      "logo": "https://sta.vnres.co/file/common/20260814/9e9af0a23b9d420c91590a2688db4def.png"
+    },
+    "team2": {
+      "name": "Lebanon U18",
+      "logo": "https://sta.vnres.co/file/common/20260814/db7d9476032ee8499c74132038ed3687.jpg"
+    },
+    "kickoff_date": "2026-08-15",
+    "kickoff_time": "21:00",
+    "match_date": "2026-08-15",
+    "match_time": "20:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTU4MjY0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "dinamo-zagreb-vs-rudes-15-08-2026",
+    "league": "Croatia - Prva HNL",
+    "team1": {
+      "name": "Din. Zagreb (Cro)",
+      "logo": "https://sta.vnres.co/file/common/20260811/d7690f07f77e454fc9a39573624541ad.png"
+    },
+    "team2": {
+      "name": "NK Rudes",
+      "logo": "https://sta.vnres.co/file/common/20260811/0fca8c40b1eeabfb3eeb0803a896ac57.png"
+    },
+    "kickoff_date": "2026-08-15",
+    "kickoff_time": "22:00",
+    "match_date": "2026-08-15",
+    "match_time": "21:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAzOTE0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE3MzEzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "fk-rostov-vs-rubin-kazan-15-08-2026",
+    "league": "Russia - Premier League",
+    "team1": {
+      "name": "FK Rostov",
+      "logo": "https://sta.vnres.co/file/common/20260811/34bd653429bf4664cd5db3caca9884d2.png"
+    },
+    "team2": {
+      "name": "FC Rubin Kazan",
+      "logo": "https://sta.vnres.co/file/common/20260811/b98de4eae35e28172b3692ca1cecb501.png"
+    },
+    "kickoff_date": "2026-08-15",
+    "kickoff_time": "22:30",
+    "match_date": "2026-08-15",
+    "match_time": "22:25",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjkxMjc3X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDkxODczX2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
