@@ -40,7 +40,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install selenium webdriver-manager pytz
+          pip install -r requirements.txt
 
       - name: Run Soco Scraper
         run: python soco.py
