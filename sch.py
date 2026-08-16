@@ -29,7 +29,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 #
 # Merge Only Sources:
 # 6. sportsonline.json  - Only merge servers.
-# 7. soco.json          - Only merge servers.
+# 7. timstreams.json    - Merge servers or create new entries.
+# 8. soco.json          - Merge servers or create new entries.
 #
 # Enrichment:
 # Enrichment:
@@ -610,6 +611,29 @@ def main():
                 merged_data[key] = match
                 soco_created += 1
     print(f"  ✅ Merged {soco_merged} servers, created {soco_created} new entries from soco.json")
+
+    # timstreams.json (merge servers + create new entries)
+    timstreams_data = load_json_safe('timstreams.json')
+    print(f"Processing timstreams.json ({len(timstreams_data)} matches) - Merge & create...")
+    timstreams_merged = 0
+    timstreams_created = 0
+    if isinstance(timstreams_data, list):
+        for match in timstreams_data:
+            existing_key = find_matching_entry(match, merged_data, allow_time_only=False)
+            if existing_key:
+                existing_match = merged_data[existing_key]
+                existing_urls = {s['url'] for s in existing_match.get('servers', [])}
+                new_servers = match.get('servers', [])
+                merge_servers(existing_match, new_servers, existing_urls)
+                timstreams_merged += 1
+            else:
+                # Create new entry if match doesn't exist yet
+                key = create_composite_key(match)
+                if 'servers' not in match:
+                    match['servers'] = []
+                merged_data[key] = match
+                timstreams_created += 1
+    print(f"  ✅ Merged {timstreams_merged} servers, created {timstreams_created} new entries from timstreams.json")
 
     # Convert to list
     final_data = list(merged_data.values())
