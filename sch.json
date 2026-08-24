@@ -95,16 +95,7 @@
     "match_date": "2026-08-24",
     "match_time": "01:40",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?ss=hd4",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv4",
-        "label": "CH-2"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "Atalanta-Sassuolo",
@@ -123,12 +114,7 @@
     "match_date": "2026-08-24",
     "match_time": "01:40",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?ss=hd8",
-        "label": "CH-1"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "Torino-ACMilan",
@@ -147,20 +133,7 @@
     "match_date": "2026-08-24",
     "match_time": "01:40",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?ss=hd7",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv3",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br2",
-        "label": "CH-3"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "Bologna-Lazio",
@@ -180,6 +153,10 @@
     "match_time": "23:25",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=46",
+        "label": "CH-FR"
+      },
       {
         "url": "https://multi.govoet.cc/?envivo=137",
         "label": "CH-IT"
@@ -295,20 +272,7 @@
     "match_date": "2026-08-24",
     "match_time": "00:25",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd6",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=eleven1",
-        "label": "CH-3"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "Elche-Barcelona",
@@ -327,24 +291,7 @@
     "match_date": "2026-08-24",
     "match_time": "02:25",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?ss=hd2",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd6",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=eleven1",
-        "label": "CH-3"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=br4",
-        "label": "CH-4"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "Osasuna-Levante",
@@ -364,6 +311,10 @@
     "match_time": "00:25",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=45",
+        "label": "CH-FR"
+      },
       {
         "url": "https://multi.govoet.cc/?envivo=49",
         "label": "CH-ES"
@@ -432,6 +383,10 @@
     "match_time": "02:25",
     "duration": "3.5",
     "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=45",
+        "label": "CH-FR"
+      },
       {
         "url": "https://multi.govoet.cc/?envivo=51",
         "label": "CH-ES"
@@ -689,6 +644,57 @@
     ]
   },
   {
+    "id": "NEOM-AlQuadisiya",
+    "league": "Saudi Arabia - Pro League",
+    "team1": {
+      "name": "NEOM",
+      "logo": "https://sta.vnres.co/file/common/20260820/97b81c1195693b8e2a4395231b08c58f.png"
+    },
+    "team2": {
+      "name": "Al Quadisiya",
+      "logo": "https://sta.vnres.co/file/common/20260820/dc249233f9157eba0f2d54b81d0cd4f7.png"
+    },
+    "kickoff_date": "2026-08-24",
+    "kickoff_time": "23:40",
+    "match_date": "2026-08-24",
+    "match_time": "23:35",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=133",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=61",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=55",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=70",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjEwNTE4X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwMDg0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTM2MTg1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyNjAyX2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
     "id": "CeltaVigoB-Andorra",
     "league": "Spain - LaLiga 2",
     "team1": {
@@ -720,15 +726,58 @@
     ]
   },
   {
+    "id": "AlIttihad-AlHazm",
+    "league": "Saudi Arabia - Pro League",
+    "team1": {
+      "name": "Al-Ittihad FC",
+      "logo": "https://sta.vnres.co/file/common/20260822/53b2cdfc99cee8100e980346ded46cd9.png"
+    },
+    "team2": {
+      "name": "Al Hazm",
+      "logo": "https://sta.vnres.co/file/common/20260822/22432357491870fa0089c03ede796b80.png"
+    },
+    "kickoff_date": "2026-08-25",
+    "kickoff_time": "01:00",
+    "match_date": "2026-08-25",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=132",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=70",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd5",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv4",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAyMDE5X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTU3ODQ1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
     "id": "Kocaelispor-Amedspor",
     "league": "Turkey - Süper Lig",
     "team1": {
       "name": "Kocaelispor",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260822/390f78e52e2f91b16729d43c3072f0d2.png"
     },
     "team2": {
       "name": "Amedspor",
-      "logo": ""
+      "logo": "https://sta.vnres.co/file/common/20260822/d1a5870d1570f6c621d6d75be6d566fe.png"
     },
     "kickoff_date": "2026-08-25",
     "kickoff_time": "01:30",
@@ -743,6 +792,14 @@
       {
         "url": "https://multi.govoet.cc/?ss=hd9",
         "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjUwODc0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjA3NTUyX2xoZC5tM3U4",
+        "label": "CH-VN"
       }
     ]
   },
@@ -899,12 +956,16 @@
     "duration": "3.5",
     "servers": [
       {
+        "url": "https://multi.govoet.cc/?envivo=180",
+        "label": "CH-US"
+      },
+      {
         "url": "https://multi.govoet.cc/?envivo=70",
         "label": "CH-ES"
       },
       {
-        "url": "https://multi.govoet.cc/?envivo=180",
-        "label": "CH-US"
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9jZHgtMDgxOTIud2Vic2l0ZS9lbWJlZC9tbGItdGlnZXJz",
+        "label": "CH-EN"
       }
     ]
   },
@@ -951,6 +1012,10 @@
       {
         "url": "https://multi.govoet.cc/?envivo=182",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9jZHgtMDgxOTIud2Vic2l0ZS9lbWJlZC9tbGItbmF0aW9uYWxz",
+        "label": "CH-EN"
       }
     ]
   },
@@ -1124,6 +1189,14 @@
       {
         "url": "https://multi.govoet.cc/?envivo=185",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=89",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9jZHgtMDgxOTIud2Vic2l0ZS9lbWJlZC9tbGItZGlhbW9uZGJhY2tz",
+        "label": "CH-EN"
       }
     ]
   },
@@ -1170,6 +1243,10 @@
       {
         "url": "https://multi.govoet.cc/?envivo=187",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9jZHgtMDgxOTIud2Vic2l0ZS9lbWJlZC9tbGItcGFkcmVz",
+        "label": "CH-EN"
       }
     ]
   },
@@ -1193,6 +1270,10 @@
       {
         "url": "https://multi.govoet.cc/?envivo=188",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9jZHgtMDgxOTIud2Vic2l0ZS9lbWJlZC9tbGItbWFyaW5lcnM=",
+        "label": "CH-EN"
       }
     ]
   },
@@ -1214,39 +1295,12 @@
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=70",
-        "label": "CH-ES"
-      },
-      {
         "url": "https://multi.govoet.cc/?envivo=189",
         "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "beijing-normal-university-vs-shandong-hi-speed-24-08-2026",
-    "league": "Wcbc",
-    "team1": {
-      "name": "Beijing Normal University",
-      "logo": "https://sta.vnres.co/file/common/20260822/bafcc8385bc32d22a281637b3f0c8722.png"
-    },
-    "team2": {
-      "name": "Shandong Hi-Speed",
-      "logo": "https://sta.vnres.co/file/common/20260822/8acb345333430fec976f4267c02426f0.png"
-    },
-    "kickoff_date": "2026-08-24",
-    "kickoff_time": "17:00",
-    "match_date": "2026-08-24",
-    "match_time": "16:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTIyNTkxX2xoZC5tM3U4",
-        "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4OTY0X2xoZC5tM3U4",
-        "label": "CH-VN"
+        "url": "https://multi.govoet.cc/?envivo=70",
+        "label": "CH-ES"
       }
     ]
   },
@@ -1255,11 +1309,11 @@
     "league": "Malaysia - Super League",
     "team1": {
       "name": "Sabah FC",
-      "logo": "https://sta.vnres.co/file/common/20260820/2c4cbd4c6b4bd1cf0c9b244f9c924d78.png"
+      "logo": "https://img.sportdb.live/livescore-img/team/6793db4ef5830c24f59b143704abadb1.webp"
     },
     "team2": {
       "name": "Star City",
-      "logo": "https://sta.vnres.co/file/common/20260820/85d9e9f51dd12955b18206b8b01453d2.png"
+      "logo": "https://img.sportdb.live/livescore-img/team/cdc4c0ec8848a89a3e16b273a6da6c5b.webp"
     },
     "kickoff_date": "2026-08-24",
     "kickoff_time": "19:15",
@@ -1289,6 +1343,33 @@
       },
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjkxMjc3X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "sichuan-jinqiang-vs-jiangsu-nangang-24-08-2026",
+    "league": "Wcbc",
+    "team1": {
+      "name": "Sichuan Jinqiang",
+      "logo": "https://sta.vnres.co/file/common/20260822/bf06217684d23e26d2f1fa6ed5ae1b01.png"
+    },
+    "team2": {
+      "name": "Jiangsu Nangang",
+      "logo": "https://sta.vnres.co/file/common/20260822/47bcc2c69063f6af7b652751f7eba238.png"
+    },
+    "kickoff_date": "2026-08-24",
+    "kickoff_time": "19:00",
+    "match_date": "2026-08-24",
+    "match_time": "18:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4OTY0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTU4MjY0X2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
@@ -1453,91 +1534,6 @@
     ]
   },
   {
-    "id": "neom-sc-vs-al-qadsiah-24-08-2026",
-    "league": "Saudi Arabia - Pro League",
-    "team1": {
-      "name": "Neom SC",
-      "logo": "https://sta.vnres.co/file/common/20260820/97b81c1195693b8e2a4395231b08c58f.png"
-    },
-    "team2": {
-      "name": "Al Qadsiah",
-      "logo": "https://sta.vnres.co/file/common/20260820/dc249233f9157eba0f2d54b81d0cd4f7.png"
-    },
-    "kickoff_date": "2026-08-24",
-    "kickoff_time": "23:40",
-    "match_date": "2026-08-24",
-    "match_time": "23:35",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjEwNTE4X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwMDg0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTM2MTg1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyNjAyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "fujian-jinlan-vs-xinjiang-tianshan-24-08-2026",
-    "league": "Wcbc",
-    "team1": {
-      "name": "Fujian Jinlan",
-      "logo": "https://sta.vnres.co/file/common/20260822/d4917c011b759b4d48a848e0a5192b5f.png"
-    },
-    "team2": {
-      "name": "Xinjiang Tianshan",
-      "logo": "https://sta.vnres.co/file/common/20260822/1f50e6f037ab41bc53d05033aa63c793.png"
-    },
-    "kickoff_date": "2026-08-24",
-    "kickoff_time": "18:30",
-    "match_date": "2026-08-24",
-    "match_time": "18:25",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzU2MDQyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "sichuan-jinqiang-vs-jiangsu-nangang-24-08-2026",
-    "league": "Wcbc",
-    "team1": {
-      "name": "Sichuan Jinqiang",
-      "logo": "https://sta.vnres.co/file/common/20260822/bf06217684d23e26d2f1fa6ed5ae1b01.png"
-    },
-    "team2": {
-      "name": "Jiangsu Nangang",
-      "logo": "https://sta.vnres.co/file/common/20260822/47bcc2c69063f6af7b652751f7eba238.png"
-    },
-    "kickoff_date": "2026-08-24",
-    "kickoff_time": "19:00",
-    "match_date": "2026-08-24",
-    "match_time": "18:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4OTY0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTU4MjY0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
     "id": "malmo-ff-vs-djurgardens-25-08-2026",
     "league": "Sweden - Allsvenskan",
     "team1": {
@@ -1582,11 +1578,11 @@
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTAxNDEyX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTgyMzQyX2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTgyMzQyX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMDkzX2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
@@ -1609,100 +1605,117 @@
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMDkzX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTAxNDEyX2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
   },
   {
-    "id": "al-ittihad-vs-al-hazem-25-08-2026",
-    "league": "Saudi Arabia - Pro League",
-    "team1": {
-      "name": "Al-Ittihad FC",
-      "logo": "https://sta.vnres.co/file/common/20260822/53b2cdfc99cee8100e980346ded46cd9.png"
-    },
-    "team2": {
-      "name": "Al Hazem",
-      "logo": "https://sta.vnres.co/file/common/20260822/22432357491870fa0089c03ede796b80.png"
-    },
-    "kickoff_date": "2026-08-25",
-    "kickoff_time": "01:00",
-    "match_date": "2026-08-25",
-    "match_time": "00:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAyMDE5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTU3ODQ1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "seahawks-v-titans-401873297",
+    "id": "red-sox-v-marlins-401816655",
     "league": "Major Baseball League",
     "team1": {
-      "name": "Seahawks",
-      "logo": "https://i.ibb.co/3yWH5wKz/nfl-thumb-26260.png"
+      "name": "Red Sox",
+      "logo": "https://i.ibb.co/WpgYqCkX/mlb-thumb-36908.png"
     },
     "team2": {
-      "name": "Titans"
+      "name": "Marlins"
     },
-    "kickoff_date": "2026-08-24",
-    "kickoff_time": "07:00",
-    "match_date": "2026-08-24",
-    "match_time": "06:55",
+    "kickoff_date": "2026-08-25",
+    "kickoff_time": "05:40",
+    "match_date": "2026-08-25",
+    "match_time": "05:35",
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9jZHgtMDgxOTIud2Vic2l0ZS9lbWJlZC9mb3gtdXNh",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9jZHgtMDgxOTIud2Vic2l0ZS9lbWJlZC9tbGItbWFybGlucw==",
         "label": "CH-EN"
       }
     ]
   },
   {
-    "id": "ira-sprints-at-angell-park-speedway",
-    "league": "Motorsport",
+    "id": "rangers-v-white-sox-401816658",
+    "league": "Major Baseball League",
     "team1": {
-      "name": "IRA Sprints at Angell Park Speedway",
-      "logo": "https://d2779tscntxxsw.cloudfront.net/6998c7d567b25.png"
+      "name": "Rangers (Sco)",
+      "logo": "https://i.ibb.co/FqBG1Wp1/mlb-thumb-36908.png"
     },
     "team2": {
-      "name": ""
+      "name": "White Sox"
     },
-    "kickoff_date": "2026-08-24",
-    "kickoff_time": "04:50",
-    "match_date": "2026-08-24",
-    "match_time": "04:45",
+    "kickoff_date": "2026-08-25",
+    "kickoff_time": "06:40",
+    "match_date": "2026-08-25",
+    "match_time": "06:35",
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9jZHgtMDgxOTIud2Vic2l0ZS9lbWJlZC9mbG8tMzIyNDY0",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9jZHgtMDgxOTIud2Vic2l0ZS9lbWJlZC9tbGItd2hpdGUtc294",
         "label": "CH-EN"
       }
     ]
   },
   {
-    "id": "husets-speedway",
-    "league": "Dirtvision",
+    "id": "guardians-v-angels-401816661",
+    "league": "Major Baseball League",
     "team1": {
-      "name": "Husets Speedway",
-      "logo": "https://dirtvision.asset.viewlift.com/images/2026/01/09/8-23-26_Husets-1767987179953.png?impolicy=resize&amp;w=1920&amp;h=1080"
+      "name": "Guardians",
+      "logo": "https://i.ibb.co/RTrzRmGF/mlb-thumb-36908.png"
     },
     "team2": {
-      "name": ""
+      "name": "Angels"
     },
-    "kickoff_date": "2026-08-24",
-    "kickoff_time": "06:25",
-    "match_date": "2026-08-24",
-    "match_time": "06:20",
+    "kickoff_date": "2026-08-25",
+    "kickoff_time": "08:38",
+    "match_date": "2026-08-25",
+    "match_time": "08:33",
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9jZHgtMDgxOTIud2Vic2l0ZS9lbWJlZC9kaXJ0dmlzaW9uLTE=",
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9jZHgtMDgxOTIud2Vic2l0ZS9lbWJlZC9tbGItYW5nZWxz",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "twins-v-athletics-401816662",
+    "league": "Major Baseball League",
+    "team1": {
+      "name": "Twins",
+      "logo": "https://i.ibb.co/gMmshkjC/mlb-thumb-36908.png"
+    },
+    "team2": {
+      "name": "Oakland"
+    },
+    "kickoff_date": "2026-08-25",
+    "kickoff_time": "08:40",
+    "match_date": "2026-08-25",
+    "match_time": "08:35",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9jZHgtMDgxOTIud2Vic2l0ZS9lbWJlZC9tbGItYXRobGV0aWNz",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "reds-v-giants-401816660",
+    "league": "Major Baseball League",
+    "team1": {
+      "name": "Reds",
+      "logo": "https://i.ibb.co/gZS1xXcd/mlb-thumb-36908.png"
+    },
+    "team2": {
+      "name": "Giants"
+    },
+    "kickoff_date": "2026-08-25",
+    "kickoff_time": "08:45",
+    "match_date": "2026-08-25",
+    "match_time": "08:40",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9jZHgtMDgxOTIud2Vic2l0ZS9lbWJlZC9tbGItZ2lhbnRz",
         "label": "CH-EN"
       }
     ]
