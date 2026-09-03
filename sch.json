@@ -706,52 +706,6 @@
     "servers": []
   },
   {
-    "id": "BostonRedSox-SeattleMariners",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Boston Celtics",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Seattle Mariners (MLB)",
-      "logo": ""
-    },
-    "kickoff_date": "2026-09-03",
-    "kickoff_time": "03:10",
-    "match_date": "2026-09-03",
-    "match_time": "03:05",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=185",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "DepCuenca-GuayaquilCity",
-    "league": "Ecuador - Liga Pro",
-    "team1": {
-      "name": "Deportivo Cuenca",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Guayaquil City SC",
-      "logo": ""
-    },
-    "kickoff_date": "2026-09-03",
-    "kickoff_time": "04:30",
-    "match_date": "2026-09-03",
-    "match_time": "04:25",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=86",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
     "id": "Coquimbo-UDeConcepcion",
     "league": "Chile - Liga de Primera",
     "team1": {
@@ -953,6 +907,10 @@
       {
         "url": "https://multi.govoet.cc/?envivo=190",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9lcGllbWJlZHMub25saW5lL2VtYmVkL21sYi1yb3lhbHM=",
+        "label": "CH-EN"
       }
     ]
   },
@@ -1022,6 +980,10 @@
       {
         "url": "https://multi.govoet.cc/?envivo=192",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9lcGllbWJlZHMub25saW5lL2VtYmVkL21sYi1hc3Ryb3M=",
+        "label": "CH-EN"
       }
     ]
   },
@@ -1326,6 +1288,10 @@
       {
         "url": "https://multi.govoet.cc/?envivo=194",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9lcGllbWJlZHMub25saW5lL2VtYmVkL21sYi1kb2RnZXJz",
+        "label": "CH-EN"
       }
     ]
   },
@@ -1385,342 +1351,6 @@
     ]
   },
   {
-    "id": "karagumruk-vs-kayserispor-03-09-2026",
-    "league": "Turkey - Super Lig",
-    "team1": {
-      "name": "Karagumruk",
-      "logo": "https://sta.vnres.co/file/common/20260830/028bd9fba7bfa74f7c753b594c0d0f8c.png"
-    },
-    "team2": {
-      "name": "Kayserispor",
-      "logo": "https://sta.vnres.co/file/common/20260830/51ad3b19805d80445dce2404a3e1eeb1.png"
-    },
-    "kickoff_date": "2026-09-03",
-    "kickoff_time": "00:00",
-    "match_date": "2026-09-02",
-    "match_time": "23:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDA2ODY1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "sivasspor-vs-mardin-1969-spor-03-09-2026",
-    "league": "Turkey - Super Lig",
-    "team1": {
-      "name": "Sivasspor",
-      "logo": "https://sta.vnres.co/file/common/20260830/c97ed686df9281c1c7140b3631556505.png"
-    },
-    "team2": {
-      "name": "Mardin 1969 Spor",
-      "logo": "https://sta.vnres.co/file/common/20260830/0fc648d3cfeccea419396e4e176f73e6.png"
-    },
-    "kickoff_date": "2026-09-03",
-    "kickoff_time": "00:00",
-    "match_date": "2026-09-02",
-    "match_time": "23:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjczNzM2X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIxODQwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "slavia-sofia-vs-levski-sofia-03-09-2026",
-    "league": "Bulgaria - Parva Liga",
-    "team1": {
-      "name": "Slavia Sofia (Bul)",
-      "logo": "https://sta.vnres.co/file/common/20260830/8d8e5dd5228ade0a5690663d233d0d5e.png"
-    },
-    "team2": {
-      "name": "Levski Sofia",
-      "logo": "https://sta.vnres.co/file/common/20260830/8966a6081185e7d9e50514385908e4a0.png"
-    },
-    "kickoff_date": "2026-09-03",
-    "kickoff_time": "00:00",
-    "match_date": "2026-09-02",
-    "match_time": "23:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNjQ5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzIxNDQzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "baltika-kaliningrad-vs-krylya-sovetov-03-09-2026",
-    "league": "Russia - Russian Cup",
-    "team1": {
-      "name": "Baltika Kaliningrad",
-      "logo": "https://sta.vnres.co/file/common/20260830/215dfe37d6ab7411eda718c08e0c3f13.png"
-    },
-    "team2": {
-      "name": "Krylya Sovetov",
-      "logo": "https://sta.vnres.co/file/common/20260830/bb1906bb50be24dd994c79cfe49aaff6.png"
-    },
-    "kickoff_date": "2026-09-03",
-    "kickoff_time": "00:45",
-    "match_date": "2026-09-03",
-    "match_time": "00:40",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNzk3X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "spartak-moscow-vs-rodina-moscow-03-09-2026",
-    "league": "Russia - Russian Cup",
-    "team1": {
-      "name": "FC Spartak Moscow",
-      "logo": "https://sta.vnres.co/file/common/20260830/645825627d5a3696647a1f569406dd1b.png"
-    },
-    "team2": {
-      "name": "Rodina Moscow",
-      "logo": "https://sta.vnres.co/file/common/20260830/9671d7963c577711a9880fb5f4bdac6b.png"
-    },
-    "kickoff_date": "2026-09-03",
-    "kickoff_time": "00:45",
-    "match_date": "2026-09-03",
-    "match_time": "00:40",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTI3MzgzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTU3ODQ1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "aarhus-agf-vs-midtjylland-03-09-2026",
-    "league": "Denmark - Superliga",
-    "team1": {
-      "name": "Aarhus",
-      "logo": "https://sta.vnres.co/file/common/20260830/4f0c1e2d42a389958c01c8a362c12277.png"
-    },
-    "team2": {
-      "name": "Midtjylland",
-      "logo": "https://sta.vnres.co/file/common/20260830/88dfc0875c2463a63e116ec95fe5c3e4.png"
-    },
-    "kickoff_date": "2026-09-03",
-    "kickoff_time": "01:00",
-    "match_date": "2026-09-03",
-    "match_time": "00:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE4NTQ2X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "sint-truidense-vs-union-saint-gilloise-03-09-2026",
-    "league": "Belgium - Belgian Pro League",
-    "team1": {
-      "name": "Sint-Truidense",
-      "logo": "https://sta.vnres.co/file/common/20260830/86d1b38508064b39e40ce6ef5556c6d7.png"
-    },
-    "team2": {
-      "name": "Royale Union SG",
-      "logo": "https://sta.vnres.co/file/common/20260830/fb074f779b997720490faf53d470b971.png"
-    },
-    "kickoff_date": "2026-09-03",
-    "kickoff_time": "01:30",
-    "match_date": "2026-09-03",
-    "match_time": "01:25",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDU5NDAxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDAwNzIyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "red-bull-salzburg-vs-sk-rapid-wien-03-09-2026",
-    "league": "Austria - 2. Liga",
-    "team1": {
-      "name": "Red Bull Salzburg",
-      "logo": "https://sta.vnres.co/file/common/20260830/88f139b9c2b5a427b301064bf39ccabf.png"
-    },
-    "team2": {
-      "name": "SK Rapid Wien",
-      "logo": "https://sta.vnres.co/file/common/20260830/26912060b869b3fadc16657750a531e5.png"
-    },
-    "kickoff_date": "2026-09-03",
-    "kickoff_time": "01:30",
-    "match_date": "2026-09-03",
-    "match_time": "01:25",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTM2MTg1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNTA0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "vfl-osnabruck-vs-fc-bayern-munich-03-09-2026",
-    "league": "Germany - Dfb-Pokal",
-    "team1": {
-      "name": "VfL Osnabrück",
-      "logo": "https://sta.vnres.co/file/common/20260830/e1bffb5635356da9b63b6421fdddc773.png"
-    },
-    "team2": {
-      "name": "Bayern Munich",
-      "logo": "https://sta.vnres.co/file/common/20260830/e6444d85a7aaa4f02a5c8b4e5045df9e.png"
-    },
-    "kickoff_date": "2026-09-03",
-    "kickoff_time": "01:45",
-    "match_date": "2026-09-03",
-    "match_time": "01:40",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTg5ODQ4X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDk0MjAxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDg0ODQ1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTAxNDEyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTMyMzQzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNjYxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "celtic-fc-vs-aberdeen-f-c-03-09-2026",
-    "league": "Scotland - Scottish Premiership",
-    "team1": {
-      "name": "Celtic",
-      "logo": "https://sta.vnres.co/file/common/20260830/f5343802c06af44ab85560927093db22.png"
-    },
-    "team2": {
-      "name": "Aberdeen F.C.",
-      "logo": "https://sta.vnres.co/file/common/20260830/063a8d5fe0e1714716d2fc3497aa46d8.png"
-    },
-    "kickoff_date": "2026-09-03",
-    "kickoff_time": "01:45",
-    "match_date": "2026-09-03",
-    "match_time": "01:40",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjI1OTIwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjA3NTUyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "falkirk-vs-rangers-f-c-03-09-2026",
-    "league": "Scotland - Scottish Premiership",
-    "team1": {
-      "name": "Falkirk FC",
-      "logo": "https://sta.vnres.co/file/common/20260830/7f1afd9d534f57bc88a6967e5d7c9b50.png"
-    },
-    "team2": {
-      "name": "Rangers F.C.",
-      "logo": "https://sta.vnres.co/file/common/20260830/922b81e4ae77ad870c77ac91e7e89c66.png"
-    },
-    "kickoff_date": "2026-09-03",
-    "kickoff_time": "02:00",
-    "match_date": "2026-09-03",
-    "match_time": "01:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzI3MTU5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk4MTE5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "burnley-vs-middlesbrough-03-09-2026",
-    "league": "England - Championship",
-    "team1": {
-      "name": "Burnley",
-      "logo": "https://sta.vnres.co/file/common/20260830/27f84dc25fe39f1dbbc56e68ac846d61.png"
-    },
-    "team2": {
-      "name": "Middlesbrough",
-      "logo": "https://sta.vnres.co/file/common/20260830/b306f91eb5b5680e0c2d1af1e71ed36d.png"
-    },
-    "kickoff_date": "2026-09-03",
-    "kickoff_time": "02:00",
-    "match_date": "2026-09-03",
-    "match_time": "01:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIxODQzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjkxMjc3X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzA0MTQ4X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjUwODc0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
     "id": "deportes-quindio-vs-llaneros-fc-03-09-2026",
     "league": "Colombia - Copa Colombia",
     "team1": {
@@ -1749,7 +1379,7 @@
   },
   {
     "id": "charleston-battery-vs-hartford-athletic-03-09-2026",
-    "league": "USA - USL Championship",
+    "league": "Usa - Usl Championship",
     "team1": {
       "name": "Charleston Battery",
       "logo": "https://sta.vnres.co/file/common/20260830/ad1b07560bb3c13a8667f07237c144e7.png"
@@ -1813,6 +1443,342 @@
       },
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAyMTUzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "guam-u20-vs-northern-mariana-islands-u20-03-09-2026",
+    "league": "Asia - Afc U20 Asian Cup",
+    "team1": {
+      "name": "Guam U20",
+      "logo": "https://sta.vnres.co/file/common/20260831/2557c131223ce7340068749331e70f7f.png"
+    },
+    "team2": {
+      "name": "Northern Mariana Islands U20",
+      "logo": "https://sta.vnres.co/file/common/20260831/c056979f2ce67721ea02b81ee18425a5.png"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "12:00",
+    "match_date": "2026-09-03",
+    "match_time": "11:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk1MzM1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTI3Mzg0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTMyMDgxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAyMTUzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzgwNDYwX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjA3NDAwX2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "united-arab-emirates-u20-vs-iraq-u20-03-09-2026",
+    "league": "Asia - Afc U20 Asian Cup",
+    "team1": {
+      "name": "United Arab Emirates U20",
+      "logo": "https://sta.vnres.co/file/common/20260830/231ffe394d9e714113c1e1d3e99a70ea.png"
+    },
+    "team2": {
+      "name": "Iraq U20",
+      "logo": "https://sta.vnres.co/file/common/20260830/f03fb8fc80cc19a8c89d17659b8e8c56.png"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "15:30",
+    "match_date": "2026-09-03",
+    "match_time": "15:25",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDcyMjQxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTE4MjA2X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjUwODc0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwMDg0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "korea-dpr-u20-vs-iran-u20-03-09-2026",
+    "league": "Asia - Afc U20 Asian Cup",
+    "team1": {
+      "name": "Korea DPR U20",
+      "logo": "https://sta.vnres.co/file/common/20260830/bbf969a0e9a0c81b136312e23ed16b13.png"
+    },
+    "team2": {
+      "name": "Iran U20",
+      "logo": "https://sta.vnres.co/file/common/20260830/6f69a10d3da9e7086a189ca5b19020e1.png"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "16:00",
+    "match_date": "2026-09-03",
+    "match_time": "15:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE5NTYxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDM0OTgyX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMjQwX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDYyNDEzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjgzNTAxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTM5Mzg0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTM0MDU1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwMDg0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk3OTI5X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMjQxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "malaysia-u20-vs-australia-u20-03-09-2026",
+    "league": "Asia - Afc U20 Asian Cup",
+    "team1": {
+      "name": "Malaysia U20",
+      "logo": "https://sta.vnres.co/file/common/20260830/2ba295102261427056f8764102626df9.png"
+    },
+    "team2": {
+      "name": "Australia U20",
+      "logo": "https://sta.vnres.co/file/common/20260830/106d25b52e1458d7f74967357c88887a.png"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "16:00",
+    "match_date": "2026-09-03",
+    "match_time": "15:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDE0MzE3X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk5NjM0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4NzQwX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTUyNzE2X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "brunei-darussalam-u20-vs-myanmar-u20-03-09-2026",
+    "league": "Asia - Afc U20 Asian Cup",
+    "team1": {
+      "name": "Brunei Darussalam U20",
+      "logo": "https://sta.vnres.co/file/common/20260830/1761d47bc152bc1a352e2d65c8668e78.png"
+    },
+    "team2": {
+      "name": "Myanmar U20",
+      "logo": "https://sta.vnres.co/file/common/20260830/6a8b17ff313d44f1f6a92e615d36f241.png"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "16:30",
+    "match_date": "2026-09-03",
+    "match_time": "16:25",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAyMDE5X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDkxODczX2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "bangladesh-u20-vs-syria-u20-03-09-2026",
+    "league": "Asia - Afc U20 Asian Cup",
+    "team1": {
+      "name": "Bangladesh U20",
+      "logo": "https://sta.vnres.co/file/common/20260831/e13d745a882f04106f5e50bf884a50ae.png"
+    },
+    "team2": {
+      "name": "Syria U20",
+      "logo": "https://sta.vnres.co/file/common/20260831/52778eb49252c615ede846a75b242c38.png"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "18:00",
+    "match_date": "2026-09-03",
+    "match_time": "17:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjI3NzE4X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE4NTQ2X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "laos-u20-vs-indonesia-u20-03-09-2026",
+    "league": "Asia - Afc U20 Asian Cup",
+    "team1": {
+      "name": "Laos U20",
+      "logo": "https://sta.vnres.co/file/common/20260830/24a22a70bb5b0ef54d381b9089112212.png"
+    },
+    "team2": {
+      "name": "Indonesia U20",
+      "logo": "https://sta.vnres.co/file/common/20260830/5bdf86080831a74270bc8a448b8d6fc2.png"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "19:00",
+    "match_date": "2026-09-03",
+    "match_time": "18:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAzMjU1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE3MzEzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzI3MTU5X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzIxNDQzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTQ3ODAxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTI3Mzg0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDg0ODQ1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzYwNjYzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTE4MjA2X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjU2MDgwX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTM5Mzg0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTg5ODQ4X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjkxMjc3X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzA0MTQ4X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "turkmenistan-u20-vs-thailand-u20-03-09-2026",
+    "league": "Asia - Afc U20 Asian Cup",
+    "team1": {
+      "name": "Turkmenistan U20",
+      "logo": "https://sta.vnres.co/file/common/20260830/841aef7f8f502d6cbf7de1440fdfb803.png"
+    },
+    "team2": {
+      "name": "Thailand U20",
+      "logo": "https://sta.vnres.co/file/common/20260830/60b43f6a98c0b6dc08796beed15c1247.png"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "19:30",
+    "match_date": "2026-09-03",
+    "match_time": "19:25",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAzOTE0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyNjAyX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMjQwX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTgyMzQyX2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
@@ -1965,6 +1931,204 @@
     "servers": [
       {
         "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9lcGllbWJlZHMub25saW5lL2VtYmVkL3Vzb3Blbi1jb3VydC0xMw==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "orioles-v-rockies-401816784",
+    "league": "Us Open 2026 (Start Time Is Subjected To Changes)",
+    "team1": {
+      "name": "Orioles",
+      "logo": "https://i.ibb.co/mVdk2Rkv/mlb-thumb-336.png"
+    },
+    "team2": {
+      "name": "Rockies"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "02:10",
+    "match_date": "2026-09-03",
+    "match_time": "02:05",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9lcGllbWJlZHMub25saW5lL2VtYmVkL21sYi1yb2NraWVz",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "phillies-v-diamondbacks-401816786",
+    "league": "Us Open 2026 (Start Time Is Subjected To Changes)",
+    "team1": {
+      "name": "Phillies",
+      "logo": "https://i.ibb.co/9kMHZw8H/mlb-thumb-336.png"
+    },
+    "team2": {
+      "name": "Diamondbacks"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "02:40",
+    "match_date": "2026-09-03",
+    "match_time": "02:35",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9lcGllbWJlZHMub25saW5lL2VtYmVkL21sYi1kaWFtb25kYmFja3M=",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "mariners-v-red-sox-401816776",
+    "league": "Us Open 2026 (Start Time Is Subjected To Changes)",
+    "team1": {
+      "name": "Mariners",
+      "logo": "https://i.ibb.co/sJ2r7kgV/mlb-thumb-336.png"
+    },
+    "team2": {
+      "name": "Red Sox"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "03:10",
+    "match_date": "2026-09-03",
+    "match_time": "03:05",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9lcGllbWJlZHMub25saW5lL2VtYmVkL21sYi1yZWQtc294",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "mets-v-rays-401816774",
+    "league": "Us Open 2026 (Start Time Is Subjected To Changes)",
+    "team1": {
+      "name": "Mets",
+      "logo": "https://i.ibb.co/vCB9DFV0/mlb-thumb-336.png"
+    },
+    "team2": {
+      "name": "Rays"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "05:40",
+    "match_date": "2026-09-03",
+    "match_time": "05:35",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9lcGllbWJlZHMub25saW5lL2VtYmVkL21sYi1yYXlz",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "giants-v-pirates-401816777",
+    "league": "Us Open 2026 (Start Time Is Subjected To Changes)",
+    "team1": {
+      "name": "Giants",
+      "logo": "https://i.ibb.co/RpZswbD7/mlb-thumb-336.png"
+    },
+    "team2": {
+      "name": "Pirates"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "05:40",
+    "match_date": "2026-09-03",
+    "match_time": "05:35",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9lcGllbWJlZHMub25saW5lL2VtYmVkL21sYi1waXJhdGVz",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "blue-jays-v-guardians-401816778",
+    "league": "Us Open 2026 (Start Time Is Subjected To Changes)",
+    "team1": {
+      "name": "Blue Jays",
+      "logo": "https://i.ibb.co/7NJHxs5D/mlb-thumb-336.png"
+    },
+    "team2": {
+      "name": "Guardians"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "05:40",
+    "match_date": "2026-09-03",
+    "match_time": "05:35",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9lcGllbWJlZHMub25saW5lL2VtYmVkL21sYi1ndWFyZGlhbnM=",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "tigers-v-twins-401816781",
+    "league": "Us Open 2026 (Start Time Is Subjected To Changes)",
+    "team1": {
+      "name": "Tigers",
+      "logo": "https://i.ibb.co/0jbYcMW8/mlb-thumb-336.png"
+    },
+    "team2": {
+      "name": "Twins"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "06:40",
+    "match_date": "2026-09-03",
+    "match_time": "06:35",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9lcGllbWJlZHMub25saW5lL2VtYmVkL21sYi10d2lucw==",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "brewers-v-cubs-401816783",
+    "league": "Us Open 2026 (Start Time Is Subjected To Changes)",
+    "team1": {
+      "name": "Brewers",
+      "logo": "https://i.ibb.co/8ngmkSqZ/mlb-thumb-336.png"
+    },
+    "team2": {
+      "name": "Cubs"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "06:40",
+    "match_date": "2026-09-03",
+    "match_time": "06:35",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9lcGllbWJlZHMub25saW5lL2VtYmVkL21sYi1jdWJz",
+        "label": "CH-EN"
+      }
+    ]
+  },
+  {
+    "id": "yankees-v-angels-401816785",
+    "league": "Us Open 2026 (Start Time Is Subjected To Changes)",
+    "team1": {
+      "name": "Yankees",
+      "logo": "https://i.ibb.co/GfTntqdR/mlb-thumb-336.png"
+    },
+    "team2": {
+      "name": "Angels"
+    },
+    "kickoff_date": "2026-09-03",
+    "kickoff_time": "08:38",
+    "match_date": "2026-09-03",
+    "match_time": "08:33",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?iframe=aHR0cHM6Ly9lcGllbWJlZHMub25saW5lL2VtYmVkL21sYi1hbmdlbHM=",
         "label": "CH-EN"
       }
     ]
