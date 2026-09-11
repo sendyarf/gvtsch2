@@ -240,41 +240,22 @@
     "match_date": "2026-09-13",
     "match_time": "22:25",
     "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "AZAlkmaar-WillemII",
-    "sport": "Football",
-    "league": "Netherlands - Eredivisie",
-    "team1": {
-      "name": "AZ Alkmaar",
-      "logo": "https://static.flashscore.com/res/image/data/v9zOEImC-4vob7cTR.png"
-    },
-    "team2": {
-      "name": "Willem II",
-      "logo": "https://static.flashscore.com/res/image/data/hbv1mqS0-WQMFphXe.png"
-    },
-    "kickoff_date": "2026-09-12",
-    "kickoff_time": "01:00",
-    "match_date": "2026-09-12",
-    "match_time": "00:55",
-    "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=142",
-        "label": "CH-NL"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd9",
+        "url": "https://multi.govoet.cc/?ss=hd1",
         "label": "CH-1"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjI1OTIwX2xoZC5tM3U4",
-        "label": "CH-VN"
+        "url": "https://multi.govoet.cc/?ss=hd2",
+        "label": "CH-2"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIxODQwX2xoZC5tM3U4",
-        "label": "CH-VN"
+        "url": "https://multi.govoet.cc/?ss=eleven1",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br2",
+        "label": "CH-4"
       }
     ]
   },
@@ -417,54 +398,26 @@
     "servers": []
   },
   {
-    "id": "Rennes-Marseille",
+    "id": "PSV-SpartaRotterdam",
     "sport": "Football",
-    "league": "France - Ligue 1",
+    "league": "Netherlands - Eredivisie",
     "team1": {
-      "name": "Rennes",
-      "logo": "https://static.flashscore.com/res/image/data/pnrF2X76-Y5eozcI6.png"
+      "name": "PSV",
+      "logo": "https://static.flashscore.com/res/image/data/fefX7RQq-j5zA1baQ.png"
     },
     "team2": {
-      "name": "Marseille",
-      "logo": "https://static.flashscore.com/res/image/data/t6Kb5X76-AcP8ZdxL.png"
+      "name": "Sparta Rotterdam",
+      "logo": "https://static.flashscore.com/res/image/data/MHUzob96-rTjpk23j.png"
     },
-    "kickoff_date": "2026-09-12",
-    "kickoff_time": "01:45",
-    "match_date": "2026-09-12",
-    "match_time": "01:40",
+    "kickoff_date": "2026-09-14",
+    "kickoff_time": "01:00",
+    "match_date": "2026-09-14",
+    "match_time": "00:55",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=20",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=69",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd4",
+        "url": "https://multi.govoet.cc/?ss=eleven3",
         "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=sporttv3",
-        "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE4NTQ2X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTI3MzgzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE3MzEzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjczNzM2X2xoZC5tM3U4",
-        "label": "CH-VN"
       }
     ]
   },
@@ -594,7 +547,16 @@
     "match_date": "2026-09-13",
     "match_time": "19:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv3",
+        "label": "CH-2"
+      }
+    ]
   },
   {
     "id": "LeMans-Lens",
@@ -613,85 +575,42 @@
     "match_date": "2026-09-13",
     "match_time": "22:10",
     "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "UnionBerlin-Schalke",
-    "sport": "Football",
-    "league": "Germany - Bundesliga",
-    "team1": {
-      "name": "1. FC Union Berlin",
-      "logo": "https://static.flashscore.com/res/image/data/0OMJUule-ncmj9JbF.png"
-    },
-    "team2": {
-      "name": "Schalke",
-      "logo": "https://static.flashscore.com/res/image/data/jy0u6bgT-I7p2Damb.png"
-    },
-    "kickoff_date": "2026-09-12",
-    "kickoff_time": "01:30",
-    "match_date": "2026-09-12",
-    "match_time": "01:25",
-    "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=2",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=111",
-        "label": "CH-DE"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=55",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=61",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=72",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=91",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd3",
+        "url": "https://multi.govoet.cc/?ss=hd4",
         "label": "CH-1"
       },
       {
-        "url": "https://multi.govoet.cc/?ss=eleven1",
+        "url": "https://multi.govoet.cc/?ss=sporttv3",
         "label": "CH-2"
+      }
+    ]
+  },
+  {
+    "id": "Brest-PSG",
+    "sport": "Football",
+    "league": "France - Ligue 1",
+    "team1": {
+      "name": "Brest",
+      "logo": "https://static.flashscore.com/res/image/data/lWu2w4ne-prdkpc50.png"
+    },
+    "team2": {
+      "name": "Paris Saint-Germain",
+      "logo": "https://static.flashscore.com/res/image/data/fJgGn26k-A7UDDuOO.png"
+    },
+    "kickoff_date": "2026-09-14",
+    "kickoff_time": "01:45",
+    "match_date": "2026-09-14",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-1"
       },
       {
-        "url": "https://multi.govoet.cc/?ss=br1",
-        "label": "CH-3"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzUxNTMwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTU3ODQ1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTAxNDEyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzgwNDYwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk1MzM1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTg5ODQ4X2xoZC5tM3U4",
-        "label": "CH-VN"
+        "url": "https://multi.govoet.cc/?ss=sporttv3",
+        "label": "CH-2"
       }
     ]
   },
@@ -840,7 +759,16 @@
     "match_date": "2026-09-13",
     "match_time": "20:25",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd3",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven3",
+        "label": "CH-2"
+      }
+    ]
   },
   {
     "id": "Elversberg-BayernMunich",
@@ -859,61 +787,18 @@
     "match_date": "2026-09-13",
     "match_time": "22:25",
     "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "Venezia-Fiorentina",
-    "sport": "Football",
-    "league": "Italy - Serie A",
-    "team1": {
-      "name": "Venezia",
-      "logo": "https://static.flashscore.com/res/image/data/4lQfQQmC-fJvicxVf.png"
-    },
-    "team2": {
-      "name": "Fiorentina",
-      "logo": "https://static.flashscore.com/res/image/data/fZhEFLjT-6XKdgOM6.png"
-    },
-    "kickoff_date": "2026-09-12",
-    "kickoff_time": "01:45",
-    "match_date": "2026-09-12",
-    "match_time": "01:40",
-    "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=46",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=137",
-        "label": "CH-IT"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=90",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd7",
+        "url": "https://multi.govoet.cc/?ss=hd9",
         "label": "CH-1"
       },
       {
-        "url": "https://multi.govoet.cc/?ss=sporttv2",
+        "url": "https://multi.govoet.cc/?ss=hd3",
         "label": "CH-2"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTExMzY3X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjA3NTUyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMjQwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzIxNDQzX2xoZC5tM3U4",
-        "label": "CH-VN"
+        "url": "https://multi.govoet.cc/?ss=eleven3",
+        "label": "CH-3"
       }
     ]
   },
@@ -1018,7 +903,20 @@
     "match_date": "2026-09-13",
     "match_time": "19:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd7",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv5",
+        "label": "CH-3"
+      }
+    ]
   },
   {
     "id": "Napoli-Bologna",
@@ -1037,47 +935,94 @@
     "match_date": "2026-09-13",
     "match_time": "22:55",
     "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "Sevilla-Valencia",
-    "sport": "Football",
-    "league": "Spain - LaLiga",
-    "team1": {
-      "name": "Sevilla",
-      "logo": "https://static.flashscore.com/res/image/data/EcTGi086-tIT0KyhE.png"
-    },
-    "team2": {
-      "name": "Valencia",
-      "logo": "https://static.flashscore.com/res/image/data/8Cqphq8k-MHrRLNUo.png"
-    },
-    "kickoff_date": "2026-09-12",
-    "kickoff_time": "02:00",
-    "match_date": "2026-09-12",
-    "match_time": "01:55",
-    "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=45",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=51",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=91",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd6",
+        "url": "https://multi.govoet.cc/?ss=hd11",
         "label": "CH-1"
       },
       {
-        "url": "https://multi.govoet.cc/?ss=eleven2",
+        "url": "https://multi.govoet.cc/?ss=hd8",
         "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv5",
+        "label": "CH-3"
       }
     ]
+  },
+  {
+    "id": "Sassuolo-Juventus",
+    "sport": "Football",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Sassuolo",
+      "logo": "https://static.flashscore.com/res/image/data/QckzxM7k-6ZDR6zEL.png"
+    },
+    "team2": {
+      "name": "Juventus",
+      "logo": "https://static.flashscore.com/res/image/data/AufWJrhT-0nz5yHcE.png"
+    },
+    "kickoff_date": "2026-09-14",
+    "kickoff_time": "01:45",
+    "match_date": "2026-09-14",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd7",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv4",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br2",
+        "label": "CH-4"
+      }
+    ]
+  },
+  {
+    "id": "Como-Parma",
+    "sport": "Football",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Como",
+      "logo": "https://static.flashscore.com/res/image/data/4pxypIS0-hpmw8K1h.png"
+    },
+    "team2": {
+      "name": "Parma Calcio 1913",
+      "logo": "https://static.flashscore.com/res/image/data/WI9nVggT-fydXzLY6.png"
+    },
+    "kickoff_date": "2026-09-14",
+    "kickoff_time": "23:30",
+    "match_date": "2026-09-14",
+    "match_time": "23:25",
+    "duration": "3.5",
+    "servers": []
+  },
+  {
+    "id": "Torino-ASRoma",
+    "sport": "Football",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Torino",
+      "logo": "https://static.flashscore.com/res/image/data/dhGobOA6-0lwy4Ij1.png"
+    },
+    "team2": {
+      "name": "AS Roma",
+      "logo": "https://static.flashscore.com/res/image/data/j31Z1pne-GtNb9h2q.png"
+    },
+    "kickoff_date": "2026-09-14",
+    "kickoff_time": "23:30",
+    "match_date": "2026-09-14",
+    "match_time": "23:25",
+    "duration": "3.5",
+    "servers": []
   },
   {
     "id": "RacingSantander-Alaves",
@@ -1207,7 +1152,16 @@
     "match_date": "2026-09-13",
     "match_time": "18:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd6",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven2",
+        "label": "CH-2"
+      }
+    ]
   },
   {
     "id": "Levante-Barcelona",
@@ -1226,7 +1180,24 @@
     "match_date": "2026-09-13",
     "match_time": "21:10",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd10",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd6",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven2",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br3",
+        "label": "CH-4"
+      }
+    ]
   },
   {
     "id": "Getafe-DepACoruna",
@@ -1248,42 +1219,36 @@
     "servers": []
   },
   {
-    "id": "Garudayaksa-PersikKediri",
+    "id": "RealSociedad-AtlMadrid",
     "sport": "Football",
-    "league": "Indonesia - Indonesia Super League",
+    "league": "Spain - LaLiga",
     "team1": {
-      "name": "Garudayaksa",
-      "logo": "https://static.flashscore.com/res/image/data/bBePbOle-pScHnFek.png"
+      "name": "Real Sociedad",
+      "logo": "https://static.flashscore.com/res/image/data/rcAkl5le-vJb36ZBF.png"
     },
     "team2": {
-      "name": "Persik Kediri",
-      "logo": "https://static.flashscore.com/res/image/data/pbvGiliT-fudV7NWp.png"
+      "name": "Atl. Madrid",
+      "logo": "https://static.flashscore.com/res/image/data/Kv2QSkhT-GhHiNvXF.png"
     },
-    "kickoff_date": "2026-09-11",
-    "kickoff_time": "15:30",
-    "match_date": "2026-09-11",
-    "match_time": "15:25",
+    "kickoff_date": "2026-09-14",
+    "kickoff_time": "02:00",
+    "match_date": "2026-09-14",
+    "match_time": "01:55",
     "duration": "3.5",
-    "servers": []
-  },
-  {
-    "id": "DewaUnited-FCBhayangkara",
-    "sport": "Football",
-    "league": "Indonesia - Indonesia Super League",
-    "team1": {
-      "name": "Dewa United",
-      "logo": "https://static.flashscore.com/res/image/data/GO1FYtUH-fJYKj2Xi.png"
-    },
-    "team2": {
-      "name": "Bhayangkara FC",
-      "logo": "https://static.flashscore.com/res/image/data/0rQnZJmC-UBTLvuxH.png"
-    },
-    "kickoff_date": "2026-09-11",
-    "kickoff_time": "19:00",
-    "match_date": "2026-09-11",
-    "match_time": "18:55",
-    "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?ss=hd10",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd6",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven1",
+        "label": "CH-3"
+      }
+    ]
   },
   {
     "id": "PersijaJakarta-PersibBandung",
@@ -1417,119 +1382,6 @@
     "match_time": "18:55",
     "duration": "3.5",
     "servers": []
-  },
-  {
-    "id": "GrandPrixdEspagneEssaislibres2",
-    "league": "World - Formula 1",
-    "team1": {
-      "name": "Grand Prix d’Espagne Essais libres 2",
-      "logo": ""
-    },
-    "team2": {
-      "name": "",
-      "logo": ""
-    },
-    "kickoff_date": "2026-09-11",
-    "kickoff_time": "22:00",
-    "match_date": "2026-09-11",
-    "match_time": "21:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=13",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=60",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "AlQadsiah-AlEttifaq",
-    "league": "Saudi Arabia - Pro League",
-    "team1": {
-      "name": "Al Qadsiah",
-      "logo": "https://sta.vnres.co/file/common/20260907/20e7d5b19ade5fe48918bee6fed96a3c.png"
-    },
-    "team2": {
-      "name": "Al Ettifaq",
-      "logo": "https://sta.vnres.co/file/common/20260907/b4efdd3785a0f69f8707582f6a791221.png"
-    },
-    "kickoff_date": "2026-09-11",
-    "kickoff_time": "22:25",
-    "match_date": "2026-09-11",
-    "match_time": "22:20",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=61",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=70",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzg3Njk0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4NzQwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTMyMDgxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTg3NTc5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk1MzM1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMjQxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "AlFaisaly-AlIttihad",
-    "league": "Saudi Arabia - Pro League",
-    "team1": {
-      "name": "Al-Faisaly",
-      "logo": "https://sta.vnres.co/file/common/20260907/58e5b75fef42585c7182982b9a3a0409.png"
-    },
-    "team2": {
-      "name": "Al-Ittihad FC",
-      "logo": "https://sta.vnres.co/file/common/20260907/5510ab78bae844dc38302340f1fb691e.png"
-    },
-    "kickoff_date": "2026-09-11",
-    "kickoff_time": "22:45",
-    "match_date": "2026-09-11",
-    "match_time": "22:40",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=160",
-        "label": "CH-AR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzA0MTQ4X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDU5NDAxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDAwNzIyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
   },
   {
     "id": "multiplex2Bundesliga",
@@ -1676,11 +1528,11 @@
     "league": "Turkey - Süper Lig",
     "team1": {
       "name": "Besiktas",
-      "logo": "https://sta.vnres.co/file/common/20260909/e8e386205b178c94d093716f14cfa33e.png"
+      "logo": ""
     },
     "team2": {
       "name": "Erzurumspor",
-      "logo": "https://sta.vnres.co/file/common/20260909/5d0169ab4f97180066c87563ddf35068.png"
+      "logo": ""
     },
     "kickoff_date": "2026-09-12",
     "kickoff_time": "00:00",
@@ -1703,22 +1555,6 @@
       {
         "url": "https://multi.govoet.cc/?ss=br6",
         "label": "CH-2"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjUwODc0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTA5MDUzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjkxMjc3X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyNjAyX2xoZC5tM3U4",
-        "label": "CH-VN"
       }
     ]
   },
@@ -1834,6 +1670,33 @@
       {
         "url": "https://multi.govoet.cc/?envivo=34",
         "label": "CH-FR"
+      }
+    ]
+  },
+  {
+    "id": "AZAlkmaar-WillemII",
+    "league": "Netherlands - Eredivisie",
+    "team1": {
+      "name": "AZ Alkmaar",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Willem II",
+      "logo": ""
+    },
+    "kickoff_date": "2026-09-12",
+    "kickoff_time": "01:00",
+    "match_date": "2026-09-12",
+    "match_time": "00:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=142",
+        "label": "CH-NL"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-1"
       }
     ]
   },
@@ -2003,11 +1866,11 @@
     "league": "Saudi Arabia - Pro League",
     "team1": {
       "name": "Al Ahli SC",
-      "logo": "https://sta.vnres.co/file/common/20260909/e70baccf6987d205705b67a4331dd413.png"
+      "logo": ""
     },
     "team2": {
       "name": "Al Hazem",
-      "logo": "https://sta.vnres.co/file/common/20260909/da0e3ba9ad36e85259fbe050fba9f66f.png"
+      "logo": ""
     },
     "kickoff_date": "2026-09-12",
     "kickoff_time": "01:00",
@@ -2022,14 +1885,6 @@
       {
         "url": "https://multi.govoet.cc/?ss=sporttv5",
         "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTM2MTg1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzA0MTQ4X2xoZC5tM3U4",
-        "label": "CH-VN"
       }
     ]
   },
@@ -2057,6 +1912,61 @@
     ]
   },
   {
+    "id": "UnionBerlin-Schalke",
+    "league": "Germany - Bundesliga",
+    "team1": {
+      "name": "1. FC Union Berlin",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Schalke",
+      "logo": ""
+    },
+    "kickoff_date": "2026-09-12",
+    "kickoff_time": "01:30",
+    "match_date": "2026-09-12",
+    "match_time": "01:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=2",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=111",
+        "label": "CH-DE"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=55",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=61",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=72",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=91",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd3",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven1",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br1",
+        "label": "CH-3"
+      }
+    ]
+  },
+  {
     "id": "BurgosCF-Ceuta",
     "league": "Spain - LaLiga 2",
     "team1": {
@@ -2080,6 +1990,41 @@
     ]
   },
   {
+    "id": "Rennes-Marseille",
+    "league": "France - Ligue 1",
+    "team1": {
+      "name": "Rennes",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Marseille",
+      "logo": ""
+    },
+    "kickoff_date": "2026-09-12",
+    "kickoff_time": "01:45",
+    "match_date": "2026-09-12",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=20",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=69",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv3",
+        "label": "CH-2"
+      }
+    ]
+  },
+  {
     "id": "KVMechelen-Anderlecht",
     "league": "Belgium - Pro League",
     "team1": {
@@ -2099,6 +2044,45 @@
       {
         "url": "https://multi.govoet.cc/?envivo=153",
         "label": "CH-FR"
+      }
+    ]
+  },
+  {
+    "id": "Venezia-Fiorentina",
+    "league": "Italy - Serie A",
+    "team1": {
+      "name": "Venezia",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Fiorentina",
+      "logo": ""
+    },
+    "kickoff_date": "2026-09-12",
+    "kickoff_time": "01:45",
+    "match_date": "2026-09-12",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=46",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=137",
+        "label": "CH-IT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=90",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd7",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv2",
+        "label": "CH-2"
       }
     ]
   },
@@ -2165,6 +2149,45 @@
       {
         "url": "https://multi.govoet.cc/?envivo=12",
         "label": "CH-FR"
+      }
+    ]
+  },
+  {
+    "id": "Sevilla-Valencia",
+    "league": "Spain - LaLiga",
+    "team1": {
+      "name": "Sevilla",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Valencia",
+      "logo": ""
+    },
+    "kickoff_date": "2026-09-12",
+    "kickoff_time": "02:00",
+    "match_date": "2026-09-12",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=45",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=51",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=91",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd6",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=eleven2",
+        "label": "CH-2"
       }
     ]
   },
@@ -2795,153 +2818,36 @@
     ]
   },
   {
-    "id": "johor-darul-tazim-fc-vs-negeri-sembilan-11-09-2026",
-    "league": "Malaysia - Super League",
+    "id": "krylya-sovetov-vs-rodina-moscow-11-09-2026",
+    "league": "Russia - Premier League",
     "team1": {
-      "name": "Johor Darul Ta'zim FC",
-      "logo": "https://img.sportbo.live/livescore-img/team/3ab85cf20a3ed001a60a9fcd8ec09afe.webp"
+      "name": "Krylya Sovetov",
+      "logo": "https://img.sportbo.live/livescore-img/team/340d41d735133c7d7ed375b9a4a18d3f.webp"
     },
     "team2": {
-      "name": "Negeri Sembilan",
-      "logo": "https://img.sportbo.live/livescore-img/team/198103640a4eb0c209b21b6c6891a027.webp"
+      "name": "Rodina Moscow",
+      "logo": "https://img.sportbo.live/livescore-img/team/d6230043109f42be827a9e23d734e018.webp"
     },
     "kickoff_date": "2026-09-11",
-    "kickoff_time": "20:00",
+    "kickoff_time": "22:00",
     "match_date": "2026-09-11",
-    "match_time": "19:55",
+    "match_time": "21:55",
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjU2MDgwX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTgyMzQyX2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTQ3ODAxX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTM2MTg1X2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzUxNTMwX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyNjAyX2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDg0ODQ1X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzYwNjYzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNzk3X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "hatta-vs-al-dhafra-fc-11-09-2026",
-    "league": "Uae - Pro League",
-    "team1": {
-      "name": "Hatta",
-      "logo": "https://img.sportbo.live/livescore-img/team/bb546c302434af47cf61e8ae3fd53102.webp"
-    },
-    "team2": {
-      "name": "Al Dhafra FC",
-      "logo": "https://img.sportbo.live/livescore-img/team/8872919405e0076fb753ae6492a0a2db.webp"
-    },
-    "kickoff_date": "2026-09-11",
-    "kickoff_time": "20:40",
-    "match_date": "2026-09-11",
-    "match_time": "20:35",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzI3MTU5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzIxNDQzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIxODQzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "khor-fakkan-ssc-vs-baniyas-club-11-09-2026",
-    "league": "Uae - Pro League",
-    "team1": {
-      "name": "Khor Fakkan SSC",
-      "logo": "https://img.sportbo.live/livescore-img/team/e1113e780b7ceaee329d95bedc2de575.webp"
-    },
-    "team2": {
-      "name": "Baniyas Club",
-      "logo": "https://img.sportbo.live/livescore-img/team/0596d85aec8d39eb3343593869b886b0.webp"
-    },
-    "kickoff_date": "2026-09-11",
-    "kickoff_time": "20:40",
-    "match_date": "2026-09-11",
-    "match_time": "20:35",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDkxODczX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjEwNTE4X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIxODQwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAyMDE5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "al-gharafa-vs-lusail-11-09-2026",
-    "league": "Qatar - Stars League",
-    "team1": {
-      "name": "Al-Gharafa",
-      "logo": "https://img.sportbo.live/livescore-img/team/fcac1eae493c493061e66608158b40ef.webp"
-    },
-    "team2": {
-      "name": "Lusail",
-      "logo": "https://img.sportbo.live/livescore-img/team/ddb080ae05cb88519794aff16a819ff1.webp"
-    },
-    "kickoff_date": "2026-09-11",
-    "kickoff_time": "21:00",
-    "match_date": "2026-09-11",
-    "match_time": "20:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjkxMjc3X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTAxNDEyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTMyMzQzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjUwODc0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDM0OTgyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwMDg0X2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMDkzX2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
@@ -2974,36 +2880,75 @@
     ]
   },
   {
-    "id": "krylya-sovetov-vs-rodina-moscow-11-09-2026",
-    "league": "Russia - Premier League",
+    "id": "al-qadsiah-vs-al-ettifaq-11-09-2026",
+    "league": "Saudi Arabia - Pro League",
     "team1": {
-      "name": "Krylya Sovetov",
-      "logo": "https://sta.vnres.co/file/common/20260907/e9e90a794fea8b5a0916ee07134da06d.png"
+      "name": "Al Qadsiah",
+      "logo": "https://img.sportbo.live/livescore-img/team/bc74439d19c8bbaa17c57406b120b86d.webp"
     },
     "team2": {
-      "name": "Rodina Moscow",
-      "logo": "https://sta.vnres.co/file/common/20260907/7d4ebc4ec38058ed2ed2f902ed96df46.png"
+      "name": "Al Ettifaq",
+      "logo": "https://img.sportbo.live/livescore-img/team/381dd852484f06350b771097612cf08e.webp"
     },
     "kickoff_date": "2026-09-11",
-    "kickoff_time": "22:00",
+    "kickoff_time": "22:25",
     "match_date": "2026-09-11",
-    "match_time": "21:55",
+    "match_time": "22:20",
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTgyMzQyX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzg3Njk0X2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTM2MTg1X2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4NzQwX2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyNjAyX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTMyMDgxX2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMDkzX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTg3NTc5X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk1MzM1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMjQxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "al-faisaly-vs-al-ittihad-11-09-2026",
+    "league": "Saudi Arabia - Pro League",
+    "team1": {
+      "name": "Al Faisaly",
+      "logo": "https://img.sportbo.live/livescore-img/team/4e9f55c1006ca24b2b535054a52187e8.webp"
+    },
+    "team2": {
+      "name": "Al-Ittihad FC",
+      "logo": "https://img.sportbo.live/livescore-img/team/dea986d20115216c05d1a45ba9a6162e.webp"
+    },
+    "kickoff_date": "2026-09-11",
+    "kickoff_time": "22:45",
+    "match_date": "2026-09-11",
+    "match_time": "22:40",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzA0MTQ4X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDU5NDAxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDAwNzIyX2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
@@ -3109,33 +3054,6 @@
     ]
   },
   {
-    "id": "fc-copenhagen-vs-ac-horsens-12-09-2026",
-    "league": "Denmark - Superliga",
-    "team1": {
-      "name": "FC Copenhagen",
-      "logo": "https://sta.vnres.co/file/common/20260909/18904b8894244fa86d9c59affd1961df.png"
-    },
-    "team2": {
-      "name": "AC Horsens",
-      "logo": "https://sta.vnres.co/file/common/20260909/505fd9f21ed07a33d58fca9a014c26da.png"
-    },
-    "kickoff_date": "2026-09-12",
-    "kickoff_time": "00:00",
-    "match_date": "2026-09-11",
-    "match_time": "23:55",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAyMDE5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNTA0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
     "id": "hacken-vs-mjallby-aif-12-09-2026",
     "league": "Sweden - Allsvenskan",
     "team1": {
@@ -3163,28 +3081,28 @@
     ]
   },
   {
-    "id": "sv-ried-vs-red-bull-salzburg-12-09-2026",
-    "league": "Austria - 2. Liga",
+    "id": "fc-copenhagen-vs-ac-horsens-12-09-2026",
+    "league": "Denmark - Superliga",
     "team1": {
-      "name": "SV Ried",
-      "logo": "https://sta.vnres.co/file/common/20260909/e10120ad6e3a5b0a54f462c2e01109c9.png"
+      "name": "FC Copenhagen",
+      "logo": "https://sta.vnres.co/file/common/20260909/18904b8894244fa86d9c59affd1961df.png"
     },
     "team2": {
-      "name": "Red Bull Salzburg",
-      "logo": "https://sta.vnres.co/file/common/20260909/df5cd618085f6829a491328efc149485.png"
+      "name": "AC Horsens",
+      "logo": "https://sta.vnres.co/file/common/20260909/505fd9f21ed07a33d58fca9a014c26da.png"
     },
     "kickoff_date": "2026-09-12",
-    "kickoff_time": "00:30",
-    "match_date": "2026-09-12",
-    "match_time": "00:25",
+    "kickoff_time": "00:00",
+    "match_date": "2026-09-11",
+    "match_time": "23:55",
     "duration": "3.0",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMDkzX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAyMDE5X2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMjQxX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNTA0X2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
