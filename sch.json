@@ -39,20 +39,7 @@
     "match_date": "2026-10-06",
     "match_time": "05:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=171",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTE1NTMwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzU2MDQyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "DetroitPistons-PhoenixSuns",
@@ -71,20 +58,7 @@
     "match_date": "2026-10-06",
     "match_time": "05:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=172",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTIyNTkxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTU4MjY0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "Philadelphia76ers-NewYorkKnicks",
@@ -103,20 +77,7 @@
     "match_date": "2026-10-06",
     "match_time": "05:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=173",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDI4MzkyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4OTY0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "MilwaukeeBucks-MinnesotaTimberwolves",
@@ -135,12 +96,7 @@
     "match_date": "2026-10-06",
     "match_time": "06:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=175",
-        "label": "CH-US"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "SacramentoKings-LosAngelesLakers",
@@ -159,12 +115,7 @@
     "match_date": "2026-10-06",
     "match_time": "08:55",
     "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=177",
-        "label": "CH-US"
-      }
-    ]
+    "servers": []
   },
   {
     "id": "CharlotteHornets-BrooklynNets",
@@ -183,7 +134,12 @@
     "match_date": "2026-10-07",
     "match_time": "05:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=181",
+        "label": "CH-US"
+      }
+    ]
   },
   {
     "id": "OklahomaCityThunder-NewOrleansPelicans",
@@ -202,7 +158,12 @@
     "match_date": "2026-10-07",
     "match_time": "06:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=188",
+        "label": "CH-US"
+      }
+    ]
   },
   {
     "id": "UtahJazz-DenverNuggets",
@@ -221,7 +182,12 @@
     "match_date": "2026-10-07",
     "match_time": "07:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=190",
+        "label": "CH-US"
+      }
+    ]
   },
   {
     "id": "GoldenStateWarriors-LosAngelesLakers",
@@ -240,7 +206,16 @@
     "match_date": "2026-10-07",
     "match_time": "08:55",
     "duration": "3.5",
-    "servers": []
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=6",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=193",
+        "label": "CH-US"
+      }
+    ]
   },
   {
     "id": "IndianaPacers-MinnesotaTimberwolves",
@@ -338,261 +313,52 @@
     "servers": []
   },
   {
-    "id": "Nacional-MontevideoCity",
-    "league": "Uruguay - Liga AUF",
+    "id": "India-Uruguay",
+    "league": "Friendly International",
     "team1": {
-      "name": "Club Nacional",
-      "logo": ""
+      "name": "India",
+      "logo": "https://sta.vnres.co/file/common/20261002/1e8b601dcbaa561843eef24686d6368f.png"
     },
     "team2": {
-      "name": "Montevideo City Torque",
-      "logo": ""
+      "name": "Uruguay",
+      "logo": "https://sta.vnres.co/file/common/20261002/25ccad92b87fa7e5e74f429306b21e87.png"
     },
     "kickoff_date": "2026-10-06",
-    "kickoff_time": "06:00",
+    "kickoff_time": "21:00",
     "match_date": "2026-10-06",
-    "match_time": "05:55",
+    "match_time": "20:55",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=109",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "IndMedellin-SantaFe",
-    "league": "Colombia: Primera A",
-    "team1": {
-      "name": "Independiente Medellín",
-      "logo": "https://sta.vnres.co/file/common/20261002/7592929c0977cfb347c4fdd400f358f8.png"
-    },
-    "team2": {
-      "name": "Santa Fe",
-      "logo": "https://sta.vnres.co/file/common/20261002/e209a28d99283226128cf9696a4a21f0.png"
-    },
-    "kickoff_date": "2026-10-06",
-    "kickoff_time": "07:00",
-    "match_date": "2026-10-06",
-    "match_time": "06:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=81",
+        "url": "https://multi.govoet.cc/?envivo=55",
         "label": "CH-ES"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNjYxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTUyODMyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzcyNzQ2X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTIzMjI2X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "Bermuda-Barbados",
-    "league": "Ligue Des Nations Concacaf",
-    "team1": {
-      "name": "Bermuda",
-      "logo": "https://sta.vnres.co/file/common/20261002/402891214e89ff05af07578875a8a895.png"
-    },
-    "team2": {
-      "name": "Barbados",
-      "logo": "https://sta.vnres.co/file/common/20261002/86a398a393246990f2bc9559a058f4c7.png"
-    },
-    "kickoff_date": "2026-10-06",
-    "kickoff_time": "07:00",
-    "match_date": "2026-10-06",
-    "match_time": "06:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=114",
+        "url": "https://multi.govoet.cc/?envivo=61",
         "label": "CH-ES"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDg1NzM5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTgyMzQyX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "Grenada-Bonaire",
-    "league": "Ligue Des Nations Concacaf",
-    "team1": {
-      "name": "Grenada",
-      "logo": "https://sta.vnres.co/file/common/20261002/f9250fd4abe150a78dad7070accb08a9.png"
-    },
-    "team2": {
-      "name": "Bonaire",
-      "logo": "https://sta.vnres.co/file/common/20261002/4167735a0dee611416e8c55f53a597aa.png"
-    },
-    "kickoff_date": "2026-10-06",
-    "kickoff_time": "07:00",
-    "match_date": "2026-10-06",
-    "match_time": "06:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=115",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIxODg3X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjI2ODQxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "Guatemala-Suriname",
-    "league": "Ligue Des Nations Concacaf",
-    "team1": {
-      "name": "Guatemala",
-      "logo": "https://sta.vnres.co/file/common/20261002/a9af427fb9481c32a256d4cc585e58b1.png"
-    },
-    "team2": {
-      "name": "Suriname",
-      "logo": "https://sta.vnres.co/file/common/20261002/37505e05933cb31fb34e69f34a869e0f.png"
-    },
-    "kickoff_date": "2026-10-06",
-    "kickoff_time": "07:00",
-    "match_date": "2026-10-06",
-    "match_time": "06:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=116",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd1",
+        "url": "https://multi.govoet.cc/?ss=hd5",
         "label": "CH-1"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDk0MjAxX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?ss=sporttv1",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzgwNDYwX2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDkxODczX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjI3NzE4X2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTg3NTc5X2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDYyNDEzX2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk4MTE5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "TampaBayRays-NewYorkYankees",
-    "league": "USA - MLB",
-    "team1": {
-      "name": "Tampa Bay Rays",
-      "logo": ""
-    },
-    "team2": {
-      "name": "New York",
-      "logo": ""
-    },
-    "kickoff_date": "2026-10-06",
-    "kickoff_time": "07:00",
-    "match_date": "2026-10-06",
-    "match_time": "06:55",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=174",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "NewOrleansSaints-AtlantaFalcons",
-    "league": "USA - NFL",
-    "team1": {
-      "name": "New Orleans Saints",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Atlanta Falcons",
-      "logo": ""
-    },
-    "kickoff_date": "2026-10-06",
-    "kickoff_time": "07:15",
-    "match_date": "2026-10-06",
-    "match_time": "07:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=1",
-        "label": "CH-FR"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=176",
-        "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=71",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=88",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "Banfield-RosarioCentral",
-    "league": "Argentina - Primera LPF",
-    "team1": {
-      "name": "Banfield",
-      "logo": "https://sta.vnres.co/file/common/20261002/6c60d0c56a1d328d6bd4d869572ef90f.png"
-    },
-    "team2": {
-      "name": "Rosario Central",
-      "logo": "https://sta.vnres.co/file/common/20261002/ddfc1ca0f30196aea1ffa46ab86968b8.png"
-    },
-    "kickoff_date": "2026-10-06",
-    "kickoff_time": "07:15",
-    "match_date": "2026-10-06",
-    "match_time": "07:10",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=76",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?ss=hd10",
-        "label": "CH-1"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzg3Njk0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjkxMjc3X2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4NzQwX2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
@@ -600,50 +366,62 @@
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzI3MTU5X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzgwNDYwX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjU2MDgwX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIyMjQwX2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
   },
   {
-    "id": "Honduras-Jamaica",
-    "league": "Ligue Des Nations Concacaf",
+    "id": "Kazakhstan-FaroeIslands",
+    "league": "Ligue Des Nations Uefa",
     "team1": {
-      "name": "Honduras",
-      "logo": "https://sta.vnres.co/file/common/20261002/f4eaf91f72377de6ab9287d5d1b0c714.png"
+      "name": "Kazakhstan",
+      "logo": "https://sta.vnres.co/file/common/20261002/c78c24ed8f3e4e1335f996d2ca0fcad7.png"
     },
     "team2": {
-      "name": "Jamaica",
-      "logo": "https://sta.vnres.co/file/common/20261002/f1d65a2f3ec7ccf61a1c05f5fa01e922.png"
+      "name": "Faroe Islands",
+      "logo": "https://sta.vnres.co/file/common/20261002/6ec710f9fa8f04c5930a7978f8d9eadc.png"
     },
     "kickoff_date": "2026-10-06",
-    "kickoff_time": "09:00",
+    "kickoff_time": "21:00",
     "match_date": "2026-10-06",
-    "match_time": "08:55",
+    "match_time": "20:55",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=68",
+        "url": "https://multi.govoet.cc/?envivo=88",
         "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=138",
+        "label": "CH-IT"
       },
       {
         "url": "https://multi.govoet.cc/?ss=hd1",
         "label": "CH-1"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzUxNTMwX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?ss=sporttv2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br3",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjU2MDgwX2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTIzMjI2X2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzg3Njk0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDk0MjAxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDg0ODQ1X2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
@@ -651,105 +429,998 @@
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTE4MjA2X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDE0MzE3X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTQ3ODAxX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNzk3X2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
   },
   {
-    "id": "estudiantes-la-plata-vs-gimnasia-y-esgrima-de-mendoza-06-10-2026",
-    "league": "Argentina - Primera División",
+    "id": "Russia-Nigeria",
+    "league": "Friendly International",
     "team1": {
-      "name": "Estudiantes La Plata",
-      "logo": "https://sta.vnres.co/file/common/20261002/0f23dc936d3128f9d6dca08d0ff40e9a.png"
+      "name": "Russia",
+      "logo": "https://sta.vnres.co/file/common/20261002/73afccd1a285eb5b1487a4f2c361b270.png"
     },
     "team2": {
-      "name": "Gimnasia y Esgrima de Mendoza",
-      "logo": "https://sta.vnres.co/file/common/20261002/e49dae806a0735365f2c371e54883249.png"
+      "name": "Nigeria",
+      "logo": "https://sta.vnres.co/file/common/20261002/c6412b93ba8879fb8d2cd0ae1b09747e.png"
     },
     "kickoff_date": "2026-10-06",
-    "kickoff_time": "05:00",
+    "kickoff_time": "23:00",
     "match_date": "2026-10-06",
-    "match_time": "04:55",
-    "duration": "3.0",
+    "match_time": "22:55",
+    "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTMyMDgxX2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?envivo=118",
+        "label": "CH-RU"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAyMTUzX2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzI3MTU5X2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIzNzQzX2xoZC5tM3U4",
         "label": "CH-VN"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk4MTE5X2xoZC5tM3U4",
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjkxMjc3X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTU3ODQ1X2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
   },
   {
-    "id": "velez-sarsfield-vs-ca-platense-06-10-2026",
-    "league": "Argentina - Primera División",
+    "id": "Algeria-Niger",
+    "league": "Friendly International",
     "team1": {
-      "name": "Velez Sarsfield",
-      "logo": "https://sta.vnres.co/file/common/20261002/b4c0a0f50dfde18f379ce86a23c91d6e.png"
+      "name": "Algeria",
+      "logo": ""
     },
     "team2": {
-      "name": "Platense",
-      "logo": "https://sta.vnres.co/file/common/20261002/4d62ab435fb90383b81625bcadaae340.png"
+      "name": "Niger",
+      "logo": ""
     },
-    "kickoff_date": "2026-10-06",
-    "kickoff_time": "05:00",
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "00:00",
     "match_date": "2026-10-06",
-    "match_time": "04:55",
-    "duration": "3.0",
+    "match_time": "23:55",
+    "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTM5Mzg0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjI2ODQxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTM2MTg1X2xoZC5tM3U4",
-        "label": "CH-VN"
+        "url": "https://multi.govoet.cc/?envivo=117",
+        "label": "CH-DZ"
       }
     ]
   },
   {
-    "id": "martinique-vs-el-salvador-06-10-2026",
-    "league": "Concacaf Nations League",
+    "id": "Jordan-Venezuela",
+    "league": "Friendly International",
     "team1": {
-      "name": "Martinique",
-      "logo": "https://sta.vnres.co/file/common/20261002/d1abf671e5507701de83e39c22b991d0.png"
+      "name": "Jordan",
+      "logo": ""
     },
     "team2": {
-      "name": "El Salvador",
-      "logo": "https://sta.vnres.co/file/common/20261002/9affcba317374baf3c99030c9c6d01b5.png"
+      "name": "Venezuela",
+      "logo": ""
     },
-    "kickoff_date": "2026-10-06",
-    "kickoff_time": "05:00",
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "00:00",
     "match_date": "2026-10-06",
-    "match_time": "04:55",
-    "duration": "3.0",
+    "match_time": "23:55",
+    "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzcyNzQ2X2xoZC5tM3U4",
-        "label": "CH-VN"
+        "url": "https://multi.govoet.cc/?envivo=119",
+        "label": "CH-JO"
+      }
+    ]
+  },
+  {
+    "id": "Albania-SanMarino",
+    "league": "Ligue Des Nations Uefa",
+    "team1": {
+      "name": "Albania",
+      "logo": ""
+    },
+    "team2": {
+      "name": "San Marino",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "01:45",
+    "match_date": "2026-10-07",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=161",
+        "label": "CH-AL"
       },
       {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDkxODczX2xoZC5tM3U4",
-        "label": "CH-VN"
+        "url": "https://multi.govoet.cc/?ss=hd4",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "Belarus-Finland",
+    "league": "Ligue Des Nations Uefa",
+    "team1": {
+      "name": "Belarus",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Finland",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "01:45",
+    "match_date": "2026-10-07",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=162",
+        "label": "CH-GR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd8",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "Croatia-Spain",
+    "league": "Ligue Des Nations Uefa",
+    "team1": {
+      "name": "Croatia",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Spain",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "01:45",
+    "match_date": "2026-10-07",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=49",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=87",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=163",
+        "label": "CH-HR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd6",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv1",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br2",
+        "label": "CH-3"
+      }
+    ]
+  },
+  {
+    "id": "England-CzechRepublic",
+    "league": "Ligue Des Nations Uefa",
+    "team1": {
+      "name": "England",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Czech Republic",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "01:45",
+    "match_date": "2026-10-07",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=164",
+        "label": "CH-GB"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=88",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv2",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br1",
+        "label": "CH-3"
+      }
+    ]
+  },
+  {
+    "id": "Estonia-Iceland",
+    "league": "Ligue Des Nations Uefa",
+    "team1": {
+      "name": "Estonia",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Iceland",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "01:45",
+    "match_date": "2026-10-07",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=165",
+        "label": "CH-GR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=168",
+        "label": "CH-GB"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br4",
+        "label": "CH-2"
+      }
+    ]
+  },
+  {
+    "id": "Luxembourg-Bulgaria",
+    "league": "Ligue Des Nations Uefa",
+    "team1": {
+      "name": "Luxembourg",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Bulgaria",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "01:45",
+    "match_date": "2026-10-07",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=166",
+        "label": "CH-BG"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "Moldova-Slovakia",
+    "league": "Ligue Des Nations Uefa",
+    "team1": {
+      "name": "Moldova",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Slovakia",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "01:45",
+    "match_date": "2026-10-07",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=167",
+        "label": "CH-RO"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd10",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "Switzerland-NorthMacedonia",
+    "league": "Ligue Des Nations Uefa",
+    "team1": {
+      "name": "Switzerland",
+      "logo": ""
+    },
+    "team2": {
+      "name": "North Macedonia",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "01:45",
+    "match_date": "2026-10-07",
+    "match_time": "01:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=169",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=89",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd3",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv4",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br3",
+        "label": "CH-3"
+      }
+    ]
+  },
+  {
+    "id": "Angola-Malawi",
+    "league": "Can",
+    "team1": {
+      "name": "Angola",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Malawi",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "02:00",
+    "match_date": "2026-10-07",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=160",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=69",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Montserrat-TurksandCaicosIslands",
+    "league": "Ligue Des Nations Concacaf",
+    "team1": {
+      "name": "Montserrat",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Turks and Caicos Islands",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "03:00",
+    "match_date": "2026-10-07",
+    "match_time": "02:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=111",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "SaintMartin-Bahamas",
+    "league": "Ligue Des Nations Concacaf",
+    "team1": {
+      "name": "Saint Martin",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Bahamas",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "03:00",
+    "match_date": "2026-10-07",
+    "match_time": "02:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=112",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "SaintVincentandtheGrenadines-SintMaarten",
+    "league": "Ligue Des Nations Concacaf",
+    "team1": {
+      "name": "Saint Vincent and the Grenadines",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Sint Maarten",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "04:00",
+    "match_date": "2026-10-07",
+    "match_time": "03:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=113",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "AtlantaBraves-LosAngelesDodgers",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "Atlanta Braves",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Los Angeles Dodgers",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "05:00",
+    "match_date": "2026-10-07",
+    "match_time": "04:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=2",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=180",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "Argentina-Benin",
+    "league": "Friendly International",
+    "team1": {
+      "name": "Argentina",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Benin",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "06:00",
+    "match_date": "2026-10-07",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=61",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=138",
+        "label": "CH-IT"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=125",
+        "label": "CH-DE"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=77",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=94",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd2",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd6",
+        "label": "CH-2"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd5",
+        "label": "CH-3"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv1",
+        "label": "CH-4"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br1",
+        "label": "CH-5"
+      }
+    ]
+  },
+  {
+    "id": "AntiguaandBarbuda-Aruba",
+    "league": "Ligue Des Nations Concacaf",
+    "team1": {
+      "name": "Antigua and Barbuda",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Aruba",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "06:00",
+    "match_date": "2026-10-07",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=114",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "BuffaloSabres-MinnesotaWild",
+    "league": "USA - NHL",
+    "team1": {
+      "name": "Buffalo Sabres",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Minnesota Timberwolves",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "06:00",
+    "match_date": "2026-10-07",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=182",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "DetroitRedWings-OttawaSenators",
+    "league": "USA - NHL",
+    "team1": {
+      "name": "Detroit Red Wings",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Ottawa Senators (NHL)",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "06:00",
+    "match_date": "2026-10-07",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=183",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "MontrealCanadiens-CarolinaHurricanes",
+    "league": "USA - NHL",
+    "team1": {
+      "name": "Montreal Canadiens",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Carolina Hurricanes",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "06:00",
+    "match_date": "2026-10-07",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=1",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=184",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=sporttv2",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "NewJerseyDevils-UtahMammoth",
+    "league": "USA - NHL",
+    "team1": {
+      "name": "New Jersey Devils",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Utah Jazz",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "06:00",
+    "match_date": "2026-10-07",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=185",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "TorontoMapleLeafs-NashvillePredators",
+    "league": "USA - NHL",
+    "team1": {
+      "name": "Toronto Maple Leafs",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Nashville Predators",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "06:00",
+    "match_date": "2026-10-07",
+    "match_time": "05:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=186",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "ColoColo-DPuertoMontt",
+    "league": "Chile - Copa Chile",
+    "team1": {
+      "name": "Colo Colo",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Deportes Puerto Montt",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "06:30",
+    "match_date": "2026-10-07",
+    "match_time": "06:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=83",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "NewYorkRangers-NewYorkIslanders",
+    "league": "USA - NHL",
+    "team1": {
+      "name": "New York Rangers",
+      "logo": ""
+    },
+    "team2": {
+      "name": "New York Islanders",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "06:30",
+    "match_date": "2026-10-07",
+    "match_time": "06:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=187",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=89",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Colombia-Peru",
+    "league": "Friendly International",
+    "team1": {
+      "name": "Colombia",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Peru",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "06:45",
+    "match_date": "2026-10-07",
+    "match_time": "06:40",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=55",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=85",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=86",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd11",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "USA-Canada",
+    "league": "Friendly International",
+    "team1": {
+      "name": "USA",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Canada",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "07:00",
+    "match_date": "2026-10-07",
+    "match_time": "06:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=72",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=73",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=98",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd10",
+        "label": "CH-1"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=br6",
+        "label": "CH-2"
+      }
+    ]
+  },
+  {
+    "id": "ChicagoBlackhawks-StLouisBlues",
+    "league": "USA - NHL",
+    "team1": {
+      "name": "Chicago Blackhawks",
+      "logo": ""
+    },
+    "team2": {
+      "name": "St. Louis Blues",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "07:00",
+    "match_date": "2026-10-07",
+    "match_time": "06:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=189",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "ChicagoFire-VancouverWhitecaps",
+    "league": "USA - MLS",
+    "team1": {
+      "name": "Chicago Fire SC",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Vancouver Whitecaps",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "07:30",
+    "match_date": "2026-10-07",
+    "match_time": "07:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=160",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "SanDiegoPadres-MilwaukeeBrewers",
+    "league": "USA - MLB",
+    "team1": {
+      "name": "San Diego Padres (MLB)",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Milwaukee",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "08:30",
+    "match_date": "2026-10-07",
+    "match_time": "08:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=4",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=191",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "SeattleKraken-VegasGoldenKnights",
+    "league": "USA - NHL",
+    "team1": {
+      "name": "Seattle Kraken",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Las Vegas Golden Knights",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "08:40",
+    "match_date": "2026-10-07",
+    "match_time": "08:35",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=192",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "FrenchGuiana-Belize",
+    "league": "Ligue Des Nations Concacaf",
+    "team1": {
+      "name": "French Guiana",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Belize",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "09:00",
+    "match_date": "2026-10-07",
+    "match_time": "08:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=115",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd1",
+        "label": "CH-1"
+      }
+    ]
+  },
+  {
+    "id": "LosAngelesKings-FloridaPanthers",
+    "league": "USA - NHL",
+    "team1": {
+      "name": "Los Angeles Kings",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Florida Panthers",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "09:00",
+    "match_date": "2026-10-07",
+    "match_time": "08:55",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=194",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "Mexico-Chile",
+    "league": "Friendly International",
+    "team1": {
+      "name": "Mexico",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Chile",
+      "logo": ""
+    },
+    "kickoff_date": "2026-10-07",
+    "kickoff_time": "09:30",
+    "match_date": "2026-10-07",
+    "match_time": "09:25",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=68",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=106",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=107",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=108",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?ss=hd9",
+        "label": "CH-1"
       }
     ]
   },
@@ -784,6 +1455,37 @@
       },
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTE4MjA2X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "qingdao-red-lions-vs-wuhan-three-towns-b-06-10-2026",
+    "league": "China - League One",
+    "team1": {
+      "name": "Qingdao Red Lions",
+      "logo": "https://sta.vnres.co/file/common/20261002/eeb7401a1d8cdff0b8bbc12ed3ff5206.png"
+    },
+    "team2": {
+      "name": "Wuhan Three Towns B",
+      "logo": "https://sta.vnres.co/file/common/20261002/608e08b8ddadca1769e062e633a52241.png"
+    },
+    "kickoff_date": "2026-10-06",
+    "kickoff_time": "14:30",
+    "match_date": "2026-10-06",
+    "match_time": "14:25",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjgzNTAxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTM5Mzg0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4NzQwX2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
@@ -842,37 +1544,6 @@
       },
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIzNzQzX2xoZC5tM3U4",
-        "label": "CH-VN"
-      }
-    ]
-  },
-  {
-    "id": "qingdao-red-lions-vs-wuhan-three-towns-b-06-10-2026",
-    "league": "China - League One",
-    "team1": {
-      "name": "Qingdao Red Lions",
-      "logo": "https://sta.vnres.co/file/common/20261002/eeb7401a1d8cdff0b8bbc12ed3ff5206.png"
-    },
-    "team2": {
-      "name": "Wuhan Three Towns B",
-      "logo": "https://sta.vnres.co/file/common/20261002/608e08b8ddadca1769e062e633a52241.png"
-    },
-    "kickoff_date": "2026-10-06",
-    "kickoff_time": "14:30",
-    "match_date": "2026-10-06",
-    "match_time": "14:25",
-    "duration": "3.0",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjgzNTAxX2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTM5Mzg0X2xoZC5tM3U4",
-        "label": "CH-VN"
-      },
-      {
-        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4NzQwX2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
@@ -975,6 +1646,103 @@
     ]
   },
   {
+    "id": "wuxi-wugo-vs-suzhou-dongwu-06-10-2026",
+    "league": "Giải Bóng Đá Hạng Nhất Trung Quốc",
+    "team1": {
+      "name": "Wuxi Wugo",
+      "logo": "https://sta.vnres.co/file/common/20261002/226be1fdf7d974899eee9e1f71427d0f.png"
+    },
+    "team2": {
+      "name": "Suzhou Dongwu",
+      "logo": "https://sta.vnres.co/file/common/20261002/11f83e1e88b36604412b48a7fff857c4.png"
+    },
+    "kickoff_date": "2026-10-06",
+    "kickoff_time": "18:00",
+    "match_date": "2026-10-06",
+    "match_time": "17:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDA2ODY1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNTA0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "changchun-yatai-vs-yanbian-longding-06-10-2026",
+    "league": "Giải Bóng Đá Hạng Nhất Trung Quốc",
+    "team1": {
+      "name": "Changchun Yatai",
+      "logo": "https://sta.vnres.co/file/common/20261002/81437a87430361f1879ffef766128566.png"
+    },
+    "team2": {
+      "name": "Yanbian Longding",
+      "logo": "https://sta.vnres.co/file/common/20261002/5ea4665f8fe42af33e450c7a83d1f812.png"
+    },
+    "kickoff_date": "2026-10-06",
+    "kickoff_time": "18:00",
+    "match_date": "2026-10-06",
+    "match_time": "17:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjgzNTAxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzI3MTU5X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE5NTYxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjI3NzE4X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "pvf-cand-fc-vs-hue-fc-06-10-2026",
+    "league": "Cúp Quốc Gia",
+    "team1": {
+      "name": "PVF-CAND FC",
+      "logo": "https://sta.vnres.co/file/common/20261002/910f8bc71b09ca01b6802a9321b4826b.png"
+    },
+    "team2": {
+      "name": "Hue FC",
+      "logo": "https://sta.vnres.co/file/common/20261002/f5438799aecea8ef298dfb8f41cbb405.png"
+    },
+    "kickoff_date": "2026-10-06",
+    "kickoff_time": "18:00",
+    "match_date": "2026-10-06",
+    "match_time": "17:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjAzMjU1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE5NjcyX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDU5NDAxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIzNzQzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
     "id": "truong-tuoi-dong-nai-vs-dong-thap-06-10-2026",
     "league": "Cúp Quốc Gia",
     "team1": {
@@ -1005,6 +1773,294 @@
       },
       {
         "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDk0MjAxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "shijiazhuang-gongfu-vs-dalian-kun-city-06-10-2026",
+    "league": "Giải Bóng Đá Hạng Nhất Trung Quốc",
+    "team1": {
+      "name": "Shijiazhuang Gongfu",
+      "logo": "https://sta.vnres.co/file/common/20261002/023fd305344fc38a0e1425f43f898971.png"
+    },
+    "team2": {
+      "name": "Dalian Kun City",
+      "logo": "https://sta.vnres.co/file/common/20261002/c8a2a0091550afe1bec94f0ecff20f35.png"
+    },
+    "kickoff_date": "2026-10-06",
+    "kickoff_time": "18:30",
+    "match_date": "2026-10-06",
+    "match_time": "18:25",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwNjYxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTg5ODQ4X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzcyNzQ2X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDkxODczX2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "nantong-zhiyun-vs-ningbo-professional-06-10-2026",
+    "league": "Giải Bóng Đá Hạng Nhất Trung Quốc",
+    "team1": {
+      "name": "Nantong Zhiyun",
+      "logo": "https://sta.vnres.co/file/common/20261002/f5204522439e0e6ac5b396e01f183d73.png"
+    },
+    "team2": {
+      "name": "Ningbo Professional",
+      "logo": "https://sta.vnres.co/file/common/20261002/02e74a40e1026f3349f66970002e337e.png"
+    },
+    "kickoff_date": "2026-10-06",
+    "kickoff_time": "18:30",
+    "match_date": "2026-10-06",
+    "match_time": "18:25",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk3OTI5X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzIxNDQzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTM0MDU1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTA5MDUzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "dingnan-united-vs-meizhou-hakka-06-10-2026",
+    "league": "Giải Bóng Đá Hạng Nhất Trung Quốc",
+    "team1": {
+      "name": "Dingnan United",
+      "logo": "https://sta.vnres.co/file/common/20261002/40bcf71be5750c8f362bd08345be649a.png"
+    },
+    "team2": {
+      "name": "Meizhou Hakka",
+      "logo": "https://sta.vnres.co/file/common/20261002/6cbd601c610c30b98d2f86d1e97b0d97.png"
+    },
+    "kickoff_date": "2026-10-06",
+    "kickoff_time": "18:30",
+    "match_date": "2026-10-06",
+    "match_time": "18:25",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTMyMzQzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTI3Mzg0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTU3ODQ1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTUyNzE2X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "china-vs-tajikistan-06-10-2026",
+    "league": "Cfa Team China International Tournament",
+    "team1": {
+      "name": "China",
+      "logo": "https://sta.vnres.co/file/common/20261002/778ebceda2e986f4a9e9387c4220ed9e.png"
+    },
+    "team2": {
+      "name": "Tajikistan",
+      "logo": "https://sta.vnres.co/file/common/20261002/3c368a6f34970d32784f9ed091be2adf.png"
+    },
+    "kickoff_date": "2026-10-06",
+    "kickoff_time": "18:35",
+    "match_date": "2026-10-06",
+    "match_time": "18:30",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzYwNjYzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTk5NjM0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDE0MzE3X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDYyNDEzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTY4NzQwX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTIzMjI2X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "azerbaijan-u21-vs-gibraltar-u21-06-10-2026",
+    "league": "Euro U21",
+    "team1": {
+      "name": "Azerbaijan U21",
+      "logo": "https://sta.vnres.co/file/common/20261002/a6c7b876cb8435f952f37d8f0246097b.png"
+    },
+    "team2": {
+      "name": "Gibraltar U21",
+      "logo": "https://sta.vnres.co/file/common/20261002/fb64c480ac50a732eaf968a739bb1798.png"
+    },
+    "kickoff_date": "2026-10-06",
+    "kickoff_time": "20:45",
+    "match_date": "2026-10-06",
+    "match_time": "20:40",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTg3NTc5X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMTMyMzQzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTM0MDU1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjA3NTUyX2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "moldova-u21-vs-kazakhstan-u21-06-10-2026",
+    "league": "Euro U21",
+    "team1": {
+      "name": "Moldova U21",
+      "logo": "https://sta.vnres.co/file/common/20261002/30b8c6ae6a1afbed646d667547296c59.png"
+    },
+    "team2": {
+      "name": "Kazakhstan U21",
+      "logo": "https://sta.vnres.co/file/common/20261002/a9a9180d3da0dfc9f35a65232eff2a4d.png"
+    },
+    "kickoff_date": "2026-10-06",
+    "kickoff_time": "21:00",
+    "match_date": "2026-10-06",
+    "match_time": "20:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDA2ODY1X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE5NjcyX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNDU5NDAxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjE5NTYxX2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "felgueiras-u23-vs-estrela-fc-u23-06-10-2026",
+    "league": "Portugal - U23 League",
+    "team1": {
+      "name": "Felgueiras U23",
+      "logo": "https://sta.vnres.co/file/common/20261002/e34867a17dc78e7dc6a5189e2a4dd01b.png"
+    },
+    "team2": {
+      "name": "Estrela FC U23",
+      "logo": "https://sta.vnres.co/file/common/20261002/d5fb935273ac2c4fd2bd24258db683bd.png"
+    },
+    "kickoff_date": "2026-10-06",
+    "kickoff_time": "22:00",
+    "match_date": "2026-10-06",
+    "match_time": "21:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjUwODc0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjIwMDg0X2xoZC5tM3U4",
+        "label": "CH-VN"
+      }
+    ]
+  },
+  {
+    "id": "latvia-u21-vs-malta-u21-06-10-2026",
+    "league": "Euro U21",
+    "team1": {
+      "name": "Latvia U21",
+      "logo": "https://sta.vnres.co/file/common/20261002/d4e560d064e5baa3873000b86499213a.png"
+    },
+    "team2": {
+      "name": "Malta U21",
+      "logo": "https://sta.vnres.co/file/common/20261002/7aa1f2f84e35e317a8dea5d48ff64aa3.png"
+    },
+    "kickoff_date": "2026-10-06",
+    "kickoff_time": "23:00",
+    "match_date": "2026-10-06",
+    "match_time": "22:55",
+    "duration": "3.0",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNjEwNTE4X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTg5ODQ4X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzIxNDQzX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMjM1MjMyX2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tMzA0MTQ4X2xoZC5tM3U4",
+        "label": "CH-VN"
+      },
+      {
+        "url": "https://multi.govoet.cc/?hls=aHR0cHM6Ly9wdWxsLm5pdWVzLmxpdmUvbGl2ZS9zdHJlYW0tNTAxNDEyX2xoZC5tM3U4",
         "label": "CH-VN"
       }
     ]
