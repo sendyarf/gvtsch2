@@ -1,7 +1,7 @@
 """
 AI-Powered Team & League Name Matcher
-Uses Groq API (free tier) with Llama models to resolve unmatched team/league names
-and auto-update manual_mapping.json
+Uses an OpenAI-compatible chat completions API (sumopod proxy -> GLM models)
+to resolve unmatched team/league names and auto-update manual_mapping.json.
 """
 import json
 import os
@@ -25,9 +25,20 @@ if sys.platform == 'win32':
 # ============================================
 # CONFIGURATION
 # ============================================
-# Automatically use environment variable if available (for GitHub Actions)
-DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
-DEEPSEEK_MODEL = "deepseek-v4-flash"
+# OpenAI-compatible chat completions endpoint (sumopod proxy -> GLM models).
+# Override via env vars for portability; sane defaults baked in for the VPS.
+AI_BASE_URL = os.environ.get("AI_BASE_URL", "https://ai.sumopod.com").rstrip("/")
+AI_MODEL = os.environ.get("AI_MODEL", "glm-5.3-flash")
+# Backwards-compatible name kept for any code/scripts referencing the old var.
+DEEPSEEK_API_KEY = os.environ.get(
+    "AI_API_KEY",
+    os.environ.get("DEEPSEEK_API_KEY", ""),
+)
+# Historical alias — the model now comes from AI_MODEL (GLM via sumopod).
+DEEPSEEK_MODEL = AI_MODEL
+# GLM flash is a reasoning model: it spends tokens "thinking" before emitting
+# the answer, so max_tokens must be generous or the JSON comes back empty.
+AI_MAX_TOKENS = int(os.environ.get("AI_MAX_TOKENS", "4096"))
 BATCH_SIZE = 30  # Names per AI request
 MAX_REF_NAMES = 200  # Limit reference names sent to AI (saves tokens)
 AI_CACHE_FILE = "ai_mapping_cache.json"
@@ -71,36 +82,19 @@ def save_ai_cache(cache):
 # LOAD EXISTING MAPPING
 # ============================================
 def load_manual_mapping():
-    """Load current manual_mapping.json to know what's already mapped"""
+    """Load current manual_mapping.json to know what's already mapped.
+
+    Mendukung format flat LAMA maupun per-negara BARU (deteksi otomatis).
+    Returns: (team_lookup, league_lookup, raw_data) di mana *_lookup adalah
+    dict normalized_alias -> canonical_name.
+    """
     try:
-        with open(MANUAL_MAPPING_FILE, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        
-        # Build flat lookup: normalized_alias -> canonical_name
-        team_lookup = {}
-        raw_teams = data.get('team_names', {})
-        for canonical, aliases in raw_teams.items():
-            team_lookup[normalize_text(canonical)] = canonical
-            if isinstance(aliases, list):
-                for alias in aliases:
-                    if alias:
-                        team_lookup[normalize_text(alias)] = canonical
-            elif isinstance(aliases, str):
-                team_lookup[normalize_text(aliases)] = canonical
-        
-        league_lookup = {}
-        raw_leagues = data.get('league_names', {})
-        for canonical, aliases in raw_leagues.items():
-            league_lookup[normalize_text(canonical)] = canonical
-            if isinstance(aliases, list):
-                for alias in aliases:
-                    if alias:
-                        league_lookup[normalize_text(alias)] = canonical
-            elif isinstance(aliases, str):
-                league_lookup[normalize_text(aliases)] = canonical
-        
+        from mapping_loader import load_manual_mapping as _load
+        team_lookup, league_lookup, data = _load(MANUAL_MAPPING_FILE)
+        # _load sudah memetakan alias->canonical; pastikan canonical juga
+        # memetakan ke dirinya sendiri (perilaku lama ai_matcher).
         return team_lookup, league_lookup, data
-    except:
+    except Exception:
         return {}, {}, {"team_names": {}, "league_names": {}}
 
 # ============================================
@@ -109,8 +103,8 @@ def load_manual_mapping():
 def collect_all_names_from_sources():
     """Collect all unique team and league names from all source JSON files"""
     source_files = [
-        'bolaloca.json', 'streamcenter.json', 'sportsonline.json',
-        'soco.json', 'manual_sch.json'
+        'bolaloca.json', 'sportsonline.json',
+        'soco.json', '90phut.json', 'colatv.json', 'manual_sch.json'
     ]
     
     teams = set()
@@ -234,35 +228,47 @@ def find_unmatched_names(source_names, reference_names, existing_lookup, thresho
 # ============================================
 # AI RESOLUTION
 # ============================================
-def _call_deepseek(prompt, max_tokens=4096):
-    """Call DeepSeek API using requests"""
-    url = "https://api.deepseek.com/chat/completions"
+def _call_deepseek(prompt, max_tokens=None):
+    """Call the OpenAI-compatible chat completions API (sumopod -> GLM).
+
+    Kept the historical name `_call_deepseek` so callers elsewhere don't break,
+    but it now targets AI_BASE_URL / AI_MODEL. Uses AI_MAX_TOKENS by default so
+    the reasoning model has room to emit its final JSON answer.
+    """
+    if max_tokens is None:
+        max_tokens = AI_MAX_TOKENS
+    url = f"{AI_BASE_URL}/v1/chat/completions"
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {DEEPSEEK_API_KEY}"
     }
     payload = {
-        "model": DEEPSEEK_MODEL,
+        "model": AI_MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.1,
         "max_tokens": max_tokens
     }
-    
+
     try:
-        response = requests.post(url, headers=headers, json=payload, timeout=60)
+        response = requests.post(url, headers=headers, json=payload, timeout=120)
         if response.status_code == 200:
             res_json = response.json()
-            content = res_json["choices"][0]["message"]["content"].strip()
-            return content, DEEPSEEK_MODEL
+            message = res_json["choices"][0]["message"]
+            content = (message.get("content") or "").strip()
+            # Reasoning models may leave content empty and put text in
+            # reasoning_content; fall back to it if so.
+            if not content:
+                content = (message.get("reasoning_content") or "").strip()
+            return content, AI_MODEL
         else:
-            print(f"    [ERR] DeepSeek API returned status code {response.status_code}: {response.text}")
+            print(f"    [ERR] AI API returned status code {response.status_code}: {response.text}")
             return None, None
     except Exception as e:
-        print(f"    [ERR] DeepSeek API call failed: {e}")
+        print(f"    [ERR] AI API call failed: {e}")
         return None, None
 
 def resolve_team_names_with_ai(unmatched_teams, reference_teams):
-    """Use DeepSeek AI to match unmatched team names to reference (SofaScore) names"""
+    """Use the AI to match unmatched team names to reference (SofaScore) names"""
     if not unmatched_teams:
         return {}
     
@@ -320,7 +326,7 @@ Respond with ONLY a raw JSON object (no markdown). Example: {{"Gérone": "Girona
                 else:
                     print(f"    [WARN] Could not parse AI response. Raw response was:\n{answer}")
             else:
-                print(f"    [SKIP] DeepSeek API call failed or returned empty response")
+                print(f"    [SKIP] AI API call failed or returned empty response")
                 break  # Stop trying if API failed
                 
         except Exception as e:
@@ -333,7 +339,7 @@ Respond with ONLY a raw JSON object (no markdown). Example: {{"Gérone": "Girona
     return results
 
 def resolve_league_names_with_ai(unmatched_leagues, reference_leagues):
-    """Use DeepSeek AI to match unmatched league names to canonical names"""
+    """Use the AI to match unmatched league names to canonical names"""
     if not unmatched_leagues:
         return {}
     
@@ -391,7 +397,7 @@ Respond with ONLY a raw JSON object (no markdown, no explanation). Example: {{"L
                 else:
                     print(f"    [WARN] Could not parse AI response. Raw response was:\n{answer}")
             else:
-                print(f"    [SKIP] DeepSeek API call failed or returned empty response")
+                print(f"    [SKIP] AI API call failed or returned empty response")
                 break
                 
         except Exception as e:
@@ -410,90 +416,38 @@ Respond with ONLY a raw JSON object (no markdown, no explanation). Example: {{"L
 def update_manual_mapping(team_resolutions, league_resolutions, dry_run=False):
     """
     Update manual_mapping.json with AI-resolved names.
-    Format: "Canonical Name": ["Alias1", "Alias2"]
+    Format-aware: mendukung file FLAT lama maupun PER-NEGARA baru (via
+    mapping_loader.add_alias). Entri baru untuk tim/liga yang tak jelas
+    negaranya ditaruh di grup 'International' pada format per-negara.
     """
     try:
         with open(MANUAL_MAPPING_FILE, 'r', encoding='utf-8') as f:
             mapping = json.load(f)
-    except:
+    except Exception:
         mapping = {"team_names": {}, "league_names": {}}
-    
-    team_names = mapping.get('team_names', {})
-    league_names = mapping.get('league_names', {})
-    
+
+    from mapping_loader import alias_exists, add_alias
+
     teams_added = 0
     leagues_added = 0
-    
-    # Process team resolutions
+
     for alias, canonical in team_resolutions.items():
-        # Check if alias is already mapped
-        already_mapped = False
-        for can_name, aliases in team_names.items():
-            if isinstance(aliases, list):
-                if alias in aliases:
-                    already_mapped = True
-                    break
-            elif isinstance(aliases, str) and aliases == alias:
-                already_mapped = True
-                break
-        
-        if already_mapped:
+        if not alias or not canonical:
             continue
-        
-        # Check if canonical name already exists as a key
-        if canonical in team_names:
-            # Add alias to existing canonical entry
-            if isinstance(team_names[canonical], list):
-                if alias not in team_names[canonical]:
-                    team_names[canonical].append(alias)
-                    teams_added += 1
-            else:
-                # Convert string to list
-                existing = team_names[canonical]
-                team_names[canonical] = [existing, alias]
-                teams_added += 1
-        else:
-            # Create new canonical entry
-            team_names[canonical] = [alias]
+        if alias_exists(mapping, 'team_names', alias):
+            continue
+        if add_alias(mapping, 'team_names', canonical, alias):
             teams_added += 1
-    
-    # Process league resolutions
+
     for alias, canonical in league_resolutions.items():
-        # Check if alias is already mapped
-        already_mapped = False
-        for can_name, aliases in league_names.items():
-            if isinstance(aliases, list):
-                if alias in aliases:
-                    already_mapped = True
-                    break
-            elif isinstance(aliases, str) and aliases == alias:
-                already_mapped = True
-                break
-        
-        if already_mapped:
+        if not alias or not canonical:
             continue
-            
-        # Check if canonical name already exists as a key
-        if canonical in league_names:
-            if isinstance(league_names[canonical], list):
-                if alias not in league_names[canonical]:
-                    league_names[canonical].append(alias)
-                    leagues_added += 1
-            else:
-                existing = league_names[canonical]
-                league_names[canonical] = [existing, alias]
-                leagues_added += 1
-        else:
-            league_names[canonical] = [alias]
+        if alias_exists(mapping, 'league_names', alias):
+            continue
+        if add_alias(mapping, 'league_names', canonical, alias):
             leagues_added += 1
-    
+
     if not dry_run and (teams_added > 0 or leagues_added > 0):
-        # Sort both dictionaries alphabetically by key
-        sorted_teams = dict(sorted(team_names.items(), key=lambda x: x[0].lower()))
-        sorted_leagues = dict(sorted(league_names.items(), key=lambda x: x[0].lower()))
-        mapping['team_names'] = sorted_teams
-        mapping['league_names'] = sorted_leagues
-        
         with open(MANUAL_MAPPING_FILE, 'w', encoding='utf-8') as f:
             json.dump(mapping, f, indent=2, ensure_ascii=False)
             f.write('\n')
@@ -512,6 +466,10 @@ def run_ai_matcher(dry_run=False):
     print("🤖 AI TEAM & LEAGUE NAME MATCHER")
     print("=" * 60)
     
+    if not DEEPSEEK_API_KEY:
+        print("⚠️  DEEPSEEK_API_KEY/AI_API_KEY not set. Skipping AI matcher.")
+        return {}, {}
+
     # 1. Load existing mapping
     team_lookup, league_lookup, _ = load_manual_mapping()
     ai_cache = load_ai_cache()

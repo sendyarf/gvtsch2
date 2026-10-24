@@ -3,6 +3,7 @@ import base64
 import re
 import sys
 from datetime import datetime
+from http_client import http_get
 
 try:
     import pytz
@@ -26,7 +27,7 @@ if hasattr(sys.stderr, 'reconfigure'):
 # CONSTANTS
 # backup https://timst.cfd/streams
 # ============================================
-API_BASE = "https://timstreams.st/api"
+API_BASE = "https://timst.top/api"
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': 'application/json',
@@ -44,14 +45,14 @@ def build_player_url(embed_url):
 
 
 LANG_PATTERNS = [
-    ('DE', ['german', 'deutsch']),
-    ('ES', ['spanish', 'espanol', 'espa']),
-    ('PT', ['portuguese', 'portugues']),
-    ('IT', ['italian', 'italiano']),
-    ('FR', ['french', 'francais', 'français']),
-    ('PL', ['polish', 'polski']),
-    ('EN', ['english']),
-    ('AR', ['arabic', 'العربية']),
+    ('DE', ['german', 'deutsch', '-de']),
+    ('ES', ['spanish', 'espanol', 'español', 'spain', '-es']),
+    ('PT', ['portuguese', 'portugues', 'português', 'portugal', '-pt']),
+    ('IT', ['italian', 'italiano', 'italy', '-it']),
+    ('FR', ['french', 'francais', 'français', 'france', '-fr']),
+    ('PL', ['polish', 'polski', 'poland', '-pl']),
+    ('AR', ['arabic', 'العربية', 'mena', '-sa', '-ar']),
+    ('EN', ['english', '-uk', '-us', '-en']),
 ]
 
 
@@ -113,15 +114,11 @@ def parse_time(time_str):
 
 def scrape_timstreams():
     """Scrape all live/upcoming events from the timstreams API."""
-    if requests is None:
-        print("[ERR] requests library is required")
-        return []
-
     url = f"{API_BASE}/live-upcoming"
 
     try:
         print(f"Fetching {url}...")
-        resp = requests.get(url, headers=HEADERS, timeout=30)
+        resp = http_get(url, headers=HEADERS, timeout=30, retries=2)
         resp.raise_for_status()
         data = resp.json()
         print(f"  HTTP {resp.status_code}")
@@ -131,7 +128,7 @@ def scrape_timstreams():
         sub_genres = {}
         for g in data.get('genres', []):
             for s in g.get('sub_categories', []):
-                sub_genres[s['id']] = s['name']
+                sub_genres[(g['id'], s['id'])] = s['name']
 
         print(f"\nFound {len(events)} total events\n")
 
@@ -161,11 +158,13 @@ def scrape_timstreams():
                 team1_name, team2_name = split_name(name)
 
                 # League: prefer sub-category name, else category name
+                genre_id = ev.get('genre')
+                sub_genre_id = ev.get('sub_genre')
                 league = ""
-                if ev.get('sub_genre') and sub_genres.get(ev['sub_genre']):
-                    league = sub_genres[ev['sub_genre']]
-                elif ev.get('genre') and genres.get(ev['genre']):
-                    league = genres[ev['genre']]
+                if genre_id is not None and sub_genre_id is not None and (genre_id, sub_genre_id) in sub_genres:
+                    league = sub_genres[(genre_id, sub_genre_id)]
+                elif genre_id is not None and genre_id in genres:
+                    league = genres[genre_id]
 
                 match_date, match_time = parse_time(ev.get('time') or '')
                 match_id = ev.get('url') or ''

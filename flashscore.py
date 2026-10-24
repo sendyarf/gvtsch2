@@ -11,6 +11,12 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 import re
+import pytz
+
+# Flashscore shows times in the machine's LOCAL timezone (VPS = UTC+9 Seoul).
+# Convert kickoff to GMT+7 (Asia/Jakarta) to stay consistent with all other
+# sources feeding sch.json. Without this, flashscore entries shift by 2h.
+JAKARTA_TZ = pytz.timezone('Asia/Jakarta')
 
 def get_sport_duration(sport, league, duration_mapping):
     # Try exact match for league first
@@ -178,6 +184,19 @@ def scrape_flashscore():
                         # Only include matches from today and next 2 days (total 3 days)
                         end_date = current_date + timedelta(days=2)
                         if current_date <= match_date <= end_date:
+                            # Convert flashscore local-wall time (VPS tz, e.g. KST)
+                            # to GMT+7 so this source matches the rest of sch.json.
+                            try:
+                                local_tz = datetime.now().astimezone().tzinfo
+                                dt_local = datetime.strptime(
+                                    f"{kickoff_date} {kickoff_time}", "%Y-%m-%d %H:%M"
+                                ).replace(tzinfo=local_tz)
+                                jk = dt_local.astimezone(JAKARTA_TZ)
+                                kickoff_date = jk.strftime("%Y-%m-%d")
+                                kickoff_time = jk.strftime("%H:%M")
+                            except Exception:
+                                pass
+
                             # ID generation consistent with other scrapers
                             def clean_name(name):
                                 return re.sub(r'[^a-zA-Z0-9]', '', name)

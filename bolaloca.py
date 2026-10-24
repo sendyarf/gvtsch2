@@ -1,4 +1,4 @@
-import requests
+from http_client import http_get
 from bs4 import BeautifulSoup
 import re
 import json
@@ -6,9 +6,9 @@ from datetime import datetime
 import pytz
 
 def parse_bolaloca():
-    url = "https://cartelive.club/vip3.php"
+    url = "https://104game.click/vip3.php"
     try:
-        response = requests.get(url, timeout=15)
+        response = http_get(url, timeout=15, retries=2)
         response.raise_for_status()
     except Exception as e:
         print(f"Error fetching {url}: {e}")

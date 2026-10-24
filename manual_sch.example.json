@@ -1,0 +1,27 @@
+[
+  {
+    "comment": "Cara menambah server manual. Salin file ini sebagai manual_sch.json lalu isi 'url' server. Match manual punya prioritas tertinggi saat merge dan servernya selalu ditampilkan paling atas. WAJIB isi kickoff_date & kickoff_time, jika tidak match akan DIBUANG di sch.py (Phase 5).",
+    "league": "England - Premier League",
+    "team1": { "name": "Arsenal", "logo": "" },
+    "team2": { "name": "Chelsea", "logo": "" },
+    "kickoff_date": "2026-08-17",
+    "kickoff_time": "19:30",
+    "duration": "3.5",
+    "servers": [
+      { "url": "https://example.com/stream1", "label": "CH-MANUAL-1" },
+      { "url": "https://example.com/stream2", "label": "CH-MANUAL-2" }
+    ]
+  },
+  {
+    "comment": "Bisa juga CUKUP menambah server ke match yang sudah ada dari sumber lain — cukup isi team+league+date+time yang SAMA persis dengan data hasil scrape, maka server ini akan digabung (merge) ke match tsb, bukan membuat baris baru.",
+    "league": "Italy - Serie A",
+    "team1": { "name": "Inter", "logo": "" },
+    "team2": { "name": "AC Milan", "logo": "" },
+    "kickoff_date": "2026-08-17",
+    "kickoff_time": "01:45",
+    "duration": "3.5",
+    "servers": [
+      { "url": "https://example.gov/backup-seriea/1", "label": "CH-BACKUP" }
+    ]
+  }
+]

@@ -5,7 +5,7 @@ import os
 import re
 import unicodedata
 from datetime import datetime
-from urllib.parse import urlparse, parse_qs, urljoin
+from urllib.parse import urlparse, parse_qs, urljoin, quote
 import sys
 
 try:
@@ -30,8 +30,16 @@ if hasattr(sys.stderr, 'reconfigure'):
 # CONSTANTS
 # ============================================
 MANUAL_MAPPING_FILE = 'manual_mapping.json'
-DEEPSEEK_API_KEY = os.environ.get('DEEPSEEK_API_KEY', '')
-DEEPSEEK_MODEL = 'deepseek-v4-flash'
+# OpenAI-compatible chat completions API (sumopod proxy -> GLM models).
+AI_BASE_URL = os.environ.get("AI_BASE_URL", "https://ai.sumopod.com").rstrip("/")
+AI_MODEL = os.environ.get("AI_MODEL", "glm-5.3-flash")
+AI_MAX_TOKENS = int(os.environ.get("AI_MAX_TOKENS", "4096"))
+# Backwards-compatible aliases (older code referenced the DeepSeek names).
+DEEPSEEK_API_KEY = os.environ.get(
+    "AI_API_KEY",
+    os.environ.get("DEEPSEEK_API_KEY", ""),
+)
+DEEPSEEK_MODEL = AI_MODEL
 BATCH_SIZE = 30
 
 # ============================================
@@ -41,6 +49,47 @@ BATCH_SIZE = 30
 def encode_url_to_base64(url):
     """Encode URL to base64"""
     return base64.b64encode(url.encode()).decode()
+
+
+def build_player_url(stream_url):
+    """Build the multi.govoet.cc player URL with a query-safe hls value.
+
+    The multi.govoet.cc player reads the query via `URLSearchParams` and then
+    runs `atob()` on the value. URLSearchParams converts '+' to a space, which
+    breaks atob() whenever the base64 contains a '+' (common for URLs). To avoid
+    that, every base64 char is percent-encoded; URLSearchParams decodes it back
+    to the exact base64 string, so atob() always succeeds.
+    """
+    encoded_url = quote(base64.b64encode(stream_url.encode()).decode(), safe='')
+    return f"https://multi.govoet.cc/?hls={encoded_url}"
+
+
+# The splash CDN rotates between these hosts over time. The signed stream token
+# (txSecret/txTime) is per stream + time, not host-bound, so we generate the SAME
+# stream URL on each known host; if the site switches hosts, the frontend can
+# still play from whichever host is currently serving.
+STREAM_HOSTS = [
+    "https://pull.niur.live",
+    "https://pull.niues.live",
+]
+
+
+def variant_stream_urls(stream_url):
+    """Return the same signed stream URL rewritten on every known HLS host."""
+    try:
+        from urllib.parse import urlparse
+        u = urlparse(stream_url)
+        path, query = u.path, u.query
+        out = []
+        for host in STREAM_HOSTS:
+            v = f"{host}{path}"
+            if query:
+                v += f"?{query}"
+            if v not in out:
+                out.append(v)
+        return out or [stream_url]
+    except Exception:
+        return [stream_url]
 
 def normalize_text(text):
     """Normalize text for lookup: strip accents, lowercase, remove non-alphanum"""
@@ -63,37 +112,27 @@ HEADERS = {
 }
 
 # ============================================
-# LEAGUE TRANSLATION (via DeepSeek AI)
+# LEAGUE TRANSLATION (via AI — sumopod/GLM)
 # ============================================
 
 def load_league_mapping():
     """
     Load existing league mappings from manual_mapping.json.
+    Mendukung format flat LAMA maupun per-negara BARU (deteksi otomatis).
     Returns: (lookup dict: normalized_alias -> canonical, raw mapping data)
     """
     try:
-        with open(MANUAL_MAPPING_FILE, 'r', encoding='utf-8') as f:
-            mapping_data = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        mapping_data = {'team_names': {}, 'league_names': {}}
-
-    league_names_map = mapping_data.get('league_names', {})
-    lookup = {}
-    for canonical, aliases in league_names_map.items():
-        lookup[normalize_text(canonical)] = canonical
-        if isinstance(aliases, list):
-            for alias in aliases:
-                if alias:
-                    lookup[normalize_text(alias)] = canonical
-        elif isinstance(aliases, str) and aliases:
-            lookup[normalize_text(aliases)] = canonical
-
-    return lookup, mapping_data
+        from mapping_loader import load_manual_mapping as _load
+        _, league_lookup, mapping_data = _load(MANUAL_MAPPING_FILE)
+        return league_lookup, mapping_data
+    except Exception:
+        return {}, {'team_names': {}, 'league_names': {}}
 
 
 def _call_deepseek_translate(batch, ref_list):
     """
-    Call DeepSeek API to translate a batch of league names to standard English.
+    Call the AI chat API to translate a batch of league names to standard
+    English. (Historical name kept; now targets AI_BASE_URL / AI_MODEL.)
     Returns dict: {original_name: translated_name}
     """
     try:
@@ -121,22 +160,26 @@ Known leagues for reference (if helpful): {json.dumps(ref_list[:150], ensure_asc
 Respond ONLY with raw JSON object (no markdown, no explanation). Example:
 {{"Amical club": "Club Friendly", "Giải VDQG Ecuador": "Ecuador - Primera A", "BRA D1": "Brazil - Serie A"}}"""
 
-    url = 'https://api.deepseek.com/chat/completions'
+    url = f'{AI_BASE_URL}/v1/chat/completions'
     headers = {
         'Content-Type': 'application/json',
         'Authorization': f'Bearer {DEEPSEEK_API_KEY}'
     }
     payload = {
-        'model': DEEPSEEK_MODEL,
+        'model': AI_MODEL,
         'messages': [{'role': 'user', 'content': prompt}],
         'temperature': 0.1,
-        'max_tokens': 4096
+        'max_tokens': AI_MAX_TOKENS
     }
 
     try:
-        response = requests.post(url, headers=headers, json=payload, timeout=60)
+        response = requests.post(url, headers=headers, json=payload, timeout=120)
         if response.status_code == 200:
-            content = response.json()['choices'][0]['message']['content'].strip()
+            message = response.json()['choices'][0]['message']
+            content = (message.get('content') or '').strip()
+            # Reasoning models may return the text in reasoning_content.
+            if not content:
+                content = (message.get('reasoning_content') or '').strip()
             # Remove markdown code block if present
             if content.startswith('```'):
                 content = re.sub(r'^```[a-zA-Z]*\s*', '', content)
@@ -146,9 +189,9 @@ Respond ONLY with raw JSON object (no markdown, no explanation). Example:
             if json_match:
                 return json.loads(json_match.group())
         else:
-            print(f"    [ERR] DeepSeek API status {response.status_code}")
+            print(f"    [ERR] AI API status {response.status_code}")
     except Exception as e:
-        print(f"    [ERR] DeepSeek API call failed: {e}")
+        print(f"    [ERR] AI API call failed: {e}")
 
     return {}
 
@@ -156,53 +199,33 @@ Respond ONLY with raw JSON object (no markdown, no explanation). Example:
 def save_league_translations(translations, mapping_data):
     """
     Save AI-translated league names to manual_mapping.json.
-    Format: "Canonical English Name": ["original_alias1", ...]
+    Format-aware (mendukung file FLAT lama maupun PER-NEGARA baru via
+    mapping_loader.add_alias). Entri baru ditaruh di grup 'International'
+    pada format per-negara. Format: "Canonical English": ["original_alias", ...]
     """
     if not translations:
         return 0
 
-    league_names = mapping_data.get('league_names', {})
-    added = 0
+    from mapping_loader import alias_exists, add_alias
 
+    added = 0
     for alias, canonical in translations.items():
         if not canonical or canonical == 'SKIP' or canonical == alias:
             continue
-
-        # Check if alias is already mapped
-        already = False
-        for can, als in league_names.items():
-            if isinstance(als, list) and alias in als:
-                already = True
-                break
-            if isinstance(als, str) and als == alias:
-                already = True
-                break
         if normalize_text(alias) == normalize_text(canonical):
-            already = True
-        if already:
             continue
-
-        # Add to existing canonical or create new
-        if canonical in league_names:
-            existing = league_names[canonical]
-            if isinstance(existing, list):
-                if alias not in existing:
-                    existing.append(alias)
-                    added += 1
-            else:
-                league_names[canonical] = [existing, alias]
-                added += 1
-        else:
-            league_names[canonical] = [alias]
+        if alias_exists(mapping_data, 'league_names', alias):
+            continue
+        if add_alias(mapping_data, 'league_names', canonical, alias,
+                     country="International"):
             added += 1
 
     if added > 0:
-        # Sort alphabetically
-        mapping_data['league_names'] = dict(sorted(league_names.items(), key=lambda x: x[0].lower()))
         with open(MANUAL_MAPPING_FILE, 'w', encoding='utf-8') as f:
             json.dump(mapping_data, f, indent=2, ensure_ascii=False)
             f.write('\n')
         print(f"  💾 Saved {added} new league translations to {MANUAL_MAPPING_FILE}")
+    return added
 
     return added
 
@@ -210,7 +233,7 @@ def save_league_translations(translations, mapping_data):
 def translate_leagues_with_ai(matches):
     """
     Detect untranslated (non-English) league names in scraped matches,
-    call DeepSeek AI to translate them, save to manual_mapping.json,
+    call the AI to translate them, save to manual_mapping.json,
     and apply translations to the match list.
     """
     print("\n🌐 Checking league names for translation...")
@@ -227,7 +250,7 @@ def translate_leagues_with_ai(matches):
     elif not DEEPSEEK_API_KEY:
         print(f"  ⚠️  {len(untranslated)} untranslated leagues found, but DEEPSEEK_API_KEY not set. Skipping AI.")
     else:
-        print(f"  Found {len(untranslated)} untranslated league names → calling DeepSeek AI...")
+        print(f"  Found {len(untranslated)} untranslated league names → calling AI ({AI_MODEL})...")
 
         # Collect reference leagues from existing mapping keys (English names)
         ref_list = sorted(mapping_data.get('league_names', {}).keys())
@@ -273,21 +296,43 @@ def translate_leagues_with_ai(matches):
 # SCRAPING (requests + BeautifulSoup)
 # ============================================
 
+def resolve_kickoff(time_text, now=None):
+    """Parse "HH:MM DD/MM" (no year) into the kickoff datetime closest to `now`.
+
+    The sites show no year, so it must be inferred. Choosing the nearest
+    candidate year (previous / current / next) keeps a live match that just
+    started, or one that kicked off before midnight, on its real date, while
+    still rolling a year-boundary fixture (e.g. "05/01" seen in late December)
+    into the next year. Returns None when the text cannot be parsed.
+    """
+    now = now or datetime.now()
+    parts = time_text.split()
+    if len(parts) < 2:
+        return None
+    time_str, date_str = parts[0], parts[1]
+    try:
+        base = datetime.strptime(f"{date_str}/{now.year} {time_str}", "%d/%m/%Y %H:%M")
+    except ValueError:
+        return None
+    best = base
+    for year in (now.year - 1, now.year + 1):
+        try:
+            cand = base.replace(year=year)
+        except ValueError:
+            continue  # e.g. 29/02 in a non-leap year
+        if abs(cand - now) < abs(best - now):
+            best = cand
+    return best
+
+
 def parse_time(time_text):
     """
     Parse time text like '18:00 08/08' -> (match_date, match_time).
     Falls back to today 00:00 if parsing fails.
     """
-    try:
-        time_parts = time_text.split()
-        if len(time_parts) >= 2:
-            time_str = time_parts[0]
-            date_str = time_parts[1]
-            current_year = datetime.now().year
-            date_obj = datetime.strptime(f"{date_str}/{current_year} {time_str}", "%d/%m/%Y %H:%M")
-            return date_obj.strftime("%Y-%m-%d"), date_obj.strftime("%H:%M")
-    except Exception:
-        pass
+    kickoff = resolve_kickoff(time_text)
+    if kickoff:
+        return kickoff.strftime("%Y-%m-%d"), kickoff.strftime("%H:%M")
     return datetime.now().strftime("%Y-%m-%d"), "00:00"
 
 def _img_src(img):
@@ -300,19 +345,147 @@ def _img_src(img):
         return ''
     return src.strip()
 
-def scrape_with_selenium():
+# ============================================
+# STREAM URL RESOLUTION (signed HLS)
+# ============================================
+# Since 2026 the site no longer serves plain `pull.niues.live` URLs. Real HLS
+# links are signed: https://pull.niur.live/live/stream-{id}_lhd.m3u8?txSecret=...&txTime=...
+# The site resolves them via two endpoints; we mirror the site's own logic:
+#   1) index  : https://biz.vnres.co/api/live/livingRoom -> [ {id, stream}, ... ]
+#      (one call covers all currently-online BLV channels; streams are .flv)
+#   2) resolve: <base>/wp-json/soco/v1/stream/resolve?post_id=...&blv=...
+#      (per match page; needs post_id present on that page)
+STREAM_INDEX_URL = "https://biz.vnres.co/api/live/livingRoom"
+
+# The splash domain rotates frequently (socolive3.watch -> socoliveq.tv ->
+# socolivep.tv -> socolivei.tv/socolivev.tv -> socolive74.tv ...). Probe
+# candidates and use whichever responds. The WP-API resolve URL is DERIVED from
+# the working base below, so a rotation only needs a new entry here, never a
+# second edit. Newest known-good domain goes first (highest priority).
+CANDIDATE_BASES = [
+    "https://socolive74.tv/",
+    "https://socolivey.io/",
+    "https://socolivei.tv/",
+    "https://socolivel.tv/",
+    "https://socolivep.tv/",
+    "https://socoliveq.tv/",
+    "https://socolive3.watch/",
+    "https://socolive.net/",
+]
+
+RESOLVE_PATH = "/wp-json/soco/v1/stream/resolve"
+
+# Only these hosts are playable. The index sometimes returns `pullNN.scstream.net`
+# or `pull.niues.live` URLs (auth_key) which return 403; `pull.niur.live`
+# (txSecret) plays fine.
+ALLOWED_STREAM_HOSTS = {"pull.niur.live", "pull.niues.live"}
+
+_POST_ID_CACHE = {}
+
+def _is_playable_host(url):
+    try:
+        from urllib.parse import urlparse
+        return urlparse(url).hostname in ALLOWED_STREAM_HOSTS
+    except Exception:
+        return False
+
+def _flv_to_m3u8(url):
+    """Convert a signed .flv stream URL to .m3u8, keeping query params."""
+    return re.sub(r'\.flv(?=([?#]|$))', '.m3u8', url, flags=re.IGNORECASE)
+
+def fetch_stream_index():
+    """{blv_id: signed m3u8 url} for all currently-online BLV channels."""
+    from http_client import http_get
+    try:
+        resp = http_get(STREAM_INDEX_URL, headers={'Accept': 'application/json'}, timeout=20, retries=2)
+        if resp.status_code != 200:
+            print(f"  [warn] stream index HTTP {resp.status_code}")
+            return {}
+        rows = resp.json()
+        rows = rows if isinstance(rows, list) else (rows.get('data', []) if isinstance(rows, dict) else [])
+        index = {}
+        for x in rows:
+            blv_id = str(x.get('id') or '').strip()
+            stream = str(x.get('stream') or '').strip()
+            if not (blv_id and stream.startswith('http')):
+                continue
+            # Keep ALL channels here so `near_live` detection below still works;
+            # host filtering to playable ones happens when we STORE the server.
+            index[blv_id] = _flv_to_m3u8(stream)
+        print(f"  [ok] stream index: {len(index)} channel(s)")
+        return index
+    except Exception as e:
+        print(f"  [warn] stream index unavailable: {e}")
+        return {}
+
+def get_post_id(match_url):
+    """post_id for the WP-API resolver, parsed from the match detail page."""
+    if match_url in _POST_ID_CACHE:
+        return _POST_ID_CACHE[match_url]
+    from http_client import http_get
+    post_id = None
+    try:
+        page = http_get(match_url, headers=HEADERS, timeout=25, retries=1).text
+        m = re.search(r'post[_-]?id["\']?\s*[:=]\s*["\']?(\d{4,7})', page)
+        if m:
+            post_id = m.group(1)
+    except Exception:
+        pass
+    _POST_ID_CACHE[match_url] = post_id
+    return post_id
+
+def resolve_stream(post_id, blv_id, base_url):
+    """Per-channel resolve via the WP-API endpoint (mirrors the site's primary path).
+
+    `base_url` is the working splash domain found at runtime; the resolve URL is
+    built from it so a domain rotation does not need a code change.
+    """
+    from http_client import http_get
+    if not post_id or not blv_id or not base_url:
+        return None
+    url = f"{base_url.rstrip('/')}{RESOLVE_PATH}?post_id={post_id}&blv={blv_id}"
+    try:
+        r = http_get(url, headers={'Accept': 'application/json'}, timeout=15, retries=2)
+        data = r.json()
+        if data.get('ok') is True and isinstance(data.get('stream'), str) and data['stream'].startswith('http'):
+            stream = _flv_to_m3u8(data['stream'])
+            return stream if _is_playable_host(stream) else None
+    except Exception:
+        pass
+    return None
+
+def scrape_with_selenium(stream_index=None):
     """Scrape all matches by fetching the page HTML directly."""
     if requests is None or BeautifulSoup is None:
         print("[ERR] requests/beautifulsoup4 are required")
         return []
 
-    base_url = "https://socolive3.watch/"
+    from http_client import http_get
+
+    # 1) Find a working base domain.
+    base_url = None
+    for cand in CANDIDATE_BASES:
+        try:
+            r = http_get(cand, headers=HEADERS, timeout=15, retries=1)
+            if r.status_code == 200 and len(r.text) > 5000:
+                base_url = cand
+                print(f"Base domain: {base_url}")
+                break
+        except Exception:
+            continue
+    if base_url is None:
+        print("[ERR] no working base domain found")
+        return []
 
     try:
         print(f"Fetching {base_url}...")
-        resp = requests.get(base_url, headers=HEADERS, timeout=30)
+        resp = http_get(base_url, headers=HEADERS, timeout=30, retries=2)
         resp.raise_for_status()
         print(f"  HTTP {resp.status_code}, {len(resp.text)} bytes")
+
+        # Pre-resolve BLV channel -> signed HLS URL once per cycle.
+        if stream_index is None:
+            stream_index = fetch_stream_index()
 
         soup = BeautifulSoup(resp.text, 'html.parser')
         match_elements = soup.select('.match-item')
@@ -356,38 +529,60 @@ def scrape_with_selenium():
                     continue
 
                 servers = []
+                blv_ids = []
+                blv_names = []
                 for blv_elem in blv_elements:
+                    blv_link = blv_elem.select_one('a.dropdown-item')
+                    if blv_link is None:
+                        continue
+                    blv_url = urljoin(base_url, blv_link.get('href', ''))
+                    blv_name_elem = blv_link.select_one('span')
+                    blv_name = blv_name_elem.get_text(strip=True) if blv_name_elem else ''
+                    query_params = parse_qs(urlparse(blv_url).query)
+                    if 'blv' not in query_params:
+                        continue
+                    blv_ids.append(query_params['blv'][0])
+                    blv_names.append(blv_name)
+
+                if not blv_ids:
+                    print(f"  No BLV channels found, skipping...")
+                    continue
+
+                # Only fetch the match page (post_id) when the match is near-live:
+                # at least one of its channels is present in the (unfiltered) index.
+                near_live = any(bid in stream_index for bid in blv_ids)
+                match_post_id = get_post_id(match_url) if near_live else None
+
+                for blv_id, blv_name in zip(blv_ids, blv_names):
                     try:
-                        blv_link = blv_elem.select_one('a.dropdown-item')
-                        if blv_link is None:
+                        # Primary: the livingRoom index, which already returns the
+                        # playable pull.niur.live (txSecret) URL for live channels.
+                        stream_url = stream_index.get(blv_id)
+                        if not _is_playable_host(stream_url) and near_live:
+                            # Some channels are only reachable via the WP-API
+                            # resolver (still only kept if it yields a niur URL).
+                            resolved = resolve_stream(match_post_id, blv_id, base_url)
+                            if resolved:
+                                stream_url = resolved
+                        if not stream_url or not _is_playable_host(stream_url):
+                            print(f"  Channel: {blv_name} (BLV ID: {blv_id}) - no playable stream yet")
                             continue
-                        blv_url = urljoin(base_url, blv_link.get('href', ''))
-                        blv_name_elem = blv_link.select_one('span')
-                        blv_name = blv_name_elem.get_text(strip=True) if blv_name_elem else ''
 
-                        # Extract blv parameter
-                        query_params = parse_qs(urlparse(blv_url).query)
-                        if 'blv' not in query_params:
-                            continue
-
-                        blv_id = query_params['blv'][0]
-
-                        # Create stream URL
-                        stream_url = f"https://pull.niues.live/live/stream-{blv_id}_lhd.m3u8"
-                        encoded_url = encode_url_to_base64(stream_url)
-                        player_url = f"https://multi.govoet.cc/?hls={encoded_url}"
-
-                        servers.append({
-                            "url": player_url,
-                            "label": f"CH-VN"
-                        })
+                        # Store the stream on every known HLS host (fallback band)
+                        # in case the site rotates the CDN host.
+                        for vurl in variant_stream_urls(stream_url):
+                            servers.append({
+                                "url": build_player_url(vurl),
+                                "label": f"CH-VN",
+                            })
                         print(f"  Channel: {blv_name} (BLV ID: {blv_id})")
                     except Exception:
                         continue
 
                 if not servers:
-                    print(f"  No valid servers found, skipping...")
-                    continue
+                    print(f"  No live stream link yet - keeping entry with empty servers.")
+                else:
+                    print(f"  Resolved {len(servers)} live stream(s).")
 
                 match_date, match_time = parse_time(time_text)
 

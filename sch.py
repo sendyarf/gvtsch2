@@ -24,13 +24,14 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # Priority Order (Creation & Merging):
 # 1. manual_sch.json    - Highest priority. Create new or merge servers.
 # 2. flashscore.json    - Primary data source. Create new (no servers).
-# 3. bolaloca.json      - Create new or merge servers. No logos (needs enrichment).
-# 4. streamcenter.json  - Create new or merge servers.
+# 3. colatv.json        - Clean HLS stream source. Positioned right after manual servers.
+# 4. bolaloca.json      - Create new or merge servers. No logos (needs enrichment).
 #
 # Merge Only Sources:
-# 6. sportsonline.json  - Only merge servers.
+# 5. sportsonline.json  - Only merge servers.
+# 6. soco.json          - Merge servers or create new entries.
 # 7. timstreams.json    - Merge servers or create new entries.
-# 8. soco.json          - Merge servers or create new entries.
+# 8. 90phut.json        - Merge servers or create new entries.
 #
 # Enrichment:
 # Enrichment:
@@ -76,71 +77,63 @@ def slugify(text):
 def load_manual_mapping():
     """
     Load manual mapping from external JSON file.
-    Supports two formats:
-    1. "Alias": "Canonical Name" (String value)
-    2. "Canonical Name": ["Alias1", "Alias2"] (List value)
-    Falls back to empty dictionaries if file not found.
+
+    Mendukung DUA format (deteksi otomatis via mapping_loader):
+      1. Flat lama: {"team_names": {...}, "league_names": {...}}
+      2. Per-negara (baru): {"Spain": {"team_names": {...}, ...}, ...}
+    Kedua format nilai mendukung list ("Canonical": [aliases]) maupun
+    string ("Alias": "Canonical").
+    Mengembalikan (norm_teams, norm_leagues). File tidak ada -> ({}, {}).
     """
     try:
-        with open('manual_mapping.json', 'r', encoding='utf-8') as f:
-            mapping_data = json.load(f)
-            
-            raw_teams = mapping_data.get('team_names', {})
-            raw_leagues = mapping_data.get('league_names', {})
-            
-            norm_teams = {}
-            
-            # Process Team Names
-            for k, v in raw_teams.items():
-                if not k: continue
-                
-                if isinstance(v, list):
-                    # Format: "Canonical Name": ["Alias1", "Alias2"]
-                    canonical = k.strip()
-                    # Map each alias to the canonical name
-                    for alias in v:
-                        if alias:
-                            norm_teams[normalize_text(alias)] = canonical
-                    # Also ensure the normalized canonical name maps to itself (optional but safe)
-                    # norm_teams[normalize_text(canonical)] = canonical
-                else:
-                    # Format: "Alias": "Canonical Name"
-                    norm_teams[normalize_text(k)] = v.strip()
-
-            # Process League Names
-            norm_leagues = {}
-            for k, v in raw_leagues.items():
-                if not k: continue
-                if isinstance(v, list):
-                    canonical = k.strip()
-                    for alias in v:
-                        if alias:
-                            norm_leagues[normalize_text(alias)] = canonical
-                else:
-                    norm_leagues[normalize_text(k)] = v.strip()
-            
-            return norm_teams, norm_leagues
-            
-    except FileNotFoundError:
-        print("⚠️  Warning: manual_mapping.json not found. Using empty aliases.")
-        return {}, {}
-    except json.JSONDecodeError as e:
-        print(f"⚠️  Warning: Error parsing manual_mapping.json: {e}")
+        from mapping_loader import load_manual_mapping as _load
+        norm_teams, norm_leagues, _ = _load('manual_mapping.json')
+        return norm_teams, norm_leagues
+    except Exception:
         return {}, {}
 
 # Load mapping at module level
 TEAM_NAMES, LEAGUE_NAMES = load_manual_mapping()
 
+AFFIX_WORDS = {
+    'clb', 'fc', 'cf', 'sc', 'ac', 'as', 'ss', 'ssc', 'rc', 'ud', 'cd', 'sv', 'fk', 'bk', 'sk',
+    'afc', 'csd', 'ca', 'vfb', 'vfl', 'tsg', 'bsc', 'fsv', '1fc'
+}
+
+def strip_club_affixes(name):
+    """Strip common club noise words (CLB, UD, FC, etc.) from team name."""
+    if not name or not isinstance(name, str):
+        return ""
+    t = unicodedata.normalize('NFD', name)
+    t = ''.join(char for char in t if unicodedata.category(char) != 'Mn').lower()
+    t = re.sub(r'^(?:cau lac bo bong da|cau lac bo|clb)\s+', '', t)
+    t = re.sub(r'[.\-_/]', ' ', t)
+    tokens = t.split()
+    if not tokens:
+        return ""
+    while tokens and tokens[0] in AFFIX_WORDS:
+        tokens.pop(0)
+    while tokens and (tokens[-1] in AFFIX_WORDS or re.match(r'^\d{4}$', tokens[-1])):
+        tokens.pop()
+    return ' '.join(tokens) if tokens else name
+
 def normalize_team_name(name):
     """
     Normalize team name for matching purposes.
-    First tries to get display name from mapping, then normalizes it.
+    First tries to get display name from mapping.
+    If not found, strips club noise affixes (CLB, FC, UD, etc.) and tries mapping again.
+    Finally normalizes to alphanumeric text.
     """
     normalized = normalize_text(name)
-    # If there's a mapping, use the display name for normalization
-    display_name = TEAM_NAMES.get(normalized, name)
-    # Normalize the result for matching
-    return normalize_text(display_name)
+    if normalized in TEAM_NAMES:
+        return normalize_text(TEAM_NAMES[normalized])
+    
+    stripped = strip_club_affixes(name)
+    stripped_norm = normalize_text(stripped)
+    if stripped_norm in TEAM_NAMES:
+        return normalize_text(TEAM_NAMES[stripped_norm])
+        
+    return stripped_norm if stripped_norm else normalized
 
 def normalize_league_name(name):
     """
@@ -164,6 +157,22 @@ def get_display_league_name(name):
         return name.title()
     return ""
 
+def make_join_key(team1, team2, kickoff_date):
+    """Stable, source-independent key linking sch.json entries to live.json.
+
+    Ids differ per source (colatv uses its own matchId, flashscore uses
+    "Home-Away"), so live.json cannot be joined to sch.json by id. This key is
+    identical on both sides: team names normalized via manual_mapping (sorted, so
+    it is order-independent) plus the kickoff date.
+
+    Use `kickoff_date` (the real kickoff), NOT `match_date`: Phase 6.5 shifts
+    match_date back 5 minutes, which can cross midnight and break the match.
+    """
+    t1 = normalize_team_name(team1)
+    t2 = normalize_team_name(team2)
+    teams = "-".join(sorted([t1, t2]))
+    return f"{kickoff_date}|{teams}" if kickoff_date else teams
+
 # ============================================
 # FUZZY MATCHING FUNCTIONS
 # ============================================
@@ -175,7 +184,7 @@ def calculate_similarity(str1, str2):
 def fuzzy_match_teams(team1_a, team2_a, team1_b, team2_b, threshold=85):
     """
     Check if two team pairs match using fuzzy matching.
-    Also handles reversed team order (common in streamcenter.json).
+    Also handles reversed team order (occurs in several sources).
     """
     t1a = normalize_team_name(team1_a)
     t2a = normalize_team_name(team2_a)
@@ -189,7 +198,7 @@ def fuzzy_match_teams(team1_a, team2_a, team1_b, team2_b, threshold=85):
     if sim1 >= threshold and sim2 >= threshold:
         return True
     
-    # Reversed match (handles streamcenter.json where teams are often swapped)
+    # Reversed match (handles sources reporting teams in swapped order)
     sim1_rev = calculate_similarity(t1a, t2b)
     sim2_rev = calculate_similarity(t2a, t1b)
     
@@ -509,6 +518,69 @@ def merge_servers(existing_match, new_servers, existing_urls, prepend=False):
                 existing_match.setdefault('servers', []).append(server)
                 existing_urls.add(server['url'])
 
+def is_manual_server(server, manual_urls=None):
+    if not isinstance(server, dict):
+        return False
+    url = server.get('url', '')
+    if manual_urls and url in manual_urls:
+        return True
+    label = str(server.get('label', '')).upper()
+    if 'MANUAL' in label:
+        return True
+    return False
+
+def is_colatv_server(server, colatv_urls=None):
+    if not isinstance(server, dict):
+        return False
+    url = server.get('url', '')
+    if colatv_urls and url in colatv_urls:
+        return True
+    if 'ftlcbx.com' in url or 'cltvlv.com' in url or 'colatv' in url:
+        return True
+    if '?hls=' in url:
+        try:
+            import base64
+            import urllib.parse
+            b64_part = url.split('?hls=', 1)[1].split('&', 1)[0]
+            b64_part = urllib.parse.unquote(b64_part)
+            decoded = base64.b64decode(b64_part + '==').decode('utf-8', errors='ignore')
+            if 'ftlcbx.com' in decoded or 'cltvlv.com' in decoded or 'colatv' in decoded:
+                return True
+        except Exception:
+            pass
+    return False
+
+def is_kralsport_server(server, kralsport_urls=None):
+    """True bila server berasal dari kralsport (kralsportshd.com / Andro Stream).
+
+    Prioritas deteksi:
+      1. URL ada di set kralsport_urls (dari kralsport.json) — paling akurat.
+      2. Host stream khas AndroStream (setelah decode base64 ?hls= bila ada).
+    """
+    if not isinstance(server, dict):
+        return False
+    url = server.get('url', '')
+    if kralsport_urls and url in kralsport_urls:
+        return True
+    # host khas Andro Stream / mirror kralsport
+    if any(h in url for h in ('evrenesoglu', 'n4154.xyz', 'streamsport365')):
+        return True
+    # decode base64 ?hls= lalu cek host CDN-nya
+    if '?hls=' in url:
+        try:
+            import base64
+            import urllib.parse
+            b64_part = url.split('?hls=', 1)[1].split('&', 1)[0]
+            b64_part = urllib.parse.unquote(b64_part)
+            decoded = base64.b64decode(b64_part + '==').decode('utf-8', errors='ignore')
+            if any(h in decoded for h in ('evrenesoglu', 'n4154.xyz',
+                                          'xmediaget', 'akamaihd',
+                                          'streamsport365')):
+                return True
+        except Exception:
+            pass
+    return False
+
 def main():
     print("Starting schedule merge...")
     print("=" * 50)
@@ -516,17 +588,25 @@ def main():
     # Load Data
     manual_sch = load_json_safe('manual_sch.json')
     flashscore = load_json_safe('flashscore.json')
+    colatv = load_json_safe('colatv.json')
     bolaloca = load_json_safe('bolaloca.json')
     streamcenter = load_json_safe('streamcenter.json')
     sofascore = load_json_safe('sofascore.json')
+    kralsport = load_json_safe('kralsport.json')
+
+    # Collect known URLs for server priority reordering
+    manual_urls = {s['url'] for m in manual_sch for s in m.get('servers', []) if isinstance(s, dict) and s.get('url')}
+    colatv_urls = {s['url'] for m in colatv for s in m.get('servers', []) if isinstance(s, dict) and s.get('url')}
+    kralsport_urls = {s['url'] for m in kralsport for s in m.get('servers', []) if isinstance(s, dict) and s.get('url')}
     
     # ============================================
     # PHASE 1: Primary Sources (Create & Merge)
     # ============================================
-    # Priority: manual_sch -> flashscore -> bolaloca -> streamcenter
+    # Priority: manual_sch -> flashscore -> colatv -> bolaloca
     primary_sources = [
         ('manual_sch.json', manual_sch, True),  # prepend servers
         ('flashscore.json', flashscore, False),
+        ('colatv.json', colatv, False),
         ('bolaloca.json', bolaloca, False),
         ('streamcenter.json', streamcenter, False),
     ]
@@ -546,6 +626,8 @@ def main():
             if existing_key:
                 # Merge servers
                 existing_match = merged_data[existing_key]
+                if source_name == 'colatv.json' and match.get('id'):
+                    existing_match['colatv_id'] = match['id']
                 existing_urls = {s['url'] for s in existing_match.get('servers', [])}
                 new_servers = match.get('servers', [])
                 
@@ -562,6 +644,8 @@ def main():
                 key = create_composite_key(match)
                 if 'servers' not in match:
                     match['servers'] = []
+                if source_name == 'colatv.json' and match.get('id'):
+                    match['colatv_id'] = match['id']
                 merged_data[key] = match
 
     # ============================================
@@ -635,6 +719,79 @@ def main():
                 timstreams_created += 1
     print(f"  ✅ Merged {timstreams_merged} servers, created {timstreams_created} new entries from timstreams.json")
 
+    # 90phut.json (merge servers + create new entries)
+    _90phut_data = load_json_safe('90phut.json')
+    print(f"Processing 90phut.json ({len(_90phut_data)} matches) - Merge & create...")
+    _90phut_merged = 0
+    _90phut_created = 0
+    if isinstance(_90phut_data, list):
+        for match in _90phut_data:
+            existing_key = find_matching_entry(match, merged_data, allow_time_only=False)
+            if existing_key:
+                existing_match = merged_data[existing_key]
+                existing_urls = {s['url'] for s in existing_match.get('servers', [])}
+                new_servers = match.get('servers', [])
+                merge_servers(existing_match, new_servers, existing_urls)
+                _90phut_merged += 1
+            else:
+                key = create_composite_key(match)
+                if 'servers' not in match:
+                    match['servers'] = []
+                merged_data[key] = match
+                _90phut_created += 1
+    print(f"  ✅ Merged {_90phut_merged} servers, created {_90phut_created} new entries from 90phut.json")
+
+    # kralsport.json (kralsportshd.com "Andro Stream" — merge servers + create new)
+    kralsport_data = load_json_safe('kralsport.json')
+    print(f"Processing kralsport.json ({len(kralsport_data)} matches) - Merge & create...")
+    kralsport_merged = 0
+    kralsport_created = 0
+    if isinstance(kralsport_data, list):
+        for match in kralsport_data:
+            existing_key = find_matching_entry(match, merged_data, allow_time_only=False)
+            if existing_key:
+                existing_match = merged_data[existing_key]
+                existing_urls = {s['url'] for s in existing_match.get('servers', [])}
+                new_servers = match.get('servers', [])
+                merge_servers(existing_match, new_servers, existing_urls)
+                kralsport_merged += 1
+            else:
+                key = create_composite_key(match)
+                if 'servers' not in match:
+                    match['servers'] = []
+                merged_data[key] = match
+                kralsport_created += 1
+    print(f"  ✅ Merged {kralsport_merged} servers, created {kralsport_created} new entries from kralsport.json")
+
+    # xoilac.json (xoilacz.vip / globaldispatchespodcast.com — merge servers + create new)
+    xoilac_data = load_json_safe('xoilac.json')
+    print(f"Processing xoilac.json ({len(xoilac_data)} matches) - Merge & create...")
+    xoilac_merged = 0
+    xoilac_created = 0
+    if isinstance(xoilac_data, list):
+        for match in xoilac_data:
+            existing_key = find_matching_entry(match, merged_data, allow_time_only=False)
+            if existing_key:
+                existing_match = merged_data[existing_key]
+                existing_urls = {s['url'] for s in existing_match.get('servers', [])}
+                new_servers = match.get('servers', [])
+                merge_servers(existing_match, new_servers, existing_urls)
+                # logos fallback
+                if not existing_match['team1'].get('logo') and match.get('team1', {}).get('logo'):
+                    existing_match['team1']['logo'] = match['team1']['logo']
+                if not existing_match['team2'].get('logo') and match.get('team2', {}).get('logo'):
+                    existing_match['team2']['logo'] = match['team2']['logo']
+                xoilac_merged += 1
+            else:
+                key = create_composite_key(match)
+                if 'servers' not in match:
+                    match['servers'] = []
+                merged_data[key] = match
+                xoilac_created += 1
+    print(f"  ✅ Merged {xoilac_merged} servers, created {xoilac_created} new entries from xoilac.json")
+
+
+
     # Convert to list
     final_data = list(merged_data.values())
     
@@ -646,19 +803,40 @@ def main():
     # ============================================
     # PHASE 3.5: AI Name Matching
     # ============================================
-    # Runs by default. Set SKIP_AI_MATCHER=true to disable.
+    # Runs by default but is COOLDOWN-GATED so it doesn't run every merge
+    # (sch.py is invoked as a subprocess each cycle, so its state file must
+    # persist between invocations). Set SKIP_AI_MATCHER=true to disable, or
+    # AI_MATCHER_INTERVAL=<seconds> to change the cadence (default 1800 = 30m).
     if AI_MATCHER_AVAILABLE and os.environ.get("SKIP_AI_MATCHER") != "true":
-        print("\n" + "=" * 50)
+        ai_cooldown = int(os.environ.get("AI_MATCHER_INTERVAL", "1800"))
+        _state = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.ai_cooldown')
         try:
-            team_res, league_res = run_ai_matcher(dry_run=False)
-            if team_res or league_res:
-                print("Reloading manual mapping with AI updates...")
-                global TEAM_NAMES, LEAGUE_NAMES
-                TEAM_NAMES, LEAGUE_NAMES = load_manual_mapping()
-                normalize_text.cache_clear()  # Clear LRU cache for fresh lookups
-        except Exception as e:
-            print(f"⚠️  AI Matcher error (non-fatal): {e}")
-        print("=" * 50)
+            last = float(open(_state).read().strip() or 0) if os.path.exists(_state) else 0.0
+        except Exception:
+            last = 0.0
+
+        if time.time() - last >= ai_cooldown:
+            # Start the cooldown now (even if the run below fails) so a broken
+            # AI call can't force it to retry on every subsequent merge.
+            try:
+                with open(_state, 'w', encoding='utf-8') as _f:
+                    _f.write(str(int(time.time())))
+            except Exception:
+                pass
+            print("\n" + "=" * 50)
+            try:
+                team_res, league_res = run_ai_matcher(dry_run=False)
+                if team_res or league_res:
+                    print("Reloading manual mapping with AI updates...")
+                    global TEAM_NAMES, LEAGUE_NAMES
+                    TEAM_NAMES, LEAGUE_NAMES = load_manual_mapping()
+                    normalize_text.cache_clear()  # Clear LRU cache for fresh lookups
+            except Exception as e:
+                print(f"⚠️  AI Matcher error (non-fatal): {e}")
+            print("=" * 50)
+        else:
+            mins_left = int((ai_cooldown - (time.time() - last)) // 60) + 1
+            print(f"\nℹ️  AI Matcher on cooldown (~{mins_left}m left). Skipping.")
     else:
         if not AI_MATCHER_AVAILABLE:
             print("\nℹ️  AI Matcher not available (import failed).")
@@ -696,17 +874,33 @@ def main():
         print(f"⚠️  Filtered out {filtered_count} matches with missing date/time.")
 
     # ============================================
-    # PHASE 6: Reorder servers (iframex to end)
+    # PHASE 6: Reorder servers (Manual -> Kralsport -> Colatv -> Others -> iframex)
     # ============================================
-    print("\nReordering servers (moving iframex to end)...")
+    print("\nReordering servers (Manual -> Kralsport -> Colatv -> Others -> iframex)...")
     reordered_count = 0
     for match in final_data:
         servers = match.get('servers', [])
         if servers:
-            non_iframex = [s for s in servers if '?iframex=' not in s.get('url', '')]
-            iframex = [s for s in servers if '?iframex=' in s.get('url', '')]
-            if iframex:
-                match['servers'] = non_iframex + iframex
+            manual_srv = []
+            kralsport_srv = []
+            colatv_srv = []
+            other_srv = []
+            iframex_srv = []
+            for s in servers:
+                u = s.get('url', '')
+                if is_manual_server(s, manual_urls):
+                    manual_srv.append(s)
+                elif is_kralsport_server(s, kralsport_urls):
+                    kralsport_srv.append(s)
+                elif is_colatv_server(s, colatv_urls):
+                    colatv_srv.append(s)
+                elif '?iframex=' in u:
+                    iframex_srv.append(s)
+                else:
+                    other_srv.append(s)
+            new_servers = manual_srv + kralsport_srv + colatv_srv + other_srv + iframex_srv
+            if new_servers != servers:
+                match['servers'] = new_servers
                 reordered_count += 1
     print(f"  ✅ Reordered servers in {reordered_count} matches.")
 
@@ -730,6 +924,81 @@ def main():
                 match['match_date'] = kd
                 match['match_time'] = kt
     print(f"  ✅ Adjusted {adjusted_count} matches.")
+
+    # ============================================
+    # PHASE 6.75: Add startTimestamp (unix UTC, zone-agnostic)
+    # ============================================
+    # kickoff_date/kickoff_time are GMT+7 (Asia/Jakarta) wall times. Exposing a
+    # single startTimestamp lets the frontend render in ANY viewer timezone via
+    # `new Date(match.startTimestamp * 1000)` instead of hardcoding +07:00.
+    print("\nAdding startTimestamp (unix UTC)...")
+    from datetime import datetime, timezone, timedelta
+    try:
+        from zoneinfo import ZoneInfo
+        _JKT = ZoneInfo("Asia/Jakarta")
+    except Exception:
+        _JKT = timezone(timedelta(hours=7))
+    ts_added = 0
+    for match in final_data:
+        ts = match.get('startTimestamp')
+        if isinstance(ts, (int, float)):
+            # Keep a source-provided timestamp (e.g. SofaScore) if present.
+            match['startTimestamp'] = int(ts)
+            continue
+        kd = match.get('kickoff_date', '')
+        kt = match.get('kickoff_time', '')
+        if kd and kt:
+            try:
+                dt = datetime.strptime(f"{kd} {kt}", "%Y-%m-%d %H:%M").replace(tzinfo=_JKT)
+                match['startTimestamp'] = int(dt.timestamp())
+                ts_added += 1
+            except (ValueError, TypeError):
+                continue
+    print(f"  ✅ Added startTimestamp to {ts_added} matches.")
+
+    # ============================================
+    # PHASE 6.8: Normalize duration from sport/league (duration.json)
+    # ============================================
+    # Scrapers hardcode a single duration regardless of sport (e.g. "3.5").
+    # duration.json already knows sport-specific lengths (UFC 400min, Football
+    # 210min, Tennis 140min, ...) but it was never applied here. Apply it on the
+    # merged feed so the frontend gets a sane duration per event.
+    print("\nNormalizing duration by sport/league (duration.json)...")
+    try:
+        with open('duration.json', 'r', encoding='utf-8') as _f:
+            _dur_map = json.load(_f).get('data', {})
+    except Exception:
+        _dur_map = {}
+
+    def _minutes_to_duration(minutes):
+        hours = minutes / 60.0
+        return str(int(hours)) if hours == int(hours) else f"{hours:.3g}"
+
+    dur_changed = 0
+    for match in final_data:
+        text = f"{match.get('sport', '')} {match.get('league', '')}".lower()
+        match.setdefault('duration', "3.5")
+        applied = None
+        for key, minutes in _dur_map.items():
+            if key.lower() in text:
+                applied = _minutes_to_duration(minutes)
+                break
+        if applied and applied != match['duration']:
+            match['duration'] = applied
+            dur_changed += 1
+    print(f"  ✅ Updated duration for {dur_changed} matches.")
+
+    # ============================================
+    # PHASE 6.9: Add join_key (stable sch.json <-> live.json link)
+    # ============================================
+    # live.json cannot be joined to sch.json by id (ids differ per source), so
+    # both sides emit this identical key: normalized team names + kickoff_date.
+    print("\nAdding join_key (live.json link)...")
+    for match in final_data:
+        match['join_key'] = make_join_key(
+            match['team1']['name'], match['team2']['name'],
+            match.get('kickoff_date') or match.get('match_date') or ''
+        )
 
     # ============================================
     # PHASE 7: Save output

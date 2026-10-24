@@ -1,4 +1,4 @@
-import requests
+from http_client import http_get
 import re
 import json
 from datetime import datetime, timedelta
@@ -7,9 +7,12 @@ import pytz
 def parse_sportsonline():
     url = "https://sportsonline.st/prog.txt"
     try:
-        response = requests.get(url, timeout=15)
+        response = http_get(url, timeout=15, retries=2)
         response.raise_for_status()
-        response.encoding = 'utf-8'  # Force UTF-8 encoding
+        try:
+            response.encoding = 'utf-8'  # Force UTF-8 encoding
+        except Exception:
+            pass
     except Exception as e:
         print(f"Error fetching {url}: {e}")
         return []
