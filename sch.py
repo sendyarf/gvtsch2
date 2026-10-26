@@ -529,6 +529,27 @@ def is_manual_server(server, manual_urls=None):
         return True
     return False
 
+def is_truckrefuse_server(server, truckrefuse_urls=None):
+    if not isinstance(server, dict):
+        return False
+    url = server.get('url', '')
+    if truckrefuse_urls and url in truckrefuse_urls:
+        return True
+    if 'truckrefuse.net' in url:
+        return True
+    if '?iframe=' in url:
+        try:
+            import base64
+            import urllib.parse
+            b64_part = url.split('?iframe=', 1)[1].split('&', 1)[0]
+            b64_part = urllib.parse.unquote(b64_part)
+            decoded = base64.b64decode(b64_part + '==').decode('utf-8', errors='ignore')
+            if 'truckrefuse.net' in decoded:
+                return True
+        except Exception:
+            pass
+    return False
+
 def is_colatv_server(server, colatv_urls=None):
     if not isinstance(server, dict):
         return False
@@ -598,6 +619,8 @@ def main():
     manual_urls = {s['url'] for m in manual_sch for s in m.get('servers', []) if isinstance(s, dict) and s.get('url')}
     colatv_urls = {s['url'] for m in colatv for s in m.get('servers', []) if isinstance(s, dict) and s.get('url')}
     kralsport_urls = {s['url'] for m in kralsport for s in m.get('servers', []) if isinstance(s, dict) and s.get('url')}
+    truckrefuse = load_json_safe('truckrefuse.json')
+    truckrefuse_urls = {s['url'] for m in truckrefuse for s in m.get('servers', []) if isinstance(s, dict) and s.get('url')}
     
     # ============================================
     # PHASE 1: Primary Sources (Create & Merge)
@@ -666,6 +689,19 @@ def main():
                 merge_servers(existing_match, new_servers, existing_urls)
                 sportsonline_merged += 1
     print(f"  ✅ Merged {sportsonline_merged} servers from sportsonline.json")
+
+    # truckrefuse.json (no date)
+    truckrefuse_merged = 0
+    if isinstance(truckrefuse, list):
+        for match in truckrefuse:
+            existing_key = find_matching_entry(match, merged_data, allow_time_only=True)
+            if existing_key:
+                existing_match = merged_data[existing_key]
+                existing_urls = {s['url'] for s in existing_match.get('servers', [])}
+                new_servers = match.get('servers', [])
+                merge_servers(existing_match, new_servers, existing_urls, prepend=True)
+                truckrefuse_merged += 1
+    print(f"  ✅ Merged {truckrefuse_merged} servers from truckrefuse.json")
 
     # soco.json (merge servers + create new entries)
     soco_data = load_json_safe('soco.json')
@@ -882,13 +918,16 @@ def main():
         servers = match.get('servers', [])
         if servers:
             manual_srv = []
+            truckrefuse_srv = []
             kralsport_srv = []
             colatv_srv = []
             other_srv = []
             iframex_srv = []
             for s in servers:
                 u = s.get('url', '')
-                if is_manual_server(s, manual_urls):
+                if is_truckrefuse_server(s, truckrefuse_urls):
+                    truckrefuse_srv.append(s)
+                elif is_manual_server(s, manual_urls):
                     manual_srv.append(s)
                 elif is_kralsport_server(s, kralsport_urls):
                     kralsport_srv.append(s)
@@ -898,7 +937,7 @@ def main():
                     iframex_srv.append(s)
                 else:
                     other_srv.append(s)
-            new_servers = manual_srv + kralsport_srv + colatv_srv + other_srv + iframex_srv
+            new_servers = truckrefuse_srv + manual_srv + kralsport_srv + colatv_srv + other_srv + iframex_srv
             if new_servers != servers:
                 match['servers'] = new_servers
                 reordered_count += 1

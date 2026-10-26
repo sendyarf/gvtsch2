@@ -36,6 +36,7 @@ DEFAULT_FILES = [
     "bolaloca.json",
     "sofascore.json",
     "sportsonline.json",
+    "truckrefuse.json",
     "timstreams.json",
     "90phut.json",
     "colatv.json",
