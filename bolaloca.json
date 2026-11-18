@@ -1,18 +1,629 @@
 [
   {
-    "id": "MinnesotaWild-NashvillePredators",
-    "league": "NHL",
+    "id": "Besiktas-RealMadrid",
+    "league": "EuroLeague",
     "team1": {
-      "name": "Minnesota Wild",
+      "name": "Besiktas",
       "logo": ""
     },
     "team2": {
-      "name": "Nashville Predators",
+      "name": "Real Madrid",
       "logo": ""
     },
-    "kickoff_date": "2026-11-18",
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "00:00",
+    "match_date": "2026-11-19",
+    "match_time": "00:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=1",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=62",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "HackenW-ManchesterCityW",
+    "league": "Ligue Des Champions Femmes",
+    "team1": {
+      "name": "Hacken W",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Manchester City W",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "00:45",
+    "match_date": "2026-11-19",
+    "match_time": "00:45",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=160",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "RealMadridW-InterW",
+    "league": "Ligue Des Champions Femmes",
+    "team1": {
+      "name": "Real Madrid W",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Inter W",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "00:45",
+    "match_date": "2026-11-19",
+    "match_time": "00:45",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=87",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=71",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "UteboFC-Sabadell",
+    "league": "Coupe Du Roi",
+    "team1": {
+      "name": "Utebo FC",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Sabadell",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "01:00",
+    "match_date": "2026-11-19",
+    "match_time": "01:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=49",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "Alcoyano-Mallorca",
+    "league": "Coupe Du Roi",
+    "team1": {
+      "name": "Alcoyano",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Mallorca",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "02:00",
+    "match_date": "2026-11-19",
+    "match_time": "02:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=50",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "CDBadajoz-Tenerife",
+    "league": "Coupe Du Roi",
+    "team1": {
+      "name": "CD Badajoz",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Tenerife",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "02:00",
+    "match_date": "2026-11-19",
+    "match_time": "02:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=51",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "AlianzaAtl-FBCMelgar",
+    "league": "Liga 1 Te Apuesto",
+    "team1": {
+      "name": "Alianza Atl.",
+      "logo": ""
+    },
+    "team2": {
+      "name": "FBC Melgar",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "03:00",
+    "match_date": "2026-11-19",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=84",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "ChelseaW-PSGW",
+    "league": "Ligue Des Champions Femmes",
+    "team1": {
+      "name": "Chelsea W",
+      "logo": ""
+    },
+    "team2": {
+      "name": "PSG W",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "03:00",
+    "match_date": "2026-11-19",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=90",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=71",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "JuventusW-LeuvenW",
+    "league": "Ligue Des Champions Femmes",
+    "team1": {
+      "name": "Juventus W",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Leuven W",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "03:00",
+    "match_date": "2026-11-19",
+    "match_time": "03:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=161",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "Coritiba-Santos",
+    "league": "Serie A Bresil",
+    "team1": {
+      "name": "Coritiba",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Santos",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "05:30",
+    "match_date": "2026-11-19",
+    "match_time": "05:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=155",
+        "label": "CH-PT"
+      }
+    ]
+  },
+  {
+    "id": "Remo-ChapecoenseSC",
+    "league": "Serie A Bresil",
+    "team1": {
+      "name": "Remo",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Chapecoense-SC",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "06:00",
+    "match_date": "2026-11-19",
+    "match_time": "06:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=156",
+        "label": "CH-PT"
+      }
+    ]
+  },
+  {
+    "id": "Cruzeiro-Palmeiras",
+    "league": "Serie A Bresil",
+    "team1": {
+      "name": "Cruzeiro",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Palmeiras",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "06:30",
+    "match_date": "2026-11-19",
+    "match_time": "06:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=55",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "FlamengoRJ-AthleticoPR",
+    "league": "Serie A Bresil",
+    "team1": {
+      "name": "Flamengo RJ",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Athletico-PR",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "06:30",
+    "match_date": "2026-11-19",
+    "match_time": "06:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=157",
+        "label": "CH-PT"
+      }
+    ]
+  },
+  {
+    "id": "ClevelandCavaliers-MemphisGrizzlies",
+    "league": "NBA",
+    "team1": {
+      "name": "Cleveland Cavaliers",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Memphis Grizzlies",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "07:00",
+    "match_date": "2026-11-19",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=170",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "IndianaPacers-HoustonRockets",
+    "league": "NBA",
+    "team1": {
+      "name": "Indiana Pacers",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Houston Rockets",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "07:00",
+    "match_date": "2026-11-19",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=171",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "MiamiHeat-MilwaukeeBucks",
+    "league": "NBA",
+    "team1": {
+      "name": "Miami Heat",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Milwaukee Bucks",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "07:00",
+    "match_date": "2026-11-19",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=1",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=172",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=88",
+        "label": "CH-ES"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=97",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "OrlandoMagic-Philadelphia76ers",
+    "league": "NBA",
+    "team1": {
+      "name": "Orlando Magic",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Philadelphia 76ers",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "07:00",
+    "match_date": "2026-11-19",
+    "match_time": "07:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=173",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "BrooklynNets-ChicagoBulls",
+    "league": "NBA",
+    "team1": {
+      "name": "Brooklyn Nets",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Chicago Bulls",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "07:30",
+    "match_date": "2026-11-19",
+    "match_time": "07:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=174",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "TorontoRaptors-WashingtonWizards",
+    "league": "NBA",
+    "team1": {
+      "name": "Toronto Raptors",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Washington Wizards",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "07:30",
+    "match_date": "2026-11-19",
+    "match_time": "07:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=175",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "DetroitRedWings-BostonBruins",
+    "league": "NHL",
+    "team1": {
+      "name": "Detroit Red Wings",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Boston Bruins",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "07:30",
+    "match_date": "2026-11-19",
+    "match_time": "07:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=176",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "NewJerseyDevils-MontrealCanadiens",
+    "league": "NHL",
+    "team1": {
+      "name": "New Jersey Devils",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Montreal Canadiens",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "07:30",
+    "match_date": "2026-11-19",
+    "match_time": "07:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=4",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=177",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "Corinthians-BotafogoRJ",
+    "league": "Serie A Bresil",
+    "team1": {
+      "name": "Corinthians",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Botafogo RJ",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "07:30",
+    "match_date": "2026-11-19",
+    "match_time": "07:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=158",
+        "label": "CH-PT"
+      }
+    ]
+  },
+  {
+    "id": "Gremio-Bahia",
+    "league": "Serie A Bresil",
+    "team1": {
+      "name": "Gremio",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Bahia",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "07:30",
+    "match_date": "2026-11-19",
+    "match_time": "07:30",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=159",
+        "label": "CH-PT"
+      }
+    ]
+  },
+  {
+    "id": "DallasMavericks-GoldenStateWarriors",
+    "league": "NBA",
+    "team1": {
+      "name": "Dallas Mavericks",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Golden State Warriors",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
     "kickoff_time": "08:00",
-    "match_date": "2026-11-18",
+    "match_date": "2026-11-19",
+    "match_time": "08:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=1",
+        "label": "CH-FR"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=178",
+        "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=97",
+        "label": "CH-ES"
+      }
+    ]
+  },
+  {
+    "id": "NewOrleansPelicans-DetroitPistons",
+    "league": "NBA",
+    "team1": {
+      "name": "New Orleans Pelicans",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Detroit Pistons",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "08:00",
+    "match_date": "2026-11-19",
+    "match_time": "08:00",
+    "duration": "3.5",
+    "servers": [
+      {
+        "url": "https://multi.govoet.cc/?envivo=179",
+        "label": "CH-US"
+      }
+    ]
+  },
+  {
+    "id": "OklahomaCityThunder-AtlantaHawks",
+    "league": "NBA",
+    "team1": {
+      "name": "Oklahoma City Thunder",
+      "logo": ""
+    },
+    "team2": {
+      "name": "Atlanta Hawks",
+      "logo": ""
+    },
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "08:00",
+    "match_date": "2026-11-19",
     "match_time": "08:00",
     "duration": "3.5",
     "servers": [
@@ -23,119 +634,50 @@
     ]
   },
   {
-    "id": "StLouisBlues-AnaheimDucks",
-    "league": "NHL",
+    "id": "DenverNuggets-BostonCeltics",
+    "league": "NBA",
     "team1": {
-      "name": "St. Louis Blues",
+      "name": "Denver Nuggets",
       "logo": ""
     },
     "team2": {
-      "name": "Anaheim Ducks",
+      "name": "Boston Celtics",
       "logo": ""
     },
-    "kickoff_date": "2026-11-18",
-    "kickoff_time": "08:00",
-    "match_date": "2026-11-18",
-    "match_time": "08:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=181",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "AmericaDeCali-InterBogot",
-    "league": "Copa Colombia",
-    "team1": {
-      "name": "America De Cali",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Inter Bogotá",
-      "logo": ""
-    },
-    "kickoff_date": "2026-11-18",
-    "kickoff_time": "08:30",
-    "match_date": "2026-11-18",
-    "match_time": "08:30",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=81",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "Mexico-Jamaica",
-    "league": "Ligue Des Nations Concacaf",
-    "team1": {
-      "name": "Mexico",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Jamaica",
-      "logo": ""
-    },
-    "kickoff_date": "2026-11-18",
+    "kickoff_date": "2026-11-19",
     "kickoff_time": "09:30",
-    "match_date": "2026-11-18",
+    "match_date": "2026-11-19",
     "match_time": "09:30",
     "duration": "3.5",
     "servers": [
       {
-        "url": "https://multi.govoet.cc/?envivo=68",
-        "label": "CH-ES"
+        "url": "https://multi.govoet.cc/?envivo=1",
+        "label": "CH-FR"
       },
       {
-        "url": "https://multi.govoet.cc/?envivo=107",
-        "label": "CH-ES"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=108",
-        "label": "CH-ES"
-      }
-    ]
-  },
-  {
-    "id": "Nicaragua-Montserrat",
-    "league": "Ligue Des Nations Concacaf",
-    "team1": {
-      "name": "Nicaragua",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Montserrat",
-      "logo": ""
-    },
-    "kickoff_date": "2026-11-18",
-    "kickoff_time": "10:00",
-    "match_date": "2026-11-18",
-    "match_time": "10:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=117",
+        "url": "https://multi.govoet.cc/?envivo=181",
         "label": "CH-US"
+      },
+      {
+        "url": "https://multi.govoet.cc/?envivo=88",
+        "label": "CH-ES"
       }
     ]
   },
   {
-    "id": "SanJoseSharks-CalgaryFlames",
-    "league": "NHL",
+    "id": "LosAngelesLakers-UtahJazz",
+    "league": "NBA",
     "team1": {
-      "name": "San Jose Sharks",
+      "name": "Los Angeles Lakers",
       "logo": ""
     },
     "team2": {
-      "name": "Calgary Flames",
+      "name": "Utah Jazz",
       "logo": ""
     },
-    "kickoff_date": "2026-11-18",
+    "kickoff_date": "2026-11-19",
     "kickoff_time": "10:00",
-    "match_date": "2026-11-18",
+    "match_date": "2026-11-19",
     "match_time": "10:00",
     "duration": "3.5",
     "servers": [
@@ -146,78 +688,47 @@
     ]
   },
   {
-    "id": "VegasGoldenKnights-DallasStars",
-    "league": "NHL",
+    "id": "SacramentoKings-PhoenixSuns",
+    "league": "NBA",
     "team1": {
-      "name": "Vegas Golden Knights",
+      "name": "Sacramento Kings",
       "logo": ""
     },
     "team2": {
-      "name": "Dallas Stars",
+      "name": "Phoenix Suns",
       "logo": ""
     },
-    "kickoff_date": "2026-11-18",
+    "kickoff_date": "2026-11-19",
     "kickoff_time": "10:00",
-    "match_date": "2026-11-18",
+    "match_date": "2026-11-19",
     "match_time": "10:00",
     "duration": "3.5",
     "servers": [
       {
         "url": "https://multi.govoet.cc/?envivo=183",
         "label": "CH-US"
-      },
-      {
-        "url": "https://multi.govoet.cc/?envivo=89",
-        "label": "CH-ES"
       }
     ]
   },
   {
-    "id": "LosAngelesClippers-UtahJazz",
-    "league": "NBA",
+    "id": "UtahMammoth-ColoradoAvalanche",
+    "league": "NHL",
     "team1": {
-      "name": "Los Angeles Clippers",
+      "name": "Utah Mammoth",
       "logo": ""
     },
     "team2": {
-      "name": "Utah Jazz",
+      "name": "Colorado Avalanche",
       "logo": ""
     },
-    "kickoff_date": "2026-11-18",
-    "kickoff_time": "10:30",
-    "match_date": "2026-11-18",
-    "match_time": "10:30",
+    "kickoff_date": "2026-11-19",
+    "kickoff_time": "10:00",
+    "match_date": "2026-11-19",
+    "match_time": "10:00",
     "duration": "3.5",
     "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=1",
-        "label": "CH-FR"
-      },
       {
         "url": "https://multi.govoet.cc/?envivo=184",
-        "label": "CH-US"
-      }
-    ]
-  },
-  {
-    "id": "LosAngelesLakers-CharlotteHornets",
-    "league": "NBA",
-    "team1": {
-      "name": "Los Angeles Lakers",
-      "logo": ""
-    },
-    "team2": {
-      "name": "Charlotte Hornets",
-      "logo": ""
-    },
-    "kickoff_date": "2026-11-18",
-    "kickoff_time": "11:00",
-    "match_date": "2026-11-18",
-    "match_time": "11:00",
-    "duration": "3.5",
-    "servers": [
-      {
-        "url": "https://multi.govoet.cc/?envivo=185",
         "label": "CH-US"
       }
     ]
